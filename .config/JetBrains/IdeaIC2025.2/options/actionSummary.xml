@@ -1,0 +1,136 @@
+<application>
+  <component name="ActionsLocalSummary">
+    <e n="ActivateBuildToolWindow">
+      <i c="1" l="1760888776482" />
+    </e>
+    <e n="ActivateProjectToolWindow">
+      <i c="5" l="1760889760532" />
+    </e>
+    <e n="ActivateServicesToolWindow">
+      <i c="1" l="1760888740815" />
+    </e>
+    <e n="Android.AdbDevicePairing">
+      <i c="2" l="1760890036538" />
+    </e>
+    <e n="Android.RunAndroidSdkManager">
+      <i c="1" l="1760888868345" />
+    </e>
+    <e n="ChangeKeymap">
+      <i c="1" l="1760888773721" />
+    </e>
+    <e n="CommentByLineComment">
+      <i c="1" l="1760889451667" />
+    </e>
+    <e n="DeleteRunConfiguration">
+      <i c="1" l="1760889074104" />
+    </e>
+    <e n="EditorBackSpace">
+      <i c="23" l="1760889775772" />
+    </e>
+    <e n="EditorChooseLookupItem">
+      <i c="1" l="1760889475415" />
+    </e>
+    <e n="EditorCopy">
+      <i c="1" l="1760889881341" />
+    </e>
+    <e n="ExternalSystem.ProjectRefreshAction">
+      <i c="1" l="1760888978199" />
+    </e>
+    <e n="FileChooser.NewFolder">
+      <i c="1" l="1760888900102" />
+    </e>
+    <e n="GotoClass">
+      <i c="1" l="1760889774151" />
+    </e>
+    <e n="GotoDeclaration">
+      <i c="3" l="1760889740739" />
+    </e>
+    <e n="Images.SetBackgroundImage">
+      <i c="3" l="1760888806648" />
+    </e>
+    <e n="RedesignedRunConfigurationSelector">
+      <i c="12" l="1760890000677" />
+    </e>
+    <e n="Run">
+      <i c="6" l="1760890053163" />
+    </e>
+    <e n="SaveAll">
+      <i c="1" l="1760889462876" />
+    </e>
+    <e n="SettingsEntryPoint">
+      <i c="9" l="1760889202350" />
+    </e>
+    <e n="ShowSettings">
+      <i c="4" l="1760889204621" />
+    </e>
+    <e n="Stop">
+      <i c="4" l="1760890134353" />
+    </e>
+    <e n="Tree-selectNextExtendSelection">
+      <i c="1" l="1760889128733" />
+    </e>
+    <e n="Tree-selectPreviousExtendSelection">
+      <i c="2" l="1760889129157" />
+    </e>
+    <e n="Vcs.VcsClone">
+      <i c="1" l="1760887713994" />
+    </e>
+    <e n="WelcomeScreen.OpenProject">
+      <i c="2" l="1760888723684" />
+    </e>
+    <e n="WelcomeScreen.Settings">
+      <i c="2" l="1760887737536" />
+    </e>
+    <e n="com.intellij.execution.ui.PinConfigurationAction">
+      <i c="2" l="1760889085165" />
+    </e>
+    <e n="com.intellij.execution.ui.RunToolbarPopupKt$createRunConfigurationWithInlines$2">
+      <i c="3" l="1760890001674" />
+    </e>
+    <e n="com.intellij.ide.actions.QuickChangeKeymapAction$2">
+      <i c="1" l="1760888774898" />
+    </e>
+    <e n="com.intellij.ide.actions.ToolWindowViewModeAction">
+      <i c="1" l="1760889097300" />
+    </e>
+    <e n="com.intellij.ide.startup.importSettings.chooser.productChooser.OtherOptions">
+      <i c="1" l="1760887314267" />
+    </e>
+    <e n="com.intellij.ide.startup.importSettings.chooser.productChooser.SkipImportAction">
+      <i c="1" l="1760887315893" />
+    </e>
+    <e n="com.intellij.openapi.fileEditor.impl.tabActions.CloseTab">
+      <i c="5" l="1760890020786" />
+    </e>
+    <e n="com.intellij.openapi.project.DumbAwareAction$SimpleDumbAwareAction">
+      <i c="2" l="1760889779965" />
+    </e>
+    <e n="com.intellij.openapi.wm.impl.welcomeScreen.WelcomeScreenComponentFactory$4">
+      <i c="3" l="1760887736454" />
+    </e>
+    <e n="com.intellij.toolWindow.ToolWindowHeader$HideAction">
+      <i c="2" l="1760890143924" />
+    </e>
+    <e n="com.intellij.toolWindow.ToolWindowHeader$ShowOptionsAction">
+      <i c="1" l="1760889095232" />
+    </e>
+    <e n="com.intellij.ui.CommonActionsPanel$AddButton">
+      <i c="1" l="1760887750778" />
+    </e>
+    <e n="com.intellij.ui.CommonActionsPanel$RemoveButton">
+      <i c="2" l="1760887772557" />
+    </e>
+    <e n="com.intellij.ui.CommonActionsPanel$UpButton">
+      <i c="4" l="1760887776151" />
+    </e>
+    <e n="com.intellij.ui.ScrollingUtil$ListMoveDownAction">
+      <i c="1" l="1760889779330" />
+    </e>
+    <e n="editRunConfigurations">
+      <i c="2" l="1760889554759" />
+    </e>
+    <e n="org.intellij.images.editor.actions.BackgroundImageDialog$1A">
+      <i c="1" l="1760888761663" />
+    </e>
+  </component>
+</application>

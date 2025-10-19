@@ -1,0 +1,4 @@
+[MIME Cache]
+x-scheme-handler/jetbrains=jetbrains-toolbox.desktop;
+x-scheme-handler/tg=com.ayugram.desktop.desktop;
+x-scheme-handler/tonsite=com.ayugram.desktop.desktop;

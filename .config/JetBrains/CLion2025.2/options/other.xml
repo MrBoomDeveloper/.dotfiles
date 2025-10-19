@@ -1,0 +1,67 @@
+<application>
+  <component name="FileEditorProviderManager">{}</component>
+  <component name="LangManager">
+    <option name="languageName" value="ObjectiveC" />
+  </component>
+  <component name="NotRoamableUiSettings">
+    <option name="fontSize" value="15.0" />
+    <option name="presentationModeIdeScale" value="1.75" />
+  </component>
+  <component name="PropertyService"><![CDATA[{
+  "keyToString": {
+    "AIPLUGIN_VERSION": "1.35.0-252",
+    "GEMINI_INTELLIJ_INSTALLATION_ID": "995d99eb-c014-44d7-9b55-663832c7c13b",
+    "LAST_CALCULATED_COLOR_INDEX_KEY": "5",
+    "NEXT_SURVEY_TIMESTAMP": "2025-10-26T15:22:53.735896437Z",
+    "PluginConfigurable.selectionTab": "1",
+    "Rad.Init.Cfg.1": "true",
+    "RunOnceActivity.RadMigrateCodeStyle": "true",
+    "RunOnceActivity.TerminalOptionsProvider.migration.2025.1.1": "true",
+    "RunOnceActivity.VFSInitializationConditionsToFusReporter": "true",
+    "RunOnceActivity.cidr.test.framework.showIndexingAsTask": "true",
+    "RunOnceActivity.cidr.test.roots.only": "true",
+    "RunOnceActivity.git.modal.commit.toggle": "true",
+    "RunOnceActivity.reset.auto.reparse.settings.to.default": "true",
+    "RunOnceActivity.set.chat.model.provider.canary4": "true",
+    "ask.about.ctrl.y.shortcut.v2": "true",
+    "clion.initialConfigPerformed": "true",
+    "com.google.tools.ij.aiplugin.onboarding_session_index": "20251019_0000",
+    "evlsprt.252": "1998eb12c80",
+    "evlsprt3.252": "6",
+    "experimental.ui.on.first.startup": "true",
+    "experimental.ui.used.version": "252.26830.83",
+    "fileTypeChangedCounter": "2",
+    "fontSizeToResetConsole": "22.0",
+    "fontSizeToResetEditor": "22.0",
+    "got.it.tooltip.Plugins Auto-Update": "1",
+    "ide.islands.ab2": "true",
+    "idea.background.editor": "/home/mrboomdev/Downloads/121887479_p0.jpg,15,scale,center",
+    "idea.background.frame": "/home/mrboomdev/Downloads/121887479_p0.jpg,100,scale,center",
+    "ift.hide.welcome.screen.promo": "true",
+    "input.method.disabler.muted": "true",
+    "last_opened_file_path": "/home/mrboomdev/Downloads/121887479_p0.jpg",
+    "migrated.non.roamable.values.from.general.settings": "true",
+    "org.intellij.images.editor.actions.BackgroundImageDialog#recent": "/home/mrboomdev/Downloads/121887479_p0.jpg",
+    "previousColorScheme": "_@user_Catppuccin Macchiato",
+    "registry.to.advanced.settings.migration.build": "CL-252.26830.83",
+    "studio.bot.shown": "true",
+    "terminal.gen.one.option.visible": "false",
+    "terminal.is.new.user": "true",
+    "trial.state.last.state": "EXPIRED",
+    "whats.new.last.shown.version": "2025-2.3-26830-1d416070fd64d1e2c815f504a4dcb5bc94f38236"
+  },
+  "keyToStringList": {
+    "DAILY_ACTION_TIMESTAMPS": [
+      "2025-10-19T15:22:53.732900488Z"
+    ],
+    "file.chooser.recent.files": [
+      "/home/mrboomdev/Downloads/121887479_p0.jpg"
+    ],
+    "fileTypeDetectors": [
+      "com.intellij.ide.scratch.ScratchFileServiceImpl$Detector",
+      "com.jetbrains.rider.cpp.fileType.CppHeaderFileTypeDetector",
+      "org.jetbrains.plugins.textmate.TextMateFileType$TextMateFileDetector"
+    ]
+  }
+}]]></component>
+</application>

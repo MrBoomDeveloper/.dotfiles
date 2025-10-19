@@ -1,0 +1,5 @@
+<application>
+  <component name="LanguageInjectionConfiguration">
+    <option name="USE_DFA_IF_AVAILABLE" value="true" />
+  </component>
+</application>

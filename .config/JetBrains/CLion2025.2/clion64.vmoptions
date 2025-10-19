@@ -1,0 +1,5 @@
+-Xmx2048m
+-Dide.managed.by.toolbox=/home/mrboomdev/Downloads/jetbrains-toolbox-3.0.0.59313/bin/jetbrains-toolbox
+-Dtoolbox.notification.token=b118b04d-676c-491c-b204-7a678f48f261
+-Dtoolbox.notification.portFile=/home/mrboomdev/.cache/JetBrains/Toolbox/ports/c6c134c5-5f91-46c3-94c9-af93e31ea308.port
+-Didea.suppressed.plugins.set.selector=radler

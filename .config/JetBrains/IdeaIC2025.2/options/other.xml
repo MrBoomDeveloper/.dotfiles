@@ -1,0 +1,65 @@
+<application>
+  <component name="FileEditorProviderManager"><![CDATA[{}]]></component>
+  <component name="LangManager">
+    <option name="languageName" value="JAVA" />
+  </component>
+  <component name="NotRoamableUiSettings">
+    <option name="fontSize" value="15.0" />
+    <option name="presentationModeIdeScale" value="1.75" />
+  </component>
+  <component name="PropertyService"><![CDATA[{
+  "keyToString": {
+    "ATTACHED_TOOL_WINDOW.Compose Preview.TOOL_ORDER": "",
+    "ATTACHED_TOOL_WINDOW.DEFAULT.Compose Preview.TOOL_ORDER": "",
+    "InstalledPluginsSearchHistory": "bro\nbr",
+    "MarketplacePluginsSearchHistory": "android",
+    "PluginConfigurable.selectionTab": "1",
+    "RunOnceActivity.TerminalOptionsProvider.migration.2025.1.1": "true",
+    "RunOnceActivity.VFSInitializationConditionsToFusReporter": "true",
+    "RunOnceActivity.cidr.test.framework.showIndexingAsTask": "true",
+    "RunOnceActivity.cidr.test.roots.only": "true",
+    "RunOnceActivity.reset.auto.reparse.settings.to.default": "true",
+    "SettingsSearchHistory": "browser",
+    "Source Code Editor With PreviewLayout": "Editor only",
+    "ask.about.ctrl.y.shortcut.v2": "true",
+    "build.toolwindow.Build Output.selection.state": "com.intellij.build.BuildTreeConsoleView",
+    "build.toolwindow.Sync.selection.state": "com.intellij.build.BuildTreeConsoleView",
+    "build.toolwindow.run.selection.state": "com.intellij.build.BuildTreeConsoleView",
+    "decompiler.legal.notice.accepted": "true",
+    "defaultJdkConfigured": "true",
+    "enter_selection_count": "1",
+    "experimental.ui.on.first.startup": "true",
+    "experimental.ui.used.version": "252.26830.84",
+    "fileTypeChangedCounter": "3",
+    "fontSizeToResetConsole": "16.0",
+    "fontSizeToResetEditor": "16.0",
+    "got.it.tooltip.Plugins Auto-Update": "1",
+    "ide.islands.ab2": "true",
+    "idea.background.editor": "/home/mrboomdev/Downloads/121887479_p0.jpg,30,scale,center",
+    "idea.background.frame": "/home/mrboomdev/Downloads/121887479_p0.jpg,100,scale,center",
+    "input.method.disabler.muted": "true",
+    "installed.kotlin.plugin.version": "252.26830.84-IJ",
+    "kotlin.lastUpdateCheck": "1760889185716",
+    "last_opened_file_path": "/home/mrboomdev/AndroidSDK",
+    "migrate.android.sdk.path.to.roamable.storage": "false",
+    "migrated.non.roamable.values.from.general.settings": "true",
+    "org.intellij.images.editor.actions.BackgroundImageDialog#recent": "/home/mrboomdev/Downloads/121887479_p0.jpg",
+    "previousColorScheme": "_@user_Catppuccin Mocha",
+    "registry.to.advanced.settings.migration.build": "IC-252.26830.84",
+    "terminal.gen.one.option.visible": "false",
+    "terminal.is.new.user": "true"
+  },
+  "keyToStringList": {
+    "file.chooser.recent.files": [
+      "/home/mrboomdev/AndroidSDK",
+      "/home/mrboomdev/Downloads/121887479_p0.jpg",
+      "/home/mrboomdev/IdeaProjects/Awery"
+    ],
+    "fileTypeDetectors": [
+      "com.intellij.ide.scratch.ScratchFileServiceImpl$Detector",
+      "com.jetbrains.cidr.lang.OCHeaderFileTypeDetector",
+      "com.android.tools.idea.profilers.capture.MemoryCaptureFileType$Detector"
+    ]
+  }
+}]]></component>
+</application>

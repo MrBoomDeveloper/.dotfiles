@@ -1,0 +1,18 @@
+<templateSet group="AndroidCompose">
+  <template name="W" value="$WIDGET$ {&#10; $SELECTION$$END$ &#10; }" description="Surround with widget" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <variable name="WIDGET" expression="" defaultValue="&quot;androidx.compose.foundation.layout.Box&quot;" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="WR" value="$WIDGET$ {&#10; $SELECTION$$END$ &#10; }" description="Surround with Row" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <variable name="WIDGET" expression="&quot;androidx.compose.foundation.layout.Row&quot;" defaultValue="" alwaysStopAt="false" />
+    <context />
+  </template>
+  <template name="WC" value="$WIDGET$ {&#10; $SELECTION$$END$ &#10; }" description="Surround with Column" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <variable name="WIDGET" expression="&quot;androidx.compose.foundation.layout.Column&quot;" defaultValue="" alwaysStopAt="false" />
+    <context />
+  </template>
+  <template name="paddp" value="androidx.compose.ui.Modifier.padding($DP$.dp)" description="Add padding Modifier in dp" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <variable name="DP" expression="" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+</templateSet>

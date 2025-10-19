@@ -1,0 +1,13 @@
+[Default Applications]
+text/html=vivaldi-stable.desktop
+x-scheme-handler/http=vivaldi-stable.desktop
+x-scheme-handler/https=vivaldi-stable.desktop
+x-scheme-handler/about=vivaldi-stable.desktop
+x-scheme-handler/unknown=vivaldi-stable.desktop
+x-scheme-handler/tg=userapp-AyuGram Desktop-A4CNE3.desktop
+x-scheme-handler/tonsite=userapp-AyuGram Desktop-BS7ME3.desktop
+x-scheme-handler/jetbrains=jetbrains-toolbox.desktop
+
+[Added Associations]
+x-scheme-handler/tg=userapp-AyuGram Desktop-A4CNE3.desktop;
+x-scheme-handler/tonsite=userapp-AyuGram Desktop-BS7ME3.desktop;

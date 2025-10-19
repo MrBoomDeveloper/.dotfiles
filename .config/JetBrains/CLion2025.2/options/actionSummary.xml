@@ -1,0 +1,49 @@
+<application>
+  <component name="ActionsLocalSummary">
+    <e n="ActivateProjectToolWindow">
+      <i c="2" l="1760887394844" />
+    </e>
+    <e n="Images.SetBackgroundImage">
+      <i c="2" l="1760887448381" />
+    </e>
+    <e n="Run">
+      <i c="1" l="1760887470355" />
+    </e>
+    <e n="SettingsEntryPoint">
+      <i c="2" l="1760887443556" />
+    </e>
+    <e n="ShowSettings">
+      <i c="2" l="1760887445568" />
+    </e>
+    <e n="WelcomeScreen.Settings">
+      <i c="1" l="1760887019483" />
+    </e>
+    <e n="com.intellij.grazie.ide.notification.GrazieToastNotifications$showMissedLanguages$2">
+      <i c="1" l="1760887387778" />
+    </e>
+    <e n="com.intellij.ide.plugins.newui.TabbedPaneHeaderComponent$3">
+      <i c="1" l="1760887010755" />
+    </e>
+    <e n="com.intellij.openapi.fileEditor.impl.tabActions.CloseTab">
+      <i c="2" l="1760887406826" />
+    </e>
+    <e n="com.intellij.openapi.project.DumbAwareAction$SimpleDumbAwareAction">
+      <i c="1" l="1760887025415" />
+    </e>
+    <e n="com.intellij.openapi.wm.impl.welcomeScreen.ActionGroupPanelWrapper$6">
+      <i c="2" l="1760887367325" />
+    </e>
+    <e n="com.intellij.openapi.wm.impl.welcomeScreen.WelcomeScreenComponentFactory$4">
+      <i c="1" l="1760887017331" />
+    </e>
+    <e n="com.intellij.toolWindow.ToolWindowHeader$HideAction">
+      <i c="1" l="1760887389741" />
+    </e>
+    <e n="com.intellij.ui.components.BasicOptionButtonUI$ActionDelegate">
+      <i c="1" l="1760887348249" />
+    </e>
+    <e n="org.intellij.images.editor.actions.BackgroundImageDialog$1A">
+      <i c="1" l="1760887435281" />
+    </e>
+  </component>
+</application>

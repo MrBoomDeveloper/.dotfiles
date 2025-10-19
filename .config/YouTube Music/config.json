@@ -1,0 +1,103 @@
+{
+	"window-size": {
+		"width": 1910,
+		"height": 1040
+	},
+	"window-maximized": false,
+	"window-position": {
+		"x": 5,
+		"y": 35
+	},
+	"url": "https://music.youtube.com/watch?v=zKpRzVI6Iog&list=PLSWY81108wBhKajj1EUuBr89ydg-DUjPy&index=0",
+	"options": {
+		"tray": false,
+		"appVisible": true,
+		"autoUpdates": true,
+		"alwaysOnTop": false,
+		"hideMenu": true,
+		"hideMenuWarned": true,
+		"startAtLogin": false,
+		"disableHardwareAcceleration": false,
+		"removeUpgradeButton": true,
+		"restartOnConfigChanges": false,
+		"trayClickPlayPause": false,
+		"autoResetAppCache": false,
+		"resumeOnStart": false,
+		"likeButtons": "force",
+		"proxy": "",
+		"startingPage": "Home",
+		"overrideUserAgent": false,
+		"usePodcastParticipantAsArtist": false,
+		"themes": []
+	},
+	"plugins": {
+		"notifications": {
+			"enabled": true,
+			"unpauseNotification": true,
+			"urgency": "normal",
+			"interactive": true,
+			"toastStyle": 1,
+			"refreshOnPlayPause": false,
+			"trayControls": true,
+			"hideButtonText": false
+		},
+		"video-toggle": {
+			"mode": "custom"
+		},
+		"precise-volume": {
+			"globalShortcuts": {},
+			"enabled": true
+		},
+		"discord": {
+			"listenAlong": true
+		},
+		"adblocker": {
+			"enabled": true,
+			"cache": true,
+			"blocker": "In player",
+			"additionalBlockLists": [],
+			"disableDefaultLists": false
+		},
+		"album-color-theme": {
+			"enabled": true
+		},
+		"ambient-mode": {
+			"enabled": true
+		},
+		"blur-nav-bar": {
+			"enabled": true
+		},
+		"bypass-age-restrictions": {
+			"enabled": true
+		},
+		"compact-sidebar": {
+			"enabled": true
+		},
+		"exponential-volume": {
+			"enabled": true
+		},
+		"in-app-menu": {
+			"enabled": true
+		},
+		"unobtrusive-player": {
+			"enabled": false
+		},
+		"synced-lyrics": {
+			"enabled": true
+		},
+		"sponsorblock": {
+			"enabled": true
+		},
+		"skip-disliked-songs": {
+			"enabled": true
+		},
+		"scrobbler": {
+			"enabled": true
+		}
+	},
+	"__internal__": {
+		"migrations": {
+			"version": "3.11.0"
+		}
+	}
+}

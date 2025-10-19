@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Throne
+Exec=/home/mrboomdev/Downloads/Throne-1.0.7-linux-amd64/Throne/Throne -tray
+Terminal=false
+Categories=Network
+Type=Application
+StartupNotify=false
+X-GNOME-Autostart-enabled=true

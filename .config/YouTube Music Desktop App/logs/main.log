@@ -1,0 +1,43 @@
+[2025-10-19 09:34:22.022][main][info] Application launched
+[2025-10-19 09:34:22.046][main][info] Application set as default protcol client for 'ytmd'
+[2025-10-19 09:34:22.071][main][info] Created memory store
+[2025-10-19 09:34:22.087][main][info] Performing store migration from 0.0.0 to >=2.0.0
+[2025-10-19 09:34:22.094][main][info] Performing store migration from >=2.0.0 to >=2.0.1
+[2025-10-19 09:34:22.096][main][info] Performing store migration from >=2.0.1 to >=2.0.7
+[2025-10-19 09:34:22.101][main][info] Created electron store
+[2025-10-19 09:34:22.270][main][info] Application ready
+[2025-10-19 09:34:22.275][main][info] Setup IPC handlers
+[2025-10-19 09:34:22.277][main][info] Setup permission handlers
+[2025-10-19 09:34:22.278][main][info] Unregistered shortcuts
+[2025-10-19 09:34:22.278][main][info] Registered shortcuts
+[2025-10-19 09:34:22.282][main][info] Created tray icon
+[2025-10-19 09:34:22.309][main][info] Created main window
+[2025-10-19 09:34:22.314][main][info] Created YTM view
+[2025-10-19 09:34:22.314][main][info] Setup taskbar features
+[2025-10-19 09:34:22.314][main][info] Integration update: Zoom Factor
+[2025-10-19 09:34:22.314][main][info] Starting enabled integrations
+[2025-10-19 09:34:43.415][main][info] Integration enabled: Now playing notifications
+[2025-10-19 09:34:52.428][main][error] Electron event WebContents#did-fail-provisional-load observed {
+  errorCode: -7,
+  errorDescription: 'ERR_TIMED_OUT',
+  validatedURL: 'https://music.youtube.com/',
+  isMainFrame: true,
+  frameProcessId: 7,
+  frameRoutingId: 4
+}
+[2025-10-19 09:34:52.429][main][error] Electron event WebContents#did-fail-load observed {
+  errorCode: -7,
+  errorDescription: 'ERR_TIMED_OUT',
+  validatedURL: 'https://music.youtube.com/',
+  isMainFrame: true,
+  frameProcessId: 7,
+  frameRoutingId: 4
+}
+[2025-10-19 09:34:52.430][main][error] (node:66750) electron: Failed to load URL: https://music.youtube.com/ with error: ERR_TIMED_OUT
+(Use `youtube-music-desktop-app --trace-warnings ...` to show where the warning was created)
+[2025-10-19 09:38:40.162][main][info] Application launched
+[2025-10-19 09:38:40.169][main][info] Handling protocol url --enable-sandbox
+[2025-10-19 09:39:04.591][main][info] Application launched
+[2025-10-19 09:39:04.597][main][info] Handling protocol url --enable-sandbox
+[2025-10-19 09:39:26.279][main][info] Application launched
+[2025-10-19 09:39:26.286][main][info] Handling protocol url --enable-sandbox

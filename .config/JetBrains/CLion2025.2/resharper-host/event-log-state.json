@@ -1,0 +1,12 @@
+﻿{
+  "update": {
+    "FUS": 638962245300000000
+  },
+  "options": {
+    "FUS": {
+      "groupDataThreshold": "10000",
+      "dataThreshold": "15000",
+      "groupAlertThreshold": "6000"
+    }
+  }
+}
