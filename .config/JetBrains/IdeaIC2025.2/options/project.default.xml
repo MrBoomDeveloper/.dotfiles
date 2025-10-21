@@ -1,16 +1,25 @@
 <application>
   <component name="ProjectManager">
     <defaultProject>
-      <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "settings.editor.selected.configurable": "reference.settings.ide.settings.web.browsers"
+      <component name="ProjectViewState">
+        <option name="flattenPackages" value="true" />
+        <option name="hideEmptyMiddlePackages" value="true" />
+        <option name="showLibraryContents" value="true" />
+      </component>
+      <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.web.browsers&quot;
   }
-}]]></component>
+}</component>
       <component name="WindowStateProjectService">
         <state x="469" y="205" key="SettingsEditor" timestamp="1760887782486">
           <screen x="0" y="0" width="1920" height="1080" />
         </state>
         <state x="469" y="205" key="SettingsEditor/0.0.1920.1080/1920.0.1920.1080" timestamp="1760887782486" />
+        <state x="2480" y="239" width="800" height="631" key="new project wizard" timestamp="1760985446248">
+          <screen x="1920" y="0" width="1920" height="1080" />
+        </state>
+        <state x="2480" y="239" width="800" height="631" key="new project wizard/0.0.1920.1080/1920.0.1920.1080" timestamp="1760985446248" />
       </component>
     </defaultProject>
   </component>

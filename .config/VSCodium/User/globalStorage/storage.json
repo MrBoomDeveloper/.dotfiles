@@ -1,0 +1,81 @@
+{
+    "telemetry.sqmId": "",
+    "telemetry.machineId": "884ea68c282cfa7cfdef2a2878c31afcb863f0e7268235378d5819a5157b0ef0",
+    "telemetry.devDeviceId": "0884ac51-10d6-44b7-a606-3ff3bee71d6c",
+    "backupWorkspaces": {
+        "workspaces": [],
+        "folders": [
+            {
+                "folderUri": "file:///home/mrboomdev/VSCodeProjects/AweryServer"
+            }
+        ],
+        "emptyWindows": []
+    },
+    "windowControlHeight": 35,
+    "profileAssociations": {
+        "workspaces": {
+            "file:///home/mrboomdev/VSCodeProjects/AweryServer": "__default__profile__"
+        },
+        "emptyWindows": {}
+    },
+    "theme": "vs-dark",
+    "themeBackground": "#1e1e2e",
+    "windowSplash": {
+        "zoomLevel": 0,
+        "baseTheme": "vs-dark",
+        "colorInfo": {
+            "foreground": "#cdd6f4",
+            "background": "#1e1e2e",
+            "editorBackground": "#1e1e2e",
+            "titleBarBackground": "#11111b",
+            "titleBarBorder": "rgba(0, 0, 0, 0)",
+            "activityBarBackground": "#11111b",
+            "activityBarBorder": "rgba(0, 0, 0, 0)",
+            "sideBarBackground": "#181825",
+            "sideBarBorder": "rgba(0, 0, 0, 0)",
+            "statusBarBackground": "#11111b",
+            "statusBarBorder": "rgba(0, 0, 0, 0)",
+            "statusBarNoFolderBackground": "#11111b"
+        },
+        "layoutInfo": {
+            "sideBarSide": "left",
+            "editorPartMinWidth": 220,
+            "titleBarHeight": 35,
+            "activityBarWidth": 48,
+            "sideBarWidth": 237,
+            "auxiliaryBarWidth": 0,
+            "statusBarHeight": 22,
+            "windowBorder": false
+        }
+    },
+    "windowsState": {
+        "lastActiveWindow": {
+            "folder": "file:///home/mrboomdev/VSCodeProjects/AweryServer",
+            "backupPath": "/home/mrboomdev/.config/VSCodium/Backups/45bad685ec214778e547431fdc5bf2c5",
+            "uiState": {
+                "mode": 0,
+                "x": 0,
+                "y": 0,
+                "width": 1920,
+                "height": 1080
+            }
+        },
+        "openedWindows": []
+    },
+    "windowSplashWorkspaceOverride": {
+        "layoutInfo": {
+            "sideBarWidth": 237,
+            "auxiliaryBarWidth": 300,
+            "workspaces": {
+                "d1a3dcaf55e196c44c501d8ce2d2c3f3": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "f6c5daafee5f492ed05876bb536e5b42": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                }
+            }
+        }
+    }
+}

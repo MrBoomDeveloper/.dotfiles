@@ -1,5 +1,10 @@
 <application>
-  <component name="FileEditorProviderManager"><![CDATA[{}]]></component>
+  <component name="ActionHistoryManager">
+    <ids>
+      <option value="Gradle.ExecuteTask" />
+    </ids>
+  </component>
+  <component name="FileEditorProviderManager">{}</component>
   <component name="LangManager">
     <option name="languageName" value="JAVA" />
   </component>
@@ -11,9 +16,16 @@
   "keyToString": {
     "ATTACHED_TOOL_WINDOW.Compose Preview.TOOL_ORDER": "",
     "ATTACHED_TOOL_WINDOW.DEFAULT.Compose Preview.TOOL_ORDER": "",
+    "BuildView.Splitter.Proportion": "0.250787",
     "InstalledPluginsSearchHistory": "bro\nbr",
-    "MarketplacePluginsSearchHistory": "android",
-    "PluginConfigurable.selectionTab": "1",
+    "LAST_CALCULATED_COLOR_INDEX_KEY": "8",
+    "MarketplacePluginsSearchHistory": "spring\nandroid",
+    "NewProjectWizard.addSampleCodeState": "false",
+    "NewProjectWizard.generateMultipleModules": "true",
+    "NewProjectWizard.gitState": "true",
+    "NewProjectWizard.gradleDslState": "KOTLIN",
+    "NewProjectWizard.groupIdState": "com.mrboomdev.awery.server.backend",
+    "RunOnceActivity.TerminalFontSettingsService.fixStoredNonMonospacedFonts": "true",
     "RunOnceActivity.TerminalOptionsProvider.migration.2025.1.1": "true",
     "RunOnceActivity.VFSInitializationConditionsToFusReporter": "true",
     "RunOnceActivity.cidr.test.framework.showIndexingAsTask": "true",
@@ -25,9 +37,10 @@
     "build.toolwindow.Build Output.selection.state": "com.intellij.build.BuildTreeConsoleView",
     "build.toolwindow.Sync.selection.state": "com.intellij.build.BuildTreeConsoleView",
     "build.toolwindow.run.selection.state": "com.intellij.build.BuildTreeConsoleView",
+    "com.intellij.ide.projectWizard.generators.JavaNewProjectWizard$Step.selectedStep": "IntelliJ",
     "decompiler.legal.notice.accepted": "true",
     "defaultJdkConfigured": "true",
-    "enter_selection_count": "1",
+    "enter_selection_count": "2",
     "experimental.ui.on.first.startup": "true",
     "experimental.ui.used.version": "252.26830.84",
     "fileTypeChangedCounter": "3",
@@ -39,18 +52,22 @@
     "idea.background.frame": "/home/mrboomdev/Downloads/121887479_p0.jpg,100,scale,center",
     "input.method.disabler.muted": "true",
     "installed.kotlin.plugin.version": "252.26830.84-IJ",
-    "kotlin.lastUpdateCheck": "1760889185716",
-    "last_opened_file_path": "/home/mrboomdev/AndroidSDK",
+    "jdk.selected.JAVA_MODULE": "23",
+    "kotlin.lastUpdateCheck": "1760986033789",
+    "last_opened_file_path": "/home/mrboomdev/IdeaProjects/AweryServer",
     "migrate.android.sdk.path.to.roamable.storage": "false",
     "migrated.non.roamable.values.from.general.settings": "true",
     "org.intellij.images.editor.actions.BackgroundImageDialog#recent": "/home/mrboomdev/Downloads/121887479_p0.jpg",
+    "org.jetbrains.kotlin.tools.projectWizard.KotlinNewProjectWizard$Step.selectedStep": "Gradle",
     "previousColorScheme": "_@user_Catppuccin Mocha",
+    "project.wizard.group": "NPW.simple-project.Kotlin",
     "registry.to.advanced.settings.migration.build": "IC-252.26830.84",
     "terminal.gen.one.option.visible": "false",
     "terminal.is.new.user": "true"
   },
   "keyToStringList": {
     "file.chooser.recent.files": [
+      "/home/mrboomdev/IdeaProjects/AweryServer",
       "/home/mrboomdev/AndroidSDK",
       "/home/mrboomdev/Downloads/121887479_p0.jpg",
       "/home/mrboomdev/IdeaProjects/Awery"

@@ -1,0 +1,6 @@
+{
+    "git.openRepositoryInParentFolders": "never",
+    "workbench.iconTheme": "catppuccin-mocha",
+    "animations.Install-Method": "Apc Customize UI++",
+    "workbench.colorTheme": "Catppuccin Mocha"
+}
