@@ -2,6 +2,7 @@
   <component name="ActionHistoryManager">
     <ids>
       <option value="Gradle.ExecuteTask" />
+      <option value="ActivateDeviceManager2ToolWindow" />
     </ids>
   </component>
   <component name="FileEditorProviderManager">{}</component>
@@ -17,9 +18,9 @@
     "ATTACHED_TOOL_WINDOW.Compose Preview.TOOL_ORDER": "",
     "ATTACHED_TOOL_WINDOW.DEFAULT.Compose Preview.TOOL_ORDER": "",
     "BuildView.Splitter.Proportion": "0.250787",
-    "InstalledPluginsSearchHistory": "bro\nbr",
+    "InstalledPluginsSearchHistory": "adb\nbro\nbr",
     "LAST_CALCULATED_COLOR_INDEX_KEY": "8",
-    "MarketplacePluginsSearchHistory": "spring\nandroid",
+    "MarketplacePluginsSearchHistory": "adb\nad\na\nspring\nandroid",
     "NewProjectWizard.addSampleCodeState": "false",
     "NewProjectWizard.generateMultipleModules": "true",
     "NewProjectWizard.gitState": "true",
@@ -40,7 +41,7 @@
     "com.intellij.ide.projectWizard.generators.JavaNewProjectWizard$Step.selectedStep": "IntelliJ",
     "decompiler.legal.notice.accepted": "true",
     "defaultJdkConfigured": "true",
-    "enter_selection_count": "2",
+    "enter_selection_count": "5",
     "experimental.ui.on.first.startup": "true",
     "experimental.ui.used.version": "252.26830.84",
     "fileTypeChangedCounter": "3",
@@ -53,7 +54,7 @@
     "input.method.disabler.muted": "true",
     "installed.kotlin.plugin.version": "252.26830.84-IJ",
     "jdk.selected.JAVA_MODULE": "23",
-    "kotlin.lastUpdateCheck": "1760986033789",
+    "kotlin.lastUpdateCheck": "1761306107584",
     "last_opened_file_path": "/home/mrboomdev/IdeaProjects/AweryServer",
     "migrate.android.sdk.path.to.roamable.storage": "false",
     "migrated.non.roamable.values.from.general.settings": "true",
@@ -63,7 +64,8 @@
     "project.wizard.group": "NPW.simple-project.Kotlin",
     "registry.to.advanced.settings.migration.build": "IC-252.26830.84",
     "terminal.gen.one.option.visible": "false",
-    "terminal.is.new.user": "true"
+    "terminal.is.new.user": "true",
+    "vcs.history.diff.splitter.proportion": "0.39192024"
   },
   "keyToStringList": {
     "file.chooser.recent.files": [

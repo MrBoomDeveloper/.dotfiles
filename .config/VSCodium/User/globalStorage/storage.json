@@ -19,14 +19,14 @@
         "emptyWindows": {}
     },
     "theme": "vs-dark",
-    "themeBackground": "#1e1e2e",
+    "themeBackground": "#000000",
     "windowSplash": {
         "zoomLevel": 0,
         "baseTheme": "vs-dark",
         "colorInfo": {
             "foreground": "#cdd6f4",
-            "background": "#1e1e2e",
-            "editorBackground": "#1e1e2e",
+            "background": "#000000",
+            "editorBackground": "#000000",
             "titleBarBackground": "#11111b",
             "titleBarBorder": "rgba(0, 0, 0, 0)",
             "activityBarBackground": "#11111b",
@@ -56,8 +56,8 @@
                 "mode": 0,
                 "x": 0,
                 "y": 0,
-                "width": 1920,
-                "height": 1080
+                "width": 960,
+                "height": 1050
             }
         },
         "openedWindows": []

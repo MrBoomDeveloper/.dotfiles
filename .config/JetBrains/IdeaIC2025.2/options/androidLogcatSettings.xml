@@ -1,0 +1,23 @@
+<application>
+  <component name="AndroidLogcatSettings">
+    <option name="ignoredTags">
+      <set>
+        <option value="libPerfCtl" />
+        <option value="ScrollIdentify" />
+        <option value="TextSelection" />
+        <option value="libMEOW" />
+        <option value="HWUI" />
+        <option value="libc" />
+        <option value="BLASTBufferQueue" />
+        <option value="GrallocExtra" />
+        <option value="Choreographer" />
+        <option value="FdLeakLice" />
+        <option value="ProfileInstaller" />
+        <option value="BufferQueueConsumer" />
+        <option value="View" />
+        <option value="os.FrameworkDoorMan" />
+        <option value="MAGT_SYNC_FRAME" />
+      </set>
+    </option>
+  </component>
+</application>

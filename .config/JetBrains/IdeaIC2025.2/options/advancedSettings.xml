@@ -4,6 +4,7 @@
       <map>
         <entry key="cidr.test.framework.showIndexingAsTask" value="false" />
         <entry key="cidr.test.roots.only" value="false" />
+        <entry key="confirm.rerun.with.termination" value="false" />
       </map>
     </option>
   </component>

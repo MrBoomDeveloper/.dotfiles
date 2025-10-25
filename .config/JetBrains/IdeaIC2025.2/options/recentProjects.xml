@@ -2,25 +2,9 @@
   <component name="RecentProjectsManager">
     <option name="additionalInfo">
       <map>
-        <entry key="$USER_HOME$/IdeaProjects/Awery">
-          <value>
-            <RecentProjectMetaInfo frameTitle="Awery – App.kt [Awery.ui.commonMain]" projectWorkspaceId="34I4fJlCyB9KCIhOFm6jNUX8Y53">
-              <option name="activationTimestamp" value="1760890144349" />
-              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
-              <option name="build" value="IC-252.26830.84" />
-              <option name="buildTimestamp" value="1759360020000" />
-              <option name="colorInfo">
-                <RecentProjectColorInfo associatedIndex="5" />
-              </option>
-              <frame x="1927" y="37" width="1906" height="1036" />
-              <option name="productionCode" value="IC" />
-              <option name="projectOpenTimestamp" value="1760888735302" />
-            </RecentProjectMetaInfo>
-          </value>
-        </entry>
         <entry key="$USER_HOME$/IdeaProjects/AweryServer">
           <value>
-            <RecentProjectMetaInfo frameTitle="server-backend" opened="true" projectWorkspaceId="34LHMqpx9wSclAx3zHmfOqRbp56">
+            <RecentProjectMetaInfo frameTitle="server-backend – AweryServerApplication.kt [server-backend.main]" projectWorkspaceId="34LHMqpx9wSclAx3zHmfOqRbp56">
               <option name="activationTimestamp" value="1761018984655" />
               <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
               <option name="build" value="IC-252.26830.84" />
@@ -28,15 +12,31 @@
               <option name="colorInfo">
                 <RecentProjectColorInfo associatedIndex="5" />
               </option>
-              <frame x="1927" y="37" width="1906" height="1036" />
+              <frame x="7" y="37" width="950" height="1036" />
               <option name="productionCode" value="IC" />
               <option name="projectOpenTimestamp" value="1760985887148" />
             </RecentProjectMetaInfo>
           </value>
         </entry>
+        <entry key="$USER_HOME$/IdeaProjects/Awery">
+          <value>
+            <RecentProjectMetaInfo frameTitle="Awery – MediaActionsDialog.kt [Awery.ui.commonMain]" opened="true" projectWorkspaceId="34I4fJlCyB9KCIhOFm6jNUX8Y53">
+              <option name="activationTimestamp" value="1761332662855" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IC-252.26830.84" />
+              <option name="buildTimestamp" value="1759360020000" />
+              <option name="colorInfo">
+                <RecentProjectColorInfo associatedIndex="5" />
+              </option>
+              <frame x="1927" y="37" width="1906" height="1036" />
+              <option name="productionCode" value="IC" />
+              <option name="projectOpenTimestamp" value="1761062532437" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
       </map>
     </option>
-    <option name="lastOpenedProject" value="$USER_HOME$/IdeaProjects/AweryServer" />
+    <option name="lastOpenedProject" value="$USER_HOME$/IdeaProjects/Awery" />
     <option name="lastProjectLocation" value="$USER_HOME$/IdeaProjects" />
   </component>
 </application>

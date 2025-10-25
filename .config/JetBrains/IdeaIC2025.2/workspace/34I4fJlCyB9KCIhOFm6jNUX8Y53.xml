@@ -2,47 +2,96 @@
   <component name="BookmarksManager">
     <option name="groups">
       <GroupState>
+        <option name="bookmarks">
+          <BookmarkState>
+            <attributes>
+              <entry key="url" value="file://$PROJECT_DIR$/data/src/commonMain/kotlin/com/mrboomdev/awery/data/AweryServer.kt" />
+              <entry key="line" value="13" />
+            </attributes>
+            <option name="description" value="host = &quot;http://" />
+            <option name="provider" value="com.intellij.ide.bookmark.providers.LineBookmarkProvider" />
+          </BookmarkState>
+        </option>
         <option name="name" value="Awery" />
       </GroupState>
     </option>
   </component>
   <component name="FileEditorManager">
     <leaf ideFingerprint="3uroz0w70fxl7" SIDE_TABS_SIZE_LIMIT_KEY="-1">
+      <file>
+        <entry file="file://$PROJECT_DIR$/ui/src/commonMain/kotlin/com/mrboomdev/awery/ui/screens/auth/AuthScreen.kt" file-id="835594" managing-fs="1760887306540">
+          <provider editor-type-id="android-source-code" selected="true">
+            <state selected-layout="SHOW_EDITOR">
+              <editor-state relative-caret-position="372">
+                <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+                <folding>
+                  <element signature="e#45#264#0" expanded="true" />
+                </folding>
+              </editor-state>
+              <multi-preview-state selected="Compose">
+                <representations>
+                  <list>
+                    <representation name="Compose">
+                      <settings>
+                        <setting name="previewLayout" value="Grid" />
+                        <setting name="selectedGroup" value="" />
+                      </settings>
+                    </representation>
+                  </list>
+                </representations>
+              </multi-preview-state>
+            </state>
+          </provider>
+        </entry>
+        <tab><![CDATA[{"tabTitle":"AuthScreen.kt","foregroundColor":-3287308,"textAttributes":{"name":"a"},"icon":[10,57,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,82,97,115,116,101,114,105,122,101,100,73,109,97,103,101,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,-122,1,10,47,111,114,103,47,106,101,116,98,114,97,105,110,115,47,107,111,116,108,105,110,47,105,100,101,97,47,105,99,111,110,115,47,107,111,116,108,105,110,95,102,105,108,101,46,115,118,103,18,48,111,114,103,47,106,101,116,98,114,97,105,110,115,47,107,111,116,108,105,110,47,105,100,101,97,47,105,99,111,110,115,47,101,120,112,117,105,47,107,111,116,108,105,110,46,115,118,103,26,20,111,114,103,46,106,101,116,98,114,97,105,110,115,46,107,111,116,108,105,110,40,-98,-111,-47,-25,-8,-1,-1,-1,-1,1,48,0]}]]></tab>
+      </file>
+      <file>
+        <entry file="file://$PROJECT_DIR$/ui/src/commonMain/kotlin/com/mrboomdev/awery/ui/screens/auth/AuthViewModel.kt" file-id="836428" managing-fs="1760887306540">
+          <provider editor-type-id="android-source-code" selected="true">
+            <state selected-layout="SHOW_EDITOR">
+              <editor-state relative-caret-position="155">
+                <caret line="4" column="34" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
+              </editor-state>
+              <multi-preview-state selected="Compose">
+                <representations>
+                  <list>
+                    <representation name="Compose">
+                      <settings>
+                        <setting name="previewLayout" value="Grid" />
+                        <setting name="selectedGroup" value="" />
+                      </settings>
+                    </representation>
+                  </list>
+                </representations>
+              </multi-preview-state>
+            </state>
+          </provider>
+        </entry>
+        <tab><![CDATA[{"tabTitle":"AuthViewModel.kt","foregroundColor":-3287308,"textAttributes":{"name":"a"},"icon":[10,57,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,82,97,115,116,101,114,105,122,101,100,73,109,97,103,101,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,-122,1,10,47,111,114,103,47,106,101,116,98,114,97,105,110,115,47,107,111,116,108,105,110,47,105,100,101,97,47,105,99,111,110,115,47,99,108,97,115,115,75,111,116,108,105,110,46,115,118,103,18,53,111,114,103,47,106,101,116,98,114,97,105,110,115,47,107,111,116,108,105,110,47,105,100,101,97,47,105,99,111,110,115,47,101,120,112,117,105,47,99,108,97,115,115,75,111,116,108,105,110,46,115,118,103,26,20,111,114,103,46,106,101,116,98,114,97,105,110,115,46,107,111,116,108,105,110,40,-16,-50,-72,-55,2,48,0]}]]></tab>
+      </file>
       <file current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ui/src/commonMain/kotlin/com/mrboomdev/awery/ui/App.kt" file-id="48026" managing-fs="1760887306540">
+        <entry file="file://$PROJECT_DIR$/ui/src/commonMain/kotlin/com/mrboomdev/awery/ui/popups/MediaActionsDialog.kt" file-id="48048" managing-fs="1760887306540">
           <provider editor-type-id="android-source-code" selected="true">
-            <state>
-              <editor-state relative-caret-position="282">
-                <caret line="122" column="41" selection-start-line="122" selection-start-column="41" selection-end-line="122" selection-end-column="41" />
+            <state selected-layout="SHOW_EDITOR">
+              <editor-state relative-caret-position="473">
+                <caret line="209" column="21" lean-forward="true" selection-start-line="209" selection-start-column="21" selection-end-line="209" selection-end-column="21" />
               </editor-state>
+              <multi-preview-state selected="Compose">
+                <representations>
+                  <list>
+                    <representation name="Compose">
+                      <settings>
+                        <setting name="previewLayout" value="Grid" />
+                        <setting name="selectedGroup" value="" />
+                      </settings>
+                    </representation>
+                  </list>
+                </representations>
+              </multi-preview-state>
             </state>
           </provider>
         </entry>
-        <tab><![CDATA[{"tabTitle":"App.kt","foregroundColor":-3287308,"textAttributes":{"name":"a"},"icon":[10,57,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,82,97,115,116,101,114,105,122,101,100,73,109,97,103,101,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,-122,1,10,47,111,114,103,47,106,101,116,98,114,97,105,110,115,47,107,111,116,108,105,110,47,105,100,101,97,47,105,99,111,110,115,47,107,111,116,108,105,110,95,102,105,108,101,46,115,118,103,18,48,111,114,103,47,106,101,116,98,114,97,105,110,115,47,107,111,116,108,105,110,47,105,100,101,97,47,105,99,111,110,115,47,101,120,112,117,105,47,107,111,116,108,105,110,46,115,118,103,26,20,111,114,103,46,106,101,116,98,114,97,105,110,115,46,107,111,116,108,105,110,40,-98,-111,-47,-25,-8,-1,-1,-1,-1,1,48,0]}]]></tab>
-      </file>
-      <file>
-        <entry file="file://$PROJECT_DIR$/ui/src/commonMain/kotlin/com/mrboomdev/awery/ui/components/ContextMenu.kt" file-id="48115" managing-fs="1760887306540">
-          <provider editor-type-id="android-source-code" selected="true">
-            <state>
-              <editor-state relative-caret-position="2480">
-                <caret line="102" column="25" selection-start-line="102" selection-start-column="25" selection-end-line="102" selection-end-column="25" />
-              </editor-state>
-            </state>
-          </provider>
-        </entry>
-        <tab><![CDATA[{"tabTitle":"ContextMenu.kt","foregroundColor":-3287308,"textAttributes":{"name":"a"},"icon":[10,57,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,82,97,115,116,101,114,105,122,101,100,73,109,97,103,101,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,-122,1,10,47,111,114,103,47,106,101,116,98,114,97,105,110,115,47,107,111,116,108,105,110,47,105,100,101,97,47,105,99,111,110,115,47,107,111,116,108,105,110,95,102,105,108,101,46,115,118,103,18,48,111,114,103,47,106,101,116,98,114,97,105,110,115,47,107,111,116,108,105,110,47,105,100,101,97,47,105,99,111,110,115,47,101,120,112,117,105,47,107,111,116,108,105,110,46,115,118,103,26,20,111,114,103,46,106,101,116,98,114,97,105,110,115,46,107,111,116,108,105,110,40,-98,-111,-47,-25,-8,-1,-1,-1,-1,1,48,0]}]]></tab>
-      </file>
-      <file>
-        <entry file="file://$PROJECT_DIR$/ui/src/commonMain/kotlin/com/mrboomdev/awery/ui/screens/extension/ExtensionFeedScreen.kt" file-id="48105" managing-fs="1760887306540">
-          <provider editor-type-id="android-source-code" selected="true">
-            <state>
-              <editor-state relative-caret-position="5580">
-                <caret line="214" column="19" selection-start-line="214" selection-start-column="19" selection-end-line="214" selection-end-column="19" />
-              </editor-state>
-            </state>
-          </provider>
-        </entry>
-        <tab><![CDATA[{"tabTitle":"ExtensionFeedScreen.kt","foregroundColor":-3287308,"textAttributes":{"name":"a"},"icon":[10,57,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,82,97,115,116,101,114,105,122,101,100,73,109,97,103,101,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,-122,1,10,47,111,114,103,47,106,101,116,98,114,97,105,110,115,47,107,111,116,108,105,110,47,105,100,101,97,47,105,99,111,110,115,47,107,111,116,108,105,110,95,102,105,108,101,46,115,118,103,18,48,111,114,103,47,106,101,116,98,114,97,105,110,115,47,107,111,116,108,105,110,47,105,100,101,97,47,105,99,111,110,115,47,101,120,112,117,105,47,107,111,116,108,105,110,46,115,118,103,26,20,111,114,103,46,106,101,116,98,114,97,105,110,115,46,107,111,116,108,105,110,40,-98,-111,-47,-25,-8,-1,-1,-1,-1,1,48,0]}]]></tab>
+        <tab><![CDATA[{"tabTitle":"MediaActionsDialog.kt","foregroundColor":-3287308,"textAttributes":{"name":"a"},"icon":[10,57,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,82,97,115,116,101,114,105,122,101,100,73,109,97,103,101,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,-122,1,10,47,111,114,103,47,106,101,116,98,114,97,105,110,115,47,107,111,116,108,105,110,47,105,100,101,97,47,105,99,111,110,115,47,107,111,116,108,105,110,95,102,105,108,101,46,115,118,103,18,48,111,114,103,47,106,101,116,98,114,97,105,110,115,47,107,111,116,108,105,110,47,105,100,101,97,47,105,99,111,110,115,47,101,120,112,117,105,47,107,111,116,108,105,110,46,115,118,103,26,20,111,114,103,46,106,101,116,98,114,97,105,110,115,46,107,111,116,108,105,110,40,-98,-111,-47,-25,-8,-1,-1,-1,-1,1,48,0]}]]></tab>
       </file>
     </leaf>
   </component>
@@ -53,12 +102,24 @@
       "lastUsed": 1760887855064
     },
     "Kotlin": {
-      "usageCount": 12,
-      "lastUsed": 1760982869246
+      "usageCount": 73,
+      "lastUsed": 1761331687764
     },
     "CLASS": {
       "usageCount": 1,
       "lastUsed": 1760889477730
+    },
+    "TOML": {
+      "usageCount": 1,
+      "lastUsed": 1761218490780
+    },
+    "XML": {
+      "usageCount": 1,
+      "lastUsed": 1761313674219
+    },
+    "DIFF": {
+      "usageCount": 1,
+      "lastUsed": 1761332412067
     }
   }
 }]]></component>
@@ -71,11 +132,32 @@
     </replaceStrings>
   </component>
   <component name="GitSEFilterConfiguration">{}</component>
-  <component name="IdeDocumentHistory">{
-  &quot;changedPaths&quot;: [
-    &quot;/home/mrboomdev/IdeaProjects/Awery/app/build.gradle.kts&quot;
+  <component name="IdeDocumentHistory"><![CDATA[{
+  "changedPaths": [
+    "/home/mrboomdev/IdeaProjects/Awery/gradle/compose.versions.toml",
+    "/home/mrboomdev/IdeaProjects/Awery/core/build.gradle.kts",
+    "/home/mrboomdev/IdeaProjects/Awery/app/build.gradle.kts",
+    "/home/mrboomdev/IdeaProjects/Awery/ui/src/commonMain/kotlin/com/mrboomdev/awery/ui/utils/PaddingUtils.kt",
+    "/home/mrboomdev/IdeaProjects/Awery/ui/src/commonMain/kotlin/com/mrboomdev/awery/ui/screens/intro/introDefaults.kt",
+    "/home/mrboomdev/IdeaProjects/Awery/ui/src/commonMain/kotlin/com/mrboomdev/awery/ui/utils/LazyListUtils.kt",
+    "/home/mrboomdev/IdeaProjects/Awery/ui/src/commonMain/kotlin/com/mrboomdev/awery/ui/components/BottomSheetDialog.kt",
+    "/home/mrboomdev/IdeaProjects/Awery/ui/src/commonMain/kotlin/com/mrboomdev/awery/ui/utils/ComposeUtils.kt",
+    "/home/mrboomdev/IdeaProjects/Awery/ui/src/commonMain/kotlin/com/mrboomdev/awery/ui/components/IconButton.kt",
+    "/home/mrboomdev/IdeaProjects/Awery/ui/src/commonMain/kotlin/com/mrboomdev/awery/ui/App.kt",
+    "/home/mrboomdev/IdeaProjects/Awery/ui/src/commonMain/kotlin/com/mrboomdev/awery/ui/Navigation.kt",
+    "/home/mrboomdev/IdeaProjects/Awery/ui/src/commonMain/kotlin/com/mrboomdev/awery/ui/Routes.kt",
+    "/home/mrboomdev/IdeaProjects/Awery/ui/src/commonMain/kotlin/com/mrboomdev/awery/ui/screens/auth/AuthViewModel.kt",
+    "/home/mrboomdev/IdeaProjects/Awery/ui/src/commonMain/kotlin/com/mrboomdev/awery/ui/screens/auth/AuthScreen.kt",
+    "/home/mrboomdev/IdeaProjects/Awery/data/src/commonMain/kotlin/com/mrboomdev/awery/data/settings/AwerySettings.kt",
+    "/home/mrboomdev/IdeaProjects/Awery/data/src/commonMain/kotlin/com/mrboomdev/awery/data/server/AweryServerNotifications.kt",
+    "/home/mrboomdev/IdeaProjects/Awery/ui/src/commonMain/kotlin/com/mrboomdev/awery/ui/screens/notifications/NotificationsViewModel.kt",
+    "/home/mrboomdev/IdeaProjects/Awery/data/src/commonMain/kotlin/com/mrboomdev/awery/data/AweryServer.kt",
+    "/home/mrboomdev/IdeaProjects/Awery/ui/src/commonMain/kotlin/com/mrboomdev/awery/ui/screens/notifications/NotificationsScreen.kt",
+    "/home/mrboomdev/IdeaProjects/Awery/ui/src/commonMain/kotlin/com/mrboomdev/awery/ui/popups/BookmarkMediaDialog.kt",
+    "/home/mrboomdev/IdeaProjects/Awery/ui/build.gradle.kts",
+    "/home/mrboomdev/IdeaProjects/Awery/ui/src/commonMain/kotlin/com/mrboomdev/awery/ui/popups/MediaActionsDialog.kt"
   ]
-}</component>
+}]]></component>
   <component name="IgnoredFileRootStore">
     <option name="generatedRoots">
       <set>
@@ -87,8 +169,14 @@
     <language id="Markdown">
       <summary usageCount="1" lastUsage="1760887855065" />
     </language>
+    <language id="TOML">
+      <summary usageCount="1" lastUsage="1761218490780" />
+    </language>
+    <language id="XML">
+      <summary usageCount="1" lastUsage="1761313674219" />
+    </language>
     <language id="kotlin">
-      <summary usageCount="12" lastUsage="1760982869246" />
+      <summary usageCount="73" lastUsage="1761331687764" />
     </language>
   </component>
   <component name="ProjectView">
@@ -106,6 +194,169 @@
               <item name="Awery" type="b2602c69:ProjectViewProjectNode" />
               <item name="dir{file:///home/mrboomdev/IdeaProjects/Awery}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="dir{file:///home/mrboomdev/IdeaProjects/Awery/app}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="Awery" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/Awery}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/Awery/data}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="Awery" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/Awery}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/Awery/data}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/Awery/data/src}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Awery" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/Awery}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/Awery/data}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/Awery/data/src}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/Awery/data/src/commonMain}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="Awery" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/Awery}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/Awery/data}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/Awery/data/src}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/Awery/data/src/commonMain}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/Awery/data/src/commonMain/kotlin}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Awery" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/Awery}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/Awery/data}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/Awery/data/src}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/Awery/data/src/commonMain}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/Awery/data/src/commonMain/kotlin}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/Awery/data/src/commonMain/kotlin/com}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Awery" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/Awery}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/Awery/data}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/Awery/data/src}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/Awery/data/src/commonMain}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/Awery/data/src/commonMain/kotlin}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/Awery/data/src/commonMain/kotlin/com}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/Awery/data/src/commonMain/kotlin/com/mrboomdev}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Awery" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/Awery}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/Awery/data}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/Awery/data/src}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/Awery/data/src/commonMain}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/Awery/data/src/commonMain/kotlin}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/Awery/data/src/commonMain/kotlin/com}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/Awery/data/src/commonMain/kotlin/com/mrboomdev}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/Awery/data/src/commonMain/kotlin/com/mrboomdev/awery}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Awery" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/Awery}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/Awery/data}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/Awery/data/src}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/Awery/data/src/commonMain}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/Awery/data/src/commonMain/kotlin}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/Awery/data/src/commonMain/kotlin/com}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/Awery/data/src/commonMain/kotlin/com/mrboomdev}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/Awery/data/src/commonMain/kotlin/com/mrboomdev/awery}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/Awery/data/src/commonMain/kotlin/com/mrboomdev/awery/data}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Awery" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/Awery}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/Awery/ui}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="Awery" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/Awery}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/Awery/ui}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/Awery/ui/src}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Awery" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/Awery}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/Awery/ui}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/Awery/ui/src}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/Awery/ui/src/commonMain}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="Awery" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/Awery}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/Awery/ui}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/Awery/ui/src}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/Awery/ui/src/commonMain}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/Awery/ui/src/commonMain/kotlin}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Awery" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/Awery}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/Awery/ui}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/Awery/ui/src}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/Awery/ui/src/commonMain}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/Awery/ui/src/commonMain/kotlin}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/Awery/ui/src/commonMain/kotlin/com}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Awery" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/Awery}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/Awery/ui}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/Awery/ui/src}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/Awery/ui/src/commonMain}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/Awery/ui/src/commonMain/kotlin}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/Awery/ui/src/commonMain/kotlin/com}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/Awery/ui/src/commonMain/kotlin/com/mrboomdev}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Awery" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/Awery}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/Awery/ui}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/Awery/ui/src}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/Awery/ui/src/commonMain}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/Awery/ui/src/commonMain/kotlin}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/Awery/ui/src/commonMain/kotlin/com}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/Awery/ui/src/commonMain/kotlin/com/mrboomdev}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/Awery/ui/src/commonMain/kotlin/com/mrboomdev/awery}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Awery" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/Awery}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/Awery/ui}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/Awery/ui/src}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/Awery/ui/src/commonMain}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/Awery/ui/src/commonMain/kotlin}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/Awery/ui/src/commonMain/kotlin/com}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/Awery/ui/src/commonMain/kotlin/com/mrboomdev}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/Awery/ui/src/commonMain/kotlin/com/mrboomdev/awery}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/Awery/ui/src/commonMain/kotlin/com/mrboomdev/awery/ui}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Awery" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/Awery}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/Awery/ui}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/Awery/ui/src}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/Awery/ui/src/commonMain}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/Awery/ui/src/commonMain/kotlin}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/Awery/ui/src/commonMain/kotlin/com}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/Awery/ui/src/commonMain/kotlin/com/mrboomdev}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/Awery/ui/src/commonMain/kotlin/com/mrboomdev/awery}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/Awery/ui/src/commonMain/kotlin/com/mrboomdev/awery/ui}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/Awery/ui/src/commonMain/kotlin/com/mrboomdev/awery/ui/screens}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Awery" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/Awery}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/Awery/ui}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/Awery/ui/src}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/Awery/ui/src/commonMain}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/Awery/ui/src/commonMain/kotlin}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/Awery/ui/src/commonMain/kotlin/com}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/Awery/ui/src/commonMain/kotlin/com/mrboomdev}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/Awery/ui/src/commonMain/kotlin/com/mrboomdev/awery}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/Awery/ui/src/commonMain/kotlin/com/mrboomdev/awery/ui}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/Awery/ui/src/commonMain/kotlin/com/mrboomdev/awery/ui/screens}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/Awery/ui/src/commonMain/kotlin/com/mrboomdev/awery/ui/screens/auth}" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -246,6 +497,195 @@
                 </attributes>
                 <data iconPath="studio/icons/shell/filetree/library-module.svg" iconPlugin="org.jetbrains.android" isLeaf="false" text="data" />
                 <item name="dir{file:///home/mrboomdev/IdeaProjects/Awery/data}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/data/build" />
+                    </map>
+                  </attributes>
+                  <data iconPath="expui/nodes/excludeRoot.svg" iconPlugin="com.intellij" isLeaf="false" text="build" />
+                  <item name="dir{file:///home/mrboomdev/IdeaProjects/Awery/data/build}" type="462c0819:PsiDirectoryNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/data/dbSchemas" />
+                    </map>
+                  </attributes>
+                  <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="dbSchemas" />
+                  <item name="dir{file:///home/mrboomdev/IdeaProjects/Awery/data/dbSchemas}" type="462c0819:PsiDirectoryNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/data/src" />
+                    </map>
+                  </attributes>
+                  <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="src" />
+                  <item name="dir{file:///home/mrboomdev/IdeaProjects/Awery/data/src}" type="462c0819:PsiDirectoryNode" />
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/data/src/androidMain" />
+                      </map>
+                    </attributes>
+                    <data iconPath="studio/icons/shell/filetree/library-module.svg" iconPlugin="org.jetbrains.android" isLeaf="false" text="androidMain" />
+                    <item name="dir{file:///home/mrboomdev/IdeaProjects/Awery/data/src/androidMain}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/data/src/commonMain" />
+                      </map>
+                    </attributes>
+                    <data iconPath="expui/nodes/ideaProject.svg" iconPlugin="com.intellij" isLeaf="false" text="commonMain" />
+                    <item name="dir{file:///home/mrboomdev/IdeaProjects/Awery/data/src/commonMain}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+                    <presentation>
+                      <attributes>
+                        <map>
+                          <entry key="filePath" value="$PROJECT_DIR$/data/src/commonMain/kotlin" />
+                        </map>
+                      </attributes>
+                      <data iconPath="expui/nodes/sourceRoot.svg" iconPlugin="com.intellij" isLeaf="false" text="kotlin" />
+                      <item name="dir{file:///home/mrboomdev/IdeaProjects/Awery/data/src/commonMain/kotlin}" type="462c0819:PsiDirectoryNode" />
+                      <presentation>
+                        <attributes>
+                          <map>
+                            <entry key="filePath" value="$PROJECT_DIR$/data/src/commonMain/kotlin/com" />
+                          </map>
+                        </attributes>
+                        <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="com" />
+                        <item name="dir{file:///home/mrboomdev/IdeaProjects/Awery/data/src/commonMain/kotlin/com}" type="462c0819:PsiDirectoryNode" />
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/data/src/commonMain/kotlin/com/mrboomdev" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="mrboomdev" />
+                          <item name="dir{file:///home/mrboomdev/IdeaProjects/Awery/data/src/commonMain/kotlin/com/mrboomdev}" type="462c0819:PsiDirectoryNode" />
+                          <presentation>
+                            <attributes>
+                              <map>
+                                <entry key="filePath" value="$PROJECT_DIR$/data/src/commonMain/kotlin/com/mrboomdev/awery" />
+                              </map>
+                            </attributes>
+                            <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="awery" />
+                            <item name="dir{file:///home/mrboomdev/IdeaProjects/Awery/data/src/commonMain/kotlin/com/mrboomdev/awery}" type="462c0819:PsiDirectoryNode" />
+                            <presentation>
+                              <attributes>
+                                <map>
+                                  <entry key="filePath" value="$PROJECT_DIR$/data/src/commonMain/kotlin/com/mrboomdev/awery/data" />
+                                </map>
+                              </attributes>
+                              <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="data" />
+                              <item name="dir{file:///home/mrboomdev/IdeaProjects/Awery/data/src/commonMain/kotlin/com/mrboomdev/awery/data}" type="462c0819:PsiDirectoryNode" />
+                              <presentation>
+                                <attributes>
+                                  <map>
+                                    <entry key="filePath" value="$PROJECT_DIR$/data/src/commonMain/kotlin/com/mrboomdev/awery/data/database" />
+                                  </map>
+                                </attributes>
+                                <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="database" />
+                                <item name="dir{file:///home/mrboomdev/IdeaProjects/Awery/data/src/commonMain/kotlin/com/mrboomdev/awery/data/database}" type="462c0819:PsiDirectoryNode" />
+                              </presentation>
+                              <presentation>
+                                <attributes>
+                                  <map>
+                                    <entry key="filePath" value="$PROJECT_DIR$/data/src/commonMain/kotlin/com/mrboomdev/awery/data/gawaii" />
+                                  </map>
+                                </attributes>
+                                <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="gawaii" />
+                                <item name="dir{file:///home/mrboomdev/IdeaProjects/Awery/data/src/commonMain/kotlin/com/mrboomdev/awery/data/gawaii}" type="462c0819:PsiDirectoryNode" />
+                              </presentation>
+                              <presentation>
+                                <attributes>
+                                  <map>
+                                    <entry key="filePath" value="$PROJECT_DIR$/data/src/commonMain/kotlin/com/mrboomdev/awery/data/repo" />
+                                  </map>
+                                </attributes>
+                                <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="repo" />
+                                <item name="dir{file:///home/mrboomdev/IdeaProjects/Awery/data/src/commonMain/kotlin/com/mrboomdev/awery/data/repo}" type="462c0819:PsiDirectoryNode" />
+                              </presentation>
+                              <presentation>
+                                <attributes>
+                                  <map>
+                                    <entry key="filePath" value="$PROJECT_DIR$/data/src/commonMain/kotlin/com/mrboomdev/awery/data/settings" />
+                                  </map>
+                                </attributes>
+                                <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="settings" />
+                                <item name="dir{file:///home/mrboomdev/IdeaProjects/Awery/data/src/commonMain/kotlin/com/mrboomdev/awery/data/settings}" type="462c0819:PsiDirectoryNode" />
+                              </presentation>
+                              <presentation>
+                                <attributes>
+                                  <map>
+                                    <entry key="filePath" value="$PROJECT_DIR$/data/src/commonMain/kotlin/com/mrboomdev/awery/data/AgeRating.kt" />
+                                  </map>
+                                </attributes>
+                                <data iconPath="org/jetbrains/kotlin/idea/icons/expui/enumKotlin.svg" iconPlugin="org.jetbrains.kotlin" isLeaf="true" text="AgeRating" />
+                                <item name="AgeRating" type="2c5a2ef7:KtClassOrObjectTreeNode" />
+                              </presentation>
+                              <presentation>
+                                <attributes>
+                                  <map>
+                                    <entry key="filePath" value="$PROJECT_DIR$/data/src/commonMain/kotlin/com/mrboomdev/awery/data/AppConstants.kt" />
+                                  </map>
+                                </attributes>
+                                <data iconPath="org/jetbrains/kotlin/idea/icons/expui/kotlin.svg" iconPlugin="org.jetbrains.kotlin" isLeaf="true" text="AppConstants.kt" />
+                                <item name="AppConstants.kt" type="24436e51:KtFileTreeNode" />
+                              </presentation>
+                              <presentation>
+                                <attributes>
+                                  <map>
+                                    <entry key="filePath" value="$PROJECT_DIR$/data/src/commonMain/kotlin/com/mrboomdev/awery/data/AweryContributors.kt" />
+                                  </map>
+                                </attributes>
+                                <data iconPath="org/jetbrains/kotlin/idea/icons/expui/kotlin.svg" iconPlugin="org.jetbrains.kotlin" isLeaf="true" text="AweryContributors.kt" />
+                                <item name="AweryContributors.kt" type="24436e51:KtFileTreeNode" />
+                              </presentation>
+                              <presentation>
+                                <attributes>
+                                  <map>
+                                    <entry key="filePath" value="$PROJECT_DIR$/data/src/commonMain/kotlin/com/mrboomdev/awery/data/AweryServer.kt" />
+                                  </map>
+                                </attributes>
+                                <data iconPath="org/jetbrains/kotlin/idea/icons/expui/kotlin.svg" iconPlugin="org.jetbrains.kotlin" isLeaf="true" text="AweryServer.kt" />
+                                <item name="AweryServer.kt" type="24436e51:KtFileTreeNode" />
+                              </presentation>
+                              <presentation>
+                                <attributes>
+                                  <map>
+                                    <entry key="filePath" value="$PROJECT_DIR$/data/src/commonMain/kotlin/com/mrboomdev/awery/data/AwerySocials.kt" />
+                                  </map>
+                                </attributes>
+                                <data iconPath="org/jetbrains/kotlin/idea/icons/expui/kotlin.svg" iconPlugin="org.jetbrains.kotlin" isLeaf="true" text="AwerySocials.kt" />
+                                <item name="AwerySocials.kt" type="24436e51:KtFileTreeNode" />
+                              </presentation>
+                            </presentation>
+                          </presentation>
+                        </presentation>
+                      </presentation>
+                    </presentation>
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/data/src/desktopMain" />
+                      </map>
+                    </attributes>
+                    <data iconPath="expui/nodes/ideaProject.svg" iconPlugin="com.intellij" isLeaf="false" text="desktopMain" />
+                    <item name="dir{file:///home/mrboomdev/IdeaProjects/Awery/data/src/desktopMain}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+                  </presentation>
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/data/build.gradle.kts" />
+                    </map>
+                  </attributes>
+                  <data iconPath="org/jetbrains/kotlin/idea/icons/expui/kotlinGradleScript.svg" iconPlugin="org.jetbrains.kotlin" isLeaf="true" text="build.gradle.kts" />
+                  <item name="build.gradle.kts" type="24436e51:KtFileTreeNode" />
+                </presentation>
               </presentation>
               <presentation>
                 <attributes>
@@ -291,6 +731,330 @@
                 </attributes>
                 <data iconPath="studio/icons/shell/filetree/library-module.svg" iconPlugin="org.jetbrains.android" isLeaf="false" text="ui" />
                 <item name="dir{file:///home/mrboomdev/IdeaProjects/Awery/ui}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/ui/build" />
+                    </map>
+                  </attributes>
+                  <data iconPath="expui/nodes/excludeRoot.svg" iconPlugin="com.intellij" isLeaf="false" text="build" />
+                  <item name="dir{file:///home/mrboomdev/IdeaProjects/Awery/ui/build}" type="462c0819:PsiDirectoryNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/ui/src" />
+                    </map>
+                  </attributes>
+                  <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="src" />
+                  <item name="dir{file:///home/mrboomdev/IdeaProjects/Awery/ui/src}" type="462c0819:PsiDirectoryNode" />
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/ui/src/androidMain" />
+                      </map>
+                    </attributes>
+                    <data iconPath="studio/icons/shell/filetree/library-module.svg" iconPlugin="org.jetbrains.android" isLeaf="false" text="androidMain" />
+                    <item name="dir{file:///home/mrboomdev/IdeaProjects/Awery/ui/src/androidMain}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/ui/src/commonMain" />
+                      </map>
+                    </attributes>
+                    <data iconPath="expui/nodes/ideaProject.svg" iconPlugin="com.intellij" isLeaf="false" text="commonMain" />
+                    <item name="dir{file:///home/mrboomdev/IdeaProjects/Awery/ui/src/commonMain}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+                    <presentation>
+                      <attributes>
+                        <map>
+                          <entry key="filePath" value="$PROJECT_DIR$/ui/src/commonMain/kotlin" />
+                        </map>
+                      </attributes>
+                      <data iconPath="expui/nodes/sourceRoot.svg" iconPlugin="com.intellij" isLeaf="false" text="kotlin" />
+                      <item name="dir{file:///home/mrboomdev/IdeaProjects/Awery/ui/src/commonMain/kotlin}" type="462c0819:PsiDirectoryNode" />
+                      <presentation>
+                        <attributes>
+                          <map>
+                            <entry key="filePath" value="$PROJECT_DIR$/ui/src/commonMain/kotlin/com" />
+                          </map>
+                        </attributes>
+                        <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="com" />
+                        <item name="dir{file:///home/mrboomdev/IdeaProjects/Awery/ui/src/commonMain/kotlin/com}" type="462c0819:PsiDirectoryNode" />
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/ui/src/commonMain/kotlin/com/mrboomdev" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="mrboomdev" />
+                          <item name="dir{file:///home/mrboomdev/IdeaProjects/Awery/ui/src/commonMain/kotlin/com/mrboomdev}" type="462c0819:PsiDirectoryNode" />
+                          <presentation>
+                            <attributes>
+                              <map>
+                                <entry key="filePath" value="$PROJECT_DIR$/ui/src/commonMain/kotlin/com/mrboomdev/awery" />
+                              </map>
+                            </attributes>
+                            <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="awery" />
+                            <item name="dir{file:///home/mrboomdev/IdeaProjects/Awery/ui/src/commonMain/kotlin/com/mrboomdev/awery}" type="462c0819:PsiDirectoryNode" />
+                            <presentation>
+                              <attributes>
+                                <map>
+                                  <entry key="filePath" value="$PROJECT_DIR$/ui/src/commonMain/kotlin/com/mrboomdev/awery/ui" />
+                                </map>
+                              </attributes>
+                              <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="ui" />
+                              <item name="dir{file:///home/mrboomdev/IdeaProjects/Awery/ui/src/commonMain/kotlin/com/mrboomdev/awery/ui}" type="462c0819:PsiDirectoryNode" />
+                              <presentation>
+                                <attributes>
+                                  <map>
+                                    <entry key="filePath" value="$PROJECT_DIR$/ui/src/commonMain/kotlin/com/mrboomdev/awery/ui/components" />
+                                  </map>
+                                </attributes>
+                                <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="components" />
+                                <item name="dir{file:///home/mrboomdev/IdeaProjects/Awery/ui/src/commonMain/kotlin/com/mrboomdev/awery/ui/components}" type="462c0819:PsiDirectoryNode" />
+                              </presentation>
+                              <presentation>
+                                <attributes>
+                                  <map>
+                                    <entry key="filePath" value="$PROJECT_DIR$/ui/src/commonMain/kotlin/com/mrboomdev/awery/ui/effects" />
+                                  </map>
+                                </attributes>
+                                <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="effects" />
+                                <item name="dir{file:///home/mrboomdev/IdeaProjects/Awery/ui/src/commonMain/kotlin/com/mrboomdev/awery/ui/effects}" type="462c0819:PsiDirectoryNode" />
+                              </presentation>
+                              <presentation>
+                                <attributes>
+                                  <map>
+                                    <entry key="filePath" value="$PROJECT_DIR$/ui/src/commonMain/kotlin/com/mrboomdev/awery/ui/popups" />
+                                  </map>
+                                </attributes>
+                                <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="popups" />
+                                <item name="dir{file:///home/mrboomdev/IdeaProjects/Awery/ui/src/commonMain/kotlin/com/mrboomdev/awery/ui/popups}" type="462c0819:PsiDirectoryNode" />
+                              </presentation>
+                              <presentation>
+                                <attributes>
+                                  <map>
+                                    <entry key="filePath" value="$PROJECT_DIR$/ui/src/commonMain/kotlin/com/mrboomdev/awery/ui/screens" />
+                                  </map>
+                                </attributes>
+                                <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="screens" />
+                                <item name="dir{file:///home/mrboomdev/IdeaProjects/Awery/ui/src/commonMain/kotlin/com/mrboomdev/awery/ui/screens}" type="462c0819:PsiDirectoryNode" />
+                                <presentation>
+                                  <attributes>
+                                    <map>
+                                      <entry key="filePath" value="$PROJECT_DIR$/ui/src/commonMain/kotlin/com/mrboomdev/awery/ui/screens/auth" />
+                                    </map>
+                                  </attributes>
+                                  <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="auth" />
+                                  <item name="dir{file:///home/mrboomdev/IdeaProjects/Awery/ui/src/commonMain/kotlin/com/mrboomdev/awery/ui/screens/auth}" type="462c0819:PsiDirectoryNode" />
+                                  <presentation>
+                                    <attributes>
+                                      <map>
+                                        <entry key="filePath" value="$PROJECT_DIR$/ui/src/commonMain/kotlin/com/mrboomdev/awery/ui/screens/auth/AuthScreen.kt" />
+                                      </map>
+                                    </attributes>
+                                    <data iconPath="org/jetbrains/kotlin/idea/icons/expui/kotlin.svg" iconPlugin="org.jetbrains.kotlin" isLeaf="true" text="AuthScreen.kt" />
+                                    <item name="AuthScreen.kt" type="24436e51:KtFileTreeNode" />
+                                  </presentation>
+                                  <presentation>
+                                    <attributes>
+                                      <map>
+                                        <entry key="filePath" value="$PROJECT_DIR$/ui/src/commonMain/kotlin/com/mrboomdev/awery/ui/screens/auth/AuthViewModel.kt" />
+                                      </map>
+                                    </attributes>
+                                    <data iconPath="org/jetbrains/kotlin/idea/icons/expui/classKotlin.svg" iconPlugin="org.jetbrains.kotlin" isLeaf="true" text="AuthViewModel" />
+                                    <item name="AuthViewModel" type="2c5a2ef7:KtClassOrObjectTreeNode" />
+                                  </presentation>
+                                </presentation>
+                                <presentation>
+                                  <attributes>
+                                    <map>
+                                      <entry key="filePath" value="$PROJECT_DIR$/ui/src/commonMain/kotlin/com/mrboomdev/awery/ui/screens/browser" />
+                                    </map>
+                                  </attributes>
+                                  <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="browser" />
+                                  <item name="dir{file:///home/mrboomdev/IdeaProjects/Awery/ui/src/commonMain/kotlin/com/mrboomdev/awery/ui/screens/browser}" type="462c0819:PsiDirectoryNode" />
+                                </presentation>
+                                <presentation>
+                                  <attributes>
+                                    <map>
+                                      <entry key="filePath" value="$PROJECT_DIR$/ui/src/commonMain/kotlin/com/mrboomdev/awery/ui/screens/extension" />
+                                    </map>
+                                  </attributes>
+                                  <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="extension" />
+                                  <item name="dir{file:///home/mrboomdev/IdeaProjects/Awery/ui/src/commonMain/kotlin/com/mrboomdev/awery/ui/screens/extension}" type="462c0819:PsiDirectoryNode" />
+                                </presentation>
+                                <presentation>
+                                  <attributes>
+                                    <map>
+                                      <entry key="filePath" value="$PROJECT_DIR$/ui/src/commonMain/kotlin/com/mrboomdev/awery/ui/screens/home" />
+                                    </map>
+                                  </attributes>
+                                  <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="home" />
+                                  <item name="dir{file:///home/mrboomdev/IdeaProjects/Awery/ui/src/commonMain/kotlin/com/mrboomdev/awery/ui/screens/home}" type="462c0819:PsiDirectoryNode" />
+                                </presentation>
+                                <presentation>
+                                  <attributes>
+                                    <map>
+                                      <entry key="filePath" value="$PROJECT_DIR$/ui/src/commonMain/kotlin/com/mrboomdev/awery/ui/screens/intro" />
+                                    </map>
+                                  </attributes>
+                                  <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="intro" />
+                                  <item name="dir{file:///home/mrboomdev/IdeaProjects/Awery/ui/src/commonMain/kotlin/com/mrboomdev/awery/ui/screens/intro}" type="462c0819:PsiDirectoryNode" />
+                                </presentation>
+                                <presentation>
+                                  <attributes>
+                                    <map>
+                                      <entry key="filePath" value="$PROJECT_DIR$/ui/src/commonMain/kotlin/com/mrboomdev/awery/ui/screens/library" />
+                                    </map>
+                                  </attributes>
+                                  <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="library" />
+                                  <item name="dir{file:///home/mrboomdev/IdeaProjects/Awery/ui/src/commonMain/kotlin/com/mrboomdev/awery/ui/screens/library}" type="462c0819:PsiDirectoryNode" />
+                                </presentation>
+                                <presentation>
+                                  <attributes>
+                                    <map>
+                                      <entry key="filePath" value="$PROJECT_DIR$/ui/src/commonMain/kotlin/com/mrboomdev/awery/ui/screens/main" />
+                                    </map>
+                                  </attributes>
+                                  <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="main" />
+                                  <item name="dir{file:///home/mrboomdev/IdeaProjects/Awery/ui/src/commonMain/kotlin/com/mrboomdev/awery/ui/screens/main}" type="462c0819:PsiDirectoryNode" />
+                                </presentation>
+                                <presentation>
+                                  <attributes>
+                                    <map>
+                                      <entry key="filePath" value="$PROJECT_DIR$/ui/src/commonMain/kotlin/com/mrboomdev/awery/ui/screens/media" />
+                                    </map>
+                                  </attributes>
+                                  <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="media" />
+                                  <item name="dir{file:///home/mrboomdev/IdeaProjects/Awery/ui/src/commonMain/kotlin/com/mrboomdev/awery/ui/screens/media}" type="462c0819:PsiDirectoryNode" />
+                                </presentation>
+                                <presentation>
+                                  <attributes>
+                                    <map>
+                                      <entry key="filePath" value="$PROJECT_DIR$/ui/src/commonMain/kotlin/com/mrboomdev/awery/ui/screens/notifications" />
+                                    </map>
+                                  </attributes>
+                                  <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="notifications" />
+                                  <item name="dir{file:///home/mrboomdev/IdeaProjects/Awery/ui/src/commonMain/kotlin/com/mrboomdev/awery/ui/screens/notifications}" type="462c0819:PsiDirectoryNode" />
+                                </presentation>
+                                <presentation>
+                                  <attributes>
+                                    <map>
+                                      <entry key="filePath" value="$PROJECT_DIR$/ui/src/commonMain/kotlin/com/mrboomdev/awery/ui/screens/player" />
+                                    </map>
+                                  </attributes>
+                                  <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="player" />
+                                  <item name="dir{file:///home/mrboomdev/IdeaProjects/Awery/ui/src/commonMain/kotlin/com/mrboomdev/awery/ui/screens/player}" type="462c0819:PsiDirectoryNode" />
+                                </presentation>
+                                <presentation>
+                                  <attributes>
+                                    <map>
+                                      <entry key="filePath" value="$PROJECT_DIR$/ui/src/commonMain/kotlin/com/mrboomdev/awery/ui/screens/search" />
+                                    </map>
+                                  </attributes>
+                                  <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="search" />
+                                  <item name="dir{file:///home/mrboomdev/IdeaProjects/Awery/ui/src/commonMain/kotlin/com/mrboomdev/awery/ui/screens/search}" type="462c0819:PsiDirectoryNode" />
+                                </presentation>
+                                <presentation>
+                                  <attributes>
+                                    <map>
+                                      <entry key="filePath" value="$PROJECT_DIR$/ui/src/commonMain/kotlin/com/mrboomdev/awery/ui/screens/settings" />
+                                    </map>
+                                  </attributes>
+                                  <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="settings" />
+                                  <item name="dir{file:///home/mrboomdev/IdeaProjects/Awery/ui/src/commonMain/kotlin/com/mrboomdev/awery/ui/screens/settings}" type="462c0819:PsiDirectoryNode" />
+                                </presentation>
+                                <presentation>
+                                  <attributes>
+                                    <map>
+                                      <entry key="filePath" value="$PROJECT_DIR$/ui/src/commonMain/kotlin/com/mrboomdev/awery/ui/screens/CrashScreen.kt" />
+                                    </map>
+                                  </attributes>
+                                  <data iconPath="org/jetbrains/kotlin/idea/icons/expui/kotlin.svg" iconPlugin="org.jetbrains.kotlin" isLeaf="true" text="CrashScreen.kt" />
+                                  <item name="CrashScreen.kt" type="24436e51:KtFileTreeNode" />
+                                </presentation>
+                                <presentation>
+                                  <attributes>
+                                    <map>
+                                      <entry key="filePath" value="$PROJECT_DIR$/ui/src/commonMain/kotlin/com/mrboomdev/awery/ui/screens/GalleryScreen.kt" />
+                                    </map>
+                                  </attributes>
+                                  <data iconPath="org/jetbrains/kotlin/idea/icons/expui/kotlin.svg" iconPlugin="org.jetbrains.kotlin" isLeaf="true" text="GalleryScreen.kt" />
+                                  <item name="GalleryScreen.kt" type="24436e51:KtFileTreeNode" />
+                                </presentation>
+                              </presentation>
+                              <presentation>
+                                <attributes>
+                                  <map>
+                                    <entry key="filePath" value="$PROJECT_DIR$/ui/src/commonMain/kotlin/com/mrboomdev/awery/ui/theme" />
+                                  </map>
+                                </attributes>
+                                <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="theme" />
+                                <item name="dir{file:///home/mrboomdev/IdeaProjects/Awery/ui/src/commonMain/kotlin/com/mrboomdev/awery/ui/theme}" type="462c0819:PsiDirectoryNode" />
+                              </presentation>
+                              <presentation>
+                                <attributes>
+                                  <map>
+                                    <entry key="filePath" value="$PROJECT_DIR$/ui/src/commonMain/kotlin/com/mrboomdev/awery/ui/utils" />
+                                  </map>
+                                </attributes>
+                                <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="utils" />
+                                <item name="dir{file:///home/mrboomdev/IdeaProjects/Awery/ui/src/commonMain/kotlin/com/mrboomdev/awery/ui/utils}" type="462c0819:PsiDirectoryNode" />
+                              </presentation>
+                              <presentation>
+                                <attributes>
+                                  <map>
+                                    <entry key="filePath" value="$PROJECT_DIR$/ui/src/commonMain/kotlin/com/mrboomdev/awery/ui/App.kt" />
+                                  </map>
+                                </attributes>
+                                <data iconPath="org/jetbrains/kotlin/idea/icons/expui/kotlin.svg" iconPlugin="org.jetbrains.kotlin" isLeaf="true" text="App.kt" />
+                                <item name="App.kt" type="24436e51:KtFileTreeNode" />
+                              </presentation>
+                              <presentation>
+                                <attributes>
+                                  <map>
+                                    <entry key="filePath" value="$PROJECT_DIR$/ui/src/commonMain/kotlin/com/mrboomdev/awery/ui/NavigationState.kt" />
+                                  </map>
+                                </attributes>
+                                <data iconPath="org/jetbrains/kotlin/idea/icons/expui/classKotlin.svg" iconPlugin="org.jetbrains.kotlin" isLeaf="true" text="NavigationState" />
+                                <item name="NavigationState" type="2c5a2ef7:KtClassOrObjectTreeNode" />
+                              </presentation>
+                              <presentation>
+                                <attributes>
+                                  <map>
+                                    <entry key="filePath" value="$PROJECT_DIR$/ui/src/commonMain/kotlin/com/mrboomdev/awery/ui/Routes.kt" />
+                                  </map>
+                                </attributes>
+                                <data iconPath="org/jetbrains/kotlin/idea/icons/expui/kotlin.svg" iconPlugin="org.jetbrains.kotlin" isLeaf="true" text="Routes.kt" />
+                                <item name="Routes.kt" type="24436e51:KtFileTreeNode" />
+                              </presentation>
+                            </presentation>
+                          </presentation>
+                        </presentation>
+                      </presentation>
+                    </presentation>
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/ui/src/desktopMain" />
+                      </map>
+                    </attributes>
+                    <data iconPath="expui/nodes/ideaProject.svg" iconPlugin="com.intellij" isLeaf="false" text="desktopMain" />
+                    <item name="dir{file:///home/mrboomdev/IdeaProjects/Awery/ui/src/desktopMain}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+                  </presentation>
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/ui/build.gradle.kts" />
+                    </map>
+                  </attributes>
+                  <data iconPath="org/jetbrains/kotlin/idea/icons/expui/kotlinGradleScript.svg" iconPlugin="org.jetbrains.kotlin" isLeaf="true" text="build.gradle.kts" />
+                  <item name="build.gradle.kts" type="24436e51:KtFileTreeNode" />
+                </presentation>
               </presentation>
               <presentation>
                 <attributes>
@@ -452,23 +1216,48 @@
       </list>
     </option>
   </component>
+  <component name="SplittingTabsState">
+    <tool-windows>
+      <tool-window id="Logcat" selected-tab="0">
+        <tabs>
+          <tab name="Logcat">
+            <content>
+              <panel>{'device':{'physicalDevice':{'serialNumber':'adb-144002558C005280-isNWce._adb-tls-connect._tcp','isOnline':false,'release':'15','apiLevel':{'majorVersion':35,'minorVersion':0},'featureLevel':35,'manufacturer':'TECNO','model':'TECNO LJ7','type':'HANDHELD'}},'formattingConfig':{'preset':'STANDARD'},'filter':'package:mine ','filterMatchCase':false,'isSoftWrap':false}</panel>
+            </content>
+          </tab>
+        </tabs>
+      </tool-window>
+    </tool-windows>
+  </component>
+  <component name="TerminalArrangementManager">
+    <option name="mySelectedTabIndex" value="-1" />
+  </component>
   <component name="ToolWindowManager">
     <layoutV2>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.1875" />
-      <window_info id="Commit" order="1" weight="0.25" />
+      <window_info id="Bookmarks" show_stripe_button="false" side_tool="true" />
+      <window_info id="Backup and Sync History" show_stripe_button="false" />
+      <window_info id="Pull Requests" show_stripe_button="false" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.1875656" />
+      <window_info id="Commit" order="1" weight="0.1875656" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info id="Build Variants" order="3" side_tool="true" />
       <window_info id="Resources Explorer" order="4" />
-      <window_info anchor="bottom" id="Version Control" order="0" />
+      <window_info anchor="bottom" id="TODO" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="0" weight="0.5612934" />
       <window_info anchor="bottom" id="Problems" order="1" />
       <window_info anchor="bottom" id="Problems View" order="2" />
-      <window_info anchor="bottom" id="Terminal" order="3" />
+      <window_info anchor="bottom" id="Terminal" order="3" weight="0.33059847" />
       <window_info anchor="bottom" id="Services" order="4" weight="0.33028847" />
-      <window_info active="true" anchor="bottom" x="1925" y="35" width="1910" height="1040" id="Build" order="5" type="WINDOWED" weight="0.33028847" />
+      <window_info active="true" anchor="bottom" x="1925" y="35" width="1910" height="1040" id="Build" order="5" type="WINDOWED" weight="0.32866794" />
       <window_info anchor="bottom" id="Android Profiler" order="6" />
       <window_info anchor="bottom" id="App Inspection" order="7" />
-      <window_info anchor="bottom" id="Logcat" order="8" />
-      <window_info anchor="bottom" x="2883" y="35" width="952" height="1040" id="Run" order="9" show_stripe_button="false" type="WINDOWED" weight="0.33028847" />
+      <window_info anchor="bottom" auto_hide="true" x="11" y="281" width="1906" height="581" id="Logcat" order="8" weight="0.32866794" />
+      <window_info anchor="bottom" x="2883" y="35" width="952" height="1040" id="Run" order="9" show_stripe_button="false" type="WINDOWED" weight="0.33059847" />
+      <window_info anchor="bottom" id="Find" order="10" weight="0.3291262" />
+      <window_info anchor="right" id="documentation.v2" show_stripe_button="false" side_tool="true" />
+      <window_info anchor="right" id="Coverage" show_stripe_button="false" side_tool="true" />
+      <window_info anchor="right" id="Layout Validation" />
+      <window_info anchor="right" id="Desktop Preview" show_stripe_button="false" />
       <window_info anchor="right" content_ui="combo" id="Notifications" order="0" weight="0.25" />
       <window_info anchor="right" id="AIAssistant" order="1" weight="0.25" />
       <window_info anchor="right" id="Database" order="2" weight="0.25" />
@@ -476,13 +1265,19 @@
       <window_info anchor="right" id="Maven" order="4" weight="0.25" />
       <window_info anchor="right" id="Running Devices" order="5" side_tool="true" />
       <window_info anchor="right" id="Device Explorer" order="6" side_tool="true" />
-      <window_info anchor="right" id="Device Manager 2" order="7" />
-      <unified_weights bottom="0.33028847" left="0.1875" />
+      <window_info anchor="right" id="Device Manager 2" order="7" weight="0.32974815" />
+      <unified_weights bottom="0.32866794" left="0.1875656" right="0.32974815" />
     </layoutV2>
     <recentWindows>
-      <value>Build</value>
-      <value>Run</value>
       <value>Project</value>
+      <value>Commit</value>
+      <value>Build</value>
+      <value>Logcat</value>
+      <value>Find</value>
+      <value>Version Control</value>
+      <value>Terminal</value>
+      <value>Device Manager 2</value>
+      <value>Run</value>
       <value>Services</value>
     </recentWindows>
   </component>
@@ -499,34 +1294,44 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="838" y="343" key="FileChooserDialogImpl/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1760888908212" />
-    <state width="952" height="1008" key="GridCell.Tab.0.bottom" timestamp="1760890117700">
+    <state width="952" height="1008" key="GridCell.Tab.0.bottom" timestamp="1761219943296">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="952" height="1008" key="GridCell.Tab.0.bottom/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1760890117700" />
-    <state width="952" height="1008" key="GridCell.Tab.0.center" timestamp="1760890117700">
+    <state width="952" height="1008" key="GridCell.Tab.0.bottom/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1761219943296" />
+    <state width="952" height="1008" key="GridCell.Tab.0.center" timestamp="1761219943296">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="952" height="1008" key="GridCell.Tab.0.center/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1760890117700" />
-    <state width="952" height="1008" key="GridCell.Tab.0.left" timestamp="1760890117700">
+    <state width="952" height="1008" key="GridCell.Tab.0.center/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1761219943296" />
+    <state width="952" height="1008" key="GridCell.Tab.0.left" timestamp="1761219943296">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="952" height="1008" key="GridCell.Tab.0.left/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1760890117700" />
-    <state width="952" height="1008" key="GridCell.Tab.0.right" timestamp="1760890117700">
+    <state width="952" height="1008" key="GridCell.Tab.0.left/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1761219943296" />
+    <state width="952" height="1008" key="GridCell.Tab.0.right" timestamp="1761219943296">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="952" height="1008" key="GridCell.Tab.0.right/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1760890117700" />
-    <state x="469" y="205" key="SettingsEditor" timestamp="1760889224590">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="952" height="1008" key="GridCell.Tab.0.right/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1761219943296" />
+    <state x="2389" y="205" key="SettingsEditor" timestamp="1761324829817">
+      <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="469" y="205" key="SettingsEditor/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1760889224590" />
+    <state x="2389" y="205" key="SettingsEditor/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1761324829817" />
+    <state x="2480" y="306" key="Vcs.Push.Dialog.v2" timestamp="1761332640547">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2480" y="306" key="Vcs.Push.Dialog.v2/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1761332640547" />
+    <state x="698" y="278" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1761319749724">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="698" y="278" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1761319749724" />
     <state x="745" y="446" width="803" height="454" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1760888813553">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="745" y="446" width="803" height="454" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1760888813553" />
-    <state x="1102" y="259" width="672" height="681" key="search.everywhere.popup" timestamp="1760889779969">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state x="3022" y="259" width="674" height="681" key="search.everywhere.popup" timestamp="1761330982214">
+      <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="1102" y="259" width="672" height="681" key="search.everywhere.popup/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1760889779969" />
+    <state x="766" y="220" width="672" height="681" key="search.everywhere.popup/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1761319956886" />
+    <state x="3022" y="259" width="674" height="681" key="search.everywhere.popup/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1761330982214" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/README.md" />
@@ -560,31 +1365,331 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ui/src/commonMain/kotlin/com/mrboomdev/awery/ui/components/ContextMenu.kt">
+      <provider selected="true" editor-type-id="android-source-code">
+        <state selected-layout="SHOW_EDITOR">
+          <editor-state relative-caret-position="752">
+            <caret line="102" column="25" selection-start-line="102" selection-start-column="25" selection-end-line="102" selection-end-column="25" />
+          </editor-state>
+          <multi-preview-state selected="Compose">
+            <representations>
+              <list>
+                <representation name="Compose">
+                  <settings>
+                    <setting name="previewLayout" value="Grid" />
+                    <setting name="selectedGroup" value="" />
+                  </settings>
+                </representation>
+              </list>
+            </representations>
+          </multi-preview-state>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui/src/commonMain/kotlin/com/mrboomdev/awery/ui/screens/extension/ExtensionFeedScreen.kt">
+      <provider selected="true" editor-type-id="android-source-code">
+        <state selected-layout="SHOW_EDITOR">
+          <editor-state relative-caret-position="752">
+            <caret line="214" column="19" selection-start-line="214" selection-start-column="19" selection-end-line="214" selection-end-column="19" />
+          </editor-state>
+          <multi-preview-state selected="Compose">
+            <representations>
+              <list>
+                <representation name="Compose">
+                  <settings>
+                    <setting name="previewLayout" value="Grid" />
+                    <setting name="selectedGroup" value="" />
+                  </settings>
+                </representation>
+              </list>
+            </representations>
+          </multi-preview-state>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gradle/compose.versions.toml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="496">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/build.gradle.kts" preview="true">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#237#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.skiko/skiko-awt/0.9.22.2/d7de716f675e0bcd9c9e3f92e58a6ba2f5903c26/skiko-awt-0.9.22.2-sources.jar!/jvmMain/org/jetbrains/skiko/SkiaLayerProperties.kt">
+      <provider selected="true" editor-type-id="android-source-code">
+        <state>
+          <editor-state relative-caret-position="385">
+            <caret line="19" column="99" selection-start-line="19" selection-start-column="99" selection-end-line="19" selection-end-column="99" />
+          </editor-state>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.compose.ui/ui-desktop/1.9.0/8afd3d5d5fc4ed444609b933635e11e2fcb8a0cf/ui-desktop-1.9.0-sources.jar!/desktopMain/androidx/compose/ui/scene/skia/WindowSkiaLayerComponent.desktop.kt">
+      <provider selected="true" editor-type-id="android-source-code">
+        <state>
+          <editor-state relative-caret-position="323">
+            <caret line="60" column="46" selection-start-line="60" selection-start-column="46" selection-end-line="60" selection-end-column="46" />
+          </editor-state>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/build.gradle.kts" preview="true">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="188" column="6" lean-forward="true" selection-start-line="188" selection-start-column="6" selection-end-line="188" selection-end-column="6" />
+        <state relative-caret-position="694">
+          <caret line="105" column="16" selection-start-line="105" selection-start-column="16" selection-end-line="105" selection-end-column="16" />
           <folding>
             <element signature="e#0#231#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ui/src/commonMain/kotlin/com/mrboomdev/awery/ui/components/ContextMenu.kt">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.compose.foundation/foundation-layout/1.10.0-alpha01/180d599f2b3e8fbd19aa3f4842bd422154d2c1c8/foundation-layout-1.10.0-alpha01-sources.jar!/commonMain/androidx/compose/foundation/layout/Padding.kt">
       <provider selected="true" editor-type-id="android-source-code">
         <state>
-          <editor-state relative-caret-position="2480">
-            <caret line="102" column="25" selection-start-line="102" selection-start-column="25" selection-end-line="102" selection-end-column="25" />
+          <editor-state relative-caret-position="411">
+            <caret line="312" lean-forward="true" selection-start-line="312" selection-end-line="312" />
           </editor-state>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ui/src/commonMain/kotlin/com/mrboomdev/awery/ui/screens/extension/ExtensionFeedScreen.kt">
+    <entry file="file://$PROJECT_DIR$/ui/src/commonMain/kotlin/com/mrboomdev/awery/ui/utils/PaddingUtils.kt">
+      <provider selected="true" editor-type-id="android-source-code">
+        <state selected-layout="SHOW_EDITOR">
+          <editor-state relative-caret-position="323">
+            <caret line="54" column="18" selection-start-line="54" selection-start-column="18" selection-end-line="54" selection-end-column="18" />
+          </editor-state>
+          <multi-preview-state selected="Compose">
+            <representations>
+              <list>
+                <representation name="Compose">
+                  <settings>
+                    <setting name="previewLayout" value="Grid" />
+                    <setting name="selectedGroup" value="" />
+                  </settings>
+                </representation>
+              </list>
+            </representations>
+          </multi-preview-state>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.compose.foundation/foundation-android/1.10.0-alpha02/5181cb7514b8e563591e4d0290c3308f5a0323d6/foundation-android-1.10.0-alpha02-sources.jar!/commonMain/androidx/compose/foundation/pager/PagerScope.kt" preview="true">
       <provider selected="true" editor-type-id="android-source-code">
         <state>
-          <editor-state relative-caret-position="5580">
-            <caret line="214" column="19" selection-start-line="214" selection-start-column="19" selection-end-line="214" selection-end-column="19" />
+          <editor-state relative-caret-position="195">
+            <caret line="22" column="22" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
           </editor-state>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.compose.foundation/foundation/1.10.0-alpha01/f983082fc61d4707c54c126f8738252f107f7783/foundation-1.10.0-alpha01-sources.jar!/commonMain/androidx/compose/foundation/pager/PagerScope.kt">
+      <provider selected="true" editor-type-id="android-source-code">
+        <state>
+          <editor-state relative-caret-position="195">
+            <caret line="22" column="21" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
+          </editor-state>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui/src/commonMain/kotlin/com/mrboomdev/awery/ui/screens/intro/IntroScreen.kt" preview="true">
+      <provider selected="true" editor-type-id="android-source-code">
+        <state selected-layout="SHOW_EDITOR">
+          <editor-state relative-caret-position="230">
+            <caret line="69" column="31" lean-forward="true" selection-start-line="69" selection-start-column="31" selection-end-line="69" selection-end-column="31" />
+          </editor-state>
+          <multi-preview-state selected="Compose">
+            <representations>
+              <list>
+                <representation name="Compose">
+                  <settings>
+                    <setting name="previewLayout" value="Grid" />
+                    <setting name="selectedGroup" value="" />
+                  </settings>
+                </representation>
+              </list>
+            </representations>
+          </multi-preview-state>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui/src/commonMain/kotlin/com/mrboomdev/awery/ui/screens/intro/introDefaults.kt">
+      <provider selected="true" editor-type-id="android-source-code">
+        <state selected-layout="SHOW_EDITOR">
+          <editor-state relative-caret-position="442">
+            <caret line="124" column="39" lean-forward="true" selection-start-line="124" selection-start-column="39" selection-end-line="124" selection-end-column="39" />
+          </editor-state>
+          <multi-preview-state selected="Compose">
+            <representations>
+              <list>
+                <representation name="Compose">
+                  <settings>
+                    <setting name="previewLayout" value="Grid" />
+                    <setting name="selectedGroup" value="" />
+                  </settings>
+                </representation>
+              </list>
+            </representations>
+          </multi-preview-state>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui/src/commonMain/kotlin/com/mrboomdev/awery/ui/utils/LazyListUtils.kt">
+      <provider selected="true" editor-type-id="android-source-code">
+        <state selected-layout="SHOW_EDITOR">
+          <editor-state relative-caret-position="783">
+            <caret line="65" column="35" lean-forward="true" selection-start-line="65" selection-start-column="35" selection-end-line="65" selection-end-column="35" />
+          </editor-state>
+          <multi-preview-state selected="Compose">
+            <representations>
+              <list>
+                <representation name="Compose">
+                  <settings>
+                    <setting name="previewLayout" value="Grid" />
+                    <setting name="selectedGroup" value="" />
+                  </settings>
+                </representation>
+              </list>
+            </representations>
+          </multi-preview-state>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/src/commonMain/composeResources/values-as/strings.xml" preview="true">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="323" column="18" selection-start-line="323" selection-start-column="18" selection-end-line="323" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui/src/commonMain/kotlin/com/mrboomdev/awery/ui/components/BottomSheetDialog.kt">
+      <provider selected="true" editor-type-id="android-source-code">
+        <state selected-layout="SHOW_EDITOR">
+          <editor-state relative-caret-position="155">
+            <caret line="15" column="81" selection-start-line="15" selection-start-column="81" selection-end-line="15" selection-end-column="81" />
+          </editor-state>
+          <multi-preview-state selected="Compose">
+            <representations>
+              <list>
+                <representation name="Compose">
+                  <settings>
+                    <setting name="previewLayout" value="Grid" />
+                    <setting name="selectedGroup" value="" />
+                  </settings>
+                </representation>
+              </list>
+            </representations>
+          </multi-preview-state>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.compose.ui/ui/1.10.0-alpha01/4a4283fb7a2802ccbc03401ee84b966bfe1892a3/ui-1.10.0-alpha01-sources.jar!/commonMain/androidx/compose/ui/spatial/RelativeLayoutBounds.kt">
+      <provider selected="true" editor-type-id="android-source-code">
+        <state>
+          <editor-state relative-caret-position="-1010">
+            <caret line="35" column="6" selection-start-line="35" selection-start-column="6" selection-end-line="35" selection-end-column="6" />
+          </editor-state>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.compose.ui/ui/1.10.0-alpha01/4a4283fb7a2802ccbc03401ee84b966bfe1892a3/ui-1.10.0-alpha01-sources.jar!/commonMain/androidx/compose/ui/layout/LayoutBoundsHolder.kt">
+      <provider selected="true" editor-type-id="android-source-code">
+        <state>
+          <editor-state relative-caret-position="477">
+            <caret line="45" column="27" selection-start-line="45" selection-start-column="27" selection-end-line="45" selection-end-column="27" />
+          </editor-state>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui/src/commonMain/kotlin/com/mrboomdev/awery/ui/utils/ComposeUtils.kt" preview="true">
+      <provider selected="true" editor-type-id="android-source-code">
+        <state selected-layout="SHOW_EDITOR">
+          <editor-state relative-caret-position="659">
+            <caret line="30" column="11" lean-forward="true" selection-start-line="30" selection-start-column="11" selection-end-line="30" selection-end-column="11" />
+          </editor-state>
+          <multi-preview-state selected="Compose">
+            <representations>
+              <list>
+                <representation name="Compose">
+                  <settings>
+                    <setting name="previewLayout" value="Grid" />
+                    <setting name="selectedGroup" value="" />
+                  </settings>
+                </representation>
+              </list>
+            </representations>
+          </multi-preview-state>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui/src/commonMain/kotlin/com/mrboomdev/awery/ui/components/IconButton.kt">
+      <provider selected="true" editor-type-id="android-source-code">
+        <state selected-layout="SHOW_EDITOR">
+          <editor-state relative-caret-position="217">
+            <caret line="33" column="6" lean-forward="true" selection-start-line="33" selection-start-column="6" selection-end-line="33" selection-end-column="6" />
+          </editor-state>
+          <multi-preview-state selected="Compose">
+            <representations>
+              <list>
+                <representation name="Compose">
+                  <settings>
+                    <setting name="previewLayout" value="Grid" />
+                    <setting name="selectedGroup" value="" />
+                  </settings>
+                </representation>
+              </list>
+            </representations>
+          </multi-preview-state>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui/src/commonMain/kotlin/com/mrboomdev/awery/ui/screens/media/MediaScreen.kt">
+      <provider selected="true" editor-type-id="android-source-code">
+        <state selected-layout="SHOW_EDITOR">
+          <editor-state relative-caret-position="385">
+            <caret line="101" column="78" lean-forward="true" selection-start-line="101" selection-start-column="78" selection-end-line="101" selection-end-column="78" />
+          </editor-state>
+          <multi-preview-state selected="Compose">
+            <representations>
+              <list>
+                <representation name="Compose">
+                  <settings>
+                    <setting name="previewLayout" value="Grid" />
+                    <setting name="selectedGroup" value="" />
+                  </settings>
+                </representation>
+              </list>
+            </representations>
+          </multi-preview-state>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui/src/commonMain/kotlin/com/mrboomdev/awery/ui/Routes.kt">
+      <provider selected="true" editor-type-id="android-source-code">
+        <state selected-layout="SHOW_EDITOR">
+          <editor-state relative-caret-position="473">
+            <caret line="165" column="40" selection-start-line="165" selection-start-column="40" selection-end-line="165" selection-end-column="40" />
+          </editor-state>
+          <multi-preview-state selected="Compose">
+            <representations>
+              <list>
+                <representation name="Compose">
+                  <settings>
+                    <setting name="previewLayout" value="Grid" />
+                    <setting name="selectedGroup" value="" />
+                  </settings>
+                </representation>
+              </list>
+            </representations>
+          </multi-preview-state>
         </state>
       </provider>
     </entry>
@@ -595,10 +1700,326 @@
         </state>
       </provider>
       <provider selected="true" editor-type-id="android-source-code">
-        <state>
-          <editor-state relative-caret-position="282">
-            <caret line="122" column="41" selection-start-line="122" selection-start-column="41" selection-end-line="122" selection-end-column="41" />
+        <state selected-layout="SHOW_EDITOR">
+          <editor-state relative-caret-position="380">
+            <caret line="944" column="13" lean-forward="true" selection-start-line="944" selection-start-column="13" selection-end-line="944" selection-end-column="13" />
           </editor-state>
+          <multi-preview-state selected="Compose">
+            <representations>
+              <list>
+                <representation name="Compose">
+                  <settings>
+                    <setting name="previewLayout" value="Grid" />
+                    <setting name="selectedGroup" value="" />
+                  </settings>
+                </representation>
+              </list>
+            </representations>
+          </multi-preview-state>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/src/commonMain/kotlin/com/mrboomdev/awery/data/settings/AwerySettings.kt">
+      <provider selected="true" editor-type-id="android-source-code">
+        <state selected-layout="SHOW_EDITOR">
+          <editor-state relative-caret-position="230">
+            <caret line="28" column="39" lean-forward="true" selection-start-line="28" selection-start-column="39" selection-end-line="28" selection-end-column="39" />
+          </editor-state>
+          <multi-preview-state selected="Compose">
+            <representations>
+              <list>
+                <representation name="Compose">
+                  <settings>
+                    <setting name="previewLayout" value="Grid" />
+                    <setting name="selectedGroup" value="" />
+                  </settings>
+                </representation>
+              </list>
+            </representations>
+          </multi-preview-state>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/src/commonMain/kotlin/com/mrboomdev/awery/data/AweryContributors.kt" preview="true">
+      <provider selected="true" editor-type-id="android-source-code">
+        <state selected-layout="SHOW_EDITOR">
+          <editor-state relative-caret-position="217">
+            <caret line="21" column="26" lean-forward="true" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+          </editor-state>
+          <multi-preview-state selected="Compose">
+            <representations>
+              <list>
+                <representation name="Compose">
+                  <settings>
+                    <setting name="previewLayout" value="Grid" />
+                    <setting name="selectedGroup" value="" />
+                  </settings>
+                </representation>
+              </list>
+            </representations>
+          </multi-preview-state>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui/src/commonMain/kotlin/com/mrboomdev/awery/ui/screens/search/SearchViewModel.kt">
+      <provider selected="true" editor-type-id="android-source-code">
+        <state selected-layout="SHOW_EDITOR">
+          <editor-state relative-caret-position="463">
+            <caret line="123" column="17" lean-forward="true" selection-start-line="123" selection-start-column="17" selection-end-line="123" selection-end-column="17" />
+          </editor-state>
+          <multi-preview-state selected="Compose">
+            <representations>
+              <list>
+                <representation name="Compose">
+                  <settings>
+                    <setting name="previewLayout" value="Grid" />
+                    <setting name="selectedGroup" value="" />
+                  </settings>
+                </representation>
+              </list>
+            </representations>
+          </multi-preview-state>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/commonMain/kotlin/com/mrboomdev/awery/core/Awery.kt">
+      <provider selected="true" editor-type-id="android-source-code">
+        <state>
+          <editor-state relative-caret-position="102">
+            <caret line="34" column="1" lean-forward="true" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
+          </editor-state>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extension/sdk/src/commonMain/kotlin/com/mrboomdev/awery/extension/sdk/Results.kt">
+      <provider selected="true" editor-type-id="android-source-code">
+        <state>
+          <editor-state relative-caret-position="186">
+            <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
+          </editor-state>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/src/commonMain/kotlin/com/mrboomdev/awery/data/server/AweryServerNotifications.kt">
+      <provider selected="true" editor-type-id="android-source-code">
+        <state selected-layout="SHOW_EDITOR">
+          <editor-state relative-caret-position="496">
+            <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+            <folding>
+              <element signature="e#41#458#0" expanded="true" />
+            </folding>
+          </editor-state>
+          <multi-preview-state selected="Compose">
+            <representations>
+              <list>
+                <representation name="Compose">
+                  <settings>
+                    <setting name="previewLayout" value="Grid" />
+                    <setting name="selectedGroup" value="" />
+                  </settings>
+                </representation>
+              </list>
+            </representations>
+          </multi-preview-state>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.compose.material3/material3/1.10.0-alpha01/21af1c9e740e878de64cd245e54e420d6bfec131/material3-1.10.0-alpha01-sources.jar!/commonMain/androidx/compose/material3/pulltorefresh/PullToRefresh.kt">
+      <provider selected="true" editor-type-id="android-source-code">
+        <state>
+          <editor-state relative-caret-position="190">
+            <caret line="666" column="10" selection-start-line="666" selection-start-column="10" selection-end-line="666" selection-end-column="10" />
+          </editor-state>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.ktor/ktor-client-core/3.3.0/f1b333f989e7b9bfcae0565b5ee10b6dd5b33544/ktor-client-core-3.3.0-sources.jar!/commonMain/io/ktor/client/request/HttpRequest.kt">
+      <provider selected="true" editor-type-id="android-source-code">
+        <state>
+          <editor-state relative-caret-position="540">
+            <caret line="356" column="9" lean-forward="true" selection-start-line="356" selection-start-column="9" selection-end-line="356" selection-end-column="9" />
+          </editor-state>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui/src/commonMain/kotlin/com/mrboomdev/awery/ui/screens/notifications/NotificationsViewModel.kt">
+      <provider selected="true" editor-type-id="android-source-code">
+        <state selected-layout="SHOW_EDITOR">
+          <editor-state relative-caret-position="783">
+            <caret line="49" column="4" lean-forward="true" selection-start-line="49" selection-start-column="4" selection-end-line="49" selection-end-column="4" />
+            <folding>
+              <element signature="e#54#406#0" expanded="true" />
+            </folding>
+          </editor-state>
+          <multi-preview-state selected="Compose">
+            <representations>
+              <list>
+                <representation name="Compose">
+                  <settings>
+                    <setting name="previewLayout" value="Grid" />
+                    <setting name="selectedGroup" value="" />
+                  </settings>
+                </representation>
+              </list>
+            </representations>
+          </multi-preview-state>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/src/commonMain/kotlin/com/mrboomdev/awery/data/AweryServer.kt">
+      <provider selected="true" editor-type-id="android-source-code">
+        <state selected-layout="SHOW_EDITOR">
+          <editor-state relative-caret-position="380">
+            <caret line="12" column="46" selection-start-line="12" selection-start-column="46" selection-end-line="12" selection-end-column="46" />
+            <folding>
+              <element signature="e#34#321#0" expanded="true" />
+            </folding>
+          </editor-state>
+          <multi-preview-state selected="Compose">
+            <representations>
+              <list>
+                <representation name="Compose">
+                  <settings>
+                    <setting name="previewLayout" value="Grid" />
+                    <setting name="selectedGroup" value="" />
+                  </settings>
+                </representation>
+              </list>
+            </representations>
+          </multi-preview-state>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui/src/commonMain/kotlin/com/mrboomdev/awery/ui/screens/auth/AuthScreen.kt">
+      <provider selected="true" editor-type-id="android-source-code">
+        <state selected-layout="SHOW_EDITOR">
+          <editor-state relative-caret-position="372">
+            <caret line="11" column="4" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+            <folding>
+              <element signature="e#45#264#0" expanded="true" />
+            </folding>
+          </editor-state>
+          <multi-preview-state selected="Compose">
+            <representations>
+              <list>
+                <representation name="Compose">
+                  <settings>
+                    <setting name="previewLayout" value="Grid" />
+                    <setting name="selectedGroup" value="" />
+                  </settings>
+                </representation>
+              </list>
+            </representations>
+          </multi-preview-state>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui/src/commonMain/kotlin/com/mrboomdev/awery/ui/screens/notifications/NotificationsScreen.kt" preview="true">
+      <provider selected="true" editor-type-id="android-source-code">
+        <state selected-layout="SHOW_EDITOR">
+          <editor-state relative-caret-position="2015">
+            <caret line="93" column="31" lean-forward="true" selection-start-line="93" selection-start-column="31" selection-end-line="93" selection-end-column="31" />
+          </editor-state>
+          <multi-preview-state selected="Compose">
+            <representations>
+              <list>
+                <representation name="Compose">
+                  <settings>
+                    <setting name="previewLayout" value="Grid" />
+                    <setting name="selectedGroup" value="" />
+                  </settings>
+                </representation>
+              </list>
+            </representations>
+          </multi-preview-state>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui/src/commonMain/kotlin/com/mrboomdev/awery/ui/screens/auth/AuthViewModel.kt">
+      <provider selected="true" editor-type-id="android-source-code">
+        <state selected-layout="SHOW_EDITOR">
+          <editor-state relative-caret-position="155">
+            <caret line="4" column="34" lean-forward="true" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
+          </editor-state>
+          <multi-preview-state selected="Compose">
+            <representations>
+              <list>
+                <representation name="Compose">
+                  <settings>
+                    <setting name="previewLayout" value="Grid" />
+                    <setting name="selectedGroup" value="" />
+                  </settings>
+                </representation>
+              </list>
+            </representations>
+          </multi-preview-state>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.compose.material3/material3/1.10.0-alpha01/21af1c9e740e878de64cd245e54e420d6bfec131/material3-1.10.0-alpha01-sources.jar!/commonMain/androidx/compose/material3/FloatingActionButton.kt">
+      <provider selected="true" editor-type-id="android-source-code">
+        <state>
+          <editor-state relative-caret-position="323">
+            <caret line="974" column="18" lean-forward="true" selection-start-line="974" selection-start-column="18" selection-end-line="974" selection-end-column="18" />
+          </editor-state>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui/src/commonMain/kotlin/com/mrboomdev/awery/ui/popups/BookmarkMediaDialog.kt" preview="true">
+      <provider selected="true" editor-type-id="android-source-code">
+        <state selected-layout="SHOW_EDITOR">
+          <editor-state relative-caret-position="690">
+            <caret line="268" column="20" lean-forward="true" selection-start-line="268" selection-start-column="20" selection-end-line="268" selection-end-column="20" />
+          </editor-state>
+          <multi-preview-state selected="Compose">
+            <representations>
+              <list>
+                <representation name="Compose">
+                  <settings>
+                    <setting name="previewLayout" value="Grid" />
+                    <setting name="selectedGroup" value="" />
+                  </settings>
+                </representation>
+              </list>
+            </representations>
+          </multi-preview-state>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui/build.gradle.kts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="589">
+          <caret line="70" column="67" selection-start-line="70" selection-start-column="67" selection-end-line="70" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.compose.material3/material3/1.10.0-alpha01/21af1c9e740e878de64cd245e54e420d6bfec131/material3-1.10.0-alpha01-sources.jar!/commonMain/androidx/compose/material3/Text.kt">
+      <provider selected="true" editor-type-id="android-source-code">
+        <state>
+          <editor-state relative-caret-position="-235">
+            <caret line="101" column="4" selection-start-line="101" selection-start-column="4" selection-end-line="101" selection-end-column="4" />
+          </editor-state>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui/src/commonMain/kotlin/com/mrboomdev/awery/ui/popups/MediaActionsDialog.kt" preview="true">
+      <provider selected="true" editor-type-id="android-source-code">
+        <state selected-layout="SHOW_EDITOR">
+          <editor-state relative-caret-position="473">
+            <caret line="209" column="21" lean-forward="true" selection-start-line="209" selection-start-column="21" selection-end-line="209" selection-end-column="21" />
+          </editor-state>
+          <multi-preview-state selected="Compose">
+            <representations>
+              <list>
+                <representation name="Compose">
+                  <settings>
+                    <setting name="previewLayout" value="Grid" />
+                    <setting name="selectedGroup" value="" />
+                  </settings>
+                </representation>
+              </list>
+            </representations>
+          </multi-preview-state>
         </state>
       </provider>
     </entry>

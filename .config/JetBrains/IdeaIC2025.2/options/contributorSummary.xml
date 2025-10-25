@@ -1,10 +1,13 @@
 <application>
   <component name="ContributorsLocalSummary">
     <e id="ActionSearchEverywhereContributor">
-      <i b="1" d="1760989812236" />
+      <i b="2" d="1761306174022" />
     </e>
     <e id="ClassSearchEverywhereContributor">
-      <i b="1" d="1760889779969" />
+      <i b="10" d="1761327420380" />
+    </e>
+    <e id="FileSearchEverywhereContributor">
+      <i b="3" d="1761330982213" />
     </e>
   </component>
 </application>

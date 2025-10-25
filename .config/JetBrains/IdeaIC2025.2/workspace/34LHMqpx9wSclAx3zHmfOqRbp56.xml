@@ -11,7 +11,7 @@
       <file current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/mrboomdev/awery/server/backend/AweryServerApplication.kt" file-id="640052" managing-fs="1760887306540">
           <provider editor-type-id="text-editor" selected="true">
-            <state relative-caret-position="381">
+            <state relative-caret-position="465">
               <caret line="18" column="15" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
             </state>
           </provider>
@@ -23,8 +23,8 @@
   <component name="FileTypeUsageLocalSummary"><![CDATA[{
   "data": {
     "Kotlin": {
-      "usageCount": 2,
-      "lastUsed": 1761018319543
+      "usageCount": 3,
+      "lastUsed": 1761062520537
     }
   }
 }]]></component>
@@ -43,7 +43,7 @@
   </component>
   <component name="LanguageUsageStatistics">
     <language id="kotlin">
-      <summary usageCount="2" lastUsage="1761018319546" />
+      <summary usageCount="3" lastUsage="1761062520539" />
     </language>
   </component>
   <component name="ProjectView">
@@ -305,7 +305,7 @@
   </component>
   <component name="ToolWindowManager">
     <layoutV2>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1644806" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16473684" />
       <window_info id="Commit" order="1" weight="0.1644806" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info id="Resources Explorer" order="3" />
@@ -327,7 +327,7 @@
       <window_info anchor="right" id="Running Devices" order="5" side_tool="true" />
       <window_info anchor="right" id="Device Explorer" order="6" side_tool="true" />
       <window_info anchor="right" id="Device Manager 2" order="7" />
-      <unified_weights bottom="0.3296332" left="0.1644806" />
+      <unified_weights bottom="0.3296332" left="0.16473684" />
     </layoutV2>
     <recentWindows>
       <value>Project</value>
@@ -377,7 +377,7 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/mrboomdev/awery/server/backend/AweryServerApplication.kt" preview="true">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="381">
+        <state relative-caret-position="465">
           <caret line="18" column="15" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
         </state>
       </provider>
