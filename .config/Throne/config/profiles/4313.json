@@ -1,0 +1,49 @@
+{
+    "bean": {
+        "_v": 0,
+        "addr": "172.67.160.44",
+        "brutal_speed": 0,
+        "c_cfg": "",
+        "c_out": "",
+        "enable_brutal": false,
+        "flow": "",
+        "mux": 0,
+        "name": "[🇺🇸] [vl-tl-ws] [251026-102246.051]",
+        "pass": "1ae6dcb3-8d05-4eee-b550-32904c88c312",
+        "port": 443,
+        "stream": {
+            "alpn": "",
+            "cert": "",
+            "ed_len": 0,
+            "ed_name": "",
+            "h_type": "",
+            "headers": "",
+            "host": "8dbc269c-38ed-0d38-7a26-970a14604a96.huangshang.site",
+            "insecure": false,
+            "method": "",
+            "net": "ws",
+            "pac_enc": "xudp",
+            "path": "/0SCvfqSaeeB74kgXZ",
+            "pbk": "",
+            "sec": "tls",
+            "sid": "",
+            "sni": "8dbc269c-38ed-0d38-7a26-970a14604a96.huangshang.site",
+            "tls_frag": false,
+            "tls_frag_fall_delay": "",
+            "tls_record_frag": false,
+            "utls": ""
+        }
+    },
+    "country": "",
+    "dl": "",
+    "gid": 6,
+    "id": 4313,
+    "report": "",
+    "traffic": {
+        "dl": 0,
+        "ul": 0
+    },
+    "type": "vless",
+    "ul": "",
+    "yc": 0
+}

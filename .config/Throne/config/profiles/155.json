@@ -1,0 +1,49 @@
+{
+    "bean": {
+        "_v": 0,
+        "addr": "179.43.156.21",
+        "brutal_speed": 0,
+        "c_cfg": "",
+        "c_out": "",
+        "enable_brutal": false,
+        "flow": "",
+        "mux": 0,
+        "name": "من ویژه وصلت میکنم اونم رایگان بیا تو چنل 🇫🇮🇩🇪 @RayphoriaHub",
+        "pass": "ddce4f3a-e99a-47de-8d93-feeb77fd358a",
+        "port": 8443,
+        "stream": {
+            "alpn": "",
+            "cert": "",
+            "ed_len": 0,
+            "ed_name": "",
+            "h_type": "",
+            "headers": "",
+            "host": "joss.gpj2.dpdns.org",
+            "insecure": false,
+            "method": "",
+            "net": "ws",
+            "pac_enc": "xudp",
+            "path": "/Free-VPN-CF-Geo-Project/CH2",
+            "pbk": "",
+            "sec": "tls",
+            "sid": "",
+            "sni": "joss.gpj2.dpdns.org",
+            "tls_frag": false,
+            "tls_frag_fall_delay": "",
+            "tls_record_frag": false,
+            "utls": "randomized"
+        }
+    },
+    "country": "",
+    "dl": "",
+    "gid": 1,
+    "id": 155,
+    "report": "",
+    "traffic": {
+        "dl": 0,
+        "ul": 0
+    },
+    "type": "vless",
+    "ul": "",
+    "yc": -1
+}

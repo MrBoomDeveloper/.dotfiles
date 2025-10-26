@@ -1,0 +1,49 @@
+{
+    "bean": {
+        "_v": 0,
+        "addr": "www.speedtest.net",
+        "brutal_speed": 0,
+        "c_cfg": "",
+        "c_out": "",
+        "enable_brutal": false,
+        "flow": "",
+        "mux": 0,
+        "name": "[🇳🇱] [vl-tl-ws] [251026-102517.195]",
+        "pass": "964342f5-d9fc-48ee-9d95-87709d0b831c",
+        "port": 443,
+        "stream": {
+            "alpn": "http/1.1",
+            "cert": "",
+            "ed_len": 0,
+            "ed_name": "",
+            "h_type": "",
+            "headers": "",
+            "host": "azadnet.comelej425.workers.dev",
+            "insecure": false,
+            "method": "",
+            "net": "ws",
+            "pac_enc": "xudp",
+            "path": "/99uqzwxlqgtzfinu?ed=2560",
+            "pbk": "",
+            "sec": "tls",
+            "sid": "",
+            "sni": "azadnet.comelej425.workers.dev",
+            "tls_frag": false,
+            "tls_frag_fall_delay": "",
+            "tls_record_frag": false,
+            "utls": "chrome"
+        }
+    },
+    "country": "",
+    "dl": "",
+    "gid": 6,
+    "id": 4234,
+    "report": "",
+    "traffic": {
+        "dl": 0,
+        "ul": 0
+    },
+    "type": "vless",
+    "ul": "",
+    "yc": 0
+}

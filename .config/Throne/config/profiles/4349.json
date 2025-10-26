@@ -1,0 +1,50 @@
+{
+    "bean": {
+        "_v": 0,
+        "addr": "172.67.209.79",
+        "aid": 0,
+        "brutal_speed": 0,
+        "c_cfg": "",
+        "c_out": "",
+        "enable_brutal": false,
+        "id": "91362cdb-81f8-4fd3-9b9f-2b24a8146a25",
+        "mux": 0,
+        "name": "[🇺🇸] [vm-tl-ws] [251026-102902.437]",
+        "port": 443,
+        "sec": "auto",
+        "stream": {
+            "alpn": "",
+            "cert": "",
+            "ed_len": 0,
+            "ed_name": "",
+            "h_type": "",
+            "headers": "",
+            "host": "ggggbbhyuuui.999834.xyz",
+            "insecure": false,
+            "method": "",
+            "net": "ws",
+            "pac_enc": "",
+            "path": "/ODznTT5fgkUw3VH0GJ",
+            "pbk": "",
+            "sec": "tls",
+            "sid": "",
+            "sni": "ggggbbhyuuui.999834.xyz",
+            "tls_frag": false,
+            "tls_frag_fall_delay": "",
+            "tls_record_frag": false,
+            "utls": ""
+        }
+    },
+    "country": "",
+    "dl": "",
+    "gid": 6,
+    "id": 4349,
+    "report": "",
+    "traffic": {
+        "dl": 0,
+        "ul": 0
+    },
+    "type": "vmess",
+    "ul": "",
+    "yc": 0
+}

@@ -1,0 +1,49 @@
+{
+    "bean": {
+        "_v": 0,
+        "addr": "146.19.106.108",
+        "brutal_speed": 0,
+        "c_cfg": "",
+        "c_out": "",
+        "enable_brutal": false,
+        "flow": "xtls-rprx-vision",
+        "mux": 0,
+        "name": "[🇨🇦] [vl-re-ra] [251026-102505.464]",
+        "pass": "89b4b3b1-f8f3-45e8-b320-813890725a63",
+        "port": 8443,
+        "stream": {
+            "alpn": "",
+            "cert": "",
+            "ed_len": 0,
+            "ed_name": "",
+            "h_type": "",
+            "headers": "",
+            "host": "",
+            "insecure": false,
+            "method": "",
+            "net": "raw",
+            "pac_enc": "xudp",
+            "path": "",
+            "pbk": "RLnn_xv-bEz-EyKftk39W7X9dcCPUKQVHesIib6JxDo",
+            "sec": "tls",
+            "sid": "7f82332c5128e55f",
+            "sni": "www.microsoft.com",
+            "tls_frag": false,
+            "tls_frag_fall_delay": "",
+            "tls_record_frag": false,
+            "utls": "safari"
+        }
+    },
+    "country": "",
+    "dl": "",
+    "gid": 6,
+    "id": 3843,
+    "report": "",
+    "traffic": {
+        "dl": 0,
+        "ul": 0
+    },
+    "type": "vless",
+    "ul": "",
+    "yc": 0
+}

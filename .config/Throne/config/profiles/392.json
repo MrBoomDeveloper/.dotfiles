@@ -1,0 +1,40 @@
+{
+    "bean": {
+        "_v": 0,
+        "addr": "209.135.168.230",
+        "allowInsecure": false,
+        "alpn": "",
+        "authPayload": "",
+        "brutal_speed": 0,
+        "c_cfg": "",
+        "c_out": "",
+        "caText": "",
+        "connectionReceiveWindow": 0,
+        "disableMtuDiscovery": false,
+        "disableSni": false,
+        "downloadMbps": 0,
+        "enable_brutal": false,
+        "forceExternal": false,
+        "hop_interval": "",
+        "mux": 0,
+        "name": "🇺🇸US(AzadNet.t.me)",
+        "obfsPassword": "",
+        "password": "bde0cf51-5bce-473a-8c7d-68949e7e5cfd",
+        "port": 8080,
+        "sni": "us4.youxuan.wiki",
+        "streamReceiveWindow": 0,
+        "uploadMbps": 0
+    },
+    "country": "",
+    "dl": "",
+    "gid": 3,
+    "id": 392,
+    "report": "",
+    "traffic": {
+        "dl": 0,
+        "ul": 0
+    },
+    "type": "hysteria2",
+    "ul": "",
+    "yc": 0
+}

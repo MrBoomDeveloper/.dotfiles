@@ -1,0 +1,49 @@
+{
+    "bean": {
+        "_v": 0,
+        "addr": "kanal.mtmvpn.shop",
+        "brutal_speed": 0,
+        "c_cfg": "",
+        "c_out": "",
+        "enable_brutal": false,
+        "flow": "",
+        "mux": 0,
+        "name": "🇷🇺@FreakConfigvless://df0680ca-e43c-498d-ed86-8e196eedd012@638968569914906705.ahvaz-blkaft-aaag.info:8880?mode=gun&security=none&encryption=none&type=grpc#🇫🇷@FreakConfigvless://df0680ca-e43c-498d-ed86-8e196eedd012@77.91.123.207:8880?mode=gun&security=none&encryption=none&authority=/?BIA_TELEGRAM@MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI&type=grpc#🇳🇱@FreakConfigvless://df0680ca-e43c-498d-ed86-8e196eedd012@638958556051243448.kish-drc-tusabl.info:8880?mode=gun&security=none&encryption=none&type=grpc#🇫🇷@FreakConfigvless://df0680ca-e43c-498d-ed86-8e196eedd012@185.234.64.94:8880?mode=gun&security=none&encryption=none&type=grpc#🇫🇷@FreakConfigvless://df0680ca-e43c-498d-ed86-8e196eedd012@185.138.164.11:8880?mode=gun&security=none&encryption=none&authority=/?BIA_TELEGRAM@MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI&type=grpc#🇬🇧@FreakConfigvless://df0680ca-e43c-498d-ed86-8e196eedd012@195.42.233.5:8880?mode=gun&security=none&encryption=none&authority=/?BIA_TELEGRAM@MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI&type=grpc#🇫🇷@FreakConfigvless://df0680ca-e43c-498d-ed86-8e196eedd012@45.12.142.55:8880?mode=gun&security=none&encryption=none&type=grpc#🇳🇱@FreakConfig",
+        "pass": "58e15213-48ea-4724-9455-90bad9da6c3b",
+        "port": 2053,
+        "stream": {
+            "alpn": "",
+            "cert": "",
+            "ed_len": 0,
+            "ed_name": "",
+            "h_type": "",
+            "headers": "",
+            "host": "",
+            "insecure": false,
+            "method": "",
+            "net": "grpc",
+            "pac_enc": "xudp",
+            "path": "Tel:@VPN_KING_V2RAY",
+            "pbk": "gdYd0xGNqG_Ms0ejqROgvndr4cNgUEQoTQfuNQ4oKwk",
+            "sec": "tls",
+            "sid": "75bc98c9e7964d22",
+            "sni": "tgju.org",
+            "tls_frag": false,
+            "tls_frag_fall_delay": "",
+            "tls_record_frag": false,
+            "utls": "chrome"
+        }
+    },
+    "country": "",
+    "dl": "",
+    "gid": 7,
+    "id": 4468,
+    "report": "",
+    "traffic": {
+        "dl": 0,
+        "ul": 0
+    },
+    "type": "vless",
+    "ul": "",
+    "yc": 0
+}

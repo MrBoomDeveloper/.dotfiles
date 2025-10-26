@@ -1,0 +1,49 @@
+{
+    "bean": {
+        "_v": 0,
+        "addr": "vpn-srv-2.circlevpn.net",
+        "brutal_speed": 0,
+        "c_cfg": "",
+        "c_out": "",
+        "enable_brutal": false,
+        "flow": "",
+        "mux": 0,
+        "name": "[🇫🇷] [vl-tl-ra] [251026-102628.138]",
+        "pass": "c30ec165-fcb4-47af-8e68-70d88a3b2910",
+        "port": 37096,
+        "stream": {
+            "alpn": "",
+            "cert": "",
+            "ed_len": 0,
+            "ed_name": "",
+            "h_type": "",
+            "headers": "",
+            "host": "",
+            "insecure": false,
+            "method": "",
+            "net": "raw",
+            "pac_enc": "xudp",
+            "path": "",
+            "pbk": "",
+            "sec": "tls",
+            "sid": "",
+            "sni": "vpn-srv-2.circlevpn.net",
+            "tls_frag": false,
+            "tls_frag_fall_delay": "",
+            "tls_record_frag": false,
+            "utls": ""
+        }
+    },
+    "country": "",
+    "dl": "",
+    "gid": 6,
+    "id": 3995,
+    "report": "",
+    "traffic": {
+        "dl": 0,
+        "ul": 0
+    },
+    "type": "vless",
+    "ul": "",
+    "yc": 0
+}

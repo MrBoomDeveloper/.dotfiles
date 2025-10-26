@@ -1,0 +1,49 @@
+{
+    "bean": {
+        "_v": 0,
+        "addr": "85.17.142.172",
+        "brutal_speed": 0,
+        "c_cfg": "",
+        "c_out": "",
+        "enable_brutal": false,
+        "flow": "",
+        "mux": 0,
+        "name": "🔥Join+Telegram:@Farah_VPN🟣",
+        "pass": "261e2282-9ccc-4e48-aed2-fa1244b6fdf5",
+        "port": 1504,
+        "stream": {
+            "alpn": "",
+            "cert": "",
+            "ed_len": 0,
+            "ed_name": "",
+            "h_type": "",
+            "headers": "",
+            "host": "",
+            "insecure": false,
+            "method": "",
+            "net": "tcp",
+            "pac_enc": "xudp",
+            "path": "",
+            "pbk": "gVZhQqdCjhe1A2HtU2yMre0dFQXX6hOOLY2vhmJhXQs",
+            "sec": "tls",
+            "sid": "",
+            "sni": "journalofbigdata.springeropen.com",
+            "tls_frag": false,
+            "tls_frag_fall_delay": "",
+            "tls_record_frag": false,
+            "utls": "random"
+        }
+    },
+    "country": "",
+    "dl": "",
+    "gid": 1,
+    "id": 118,
+    "report": "",
+    "traffic": {
+        "dl": 0,
+        "ul": 0
+    },
+    "type": "vless",
+    "ul": "",
+    "yc": -1
+}

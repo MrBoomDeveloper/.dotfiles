@@ -1,0 +1,49 @@
+{
+    "bean": {
+        "_v": 0,
+        "addr": "38.54.23.58",
+        "brutal_speed": 0,
+        "c_cfg": "",
+        "c_out": "",
+        "enable_brutal": false,
+        "flow": "xtls-rprx-vision",
+        "mux": 0,
+        "name": "[🇭🇰] [vl-re-ra] [251026-102415.627]",
+        "pass": "6048472f-0993-4ae0-8203-960b9a0f4113",
+        "port": 443,
+        "stream": {
+            "alpn": "",
+            "cert": "",
+            "ed_len": 0,
+            "ed_name": "",
+            "h_type": "",
+            "headers": "",
+            "host": "",
+            "insecure": false,
+            "method": "",
+            "net": "raw",
+            "pac_enc": "xudp",
+            "path": "",
+            "pbk": "i7xxqA7h16NpQQAGiQJKxubs-_IRCUUlredSK7swTkw",
+            "sec": "tls",
+            "sid": "",
+            "sni": "www.amazon.com",
+            "tls_frag": false,
+            "tls_frag_fall_delay": "",
+            "tls_record_frag": false,
+            "utls": "chrome"
+        }
+    },
+    "country": "",
+    "dl": "",
+    "gid": 6,
+    "id": 4038,
+    "report": "",
+    "traffic": {
+        "dl": 0,
+        "ul": 0
+    },
+    "type": "vless",
+    "ul": "",
+    "yc": 0
+}

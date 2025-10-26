@@ -1,0 +1,50 @@
+{
+    "bean": {
+        "_v": 0,
+        "addr": "FFFFfFFvvBgnh.iRAn2035.DpDnS.OrG",
+        "aid": 0,
+        "brutal_speed": 0,
+        "c_cfg": "",
+        "c_out": "",
+        "enable_brutal": false,
+        "id": "a94fafdb-10d6-46c2-be8a-5c2e8358fbb0",
+        "mux": 0,
+        "name": "🇽🇽XX(AzadNet.t.me)",
+        "port": 443,
+        "sec": "auto",
+        "stream": {
+            "alpn": "",
+            "cert": "",
+            "ed_len": 0,
+            "ed_name": "",
+            "h_type": "",
+            "headers": "",
+            "host": "fffffffvvbgnh.iran2035.dpdns.org",
+            "insecure": false,
+            "method": "",
+            "net": "ws",
+            "pac_enc": "",
+            "path": "/CjJ9A46ZRHvgWvVcmjyiKVby2Lp",
+            "pbk": "",
+            "sec": "tls",
+            "sid": "",
+            "sni": "fffffffvvbgnh.iran2035.dpdns.org",
+            "tls_frag": false,
+            "tls_frag_fall_delay": "",
+            "tls_record_frag": false,
+            "utls": ""
+        }
+    },
+    "country": "",
+    "dl": "",
+    "gid": 3,
+    "id": 3120,
+    "report": "",
+    "traffic": {
+        "dl": 0,
+        "ul": 0
+    },
+    "type": "vmess",
+    "ul": "",
+    "yc": 0
+}

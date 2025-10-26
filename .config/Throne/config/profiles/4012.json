@@ -1,0 +1,49 @@
+{
+    "bean": {
+        "_v": 0,
+        "addr": "195.22.157.104",
+        "brutal_speed": 0,
+        "c_cfg": "",
+        "c_out": "",
+        "enable_brutal": false,
+        "flow": "",
+        "mux": 0,
+        "name": "[🇬🇧] [tr-tl-ht] [251026-102002.444]",
+        "pass": "1sbtkLK7F3",
+        "port": 37085,
+        "stream": {
+            "alpn": "http/1.1",
+            "cert": "",
+            "ed_len": 0,
+            "ed_name": "",
+            "h_type": "",
+            "headers": "",
+            "host": "joon.arshiacomplus.dpdns.org",
+            "insecure": false,
+            "method": "",
+            "net": "httpupgrade",
+            "pac_enc": "",
+            "path": "/moshali2plus",
+            "pbk": "",
+            "sec": "tls",
+            "sid": "",
+            "sni": "joon.arshiacomplus.dpdns.org",
+            "tls_frag": false,
+            "tls_frag_fall_delay": "",
+            "tls_record_frag": false,
+            "utls": "chrome"
+        }
+    },
+    "country": "",
+    "dl": "",
+    "gid": 6,
+    "id": 4012,
+    "report": "",
+    "traffic": {
+        "dl": 0,
+        "ul": 0
+    },
+    "type": "trojan",
+    "ul": "",
+    "yc": 0
+}

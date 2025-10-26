@@ -1,0 +1,51 @@
+{
+    "bean": {
+        "_v": 0,
+        "addr": "95.163.176.37",
+        "brutal_speed": 0,
+        "c_cfg": "",
+        "c_out": "",
+        "enable_brutal": false,
+        "method": "chacha20-ietf-poly1305",
+        "mux": 0,
+        "name": "🇹🇷telegram ➠ @v2rayNG_Matsuriss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozZ0xvbWN6NnRJbWVMVWo5ZzdnNmJ5@95.163.176.37:8506#🇨🇦telegram ➠ @v2rayNG_Matsuriss://YWVzLTI1Ni1nY206YzA2ODVmY2ItNWU0Yy00ZWNkLTg3NzYtODhmMDI0MGM2ZTBh@45.134.13.75:443#🇺🇲telegram ➠ @v2rayNG_Matsuriss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpsclU1cXpXNW5PSHNJV2lEUmNET3BZ@95.163.176.37:8506#🇹🇷telegram ➠ @v2rayNG_Matsuriss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpuNEo5S3VXZ0JCWFBCb0RuMFNkcHJE@95.163.176.37:8506#🇹🇷telegram ➠ @v2rayNG_Matsuri",
+        "pass": "VdswxetVc6AhIps18rtYbm",
+        "plugin": "",
+        "port": 8506,
+        "stream": {
+            "alpn": "",
+            "cert": "",
+            "ed_len": 0,
+            "ed_name": "",
+            "h_type": "",
+            "headers": "",
+            "host": "",
+            "insecure": false,
+            "method": "",
+            "net": "tcp",
+            "pac_enc": "",
+            "path": "",
+            "pbk": "",
+            "sec": "",
+            "sid": "",
+            "sni": "",
+            "tls_frag": false,
+            "tls_frag_fall_delay": "",
+            "tls_record_frag": false,
+            "utls": ""
+        },
+        "uot": 0
+    },
+    "country": "",
+    "dl": "",
+    "gid": 7,
+    "id": 4420,
+    "report": "",
+    "traffic": {
+        "dl": 0,
+        "ul": 0
+    },
+    "type": "shadowsocks",
+    "ul": "",
+    "yc": 0
+}

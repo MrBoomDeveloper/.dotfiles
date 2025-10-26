@@ -1,0 +1,41 @@
+{
+    "bean": {
+        "_v": 0,
+        "addr": "62.210.127.217",
+        "allowInsecure": true,
+        "alpn": "h3",
+        "authPayload": "dongtaiwang.com",
+        "authPayloadType": 1,
+        "brutal_speed": 0,
+        "c_cfg": "",
+        "c_out": "",
+        "caText": "",
+        "connectionReceiveWindow": 0,
+        "disableMtuDiscovery": false,
+        "disableSni": false,
+        "downloadMbps": 55,
+        "enable_brutal": false,
+        "forceExternal": false,
+        "hop_interval": "",
+        "mux": 0,
+        "name": "🇫🇷 机场推荐:dafei.de 法国 02",
+        "obfsPassword": "",
+        "port": 35511,
+        "protocol": 0,
+        "sni": "apple.com",
+        "streamReceiveWindow": 0,
+        "uploadMbps": 11
+    },
+    "country": "",
+    "dl": "",
+    "gid": 5,
+    "id": 3809,
+    "report": "",
+    "traffic": {
+        "dl": 0,
+        "ul": 0
+    },
+    "type": "hysteria",
+    "ul": "",
+    "yc": 0
+}

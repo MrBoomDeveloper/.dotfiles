@@ -22,7 +22,7 @@
 		"network",
 		"hyprland/language",
 		"clock",
-		"group/group-power"
+		"custom/power"
 	],
 
 	"backlight": {
@@ -101,13 +101,13 @@
 	},
 
 	"cpu": {
-		"interval": 3,
+		"interval": 60,
 		"format": "{usage}%  ",
 		"on-click": "foot --app-id htop htop",
 	},
 
 	"memory": {
-		"interval": 30,
+		"interval": 60,
 		"format": "{percentage}% 🎟",
 		"on-click": "foot --app-id htop htop",
 		"tooltip-format": "Used: {used:0.1f}G/{total:0.1f}G. Swap: {swapUsed:0.1f}G/{swapTotal:0.1f}G",
@@ -137,7 +137,7 @@
 		"tooltip-format-wifi": "{ifname}: {ipaddr}/{cidr} ",
 		"format-linked": "(No IP) ",
 		"format-disconnected": "Disconnected ⚠",
-		"on-click": "nmtui"
+		"on-click": "nm-connection-editor"
 	},
 	
 	"battery": {
@@ -159,37 +159,9 @@
 		"on-click": "foot --app-id pulsemixer pulsemixer"
 	},
 
-	"group/group-power": {
-		"orientation": "inherit",
-
-		"drawer": {
-			"transition-duration": 250,
-			"children-class": "not-power",
-			"transition-left-to-right": false,
-		},
-
-		"modules": [
-			"custom/power", // First element is the "group leader" and won't ever be hidden
-			"custom/quit",
-			"custom/reboot"
-		]
-	},
-
-	"custom/quit": {
-		"format": "󰗼",
-		"tooltip-format": "Quit",
-		"on-click": "hyprctl dispatch exit"
-	},
-
-	"custom/reboot": {
-		"format": "󰜉",
-    		"tooltip-format": "Reboot",
-		"on-click": "reboot"
-	},
-
 	"custom/power": {
 		"format": "",
-		"tooltip-format": "Shutdown",
-		"on-click": "shutdown now"
+		"tooltip": false,
+		"on-click": "~/.config/rofi/scripts/powermenu_t4"
 	}
 }

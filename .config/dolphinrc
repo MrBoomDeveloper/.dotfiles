@@ -1,9 +1,17 @@
 MenuBar=Disabled
 
+[ContextMenu]
+ShowAddToPlaces=false
+ShowOpenInNewWindow=false
+ShowOpenInSplitView=false
+ShowSortBy=false
+ShowViewMode=false
+
 [General]
 BrowseThroughArchives=true
 EditableUrl=true
 OpenExternallyCalledFolderInNewTab=true
+RememberOpenedTabs=false
 ShowFullPathInTitlebar=true
 Version=202
 ViewPropsTimestamp=2025,10,19,5,56,2.309
@@ -17,3 +25,6 @@ MenuBar=Disabled
 
 [PreviewSettings]
 Plugins=appimagethumbnail,audiothumbnail,glycin-heif,comicbookthumbnail,cursorthumbnail,djvuthumbnail,ebookthumbnail,exrthumbnail,directorythumbnail,imagethumbnail,glycin-image-rs,jpegthumbnail,jxl,glycin-jxl,kraorathumbnail,windowsexethumbnail,windowsimagethumbnail,opendocumentthumbnail,glycin-svg,librsvg,svgthumbnail,gsf-office
+
+[ViewPropertiesDialog]
+2 screens: Window-Maximized=true

@@ -1,0 +1,49 @@
+{
+    "bean": {
+        "_v": 0,
+        "addr": "bless.network",
+        "brutal_speed": 0,
+        "c_cfg": "",
+        "c_out": "",
+        "enable_brutal": false,
+        "flow": "",
+        "mux": 0,
+        "name": "q_204",
+        "pass": "c173f416-6c00-4b5b-bfec-d21f62227c1a",
+        "port": 443,
+        "stream": {
+            "alpn": "",
+            "cert": "",
+            "ed_len": 0,
+            "ed_name": "",
+            "h_type": "",
+            "headers": "",
+            "host": "hosseinvpn-15x.pages.dev",
+            "insecure": false,
+            "method": "",
+            "net": "ws",
+            "pac_enc": "xudp",
+            "path": "/7q9pdripv9fvek59?ed=2560",
+            "pbk": "",
+            "sec": "tls",
+            "sid": "",
+            "sni": "hosseinvpn-15x.pages.dev",
+            "tls_frag": false,
+            "tls_frag_fall_delay": "",
+            "tls_record_frag": false,
+            "utls": "randomized"
+        }
+    },
+    "country": "",
+    "dl": "",
+    "gid": 4,
+    "id": 3347,
+    "report": "",
+    "traffic": {
+        "dl": 0,
+        "ul": 0
+    },
+    "type": "vless",
+    "ul": "",
+    "yc": 0
+}

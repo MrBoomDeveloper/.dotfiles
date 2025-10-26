@@ -1,0 +1,40 @@
+{
+    "bean": {
+        "_v": 0,
+        "addr": "40.233.71.37",
+        "allowInsecure": true,
+        "alpn": "",
+        "authPayload": "",
+        "brutal_speed": 0,
+        "c_cfg": "",
+        "c_out": "",
+        "caText": "",
+        "connectionReceiveWindow": 0,
+        "disableMtuDiscovery": false,
+        "disableSni": false,
+        "downloadMbps": 0,
+        "enable_brutal": false,
+        "forceExternal": false,
+        "hop_interval": "",
+        "mux": 0,
+        "name": "🇨🇦CA(AzadNet.t.me)",
+        "obfsPassword": "",
+        "password": "2429bee3-e0c1-47dd-b420-75e6512b184b",
+        "port": 30300,
+        "sni": "www.bing.com",
+        "streamReceiveWindow": 0,
+        "uploadMbps": 0
+    },
+    "country": "",
+    "dl": "",
+    "gid": 3,
+    "id": 362,
+    "report": "",
+    "traffic": {
+        "dl": 0,
+        "ul": 0
+    },
+    "type": "hysteria2",
+    "ul": "",
+    "yc": 0
+}

@@ -1,0 +1,49 @@
+{
+    "bean": {
+        "_v": 0,
+        "addr": "86.104.74.155",
+        "brutal_speed": 0,
+        "c_cfg": "",
+        "c_out": "",
+        "enable_brutal": false,
+        "flow": "",
+        "mux": 0,
+        "name": "🇫🇷@FreakConfigvless://17088e1c-2ec5-41e9-e948-f711d0a2bbee@91.99.179.41:24199?security=&encryption=none&headerType=none&type=tcp#🇩🇪@FreakConfigvless://df0680ca-e43c-498d-ed86-8e196eedd012@146.19.230.250:8880?mode=gun&security=&encryption=none&type=grpc#🇬🇧@FreakConfigvless://df0680ca-e43c-498d-ed86-8e196eedd012@45.140.147.74:8880?mode=gun&security=&encryption=none&type=grpc#🇳🇱@FreakConfigvless://TELEGRAM-CONFiGLiNE@test.fast.hosting-ip.com:80?mode=auto&path=/telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE?ed=2048&security=&encryption=none&host=salambelachii.global.ssl.fastly.net&type=xhttp#🇩🇪@FreakConfigvless://57c71c19-6eb1-466b-e921-d3120fbbbe1a@91.98.152.204:443?mode=auto&path=/d&security=reality&encryption=none&pbk=EmANttVSrBWJM1i1elurg1V0tdutQC2W_Ms_KiH6vU4&fp=chrome&spx=/&type=xhttp&sni=store.steampowered.com#🇩🇪@FreakConfigvless://e999db7a-1b17-4da6-bc37-c9fa24af2e93@best.cdniran.info:443?path=/&security=tls&alpn=h3,h2&encryption=none&host=smart.trevanda.info&fp=chrome&type=ws&sni=smart.trevanda.info#🇩🇪@FreakConfigvless://3c36eadb-747a-4166-8db0-23fec9883ea2@45.131.209.189:443?path=/?ed=2048&security=tls&alpn=http/1.1&encryption=none&fp=firefox&type=ws&sni=HarmonY-427.pages.DEV#🇹🇷@FreakConfig",
+        "pass": "df0680ca-e43c-498d-ed86-8e196eedd012",
+        "port": 8880,
+        "stream": {
+            "alpn": "",
+            "cert": "",
+            "ed_len": 0,
+            "ed_name": "",
+            "h_type": "",
+            "headers": "",
+            "host": "",
+            "insecure": false,
+            "method": "",
+            "net": "grpc",
+            "pac_enc": "xudp",
+            "path": "",
+            "pbk": "",
+            "sec": "",
+            "sid": "",
+            "sni": "",
+            "tls_frag": false,
+            "tls_frag_fall_delay": "",
+            "tls_record_frag": false,
+            "utls": ""
+        }
+    },
+    "country": "",
+    "dl": "",
+    "gid": 7,
+    "id": 4465,
+    "report": "",
+    "traffic": {
+        "dl": 0,
+        "ul": 0
+    },
+    "type": "vless",
+    "ul": "",
+    "yc": 0
+}

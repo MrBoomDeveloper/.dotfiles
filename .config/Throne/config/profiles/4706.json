@@ -1,0 +1,49 @@
+{
+    "bean": {
+        "_v": 0,
+        "addr": "sub.shadowsokstes.workers.dev",
+        "brutal_speed": 0,
+        "c_cfg": "",
+        "c_out": "",
+        "enable_brutal": false,
+        "flow": "",
+        "mux": 0,
+        "name": "𝐒𝐇𝐀𝐃𝐎𝐖𝐒𝐎𝐂𝐊𝐒𝐒𝐇𝐎𝐏Vmess Reality  ✅پشتیبانی ⬅️ همراه اول 🚥 ایرانسل 🚥 و....🧨 با گذاشتن ریکشن از ما حمایت کنید 🥺【﻿دوستان　عزیز　برای　استفاده　از　لینک　های　ＳＵＢبر　روی　لینک　های　پست　کلیک　کنید　و　از　آموزش　های　که　داخل　پست　گذاشتم　استفاده　کنید❤️】لینک ＳＵＢ برای Ｖ２ＲＡＹ 👇https://t.me/shadowsocksshop/1496لینک ＳＵＢ برای ＳＩＮＧ ＢＯＸ👇‌https://t.me/shadowsocksshop/1500",
+        "pass": "70f5d3b8-7d31-4d7d-9467-e43752d66fca",
+        "port": 2096,
+        "stream": {
+            "alpn": "h2,http/1.1",
+            "cert": "",
+            "ed_len": 0,
+            "ed_name": "",
+            "h_type": "",
+            "headers": "",
+            "host": "sub.shadowsokstes.WoRkErs.DeV",
+            "insecure": false,
+            "method": "",
+            "net": "ws",
+            "pac_enc": "xudp",
+            "path": "vless-ws/?ed=2048",
+            "pbk": "",
+            "sec": "tls",
+            "sid": "",
+            "sni": "sub.shadowsokstes.WoRkErs.DeV",
+            "tls_frag": false,
+            "tls_frag_fall_delay": "",
+            "tls_record_frag": false,
+            "utls": "randomized"
+        }
+    },
+    "country": "",
+    "dl": "",
+    "gid": 7,
+    "id": 4706,
+    "report": "",
+    "traffic": {
+        "dl": 0,
+        "ul": 0
+    },
+    "type": "vless",
+    "ul": "",
+    "yc": 0
+}

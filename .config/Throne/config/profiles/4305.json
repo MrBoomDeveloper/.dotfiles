@@ -1,0 +1,49 @@
+{
+    "bean": {
+        "_v": 0,
+        "addr": "15.204.12.101",
+        "brutal_speed": 0,
+        "c_cfg": "",
+        "c_out": "",
+        "enable_brutal": false,
+        "flow": "",
+        "mux": 0,
+        "name": "[🇺🇸] [vl-re-ra] [251026-102552.393]",
+        "pass": "a54cc2cf-c22f-4739-9adc-4ed5a7b08841",
+        "port": 443,
+        "stream": {
+            "alpn": "",
+            "cert": "",
+            "ed_len": 0,
+            "ed_name": "",
+            "h_type": "",
+            "headers": "",
+            "host": "",
+            "insecure": false,
+            "method": "",
+            "net": "raw",
+            "pac_enc": "xudp",
+            "path": "",
+            "pbk": "KDmv-AW9OoLSB4iA22vKDKOFf6O7BTMuQvETDI9aTBQ",
+            "sec": "tls",
+            "sid": "4d",
+            "sni": "yandex.com",
+            "tls_frag": false,
+            "tls_frag_fall_delay": "",
+            "tls_record_frag": false,
+            "utls": "safari"
+        }
+    },
+    "country": "",
+    "dl": "",
+    "gid": 6,
+    "id": 4305,
+    "report": "",
+    "traffic": {
+        "dl": 0,
+        "ul": 0
+    },
+    "type": "vless",
+    "ul": "",
+    "yc": 0
+}

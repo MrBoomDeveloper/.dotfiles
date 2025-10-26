@@ -1,0 +1,50 @@
+{
+    "bean": {
+        "_v": 0,
+        "addr": "104.21.46.90",
+        "aid": 0,
+        "brutal_speed": 0,
+        "c_cfg": "",
+        "c_out": "",
+        "enable_brutal": false,
+        "id": "1ae6dcb3-8d05-4eee-b550-32904c88c312",
+        "mux": 0,
+        "name": "[🇺🇸] [vm-tl-ws] [251026-102831.893]",
+        "port": 443,
+        "sec": "auto",
+        "stream": {
+            "alpn": "",
+            "cert": "",
+            "ed_len": 0,
+            "ed_name": "",
+            "h_type": "",
+            "headers": "",
+            "host": "fde63b24-7fe1-5a22-949e-a30c5a39eb58.freevpnatm.dpdns.org",
+            "insecure": false,
+            "method": "",
+            "net": "ws",
+            "pac_enc": "",
+            "path": "/ri9mOOVJuAimB74kgXZ",
+            "pbk": "",
+            "sec": "tls",
+            "sid": "",
+            "sni": "fde63b24-7fe1-5a22-949e-a30c5a39eb58.freevpnatm.dpdns.org",
+            "tls_frag": false,
+            "tls_frag_fall_delay": "",
+            "tls_record_frag": false,
+            "utls": ""
+        }
+    },
+    "country": "",
+    "dl": "",
+    "gid": 6,
+    "id": 4348,
+    "report": "",
+    "traffic": {
+        "dl": 0,
+        "ul": 0
+    },
+    "type": "vmess",
+    "ul": "",
+    "yc": 0
+}

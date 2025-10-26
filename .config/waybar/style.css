@@ -92,17 +92,7 @@ label:focus {
     color: @text;
 }
 
-#group-power > * > * {
-	padding: 0;
-}
-
-#custom-quit,
-#custom-reboot,
 #custom-power {
-	padding: 0 16px;
-}
-
-#custom-quit,  
-#custom-reboot {
-	font-size: 16px;
+	padding-right: 16px;
+	padding-left: 8px;
 }

@@ -17,7 +17,7 @@
     </option>
   </component>
   <component name="FileEditorManager">
-    <leaf ideFingerprint="3uroz0w70fxl7" SIDE_TABS_SIZE_LIMIT_KEY="-1">
+    <leaf ideFingerprint="3dz78ur7ajljs" SIDE_TABS_SIZE_LIMIT_KEY="-1">
       <file>
         <entry file="file://$PROJECT_DIR$/ui/src/commonMain/kotlin/com/mrboomdev/awery/ui/screens/auth/AuthScreen.kt" file-id="835594" managing-fs="1760887306540">
           <provider editor-type-id="android-source-code" selected="true">
@@ -73,8 +73,8 @@
         <entry file="file://$PROJECT_DIR$/ui/src/commonMain/kotlin/com/mrboomdev/awery/ui/popups/MediaActionsDialog.kt" file-id="48048" managing-fs="1760887306540">
           <provider editor-type-id="android-source-code" selected="true">
             <state selected-layout="SHOW_EDITOR">
-              <editor-state relative-caret-position="473">
-                <caret line="209" column="21" lean-forward="true" selection-start-line="209" selection-start-column="21" selection-end-line="209" selection-end-column="21" />
+              <editor-state relative-caret-position="265">
+                <caret line="209" column="21" selection-start-line="209" selection-start-column="21" selection-end-line="209" selection-end-column="21" />
               </editor-state>
               <multi-preview-state selected="Compose">
                 <representations>
@@ -102,8 +102,8 @@
       "lastUsed": 1760887855064
     },
     "Kotlin": {
-      "usageCount": 73,
-      "lastUsed": 1761331687764
+      "usageCount": 76,
+      "lastUsed": 1761466322972
     },
     "CLASS": {
       "usageCount": 1,
@@ -132,32 +132,32 @@
     </replaceStrings>
   </component>
   <component name="GitSEFilterConfiguration">{}</component>
-  <component name="IdeDocumentHistory"><![CDATA[{
-  "changedPaths": [
-    "/home/mrboomdev/IdeaProjects/Awery/gradle/compose.versions.toml",
-    "/home/mrboomdev/IdeaProjects/Awery/core/build.gradle.kts",
-    "/home/mrboomdev/IdeaProjects/Awery/app/build.gradle.kts",
-    "/home/mrboomdev/IdeaProjects/Awery/ui/src/commonMain/kotlin/com/mrboomdev/awery/ui/utils/PaddingUtils.kt",
-    "/home/mrboomdev/IdeaProjects/Awery/ui/src/commonMain/kotlin/com/mrboomdev/awery/ui/screens/intro/introDefaults.kt",
-    "/home/mrboomdev/IdeaProjects/Awery/ui/src/commonMain/kotlin/com/mrboomdev/awery/ui/utils/LazyListUtils.kt",
-    "/home/mrboomdev/IdeaProjects/Awery/ui/src/commonMain/kotlin/com/mrboomdev/awery/ui/components/BottomSheetDialog.kt",
-    "/home/mrboomdev/IdeaProjects/Awery/ui/src/commonMain/kotlin/com/mrboomdev/awery/ui/utils/ComposeUtils.kt",
-    "/home/mrboomdev/IdeaProjects/Awery/ui/src/commonMain/kotlin/com/mrboomdev/awery/ui/components/IconButton.kt",
-    "/home/mrboomdev/IdeaProjects/Awery/ui/src/commonMain/kotlin/com/mrboomdev/awery/ui/App.kt",
-    "/home/mrboomdev/IdeaProjects/Awery/ui/src/commonMain/kotlin/com/mrboomdev/awery/ui/Navigation.kt",
-    "/home/mrboomdev/IdeaProjects/Awery/ui/src/commonMain/kotlin/com/mrboomdev/awery/ui/Routes.kt",
-    "/home/mrboomdev/IdeaProjects/Awery/ui/src/commonMain/kotlin/com/mrboomdev/awery/ui/screens/auth/AuthViewModel.kt",
-    "/home/mrboomdev/IdeaProjects/Awery/ui/src/commonMain/kotlin/com/mrboomdev/awery/ui/screens/auth/AuthScreen.kt",
-    "/home/mrboomdev/IdeaProjects/Awery/data/src/commonMain/kotlin/com/mrboomdev/awery/data/settings/AwerySettings.kt",
-    "/home/mrboomdev/IdeaProjects/Awery/data/src/commonMain/kotlin/com/mrboomdev/awery/data/server/AweryServerNotifications.kt",
-    "/home/mrboomdev/IdeaProjects/Awery/ui/src/commonMain/kotlin/com/mrboomdev/awery/ui/screens/notifications/NotificationsViewModel.kt",
-    "/home/mrboomdev/IdeaProjects/Awery/data/src/commonMain/kotlin/com/mrboomdev/awery/data/AweryServer.kt",
-    "/home/mrboomdev/IdeaProjects/Awery/ui/src/commonMain/kotlin/com/mrboomdev/awery/ui/screens/notifications/NotificationsScreen.kt",
-    "/home/mrboomdev/IdeaProjects/Awery/ui/src/commonMain/kotlin/com/mrboomdev/awery/ui/popups/BookmarkMediaDialog.kt",
-    "/home/mrboomdev/IdeaProjects/Awery/ui/build.gradle.kts",
-    "/home/mrboomdev/IdeaProjects/Awery/ui/src/commonMain/kotlin/com/mrboomdev/awery/ui/popups/MediaActionsDialog.kt"
+  <component name="IdeDocumentHistory">{
+  &quot;changedPaths&quot;: [
+    &quot;/home/mrboomdev/IdeaProjects/Awery/gradle/compose.versions.toml&quot;,
+    &quot;/home/mrboomdev/IdeaProjects/Awery/core/build.gradle.kts&quot;,
+    &quot;/home/mrboomdev/IdeaProjects/Awery/app/build.gradle.kts&quot;,
+    &quot;/home/mrboomdev/IdeaProjects/Awery/ui/src/commonMain/kotlin/com/mrboomdev/awery/ui/utils/PaddingUtils.kt&quot;,
+    &quot;/home/mrboomdev/IdeaProjects/Awery/ui/src/commonMain/kotlin/com/mrboomdev/awery/ui/screens/intro/introDefaults.kt&quot;,
+    &quot;/home/mrboomdev/IdeaProjects/Awery/ui/src/commonMain/kotlin/com/mrboomdev/awery/ui/utils/LazyListUtils.kt&quot;,
+    &quot;/home/mrboomdev/IdeaProjects/Awery/ui/src/commonMain/kotlin/com/mrboomdev/awery/ui/components/BottomSheetDialog.kt&quot;,
+    &quot;/home/mrboomdev/IdeaProjects/Awery/ui/src/commonMain/kotlin/com/mrboomdev/awery/ui/utils/ComposeUtils.kt&quot;,
+    &quot;/home/mrboomdev/IdeaProjects/Awery/ui/src/commonMain/kotlin/com/mrboomdev/awery/ui/components/IconButton.kt&quot;,
+    &quot;/home/mrboomdev/IdeaProjects/Awery/ui/src/commonMain/kotlin/com/mrboomdev/awery/ui/App.kt&quot;,
+    &quot;/home/mrboomdev/IdeaProjects/Awery/ui/src/commonMain/kotlin/com/mrboomdev/awery/ui/Navigation.kt&quot;,
+    &quot;/home/mrboomdev/IdeaProjects/Awery/ui/src/commonMain/kotlin/com/mrboomdev/awery/ui/Routes.kt&quot;,
+    &quot;/home/mrboomdev/IdeaProjects/Awery/ui/src/commonMain/kotlin/com/mrboomdev/awery/ui/screens/auth/AuthViewModel.kt&quot;,
+    &quot;/home/mrboomdev/IdeaProjects/Awery/ui/src/commonMain/kotlin/com/mrboomdev/awery/ui/screens/auth/AuthScreen.kt&quot;,
+    &quot;/home/mrboomdev/IdeaProjects/Awery/data/src/commonMain/kotlin/com/mrboomdev/awery/data/settings/AwerySettings.kt&quot;,
+    &quot;/home/mrboomdev/IdeaProjects/Awery/data/src/commonMain/kotlin/com/mrboomdev/awery/data/server/AweryServerNotifications.kt&quot;,
+    &quot;/home/mrboomdev/IdeaProjects/Awery/ui/src/commonMain/kotlin/com/mrboomdev/awery/ui/screens/notifications/NotificationsViewModel.kt&quot;,
+    &quot;/home/mrboomdev/IdeaProjects/Awery/data/src/commonMain/kotlin/com/mrboomdev/awery/data/AweryServer.kt&quot;,
+    &quot;/home/mrboomdev/IdeaProjects/Awery/ui/src/commonMain/kotlin/com/mrboomdev/awery/ui/screens/notifications/NotificationsScreen.kt&quot;,
+    &quot;/home/mrboomdev/IdeaProjects/Awery/ui/src/commonMain/kotlin/com/mrboomdev/awery/ui/popups/BookmarkMediaDialog.kt&quot;,
+    &quot;/home/mrboomdev/IdeaProjects/Awery/ui/build.gradle.kts&quot;,
+    &quot;/home/mrboomdev/IdeaProjects/Awery/ui/src/commonMain/kotlin/com/mrboomdev/awery/ui/popups/MediaActionsDialog.kt&quot;
   ]
-}]]></component>
+}</component>
   <component name="IgnoredFileRootStore">
     <option name="generatedRoots">
       <set>
@@ -176,7 +176,7 @@
       <summary usageCount="1" lastUsage="1761313674219" />
     </language>
     <language id="kotlin">
-      <summary usageCount="73" lastUsage="1761331687764" />
+      <summary usageCount="76" lastUsage="1761466322972" />
     </language>
   </component>
   <component name="ProjectView">
@@ -1800,30 +1800,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/src/commonMain/kotlin/com/mrboomdev/awery/data/server/AweryServerNotifications.kt">
-      <provider selected="true" editor-type-id="android-source-code">
-        <state selected-layout="SHOW_EDITOR">
-          <editor-state relative-caret-position="496">
-            <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
-            <folding>
-              <element signature="e#41#458#0" expanded="true" />
-            </folding>
-          </editor-state>
-          <multi-preview-state selected="Compose">
-            <representations>
-              <list>
-                <representation name="Compose">
-                  <settings>
-                    <setting name="previewLayout" value="Grid" />
-                    <setting name="selectedGroup" value="" />
-                  </settings>
-                </representation>
-              </list>
-            </representations>
-          </multi-preview-state>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/data/src/commonMain/kotlin/com/mrboomdev/awery/data/server/AweryServerNotifications.kt" />
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.compose.material3/material3/1.10.0-alpha01/21af1c9e740e878de64cd245e54e420d6bfec131/material3-1.10.0-alpha01-sources.jar!/commonMain/androidx/compose/material3/pulltorefresh/PullToRefresh.kt">
       <provider selected="true" editor-type-id="android-source-code">
         <state>
@@ -1890,56 +1867,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ui/src/commonMain/kotlin/com/mrboomdev/awery/ui/screens/auth/AuthScreen.kt">
-      <provider selected="true" editor-type-id="android-source-code">
-        <state selected-layout="SHOW_EDITOR">
-          <editor-state relative-caret-position="372">
-            <caret line="11" column="4" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
-            <folding>
-              <element signature="e#45#264#0" expanded="true" />
-            </folding>
-          </editor-state>
-          <multi-preview-state selected="Compose">
-            <representations>
-              <list>
-                <representation name="Compose">
-                  <settings>
-                    <setting name="previewLayout" value="Grid" />
-                    <setting name="selectedGroup" value="" />
-                  </settings>
-                </representation>
-              </list>
-            </representations>
-          </multi-preview-state>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ui/src/commonMain/kotlin/com/mrboomdev/awery/ui/screens/notifications/NotificationsScreen.kt" preview="true">
       <provider selected="true" editor-type-id="android-source-code">
         <state selected-layout="SHOW_EDITOR">
           <editor-state relative-caret-position="2015">
             <caret line="93" column="31" lean-forward="true" selection-start-line="93" selection-start-column="31" selection-end-line="93" selection-end-column="31" />
-          </editor-state>
-          <multi-preview-state selected="Compose">
-            <representations>
-              <list>
-                <representation name="Compose">
-                  <settings>
-                    <setting name="previewLayout" value="Grid" />
-                    <setting name="selectedGroup" value="" />
-                  </settings>
-                </representation>
-              </list>
-            </representations>
-          </multi-preview-state>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ui/src/commonMain/kotlin/com/mrboomdev/awery/ui/screens/auth/AuthViewModel.kt">
-      <provider selected="true" editor-type-id="android-source-code">
-        <state selected-layout="SHOW_EDITOR">
-          <editor-state relative-caret-position="155">
-            <caret line="4" column="34" lean-forward="true" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
           </editor-state>
           <multi-preview-state selected="Compose">
             <representations>
@@ -2002,11 +1934,56 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ui/src/commonMain/kotlin/com/mrboomdev/awery/ui/screens/auth/AuthViewModel.kt">
+      <provider selected="true" editor-type-id="android-source-code">
+        <state selected-layout="SHOW_EDITOR">
+          <editor-state relative-caret-position="155">
+            <caret line="4" column="34" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
+          </editor-state>
+          <multi-preview-state selected="Compose">
+            <representations>
+              <list>
+                <representation name="Compose">
+                  <settings>
+                    <setting name="previewLayout" value="Grid" />
+                    <setting name="selectedGroup" value="" />
+                  </settings>
+                </representation>
+              </list>
+            </representations>
+          </multi-preview-state>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui/src/commonMain/kotlin/com/mrboomdev/awery/ui/screens/auth/AuthScreen.kt">
+      <provider selected="true" editor-type-id="android-source-code">
+        <state selected-layout="SHOW_EDITOR">
+          <editor-state relative-caret-position="372">
+            <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+            <folding>
+              <element signature="e#45#264#0" expanded="true" />
+            </folding>
+          </editor-state>
+          <multi-preview-state selected="Compose">
+            <representations>
+              <list>
+                <representation name="Compose">
+                  <settings>
+                    <setting name="previewLayout" value="Grid" />
+                    <setting name="selectedGroup" value="" />
+                  </settings>
+                </representation>
+              </list>
+            </representations>
+          </multi-preview-state>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ui/src/commonMain/kotlin/com/mrboomdev/awery/ui/popups/MediaActionsDialog.kt" preview="true">
       <provider selected="true" editor-type-id="android-source-code">
         <state selected-layout="SHOW_EDITOR">
-          <editor-state relative-caret-position="473">
-            <caret line="209" column="21" lean-forward="true" selection-start-line="209" selection-start-column="21" selection-end-line="209" selection-end-column="21" />
+          <editor-state relative-caret-position="265">
+            <caret line="209" column="21" selection-start-line="209" selection-start-column="21" selection-end-line="209" selection-end-column="21" />
           </editor-state>
           <multi-preview-state selected="Compose">
             <representations>

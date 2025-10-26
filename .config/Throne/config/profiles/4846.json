@@ -1,0 +1,49 @@
+{
+    "bean": {
+        "_v": 0,
+        "addr": "162.159.153.2",
+        "brutal_speed": 0,
+        "c_cfg": "",
+        "c_out": "",
+        "enable_brutal": false,
+        "flow": "",
+        "mux": 0,
+        "name": "@awlix_irvless://5efbe592-3027-417d-8807-47fcddb40549@198.244.193.109:13039?encryption=none&security=none&type=grpc&authority=&serviceName=DarkTeam_VPN&mode=gun#@awlix_irvless://e4824193-4f54-453b-d037-88368e85ef0e@185.236.232.247:8880?encryption=none&security=none&type=grpc#@awlix_irvless://59860b15-b2d9-47f9-9b92-81bd1639fcc5@104.26.12.54:443?encryption=none&security=tls&sni=5-55sfjslf.ifenxiang.cfd&fp=random&type=ws&host=5-55sfjslf.ifenxiang.cfd&path=/?ed=2560#@awlix_irvless://59860b15-b2d9-47f9-9b92-81bd1639fcc5@172.67.75.52:443?encryption=none&security=tls&sni=5-55sfjslf.ifenxiang.cfd&fp=randomized&type=ws&host=5-55sfjslf.ifenxiang.cfd&path=/JOKERRVPNTELEGRAM----@JOKERRVPN----@JOKERRVPN----@JOKERRVPN----@JOKERRVPN----@JOKERRVPN----@JOKERRVPN----@JOKERRVPN----@JOKERRVPN----@JOKERRVPN----@JOKERRVPN----@JOKERRVPN#@awlix_irvless://d75648e7-ebfa-4ef0-9436-82e9d4fb0e4f@188.34.157.214:442?encryption=none&security=none&type=grpc#@awlix_irvless://6b6e7ff7-02e8-4800-981b-4a61acaa46b2@91.107.131.168:443?encryption=none&security=tls&sni=mw12.asalemaraghe.ir&alpn=h3,h2,http/1.1&fp=chrome&type=ws&host=mw12.asalemaraghe.ir&path=/#@awlix_irvless://50e2cab1-c919-434d-a7d4-78dcd42fe963@162.159.153.2:80?encryption=none&security=none&type=ws&host=aparat.ir.rubika.ir.google.com.xn--cr8haaa.xn--cr8haaaaa.29.a.apaspeedtest.netrat.com.eu.com.shw914.ir.xn--cr8ha.vpncustomize.V2ryng01.ru:0&path=/Telegram,VPNCUSTOMIZE,Telegram,VPNCUSTOMIZE,Telegram,VPNCUSTOMIZE?ed=2560#@awlix_irvless://880adfbf-6098-5ed9-8e3d-7716caf63e72@104.17.147.22:2052?encryption=none&security=none&type=ws&host=sPeedtest2.sbs.lu.v2vless.sitespeedtest.net&path=/vless#@awlix_irسری کانفیگ های جدید ، حتما همشو تست کنید حمایت فراموش نشه عزیزان دمتون گرم💚💛🙏🏻@Awlix_ir",
+        "pass": "59860b15-b2d9-47f9-9b92-81bd1639fcc5",
+        "port": 443,
+        "stream": {
+            "alpn": "",
+            "cert": "",
+            "ed_len": 0,
+            "ed_name": "",
+            "h_type": "",
+            "headers": "",
+            "host": "5-55sfjslf.ifenxiang.cfd",
+            "insecure": false,
+            "method": "",
+            "net": "ws",
+            "pac_enc": "xudp",
+            "path": "/Telegram@proxy_mtm/?ed=2560",
+            "pbk": "",
+            "sec": "tls",
+            "sid": "",
+            "sni": "5-55sfjslf.ifenxiang.cfd",
+            "tls_frag": false,
+            "tls_frag_fall_delay": "",
+            "tls_record_frag": false,
+            "utls": "random"
+        }
+    },
+    "country": "",
+    "dl": "",
+    "gid": 7,
+    "id": 4846,
+    "report": "",
+    "traffic": {
+        "dl": 0,
+        "ul": 0
+    },
+    "type": "vless",
+    "ul": "",
+    "yc": 0
+}
