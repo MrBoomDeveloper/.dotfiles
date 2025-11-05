@@ -10,6 +10,7 @@
         <option value="ApkAssets: " />
         <option value="AssetManager2" />
         <option value="at eu.kanade.tachiyomi." />
+        <option value="at kotlin.coroutines.jvm.internal." />
         <option value="Background concurrent copying GC freed " />
         <option value="Background concurrent mark compact GC freed " />
         <option value="Background young concurrent copying GC freed " />
@@ -24,6 +25,7 @@
         <option value="java.lang.Exception: Failed to extract ID from URL" />
         <option value="Loading /data/app/~~" />
         <option value="Long monitor contention with owner" />
+        <option value="MBrain is disabled" />
         <option value="NativeAlloc concurrent copying GC freed " />
         <option value="Redefining intrinsic " />
         <option value="SLF4J(W): " />
@@ -31,7 +33,7 @@
         <option value="Verification of void " />
         <option value="WaitForGcToComplete blocked" />
         <option value="Waiting for a blocking GC " />
-        <option value="at kotlin.coroutines.jvm.internal." />
+        <option value="initMbrain failed" />
       </list>
     </option>
   </component>

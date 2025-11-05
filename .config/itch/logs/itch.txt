@@ -1,0 +1,607 @@
+{"time":1761514069079,"level":30,"msg":"itch@26.1.9 on electron@22.3.27 in production"}
+{"time":1761514069136,"level":20,"msg":"Skipping game update check as requested per environment variable","name":"m/reac/updater"}
+{"time":1761514069363,"level":20,"msg":"Registering itch: protocol for session with user agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) itch/26.1.9 Chrome/108.0.5359.215 Electron/22.3.27 Safari/537.36","name":"m/net/register-itch-protocol"}
+{"time":1761514069422,"level":30,"msg":"preboot ran in 64.00ms","name":"m/reac/preboot"}
+{"time":1761514069424,"level":20,"msg":"Updating login item settings, open=false, hidden=false","name":"m/reac/open-at-login"}
+{"time":1761514069424,"level":20,"msg":"Copying /usr/share/applications/io.itch.itch.desktop => /home/mrboomdev/.config/autostart/io.itch.itch.desktop","name":"m/reac/open-at-login"}
+{"time":1761514069429,"level":20,"msg":"Waiting on root window to dispatch boot","name":"m/reac/winds"}
+{"time":1761514070368,"level":30,"msg":"Language settings: preference undefined, sniffed en-US, fallback en","name":"m/reac/i18n"}
+{"time":1761514070370,"level":20,"msg":"Reading local locale file /home/mrboomdev/.itch/app-26.1.9/resources/app/src/static/locales/en.json","name":"m/reac/locales"}
+{"time":1761514070373,"level":20,"msg":"Reading remote locale file /home/mrboomdev/.itch/app-26.1.9/resources/app/src/static/locales/en.json","name":"m/reac/locales"}
+{"time":1761514070752,"level":30,"msg":"Setup starting...","name":"🔧 setup"}
+{"time":1761514070753,"level":30,"msg":"Creating broth manager","name":"🔧 setup"}
+{"time":1761514070754,"level":30,"msg":"Ensuring broth dependencies, for startup","name":"🔧 setup"}
+{"time":1761514070755,"level":20,"msg":"Package (itch) got version prefix","name":"🔧 setup"}
+{"time":1761514070757,"level":30,"msg":"No chosen version, attempting install...","name":"📦 butler"}
+{"time":1761514070757,"level":20,"msg":"Trying to satisfy semver constraint (^15.20.0)","name":"📦 butler"}
+{"time":1761514070758,"level":20,"msg":"GET (https://broth.itch.zone/butler/linux-amd64/versions)","name":"📦 butler"}
+{"time":1761514070758,"level":20,"msg":"HTTP get https://broth.itch.zone/butler/linux-amd64/versions","name":"r"}
+{"time":1761514070760,"level":20,"msg":"Reading local locale file /home/mrboomdev/.itch/app-26.1.9/resources/app/src/static/locales/en.json","name":"m/reac/locales"}
+{"time":1761514070762,"level":20,"msg":"Reading remote locale file /home/mrboomdev/.itch/app-26.1.9/resources/app/src/static/locales/en.json","name":"m/reac/locales"}
+{"time":1761514072764,"level":20,"msg":"Downloading fresh locale file from https://locales.itch.zone/itch/en.json","name":"m/reac/locales"}
+{"time":1761514072765,"level":20,"msg":"HTTP get https://locales.itch.zone/itch/en.json","name":"r"}
+{"time":1761514076321,"level":40,"msg":"Failed downloading locale for en: net::ERR_NAME_NOT_RESOLVED","name":"m/reac/locales"}
+{"time":1761514077959,"level":20,"msg":"Got HTTP 200, content-length: 0 B","name":"r"}
+{"time":1761514077969,"level":30,"msg":"Latest is (15.24.0)","name":"📦 butler"}
+{"time":1761514077976,"level":40,"msg":"Sanity check failed: spawn /home/mrboomdev/.config/itch/broth/butler/versions/15.24.0/butler ENOENT","name":"📦 butler"}
+{"time":1761514077979,"level":30,"msg":"Downloading (butler)@(15.24.0)","name":"📦 butler"}
+{"time":1761514077979,"level":30,"msg":"...from (https://broth.itch.zone/butler/linux-amd64/15.24.0/butler.zip)","name":"📦 butler"}
+{"time":1761514077979,"level":30,"msg":"...to (/home/mrboomdev/.config/itch/broth/butler/downloads/butler.zip)","name":"📦 butler"}
+{"time":1761514077981,"level":20,"msg":"HTTP get https://broth.itch.zone/butler/linux-amd64/15.24.0/butler.zip","name":"r"}
+{"time":1761514087804,"level":20,"msg":"Got HTTP 200, content-length: 8.8 MiB","name":"r"}
+{"time":1761514087805,"level":30,"msg":"HTTP 200 https://broth.itch.zone/butler/linux-amd64/15.24.0/butler.zip","name":"📦 butler"}
+{"time":1761514088665,"level":30,"msg":"1.5% done, eta 82.0s @ 109 KiB/s","name":"📦 butler"}
+{"time":1761514089355,"level":30,"msg":"2.4% done, eta 80.0s @ 109 KiB/s","name":"📦 butler"}
+{"time":1761514090031,"level":30,"msg":"2.6% done, eta 103.0s @ 85 KiB/s","name":"📦 butler"}
+{"time":1761514090753,"level":30,"msg":"3.4% done, eta 100.0s @ 87 KiB/s","name":"📦 butler"}
+{"time":1761514091492,"level":30,"msg":"4.1% done, eta 100.0s @ 87 KiB/s","name":"📦 butler"}
+{"time":1761514092250,"level":30,"msg":"4.8% done, eta 99.0s @ 86 KiB/s","name":"📦 butler"}
+{"time":1761514093309,"level":30,"msg":"5.8% done, eta 97.0s @ 87 KiB/s","name":"📦 butler"}
+{"time":1761514094500,"level":30,"msg":"6.4% done, eta 107.0s @ 79 KiB/s","name":"📦 butler"}
+{"time":1761514095013,"level":30,"msg":"8.2% done, eta 87.0s @ 95 KiB/s","name":"📦 butler"}
+{"time":1761514095549,"level":30,"msg":"9.2% done, eta 81.0s @ 101 KiB/s","name":"📦 butler"}
+{"time":1761514096112,"level":30,"msg":"10.3% done, eta 76.0s @ 106 KiB/s","name":"📦 butler"}
+{"time":1761514096752,"level":30,"msg":"11.0% done, eta 77.0s @ 104 KiB/s","name":"📦 butler"}
+{"time":1761514098112,"level":30,"msg":"13.5% done, eta 69.0s @ 113 KiB/s","name":"📦 butler"}
+{"time":1761514098641,"level":30,"msg":"14.6% done, eta 66.0s @ 117 KiB/s","name":"📦 butler"}
+{"time":1761514099591,"level":30,"msg":"15.6% done, eta 66.0s @ 115 KiB/s","name":"📦 butler"}
+{"time":1761514100324,"level":30,"msg":"16.3% done, eta 67.0s @ 113 KiB/s","name":"📦 butler"}
+{"time":1761514100854,"level":30,"msg":"17.1% done, eta 66.0s @ 114 KiB/s","name":"📦 butler"}
+{"time":1761514101420,"level":30,"msg":"17.8% done, eta 65.0s @ 114 KiB/s","name":"📦 butler"}
+{"time":1761514101951,"level":30,"msg":"18.3% done, eta 65.0s @ 114 KiB/s","name":"📦 butler"}
+{"time":1761514102832,"level":30,"msg":"19.0% done, eta 66.0s @ 111 KiB/s","name":"📦 butler"}
+{"time":1761514103753,"level":30,"msg":"19.5% done, eta 67.0s @ 108 KiB/s","name":"📦 butler"}
+{"time":1761514104305,"level":30,"msg":"21.2% done, eta 63.0s @ 112 KiB/s","name":"📦 butler"}
+{"time":1761514104928,"level":30,"msg":"22.1% done, eta 62.0s @ 113 KiB/s","name":"📦 butler"}
+{"time":1761514105462,"level":30,"msg":"22.8% done, eta 61.0s @ 114 KiB/s","name":"📦 butler"}
+{"time":1761514106089,"level":30,"msg":"23.3% done, eta 62.0s @ 112 KiB/s","name":"📦 butler"}
+{"time":1761514106631,"level":30,"msg":"23.8% done, eta 62.0s @ 111 KiB/s","name":"📦 butler"}
+{"time":1761514107150,"level":30,"msg":"24.7% done, eta 60.0s @ 113 KiB/s","name":"📦 butler"}
+{"time":1761514107808,"level":30,"msg":"26.0% done, eta 58.0s @ 114 KiB/s","name":"📦 butler"}
+{"time":1761514108317,"level":30,"msg":"27.0% done, eta 57.0s @ 116 KiB/s","name":"📦 butler"}
+{"time":1761514109322,"level":30,"msg":"27.4% done, eta 58.0s @ 112 KiB/s","name":"📦 butler"}
+{"time":1761514109932,"level":30,"msg":"29.5% done, eta 54.0s @ 118 KiB/s","name":"📦 butler"}
+{"time":1761514110470,"level":30,"msg":"31.2% done, eta 51.0s @ 122 KiB/s","name":"📦 butler"}
+{"time":1761514111023,"level":30,"msg":"33.6% done, eta 47.0s @ 127 KiB/s","name":"📦 butler"}
+{"time":1761514111706,"level":30,"msg":"35.6% done, eta 44.0s @ 132 KiB/s","name":"📦 butler"}
+{"time":1761514112587,"level":30,"msg":"36.8% done, eta 43.0s @ 131 KiB/s","name":"📦 butler"}
+{"time":1761514113593,"level":30,"msg":"37.4% done, eta 44.0s @ 128 KiB/s","name":"📦 butler"}
+{"time":1761514114757,"level":30,"msg":"38.1% done, eta 44.0s @ 126 KiB/s","name":"📦 butler"}
+{"time":1761514115586,"level":30,"msg":"38.9% done, eta 44.0s @ 124 KiB/s","name":"📦 butler"}
+{"time":1761514116600,"level":30,"msg":"39.5% done, eta 45.0s @ 122 KiB/s","name":"📦 butler"}
+{"time":1761514117893,"level":30,"msg":"40.2% done, eta 45.0s @ 119 KiB/s","name":"📦 butler"}
+{"time":1761514118585,"level":30,"msg":"40.9% done, eta 45.0s @ 118 KiB/s","name":"📦 butler"}
+{"time":1761514119591,"level":30,"msg":"41.6% done, eta 45.0s @ 116 KiB/s","name":"📦 butler"}
+{"time":1761514120468,"level":30,"msg":"42.3% done, eta 45.0s @ 115 KiB/s","name":"📦 butler"}
+{"time":1761514121013,"level":30,"msg":"43.6% done, eta 43.0s @ 117 KiB/s","name":"📦 butler"}
+{"time":1761514122162,"level":30,"msg":"44.1% done, eta 44.0s @ 114 KiB/s","name":"📦 butler"}
+{"time":1761514123199,"level":30,"msg":"45.7% done, eta 43.0s @ 113 KiB/s","name":"📦 butler"}
+{"time":1761514124407,"level":30,"msg":"46.4% done, eta 44.0s @ 111 KiB/s","name":"📦 butler"}
+{"time":1761514124947,"level":30,"msg":"47.7% done, eta 42.0s @ 112 KiB/s","name":"📦 butler"}
+{"time":1761514125520,"level":30,"msg":"48.0% done, eta 42.0s @ 111 KiB/s","name":"📦 butler"}
+{"time":1761514126082,"level":30,"msg":"49.9% done, eta 39.0s @ 114 KiB/s","name":"📦 butler"}
+{"time":1761514126625,"level":30,"msg":"51.3% done, eta 38.0s @ 116 KiB/s","name":"📦 butler"}
+{"time":1761514127151,"level":30,"msg":"52.5% done, eta 37.0s @ 117 KiB/s","name":"📦 butler"}
+{"time":1761514127928,"level":30,"msg":"52.9% done, eta 37.0s @ 115 KiB/s","name":"📦 butler"}
+{"time":1761514128433,"level":30,"msg":"53.7% done, eta 36.0s @ 116 KiB/s","name":"📦 butler"}
+{"time":1761514129112,"level":30,"msg":"55.0% done, eta 35.0s @ 117 KiB/s","name":"📦 butler"}
+{"time":1761514129667,"level":30,"msg":"55.9% done, eta 34.0s @ 117 KiB/s","name":"📦 butler"}
+{"time":1761514130200,"level":30,"msg":"57.3% done, eta 32.0s @ 119 KiB/s","name":"📦 butler"}
+{"time":1761514130739,"level":30,"msg":"59.4% done, eta 30.0s @ 122 KiB/s","name":"📦 butler"}
+{"time":1761514131239,"level":30,"msg":"60.4% done, eta 29.0s @ 122 KiB/s","name":"📦 butler"}
+{"time":1761514131915,"level":30,"msg":"62.1% done, eta 28.0s @ 124 KiB/s","name":"📦 butler"}
+{"time":1761514132432,"level":30,"msg":"64.1% done, eta 26.0s @ 126 KiB/s","name":"📦 butler"}
+{"time":1761514132936,"level":30,"msg":"64.9% done, eta 25.0s @ 126 KiB/s","name":"📦 butler"}
+{"time":1761514133457,"level":30,"msg":"66.5% done, eta 24.0s @ 128 KiB/s","name":"📦 butler"}
+{"time":1761514134333,"level":30,"msg":"67.1% done, eta 23.0s @ 127 KiB/s","name":"📦 butler"}
+{"time":1761514134880,"level":30,"msg":"68.0% done, eta 23.0s @ 127 KiB/s","name":"📦 butler"}
+{"time":1761514135439,"level":30,"msg":"69.2% done, eta 22.0s @ 128 KiB/s","name":"📦 butler"}
+{"time":1761514135952,"level":30,"msg":"70.6% done, eta 21.0s @ 129 KiB/s","name":"📦 butler"}
+{"time":1761514136496,"level":30,"msg":"72.7% done, eta 19.0s @ 132 KiB/s","name":"📦 butler"}
+{"time":1761514137026,"level":30,"msg":"74.3% done, eta 17.0s @ 133 KiB/s","name":"📦 butler"}
+{"time":1761514137680,"level":30,"msg":"75.9% done, eta 16.0s @ 134 KiB/s","name":"📦 butler"}
+{"time":1761514138244,"level":30,"msg":"77.6% done, eta 15.0s @ 136 KiB/s","name":"📦 butler"}
+{"time":1761514138763,"level":30,"msg":"79.4% done, eta 13.0s @ 137 KiB/s","name":"📦 butler"}
+{"time":1761514139555,"level":30,"msg":"81.6% done, eta 12.0s @ 139 KiB/s","name":"📦 butler"}
+{"time":1761514140111,"level":30,"msg":"82.7% done, eta 11.0s @ 140 KiB/s","name":"📦 butler"}
+{"time":1761514140679,"level":30,"msg":"84.0% done, eta 10.0s @ 140 KiB/s","name":"📦 butler"}
+{"time":1761514141218,"level":30,"msg":"86.9% done, eta 8.0s @ 143 KiB/s","name":"📦 butler"}
+{"time":1761514141753,"level":30,"msg":"89.4% done, eta 6.0s @ 146 KiB/s","name":"📦 butler"}
+{"time":1761514142289,"level":30,"msg":"91.6% done, eta 5.0s @ 149 KiB/s","name":"📦 butler"}
+{"time":1761514142802,"level":30,"msg":"92.8% done, eta 4.0s @ 149 KiB/s","name":"📦 butler"}
+{"time":1761514143560,"level":30,"msg":"93.9% done, eta 4.0s @ 149 KiB/s","name":"📦 butler"}
+{"time":1761514144121,"level":30,"msg":"95.0% done, eta 3.0s @ 149 KiB/s","name":"📦 butler"}
+{"time":1761514144672,"level":30,"msg":"96.1% done, eta 2.0s @ 149 KiB/s","name":"📦 butler"}
+{"time":1761514145711,"level":30,"msg":"97.0% done, eta 2.0s @ 148 KiB/s","name":"📦 butler"}
+{"time":1761514146466,"level":30,"msg":"99.5% done, eta 0.0s @ 150 KiB/s","name":"📦 butler"}
+{"time":1761514146661,"level":30,"msg":"100.0% done, eta 0.0s @ 151 KiB/s","name":"📦 butler"}
+{"time":1761514146662,"level":20,"msg":"Awaiting file sink promise","name":"📦 butler"}
+{"time":1761514146665,"level":30,"msg":"Downloaded 8.8 MiB / 8.8 MiB (9213596 bytes)","name":"📦 butler"}
+{"time":1761514146666,"level":30,"msg":"Download completed.","name":"📦 butler"}
+{"time":1761514146666,"level":30,"msg":"Extracting...","name":"📦 butler"}
+{"time":1761514146671,"level":20,"msg":"Total zip entries: 3","name":"📦 butler"}
+{"time":1761514146671,"level":20,"msg":".zip filesize: 9213596","name":"📦 butler"}
+{"time":1761514146672,"level":20,"msg":"→ 7z.so","name":"📦 butler"}
+{"time":1761514146673,"level":30,"msg":"Extracting /home/mrboomdev/.config/itch/broth/butler/versions/15.24.0/7z.so","name":"📦 butler"}
+{"time":1761514146706,"level":20,"msg":"→ butler","name":"📦 butler"}
+{"time":1761514146706,"level":30,"msg":"Extracting /home/mrboomdev/.config/itch/broth/butler/versions/15.24.0/butler","name":"📦 butler"}
+{"time":1761514146888,"level":20,"msg":"→ libc7zip.so","name":"📦 butler"}
+{"time":1761514146889,"level":30,"msg":"Extracting /home/mrboomdev/.config/itch/broth/butler/versions/15.24.0/libc7zip.so","name":"📦 butler"}
+{"time":1761514146891,"level":30,"msg":"Validating...","name":"📦 butler"}
+{"time":1761514147022,"level":30,"msg":"Validated!","name":"📦 butler"}
+{"time":1761514147022,"level":30,"msg":"Marking (15.24.0) as chosen version","name":"📦 butler"}
+{"time":1761514147024,"level":30,"msg":"Switching to (15.24.0)","name":"📦 butler"}
+{"time":1761514147030,"level":20,"msg":"Package (butler) got version prefix","name":"🔧 setup"}
+{"time":1761514147030,"level":30,"msg":"Refreshing butlerd!","name":"🔧 setup"}
+{"time":1761514147030,"level":30,"msg":"Spinning up butlerd instance 1...","name":"🔧 setup"}
+{"time":1761514147034,"level":30,"msg":"...waiting for endpoint from butlerd instance 1...","name":"🔧 setup"}
+{"time":1761514147036,"level":20,"msg":"Present versions: 15.24.0","name":"📦 butler"}
+{"time":1761514147036,"level":30,"msg":"No chosen version, attempting install...","name":"📦 itch-setup"}
+{"time":1761514147036,"level":30,"msg":"No valid version, but not required at startup. Skipping","name":"📦 itch-setup"}
+{"time":1761514147036,"level":30,"msg":"Never set up 26.1.9 successfully before, forcing components upgrade check","name":"🔧 setup"}
+{"time":1761514147037,"level":40,"msg":"itch-setup: no prefix (not installed yet?)","name":"📦 self"}
+{"time":1761514147037,"level":20,"msg":"Trying to satisfy semver constraint (^15.20.0)","name":"📦 butler"}
+{"time":1761514147037,"level":20,"msg":"GET (https://broth.itch.zone/butler/linux-amd64/versions)","name":"📦 butler"}
+{"time":1761514147037,"level":20,"msg":"HTTP get https://broth.itch.zone/butler/linux-amd64/versions","name":"r"}
+{"time":1761514147099,"level":30,"msg":"...for butlerd instance 1 got endpoint 127.0.0.1:43397","name":"🔧 setup"}
+{"time":1761514147207,"level":30,"msg":"Now speaking with butlerd instance 1, version v15.24.0, built on Dec 12 2024 @ 20:12:35, ref f1203f79c4b65ef2201e95ca81b6b02b7d37cb04, endpoint 127.0.0.1:43397","name":"🔧 setup"}
+{"time":1761514147209,"level":20,"msg":"Downloads driver reacting to gotButlerdEndpoint, cancelling state...","name":"m/reac/down/driver"}
+{"time":1761514147209,"level":20,"msg":"Not cancelling, current phase is 0","name":"m/reac/down/driver-persistent-state"}
+{"time":1761514147209,"level":20,"msg":"Downloads driver reacting to gotButlerdEndpoint, state is cancelled...","name":"m/reac/down/driver"}
+{"time":1761514147209,"level":20,"msg":"Download driver polling...","name":"m/reac/down/driver"}
+{"time":1761514147210,"level":20,"msg":"Calling Downloads.List","name":"mcall"}
+{"time":1761514148843,"level":20,"msg":"Got HTTP 200, content-length: 0 B","name":"r"}
+{"time":1761514148845,"level":30,"msg":"Latest is (15.24.0)","name":"📦 butler"}
+{"time":1761514148846,"level":30,"msg":"Already the active version, nothing to do","name":"📦 butler"}
+{"time":1761514148847,"level":20,"msg":"Present versions: 15.24.0","name":"📦 butler"}
+{"time":1761514148848,"level":20,"msg":"Trying to satisfy semver constraint (^1.8.0)","name":"📦 itch-setup"}
+{"time":1761514148848,"level":20,"msg":"GET (https://broth.itch.zone/itch-setup/linux-amd64/versions)","name":"📦 itch-setup"}
+{"time":1761514148848,"level":20,"msg":"HTTP get https://broth.itch.zone/itch-setup/linux-amd64/versions","name":"r"}
+{"time":1761514150055,"level":20,"msg":"Got HTTP 200, content-length: 0 B","name":"r"}
+{"time":1761514150059,"level":30,"msg":"Latest is (1.27.0)","name":"📦 itch-setup"}
+{"time":1761514150059,"level":20,"msg":"spawning /home/mrboomdev/.config/itch/broth/itch-setup/versions/1.27.0/itch-setup :: --version","name":"📦 itch-setup"}
+{"time":1761514150068,"level":40,"msg":"Sanity check failed: spawn /home/mrboomdev/.config/itch/broth/itch-setup/versions/1.27.0/itch-setup ENOENT","name":"📦 itch-setup"}
+{"time":1761514150070,"level":30,"msg":"Downloading (itch-setup)@(1.27.0)","name":"📦 itch-setup"}
+{"time":1761514150070,"level":30,"msg":"...from (https://broth.itch.zone/itch-setup/linux-amd64/1.27.0/itch-setup.zip)","name":"📦 itch-setup"}
+{"time":1761514150070,"level":30,"msg":"...to (/home/mrboomdev/.config/itch/broth/itch-setup/downloads/itch-setup.zip)","name":"📦 itch-setup"}
+{"time":1761514150071,"level":20,"msg":"HTTP get https://broth.itch.zone/itch-setup/linux-amd64/1.27.0/itch-setup.zip","name":"r"}
+{"time":1761514154138,"level":20,"msg":"Got HTTP 200, content-length: 5.7 MiB","name":"r"}
+{"time":1761514154138,"level":30,"msg":"HTTP 200 https://broth.itch.zone/itch-setup/linux-amd64/1.27.0/itch-setup.zip","name":"📦 itch-setup"}
+{"time":1761514154747,"level":30,"msg":"2.5% done, eta 48.0s @ 118 KiB/s","name":"📦 itch-setup"}
+{"time":1761514155275,"level":30,"msg":"3.6% done, eta 47.0s @ 121 KiB/s","name":"📦 itch-setup"}
+{"time":1761514155955,"level":30,"msg":"5.4% done, eta 44.0s @ 126 KiB/s","name":"📦 itch-setup"}
+{"time":1761514156725,"level":30,"msg":"8.3% done, eta 36.0s @ 150 KiB/s","name":"📦 itch-setup"}
+{"time":1761514157296,"level":30,"msg":"10.8% done, eta 31.0s @ 169 KiB/s","name":"📦 itch-setup"}
+{"time":1761514157831,"level":30,"msg":"15.1% done, eta 24.0s @ 209 KiB/s","name":"📦 itch-setup"}
+{"time":1761514158334,"level":30,"msg":"16.8% done, eta 24.0s @ 207 KiB/s","name":"📦 itch-setup"}
+{"time":1761514158917,"level":30,"msg":"18.1% done, eta 24.0s @ 203 KiB/s","name":"📦 itch-setup"}
+{"time":1761514159473,"level":30,"msg":"19.8% done, eta 24.0s @ 193 KiB/s","name":"📦 itch-setup"}
+{"time":1761514160010,"level":30,"msg":"22.6% done, eta 22.0s @ 204 KiB/s","name":"📦 itch-setup"}
+{"time":1761514160533,"level":30,"msg":"24.2% done, eta 22.0s @ 203 KiB/s","name":"📦 itch-setup"}
+{"time":1761514161078,"level":30,"msg":"25.8% done, eta 22.0s @ 202 KiB/s","name":"📦 itch-setup"}
+{"time":1761514161779,"level":30,"msg":"27.4% done, eta 22.0s @ 195 KiB/s","name":"📦 itch-setup"}
+{"time":1761514163085,"level":30,"msg":"28.5% done, eta 24.0s @ 176 KiB/s","name":"📦 itch-setup"}
+{"time":1761514163981,"level":30,"msg":"30.7% done, eta 24.0s @ 172 KiB/s","name":"📦 itch-setup"}
+{"time":1761514164648,"level":30,"msg":"33.2% done, eta 22.0s @ 177 KiB/s","name":"📦 itch-setup"}
+{"time":1761514165683,"level":30,"msg":"34.5% done, eta 23.0s @ 169 KiB/s","name":"📦 itch-setup"}
+{"time":1761514166337,"level":30,"msg":"36.4% done, eta 22.0s @ 168 KiB/s","name":"📦 itch-setup"}
+{"time":1761514167013,"level":30,"msg":"37.5% done, eta 22.0s @ 163 KiB/s","name":"📦 itch-setup"}
+{"time":1761514167623,"level":30,"msg":"38.6% done, eta 22.0s @ 162 KiB/s","name":"📦 itch-setup"}
+{"time":1761514168159,"level":30,"msg":"39.7% done, eta 22.0s @ 161 KiB/s","name":"📦 itch-setup"}
+{"time":1761514168711,"level":30,"msg":"41.3% done, eta 22.0s @ 159 KiB/s","name":"📦 itch-setup"}
+{"time":1761514169211,"level":30,"msg":"43.8% done, eta 20.0s @ 163 KiB/s","name":"📦 itch-setup"}
+{"time":1761514169741,"level":30,"msg":"45.4% done, eta 20.0s @ 164 KiB/s","name":"📦 itch-setup"}
+{"time":1761514170339,"level":30,"msg":"47.9% done, eta 18.0s @ 168 KiB/s","name":"📦 itch-setup"}
+{"time":1761514170950,"level":30,"msg":"49.8% done, eta 17.0s @ 170 KiB/s","name":"📦 itch-setup"}
+{"time":1761514171489,"level":30,"msg":"52.5% done, eta 16.0s @ 171 KiB/s","name":"📦 itch-setup"}
+{"time":1761514172450,"level":30,"msg":"53.3% done, eta 16.0s @ 167 KiB/s","name":"📦 itch-setup"}
+{"time":1761514173048,"level":30,"msg":"55.0% done, eta 16.0s @ 166 KiB/s","name":"📦 itch-setup"}
+{"time":1761514173587,"level":30,"msg":"57.1% done, eta 15.0s @ 168 KiB/s","name":"📦 itch-setup"}
+{"time":1761514174127,"level":30,"msg":"59.0% done, eta 14.0s @ 169 KiB/s","name":"📦 itch-setup"}
+{"time":1761514174868,"level":30,"msg":"62.0% done, eta 13.0s @ 172 KiB/s","name":"📦 itch-setup"}
+{"time":1761514175880,"level":30,"msg":"63.1% done, eta 13.0s @ 167 KiB/s","name":"📦 itch-setup"}
+{"time":1761514176423,"level":30,"msg":"64.8% done, eta 12.0s @ 167 KiB/s","name":"📦 itch-setup"}
+{"time":1761514178035,"level":30,"msg":"65.3% done, eta 13.0s @ 157 KiB/s","name":"📦 itch-setup"}
+{"time":1761514178568,"level":30,"msg":"66.4% done, eta 13.0s @ 156 KiB/s","name":"📦 itch-setup"}
+{"time":1761514179703,"level":30,"msg":"67.5% done, eta 13.0s @ 153 KiB/s","name":"📦 itch-setup"}
+{"time":1761514180570,"level":30,"msg":"69.1% done, eta 12.0s @ 150 KiB/s","name":"📦 itch-setup"}
+{"time":1761514181074,"level":30,"msg":"71.3% done, eta 11.0s @ 152 KiB/s","name":"📦 itch-setup"}
+{"time":1761514181578,"level":30,"msg":"72.9% done, eta 10.0s @ 153 KiB/s","name":"📦 itch-setup"}
+{"time":1761514182082,"level":30,"msg":"74.3% done, eta 10.0s @ 153 KiB/s","name":"📦 itch-setup"}
+{"time":1761514182862,"level":30,"msg":"76.2% done, eta 9.0s @ 153 KiB/s","name":"📦 itch-setup"}
+{"time":1761514183426,"level":30,"msg":"78.9% done, eta 8.0s @ 156 KiB/s","name":"📦 itch-setup"}
+{"time":1761514184196,"level":30,"msg":"81.1% done, eta 7.0s @ 156 KiB/s","name":"📦 itch-setup"}
+{"time":1761514184855,"level":30,"msg":"82.2% done, eta 7.0s @ 155 KiB/s","name":"📦 itch-setup"}
+{"time":1761514185465,"level":30,"msg":"83.8% done, eta 6.0s @ 155 KiB/s","name":"📦 itch-setup"}
+{"time":1761514186012,"level":30,"msg":"85.0% done, eta 6.0s @ 154 KiB/s","name":"📦 itch-setup"}
+{"time":1761514186907,"level":30,"msg":"86.9% done, eta 5.0s @ 154 KiB/s","name":"📦 itch-setup"}
+{"time":1761514187642,"level":30,"msg":"88.3% done, eta 5.0s @ 153 KiB/s","name":"📦 itch-setup"}
+{"time":1761514188191,"level":30,"msg":"90.2% done, eta 4.0s @ 154 KiB/s","name":"📦 itch-setup"}
+{"time":1761514189064,"level":30,"msg":"90.4% done, eta 4.0s @ 150 KiB/s","name":"📦 itch-setup"}
+{"time":1761514189736,"level":30,"msg":"91.5% done, eta 3.0s @ 148 KiB/s","name":"📦 itch-setup"}
+{"time":1761514190272,"level":30,"msg":"92.9% done, eta 3.0s @ 149 KiB/s","name":"📦 itch-setup"}
+{"time":1761514190824,"level":30,"msg":"94.0% done, eta 2.0s @ 148 KiB/s","name":"📦 itch-setup"}
+{"time":1761514191361,"level":30,"msg":"95.1% done, eta 2.0s @ 148 KiB/s","name":"📦 itch-setup"}
+{"time":1761514191960,"level":30,"msg":"97.0% done, eta 1.0s @ 149 KiB/s","name":"📦 itch-setup"}
+{"time":1761514192506,"level":30,"msg":"97.7% done, eta 1.0s @ 147 KiB/s","name":"📦 itch-setup"}
+{"time":1761514193198,"level":30,"msg":"100.0% done, eta 0.0s @ 149 KiB/s","name":"📦 itch-setup"}
+{"time":1761514193199,"level":30,"msg":"100.0% done, eta 0.0s @ 149 KiB/s","name":"📦 itch-setup"}
+{"time":1761514193200,"level":20,"msg":"Awaiting file sink promise","name":"📦 itch-setup"}
+{"time":1761514193200,"level":30,"msg":"Downloaded 5.7 MiB / 5.7 MiB (6014218 bytes)","name":"📦 itch-setup"}
+{"time":1761514193201,"level":30,"msg":"Download completed.","name":"📦 itch-setup"}
+{"time":1761514193201,"level":30,"msg":"Extracting...","name":"📦 itch-setup"}
+{"time":1761514193203,"level":20,"msg":"Total zip entries: 1","name":"📦 itch-setup"}
+{"time":1761514193203,"level":20,"msg":".zip filesize: 6014218","name":"📦 itch-setup"}
+{"time":1761514193204,"level":20,"msg":"→ itch-setup","name":"📦 itch-setup"}
+{"time":1761514193204,"level":30,"msg":"Extracting /home/mrboomdev/.config/itch/broth/itch-setup/versions/1.27.0/itch-setup","name":"📦 itch-setup"}
+{"time":1761514193363,"level":30,"msg":"Validating...","name":"📦 itch-setup"}
+{"time":1761514193363,"level":20,"msg":"spawning /home/mrboomdev/.config/itch/broth/itch-setup/versions/1.27.0/itch-setup :: --version","name":"📦 itch-setup"}
+{"time":1761514193382,"level":30,"msg":"Validated!","name":"📦 itch-setup"}
+{"time":1761514193382,"level":30,"msg":"Marking (1.27.0) as chosen version","name":"📦 itch-setup"}
+{"time":1761514193383,"level":30,"msg":"Switching to (1.27.0)","name":"📦 itch-setup"}
+{"time":1761514193385,"level":20,"msg":"Package (itch-setup) got version prefix","name":"🔧 setup"}
+{"time":1761514193385,"level":20,"msg":"Present versions: 1.27.0","name":"📦 itch-setup"}
+{"time":1761514193385,"level":20,"msg":"Waiting for butler promise...","name":"🔧 setup"}
+{"time":1761514193385,"level":20,"msg":"Syncing install locations...","name":"🔧 setup"}
+{"time":1761514193385,"level":20,"msg":"Calling Install.Locations.List","name":"mcall"}
+{"time":1761514193428,"level":20,"msg":"Checking install location appdata...","name":"🔧 setup"}
+{"time":1761514193429,"level":20,"msg":"Synchronizing appdata...","name":"🔧 setup"}
+{"time":1761514193429,"level":20,"msg":"Calling Install.Locations.Add","name":"mcall"}
+{"time":1761514193473,"level":30,"msg":"Registered 1 install locations with butler","name":"🔧 setup"}
+{"time":1761514193474,"level":20,"msg":"Dispatching setup done!","name":"🔧 setup"}
+{"time":1761514193474,"level":30,"msg":"Setup done","name":"🔧 setup"}
+{"time":1761514193477,"level":20,"msg":"Calling Fetch.Caves","name":"mcall"}
+{"time":1761514193478,"level":30,"msg":"Scanning install locations for items...","name":"m/reac/silent-location-scan"}
+{"time":1761514193479,"level":20,"msg":"Calling Install.Locations.Scan","name":"mcall"}
+{"time":1761514193483,"level":20,"msg":"Calling Profile.List","name":"rcall"}
+{"time":1761514193522,"level":30,"msg":"Using tray image (/home/mrboomdev/.itch/app-26.1.9/resources/app/src/static/images/tray/itch.png)"}
+{"time":1761514193525,"level":30,"msg":"• Scanning install location /home/mrboomdev/.config/itch/apps...","name":"m/reac/silent-location-scan"}
+{"time":1761514193525,"level":30,"msg":"No items found","name":"m/reac/silent-location-scan"}
+{"time":1761514193526,"level":30,"msg":"Scan complete.","name":"m/reac/silent-location-scan"}
+{"time":1761514193527,"level":20,"msg":"Calling Fetch.Caves","name":"mcall"}
+{"time":1761514193527,"level":20,"msg":"Calling Fetch.Commons","name":"mcall"}
+{"time":1761514193747,"level":20,"msg":"spawning /home/mrboomdev/.config/itch/broth/itch-setup/versions/1.27.0/itch-setup :: --appname ::: itch ::: --upgrade","name":"m/brot/itch-setup"}
+{"time":1761514193770,"level":20,"msg":"> 2025/10/26 16:29:53 itch-setup will log to /tmp/itch-setup-log.txt","name":"📦 self"}
+{"time":1761514193770,"level":20,"msg":"> 2025/10/26 16:29:53 =========================================","name":"📦 self"}
+{"time":1761514193770,"level":20,"msg":"> 2025/10/26 16:29:53 itch-setup \"head, built on Dec  3 2024 @ 15:40:44, ref no-commit\" starting up at \"2025-10-26 16:29:53.769956507 -0500 -05 m=+0.002443782\" with arguments:","name":"📦 self"}
+{"time":1761514193770,"level":20,"msg":"> 2025/10/26 16:29:53 \"/home/mrboomdev/.config/itch/broth/itch-setup/versions/1.27.0/itch-setup\"","name":"📦 self"}
+{"time":1761514193770,"level":20,"msg":"> 2025/10/26 16:29:53 \"--appname\"","name":"📦 self"}
+{"time":1761514193770,"level":20,"msg":"> 2025/10/26 16:29:53 \"itch\"","name":"📦 self"}
+{"time":1761514193770,"level":20,"msg":"> 2025/10/26 16:29:53 \"--upgrade\"","name":"📦 self"}
+{"time":1761514193770,"level":20,"msg":"> 2025/10/26 16:29:53 =========================================","name":"📦 self"}
+{"time":1761514193770,"level":20,"msg":"> 2025/10/26 16:29:53 App name specified on command-line: itch","name":"📦 self"}
+{"time":1761514193770,"level":20,"msg":"> 2025/10/26 16:29:53 Locale:  en-US","name":"📦 self"}
+{"time":1761514193771,"level":20,"msg":"> 2025/10/26 16:29:53 Initializing installer GUI...","name":"📦 self"}
+{"time":1761514193771,"level":20,"msg":"> 2025/10/26 16:29:53 Using GTK UI","name":"📦 self"}
+{"time":1761514193774,"level":20,"msg":"> 2025/10/26 16:29:53 Initializing (itch) multiverse @ (/home/mrboomdev/.itch)","name":"📦 self"}
+{"time":1761514193774,"level":20,"msg":"> 2025/10/26 16:29:53 (/home/mrboomdev/.itch)(current = \"26.1.9\", ready = \"\")","name":"📦 self"}
+{"time":1761514194522,"level":20,"msg":"Calling Fetch.Commons","name":"mcall"}
+{"time":1761514196165,"level":20,"msg":"Calling Fetch.Commons","name":"mcall"}
+{"time":1761514196859,"level":20,"msg":"> 2025/10/26 16:29:56 Installed 26.1.9","name":"📦 self"}
+{"time":1761514196859,"level":20,"msg":"> 2025/10/26 16:29:56 Latest    26.1.9","name":"📦 self"}
+{"time":1761514196859,"level":20,"msg":"> 2025/10/26 16:29:56 We're up-to-date!","name":"📦 self"}
+{"time":1761514196862,"level":20,"msg":"Trying to satisfy semver constraint (^15.20.0)","name":"📦 butler"}
+{"time":1761514196862,"level":20,"msg":"GET (https://broth.itch.zone/butler/linux-amd64/versions)","name":"📦 butler"}
+{"time":1761514196862,"level":20,"msg":"HTTP get https://broth.itch.zone/butler/linux-amd64/versions","name":"r"}
+{"time":1761514198580,"level":20,"msg":"Got HTTP 200, content-length: 0 B","name":"r"}
+{"time":1761514198582,"level":30,"msg":"Latest is (15.24.0)","name":"📦 butler"}
+{"time":1761514198582,"level":30,"msg":"Already the active version, nothing to do","name":"📦 butler"}
+{"time":1761514198584,"level":20,"msg":"Present versions: 15.24.0","name":"📦 butler"}
+{"time":1761514198585,"level":20,"msg":"Trying to satisfy semver constraint (^1.8.0)","name":"📦 itch-setup"}
+{"time":1761514198586,"level":20,"msg":"GET (https://broth.itch.zone/itch-setup/linux-amd64/versions)","name":"📦 itch-setup"}
+{"time":1761514198586,"level":20,"msg":"HTTP get https://broth.itch.zone/itch-setup/linux-amd64/versions","name":"r"}
+{"time":1761514200488,"level":20,"msg":"Got HTTP 200, content-length: 0 B","name":"r"}
+{"time":1761514200490,"level":30,"msg":"Latest is (1.27.0)","name":"📦 itch-setup"}
+{"time":1761514200490,"level":30,"msg":"Already the active version, nothing to do","name":"📦 itch-setup"}
+{"time":1761514200491,"level":20,"msg":"Present versions: 1.27.0","name":"📦 itch-setup"}
+{"time":1761514205830,"level":30,"msg":"Attempting password login for user MrBoomDev","name":"m/reac/login"}
+{"time":1761514205830,"level":30,"msg":"Doing username/password login...","name":"m/reac/login"}
+{"time":1761514205831,"level":20,"msg":"Calling Profile.LoginWithPassword","name":"mcall"}
+{"time":1761514205831,"level":20,"msg":"Setting up handlers for TOTP & captcha","name":"m/reac/login"}
+{"time":1761514213503,"level":30,"msg":"Setting cookies...","name":"m/reac/login"}
+{"time":1761514213546,"level":30,"msg":"Login succeeded, setting up session","name":"m/reac/login"}
+{"time":1761514213546,"level":30,"msg":"Registering itch protocol for session persist:itchio-6382512","name":"m/reac/login"}
+{"time":1761514213546,"level":20,"msg":"Registering itch: protocol for session with user agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) itch/26.1.9 Chrome/108.0.5359.215 Electron/22.3.27 Safari/537.36","name":"m/net/register-itch-protocol"}
+{"time":1761514213546,"level":30,"msg":"Restoring tabs...","name":"m/reac/login"}
+{"time":1761514213547,"level":20,"msg":"Calling Profile.Data.Get","name":"mcall"}
+{"time":1761514213588,"level":30,"msg":"No tabs to restore","name":"m/reac/tab-save"}
+{"time":1761514213588,"level":30,"msg":"Dispatching login succeeded","name":"m/reac/login"}
+{"time":1761514213588,"level":30,"msg":"Fetching owned keys...","name":"m/reac/login"}
+{"time":1761514213588,"level":20,"msg":"Calling Fetch.ProfileOwnedKeys","name":"mcall"}
+{"time":1761514213589,"level":20,"msg":"Calling Fetch.Commons","name":"mcall"}
+{"time":1761514213590,"level":20,"msg":"Download driver polling...","name":"m/reac/down/driver"}
+{"time":1761514213590,"level":20,"msg":"Not paused... current phase: IDLE","name":"m/reac/down/driver"}
+{"time":1761514213590,"level":20,"msg":"IDLE => STARTING","name":"m/reac/down/driver-persistent-state"}
+{"time":1761514213590,"level":20,"msg":"Calling Downloads.Drive","name":"mcall"}
+{"time":1761514213590,"level":20,"msg":"STARTING => RUNNING","name":"m/reac/down/driver-persistent-state"}
+{"time":1761514213590,"level":30,"msg":"Downloads started","name":"m/reac/down/driver-persistent-state"}
+{"time":1761514213610,"level":20,"msg":"Calling Fetch.Caves","name":"rcall"}
+{"time":1761514213624,"level":20,"msg":"Calling Fetch.ProfileOwnedKeys","name":"rcall"}
+{"time":1761514213624,"level":20,"msg":"Calling Fetch.Caves","name":"rcall"}
+{"time":1761514213632,"level":30,"msg":"Now driving downloads...","name":"m/reac/down/driver"}
+{"time":1761514213632,"level":30,"msg":"Fetching fresh data...","name":"m/reac/login"}
+{"time":1761514213632,"level":30,"msg":"Fetching page 1","name":"m/reac/login"}
+{"time":1761514213674,"level":20,"msg":"Calling Fetch.ProfileOwnedKeys","name":"rcall"}
+{"time":1761514213718,"level":40,"msg":"(butlerd) no handler for notification Log (in Fetch.ProfileOwnedKeys convo)","name":"butlerd/make-client"}
+{"time":1761514214762,"level":20,"msg":"Calling Profile.Data.Put","name":"mcall"}
+{"time":1761514214801,"level":30,"msg":"Waited 1.168465258s for fetch (shared with another call)","name":"m/reac/login"}
+{"time":1761514214801,"level":30,"msg":"Fetched owned keys in 1213.00ms","name":"m/reac/login"}
+{"time":1761514214803,"level":20,"msg":"Calling Fetch.Commons","name":"mcall"}
+{"time":1761514224739,"level":20,"msg":"Calling Fetch.Commons","name":"mcall"}
+{"time":1761514225701,"level":20,"msg":"Navigating to itch://preferences/ ","name":"m/reac/navigation"}
+{"time":1761514225716,"level":20,"msg":"Calling Fetch.Commons","name":"mcall"}
+{"time":1761514226217,"level":20,"msg":"Calling Fetch.Commons","name":"mcall"}
+{"time":1761514226717,"level":20,"msg":"Calling Fetch.Commons","name":"mcall"}
+{"time":1761514227299,"level":20,"msg":"Calling Profile.Data.Put","name":"mcall"}
+{"time":1761514368605,"level":20,"msg":"Calling Fetch.Commons","name":"mcall"}
+{"time":1761514383796,"level":20,"msg":"Calling Fetch.Commons","name":"mcall"}
+{"time":1761514384296,"level":20,"msg":"Calling Fetch.Commons","name":"mcall"}
+{"time":1761514385379,"level":20,"msg":"Calling Profile.Data.Put","name":"mcall"}
+{"time":1761514389489,"level":20,"msg":"Closing last tab, replacing it with a new-tab","name":"m/reac/navigation"}
+{"time":1761514391374,"level":20,"msg":"Calling Profile.Data.Put","name":"mcall"}
+{"time":1761514391954,"level":20,"msg":"Navigating to itch://featured/ ","name":"m/reac/navigation"}
+{"time":1761514392001,"level":20,"msg":"Loading url 'https://itch.io/'","name":"m/reac/web-contents"}
+{"time":1761514393374,"level":20,"msg":"Calling Profile.Data.Put","name":"mcall"}
+{"time":1761514397564,"level":20,"msg":"pushing webContents title https://itch.io","name":"m/reac/web-contents"}
+{"time":1761514399379,"level":20,"msg":"Calling Profile.Data.Put","name":"mcall"}
+{"time":1761514415389,"level":40,"msg":"Did fail load: -3,  for https://itch.io/","name":"m/reac/web-contents"}
+{"time":1761514417387,"level":20,"msg":"Calling Profile.Data.Put","name":"mcall"}
+{"time":1761514424110,"level":20,"msg":"did-finish-load (once)","name":"m/reac/web-contents"}
+{"time":1761514425389,"level":20,"msg":"Calling Profile.Data.Put","name":"mcall"}
+{"time":1761514519429,"level":20,"msg":"Calling Profile.Data.Put","name":"mcall"}
+{"time":1761514520431,"level":20,"msg":"Calling Profile.Data.Put","name":"mcall"}
+{"time":1761514527429,"level":20,"msg":"Calling Profile.Data.Put","name":"mcall"}
+{"time":1761514645362,"level":20,"msg":"Calling Fetch.Commons","name":"mcall"}
+{"time":1761514655620,"level":20,"msg":"Calling Fetch.Commons","name":"mcall"}
+{"time":1761514660494,"level":20,"msg":"Calling Profile.Data.Put","name":"mcall"}
+{"time":1761514662496,"level":20,"msg":"Calling Profile.Data.Put","name":"mcall"}
+{"time":1761514678502,"level":20,"msg":"Calling Profile.Data.Put","name":"mcall"}
+{"time":1761514862517,"level":20,"msg":"Calling Fetch.Commons","name":"mcall"}
+{"time":1761514963417,"level":20,"msg":"On window.close: close to tray enabled","name":"m/reac/winds"}
+{"time":1761522114687,"level":20,"msg":"spawning /home/mrboomdev/.config/itch/broth/itch-setup/versions/1.27.0/itch-setup :: --appname ::: itch ::: --upgrade","name":"m/brot/itch-setup"}
+{"time":1761522114733,"level":20,"msg":"> 2025/10/26 18:41:54 itch-setup will log to /tmp/itch-setup-log.txt","name":"📦 self"}
+{"time":1761522114733,"level":20,"msg":"> 2025/10/26 18:41:54 =========================================","name":"📦 self"}
+{"time":1761522114733,"level":20,"msg":"> 2025/10/26 18:41:54 itch-setup \"head, built on Dec  3 2024 @ 15:40:44, ref no-commit\" starting up at \"2025-10-26 18:41:54.733634449 -0500 -05 m=+0.002451114\" with arguments:","name":"📦 self"}
+{"time":1761522114733,"level":20,"msg":"> 2025/10/26 18:41:54 \"/home/mrboomdev/.config/itch/broth/itch-setup/versions/1.27.0/itch-setup\"","name":"📦 self"}
+{"time":1761522114734,"level":20,"msg":"> 2025/10/26 18:41:54 \"--appname\"","name":"📦 self"}
+{"time":1761522114734,"level":20,"msg":"> 2025/10/26 18:41:54 \"itch\"","name":"📦 self"}
+{"time":1761522114734,"level":20,"msg":"> 2025/10/26 18:41:54 \"--upgrade\"","name":"📦 self"}
+{"time":1761522114734,"level":20,"msg":"> 2025/10/26 18:41:54 =========================================","name":"📦 self"}
+{"time":1761522114734,"level":20,"msg":"> 2025/10/26 18:41:54 App name specified on command-line: itch","name":"📦 self"}
+{"time":1761522114734,"level":20,"msg":"> 2025/10/26 18:41:54 Locale:  en-US","name":"📦 self"}
+{"time":1761522114735,"level":20,"msg":"> 2025/10/26 18:41:54 Initializing installer GUI...","name":"📦 self"}
+{"time":1761522114736,"level":20,"msg":"> 2025/10/26 18:41:54 Using GTK UI","name":"📦 self"}
+{"time":1761522114738,"level":20,"msg":"> 2025/10/26 18:41:54 Initializing (itch) multiverse @ (/home/mrboomdev/.itch)","name":"📦 self"}
+{"time":1761522114739,"level":20,"msg":"> 2025/10/26 18:41:54 (/home/mrboomdev/.itch)(current = \"26.1.9\", ready = \"\")","name":"📦 self"}
+{"time":1761522115790,"level":20,"msg":"> 2025/10/26 18:41:55 Installed 26.1.9","name":"📦 self"}
+{"time":1761522115790,"level":20,"msg":"> 2025/10/26 18:41:55 Latest    26.1.9","name":"📦 self"}
+{"time":1761522115790,"level":20,"msg":"> 2025/10/26 18:41:55 We're up-to-date!","name":"📦 self"}
+{"time":1761522115793,"level":20,"msg":"Trying to satisfy semver constraint (^15.20.0)","name":"📦 butler"}
+{"time":1761522115793,"level":20,"msg":"GET (https://broth.itch.zone/butler/linux-amd64/versions)","name":"📦 butler"}
+{"time":1761522115793,"level":20,"msg":"HTTP get https://broth.itch.zone/butler/linux-amd64/versions","name":"r"}
+{"time":1761522116208,"level":20,"msg":"Got HTTP 200, content-length: 0 B","name":"r"}
+{"time":1761522116209,"level":30,"msg":"Latest is (15.24.0)","name":"📦 butler"}
+{"time":1761522116209,"level":30,"msg":"Already the active version, nothing to do","name":"📦 butler"}
+{"time":1761522116209,"level":20,"msg":"Present versions: 15.24.0","name":"📦 butler"}
+{"time":1761522116210,"level":20,"msg":"Trying to satisfy semver constraint (^1.8.0)","name":"📦 itch-setup"}
+{"time":1761522116210,"level":20,"msg":"GET (https://broth.itch.zone/itch-setup/linux-amd64/versions)","name":"📦 itch-setup"}
+{"time":1761522116210,"level":20,"msg":"HTTP get https://broth.itch.zone/itch-setup/linux-amd64/versions","name":"r"}
+{"time":1761522116473,"level":20,"msg":"Got HTTP 200, content-length: 0 B","name":"r"}
+{"time":1761522116475,"level":30,"msg":"Latest is (1.27.0)","name":"📦 itch-setup"}
+{"time":1761522116475,"level":30,"msg":"Already the active version, nothing to do","name":"📦 itch-setup"}
+{"time":1761522116476,"level":20,"msg":"Present versions: 1.27.0","name":"📦 itch-setup"}
+{"time":1761657650309,"level":30,"msg":"itch@26.1.9 on electron@22.3.27 in production"}
+{"time":1761657650312,"level":20,"msg":"imported preferences: {\"downloadSelfUpdates\":true,\"offlineMode\":false,\"installLocations\":{},\"defaultInstallLocation\":\"appdata\",\"isolateApps\":true,\"closeToTray\":true,\"readyNotification\":true,\"showAdvanced\":false,\"openAtLogin\":false,\"openAsHidden\":false,\"manualGameUpdates\":false,\"preventDisplaySleep\":true,\"preferOptimizedPatches\":false,\"disableBrowser\":false,\"enableTabs\":true,\"lastSuccessfulSetupVersion\":\"26.1.9\",\"importedOldInstallLocations\":true,\"gotMinimizeNotification\":true}","name":"m/reac/preb/load-preferences"}
+{"time":1761657650373,"level":20,"msg":"Skipping game update check as requested per environment variable","name":"m/reac/updater"}
+{"time":1761657650487,"level":20,"msg":"imported preferences: {\"downloadSelfUpdates\":true,\"offlineMode\":false,\"installLocations\":{},\"defaultInstallLocation\":\"appdata\",\"isolateApps\":true,\"closeToTray\":true,\"readyNotification\":true,\"showAdvanced\":false,\"openAtLogin\":false,\"openAsHidden\":false,\"manualGameUpdates\":false,\"preventDisplaySleep\":true,\"preferOptimizedPatches\":false,\"disableBrowser\":false,\"enableTabs\":true,\"lastSuccessfulSetupVersion\":\"26.1.9\",\"importedOldInstallLocations\":true,\"gotMinimizeNotification\":true}","name":"m/reac/preb/load-preferences"}
+{"time":1761657650502,"level":20,"msg":"Registering itch: protocol for session with user agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) itch/26.1.9 Chrome/108.0.5359.215 Electron/22.3.27 Safari/537.36","name":"m/net/register-itch-protocol"}
+{"time":1761657650584,"level":30,"msg":"preboot ran in 97.00ms","name":"m/reac/preboot"}
+{"time":1761657650585,"level":20,"msg":"Updating login item settings, open=false, hidden=false","name":"m/reac/open-at-login"}
+{"time":1761657650585,"level":20,"msg":"Copying /usr/share/applications/io.itch.itch.desktop => /home/mrboomdev/.config/autostart/io.itch.itch.desktop","name":"m/reac/open-at-login"}
+{"time":1761657650587,"level":20,"msg":"Waiting on root window to dispatch boot","name":"m/reac/winds"}
+{"time":1761657651501,"level":30,"msg":"Language settings: preference undefined, sniffed en-US, fallback en","name":"m/reac/i18n"}
+{"time":1761657651505,"level":20,"msg":"Reading local locale file /home/mrboomdev/.itch/app-26.1.9/resources/app/src/static/locales/en.json","name":"m/reac/locales"}
+{"time":1761657651508,"level":20,"msg":"Reading remote locale file /home/mrboomdev/.itch/app-26.1.9/resources/app/src/static/locales/en.json","name":"m/reac/locales"}
+{"time":1761657651758,"level":30,"msg":"Setup starting...","name":"🔧 setup"}
+{"time":1761657651759,"level":30,"msg":"Creating broth manager","name":"🔧 setup"}
+{"time":1761657651760,"level":30,"msg":"Ensuring broth dependencies, for startup","name":"🔧 setup"}
+{"time":1761657651761,"level":20,"msg":"Package (itch) got version prefix","name":"🔧 setup"}
+{"time":1761657651762,"level":20,"msg":"Reading local locale file /home/mrboomdev/.itch/app-26.1.9/resources/app/src/static/locales/en.json","name":"m/reac/locales"}
+{"time":1761657651772,"level":20,"msg":"Reading remote locale file /home/mrboomdev/.itch/app-26.1.9/resources/app/src/static/locales/en.json","name":"m/reac/locales"}
+{"time":1761657652147,"level":30,"msg":"(15.24.0) is chosen and valid","name":"📦 butler"}
+{"time":1761657652147,"level":30,"msg":"Switching to (15.24.0)","name":"📦 butler"}
+{"time":1761657652148,"level":20,"msg":"Package (butler) got version prefix","name":"🔧 setup"}
+{"time":1761657652148,"level":30,"msg":"Refreshing butlerd!","name":"🔧 setup"}
+{"time":1761657652148,"level":30,"msg":"Spinning up butlerd instance 1...","name":"🔧 setup"}
+{"time":1761657652152,"level":30,"msg":"...waiting for endpoint from butlerd instance 1...","name":"🔧 setup"}
+{"time":1761657652159,"level":20,"msg":"spawning /home/mrboomdev/.config/itch/broth/itch-setup/versions/1.27.0/itch-setup :: --version","name":"📦 itch-setup"}
+{"time":1761657652202,"level":30,"msg":"(1.27.0) is chosen and valid","name":"📦 itch-setup"}
+{"time":1761657652202,"level":30,"msg":"Switching to (1.27.0)","name":"📦 itch-setup"}
+{"time":1761657652202,"level":30,"msg":"Already set up 26.1.9 once, delaying components upgrade check","name":"🔧 setup"}
+{"time":1761657652202,"level":20,"msg":"Waiting for butler promise...","name":"🔧 setup"}
+{"time":1761657652204,"level":20,"msg":"Package (itch-setup) got version prefix","name":"🔧 setup"}
+{"time":1761657652217,"level":30,"msg":"...for butlerd instance 1 got endpoint 127.0.0.1:41035","name":"🔧 setup"}
+{"time":1761657652396,"level":30,"msg":"Now speaking with butlerd instance 1, version v15.24.0, built on Dec 12 2024 @ 20:12:35, ref f1203f79c4b65ef2201e95ca81b6b02b7d37cb04, endpoint 127.0.0.1:41035","name":"🔧 setup"}
+{"time":1761657652397,"level":20,"msg":"Syncing install locations...","name":"🔧 setup"}
+{"time":1761657652398,"level":20,"msg":"Calling Install.Locations.List","name":"mcall"}
+{"time":1761657652400,"level":20,"msg":"Downloads driver reacting to gotButlerdEndpoint, cancelling state...","name":"m/reac/down/driver"}
+{"time":1761657652400,"level":20,"msg":"Not cancelling, current phase is 0","name":"m/reac/down/driver-persistent-state"}
+{"time":1761657652400,"level":20,"msg":"Downloads driver reacting to gotButlerdEndpoint, state is cancelled...","name":"m/reac/down/driver"}
+{"time":1761657652401,"level":20,"msg":"Download driver polling...","name":"m/reac/down/driver"}
+{"time":1761657652401,"level":20,"msg":"Calling Downloads.List","name":"mcall"}
+{"time":1761657652446,"level":20,"msg":"Dispatching setup done!","name":"🔧 setup"}
+{"time":1761657652447,"level":30,"msg":"Setup done","name":"🔧 setup"}
+{"time":1761657652448,"level":20,"msg":"Calling Fetch.Caves","name":"mcall"}
+{"time":1761657652450,"level":30,"msg":"Scanning install locations for items...","name":"m/reac/silent-location-scan"}
+{"time":1761657652450,"level":20,"msg":"Calling Install.Locations.Scan","name":"mcall"}
+{"time":1761657652456,"level":20,"msg":"Calling Profile.List","name":"rcall"}
+{"time":1761657652493,"level":30,"msg":"• Scanning install location /home/mrboomdev/.config/itch/apps...","name":"m/reac/silent-location-scan"}
+{"time":1761657652494,"level":30,"msg":"No items found","name":"m/reac/silent-location-scan"}
+{"time":1761657652494,"level":30,"msg":"Scan complete.","name":"m/reac/silent-location-scan"}
+{"time":1761657652495,"level":30,"msg":"Using tray image (/home/mrboomdev/.itch/app-26.1.9/resources/app/src/static/images/tray/itch.png)"}
+{"time":1761657652496,"level":20,"msg":"Calling Fetch.Caves","name":"mcall"}
+{"time":1761657652691,"level":20,"msg":"Calling Fetch.Commons","name":"mcall"}
+{"time":1761657653776,"level":20,"msg":"Downloading fresh locale file from https://locales.itch.zone/itch/en.json","name":"m/reac/locales"}
+{"time":1761657653777,"level":20,"msg":"HTTP get https://locales.itch.zone/itch/en.json","name":"r"}
+{"time":1761657656189,"level":30,"msg":"Attempting saved login for profile 6382512","name":"m/reac/login"}
+{"time":1761657656190,"level":20,"msg":"Calling Profile.UseSavedLogin","name":"mcall"}
+{"time":1761657656233,"level":30,"msg":"• Validating credentials...","name":"m/reac/login"}
+{"time":1761657659346,"level":40,"msg":"Failed downloading locale for en: net::ERR_NAME_NOT_RESOLVED","name":"m/reac/locales"}
+{"time":1761657661196,"level":20,"msg":"Calling Profile.List","name":"rcall"}
+{"time":1761657661458,"level":30,"msg":"• Logged in! (offline)","name":"m/reac/login"}
+{"time":1761657665495,"level":20,"msg":"spawning /home/mrboomdev/.config/itch/broth/itch-setup/versions/1.27.0/itch-setup :: --appname ::: itch ::: --upgrade","name":"m/brot/itch-setup"}
+{"time":1761657665517,"level":20,"msg":"> 2025/10/28 08:21:05 itch-setup will log to /tmp/itch-setup-log.txt","name":"📦 self"}
+{"time":1761657665517,"level":20,"msg":"> 2025/10/28 08:21:05 =========================================","name":"📦 self"}
+{"time":1761657665517,"level":20,"msg":"> 2025/10/28 08:21:05 itch-setup \"head, built on Dec  3 2024 @ 15:40:44, ref no-commit\" starting up at \"2025-10-28 08:21:05.517362589 -0500 -05 m=+0.002625989\" with arguments:","name":"📦 self"}
+{"time":1761657665517,"level":20,"msg":"> 2025/10/28 08:21:05 \"/home/mrboomdev/.config/itch/broth/itch-setup/versions/1.27.0/itch-setup\"","name":"📦 self"}
+{"time":1761657665517,"level":20,"msg":"> 2025/10/28 08:21:05 \"--appname\"","name":"📦 self"}
+{"time":1761657665517,"level":20,"msg":"> 2025/10/28 08:21:05 \"itch\"","name":"📦 self"}
+{"time":1761657665517,"level":20,"msg":"> 2025/10/28 08:21:05 \"--upgrade\"","name":"📦 self"}
+{"time":1761657665517,"level":20,"msg":"> 2025/10/28 08:21:05 =========================================","name":"📦 self"}
+{"time":1761657665517,"level":20,"msg":"> 2025/10/28 08:21:05 App name specified on command-line: itch","name":"📦 self"}
+{"time":1761657665517,"level":20,"msg":"> 2025/10/28 08:21:05 Locale:  en-US","name":"📦 self"}
+{"time":1761657665519,"level":20,"msg":"> 2025/10/28 08:21:05 Initializing installer GUI...","name":"📦 self"}
+{"time":1761657665519,"level":20,"msg":"> 2025/10/28 08:21:05 Using GTK UI","name":"📦 self"}
+{"time":1761657665522,"level":20,"msg":"> 2025/10/28 08:21:05 Initializing (itch) multiverse @ (/home/mrboomdev/.itch)","name":"📦 self"}
+{"time":1761657665522,"level":20,"msg":"> 2025/10/28 08:21:05 (/home/mrboomdev/.itch)(current = \"26.1.9\", ready = \"\")","name":"📦 self"}
+{"time":1761657665762,"level":20,"msg":"> 2025/10/28 08:21:05 Get \"https://broth.itch.zone/itch/linux-amd64/LATEST\": read tcp 192.168.0.100:45944->172.67.68.41:443: read: connection reset by peer","name":"📦 self"}
+{"time":1761657665762,"level":20,"msg":"> While performing GET request to https://broth.itch.zone/itch/linux-amd64/LATEST","name":"📦 self"}
+{"time":1761657665762,"level":20,"msg":"> task 2","name":"📦 self"}
+{"time":1761657665762,"level":20,"msg":"> github.com/itchio/wharf/taskgroup.Do","name":"📦 self"}
+{"time":1761657665762,"level":20,"msg":"> \t/home/gitlab-runner/go/pkg/mod/github.com/itchio/wharf@v0.0.0-20200618125324-225b1d4a2468/taskgroup/taskgroup.go:37","name":"📦 self"}
+{"time":1761657665762,"level":20,"msg":"> github.com/itchio/itch-setup/setup.(*Installer).Upgrade","name":"📦 self"}
+{"time":1761657665762,"level":20,"msg":"> \t/home/gitlab-runner/builds/wYnefs8J/0/itchio/itch-setup/setup/upgrade.go:67","name":"📦 self"}
+{"time":1761657665762,"level":20,"msg":"> github.com/itchio/itch-setup/native.(*nativeCore).Upgrade","name":"📦 self"}
+{"time":1761657665762,"level":20,"msg":"> \t/home/gitlab-runner/builds/wYnefs8J/0/itchio/itch-setup/native/native_linux.go:245","name":"📦 self"}
+{"time":1761657665762,"level":20,"msg":"> main.main","name":"📦 self"}
+{"time":1761657665762,"level":20,"msg":"> \t/home/gitlab-runner/builds/wYnefs8J/0/itchio/itch-setup/main.go:232","name":"📦 self"}
+{"time":1761657665762,"level":20,"msg":"> runtime.main","name":"📦 self"}
+{"time":1761657665762,"level":20,"msg":"> \t/usr/local/go/src/runtime/proc.go:255","name":"📦 self"}
+{"time":1761657665762,"level":20,"msg":"> runtime.goexit","name":"📦 self"}
+{"time":1761657665762,"level":20,"msg":"> \t/usr/local/go/src/runtime/asm_amd64.s:1581","name":"📦 self"}
+{"time":1761657665762,"level":20,"msg":"> Fatal upgrade error","name":"📦 self"}
+{"time":1761657665765,"level":20,"msg":"Trying to satisfy semver constraint (^15.20.0)","name":"📦 butler"}
+{"time":1761657665765,"level":20,"msg":"GET (https://broth.itch.zone/butler/linux-amd64/versions)","name":"📦 butler"}
+{"time":1761657665765,"level":20,"msg":"HTTP get https://broth.itch.zone/butler/linux-amd64/versions","name":"r"}
+{"time":1761657666077,"level":40,"msg":"While checking for latest version: Error: net::ERR_CONNECTION_RESET\n    at ClientRequest.<anonymous> (/home/mrboomdev/.itch/app-26.1.9/resources/app/dist/main/main.bundle.js:13841:20)\n    at ClientRequest.emit (node:events:513:28)\n    at ClientRequest._die (node:electron/js2c/browser_init:2:50766)\n    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:49492)\n    at SimpleURLLoaderWrapper.emit (node:events:513:28)","name":"📦 butler"}
+{"time":1761657666081,"level":20,"msg":"Present versions: 15.24.0","name":"📦 butler"}
+{"time":1761657666082,"level":50,"msg":"while reacting to checkForComponentUpdates: Error: Could not retrieve latest version of (butler): net::ERR_CONNECTION_RESET\n    at Package.doUpgrade (/home/mrboomdev/.itch/app-26.1.9/resources/app/dist/main/main.bundle.js:18295:19)\n    at async Package.upgrade (/home/mrboomdev/.itch/app-26.1.9/resources/app/dist/main/main.bundle.js:18262:13)\n    at async Manager.upgrade (/home/mrboomdev/.itch/app-26.1.9/resources/app/dist/main/main.bundle.js:18598:13)\n    at async /home/mrboomdev/.itch/app-26.1.9/resources/app/dist/main/main.bundle.js:18830:9\n    at async Promise.all (index 0)"}
+{"time":1761657667559,"level":30,"msg":"Attempting password login for user MrBoomDev","name":"m/reac/login"}
+{"time":1761657667559,"level":30,"msg":"Doing username/password login...","name":"m/reac/login"}
+{"time":1761657667559,"level":20,"msg":"Calling Profile.LoginWithPassword","name":"mcall"}
+{"time":1761657667560,"level":20,"msg":"Setting up handlers for TOTP & captcha","name":"m/reac/login"}
+{"time":1761657668043,"level":50,"msg":"Caught butler error:","name":"mcall"}
+{"time":1761657668043,"level":50,"msg":"butler version: v15.24.0, built on Dec 12 2024 @ 20:12:35, ref f1203f79c4b65ef2201e95ca81b6b02b7d37cb04","name":"mcall"}
+{"time":1761657668043,"level":50,"msg":"Golang stack:\nServer error: HTTP 403 Forbidden for /login\ngithub.com/itchio/go-itchio.(*Client).PostFormResponse\n\t/home/gitlab-runner/go/pkg/mod/github.com/itchio/go-itchio@v0.0.0-20200826214038-a03acb9221a2/http_helpers.go:80\ngithub.com/itchio/go-itchio.(*Query).Post\n\t/home/gitlab-runner/go/pkg/mod/github.com/itchio/go-itchio@v0.0.0-20200826214038-a03acb9221a2/query.go:110\ngithub.com/itchio/go-itchio.(*Client).LoginWithPassword\n\t/home/gitlab-runner/go/pkg/mod/github.com/itchio/go-itchio@v0.0.0-20200826214038-a03acb9221a2/endpoints_login.go:44\ngithub.com/itchio/butler/endpoints/profile.LoginWithPassword\n\t/home/gitlab-runner/builds/wYnefs8J/0/itchio/butler/endpoints/profile/profile.go:64\ngithub.com/itchio/butler/endpoints/profile.Register.(*ProfileLoginWithPasswordType).Register.func2\n\t/home/gitlab-runner/builds/wYnefs8J/0/itchio/butler/butlerd/messages/messages.go:566\ngithub.com/itchio/butler/butlerd.(*Router).HandleRequest.func2\n\t/home/gitlab-runner/builds/wYnefs8J/0/itchio/butler/butlerd/router.go:306\ngithub.com/itchio/butler/butlerd.(*Router).HandleRequest\n\t/home/gitlab-runner/builds/wYnefs8J/0/itchio/butler/butlerd/router.go:315\ngithub.com/itchio/butler/butlerd.(*gatedHandler).HandleRequest\n\t/home/gitlab-runner/builds/wYnefs8J/0/itchio/butler/butlerd/butlerd.go:159\ngithub.com/itchio/butler/butlerd/jsonrpc2.(*connImpl).handleIncomingMessage.func1\n\t/home/gitlab-runner/builds/wYnefs8J/0/itchio/butler/butlerd/jsonrpc2/jsonrpc2.go:250\nruntime.goexit\n\t/usr/local/go/src/runtime/asm_amd64.s:1700\ngithub.com/itchio/butler/endpoints/profile.LoginWithPassword\n\t/home/gitlab-runner/builds/wYnefs8J/0/itchio/butler/endpoints/profile/profile.go:70\ngithub.com/itchio/butler/endpoints/profile.Register.(*ProfileLoginWithPasswordType).Register.func2\n\t/home/gitlab-runner/builds/wYnefs8J/0/itchio/butler/butlerd/messages/messages.go:566\ngithub.com/itchio/butler/butlerd.(*Router).HandleRequest.func2\n\t/home/gitlab-runner/builds/wYnefs8J/0/itchio/butler/butlerd/router.go:306\ngithub.com/itchio/butler/butlerd.(*Router).HandleRequest\n\t/home/gitlab-runner/builds/wYnefs8J/0/itchio/butler/butlerd/router.go:315\ngithub.com/itchio/butler/butlerd.(*gatedHandler).HandleRequest\n\t/home/gitlab-runner/builds/wYnefs8J/0/itchio/butler/butlerd/butlerd.go:159\ngithub.com/itchio/butler/butlerd/jsonrpc2.(*connImpl).handleIncomingMessage.func1\n\t/home/gitlab-runner/builds/wYnefs8J/0/itchio/butler/butlerd/jsonrpc2/jsonrpc2.go:250\nruntime.goexit\n\t/usr/local/go/src/runtime/asm_amd64.s:1700","name":"mcall"}
+{"time":1761657668043,"level":50,"msg":"JavaScript stack: Error: Server error: HTTP 403 Forbidden for /login\n    at Conversation.handleMessage (/home/mrboomdev/.itch/app-26.1.9/resources/app/dist/main/main.bundle.js:1140:28)\n    at Transform.<anonymous> (/home/mrboomdev/.itch/app-26.1.9/resources/app/dist/main/main.bundle.js:1036:22)\n    at Transform.emit (node:events:513:28)\n    at addChunk (/home/mrboomdev/.itch/app-26.1.9/resources/app/dist/main/main.bundle.js:33156:12)\n    at readableAddChunk (/home/mrboomdev/.itch/app-26.1.9/resources/app/dist/main/main.bundle.js:33138:11)\n    at Readable.push (/home/mrboomdev/.itch/app-26.1.9/resources/app/dist/main/main.bundle.js:33099:10)\n    at Transform.push (/home/mrboomdev/.itch/app-26.1.9/resources/app/dist/main/main.bundle.js:34128:32)\n    at push (/home/mrboomdev/.itch/app-26.1.9/resources/app/dist/main/main.bundle.js:32475:10)\n    at Transform.transform [as _transform] (/home/mrboomdev/.itch/app-26.1.9/resources/app/dist/main/main.bundle.js:32446:7)\n    at Transform._read (/home/mrboomdev/.itch/app-26.1.9/resources/app/dist/main/main.bundle.js:34166:10)","name":"mcall"}
+{"time":1761657668043,"level":50,"msg":"Password login failed: Error: Server error: HTTP 403 Forbidden for /login\n    at Conversation.handleMessage (/home/mrboomdev/.itch/app-26.1.9/resources/app/dist/main/main.bundle.js:1140:28)\n    at Transform.<anonymous> (/home/mrboomdev/.itch/app-26.1.9/resources/app/dist/main/main.bundle.js:1036:22)\n    at Transform.emit (node:events:513:28)\n    at addChunk (/home/mrboomdev/.itch/app-26.1.9/resources/app/dist/main/main.bundle.js:33156:12)\n    at readableAddChunk (/home/mrboomdev/.itch/app-26.1.9/resources/app/dist/main/main.bundle.js:33138:11)\n    at Readable.push (/home/mrboomdev/.itch/app-26.1.9/resources/app/dist/main/main.bundle.js:33099:10)\n    at Transform.push (/home/mrboomdev/.itch/app-26.1.9/resources/app/dist/main/main.bundle.js:34128:32)\n    at push (/home/mrboomdev/.itch/app-26.1.9/resources/app/dist/main/main.bundle.js:32475:10)\n    at Transform.transform [as _transform] (/home/mrboomdev/.itch/app-26.1.9/resources/app/dist/main/main.bundle.js:32446:7)\n    at Transform._read (/home/mrboomdev/.itch/app-26.1.9/resources/app/dist/main/main.bundle.js:34166:10)","name":"m/reac/login"}
+{"time":1761657668047,"level":20,"msg":"Calling Profile.List","name":"rcall"}
+{"time":1761657679140,"level":30,"msg":"Attempting password login for user MrBoomDev","name":"m/reac/login"}
+{"time":1761657679140,"level":30,"msg":"Doing username/password login...","name":"m/reac/login"}
+{"time":1761657679140,"level":20,"msg":"Calling Profile.LoginWithPassword","name":"mcall"}
+{"time":1761657679140,"level":20,"msg":"Setting up handlers for TOTP & captcha","name":"m/reac/login"}
+{"time":1761657679272,"level":50,"msg":"Caught butler error:","name":"mcall"}
+{"time":1761657679272,"level":50,"msg":"butler version: v15.24.0, built on Dec 12 2024 @ 20:12:35, ref f1203f79c4b65ef2201e95ca81b6b02b7d37cb04","name":"mcall"}
+{"time":1761657679272,"level":50,"msg":"Golang stack:\nServer error: HTTP 403 Forbidden for /login\ngithub.com/itchio/go-itchio.(*Client).PostFormResponse\n\t/home/gitlab-runner/go/pkg/mod/github.com/itchio/go-itchio@v0.0.0-20200826214038-a03acb9221a2/http_helpers.go:80\ngithub.com/itchio/go-itchio.(*Query).Post\n\t/home/gitlab-runner/go/pkg/mod/github.com/itchio/go-itchio@v0.0.0-20200826214038-a03acb9221a2/query.go:110\ngithub.com/itchio/go-itchio.(*Client).LoginWithPassword\n\t/home/gitlab-runner/go/pkg/mod/github.com/itchio/go-itchio@v0.0.0-20200826214038-a03acb9221a2/endpoints_login.go:44\ngithub.com/itchio/butler/endpoints/profile.LoginWithPassword\n\t/home/gitlab-runner/builds/wYnefs8J/0/itchio/butler/endpoints/profile/profile.go:64\ngithub.com/itchio/butler/endpoints/profile.Register.(*ProfileLoginWithPasswordType).Register.func2\n\t/home/gitlab-runner/builds/wYnefs8J/0/itchio/butler/butlerd/messages/messages.go:566\ngithub.com/itchio/butler/butlerd.(*Router).HandleRequest.func2\n\t/home/gitlab-runner/builds/wYnefs8J/0/itchio/butler/butlerd/router.go:306\ngithub.com/itchio/butler/butlerd.(*Router).HandleRequest\n\t/home/gitlab-runner/builds/wYnefs8J/0/itchio/butler/butlerd/router.go:315\ngithub.com/itchio/butler/butlerd.(*gatedHandler).HandleRequest\n\t/home/gitlab-runner/builds/wYnefs8J/0/itchio/butler/butlerd/butlerd.go:159\ngithub.com/itchio/butler/butlerd/jsonrpc2.(*connImpl).handleIncomingMessage.func1\n\t/home/gitlab-runner/builds/wYnefs8J/0/itchio/butler/butlerd/jsonrpc2/jsonrpc2.go:250\nruntime.goexit\n\t/usr/local/go/src/runtime/asm_amd64.s:1700\ngithub.com/itchio/butler/endpoints/profile.LoginWithPassword\n\t/home/gitlab-runner/builds/wYnefs8J/0/itchio/butler/endpoints/profile/profile.go:70\ngithub.com/itchio/butler/endpoints/profile.Register.(*ProfileLoginWithPasswordType).Register.func2\n\t/home/gitlab-runner/builds/wYnefs8J/0/itchio/butler/butlerd/messages/messages.go:566\ngithub.com/itchio/butler/butlerd.(*Router).HandleRequest.func2\n\t/home/gitlab-runner/builds/wYnefs8J/0/itchio/butler/butlerd/router.go:306\ngithub.com/itchio/butler/butlerd.(*Router).HandleRequest\n\t/home/gitlab-runner/builds/wYnefs8J/0/itchio/butler/butlerd/router.go:315\ngithub.com/itchio/butler/butlerd.(*gatedHandler).HandleRequest\n\t/home/gitlab-runner/builds/wYnefs8J/0/itchio/butler/butlerd/butlerd.go:159\ngithub.com/itchio/butler/butlerd/jsonrpc2.(*connImpl).handleIncomingMessage.func1\n\t/home/gitlab-runner/builds/wYnefs8J/0/itchio/butler/butlerd/jsonrpc2/jsonrpc2.go:250\nruntime.goexit\n\t/usr/local/go/src/runtime/asm_amd64.s:1700","name":"mcall"}
+{"time":1761657679272,"level":50,"msg":"JavaScript stack: Error: Server error: HTTP 403 Forbidden for /login\n    at Conversation.handleMessage (/home/mrboomdev/.itch/app-26.1.9/resources/app/dist/main/main.bundle.js:1140:28)\n    at Transform.<anonymous> (/home/mrboomdev/.itch/app-26.1.9/resources/app/dist/main/main.bundle.js:1036:22)\n    at Transform.emit (node:events:513:28)\n    at addChunk (/home/mrboomdev/.itch/app-26.1.9/resources/app/dist/main/main.bundle.js:33156:12)\n    at readableAddChunk (/home/mrboomdev/.itch/app-26.1.9/resources/app/dist/main/main.bundle.js:33138:11)\n    at Readable.push (/home/mrboomdev/.itch/app-26.1.9/resources/app/dist/main/main.bundle.js:33099:10)\n    at Transform.push (/home/mrboomdev/.itch/app-26.1.9/resources/app/dist/main/main.bundle.js:34128:32)\n    at push (/home/mrboomdev/.itch/app-26.1.9/resources/app/dist/main/main.bundle.js:32475:10)\n    at Transform.transform [as _transform] (/home/mrboomdev/.itch/app-26.1.9/resources/app/dist/main/main.bundle.js:32446:7)\n    at Transform._read (/home/mrboomdev/.itch/app-26.1.9/resources/app/dist/main/main.bundle.js:34166:10)","name":"mcall"}
+{"time":1761657679272,"level":50,"msg":"Password login failed: Error: Server error: HTTP 403 Forbidden for /login\n    at Conversation.handleMessage (/home/mrboomdev/.itch/app-26.1.9/resources/app/dist/main/main.bundle.js:1140:28)\n    at Transform.<anonymous> (/home/mrboomdev/.itch/app-26.1.9/resources/app/dist/main/main.bundle.js:1036:22)\n    at Transform.emit (node:events:513:28)\n    at addChunk (/home/mrboomdev/.itch/app-26.1.9/resources/app/dist/main/main.bundle.js:33156:12)\n    at readableAddChunk (/home/mrboomdev/.itch/app-26.1.9/resources/app/dist/main/main.bundle.js:33138:11)\n    at Readable.push (/home/mrboomdev/.itch/app-26.1.9/resources/app/dist/main/main.bundle.js:33099:10)\n    at Transform.push (/home/mrboomdev/.itch/app-26.1.9/resources/app/dist/main/main.bundle.js:34128:32)\n    at push (/home/mrboomdev/.itch/app-26.1.9/resources/app/dist/main/main.bundle.js:32475:10)\n    at Transform.transform [as _transform] (/home/mrboomdev/.itch/app-26.1.9/resources/app/dist/main/main.bundle.js:32446:7)\n    at Transform._read (/home/mrboomdev/.itch/app-26.1.9/resources/app/dist/main/main.bundle.js:34166:10)","name":"m/reac/login"}
+{"time":1761657679276,"level":20,"msg":"Calling Profile.List","name":"rcall"}
+{"time":1761657682548,"level":30,"msg":"Attempting saved login for profile 6382512","name":"m/reac/login"}
+{"time":1761657682549,"level":20,"msg":"Calling Profile.UseSavedLogin","name":"mcall"}
+{"time":1761657682591,"level":30,"msg":"• Validating credentials...","name":"m/reac/login"}
+{"time":1761657682674,"level":50,"msg":"Caught butler error:","name":"mcall"}
+{"time":1761657682674,"level":50,"msg":"butler version: v15.24.0, built on Dec 12 2024 @ 20:12:35, ref f1203f79c4b65ef2201e95ca81b6b02b7d37cb04","name":"mcall"}
+{"time":1761657682674,"level":50,"msg":"Golang stack:\nServer error: HTTP 403 Forbidden for /profile\ngithub.com/itchio/go-itchio.(*Client).GetResponse\n\t/home/gitlab-runner/go/pkg/mod/github.com/itchio/go-itchio@v0.0.0-20200826214038-a03acb9221a2/http_helpers.go:54\ngithub.com/itchio/go-itchio.(*Query).Get\n\t/home/gitlab-runner/go/pkg/mod/github.com/itchio/go-itchio@v0.0.0-20200826214038-a03acb9221a2/query.go:103\ngithub.com/itchio/go-itchio.(*Client).GetProfile\n\t/home/gitlab-runner/go/pkg/mod/github.com/itchio/go-itchio@v0.0.0-20200826214038-a03acb9221a2/endpoints_profile.go:16\ngithub.com/itchio/butler/endpoints/profile.UseSavedLogin.func1\n\t/home/gitlab-runner/builds/wYnefs8J/0/itchio/butler/endpoints/profile/profile.go:178\ngithub.com/itchio/butler/endpoints/profile.UseSavedLogin\n\t/home/gitlab-runner/builds/wYnefs8J/0/itchio/butler/endpoints/profile/profile.go:187\ngithub.com/itchio/butler/endpoints/profile.Register.(*ProfileUseSavedLoginType).Register.func4\n\t/home/gitlab-runner/builds/wYnefs8J/0/itchio/butler/butlerd/messages/messages.go:726\ngithub.com/itchio/butler/butlerd.(*Router).HandleRequest.func2\n\t/home/gitlab-runner/builds/wYnefs8J/0/itchio/butler/butlerd/router.go:306\ngithub.com/itchio/butler/butlerd.(*Router).HandleRequest\n\t/home/gitlab-runner/builds/wYnefs8J/0/itchio/butler/butlerd/router.go:315\ngithub.com/itchio/butler/butlerd.(*gatedHandler).HandleRequest\n\t/home/gitlab-runner/builds/wYnefs8J/0/itchio/butler/butlerd/butlerd.go:159\ngithub.com/itchio/butler/butlerd/jsonrpc2.(*connImpl).handleIncomingMessage.func1\n\t/home/gitlab-runner/builds/wYnefs8J/0/itchio/butler/butlerd/jsonrpc2/jsonrpc2.go:250\nruntime.goexit\n\t/usr/local/go/src/runtime/asm_amd64.s:1700\ngithub.com/itchio/butler/endpoints/profile.UseSavedLogin.func1\n\t/home/gitlab-runner/builds/wYnefs8J/0/itchio/butler/endpoints/profile/profile.go:180\ngithub.com/itchio/butler/endpoints/profile.UseSavedLogin\n\t/home/gitlab-runner/builds/wYnefs8J/0/itchio/butler/endpoints/profile/profile.go:187\ngithub.com/itchio/butler/endpoints/profile.Register.(*ProfileUseSavedLoginType).Register.func4\n\t/home/gitlab-runner/builds/wYnefs8J/0/itchio/butler/butlerd/messages/messages.go:726\ngithub.com/itchio/butler/butlerd.(*Router).HandleRequest.func2\n\t/home/gitlab-runner/builds/wYnefs8J/0/itchio/butler/butlerd/router.go:306\ngithub.com/itchio/butler/butlerd.(*Router).HandleRequest\n\t/home/gitlab-runner/builds/wYnefs8J/0/itchio/butler/butlerd/router.go:315\ngithub.com/itchio/butler/butlerd.(*gatedHandler).HandleRequest\n\t/home/gitlab-runner/builds/wYnefs8J/0/itchio/butler/butlerd/butlerd.go:159\ngithub.com/itchio/butler/butlerd/jsonrpc2.(*connImpl).handleIncomingMessage.func1\n\t/home/gitlab-runner/builds/wYnefs8J/0/itchio/butler/butlerd/jsonrpc2/jsonrpc2.go:250\nruntime.goexit\n\t/usr/local/go/src/runtime/asm_amd64.s:1700","name":"mcall"}
+{"time":1761657682674,"level":50,"msg":"JavaScript stack: Error: Server error: HTTP 403 Forbidden for /profile\n    at Conversation.handleMessage (/home/mrboomdev/.itch/app-26.1.9/resources/app/dist/main/main.bundle.js:1140:28)\n    at Transform.<anonymous> (/home/mrboomdev/.itch/app-26.1.9/resources/app/dist/main/main.bundle.js:1036:22)\n    at Transform.emit (node:events:513:28)\n    at addChunk (/home/mrboomdev/.itch/app-26.1.9/resources/app/dist/main/main.bundle.js:33156:12)\n    at readableAddChunk (/home/mrboomdev/.itch/app-26.1.9/resources/app/dist/main/main.bundle.js:33138:11)\n    at Readable.push (/home/mrboomdev/.itch/app-26.1.9/resources/app/dist/main/main.bundle.js:33099:10)\n    at Transform.push (/home/mrboomdev/.itch/app-26.1.9/resources/app/dist/main/main.bundle.js:34128:32)\n    at push (/home/mrboomdev/.itch/app-26.1.9/resources/app/dist/main/main.bundle.js:32475:10)\n    at Transform.transform [as _transform] (/home/mrboomdev/.itch/app-26.1.9/resources/app/dist/main/main.bundle.js:32446:7)\n    at Transform._read (/home/mrboomdev/.itch/app-26.1.9/resources/app/dist/main/main.bundle.js:34166:10)","name":"mcall"}
+{"time":1761657682683,"level":20,"msg":"Calling Profile.List","name":"rcall"}
+{"time":1761657686051,"level":20,"msg":"Calling Fetch.Commons","name":"mcall"}
+{"time":1761657693877,"level":20,"msg":"Calling Fetch.Commons","name":"mcall"}
+{"time":1761657695732,"level":20,"msg":"Calling Fetch.Commons","name":"mcall"}
+{"time":1761657701973,"level":20,"msg":"Calling Fetch.Commons","name":"mcall"}
+{"time":1761657725421,"level":20,"msg":"Calling Fetch.Commons","name":"mcall"}
+{"time":1761657776329,"level":20,"msg":"Calling Fetch.Commons","name":"mcall"}
+{"time":1761657798523,"level":30,"msg":"Attempting password login for user MrBoomDev","name":"m/reac/login"}
+{"time":1761657798523,"level":30,"msg":"Doing username/password login...","name":"m/reac/login"}
+{"time":1761657798523,"level":20,"msg":"Calling Profile.LoginWithPassword","name":"mcall"}
+{"time":1761657798523,"level":20,"msg":"Setting up handlers for TOTP & captcha","name":"m/reac/login"}
+{"time":1761657801597,"level":30,"msg":"Setting cookies...","name":"m/reac/login"}
+{"time":1761657801606,"level":30,"msg":"Login succeeded, setting up session","name":"m/reac/login"}
+{"time":1761657801606,"level":30,"msg":"Registering itch protocol for session persist:itchio-6382512","name":"m/reac/login"}
+{"time":1761657801606,"level":20,"msg":"Registering itch: protocol for session with user agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) itch/26.1.9 Chrome/108.0.5359.215 Electron/22.3.27 Safari/537.36","name":"m/net/register-itch-protocol"}
+{"time":1761657801606,"level":30,"msg":"Restoring tabs...","name":"m/reac/login"}
+{"time":1761657801606,"level":20,"msg":"Calling Profile.Data.Get","name":"mcall"}
+{"time":1761657801650,"level":30,"msg":"Dispatching login succeeded","name":"m/reac/login"}
+{"time":1761657801651,"level":30,"msg":"Fetching owned keys...","name":"m/reac/login"}
+{"time":1761657801651,"level":20,"msg":"Calling Fetch.ProfileOwnedKeys","name":"mcall"}
+{"time":1761657801652,"level":20,"msg":"Calling Fetch.Commons","name":"mcall"}
+{"time":1761657801652,"level":20,"msg":"Download driver polling...","name":"m/reac/down/driver"}
+{"time":1761657801652,"level":20,"msg":"Not paused... current phase: IDLE","name":"m/reac/down/driver"}
+{"time":1761657801653,"level":20,"msg":"IDLE => STARTING","name":"m/reac/down/driver-persistent-state"}
+{"time":1761657801653,"level":20,"msg":"Calling Downloads.Drive","name":"mcall"}
+{"time":1761657801653,"level":20,"msg":"STARTING => RUNNING","name":"m/reac/down/driver-persistent-state"}
+{"time":1761657801653,"level":30,"msg":"Downloads started","name":"m/reac/down/driver-persistent-state"}
+{"time":1761657801677,"level":20,"msg":"Calling Fetch.Caves","name":"rcall"}
+{"time":1761657801695,"level":30,"msg":"Now driving downloads...","name":"m/reac/down/driver"}
+{"time":1761657801696,"level":30,"msg":"Fetching fresh data...","name":"m/reac/login"}
+{"time":1761657801696,"level":30,"msg":"Fetching page 1","name":"m/reac/login"}
+{"time":1761657801719,"level":20,"msg":"Loading url 'https://itch.io/games/top-sellers/free'","name":"m/reac/web-contents"}
+{"time":1761657802011,"level":30,"msg":"Waited 316.485478ms for fetch (non-shared)","name":"m/reac/login"}
+{"time":1761657802012,"level":30,"msg":"Fetched owned keys in 361.00ms","name":"m/reac/login"}
+{"time":1761657802152,"level":20,"msg":"Calling Fetch.Commons","name":"mcall"}
+{"time":1761657803568,"level":20,"msg":"Calling Profile.Data.Put","name":"mcall"}
+{"time":1761657803707,"level":20,"msg":"Calling Fetch.Commons","name":"mcall"}
+{"time":1761657822921,"level":20,"msg":"Calling Fetch.Commons","name":"mcall"}
+{"time":1761657831821,"level":40,"msg":"Did fail load: -7, ERR_TIMED_OUT for https://itch.io/games/top-sellers/free","name":"m/reac/web-contents"}
+{"time":1761657831832,"level":20,"msg":"did-finish-load (once)","name":"m/reac/web-contents"}
+{"time":1761657833575,"level":20,"msg":"Calling Profile.Data.Put","name":"mcall"}
+{"time":1761657837759,"level":20,"msg":"Calling Fetch.Commons","name":"mcall"}
+{"time":1761657843043,"level":20,"msg":"Calling Fetch.Commons","name":"mcall"}
+{"time":1761657846576,"level":20,"msg":"Calling Profile.Data.Put","name":"mcall"}
+{"time":1761657857607,"level":40,"msg":"Did fail load: -21, ERR_NETWORK_CHANGED for https://itch.io/games/top-sellers/free","name":"m/reac/web-contents"}
+{"time":1761657858383,"level":20,"msg":"Calling Fetch.Commons","name":"mcall"}
+{"time":1761657859580,"level":20,"msg":"Calling Profile.Data.Put","name":"mcall"}
+{"time":1761657861581,"level":20,"msg":"Calling Profile.Data.Put","name":"mcall"}
+{"time":1761657865121,"level":20,"msg":"Navigating to itch://new-tab ","name":"m/reac/navigation"}
+{"time":1761657865130,"level":20,"msg":"Tab afa8c8d9-b703-43b8-8fa4-85a7a6541376 losing web contents!","name":"m/reac/web-contents"}
+{"time":1761657866104,"level":20,"msg":"Navigating to itch://featured/ ","name":"m/reac/navigation"}
+{"time":1761657866141,"level":20,"msg":"Loading url 'https://itch.io/'","name":"m/reac/web-contents"}
+{"time":1761657866582,"level":20,"msg":"Calling Profile.Data.Put","name":"mcall"}
+{"time":1761657867157,"level":20,"msg":"Loading url 'https://itch.io/games/top-sellers/free'","name":"m/reac/web-contents"}
+{"time":1761657867583,"level":20,"msg":"Calling Profile.Data.Put","name":"mcall"}
+{"time":1761657868584,"level":20,"msg":"Calling Profile.Data.Put","name":"mcall"}
+{"time":1761657869586,"level":20,"msg":"Calling Profile.Data.Put","name":"mcall"}
+{"time":1761657871585,"level":20,"msg":"Calling Profile.Data.Put","name":"mcall"}
+{"time":1761657875440,"level":40,"msg":"Did fail load: -21, ERR_NETWORK_CHANGED for https://itch.io/","name":"m/reac/web-contents"}
+{"time":1761657875448,"level":20,"msg":"did-finish-load (once)","name":"m/reac/web-contents"}
+{"time":1761657875449,"level":40,"msg":"Did fail load: -21, ERR_NETWORK_CHANGED for https://itch.io/games/top-sellers/free","name":"m/reac/web-contents"}
+{"time":1761657875458,"level":20,"msg":"did-finish-load (once)","name":"m/reac/web-contents"}
+{"time":1761657875693,"level":20,"msg":"Calling Fetch.Commons","name":"mcall"}
+{"time":1761657876586,"level":20,"msg":"Calling Profile.Data.Put","name":"mcall"}
+{"time":1761657876905,"level":20,"msg":"Tab d018813a-efdc-4a07-b77f-42eb84a00537 losing web contents!","name":"m/reac/web-contents"}
+{"time":1761657876905,"level":20,"msg":"Tab d018813a-efdc-4a07-b77f-42eb84a00537 losing web contents!","name":"m/reac/web-contents"}
+{"time":1761657878586,"level":20,"msg":"Calling Profile.Data.Put","name":"mcall"}
+{"time":1761657879588,"level":20,"msg":"Calling Profile.Data.Put","name":"mcall"}
+{"time":1761657880589,"level":20,"msg":"Calling Profile.Data.Put","name":"mcall"}
+{"time":1761657882588,"level":20,"msg":"Calling Profile.Data.Put","name":"mcall"}
+{"time":1761657897246,"level":20,"msg":"Calling Fetch.Commons","name":"mcall"}
+{"time":1761657900155,"level":20,"msg":"Calling Fetch.Commons","name":"mcall"}
+{"time":1761657906224,"level":20,"msg":"Calling Fetch.Commons","name":"mcall"}
+{"time":1761657915598,"level":20,"msg":"Calling Profile.Data.Put","name":"mcall"}
+{"time":1761657916600,"level":20,"msg":"Calling Profile.Data.Put","name":"mcall"}
+{"time":1761657922640,"level":20,"msg":"Got resource games/3924128","name":"m/reac/web-contents"}
+{"time":1761657922647,"level":20,"msg":"Calling Fetch.Game","name":"rcall"}
+{"time":1761657922690,"level":40,"msg":"(butlerd) no handler for notification Log (in Fetch.Game convo)","name":"butlerd/make-client"}
+{"time":1761657924600,"level":20,"msg":"Calling Profile.Data.Put","name":"mcall"}
+{"time":1761657929601,"level":20,"msg":"Calling Profile.Data.Put","name":"mcall"}
+{"time":1761657931602,"level":20,"msg":"Calling Profile.Data.Put","name":"mcall"}
+{"time":1761657989627,"level":20,"msg":"Calling Profile.Data.Put","name":"mcall"}
+{"time":1761657990628,"level":20,"msg":"Calling Profile.Data.Put","name":"mcall"}
+{"time":1761657996329,"level":20,"msg":"Got resource games/3769331","name":"m/reac/web-contents"}
+{"time":1761657996333,"level":20,"msg":"Calling Fetch.Game","name":"rcall"}
+{"time":1761657996377,"level":40,"msg":"(butlerd) no handler for notification Log (in Fetch.Game convo)","name":"butlerd/make-client"}
+{"time":1761657997631,"level":20,"msg":"Calling Profile.Data.Put","name":"mcall"}
+{"time":1761658009634,"level":20,"msg":"Calling Profile.Data.Put","name":"mcall"}
+{"time":1761658010635,"level":20,"msg":"Calling Profile.Data.Put","name":"mcall"}
+{"time":1761658054653,"level":20,"msg":"Calling Profile.Data.Put","name":"mcall"}
+{"time":1761658306024,"level":20,"msg":"Calling Fetch.Commons","name":"mcall"}
+{"time":1761658317536,"level":20,"msg":"On window.close: close to tray enabled","name":"m/reac/winds"}

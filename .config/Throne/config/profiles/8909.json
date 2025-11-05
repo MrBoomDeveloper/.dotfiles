@@ -1,0 +1,51 @@
+{
+    "bean": {
+        "_v": 0,
+        "addr": "193.29.139.164",
+        "brutal_speed": 0,
+        "c_cfg": "",
+        "c_out": "",
+        "enable_brutal": false,
+        "method": "chacha20-ietf-poly1305",
+        "mux": 0,
+        "name": "🇳🇱 NL | 🔒 Киберпортал 🌀🌌",
+        "pass": "cvII85TrW6n0OGyfpHVS1u",
+        "plugin": "",
+        "port": 8080,
+        "stream": {
+            "alpn": "",
+            "cert": "",
+            "ed_len": 0,
+            "ed_name": "",
+            "h_type": "",
+            "headers": "",
+            "host": "",
+            "insecure": false,
+            "method": "",
+            "net": "tcp",
+            "pac_enc": "",
+            "path": "",
+            "pbk": "",
+            "sec": "",
+            "sid": "",
+            "sni": "",
+            "tls_frag": false,
+            "tls_frag_fall_delay": "",
+            "tls_record_frag": false,
+            "utls": ""
+        },
+        "uot": 0
+    },
+    "country": "",
+    "dl": "",
+    "gid": 8,
+    "id": 8909,
+    "report": "",
+    "traffic": {
+        "dl": 80719,
+        "ul": 13086
+    },
+    "type": "shadowsocks",
+    "ul": "",
+    "yc": 77
+}

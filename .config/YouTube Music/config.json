@@ -1,16 +1,16 @@
 {
 	"window-size": {
-		"width": 1906,
-		"height": 1036
+		"width": 1910,
+		"height": 1040
 	},
 	"window-maximized": false,
 	"window-position": {
-		"x": 7,
-		"y": 37
+		"x": 5,
+		"y": 35
 	},
-	"url": "https://music.youtube.com/watch?v=LCo0KdbVIJM&list=PLSWY81108wBhKajj1EUuBr89ydg-DUjPy&index=0",
+	"url": "https://music.youtube.com/watch?v=B_4g3-BxH0M&list=PLSWY81108wBhKajj1EUuBr89ydg-DUjPy&index=0",
 	"options": {
-		"tray": false,
+		"tray": true,
 		"appVisible": true,
 		"autoUpdates": true,
 		"alwaysOnTop": false,
@@ -28,7 +28,8 @@
 		"startingPage": "Home",
 		"overrideUserAgent": false,
 		"usePodcastParticipantAsArtist": false,
-		"themes": []
+		"themes": [],
+		"customWindowTitle": "YouTube Music"
 	},
 	"plugins": {
 		"notifications": {
@@ -52,7 +53,7 @@
 				"volumeUp": "",
 				"volumeDown": ""
 			},
-			"savedVolume": 100
+			"savedVolume": 99
 		},
 		"discord": {
 			"listenAlong": true
@@ -65,10 +66,18 @@
 			"disableDefaultLists": false
 		},
 		"album-color-theme": {
-			"enabled": true
+			"enabled": true,
+			"ratio": 1
 		},
 		"ambient-mode": {
-			"enabled": true
+			"enabled": true,
+			"quality": 100,
+			"buffer": 30,
+			"interpolationTime": 0,
+			"blur": 25,
+			"size": 300,
+			"opacity": 0.8,
+			"fullscreen": true
 		},
 		"blur-nav-bar": {
 			"enabled": true
@@ -92,7 +101,7 @@
 			"enabled": true
 		},
 		"sponsorblock": {
-			"enabled": true
+			"enabled": false
 		},
 		"skip-disliked-songs": {
 			"enabled": true

@@ -42,10 +42,10 @@
     "id": 4984,
     "report": "",
     "traffic": {
-        "dl": 0,
-        "ul": 0
+        "dl": 149621,
+        "ul": 15479
     },
     "type": "shadowsocks",
     "ul": "",
-    "yc": 0
+    "yc": 85
 }

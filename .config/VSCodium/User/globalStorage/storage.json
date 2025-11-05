@@ -6,7 +6,7 @@
         "workspaces": [],
         "folders": [
             {
-                "folderUri": "file:///home/mrboomdev/VSCodeProjects/AweryServer"
+                "folderUri": "file:///home/mrboomdev/.config/swaync"
             }
         ],
         "emptyWindows": []
@@ -14,7 +14,8 @@
     "windowControlHeight": 35,
     "profileAssociations": {
         "workspaces": {
-            "file:///home/mrboomdev/VSCodeProjects/AweryServer": "__default__profile__"
+            "file:///home/mrboomdev/VSCodeProjects/AweryServer": "__default__profile__",
+            "file:///home/mrboomdev/.config/swaync": "__default__profile__"
         },
         "emptyWindows": {}
     },
@@ -42,7 +43,7 @@
             "editorPartMinWidth": 220,
             "titleBarHeight": 35,
             "activityBarWidth": 48,
-            "sideBarWidth": 237,
+            "sideBarWidth": 238,
             "auxiliaryBarWidth": 0,
             "statusBarHeight": 22,
             "windowBorder": false
@@ -50,21 +51,21 @@
     },
     "windowsState": {
         "lastActiveWindow": {
-            "folder": "file:///home/mrboomdev/VSCodeProjects/AweryServer",
-            "backupPath": "/home/mrboomdev/.config/VSCodium/Backups/45bad685ec214778e547431fdc5bf2c5",
+            "folder": "file:///home/mrboomdev/.config/swaync",
+            "backupPath": "/home/mrboomdev/.config/VSCodium/Backups/b09be21dfbceb96257f78514ba62774f",
             "uiState": {
-                "mode": 0,
-                "x": 0,
-                "y": 0,
-                "width": 960,
-                "height": 1050
+                "mode": 1,
+                "x": 5,
+                "y": 35,
+                "width": 1910,
+                "height": 1040
             }
         },
         "openedWindows": []
     },
     "windowSplashWorkspaceOverride": {
         "layoutInfo": {
-            "sideBarWidth": 237,
+            "sideBarWidth": 238,
             "auxiliaryBarWidth": 300,
             "workspaces": {
                 "d1a3dcaf55e196c44c501d8ce2d2c3f3": {
@@ -72,6 +73,10 @@
                     "auxiliaryBarVisible": false
                 },
                 "f6c5daafee5f492ed05876bb536e5b42": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "2ef6d8911d8563f1666dbf68a532007a": {
                     "sideBarVisible": true,
                     "auxiliaryBarVisible": false
                 }

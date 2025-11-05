@@ -2,7 +2,7 @@
     "current_route_id": 0,
     "direct_dns": "localhost",
     "direct_dns_strategy": "",
-    "dns_final_out": "proxy",
+    "dns_final_out": "remote",
     "dns_object": "",
     "domain_strategy": "",
     "outbound_domain_strategy": "",

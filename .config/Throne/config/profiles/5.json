@@ -40,8 +40,8 @@
     "id": 5,
     "report": "",
     "traffic": {
-        "dl": 0,
-        "ul": 0
+        "dl": 44683,
+        "ul": 30384
     },
     "type": "vless",
     "ul": "",

@@ -18,19 +18,51 @@
             </RecentProjectMetaInfo>
           </value>
         </entry>
+        <entry key="$USER_HOME$/IdeaProjects/Test KMP App">
+          <value>
+            <RecentProjectMetaInfo frameTitle="testkmpapp" projectWorkspaceId="34j7w4IdDycTlmBDbK6D5IuVcbx">
+              <option name="activationTimestamp" value="1761715596980" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IC-252.27397.103" />
+              <option name="buildTimestamp" value="1761196320000" />
+              <option name="colorInfo">
+                <RecentProjectColorInfo associatedIndex="0" />
+              </option>
+              <frame x="1925" y="35" width="1910" height="1040" />
+              <option name="productionCode" value="IC" />
+              <option name="projectOpenTimestamp" value="1761715363276" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/IdeaProjects/Uust">
+          <value>
+            <RecentProjectMetaInfo frameTitle="uust – CalendarScreen.kt [uust.composeApp.commonMain]" projectWorkspaceId="34lKi3hFrxO2Cpmfsx7yfPipytG">
+              <option name="activationTimestamp" value="1762002234431" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IC-252.27397.103" />
+              <option name="buildTimestamp" value="1761196320000" />
+              <option name="colorInfo">
+                <RecentProjectColorInfo associatedIndex="6" />
+              </option>
+              <frame x="10" y="50" width="1900" height="1010" />
+              <option name="productionCode" value="IC" />
+              <option name="projectOpenTimestamp" value="1761971787466" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
         <entry key="$USER_HOME$/IdeaProjects/Awery">
           <value>
-            <RecentProjectMetaInfo frameTitle="Awery – MediaActionsDialog.kt [Awery.ui.commonMain]" opened="true" projectWorkspaceId="34I4fJlCyB9KCIhOFm6jNUX8Y53">
-              <option name="activationTimestamp" value="1761467294932" />
+            <RecentProjectMetaInfo frameTitle="Awery – DefaultMediaScreen.kt [Awery.ui.commonMain]" projectWorkspaceId="34I4fJlCyB9KCIhOFm6jNUX8Y53">
+              <option name="activationTimestamp" value="1762307936392" />
               <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
-              <option name="build" value="IC-252.26830.84" />
-              <option name="buildTimestamp" value="1759360020000" />
+              <option name="build" value="IC-252.27397.103" />
+              <option name="buildTimestamp" value="1761196320000" />
               <option name="colorInfo">
                 <RecentProjectColorInfo associatedIndex="5" />
               </option>
-              <frame x="5" y="558" width="952" height="517" />
+              <frame x="5" y="37" width="1910" height="1038" />
               <option name="productionCode" value="IC" />
-              <option name="projectOpenTimestamp" value="1761062532437" />
+              <option name="projectOpenTimestamp" value="1762002291816" />
             </RecentProjectMetaInfo>
           </value>
         </entry>

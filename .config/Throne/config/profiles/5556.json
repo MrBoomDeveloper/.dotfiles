@@ -1,0 +1,43 @@
+{
+    "bean": {
+        "_v": 0,
+        "addr": "2001:bc8:1640:50eb:dc00:ff:fe57:dd6f",
+        "allowInsecure": true,
+        "alpn": "",
+        "authPayload": "",
+        "brutal_speed": 0,
+        "c_cfg": "",
+        "c_out": "",
+        "caText": "",
+        "connectionReceiveWindow": 0,
+        "disableMtuDiscovery": false,
+        "disableSni": false,
+        "downloadMbps": 0,
+        "enable_brutal": false,
+        "forceExternal": false,
+        "hop_interval": "",
+        "mux": 0,
+        "name": "🇽🇽XX(AzadNet.t.me)",
+        "obfsPassword": "FnFgQIckcMRtKq7i",
+        "password": "71504eaf-29ac-4190-89d1-dd9ce2c9ee14",
+        "port": 443,
+        "server_ports": [
+            "50000:60000"
+        ],
+        "sni": "Ab.ac",
+        "streamReceiveWindow": 0,
+        "uploadMbps": 0
+    },
+    "country": "",
+    "dl": "",
+    "gid": 3,
+    "id": 5556,
+    "report": "",
+    "traffic": {
+        "dl": 0,
+        "ul": 0
+    },
+    "type": "hysteria2",
+    "ul": "",
+    "yc": 0
+}

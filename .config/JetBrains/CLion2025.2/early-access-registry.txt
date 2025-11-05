@@ -1,5 +1,5 @@
 i18n.locale
-
+en
 ide.experimental.ui
 true
 ide.experimental.ui.inter.font

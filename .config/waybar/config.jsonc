@@ -17,11 +17,12 @@
 		"memory",
 		"battery",
 		"bluetooth",
+		"network",
 		"pulseaudio",
 		"backlight",
-		"network",
 		"hyprland/language",
 		"clock",
+		"custom/notifications",
 		"custom/power"
 	],
 
@@ -55,7 +56,7 @@
 		"tooltip-format-connected": "{controller_alias}\t{controller_address}\n\n{num_connections} connected\n\n{device_enumerate}",
 		"tooltip-format-enumerate-connected": "{device_alias}\t{device_address}",
 		"tooltip-format-enumerate-connected-battery": "{device_alias}\t{device_address}\t{device_battery_percentage}%",
-		"on-click": "blueman-manager"
+		"on-click": "rofi-bluetooth -theme $HOME/.config/rofi/emoji-style.rasi"
 	},
 
 	"mpris": {
@@ -103,7 +104,7 @@
 	"cpu": {
 		"interval": 60,
 		"format": "{usage}%  ",
-		"on-click": "foot --app-id htop htop",
+		"on-click": "foot --app-id htop htop"
 	},
 
 	"memory": {
@@ -137,7 +138,7 @@
 		"tooltip-format-wifi": "{ifname}: {ipaddr}/{cidr} ",
 		"format-linked": "(No IP) ",
 		"format-disconnected": "Disconnected ⚠",
-		"on-click": "nm-connection-editor"
+		"on-click": "ronema"
 	},
 	
 	"battery": {
@@ -159,9 +160,32 @@
 		"on-click": "foot --app-id pulsemixer pulsemixer"
 	},
 
+	"custom/notifications": {
+		"tooltip": true,
+		"format": "<span size='11pt'>{icon}</span>",
+	
+		"format-icons": {
+			"notification": "󱅫",
+			"none": "󰂜",
+			"dnd-notification": "󰂠",
+			"dnd-none": "󰪓",
+			"inhibited-notification": "󰂛",
+			"inhibited-none": "󰪑",
+			"dnd-inhibited-notification": "󰂛",
+			"dnd-inhibited-none": "󰪑"
+		},
+
+		"return-type": "json",
+		"exec-if": "which swaync-client",
+		"exec": "swaync-client -swb",
+		"on-click": "swaync-client -t -sw",
+		"on-click-right": "swaync-client -d -sw",
+		"escape": true
+	},
+
 	"custom/power": {
 		"format": "",
 		"tooltip": false,
-		"on-click": "~/.config/rofi/scripts/powermenu_t4"
+		"on-click": "~/.config/rofi/powermenu.sh"
 	}
 }
