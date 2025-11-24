@@ -9,171 +9,27 @@
   <component name="DesignSurfaceV2">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="composeApp/src/androidDebug/res/drawable/logo_dev.xml" value="0.75" />
+        <entry key="composeApp/src/androidMain/kotlin/com/mrboomdev/uust/MainActivity.kt" value="9.995122070312501" />
+        <entry key="composeApp/src/androidMain/res/drawable-v24/ic_launcher_foreground.xml" value="1.64" />
+        <entry key="composeApp/src/androidMain/res/drawable/ic_binary.xml" value="1.64" />
+        <entry key="composeApp/src/androidMain/res/drawable/ic_launcher_background.xml" value="0.81" />
+        <entry key="composeApp/src/androidMain/res/drawable/logo_wrapper.xml" value="0.81" />
+        <entry key="composeApp/src/androidMain/res/mipmap-anydpi-v26/ic_launcher.xml" value="1.64" />
+        <entry key="composeApp/src/androidMain/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="1.64" />
+        <entry key="composeApp/src/commonMain/kotlin/com/mrboomdev/uust/App.kt" value="9.995122070312501" />
         <entry key="composeApp/src/commonMain/kotlin/com/mrboomdev/uust/uust/App.kt" value="0.9416845703124999" />
       </map>
     </option>
   </component>
   <component name="FileEditorManager">
-    <leaf ideFingerprint="1ee6cecm0skel" SIDE_TABS_SIZE_LIMIT_KEY="-1">
-      <file>
-        <entry file="file://$PROJECT_DIR$/composeApp/src/commonMain/kotlin/com/mrboomdev/uust/components/ScheduleItem.kt" file-id="998990" managing-fs="1760887306540">
-          <provider editor-type-id="android-source-code" selected="true">
-            <state selected-layout="SHOW_EDITOR">
-              <editor-state relative-caret-position="-4731">
-                <caret line="80" column="31" selection-start-line="80" selection-start-column="31" selection-end-line="80" selection-end-column="31" />
-              </editor-state>
-              <multi-preview-state selected="Compose">
-                <representations>
-                  <list>
-                    <representation name="Compose">
-                      <settings>
-                        <setting name="previewLayout" value="Grid" />
-                        <setting name="selectedGroup" value="" />
-                      </settings>
-                    </representation>
-                  </list>
-                </representations>
-              </multi-preview-state>
-            </state>
-          </provider>
-        </entry>
-        <tab><![CDATA[{"tabTitle":"ScheduleItem.kt","foregroundColor":-5839967,"textAttributes":{"name":"a","children":[{"name":"option","attributes":{"name":"FOREGROUND","value":"a6e3a1"}}]},"icon":[10,57,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,82,97,115,116,101,114,105,122,101,100,73,109,97,103,101,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,-122,1,10,47,111,114,103,47,106,101,116,98,114,97,105,110,115,47,107,111,116,108,105,110,47,105,100,101,97,47,105,99,111,110,115,47,107,111,116,108,105,110,95,102,105,108,101,46,115,118,103,18,48,111,114,103,47,106,101,116,98,114,97,105,110,115,47,107,111,116,108,105,110,47,105,100,101,97,47,105,99,111,110,115,47,101,120,112,117,105,47,107,111,116,108,105,110,46,115,118,103,26,20,111,114,103,46,106,101,116,98,114,97,105,110,115,46,107,111,116,108,105,110,40,-98,-111,-47,-25,-8,-1,-1,-1,-1,1,48,0]}]]></tab>
-      </file>
-      <file>
-        <entry file="file://$PROJECT_DIR$/composeApp/src/commonMain/kotlin/com/mrboomdev/uust/screens/HomeScreen.kt" file-id="992482" managing-fs="1760887306540">
-          <provider editor-type-id="android-source-code" selected="true">
-            <state selected-layout="SHOW_EDITOR">
-              <editor-state relative-caret-position="279">
-                <caret line="179" column="49" lean-forward="true" selection-start-line="179" selection-start-column="49" selection-end-line="179" selection-end-column="49" />
-              </editor-state>
-              <multi-preview-state selected="Compose">
-                <representations>
-                  <list>
-                    <representation name="Compose">
-                      <settings>
-                        <setting name="previewLayout" value="Grid" />
-                        <setting name="selectedGroup" value="" />
-                      </settings>
-                    </representation>
-                  </list>
-                </representations>
-              </multi-preview-state>
-            </state>
-          </provider>
-        </entry>
-        <tab><![CDATA[{"tabTitle":"HomeScreen.kt","foregroundColor":-5839967,"textAttributes":{"name":"a","children":[{"name":"option","attributes":{"name":"FOREGROUND","value":"a6e3a1"}}]},"icon":[10,57,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,82,97,115,116,101,114,105,122,101,100,73,109,97,103,101,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,-122,1,10,47,111,114,103,47,106,101,116,98,114,97,105,110,115,47,107,111,116,108,105,110,47,105,100,101,97,47,105,99,111,110,115,47,107,111,116,108,105,110,95,102,105,108,101,46,115,118,103,18,48,111,114,103,47,106,101,116,98,114,97,105,110,115,47,107,111,116,108,105,110,47,105,100,101,97,47,105,99,111,110,115,47,101,120,112,117,105,47,107,111,116,108,105,110,46,115,118,103,26,20,111,114,103,46,106,101,116,98,114,97,105,110,115,46,107,111,116,108,105,110,40,-98,-111,-47,-25,-8,-1,-1,-1,-1,1,48,0]}]]></tab>
-      </file>
-      <file>
-        <entry file="file://$PROJECT_DIR$/composeApp/src/commonMain/kotlin/com/mrboomdev/uust/components/CatHeader.kt" file-id="992612" managing-fs="1760887306540">
-          <provider editor-type-id="android-source-code" selected="true">
-            <state selected-layout="SHOW_EDITOR">
-              <editor-state relative-caret-position="1085">
-                <caret line="56" column="59" selection-start-line="56" selection-start-column="59" selection-end-line="56" selection-end-column="59" />
-              </editor-state>
-              <multi-preview-state selected="Compose">
-                <representations>
-                  <list>
-                    <representation name="Compose">
-                      <settings>
-                        <setting name="previewLayout" value="Grid" />
-                        <setting name="selectedGroup" value="" />
-                      </settings>
-                    </representation>
-                  </list>
-                </representations>
-              </multi-preview-state>
-            </state>
-          </provider>
-        </entry>
-        <tab><![CDATA[{"tabTitle":"CatHeader.kt","foregroundColor":-5839967,"textAttributes":{"name":"a","children":[{"name":"option","attributes":{"name":"FOREGROUND","value":"a6e3a1"}}]},"icon":[10,57,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,82,97,115,116,101,114,105,122,101,100,73,109,97,103,101,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,-122,1,10,47,111,114,103,47,106,101,116,98,114,97,105,110,115,47,107,111,116,108,105,110,47,105,100,101,97,47,105,99,111,110,115,47,107,111,116,108,105,110,95,102,105,108,101,46,115,118,103,18,48,111,114,103,47,106,101,116,98,114,97,105,110,115,47,107,111,116,108,105,110,47,105,100,101,97,47,105,99,111,110,115,47,101,120,112,117,105,47,107,111,116,108,105,110,46,115,118,103,26,20,111,114,103,46,106,101,116,98,114,97,105,110,115,46,107,111,116,108,105,110,40,-98,-111,-47,-25,-8,-1,-1,-1,-1,1,48,0]}]]></tab>
-      </file>
-      <file>
-        <entry file="file://$PROJECT_DIR$/composeApp/src/commonMain/kotlin/com/mrboomdev/uust/utils/HttpUtils.kt" file-id="1096940" managing-fs="1760887306540">
-          <provider editor-type-id="android-source-code" selected="true">
-            <state selected-layout="SHOW_EDITOR">
-              <editor-state relative-caret-position="217">
-                <caret line="6" column="45" selection-start-line="6" selection-start-column="45" selection-end-line="6" selection-end-column="45" />
-                <folding>
-                  <element signature="e#34#158#0" expanded="true" />
-                </folding>
-              </editor-state>
-              <multi-preview-state selected="Compose">
-                <representations>
-                  <list>
-                    <representation name="Compose">
-                      <settings>
-                        <setting name="previewLayout" value="Grid" />
-                        <setting name="selectedGroup" value="" />
-                      </settings>
-                    </representation>
-                  </list>
-                </representations>
-              </multi-preview-state>
-            </state>
-          </provider>
-        </entry>
-        <tab><![CDATA[{"tabTitle":"HttpUtils.kt","foregroundColor":-5839967,"textAttributes":{"name":"a","children":[{"name":"option","attributes":{"name":"FOREGROUND","value":"a6e3a1"}}]},"icon":[10,57,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,82,97,115,116,101,114,105,122,101,100,73,109,97,103,101,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,-122,1,10,47,111,114,103,47,106,101,116,98,114,97,105,110,115,47,107,111,116,108,105,110,47,105,100,101,97,47,105,99,111,110,115,47,107,111,116,108,105,110,95,102,105,108,101,46,115,118,103,18,48,111,114,103,47,106,101,116,98,114,97,105,110,115,47,107,111,116,108,105,110,47,105,100,101,97,47,105,99,111,110,115,47,101,120,112,117,105,47,107,111,116,108,105,110,46,115,118,103,26,20,111,114,103,46,106,101,116,98,114,97,105,110,115,46,107,111,116,108,105,110,40,-98,-111,-47,-25,-8,-1,-1,-1,-1,1,48,0]}]]></tab>
-      </file>
-      <file>
-        <entry file="file://$PROJECT_DIR$/composeApp/src/androidMain/kotlin/com/mrboomdev/uust/Uust.kt" file-id="1096948" managing-fs="1760887306540">
-          <provider editor-type-id="android-source-code" selected="true">
-            <state selected-layout="SHOW_EDITOR">
-              <editor-state relative-caret-position="341">
-                <caret line="9" column="41" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
-                <folding>
-                  <element signature="e#28#97#0" expanded="true" />
-                </folding>
-              </editor-state>
-              <multi-preview-state selected="Compose">
-                <representations>
-                  <list>
-                    <representation name="Compose">
-                      <settings>
-                        <setting name="previewLayout" value="Grid" />
-                        <setting name="selectedGroup" value="" />
-                      </settings>
-                    </representation>
-                  </list>
-                </representations>
-              </multi-preview-state>
-            </state>
-          </provider>
-        </entry>
-        <tab><![CDATA[{"tabTitle":"Uust.kt","foregroundColor":-5839967,"textAttributes":{"name":"a","children":[{"name":"option","attributes":{"name":"FOREGROUND","value":"a6e3a1"}}]},"icon":[10,57,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,82,97,115,116,101,114,105,122,101,100,73,109,97,103,101,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,-122,1,10,47,111,114,103,47,106,101,116,98,114,97,105,110,115,47,107,111,116,108,105,110,47,105,100,101,97,47,105,99,111,110,115,47,107,111,116,108,105,110,95,102,105,108,101,46,115,118,103,18,48,111,114,103,47,106,101,116,98,114,97,105,110,115,47,107,111,116,108,105,110,47,105,100,101,97,47,105,99,111,110,115,47,101,120,112,117,105,47,107,111,116,108,105,110,46,115,118,103,26,20,111,114,103,46,106,101,116,98,114,97,105,110,115,46,107,111,116,108,105,110,40,-98,-111,-47,-25,-8,-1,-1,-1,-1,1,48,0]}]]></tab>
-      </file>
-      <file>
-        <entry file="file://$PROJECT_DIR$/composeApp/src/androidMain/kotlin/com/mrboomdev/uust/MainActivity.kt" file-id="923556" managing-fs="1760887306540">
-          <provider editor-type-id="android-source-code" selected="true">
-            <state selected-layout="SHOW_EDITOR">
-              <editor-state relative-caret-position="341">
-                <caret line="18" selection-start-line="18" selection-end-line="18" />
-              </editor-state>
-              <multi-preview-state selected="Compose">
-                <representations>
-                  <list>
-                    <representation name="Compose">
-                      <settings>
-                        <setting name="previewLayout" value="Grid" />
-                        <setting name="selectedGroup" value="" />
-                      </settings>
-                    </representation>
-                  </list>
-                </representations>
-              </multi-preview-state>
-            </state>
-          </provider>
-        </entry>
-        <tab><![CDATA[{"tabTitle":"MainActivity.kt","foregroundColor":-5839967,"textAttributes":{"name":"a","children":[{"name":"option","attributes":{"name":"FOREGROUND","value":"a6e3a1"}}]},"icon":[10,57,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,82,97,115,116,101,114,105,122,101,100,73,109,97,103,101,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,-122,1,10,47,111,114,103,47,106,101,116,98,114,97,105,110,115,47,107,111,116,108,105,110,47,105,100,101,97,47,105,99,111,110,115,47,107,111,116,108,105,110,95,102,105,108,101,46,115,118,103,18,48,111,114,103,47,106,101,116,98,114,97,105,110,115,47,107,111,116,108,105,110,47,105,100,101,97,47,105,99,111,110,115,47,101,120,112,117,105,47,107,111,116,108,105,110,46,115,118,103,26,20,111,114,103,46,106,101,116,98,114,97,105,110,115,46,107,111,116,108,105,110,40,-98,-111,-47,-25,-8,-1,-1,-1,-1,1,48,0]}]]></tab>
-      </file>
+    <leaf ideFingerprint="1iysxnmv46rt3" SIDE_TABS_SIZE_LIMIT_KEY="-1">
       <file current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/composeApp/src/commonMain/kotlin/com/mrboomdev/uust/screens/CalendarScreen.kt" file-id="1067434" managing-fs="1760887306540">
+        <entry file="file://$PROJECT_DIR$/composeApp/src/commonMain/kotlin/com/mrboomdev/uust/screens/HomeScreen.kt" file-id="7174" managing-fs="1763754416123" preview="true">
           <provider editor-type-id="android-source-code" selected="true">
             <state selected-layout="SHOW_EDITOR">
-              <editor-state relative-caret-position="695">
-                <caret line="84" column="4" lean-forward="true" selection-start-line="84" selection-start-column="4" selection-end-line="84" selection-end-column="4" />
-                <folding>
-                  <element signature="e#36#1096#0" expanded="true" />
-                </folding>
+              <editor-state relative-caret-position="350">
+                <caret line="487" column="44" selection-start-line="487" selection-start-column="44" selection-end-line="487" selection-end-column="44" />
               </editor-state>
               <multi-preview-state selected="Compose">
                 <representations>
@@ -190,134 +46,150 @@
             </state>
           </provider>
         </entry>
-        <tab><![CDATA[{"tabTitle":"CalendarScreen.kt","foregroundColor":-5839967,"textAttributes":{"name":"a","children":[{"name":"option","attributes":{"name":"FOREGROUND","value":"a6e3a1"}},{"name":"option","attributes":{"name":"EFFECT_COLOR","value":"f38ba8"}},{"name":"option","attributes":{"name":"EFFECT_TYPE","value":"2"}}]},"icon":[10,57,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,82,97,115,116,101,114,105,122,101,100,73,109,97,103,101,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,-122,1,10,47,111,114,103,47,106,101,116,98,114,97,105,110,115,47,107,111,116,108,105,110,47,105,100,101,97,47,105,99,111,110,115,47,107,111,116,108,105,110,95,102,105,108,101,46,115,118,103,18,48,111,114,103,47,106,101,116,98,114,97,105,110,115,47,107,111,116,108,105,110,47,105,100,101,97,47,105,99,111,110,115,47,101,120,112,117,105,47,107,111,116,108,105,110,46,115,118,103,26,20,111,114,103,46,106,101,116,98,114,97,105,110,115,46,107,111,116,108,105,110,40,-98,-111,-47,-25,-8,-1,-1,-1,-1,1,48,0]}]]></tab>
-      </file>
-      <file>
-        <entry file="file://$PROJECT_DIR$/composeApp/src/commonMain/kotlin/com/mrboomdev/uust/App.kt" file-id="923515" managing-fs="1760887306540">
-          <provider editor-type-id="android-source-code" selected="true">
-            <state selected-layout="SHOW_EDITOR">
-              <editor-state relative-caret-position="417">
-                <caret line="157" column="26" selection-start-line="157" selection-start-column="26" selection-end-line="157" selection-end-column="26" />
-                <folding>
-                  <element signature="e#28#4239#0" expanded="true" />
-                </folding>
-              </editor-state>
-              <multi-preview-state selected="Compose">
-                <representations>
-                  <list>
-                    <representation name="Compose">
-                      <settings>
-                        <setting name="previewLayout" value="Grid" />
-                        <setting name="selectedGroup" value="" />
-                      </settings>
-                    </representation>
-                  </list>
-                </representations>
-              </multi-preview-state>
-            </state>
-          </provider>
-        </entry>
-        <tab><![CDATA[{"tabTitle":"App.kt","foregroundColor":-5839967,"textAttributes":{"name":"a","children":[{"name":"option","attributes":{"name":"FOREGROUND","value":"a6e3a1"}}]},"icon":[10,57,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,82,97,115,116,101,114,105,122,101,100,73,109,97,103,101,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,-122,1,10,47,111,114,103,47,106,101,116,98,114,97,105,110,115,47,107,111,116,108,105,110,47,105,100,101,97,47,105,99,111,110,115,47,107,111,116,108,105,110,95,102,105,108,101,46,115,118,103,18,48,111,114,103,47,106,101,116,98,114,97,105,110,115,47,107,111,116,108,105,110,47,105,100,101,97,47,105,99,111,110,115,47,101,120,112,117,105,47,107,111,116,108,105,110,46,115,118,103,26,20,111,114,103,46,106,101,116,98,114,97,105,110,115,46,107,111,116,108,105,110,40,-98,-111,-47,-25,-8,-1,-1,-1,-1,1,48,0]}]]></tab>
+        <tab><![CDATA[{"tabTitle":"HomeScreen.kt","foregroundColor":-3287308,"textAttributes":{"name":"a","children":[{"name":"option","attributes":{"name":"FONT_TYPE","value":"2"}}]},"icon":[10,57,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,82,97,115,116,101,114,105,122,101,100,73,109,97,103,101,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,-122,1,10,47,111,114,103,47,106,101,116,98,114,97,105,110,115,47,107,111,116,108,105,110,47,105,100,101,97,47,105,99,111,110,115,47,107,111,116,108,105,110,95,102,105,108,101,46,115,118,103,18,48,111,114,103,47,106,101,116,98,114,97,105,110,115,47,107,111,116,108,105,110,47,105,100,101,97,47,105,99,111,110,115,47,101,120,112,117,105,47,107,111,116,108,105,110,46,115,118,103,26,20,111,114,103,46,106,101,116,98,114,97,105,110,115,46,107,111,116,108,105,110,40,-98,-111,-47,-25,-8,-1,-1,-1,-1,1,48,0]}]]></tab>
       </file>
     </leaf>
   </component>
   <component name="FileTypeUsageLocalSummary"><![CDATA[{
   "data": {
     "XML": {
-      "usageCount": 34,
-      "lastUsed": 1761983591116
+      "usageCount": 88,
+      "lastUsed": 1763931258842
     },
     "JavaScript": {
       "usageCount": 1,
       "lastUsed": 1761782880221
     },
     "Markdown": {
-      "usageCount": 1,
-      "lastUsed": 1761782844352
+      "usageCount": 2,
+      "lastUsed": 1763747532098
     },
     "Kotlin": {
-      "usageCount": 248,
-      "lastUsed": 1762001871389
+      "usageCount": 603,
+      "lastUsed": 1763984188584
     },
     "JAVA": {
-      "usageCount": 5,
-      "lastUsed": 1761996519501
+      "usageCount": 12,
+      "lastUsed": 1763917045437
     },
     "TOML": {
-      "usageCount": 2,
-      "lastUsed": 1761919360683
+      "usageCount": 7,
+      "lastUsed": 1763832736290
     },
     "Image": {
+      "usageCount": 19,
+      "lastUsed": 1763931188065
+    },
+    "settingsType": {
+      "usageCount": 5,
+      "lastUsed": 1763930345716
+    },
+    "CLASS": {
+      "usageCount": 7,
+      "lastUsed": 1763568790163
+    },
+    "DIFF": {
+      "usageCount": 13,
+      "lastUsed": 1763932401100
+    },
+    "AUTO_DETECTED": {
+      "usageCount": 3,
+      "lastUsed": 1763697063360
+    },
+    "KNM": {
+      "usageCount": 4,
+      "lastUsed": 1763750480324
+    },
+    "GitIgnore file": {
       "usageCount": 1,
-      "lastUsed": 1761932833123
+      "lastUsed": 1763755059320
+    },
+    "IDEA_MODULE": {
+      "usageCount": 1,
+      "lastUsed": 1763756059242
     }
   }
 }]]></component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find />
       <find>modifier = Modifier.offset(x = 16.dp).width(250.dp),</find>
+      <find>backSta</find>
+      <find>backStack</find>
+      <find>ScheduleItem</find>
+      <find>if(show</find>
+      <find />
+      <find>fromMillisecondOfDay</find>
+      <find>checkValidValue</find>
     </findStrings>
     <replaceStrings>
       <replace />
     </replaceStrings>
   </component>
+  <component name="GitBranchesPopupTreeState">
+    <expand>
+      <path>
+        <item name="TreeRoot" type="a5f834f:GitBranchesTreeModel$TreeRoot" />
+        <item name="LOCAL" type="6e158aa5:GitBranchType$LOCAL" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="GitSEFilterConfiguration">{}</component>
-  <component name="IdeDocumentHistory"><![CDATA[{
-  "changedPaths": [
-    "/home/mrboomdev/IdeaProjects/Uust/composeApp/src/commonMain/kotlin/com/mrboomdev/uust/uust/ScheduleItem.kt",
-    "/home/mrboomdev/IdeaProjects/Uust/composeApp/src/commonMain/kotlin/com/mrboomdev/uust/uust/LocationManager.kt",
-    "/home/mrboomdev/IdeaProjects/Uust/composeApp/src/androidMain/kotlin/com/mrboomdev/uust/uust/LocationManager.android.kt",
-    "/home/mrboomdev/IdeaProjects/Uust/composeApp/src/commonMain/kotlin/com/mrboomdev/uust/uust/MapScreen.kt",
-    "/home/mrboomdev/IdeaProjects/Uust/composeApp/src/commonMain/kotlin/com/mrboomdev/uust/uust/HomeScreen.kt",
-    "/home/mrboomdev/IdeaProjects/Uust/composeApp/src/commonMain/kotlin/com/mrboomdev/uust/uust/screens/WarningScreen.kt",
-    "/home/mrboomdev/IdeaProjects/Uust/composeApp/src/commonMain/kotlin/com/mrboomdev/uust/uust/utils/BackEffect.kt",
-    "/home/mrboomdev/IdeaProjects/Uust/composeApp/src/androidMain/kotlin/com/mrboomdev/uust/uust/utils/BackEffect.android.kt",
-    "/home/mrboomdev/IdeaProjects/Uust/composeApp/src/commonMain/kotlin/com/mrboomdev/uust/uust/utils/PermissionUtils.kt",
-    "/home/mrboomdev/IdeaProjects/Uust/composeApp/src/commonMain/kotlin/com/mrboomdev/uust/uust/utils/LocationManager.kt",
-    "/home/mrboomdev/IdeaProjects/Uust/composeApp/src/androidMain/kotlin/com/mrboomdev/uust/uust/utils/LocationManager.android.kt",
-    "/home/mrboomdev/IdeaProjects/Uust/composeApp/src/commonMain/kotlin/com/mrboomdev/uust/uust/screens/MapScreen.kt",
-    "/home/mrboomdev/IdeaProjects/Uust/gradle/libs.versions.toml",
-    "/home/mrboomdev/IdeaProjects/Uust/composeApp/src/androidMain/kotlin/com/mrboomdev/uust/uust/MainActivity.kt",
-    "/home/mrboomdev/IdeaProjects/Uust/composeApp/src/androidMain/res/values-night/themes.xml",
-    "/home/mrboomdev/IdeaProjects/Uust/composeApp/src/androidMain/res/values/themes.xml",
-    "/home/mrboomdev/IdeaProjects/Uust/composeApp/src/commonMain/kotlin/com/mrboomdev/uust/uust/UustTheme.kt",
-    "/home/mrboomdev/IdeaProjects/Uust/composeApp/src/commonMain/kotlin/com/mrboomdev/uust/uust/App.kt",
-    "/home/mrboomdev/IdeaProjects/Uust/composeApp/src/commonMain/kotlin/com/mrboomdev/uust/uust/components/ScheduleItem.kt",
-    "/home/mrboomdev/IdeaProjects/Uust/composeApp/src/commonMain/kotlin/com/mrboomdev/uust/uust/UustSettings.kt",
-    "/home/mrboomdev/IdeaProjects/Uust/composeApp/src/commonMain/kotlin/com/mrboomdev/uust/uust/components/CatHeader.kt",
-    "/home/mrboomdev/IdeaProjects/Uust/composeApp/src/commonMain/kotlin/com/mrboomdev/uust/uust/components/IconButton.kt",
-    "/home/mrboomdev/IdeaProjects/Uust/composeApp/src/commonMain/kotlin/com/mrboomdev/uust/uust/screens/HomeScreen.kt",
-    "/home/mrboomdev/IdeaProjects/Uust/composeApp/src/androidMain/kotlin/com/mrboomdev/uust/Platform.android.kt",
-    "/home/mrboomdev/IdeaProjects/Uust/composeApp/src/commonMain/composeResources/drawable/ic_table_rows_outlined.xml",
-    "/home/mrboomdev/IdeaProjects/Uust/composeApp/src/commonMain/composeResources/drawable/ic_view_week_outlined.xml",
-    "/home/mrboomdev/IdeaProjects/Uust/composeApp/src/commonMain/kotlin/com/mrboomdev/uust/UustTheme.kt",
-    "/home/mrboomdev/IdeaProjects/Uust/composeApp/src/commonMain/composeResources/drawable/ic_person_outlined.xml",
-    "/home/mrboomdev/IdeaProjects/Uust/composeApp/src/commonMain/composeResources/drawable/ic_location_outlined.xml",
-    "/home/mrboomdev/IdeaProjects/Uust/composeApp/src/commonMain/kotlin/com/mrboomdev/uust/utils/PaddingUtils.kt",
-    "/home/mrboomdev/IdeaProjects/Uust/composeApp/src/commonMain/kotlin/com/mrboomdev/uust/utils/CollectUtils.kt",
-    "/home/mrboomdev/IdeaProjects/Uust/composeApp/src/androidMain/AndroidManifest.xml",
-    "/home/mrboomdev/IdeaProjects/Uust/composeApp/build.gradle.kts",
-    "/home/mrboomdev/IdeaProjects/Uust/composeApp/src/commonMain/composeResources/drawable/ic_calendar_today_outlined.xml",
-    "/home/mrboomdev/IdeaProjects/Uust/composeApp/src/commonMain/kotlin/com/mrboomdev/uust/utils/FlowUtils.kt",
-    "/home/mrboomdev/IdeaProjects/Uust/composeApp/src/commonMain/composeResources/drawable/ic_notes.xml",
-    "/home/mrboomdev/IdeaProjects/Uust/composeApp/src/commonMain/composeResources/drawable/ic_outline.xml",
-    "/home/mrboomdev/IdeaProjects/Uust/composeApp/src/commonMain/kotlin/com/mrboomdev/uust/UustSettings.kt",
-    "/home/mrboomdev/IdeaProjects/Uust/composeApp/src/commonMain/composeResources/drawable/ic_filled.xml",
-    "/home/mrboomdev/IdeaProjects/Uust/composeApp/src/commonMain/kotlin/com/mrboomdev/uust/components/ScheduleItem.kt",
-    "/home/mrboomdev/IdeaProjects/Uust/composeApp/src/commonMain/kotlin/com/mrboomdev/uust/utils/LocationManager.kt",
-    "/home/mrboomdev/IdeaProjects/Uust/composeApp/src/androidMain/kotlin/com/mrboomdev/uust/utils/LocationManager.android.kt",
-    "/home/mrboomdev/IdeaProjects/Uust/composeApp/src/commonMain/kotlin/com/mrboomdev/uust/utils/HttpUtils.kt",
-    "/home/mrboomdev/IdeaProjects/Uust/composeApp/src/commonMain/kotlin/com/mrboomdev/uust/Uust.kt",
-    "/home/mrboomdev/IdeaProjects/Uust/composeApp/src/androidMain/kotlin/com/mrboomdev/uust/utils/HttpUtils.android.kt",
-    "/home/mrboomdev/IdeaProjects/Uust/composeApp/src/androidMain/kotlin/com/mrboomdev/uust/MainActivity.kt",
-    "/home/mrboomdev/IdeaProjects/Uust/composeApp/src/androidMain/kotlin/com/mrboomdev/uust/Uust.kt",
-    "/home/mrboomdev/IdeaProjects/Uust/composeApp/src/commonMain/kotlin/com/mrboomdev/uust/components/CatHeader.kt",
-    "/home/mrboomdev/IdeaProjects/Uust/composeApp/src/commonMain/kotlin/com/mrboomdev/uust/App.kt",
-    "/home/mrboomdev/IdeaProjects/Uust/composeApp/src/commonMain/kotlin/com/mrboomdev/uust/screens/HomeScreen.kt",
-    "/home/mrboomdev/IdeaProjects/Uust/composeApp/src/commonMain/kotlin/com/mrboomdev/uust/screens/CalendarScreen.kt"
+  <component name="IdeDocumentHistory">{
+  &quot;changedPaths&quot;: [
+    &quot;/home/mrboomdev/IdeaProjects/Uust/composeApp/src/commonMain/composeResources/drawable/ic_diversity_3.xml&quot;,
+    &quot;/home/mrboomdev/IdeaProjects/Uust/composeApp/src/commonMain/composeResources/drawable/ic_support_outlined.xml&quot;,
+    &quot;/home/mrboomdev/IdeaProjects/Uust/composeApp/src/commonMain/kotlin/com/mrboomdev/uust/components/NewsPost.kt&quot;,
+    &quot;/home/mrboomdev/IdeaProjects/Uust/composeApp/src/androidMain/kotlin/com/mrboomdev/uust/utils/LocationManager.android.kt&quot;,
+    &quot;/home/mrboomdev/IdeaProjects/Uust/composeApp/src/androidMain/kotlin/com/mrboomdev/uust/components/Map.android.kt&quot;,
+    &quot;/home/mrboomdev/IdeaProjects/Uust/composeApp/src/commonMain/kotlin/com/mrboomdev/uust/components/Map.kt&quot;,
+    &quot;/home/mrboomdev/IdeaProjects/Uust/composeApp/src/commonMain/kotlin/com/mrboomdev/uust/navigation/AppTabs.kt&quot;,
+    &quot;/home/mrboomdev/IdeaProjects/Uust/composeApp/src/commonMain/kotlin/com/mrboomdev/uust/components/ScheduleItem.kt&quot;,
+    &quot;/home/mrboomdev/IdeaProjects/Uust/composeApp/src/commonMain/kotlin/com/mrboomdev/uust/navigation/Routes.kt&quot;,
+    &quot;/home/mrboomdev/IdeaProjects/Uust/composeApp/src/androidMain/kotlin/com/mrboomdev/uust/MainActivity.kt&quot;,
+    &quot;/home/mrboomdev/IdeaProjects/Uust/composeApp/src/commonMain/kotlin/com/mrboomdev/uust/UustSettings.kt&quot;,
+    &quot;/home/mrboomdev/IdeaProjects/Uust/composeApp/src/commonMain/kotlin/com/mrboomdev/uust/data/settings/Setting.kt&quot;,
+    &quot;/home/mrboomdev/IdeaProjects/Uust/composeApp/src/commonMain/kotlin/com/mrboomdev/uust/data/settings/SettingUtils.kt&quot;,
+    &quot;/home/mrboomdev/IdeaProjects/Uust/composeApp/src/commonMain/kotlin/com/mrboomdev/uust/utils/CollectionUtils.kt&quot;,
+    &quot;/home/mrboomdev/IdeaProjects/Uust/composeApp/src/commonMain/kotlin/com/mrboomdev/uust/utils/PermissionUtils.kt&quot;,
+    &quot;/home/mrboomdev/IdeaProjects/Uust/composeApp/src/commonMain/kotlin/com/mrboomdev/uust/utils/permissions/PermissionUtils.kt&quot;,
+    &quot;/home/mrboomdev/IdeaProjects/Uust/composeApp/src/commonMain/kotlin/com/mrboomdev/uust/utils/permissions/Permission.kt&quot;,
+    &quot;/home/mrboomdev/IdeaProjects/Uust/composeApp/src/commonMain/kotlin/com/mrboomdev/uust/utils/permissions/PermissionController.kt&quot;,
+    &quot;/home/mrboomdev/IdeaProjects/Uust/composeApp/src/commonMain/kotlin/com/mrboomdev/uust/screens/MapScreen.kt&quot;,
+    &quot;/home/mrboomdev/IdeaProjects/Uust/composeApp/src/mobileMain/kotlin/com/mrboomdev/uust/utils/permissions/PermissionController.mobile.kt&quot;,
+    &quot;/home/mrboomdev/IdeaProjects/Uust/composeApp/src/webMain/kotlin/com/mrboomdev/uust/main.kt&quot;,
+    &quot;/home/mrboomdev/IdeaProjects/Uust/composeApp/src/webMain/kotlin/com/mrboomdev/uust/utils/permissions/PermissionController.web.kt&quot;,
+    &quot;/home/mrboomdev/IdeaProjects/Uust/composeApp/src/iosMain/kotlin/com/mrboomdev/uust/MainViewController.kt&quot;,
+    &quot;/home/mrboomdev/IdeaProjects/Uust/composeApp/src/commonMain/kotlin/com/mrboomdev/uust/data/Cache.kt&quot;,
+    &quot;/home/mrboomdev/IdeaProjects/Uust/composeApp/src/webMain/kotlin/com/mrboomdev/uust/data/Cache.web.kt&quot;,
+    &quot;/home/mrboomdev/IdeaProjects/Uust/composeApp/src/webMain/kotlin/com/mrboomdev/uust/utils/BackEffect.web.kt&quot;,
+    &quot;/home/mrboomdev/IdeaProjects/Uust/composeApp/src/webMain/kotlin/com/mrboomdev/uust/utils/LocationManager.web.kt&quot;,
+    &quot;/home/mrboomdev/IdeaProjects/Uust/composeApp/src/commonMain/kotlin/com/mrboomdev/uust/data/settings/UustSettings.kt&quot;,
+    &quot;/home/mrboomdev/IdeaProjects/Uust/composeApp/src/mobileMain/kotlin/com/mrboomdev/uust/data/settings/UustSettings.mobile.kt&quot;,
+    &quot;/home/mrboomdev/IdeaProjects/Uust/composeApp/src/webMain/kotlin/com/mrboomdev/uust/data/settings/UustSettings.web.kt&quot;,
+    &quot;/home/mrboomdev/IdeaProjects/Uust/settings.gradle.kts&quot;,
+    &quot;/home/mrboomdev/IdeaProjects/Uust/.run/Run Android.run.xml&quot;,
+    &quot;/home/mrboomdev/IdeaProjects/Uust/.gitignore&quot;,
+    &quot;/home/mrboomdev/IdeaProjects/Uust/composeApp/src/mobileMain/kotlin/com/mrboomdev/uust/Uust.mobile.kt&quot;,
+    &quot;/home/mrboomdev/IdeaProjects/Uust/composeApp/src/webMain/kotlin/com/mrboomdev/uust/Uust.web.kt&quot;,
+    &quot;/home/mrboomdev/IdeaProjects/Uust/composeApp/src/jsMain/kotlin/com/mrboomdev/uust/Uust.js.kt&quot;,
+    &quot;/home/mrboomdev/IdeaProjects/Uust/composeApp/src/commonMain/kotlin/com/mrboomdev/uust/Uust.kt&quot;,
+    &quot;/home/mrboomdev/IdeaProjects/Uust/composeApp/src/androidMain/kotlin/com/mrboomdev/uust/utils/HttpUtils.android.kt&quot;,
+    &quot;/home/mrboomdev/IdeaProjects/Uust/composeApp/src/webMain/kotlin/com/mrboomdev/uust/utils/HttpUtils.web.kt&quot;,
+    &quot;/home/mrboomdev/IdeaProjects/Uust/composeApp/src/commonMain/kotlin/com/mrboomdev/uust/utils/HttpUtils.kt&quot;,
+    &quot;/home/mrboomdev/IdeaProjects/Uust/composeApp/src/wasmJsMain/kotlin/com/mrboomdev/uust/Uust.wasmJs.kt&quot;,
+    &quot;/home/mrboomdev/IdeaProjects/Uust/composeApp/src/commonMain/kotlin/com/mrboomdev/uust/utils/WindowInsetUtils.kt&quot;,
+    &quot;/home/mrboomdev/IdeaProjects/Uust/gradle/libs.versions.toml&quot;,
+    &quot;/home/mrboomdev/IdeaProjects/Uust/composeApp/src/commonMain/kotlin/com/mrboomdev/uust/utils/PaddingUtils.kt&quot;,
+    &quot;/home/mrboomdev/IdeaProjects/Uust/composeApp/src/commonMain/kotlin/com/mrboomdev/uust/App.kt&quot;,
+    &quot;/home/mrboomdev/IdeaProjects/Uust/composeApp/src/commonMain/kotlin/com/mrboomdev/uust/screens/HomeScreen.kt&quot;,
+    &quot;/home/mrboomdev/IdeaProjects/Uust/composeApp/build.gradle.kts&quot;,
+    &quot;/home/mrboomdev/IdeaProjects/Uust/composeApp/src/androidDebug/res/values/strings.xml&quot;,
+    &quot;/home/mrboomdev/IdeaProjects/Uust/composeApp/src/androidDebug/res/drawable/logo_dev.xml&quot;,
+    &quot;/home/mrboomdev/IdeaProjects/Uust/composeApp/src/commonMain/kotlin/com/mrboomdev/uust/components/Holiday.kt&quot;,
+    &quot;/home/mrboomdev/IdeaProjects/Uust/composeApp/src/commonMain/kotlin/com/mrboomdev/uust/screens/CalendarScreen.kt&quot;
   ]
-}]]></component>
+}</component>
   <component name="IgnoredFileRootStore">
     <option name="generatedRoots">
       <set>
@@ -326,20 +198,23 @@
     </option>
   </component>
   <component name="LanguageUsageStatistics">
+    <language id="GitIgnore">
+      <summary usageCount="1" lastUsage="1763755059320" />
+    </language>
     <language id="JAVA">
-      <summary usageCount="5" lastUsage="1761996519501" />
+      <summary usageCount="12" lastUsage="1763917045437" />
     </language>
     <language id="Markdown">
-      <summary usageCount="1" lastUsage="1761782844353" />
+      <summary usageCount="2" lastUsage="1763747532098" />
     </language>
     <language id="TOML">
-      <summary usageCount="2" lastUsage="1761919360683" />
+      <summary usageCount="7" lastUsage="1763832736290" />
     </language>
     <language id="XML">
-      <summary usageCount="34" lastUsage="1761983591116" />
+      <summary usageCount="88" lastUsage="1763931258842" />
     </language>
     <language id="kotlin">
-      <summary usageCount="248" lastUsage="1762001871389" />
+      <summary usageCount="603" lastUsage="1763984188587" />
     </language>
   </component>
   <component name="ProjectView">
@@ -350,74 +225,131 @@
         <subPane>
           <expand>
             <path>
-              <item name="uust" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UUST" type="b2602c69:ProjectViewProjectNode" />
               <item name="dir{file:///home/mrboomdev/IdeaProjects/Uust}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
-              <item name="uust" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dir{file:///home/mrboomdev/IdeaProjects/Uust}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="dir{file:///home/mrboomdev/IdeaProjects/Uust/composeApp}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="uust" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UUST" type="b2602c69:ProjectViewProjectNode" />
               <item name="dir{file:///home/mrboomdev/IdeaProjects/Uust}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="dir{file:///home/mrboomdev/IdeaProjects/Uust/composeApp}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="dir{file:///home/mrboomdev/IdeaProjects/Uust/composeApp/src}" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="uust" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UUST" type="b2602c69:ProjectViewProjectNode" />
               <item name="dir{file:///home/mrboomdev/IdeaProjects/Uust}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="dir{file:///home/mrboomdev/IdeaProjects/Uust/composeApp}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="dir{file:///home/mrboomdev/IdeaProjects/Uust/composeApp/src}" type="462c0819:PsiDirectoryNode" />
-              <item name="dir{file:///home/mrboomdev/IdeaProjects/Uust/composeApp/src/androidMain}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
-              <item name="uust" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UUST" type="b2602c69:ProjectViewProjectNode" />
               <item name="dir{file:///home/mrboomdev/IdeaProjects/Uust}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="dir{file:///home/mrboomdev/IdeaProjects/Uust/composeApp}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="dir{file:///home/mrboomdev/IdeaProjects/Uust/composeApp/src}" type="462c0819:PsiDirectoryNode" />
-              <item name="dir{file:///home/mrboomdev/IdeaProjects/Uust/composeApp/src/androidMain}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="dir{file:///home/mrboomdev/IdeaProjects/Uust/composeApp/src/androidMain/kotlin}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/Uust/composeApp/src/androidDebug}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
-              <item name="uust" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UUST" type="b2602c69:ProjectViewProjectNode" />
               <item name="dir{file:///home/mrboomdev/IdeaProjects/Uust}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="dir{file:///home/mrboomdev/IdeaProjects/Uust/composeApp}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="dir{file:///home/mrboomdev/IdeaProjects/Uust/composeApp/src}" type="462c0819:PsiDirectoryNode" />
-              <item name="dir{file:///home/mrboomdev/IdeaProjects/Uust/composeApp/src/androidMain}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="dir{file:///home/mrboomdev/IdeaProjects/Uust/composeApp/src/androidMain/kotlin}" type="462c0819:PsiDirectoryNode" />
-              <item name="dir{file:///home/mrboomdev/IdeaProjects/Uust/composeApp/src/androidMain/kotlin/com}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/Uust/composeApp/src/androidDebug}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/Uust/composeApp/src/androidDebug/res}" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="uust" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UUST" type="b2602c69:ProjectViewProjectNode" />
               <item name="dir{file:///home/mrboomdev/IdeaProjects/Uust}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="dir{file:///home/mrboomdev/IdeaProjects/Uust/composeApp}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="dir{file:///home/mrboomdev/IdeaProjects/Uust/composeApp/src}" type="462c0819:PsiDirectoryNode" />
-              <item name="dir{file:///home/mrboomdev/IdeaProjects/Uust/composeApp/src/androidMain}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="dir{file:///home/mrboomdev/IdeaProjects/Uust/composeApp/src/androidMain/kotlin}" type="462c0819:PsiDirectoryNode" />
-              <item name="dir{file:///home/mrboomdev/IdeaProjects/Uust/composeApp/src/androidMain/kotlin/com}" type="462c0819:PsiDirectoryNode" />
-              <item name="dir{file:///home/mrboomdev/IdeaProjects/Uust/composeApp/src/androidMain/kotlin/com/mrboomdev}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/Uust/composeApp/src/androidDebug}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/Uust/composeApp/src/androidDebug/res}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/Uust/composeApp/src/androidDebug/res/values}" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="uust" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UUST" type="b2602c69:ProjectViewProjectNode" />
               <item name="dir{file:///home/mrboomdev/IdeaProjects/Uust}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="dir{file:///home/mrboomdev/IdeaProjects/Uust/composeApp}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="dir{file:///home/mrboomdev/IdeaProjects/Uust/composeApp/src}" type="462c0819:PsiDirectoryNode" />
               <item name="dir{file:///home/mrboomdev/IdeaProjects/Uust/composeApp/src/androidMain}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="dir{file:///home/mrboomdev/IdeaProjects/Uust/composeApp/src/androidMain/kotlin}" type="462c0819:PsiDirectoryNode" />
-              <item name="dir{file:///home/mrboomdev/IdeaProjects/Uust/composeApp/src/androidMain/kotlin/com}" type="462c0819:PsiDirectoryNode" />
-              <item name="dir{file:///home/mrboomdev/IdeaProjects/Uust/composeApp/src/androidMain/kotlin/com/mrboomdev}" type="462c0819:PsiDirectoryNode" />
-              <item name="dir{file:///home/mrboomdev/IdeaProjects/Uust/composeApp/src/androidMain/kotlin/com/mrboomdev/uust}" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="uust" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UUST" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/Uust}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/Uust/composeApp}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/Uust/composeApp/src}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/Uust/composeApp/src/androidMain}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/Uust/composeApp/src/androidMain/res}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UUST" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/Uust}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/Uust/composeApp}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/Uust/composeApp/src}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/Uust/composeApp/src/androidMain}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/Uust/composeApp/src/androidMain/res}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/Uust/composeApp/src/androidMain/res/drawable}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UUST" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/Uust}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/Uust/composeApp}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/Uust/composeApp/src}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/Uust/composeApp/src/androidMain}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/Uust/composeApp/src/androidMain/res}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/Uust/composeApp/src/androidMain/res/mipmap-anydpi-v26}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UUST" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/Uust}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/Uust/composeApp}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/Uust/composeApp/src}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/Uust/composeApp/src/androidMain}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/Uust/composeApp/src/androidMain/res}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/Uust/composeApp/src/androidMain/res/mipmap-hdpi}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UUST" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/Uust}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/Uust/composeApp}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/Uust/composeApp/src}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/Uust/composeApp/src/androidMain}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/Uust/composeApp/src/androidMain/res}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/Uust/composeApp/src/androidMain/res/mipmap-mdpi}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UUST" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/Uust}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/Uust/composeApp}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/Uust/composeApp/src}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/Uust/composeApp/src/androidMain}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/Uust/composeApp/src/androidMain/res}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/Uust/composeApp/src/androidMain/res/mipmap-xxhdpi}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UUST" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/Uust}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/Uust/composeApp}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/Uust/composeApp/src}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/Uust/composeApp/src/androidMain}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/Uust/composeApp/src/androidMain/res}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/Uust/composeApp/src/androidMain/res/mipmap-xxxhdpi}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UUST" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/Uust}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/Uust/composeApp}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/Uust/composeApp/src}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/Uust/composeApp/src/androidMain}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/Uust/composeApp/src/androidMain/res}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/Uust/composeApp/src/androidMain/res/values}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UUST" type="b2602c69:ProjectViewProjectNode" />
               <item name="dir{file:///home/mrboomdev/IdeaProjects/Uust}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="dir{file:///home/mrboomdev/IdeaProjects/Uust/composeApp}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="dir{file:///home/mrboomdev/IdeaProjects/Uust/composeApp/src}" type="462c0819:PsiDirectoryNode" />
               <item name="dir{file:///home/mrboomdev/IdeaProjects/Uust/composeApp/src/commonMain}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
-              <item name="uust" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UUST" type="b2602c69:ProjectViewProjectNode" />
               <item name="dir{file:///home/mrboomdev/IdeaProjects/Uust}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="dir{file:///home/mrboomdev/IdeaProjects/Uust/composeApp}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="dir{file:///home/mrboomdev/IdeaProjects/Uust/composeApp/src}" type="462c0819:PsiDirectoryNode" />
@@ -425,7 +357,7 @@
               <item name="dir{file:///home/mrboomdev/IdeaProjects/Uust/composeApp/src/commonMain/kotlin}" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="uust" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UUST" type="b2602c69:ProjectViewProjectNode" />
               <item name="dir{file:///home/mrboomdev/IdeaProjects/Uust}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="dir{file:///home/mrboomdev/IdeaProjects/Uust/composeApp}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="dir{file:///home/mrboomdev/IdeaProjects/Uust/composeApp/src}" type="462c0819:PsiDirectoryNode" />
@@ -434,7 +366,7 @@
               <item name="dir{file:///home/mrboomdev/IdeaProjects/Uust/composeApp/src/commonMain/kotlin/com}" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="uust" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UUST" type="b2602c69:ProjectViewProjectNode" />
               <item name="dir{file:///home/mrboomdev/IdeaProjects/Uust}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="dir{file:///home/mrboomdev/IdeaProjects/Uust/composeApp}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="dir{file:///home/mrboomdev/IdeaProjects/Uust/composeApp/src}" type="462c0819:PsiDirectoryNode" />
@@ -444,7 +376,7 @@
               <item name="dir{file:///home/mrboomdev/IdeaProjects/Uust/composeApp/src/commonMain/kotlin/com/mrboomdev}" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="uust" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UUST" type="b2602c69:ProjectViewProjectNode" />
               <item name="dir{file:///home/mrboomdev/IdeaProjects/Uust}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="dir{file:///home/mrboomdev/IdeaProjects/Uust/composeApp}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="dir{file:///home/mrboomdev/IdeaProjects/Uust/composeApp/src}" type="462c0819:PsiDirectoryNode" />
@@ -455,19 +387,7 @@
               <item name="dir{file:///home/mrboomdev/IdeaProjects/Uust/composeApp/src/commonMain/kotlin/com/mrboomdev/uust}" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="uust" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dir{file:///home/mrboomdev/IdeaProjects/Uust}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="dir{file:///home/mrboomdev/IdeaProjects/Uust/composeApp}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="dir{file:///home/mrboomdev/IdeaProjects/Uust/composeApp/src}" type="462c0819:PsiDirectoryNode" />
-              <item name="dir{file:///home/mrboomdev/IdeaProjects/Uust/composeApp/src/commonMain}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="dir{file:///home/mrboomdev/IdeaProjects/Uust/composeApp/src/commonMain/kotlin}" type="462c0819:PsiDirectoryNode" />
-              <item name="dir{file:///home/mrboomdev/IdeaProjects/Uust/composeApp/src/commonMain/kotlin/com}" type="462c0819:PsiDirectoryNode" />
-              <item name="dir{file:///home/mrboomdev/IdeaProjects/Uust/composeApp/src/commonMain/kotlin/com/mrboomdev}" type="462c0819:PsiDirectoryNode" />
-              <item name="dir{file:///home/mrboomdev/IdeaProjects/Uust/composeApp/src/commonMain/kotlin/com/mrboomdev/uust}" type="462c0819:PsiDirectoryNode" />
-              <item name="dir{file:///home/mrboomdev/IdeaProjects/Uust/composeApp/src/commonMain/kotlin/com/mrboomdev/uust/screens}" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="uust" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UUST" type="b2602c69:ProjectViewProjectNode" />
               <item name="dir{file:///home/mrboomdev/IdeaProjects/Uust}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="dir{file:///home/mrboomdev/IdeaProjects/Uust/composeApp}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="dir{file:///home/mrboomdev/IdeaProjects/Uust/composeApp/src}" type="462c0819:PsiDirectoryNode" />
@@ -482,15 +402,15 @@
           <select />
           <presentation>
             <attributes />
-            <data iconPath="expui/toolwindows/project.svg" iconPlugin="com.intellij" isLeaf="false" text="uust" />
-            <item name="uust" type="b2602c69:ProjectViewProjectNode" />
+            <data iconPath="expui/toolwindows/project.svg" iconPlugin="com.intellij" isLeaf="false" text="UUST" />
+            <item name="UUST" type="b2602c69:ProjectViewProjectNode" />
             <presentation>
               <attributes>
                 <map>
                   <entry key="filePath" value="$PROJECT_DIR$" />
                 </map>
               </attributes>
-              <data iconPath="expui/nodes/ideaProject.svg" iconPlugin="com.intellij" isLeaf="false" text="Uust" />
+              <data iconPath="expui/nodes/module.svg" iconPlugin="com.intellij" isLeaf="false" text="Uust" />
               <item name="dir{file:///home/mrboomdev/IdeaProjects/Uust}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <presentation>
                 <attributes>
@@ -518,6 +438,15 @@
                 </attributes>
                 <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text=".kotlin" />
                 <item name="dir{file:///home/mrboomdev/IdeaProjects/Uust/.kotlin}" type="462c0819:PsiDirectoryNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/.run" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text=".run" />
+                <item name="dir{file:///home/mrboomdev/IdeaProjects/Uust/.run}" type="462c0819:PsiDirectoryNode" />
               </presentation>
               <presentation>
                 <attributes>
@@ -565,6 +494,42 @@
                   <presentation>
                     <attributes>
                       <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/composeApp/src/androidDebug" />
+                      </map>
+                    </attributes>
+                    <data iconPath="studio/icons/shell/filetree/android-module.svg" iconPlugin="org.jetbrains.android" isLeaf="false" text="androidDebug" />
+                    <item name="dir{file:///home/mrboomdev/IdeaProjects/Uust/composeApp/src/androidDebug}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+                    <presentation>
+                      <attributes>
+                        <map>
+                          <entry key="filePath" value="$PROJECT_DIR$/composeApp/src/androidDebug/res" />
+                        </map>
+                      </attributes>
+                      <data iconPath="expui/nodes/resourcesRoot.svg" iconPlugin="com.intellij" isLeaf="false" text="res" />
+                      <item name="dir{file:///home/mrboomdev/IdeaProjects/Uust/composeApp/src/androidDebug/res}" type="462c0819:PsiDirectoryNode" />
+                      <presentation>
+                        <attributes>
+                          <map>
+                            <entry key="filePath" value="$PROJECT_DIR$/composeApp/src/androidDebug/res/values" />
+                          </map>
+                        </attributes>
+                        <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="values" />
+                        <item name="dir{file:///home/mrboomdev/IdeaProjects/Uust/composeApp/src/androidDebug/res/values}" type="462c0819:PsiDirectoryNode" />
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/composeApp/src/androidDebug/res/values/strings.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="strings.xml" />
+                          <item name="strings.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                      </presentation>
+                    </presentation>
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
                         <entry key="filePath" value="$PROJECT_DIR$/composeApp/src/androidMain" />
                       </map>
                     </attributes>
@@ -578,69 +543,6 @@
                       </attributes>
                       <data iconPath="expui/nodes/sourceRoot.svg" iconPlugin="com.intellij" isLeaf="false" text="kotlin" />
                       <item name="dir{file:///home/mrboomdev/IdeaProjects/Uust/composeApp/src/androidMain/kotlin}" type="462c0819:PsiDirectoryNode" />
-                      <presentation>
-                        <attributes>
-                          <map>
-                            <entry key="filePath" value="$PROJECT_DIR$/composeApp/src/androidMain/kotlin/com" />
-                          </map>
-                        </attributes>
-                        <data iconPath="expui/nodes/package.svg" iconPlugin="com.intellij" isLeaf="false" text="com" />
-                        <item name="dir{file:///home/mrboomdev/IdeaProjects/Uust/composeApp/src/androidMain/kotlin/com}" type="462c0819:PsiDirectoryNode" />
-                        <presentation>
-                          <attributes>
-                            <map>
-                              <entry key="filePath" value="$PROJECT_DIR$/composeApp/src/androidMain/kotlin/com/mrboomdev" />
-                            </map>
-                          </attributes>
-                          <data iconPath="expui/nodes/package.svg" iconPlugin="com.intellij" isLeaf="false" text="mrboomdev" />
-                          <item name="dir{file:///home/mrboomdev/IdeaProjects/Uust/composeApp/src/androidMain/kotlin/com/mrboomdev}" type="462c0819:PsiDirectoryNode" />
-                          <presentation>
-                            <attributes>
-                              <map>
-                                <entry key="filePath" value="$PROJECT_DIR$/composeApp/src/androidMain/kotlin/com/mrboomdev/uust" />
-                              </map>
-                            </attributes>
-                            <data iconPath="expui/nodes/package.svg" iconPlugin="com.intellij" isLeaf="false" text="uust" />
-                            <item name="dir{file:///home/mrboomdev/IdeaProjects/Uust/composeApp/src/androidMain/kotlin/com/mrboomdev/uust}" type="462c0819:PsiDirectoryNode" />
-                            <presentation>
-                              <attributes>
-                                <map>
-                                  <entry key="filePath" value="$PROJECT_DIR$/composeApp/src/androidMain/kotlin/com/mrboomdev/uust/utils" />
-                                </map>
-                              </attributes>
-                              <data iconPath="expui/nodes/package.svg" iconPlugin="com.intellij" isLeaf="false" text="utils" />
-                              <item name="dir{file:///home/mrboomdev/IdeaProjects/Uust/composeApp/src/androidMain/kotlin/com/mrboomdev/uust/utils}" type="462c0819:PsiDirectoryNode" />
-                            </presentation>
-                            <presentation>
-                              <attributes>
-                                <map>
-                                  <entry key="filePath" value="$PROJECT_DIR$/composeApp/src/androidMain/kotlin/com/mrboomdev/uust/MainActivity.kt" />
-                                </map>
-                              </attributes>
-                              <data iconPath="org/jetbrains/kotlin/idea/icons/expui/kotlin.svg" iconPlugin="org.jetbrains.kotlin" isLeaf="true" text="MainActivity.kt" />
-                              <item name="MainActivity.kt" type="24436e51:KtFileTreeNode" />
-                            </presentation>
-                            <presentation>
-                              <attributes>
-                                <map>
-                                  <entry key="filePath" value="$PROJECT_DIR$/composeApp/src/androidMain/kotlin/com/mrboomdev/uust/Platform.android.kt" />
-                                </map>
-                              </attributes>
-                              <data iconPath="org/jetbrains/kotlin/idea/icons/expui/kotlin.svg" iconPlugin="org.jetbrains.kotlin" isLeaf="true" text="Platform.android.kt" />
-                              <item name="Platform.android.kt" type="24436e51:KtFileTreeNode" />
-                            </presentation>
-                            <presentation>
-                              <attributes>
-                                <map>
-                                  <entry key="filePath" value="$PROJECT_DIR$/composeApp/src/androidMain/kotlin/com/mrboomdev/uust/Uust.kt" />
-                                </map>
-                              </attributes>
-                              <data iconPath="org/jetbrains/kotlin/idea/icons/expui/kotlin.svg" iconPlugin="org.jetbrains.kotlin" isLeaf="true" text="Uust.kt" />
-                              <item name="Uust.kt" type="24436e51:KtFileTreeNode" />
-                            </presentation>
-                          </presentation>
-                        </presentation>
-                      </presentation>
                     </presentation>
                     <presentation>
                       <attributes>
@@ -650,6 +552,249 @@
                       </attributes>
                       <data iconPath="expui/nodes/resourcesRoot.svg" iconPlugin="com.intellij" isLeaf="false" text="res" />
                       <item name="dir{file:///home/mrboomdev/IdeaProjects/Uust/composeApp/src/androidMain/res}" type="462c0819:PsiDirectoryNode" />
+                      <presentation>
+                        <attributes>
+                          <map>
+                            <entry key="filePath" value="$PROJECT_DIR$/composeApp/src/androidMain/res/drawable" />
+                          </map>
+                        </attributes>
+                        <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="drawable" />
+                        <item name="dir{file:///home/mrboomdev/IdeaProjects/Uust/composeApp/src/androidMain/res/drawable}" type="462c0819:PsiDirectoryNode" />
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/composeApp/src/androidMain/res/drawable/logo.png" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/image.svg" iconPlugin="com.intellij" isLeaf="true" text="logo.png" />
+                          <item name="logo.png" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/composeApp/src/androidMain/res/drawable/logo_wrapper.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="logo_wrapper.xml" />
+                          <item name="logo_wrapper.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                      </presentation>
+                      <presentation>
+                        <attributes>
+                          <map>
+                            <entry key="filePath" value="$PROJECT_DIR$/composeApp/src/androidMain/res/mipmap-anydpi-v26" />
+                          </map>
+                        </attributes>
+                        <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="mipmap-anydpi-v26" />
+                        <item name="dir{file:///home/mrboomdev/IdeaProjects/Uust/composeApp/src/androidMain/res/mipmap-anydpi-v26}" type="462c0819:PsiDirectoryNode" />
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/composeApp/src/androidMain/res/mipmap-anydpi-v26/ic_launcher.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="ic_launcher.xml" />
+                          <item name="ic_launcher.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/composeApp/src/androidMain/res/mipmap-anydpi-v26/ic_launcher_round.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="ic_launcher_round.xml" />
+                          <item name="ic_launcher_round.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                      </presentation>
+                      <presentation>
+                        <attributes>
+                          <map>
+                            <entry key="filePath" value="$PROJECT_DIR$/composeApp/src/androidMain/res/mipmap-hdpi" />
+                          </map>
+                        </attributes>
+                        <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="mipmap-hdpi" />
+                        <item name="dir{file:///home/mrboomdev/IdeaProjects/Uust/composeApp/src/androidMain/res/mipmap-hdpi}" type="462c0819:PsiDirectoryNode" />
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/composeApp/src/androidMain/res/mipmap-hdpi/ic_launcher.webp" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/image.svg" iconPlugin="com.intellij" isLeaf="true" text="ic_launcher.webp" />
+                          <item name="ic_launcher.webp" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/composeApp/src/androidMain/res/mipmap-hdpi/ic_launcher_foreground.webp" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/image.svg" iconPlugin="com.intellij" isLeaf="true" text="ic_launcher_foreground.webp" />
+                          <item name="ic_launcher_foreground.webp" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/composeApp/src/androidMain/res/mipmap-hdpi/ic_launcher_round.webp" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/image.svg" iconPlugin="com.intellij" isLeaf="true" text="ic_launcher_round.webp" />
+                          <item name="ic_launcher_round.webp" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                      </presentation>
+                      <presentation>
+                        <attributes>
+                          <map>
+                            <entry key="filePath" value="$PROJECT_DIR$/composeApp/src/androidMain/res/mipmap-mdpi" />
+                          </map>
+                        </attributes>
+                        <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="mipmap-mdpi" />
+                        <item name="dir{file:///home/mrboomdev/IdeaProjects/Uust/composeApp/src/androidMain/res/mipmap-mdpi}" type="462c0819:PsiDirectoryNode" />
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/composeApp/src/androidMain/res/mipmap-mdpi/ic_launcher.webp" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/image.svg" iconPlugin="com.intellij" isLeaf="true" text="ic_launcher.webp" />
+                          <item name="ic_launcher.webp" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/composeApp/src/androidMain/res/mipmap-mdpi/ic_launcher_foreground.webp" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/image.svg" iconPlugin="com.intellij" isLeaf="true" text="ic_launcher_foreground.webp" />
+                          <item name="ic_launcher_foreground.webp" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/composeApp/src/androidMain/res/mipmap-mdpi/ic_launcher_round.webp" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/image.svg" iconPlugin="com.intellij" isLeaf="true" text="ic_launcher_round.webp" />
+                          <item name="ic_launcher_round.webp" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                      </presentation>
+                      <presentation>
+                        <attributes>
+                          <map>
+                            <entry key="filePath" value="$PROJECT_DIR$/composeApp/src/androidMain/res/mipmap-xhdpi" />
+                          </map>
+                        </attributes>
+                        <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="mipmap-xhdpi" />
+                        <item name="dir{file:///home/mrboomdev/IdeaProjects/Uust/composeApp/src/androidMain/res/mipmap-xhdpi}" type="462c0819:PsiDirectoryNode" />
+                      </presentation>
+                      <presentation>
+                        <attributes>
+                          <map>
+                            <entry key="filePath" value="$PROJECT_DIR$/composeApp/src/androidMain/res/mipmap-xxhdpi" />
+                          </map>
+                        </attributes>
+                        <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="mipmap-xxhdpi" />
+                        <item name="dir{file:///home/mrboomdev/IdeaProjects/Uust/composeApp/src/androidMain/res/mipmap-xxhdpi}" type="462c0819:PsiDirectoryNode" />
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/composeApp/src/androidMain/res/mipmap-xxhdpi/ic_launcher.webp" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/image.svg" iconPlugin="com.intellij" isLeaf="true" text="ic_launcher.webp" />
+                          <item name="ic_launcher.webp" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/composeApp/src/androidMain/res/mipmap-xxhdpi/ic_launcher_foreground.webp" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/image.svg" iconPlugin="com.intellij" isLeaf="true" text="ic_launcher_foreground.webp" />
+                          <item name="ic_launcher_foreground.webp" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/composeApp/src/androidMain/res/mipmap-xxhdpi/ic_launcher_round.webp" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/image.svg" iconPlugin="com.intellij" isLeaf="true" text="ic_launcher_round.webp" />
+                          <item name="ic_launcher_round.webp" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                      </presentation>
+                      <presentation>
+                        <attributes>
+                          <map>
+                            <entry key="filePath" value="$PROJECT_DIR$/composeApp/src/androidMain/res/mipmap-xxxhdpi" />
+                          </map>
+                        </attributes>
+                        <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="mipmap-xxxhdpi" />
+                        <item name="dir{file:///home/mrboomdev/IdeaProjects/Uust/composeApp/src/androidMain/res/mipmap-xxxhdpi}" type="462c0819:PsiDirectoryNode" />
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/composeApp/src/androidMain/res/mipmap-xxxhdpi/ic_launcher.webp" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/image.svg" iconPlugin="com.intellij" isLeaf="true" text="ic_launcher.webp" />
+                          <item name="ic_launcher.webp" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/composeApp/src/androidMain/res/mipmap-xxxhdpi/ic_launcher_foreground.webp" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/image.svg" iconPlugin="com.intellij" isLeaf="true" text="ic_launcher_foreground.webp" />
+                          <item name="ic_launcher_foreground.webp" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/composeApp/src/androidMain/res/mipmap-xxxhdpi/ic_launcher_round.webp" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/image.svg" iconPlugin="com.intellij" isLeaf="true" text="ic_launcher_round.webp" />
+                          <item name="ic_launcher_round.webp" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                      </presentation>
+                      <presentation>
+                        <attributes>
+                          <map>
+                            <entry key="filePath" value="$PROJECT_DIR$/composeApp/src/androidMain/res/values" />
+                          </map>
+                        </attributes>
+                        <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="values" />
+                        <item name="dir{file:///home/mrboomdev/IdeaProjects/Uust/composeApp/src/androidMain/res/values}" type="462c0819:PsiDirectoryNode" />
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/composeApp/src/androidMain/res/values/ic_launcher_background.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="ic_launcher_background.xml" />
+                          <item name="ic_launcher_background.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/composeApp/src/androidMain/res/values/strings.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="strings.xml" />
+                          <item name="strings.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/composeApp/src/androidMain/res/values/themes.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="themes.xml" />
+                          <item name="themes.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                      </presentation>
                     </presentation>
                     <presentation>
                       <attributes>
@@ -667,7 +812,7 @@
                         <entry key="filePath" value="$PROJECT_DIR$/composeApp/src/commonMain" />
                       </map>
                     </attributes>
-                    <data iconPath="expui/nodes/ideaProject.svg" iconPlugin="com.intellij" isLeaf="false" text="commonMain" />
+                    <data iconPath="expui/nodes/module.svg" iconPlugin="com.intellij" isLeaf="false" text="commonMain" />
                     <item name="dir{file:///home/mrboomdev/IdeaProjects/Uust/composeApp/src/commonMain}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
                     <presentation>
                       <attributes>
@@ -722,47 +867,29 @@
                             <presentation>
                               <attributes>
                                 <map>
+                                  <entry key="filePath" value="$PROJECT_DIR$/composeApp/src/commonMain/kotlin/com/mrboomdev/uust/data" />
+                                </map>
+                              </attributes>
+                              <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="data" />
+                              <item name="dir{file:///home/mrboomdev/IdeaProjects/Uust/composeApp/src/commonMain/kotlin/com/mrboomdev/uust/data}" type="462c0819:PsiDirectoryNode" />
+                            </presentation>
+                            <presentation>
+                              <attributes>
+                                <map>
+                                  <entry key="filePath" value="$PROJECT_DIR$/composeApp/src/commonMain/kotlin/com/mrboomdev/uust/navigation" />
+                                </map>
+                              </attributes>
+                              <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="navigation" />
+                              <item name="dir{file:///home/mrboomdev/IdeaProjects/Uust/composeApp/src/commonMain/kotlin/com/mrboomdev/uust/navigation}" type="462c0819:PsiDirectoryNode" />
+                            </presentation>
+                            <presentation>
+                              <attributes>
+                                <map>
                                   <entry key="filePath" value="$PROJECT_DIR$/composeApp/src/commonMain/kotlin/com/mrboomdev/uust/screens" />
                                 </map>
                               </attributes>
                               <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="screens" />
                               <item name="dir{file:///home/mrboomdev/IdeaProjects/Uust/composeApp/src/commonMain/kotlin/com/mrboomdev/uust/screens}" type="462c0819:PsiDirectoryNode" />
-                              <presentation>
-                                <attributes>
-                                  <map>
-                                    <entry key="filePath" value="$PROJECT_DIR$/composeApp/src/commonMain/kotlin/com/mrboomdev/uust/screens/CalendarScreen.kt" />
-                                  </map>
-                                </attributes>
-                                <data iconPath="org/jetbrains/kotlin/idea/icons/expui/kotlin.svg" iconPlugin="org.jetbrains.kotlin" isLeaf="true" text="CalendarScreen.kt" />
-                                <item name="CalendarScreen.kt" type="24436e51:KtFileTreeNode" />
-                              </presentation>
-                              <presentation>
-                                <attributes>
-                                  <map>
-                                    <entry key="filePath" value="$PROJECT_DIR$/composeApp/src/commonMain/kotlin/com/mrboomdev/uust/screens/HomeScreen.kt" />
-                                  </map>
-                                </attributes>
-                                <data iconPath="org/jetbrains/kotlin/idea/icons/expui/kotlin.svg" iconPlugin="org.jetbrains.kotlin" isLeaf="true" text="HomeScreen.kt" />
-                                <item name="HomeScreen.kt" type="24436e51:KtFileTreeNode" />
-                              </presentation>
-                              <presentation>
-                                <attributes>
-                                  <map>
-                                    <entry key="filePath" value="$PROJECT_DIR$/composeApp/src/commonMain/kotlin/com/mrboomdev/uust/screens/MapScreen.kt" />
-                                  </map>
-                                </attributes>
-                                <data iconPath="org/jetbrains/kotlin/idea/icons/expui/kotlin.svg" iconPlugin="org.jetbrains.kotlin" isLeaf="true" text="MapScreen.kt" />
-                                <item name="MapScreen.kt" type="24436e51:KtFileTreeNode" />
-                              </presentation>
-                              <presentation>
-                                <attributes>
-                                  <map>
-                                    <entry key="filePath" value="$PROJECT_DIR$/composeApp/src/commonMain/kotlin/com/mrboomdev/uust/screens/WarningScreen.kt" />
-                                  </map>
-                                </attributes>
-                                <data iconPath="org/jetbrains/kotlin/idea/icons/expui/kotlin.svg" iconPlugin="org.jetbrains.kotlin" isLeaf="true" text="WarningScreen.kt" />
-                                <item name="WarningScreen.kt" type="24436e51:KtFileTreeNode" />
-                              </presentation>
                             </presentation>
                             <presentation>
                               <attributes>
@@ -775,11 +902,29 @@
                               <presentation>
                                 <attributes>
                                   <map>
+                                    <entry key="filePath" value="$PROJECT_DIR$/composeApp/src/commonMain/kotlin/com/mrboomdev/uust/utils/permissions" />
+                                  </map>
+                                </attributes>
+                                <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="permissions" />
+                                <item name="dir{file:///home/mrboomdev/IdeaProjects/Uust/composeApp/src/commonMain/kotlin/com/mrboomdev/uust/utils/permissions}" type="462c0819:PsiDirectoryNode" />
+                              </presentation>
+                              <presentation>
+                                <attributes>
+                                  <map>
                                     <entry key="filePath" value="$PROJECT_DIR$/composeApp/src/commonMain/kotlin/com/mrboomdev/uust/utils/BackEffect.kt" />
                                   </map>
                                 </attributes>
                                 <data iconPath="org/jetbrains/kotlin/idea/icons/expui/kotlin.svg" iconPlugin="org.jetbrains.kotlin" isLeaf="true" text="BackEffect.kt" />
                                 <item name="BackEffect.kt" type="24436e51:KtFileTreeNode" />
+                              </presentation>
+                              <presentation>
+                                <attributes>
+                                  <map>
+                                    <entry key="filePath" value="$PROJECT_DIR$/composeApp/src/commonMain/kotlin/com/mrboomdev/uust/utils/CollectionUtils.kt" />
+                                  </map>
+                                </attributes>
+                                <data iconPath="org/jetbrains/kotlin/idea/icons/expui/kotlin.svg" iconPlugin="org.jetbrains.kotlin" isLeaf="true" text="CollectionUtils.kt" />
+                                <item name="CollectionUtils.kt" type="24436e51:KtFileTreeNode" />
                               </presentation>
                               <presentation>
                                 <attributes>
@@ -820,6 +965,15 @@
                               <presentation>
                                 <attributes>
                                   <map>
+                                    <entry key="filePath" value="$PROJECT_DIR$/composeApp/src/commonMain/kotlin/com/mrboomdev/uust/utils/ModifierUtils.kt" />
+                                  </map>
+                                </attributes>
+                                <data iconPath="org/jetbrains/kotlin/idea/icons/expui/kotlin.svg" iconPlugin="org.jetbrains.kotlin" isLeaf="true" text="ModifierUtils.kt" />
+                                <item name="ModifierUtils.kt" type="24436e51:KtFileTreeNode" />
+                              </presentation>
+                              <presentation>
+                                <attributes>
+                                  <map>
                                     <entry key="filePath" value="$PROJECT_DIR$/composeApp/src/commonMain/kotlin/com/mrboomdev/uust/utils/PaddingUtils.kt" />
                                   </map>
                                 </attributes>
@@ -829,11 +983,11 @@
                               <presentation>
                                 <attributes>
                                   <map>
-                                    <entry key="filePath" value="$PROJECT_DIR$/composeApp/src/commonMain/kotlin/com/mrboomdev/uust/utils/PermissionUtils.kt" />
+                                    <entry key="filePath" value="$PROJECT_DIR$/composeApp/src/commonMain/kotlin/com/mrboomdev/uust/utils/TimeUtils.kt" />
                                   </map>
                                 </attributes>
-                                <data iconPath="org/jetbrains/kotlin/idea/icons/expui/kotlin.svg" iconPlugin="org.jetbrains.kotlin" isLeaf="true" text="PermissionUtils.kt" />
-                                <item name="PermissionUtils.kt" type="24436e51:KtFileTreeNode" />
+                                <data iconPath="org/jetbrains/kotlin/idea/icons/expui/kotlin.svg" iconPlugin="org.jetbrains.kotlin" isLeaf="true" text="TimeUtils.kt" />
+                                <item name="TimeUtils.kt" type="24436e51:KtFileTreeNode" />
                               </presentation>
                             </presentation>
                             <presentation>
@@ -848,29 +1002,11 @@
                             <presentation>
                               <attributes>
                                 <map>
-                                  <entry key="filePath" value="$PROJECT_DIR$/composeApp/src/commonMain/kotlin/com/mrboomdev/uust/Platform.kt" />
-                                </map>
-                              </attributes>
-                              <data iconPath="org/jetbrains/kotlin/idea/icons/expui/kotlin.svg" iconPlugin="org.jetbrains.kotlin" isLeaf="true" text="Platform.kt" />
-                              <item name="Platform.kt" type="24436e51:KtFileTreeNode" />
-                            </presentation>
-                            <presentation>
-                              <attributes>
-                                <map>
                                   <entry key="filePath" value="$PROJECT_DIR$/composeApp/src/commonMain/kotlin/com/mrboomdev/uust/Uust.kt" />
                                 </map>
                               </attributes>
-                              <data iconPath="org/jetbrains/kotlin/idea/icons/expui/objectKotlin.svg" iconPlugin="org.jetbrains.kotlin" isLeaf="true" text="Uust" />
-                              <item name="Uust" type="2c5a2ef7:KtClassOrObjectTreeNode" />
-                            </presentation>
-                            <presentation>
-                              <attributes>
-                                <map>
-                                  <entry key="filePath" value="$PROJECT_DIR$/composeApp/src/commonMain/kotlin/com/mrboomdev/uust/UustSettings.kt" />
-                                </map>
-                              </attributes>
-                              <data iconPath="org/jetbrains/kotlin/idea/icons/expui/kotlin.svg" iconPlugin="org.jetbrains.kotlin" isLeaf="true" text="UustSettings.kt" />
-                              <item name="UustSettings.kt" type="24436e51:KtFileTreeNode" />
+                              <data iconPath="org/jetbrains/kotlin/idea/icons/expui/kotlin.svg" iconPlugin="org.jetbrains.kotlin" isLeaf="true" text="Uust.kt" />
+                              <item name="Uust.kt" type="24436e51:KtFileTreeNode" />
                             </presentation>
                             <presentation>
                               <attributes>
@@ -878,8 +1014,8 @@
                                   <entry key="filePath" value="$PROJECT_DIR$/composeApp/src/commonMain/kotlin/com/mrboomdev/uust/UustTheme.kt" />
                                 </map>
                               </attributes>
-                              <data iconPath="org/jetbrains/kotlin/idea/icons/expui/objectKotlin.svg" iconPlugin="org.jetbrains.kotlin" isLeaf="true" text="UustTheme" />
-                              <item name="UustTheme" type="2c5a2ef7:KtClassOrObjectTreeNode" />
+                              <data iconPath="org/jetbrains/kotlin/idea/icons/expui/kotlin.svg" iconPlugin="org.jetbrains.kotlin" isLeaf="true" text="UustTheme.kt" />
+                              <item name="UustTheme.kt" type="24436e51:KtFileTreeNode" />
                             </presentation>
                           </presentation>
                         </presentation>
@@ -892,8 +1028,8 @@
                         <entry key="filePath" value="$PROJECT_DIR$/composeApp/src/iosMain" />
                       </map>
                     </attributes>
-                    <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="iosMain" />
-                    <item name="dir{file:///home/mrboomdev/IdeaProjects/Uust/composeApp/src/iosMain}" type="462c0819:PsiDirectoryNode" />
+                    <data iconPath="expui/nodes/module.svg" iconPlugin="com.intellij" isLeaf="false" text="iosMain" />
+                    <item name="dir{file:///home/mrboomdev/IdeaProjects/Uust/composeApp/src/iosMain}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
                   </presentation>
                   <presentation>
                     <attributes>
@@ -901,8 +1037,17 @@
                         <entry key="filePath" value="$PROJECT_DIR$/composeApp/src/jsMain" />
                       </map>
                     </attributes>
-                    <data iconPath="expui/nodes/ideaProject.svg" iconPlugin="com.intellij" isLeaf="false" text="jsMain" />
+                    <data iconPath="expui/nodes/module.svg" iconPlugin="com.intellij" isLeaf="false" text="jsMain" />
                     <item name="dir{file:///home/mrboomdev/IdeaProjects/Uust/composeApp/src/jsMain}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/composeApp/src/mobileMain" />
+                      </map>
+                    </attributes>
+                    <data iconPath="expui/nodes/module.svg" iconPlugin="com.intellij" isLeaf="false" text="mobileMain" />
+                    <item name="dir{file:///home/mrboomdev/IdeaProjects/Uust/composeApp/src/mobileMain}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
                   </presentation>
                   <presentation>
                     <attributes>
@@ -910,7 +1055,7 @@
                         <entry key="filePath" value="$PROJECT_DIR$/composeApp/src/wasmJsMain" />
                       </map>
                     </attributes>
-                    <data iconPath="expui/nodes/ideaProject.svg" iconPlugin="com.intellij" isLeaf="false" text="wasmJsMain" />
+                    <data iconPath="expui/nodes/module.svg" iconPlugin="com.intellij" isLeaf="false" text="wasmJsMain" />
                     <item name="dir{file:///home/mrboomdev/IdeaProjects/Uust/composeApp/src/wasmJsMain}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
                   </presentation>
                   <presentation>
@@ -919,7 +1064,7 @@
                         <entry key="filePath" value="$PROJECT_DIR$/composeApp/src/webMain" />
                       </map>
                     </attributes>
-                    <data iconPath="expui/nodes/ideaProject.svg" iconPlugin="com.intellij" isLeaf="false" text="webMain" />
+                    <data iconPath="expui/nodes/module.svg" iconPlugin="com.intellij" isLeaf="false" text="webMain" />
                     <item name="dir{file:///home/mrboomdev/IdeaProjects/Uust/composeApp/src/webMain}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
                   </presentation>
                 </presentation>
@@ -938,7 +1083,7 @@
                       <entry key="filePath" value="$PROJECT_DIR$/composeApp/build.gradle.kts" />
                     </map>
                   </attributes>
-                  <data iconPath="org/jetbrains/kotlin/idea/icons/expui/kotlinGradleScript.svg" iconPlugin="org.jetbrains.kotlin" isLeaf="true" text="build.gradle.kts" />
+                  <data iconPath="org/jetbrains/kotlin/idea/icons/kotlin_gradle_script.svg" iconPlugin="org.jetbrains.kotlin" isLeaf="true" text="build.gradle.kts" />
                   <item name="build.gradle.kts" type="24436e51:KtFileTreeNode" />
                 </presentation>
               </presentation>
@@ -963,10 +1108,28 @@
               <presentation>
                 <attributes>
                   <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/kotlin-js-store" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="kotlin-js-store" />
+                <item name="dir{file:///home/mrboomdev/IdeaProjects/Uust/kotlin-js-store}" type="462c0819:PsiDirectoryNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/map" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="map" />
+                <item name="dir{file:///home/mrboomdev/IdeaProjects/Uust/map}" type="462c0819:PsiDirectoryNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
                     <entry key="filePath" value="$PROJECT_DIR$/.gitignore" />
                   </map>
                 </attributes>
-                <data iconPath="expui/fileTypes/ignored.svg" iconPlugin="com.intellij" isLeaf="true" text=".gitignore" />
+                <data iconPath="vcs/ignore_file.svg" iconPlugin="com.intellij" isLeaf="true" text=".gitignore" />
                 <item name=".gitignore" type="ab9368bb:PsiFileNode" />
               </presentation>
               <presentation>
@@ -975,7 +1138,7 @@
                     <entry key="filePath" value="$PROJECT_DIR$/build.gradle.kts" />
                   </map>
                 </attributes>
-                <data iconPath="org/jetbrains/kotlin/idea/icons/expui/kotlinGradleScript.svg" iconPlugin="org.jetbrains.kotlin" isLeaf="true" text="build.gradle.kts" />
+                <data iconPath="org/jetbrains/kotlin/idea/icons/kotlin_gradle_script.svg" iconPlugin="org.jetbrains.kotlin" isLeaf="true" text="build.gradle.kts" />
                 <item name="build.gradle.kts" type="24436e51:KtFileTreeNode" />
               </presentation>
               <presentation>
@@ -984,7 +1147,7 @@
                     <entry key="filePath" value="$PROJECT_DIR$/gradle.properties" />
                   </map>
                 </attributes>
-                <data iconPath="expui/fileTypes/properties.svg" iconPlugin="com.intellij" isLeaf="true" text="gradle.properties" />
+                <data iconPath="fileTypes/properties.svg" iconPlugin="com.intellij" isLeaf="true" text="gradle.properties" />
                 <item name="gradle.properties" type="ab9368bb:PsiFileNode" />
               </presentation>
               <presentation>
@@ -993,7 +1156,7 @@
                     <entry key="filePath" value="$PROJECT_DIR$/gradlew" />
                   </map>
                 </attributes>
-                <data iconPath="expui/fileTypes/text.svg" iconPlugin="com.intellij" isLeaf="true" text="gradlew" />
+                <data iconPath="expui/fileTypes/unknown.svg" iconPlugin="com.intellij" isLeaf="true" text="gradlew" />
                 <item name="gradlew" type="ab9368bb:PsiFileNode" />
               </presentation>
               <presentation>
@@ -1002,7 +1165,7 @@
                     <entry key="filePath" value="$PROJECT_DIR$/gradlew.bat" />
                   </map>
                 </attributes>
-                <data iconPath="expui/fileTypes/text.svg" iconPlugin="com.intellij" isLeaf="true" text="gradlew.bat" />
+                <data iconPath="expui/fileTypes/unknown.svg" iconPlugin="com.intellij" isLeaf="true" text="gradlew.bat" />
                 <item name="gradlew.bat" type="ab9368bb:PsiFileNode" />
               </presentation>
               <presentation>
@@ -1011,7 +1174,7 @@
                     <entry key="filePath" value="$PROJECT_DIR$/local.properties" />
                   </map>
                 </attributes>
-                <data iconPath="expui/fileTypes/properties.svg" iconPlugin="com.intellij" isLeaf="true" text="local.properties" />
+                <data iconPath="fileTypes/properties.svg" iconPlugin="com.intellij" isLeaf="true" text="local.properties" />
                 <item name="local.properties" type="ab9368bb:PsiFileNode" />
               </presentation>
               <presentation>
@@ -1020,7 +1183,7 @@
                     <entry key="filePath" value="$PROJECT_DIR$/README.md" />
                   </map>
                 </attributes>
-                <data iconPath="icons/expui/markdown.svg" iconPlugin="org.intellij.plugins.markdown" isLeaf="true" text="README.md" />
+                <data iconPath="icons/MarkdownPlugin.svg" iconPlugin="org.intellij.plugins.markdown" isLeaf="true" text="README.md" />
                 <item name="README.md" type="ab9368bb:PsiFileNode" />
               </presentation>
               <presentation>
@@ -1029,7 +1192,7 @@
                     <entry key="filePath" value="$PROJECT_DIR$/settings.gradle.kts" />
                   </map>
                 </attributes>
-                <data iconPath="org/jetbrains/kotlin/idea/icons/expui/kotlinGradleScript.svg" iconPlugin="org.jetbrains.kotlin" isLeaf="true" text="settings.gradle.kts" />
+                <data iconPath="org/jetbrains/kotlin/idea/icons/kotlin_gradle_script.svg" iconPlugin="org.jetbrains.kotlin" isLeaf="true" text="settings.gradle.kts" />
                 <item name="settings.gradle.kts" type="24436e51:KtFileTreeNode" />
               </presentation>
               <presentation>
@@ -1063,9 +1226,22 @@
     <option name="enableVisualFormatting" value="false" />
   </component>
   <component name="RunConfigurationStartHistory">
+    <option name="allConfigurationsExpanded" value="true" />
     <history>
+      <element setting="Android App.Run Android" />
+      <element setting="Gradle.Run JS" />
+      <element setting="Gradle.Build JS" />
       <element setting="Android App.composeApp" />
+      <element setting="Gradle.Uust [:composeApp:wasmJsBrowserDevelopmentRun]" />
+      <element setting="Gradle.Uust [:composeApp:jsBrowserDevelopmentRun]" />
+      <element setting="Gradle.Generate resources" />
     </history>
+    <pinned>
+      <element setting="Android App.Run Android" />
+      <element setting="Gradle.Run JS" />
+      <element setting="Gradle.Generate resources" />
+      <element setting="Gradle.Build JS" />
+    </pinned>
   </component>
   <component name="SplittingTabsState">
     <tool-windows>
@@ -1080,39 +1256,56 @@
       </tool-window>
     </tool-windows>
   </component>
+  <component name="TerminalArrangementManager">
+    <option name="mySelectedTabIndex" value="-1" />
+  </component>
   <component name="ToolWindowManager">
     <layoutV2>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18236843" />
-      <window_info id="Commit" order="1" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.18612565" />
+      <window_info active="true" id="Commit" order="1" visible="true" weight="0.18612565" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info id="Resources Explorer" order="3" />
       <window_info id="Build Variants" order="4" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="0" />
+      <window_info anchor="bottom" id="Version Control" order="0" weight="0.33029723" />
       <window_info anchor="bottom" id="Problems" order="1" />
-      <window_info anchor="bottom" id="Problems View" order="2" />
-      <window_info anchor="bottom" id="Terminal" order="3" />
+      <window_info anchor="bottom" id="Problems View" order="2" weight="0.33029723" />
+      <window_info anchor="bottom" id="Terminal" order="3" weight="0.33029723" />
       <window_info anchor="bottom" id="Services" order="4" />
       <window_info anchor="bottom" id="Android Profiler" order="5" />
       <window_info anchor="bottom" id="App Inspection" order="6" />
-      <window_info anchor="bottom" x="5" y="35" width="1910" height="1040" id="Logcat" order="7" type="WINDOWED" visible="true" weight="0.33028847" />
-      <window_info active="true" anchor="bottom" id="Build" order="8" visible="true" weight="0.33028847" />
-      <window_info anchor="bottom" id="Run" order="9" show_stripe_button="false" />
+      <window_info active="true" anchor="bottom" x="5" y="32" width="1910" height="1043" id="Logcat" order="7" type="WINDOWED" weight="0.33029723" />
+      <window_info active="true" anchor="bottom" x="5" y="32" width="1910" height="1043" id="Build" order="8" type="WINDOWED" weight="0.33029723" />
+      <window_info anchor="bottom" id="Run" order="9" show_stripe_button="false" weight="0.33029723" />
       <window_info anchor="bottom" id="Find" order="10" show_stripe_button="false" weight="0.33028847" />
+      <window_info anchor="bottom" id="Windsurf Console" order="11" weight="0.33029723" />
+      <window_info anchor="bottom" id="Debug" order="12" show_stripe_button="false" weight="0.33029723" />
+      <window_info anchor="bottom" id="Upgrade Assistant" order="13" weight="0.33029723" />
       <window_info anchor="right" id="Layout Validation" />
       <window_info anchor="right" content_ui="combo" id="Notifications" order="0" weight="0.25" />
       <window_info anchor="right" id="AIAssistant" order="1" weight="0.25" />
       <window_info anchor="right" id="Database" order="2" weight="0.25" />
       <window_info anchor="right" id="Gradle" order="3" weight="0.25" />
       <window_info anchor="right" id="Maven" order="4" weight="0.25" />
-      <window_info anchor="right" id="Running Devices" order="5" side_tool="true" />
+      <window_info anchor="right" id="Running Devices" order="5" side_tool="true" weight="0.3301047" />
       <window_info anchor="right" id="Device Explorer" order="6" side_tool="true" />
       <window_info anchor="right" id="Device Manager 2" order="7" weight="0.3301047" />
-      <unified_weights bottom="0.33028847" left="0.18236843" right="0.3301047" />
+      <window_info anchor="right" id="Cascade" order="8" weight="0.3301047" />
+      <unified_weights bottom="0.33029723" left="0.18612565" right="0.3301047" />
     </layoutV2>
     <recentWindows>
+      <value>Commit</value>
+      <value>Cascade</value>
       <value>Project</value>
-      <value>Logcat</value>
       <value>Build</value>
+      <value>Logcat</value>
+      <value>Debug</value>
+      <value>Run</value>
+      <value>Running Devices</value>
+      <value>Problems View</value>
+      <value>Terminal</value>
+      <value>Upgrade Assistant</value>
+      <value>Version Control</value>
+      <value>Windsurf Console</value>
       <value>Device Manager 2</value>
       <value>Find</value>
     </recentWindows>
@@ -1122,85 +1315,173 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="661" y="233" key="#Console/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1762000819495" />
-    <state x="585" y="292" width="750" height="525" key="#com.intellij.ide.util.MemberChooser" timestamp="1761996999019">
+    <state x="555" y="121" width="901" height="959" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1763763381909">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2475" y="215" width="800" height="647" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1762878311980" />
+    <state x="555" y="121" width="901" height="959" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1763763381909" />
+    <state x="585" y="292" width="750" height="525" key="#com.intellij.ide.util.MemberChooser" timestamp="1763751130191">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="585" y="292" width="750" height="525" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1761996999019" />
+    <state x="585" y="292" width="750" height="525" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1763751130191" />
     <state x="548" y="328" key="AndroidCreateResourceDirectoryDialog" timestamp="1761926088061">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="548" y="328" key="AndroidCreateResourceDirectoryDialog/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1761926088061" />
-    <state x="748" y="328" key="FileChooserDialogImpl" timestamp="1761975319971">
+    <state x="726" y="317" key="AndroidProcessChooserDialog" timestamp="1763931764365">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="748" y="328" key="FileChooserDialogImpl/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1761975319971" />
+    <state x="726" y="317" key="AndroidProcessChooserDialog/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1763931764365" />
+    <state x="748" y="328" key="FileChooserDialogImpl" timestamp="1763651108772">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="748" y="328" key="FileChooserDialogImpl/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1763492705237" />
+    <state x="2668" y="328" key="FileChooserDialogImpl/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1762887799025" />
+    <state x="748" y="328" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1763651108772" />
+    <state x="698" y="401" key="Github.ShareDialog" timestamp="1763408367794">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="698" y="401" key="Github.ShareDialog/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1763408367793" />
+    <state width="1910" height="312" key="GridCell.Tab.0.bottom" timestamp="1763932559352">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1910" height="312" key="GridCell.Tab.0.bottom/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1763932559352" />
+    <state width="1910" height="312" key="GridCell.Tab.0.bottom/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1762883018646" />
+    <state width="1910" height="312" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1763764471804" />
+    <state width="1910" height="312" key="GridCell.Tab.0.center" timestamp="1763932559352">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1910" height="312" key="GridCell.Tab.0.center/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1763932559352" />
+    <state width="1910" height="312" key="GridCell.Tab.0.center/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1762883018646" />
+    <state width="1910" height="312" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1763764471803" />
+    <state width="1910" height="312" key="GridCell.Tab.0.left" timestamp="1763932559352">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1910" height="312" key="GridCell.Tab.0.left/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1763932559352" />
+    <state width="1910" height="312" key="GridCell.Tab.0.left/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1762883018646" />
+    <state width="1910" height="312" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1763764471803" />
+    <state width="1910" height="312" key="GridCell.Tab.0.right" timestamp="1763932559352">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1910" height="312" key="GridCell.Tab.0.right/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1763932559352" />
+    <state width="1910" height="312" key="GridCell.Tab.0.right/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1762883018646" />
+    <state width="1910" height="312" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1763764471803" />
+    <state width="1910" height="312" key="GridCell.Tab.1.bottom" timestamp="1763932559352">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1910" height="312" key="GridCell.Tab.1.bottom/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1763932559352" />
+    <state width="1910" height="312" key="GridCell.Tab.1.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1763565417911" />
+    <state width="1910" height="312" key="GridCell.Tab.1.center" timestamp="1763932559352">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1910" height="312" key="GridCell.Tab.1.center/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1763932559352" />
+    <state width="1910" height="312" key="GridCell.Tab.1.center/0.0.1920.1080@0.0.1920.1080" timestamp="1763565417911" />
+    <state width="1910" height="312" key="GridCell.Tab.1.left" timestamp="1763932559352">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1910" height="312" key="GridCell.Tab.1.left/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1763932559352" />
+    <state width="1910" height="312" key="GridCell.Tab.1.left/0.0.1920.1080@0.0.1920.1080" timestamp="1763565417911" />
+    <state width="1910" height="312" key="GridCell.Tab.1.right" timestamp="1763932559352">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1910" height="312" key="GridCell.Tab.1.right/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1763932559352" />
+    <state width="1910" height="312" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1763565417911" />
     <state x="469" y="205" key="SettingsEditor" timestamp="1761944392782">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="469" y="205" key="SettingsEditor/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1761944392782" />
-    <state x="670" y="381" key="com.android.tools.idea.run.deployment.SelectMultipleDevicesDialog" timestamp="1761944399872">
+    <state x="105" y="132" width="1710" height="843" key="VCS.FileHistoryDialog" timestamp="1763915170363">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
+    <state x="105" y="132" width="1710" height="843" key="VCS.FileHistoryDialog/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1763915170363" />
+    <state x="560" y="291" width="800" height="498" key="Vcs.Push.Dialog.v2" timestamp="1763932474978">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="560" y="291" width="800" height="498" key="Vcs.Push.Dialog.v2/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1763932474978" />
+    <state x="560" y="291" width="800" height="498" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1763755122262" />
+    <state x="2590" y="381" key="com.android.tools.idea.run.deployment.SelectMultipleDevicesDialog" timestamp="1762888162573">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
     <state x="670" y="381" key="com.android.tools.idea.run.deployment.SelectMultipleDevicesDialog/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1761944399872" />
+    <state x="2590" y="381" key="com.android.tools.idea.run.deployment.SelectMultipleDevicesDialog/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1762888162573" />
     <state x="560" y="255" key="conflicts.dialog" timestamp="1761932323578">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="560" y="255" key="conflicts.dialog/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1761932323578" />
-    <state x="578" y="297" width="708" height="578" key="search.everywhere.popup" timestamp="1761998292137">
+    <state x="105" y="132" width="1710" height="843" key="lvcs.dialog.size" timestamp="1763915170363">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="578" y="297" width="708" height="578" key="search.everywhere.popup/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1761998292137" />
-    <state x="623" y="259" width="672" height="681" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1761984463860" />
+    <state x="105" y="132" width="1710" height="843" key="lvcs.dialog.size/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1763915170363" />
+    <state x="560" y="238" width="800" height="631" key="new project wizard" timestamp="1763692525552">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="560" y="238" width="800" height="631" key="new project wizard/0.0.1920.1080@0.0.1920.1080" timestamp="1763692525552" />
+    <state x="624" y="258" width="672" height="695" key="run.anything.popup" timestamp="1763755307767">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2544" y="258" width="672" height="695" key="run.anything.popup/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1762878291461" />
+    <state x="624" y="258" width="672" height="695" key="run.anything.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1763755307767" />
+    <state x="623" y="259" width="672" height="681" key="search.everywhere.popup" timestamp="1763959330631">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="578" y="297" width="708" height="578" key="search.everywhere.popup/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1763931762299" />
+    <state x="2498" y="297" width="708" height="578" key="search.everywhere.popup/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1762889658581" />
+    <state x="623" y="259" width="672" height="681" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1763959330631" />
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="breakpointCondition">
+      <expression>
+        <expression-string>timeBeforeBeginning &lt;= 0</expression-string>
+        <language-id>kotlin</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>timeBeforeBeginning &lt;</expression-string>
+        <language-id>kotlin</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>timeBeforeBeginning</expression-string>
+        <language-id>kotlin</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>schedule == currentSchedule?.first</expression-string>
+        <language-id>kotlin</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>println(text.textBlocks.size)</expression-string>
+        <language-id>kotlin</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>text.textBlocks</expression-string>
+        <language-id>kotlin</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>println(text.zzb)</expression-string>
+        <language-id>kotlin</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>println(text.text)</expression-string>
+        <language-id>kotlin</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/composeApp/src/commonMain/composeResources/drawable/compose-multiplatform.xml" preview="true" />
-    <entry file="file://$PROJECT_DIR$/composeApp/src/commonMain/composeResources/drawable/ic_account.png" preview="true">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/composeApp/src/commonMain/composeResources/drawable/ic_table_rows_outlined.xml" preview="true">
-      <provider selected="true" editor-type-id="android-preview-designer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/composeApp/src/commonMain/composeResources/drawable/ic_view_week_outlined.xml" preview="true">
-      <provider selected="true" editor-type-id="android-preview-designer" />
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.compose.animation/animation/1.9.2/f0767b675e4b1001aa8e7ad5cd50ad555c59d0c/animation-1.9.2-sources.jar!/commonMain/androidx/compose/animation/SharedTransitionScope.kt">
-      <provider selected="true" editor-type-id="android-source-code">
-        <state>
-          <editor-state relative-caret-position="324">
-            <caret line="154" column="21" selection-start-line="154" selection-start-column="21" selection-end-line="154" selection-end-column="21" />
-          </editor-state>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/composeApp/src/commonMain/composeResources/drawable/ic_person_outlined.xml" preview="true">
-      <provider selected="true" editor-type-id="android-preview-designer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/composeApp/src/commonMain/composeResources/drawable/ic_location_outlined.xml" preview="true">
-      <provider selected="true" editor-type-id="android-preview-designer" />
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.compose.ui/ui-text/1.9.2/eedebbd41d1ec6e3af684f04d4357c80a742f107/ui-text-1.9.2-sources.jar!/commonMain/androidx/compose/ui/text/Placeholder.kt">
-      <provider selected="true" editor-type-id="android-source-code">
-        <state>
-          <editor-state relative-caret-position="355">
-            <caret line="38" column="24" lean-forward="true" selection-start-line="38" selection-start-column="24" selection-end-line="38" selection-end-column="24" />
-          </editor-state>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.compose.foundation/foundation/1.9.2/8ee99bf5e93da0fefc1cfc6478ea6c7e6c2e5067/foundation-1.9.2-sources.jar!/commonMain/androidx/compose/foundation/text/InlineTextContent.kt">
-      <provider selected="true" editor-type-id="android-source-code">
-        <state>
-          <editor-state relative-caret-position="456">
-            <caret line="70" column="10" lean-forward="true" selection-start-line="70" selection-start-column="10" selection-end-line="70" selection-end-column="10" />
-          </editor-state>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/composeApp/src/commonMain/kotlin/com/mrboomdev/uust/UustTheme.kt">
+    <entry file="file://$PROJECT_DIR$/composeApp/src/webMain/kotlin/com/mrboomdev/uust/Uust.web.kt" preview="true" />
+    <entry file="file://$PROJECT_DIR$/composeApp/src/androidMain/kotlin/com/mrboomdev/uust/utils/HttpUtils.android.kt" preview="true">
       <provider selected="true" editor-type-id="android-source-code">
         <state selected-layout="SHOW_EDITOR">
-          <editor-state relative-caret-position="279">
-            <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
+          <editor-state relative-caret-position="175">
+            <caret line="9" column="37" lean-forward="true" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
           </editor-state>
           <multi-preview-state selected="Compose">
             <representations>
@@ -1217,310 +1498,55 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.compose.material3.adaptive/adaptive/1.2.0/a2ceee7269da70ce1638de6460ea372937ded888/adaptive-1.2.0-sources.jar!/commonMain/androidx/compose/material3/adaptive/WindowAdaptiveInfo.kt">
+    <entry file="file://$PROJECT_DIR$/composeApp/src/webMain/kotlin/com/mrboomdev/uust/utils/HttpUtils.web.kt" preview="true">
       <provider selected="true" editor-type-id="android-source-code">
         <state>
-          <editor-state relative-caret-position="355">
-            <caret line="60" column="66" selection-start-line="60" selection-start-column="66" selection-end-line="60" selection-end-column="66" />
+          <editor-state relative-caret-position="140">
+            <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
           </editor-state>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.androidx.window/window-core/1.4.0/d8e2f892faa1edd9c27adfdc6d7153f66645603d/window-core-1.4.0-sources.jar!/commonMain/androidx/window/core/layout/WindowSizeClass.kt">
-      <provider selected="true" editor-type-id="android-source-code">
-        <state>
-          <editor-state relative-caret-position="572">
-            <caret line="157" column="62" lean-forward="true" selection-start-line="157" selection-start-column="62" selection-end-line="157" selection-end-column="62" />
-          </editor-state>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/composeApp/src/commonMain/kotlin/com/mrboomdev/uust/utils/PaddingUtils.kt">
+    <entry file="file://$PROJECT_DIR$/composeApp/src/commonMain/kotlin/com/mrboomdev/uust/utils/HttpUtils.kt">
       <provider selected="true" editor-type-id="android-source-code">
         <state selected-layout="SHOW_EDITOR">
-          <editor-state relative-caret-position="372">
-            <caret line="14" column="21" lean-forward="true" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+          <editor-state relative-caret-position="105">
+            <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+          </editor-state>
+          <multi-preview-state selected="Compose">
+            <representations>
+              <list>
+                <representation name="Compose">
+                  <settings>
+                    <setting name="previewLayout" value="Grid" />
+                    <setting name="selectedGroup" value="" />
+                  </settings>
+                </representation>
+              </list>
+            </representations>
+          </multi-preview-state>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composeApp/src/jsMain/kotlin/com/mrboomdev/uust/Uust.js.kt" preview="true">
+      <provider selected="true" editor-type-id="android-source-code">
+        <state>
+          <editor-state relative-caret-position="210">
+            <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
             <folding>
-              <element signature="e#34#307#0" expanded="true" />
-            </folding>
-          </editor-state>
-          <multi-preview-state selected="Compose">
-            <representations>
-              <list>
-                <representation name="Compose">
-                  <settings>
-                    <setting name="previewLayout" value="Grid" />
-                    <setting name="selectedGroup" value="" />
-                  </settings>
-                </representation>
-              </list>
-            </representations>
-          </multi-preview-state>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.compose.material3/material3/1.9.0/fdb578239634c4afdc29bf4f8dfe5bca02ea8814/material3-1.9.0-sources.jar!/commonMain/androidx/compose/material3/AppBar.kt">
-      <provider selected="true" editor-type-id="android-source-code">
-        <state>
-          <editor-state relative-caret-position="274">
-            <caret line="1522" selection-start-line="1522" selection-end-line="1522" />
-          </editor-state>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.compose.material3/material3/1.9.0/fdb578239634c4afdc29bf4f8dfe5bca02ea8814/material3-1.9.0-sources.jar!/commonMain/androidx/compose/material3/internal/SystemBarsDefaultInsets.kt">
-      <provider selected="true" editor-type-id="android-source-code">
-        <state>
-          <editor-state relative-caret-position="186">
-            <caret line="21" column="43" selection-start-line="21" selection-start-column="43" selection-end-line="21" selection-end-column="43" />
-          </editor-state>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/composeApp/src/commonMain/kotlin/com/mrboomdev/uust/utils/CollectUtils.kt">
-      <provider selected="true" editor-type-id="android-source-code">
-        <state selected-layout="SHOW_EDITOR">
-          <editor-state relative-caret-position="31">
-            <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-          </editor-state>
-          <multi-preview-state selected="Compose">
-            <representations>
-              <list>
-                <representation name="Compose">
-                  <settings>
-                    <setting name="previewLayout" value="Grid" />
-                    <setting name="selectedGroup" value="" />
-                  </settings>
-                </representation>
-              </list>
-            </representations>
-          </multi-preview-state>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/composeApp/src/androidMain/AndroidManifest.xml" preview="true">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="10" column="40" lean-forward="true" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
-          <folding>
-            <element signature="e#459#477#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-      <provider editor-type-id="android-manifest" />
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.navigation3/navigation3-runtime/1.0.0-alpha11/33b6332ef09de19dcaac7111ee78763a7239629e/navigation3-runtime-1.0.0-alpha11-sources.jar!/commonMain/androidx/navigation3/runtime/RememberNavBackStack.kt">
-      <provider selected="true" editor-type-id="android-source-code">
-        <state>
-          <editor-state relative-caret-position="292">
-            <caret line="58" column="11" lean-forward="true" selection-start-line="58" selection-start-column="11" selection-end-line="58" selection-end-column="11" />
-          </editor-state>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/composeApp/build.gradle.kts" preview="true">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="63" column="82" selection-start-line="63" selection-start-column="82" selection-end-line="63" selection-end-column="82" />
-          <folding>
-            <element signature="e#0#169#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AndroidSDK/sources/android-36/android/location/Location.java">
-      <provider selected="true" editor-type-id="android-source-code">
-        <state>
-          <editor-state relative-caret-position="-1997">
-            <caret line="409" column="89" lean-forward="true" selection-start-line="409" selection-start-column="89" selection-end-line="409" selection-end-column="89" />
-            <folding>
-              <element signature="e#13267#13268#0" expanded="true" />
-              <element signature="e#13308#13309#0" expanded="true" />
-              <element signature="e#16710#16711#0" expanded="true" />
-              <element signature="e#16749#16750#0" expanded="true" />
-              <element signature="e#16756#17007#0" expanded="true" />
+              <element signature="e#28#115#0" expanded="true" />
             </folding>
           </editor-state>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/composeApp/src/commonMain/composeResources/drawable/ic_calendar_today_outlined.xml" preview="true">
-      <provider selected="true" editor-type-id="android-preview-designer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/composeApp/src/commonMain/kotlin/com/mrboomdev/uust/components/NewsPost.kt">
-      <provider selected="true" editor-type-id="android-source-code">
-        <state selected-layout="SHOW_EDITOR">
-          <editor-state relative-caret-position="434">
-            <caret line="34" column="31" lean-forward="true" selection-start-line="34" selection-start-column="31" selection-end-line="34" selection-end-column="31" />
-          </editor-state>
-          <multi-preview-state selected="Compose">
-            <representations>
-              <list>
-                <representation name="Compose">
-                  <settings>
-                    <setting name="previewLayout" value="Grid" />
-                    <setting name="selectedGroup" value="" />
-                  </settings>
-                </representation>
-              </list>
-            </representations>
-          </multi-preview-state>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/composeApp/src/commonMain/kotlin/com/mrboomdev/uust/utils/FlowUtils.kt">
-      <provider selected="true" editor-type-id="android-source-code">
-        <state selected-layout="SHOW_EDITOR">
-          <editor-state relative-caret-position="372">
-            <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-          </editor-state>
-          <multi-preview-state selected="Compose">
-            <representations>
-              <list>
-                <representation name="Compose">
-                  <settings>
-                    <setting name="previewLayout" value="Grid" />
-                    <setting name="selectedGroup" value="" />
-                  </settings>
-                </representation>
-              </list>
-            </representations>
-          </multi-preview-state>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/composeApp/src/commonMain/composeResources/drawable/ic_notez.xml" preview="true" />
-    <entry file="file://$PROJECT_DIR$/composeApp/src/commonMain/composeResources/drawable/ic_news_outlined.xml" preview="true">
-      <provider selected="true" editor-type-id="android-preview-designer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/composeApp/src/commonMain/composeResources/drawable/ic_notes.xml" preview="true">
-      <provider selected="true" editor-type-id="android-preview-designer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/composeApp/src/commonMain/composeResources/drawable/ic_outline.xml" preview="true">
-      <provider selected="true" editor-type-id="android-preview-designer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/composeApp/src/commonMain/kotlin/com/mrboomdev/uust/UustSettings.kt">
-      <provider selected="true" editor-type-id="android-source-code">
-        <state selected-layout="SHOW_EDITOR">
-          <editor-state relative-caret-position="324">
-            <caret line="17" column="62" lean-forward="true" selection-start-line="17" selection-start-column="62" selection-end-line="17" selection-end-column="62" />
-            <folding>
-              <element signature="e#28#536#0" expanded="true" />
-            </folding>
-          </editor-state>
-          <multi-preview-state selected="Compose">
-            <representations>
-              <list>
-                <representation name="Compose">
-                  <settings>
-                    <setting name="previewLayout" value="Grid" />
-                    <setting name="selectedGroup" value="" />
-                  </settings>
-                </representation>
-              </list>
-            </representations>
-          </multi-preview-state>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/composeApp/src/commonMain/composeResources/drawable/ic_filled.xml" preview="true">
-      <provider selected="true" editor-type-id="android-preview-designer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/composeApp/src/commonMain/kotlin/com/mrboomdev/uust/utils/LocationManager.kt">
-      <provider selected="true" editor-type-id="android-source-code">
-        <state selected-layout="SHOW_EDITOR">
-          <editor-state relative-caret-position="372">
-            <caret line="8" column="41" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
-            <folding>
-              <element signature="e#34#117#0" expanded="true" />
-            </folding>
-          </editor-state>
-          <multi-preview-state selected="Compose">
-            <representations>
-              <list>
-                <representation name="Compose">
-                  <settings>
-                    <setting name="previewLayout" value="Grid" />
-                    <setting name="selectedGroup" value="" />
-                  </settings>
-                </representation>
-              </list>
-            </representations>
-          </multi-preview-state>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/composeApp/src/androidMain/kotlin/com/mrboomdev/uust/utils/LocationManager.android.kt" preview="true">
-      <provider selected="true" editor-type-id="android-source-code">
-        <state selected-layout="SHOW_EDITOR">
-          <editor-state relative-caret-position="620">
-            <caret line="58" column="28" selection-start-line="58" selection-start-column="28" selection-end-line="58" selection-end-column="28" />
-            <folding>
-              <element signature="e#34#674#0" expanded="true" />
-            </folding>
-          </editor-state>
-          <multi-preview-state selected="Compose">
-            <representations>
-              <list>
-                <representation name="Compose">
-                  <settings>
-                    <setting name="previewLayout" value="Grid" />
-                    <setting name="selectedGroup" value="" />
-                  </settings>
-                </representation>
-              </list>
-            </representations>
-          </multi-preview-state>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/composeApp/src/commonMain/kotlin/com/mrboomdev/uust/screens/MapScreen.kt" preview="true">
-      <provider selected="true" editor-type-id="android-source-code">
-        <state selected-layout="SHOW_EDITOR">
-          <editor-state relative-caret-position="434">
-            <caret line="36" column="26" selection-start-line="36" selection-start-column="26" selection-end-line="36" selection-end-column="26" />
-          </editor-state>
-          <multi-preview-state selected="Compose">
-            <representations>
-              <list>
-                <representation name="Compose">
-                  <settings>
-                    <setting name="previewLayout" value="Grid" />
-                    <setting name="selectedGroup" value="" />
-                  </settings>
-                </representation>
-              </list>
-            </representations>
-          </multi-preview-state>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.ktor/ktor-client-core/3.3.1/33e182a972415df4916bd8a10d59e3f669613215/ktor-client-core-3.3.1-sources.jar!/commonMain/io/ktor/client/plugins/cache/storage/HttpCacheStorage.kt">
+    <entry file="file://$PROJECT_DIR$/composeApp/src/wasmJsMain/kotlin/com/mrboomdev/uust/Uust.wasmJs.kt" preview="true">
       <provider selected="true" editor-type-id="android-source-code">
         <state>
-          <editor-state relative-caret-position="104">
-            <caret line="115" column="29" lean-forward="true" selection-start-line="115" selection-start-column="29" selection-end-line="115" selection-end-column="29" />
-          </editor-state>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.ktor/ktor-client-cio/3.3.1/9d172f2e7efd8477b35fbd4646c5f3facdd8873f/ktor-client-cio-3.3.1-sources.jar!/commonMain/io/ktor/client/engine/cio/CIOCommon.kt">
-      <provider selected="true" editor-type-id="android-source-code">
-        <state>
-          <editor-state relative-caret-position="552">
-            <caret line="28" column="64" selection-start-line="28" selection-start-column="49" selection-end-line="28" selection-end-column="64" />
-          </editor-state>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AndroidSDK/sources/android-36/android/os/Environment.java">
-      <provider selected="true" editor-type-id="android-source-code">
-        <state>
-          <editor-state relative-caret-position="324">
-            <caret line="60" column="32" selection-start-line="60" selection-start-column="32" selection-end-line="60" selection-end-column="32" />
+          <editor-state relative-caret-position="210">
+            <caret line="5" column="68" selection-start-line="5" selection-start-column="68" selection-end-line="5" selection-end-column="68" />
             <folding>
-              <element signature="e#14310#14311#0" expanded="true" />
-              <element signature="e#14349#14350#0" expanded="true" />
+              <element signature="e#28#115#0" expanded="true" />
             </folding>
           </editor-state>
         </state>
@@ -1529,8 +1555,8 @@
     <entry file="file://$PROJECT_DIR$/composeApp/src/commonMain/kotlin/com/mrboomdev/uust/Uust.kt">
       <provider selected="true" editor-type-id="android-source-code">
         <state selected-layout="SHOW_EDITOR">
-          <editor-state relative-caret-position="62">
-            <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <editor-state relative-caret-position="350">
+            <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
           </editor-state>
           <multi-preview-state selected="Compose">
             <representations>
@@ -1547,14 +1573,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/composeApp/src/androidMain/kotlin/com/mrboomdev/uust/Uust.kt">
+    <entry file="file://$PROJECT_DIR$/composeApp/src/commonMain/kotlin/com/mrboomdev/uust/data/api/UustTimeApi.kt">
       <provider selected="true" editor-type-id="android-source-code">
         <state selected-layout="SHOW_EDITOR">
-          <editor-state relative-caret-position="341">
-            <caret line="9" column="41" lean-forward="true" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
-            <folding>
-              <element signature="e#28#97#0" expanded="true" />
-            </folding>
+          <editor-state relative-caret-position="70">
+            <caret line="11" column="41" lean-forward="true" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
           </editor-state>
           <multi-preview-state selected="Compose">
             <representations>
@@ -1571,113 +1594,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/composeApp/src/commonMain/kotlin/com/mrboomdev/uust/utils/HttpUtils.kt">
-      <provider selected="true" editor-type-id="android-source-code">
-        <state selected-layout="SHOW_EDITOR">
-          <editor-state relative-caret-position="217">
-            <caret line="6" column="45" selection-start-line="6" selection-start-column="45" selection-end-line="6" selection-end-column="45" />
-            <folding>
-              <element signature="e#34#158#0" expanded="true" />
-            </folding>
-          </editor-state>
-          <multi-preview-state selected="Compose">
-            <representations>
-              <list>
-                <representation name="Compose">
-                  <settings>
-                    <setting name="previewLayout" value="Grid" />
-                    <setting name="selectedGroup" value="" />
-                  </settings>
-                </representation>
-              </list>
-            </representations>
-          </multi-preview-state>
+    <entry file="file://$PROJECT_DIR$/composeApp/src/commonMain/kotlin/com/mrboomdev/uust/utils/WindowInsetUtils.kt" />
+    <entry file="file://$PROJECT_DIR$/gradle/libs.versions.toml" preview="true">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="26" column="54" selection-start-line="26" selection-start-column="54" selection-end-line="26" selection-end-column="54" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.ktor/ktor-client-core-jvm/3.3.1/2fad72020805e89cff9d1ed029564859c68cf1d3/ktor-client-core-jvm-3.3.1-sources.jar!/commonMain/io/ktor/client/plugins/cache/HttpCache.kt">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.androidx.navigation3/navigation3-ui/1.0.0-alpha03/7d0de4630247fbe78abd02360bc70f882dbb8a0a/navigation3-ui-1.0.0-alpha03-sources.jar!/commonMain/androidx/navigation3/ui/NavDisplay.kt">
       <provider selected="true" editor-type-id="android-source-code">
         <state>
-          <editor-state relative-caret-position="324">
-            <caret line="140" column="21" selection-start-line="140" selection-start-column="21" selection-end-line="140" selection-end-column="21" />
+          <editor-state relative-caret-position="395">
+            <caret line="190" column="34" selection-start-line="190" selection-start-column="34" selection-end-line="190" selection-end-column="34" />
           </editor-state>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.ktor/ktor-client-core-jvm/3.3.1/2fad72020805e89cff9d1ed029564859c68cf1d3/ktor-client-core-jvm-3.3.1-sources.jar!/commonMain/io/ktor/client/HttpClientConfig.kt">
-      <provider selected="true" editor-type-id="android-source-code">
-        <state>
-          <editor-state relative-caret-position="417">
-            <caret line="165" column="42" lean-forward="true" selection-start-line="165" selection-start-column="42" selection-end-line="165" selection-end-column="42" />
-          </editor-state>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.ktor/ktor-client-core-jvm/3.3.1/2fad72020805e89cff9d1ed029564859c68cf1d3/ktor-client-core-jvm-3.3.1-sources.jar!/commonMain/io/ktor/client/plugins/cache/storage/HttpCacheStorage.kt">
-      <provider selected="true" editor-type-id="android-source-code">
-        <state>
-          <editor-state relative-caret-position="324">
-            <caret line="199" column="13" selection-start-line="199" selection-start-column="13" selection-end-line="199" selection-end-column="13" />
-          </editor-state>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.ktor/ktor-client-core-jvm/3.3.1/2fad72020805e89cff9d1ed029564859c68cf1d3/ktor-client-core-jvm-3.3.1-sources.jar!/jvmMain/io/ktor/client/plugins/cache/storage/FileCacheStorage.kt">
-      <provider selected="true" editor-type-id="android-source-code">
-        <state>
-          <editor-state relative-caret-position="-699">
-            <caret line="113" column="16" selection-start-line="113" selection-start-column="16" selection-end-line="113" selection-end-column="16" />
-          </editor-state>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/composeApp/src/androidMain/kotlin/com/mrboomdev/uust/utils/HttpUtils.android.kt" preview="true">
-      <provider selected="true" editor-type-id="android-source-code">
-        <state selected-layout="SHOW_EDITOR">
-          <editor-state relative-caret-position="217">
-            <caret line="12" column="28" lean-forward="true" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
-          </editor-state>
-          <multi-preview-state selected="Compose">
-            <representations>
-              <list>
-                <representation name="Compose">
-                  <settings>
-                    <setting name="previewLayout" value="Grid" />
-                    <setting name="selectedGroup" value="" />
-                  </settings>
-                </representation>
-              </list>
-            </representations>
-          </multi-preview-state>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/composeApp/src/commonMain/kotlin/com/mrboomdev/uust/components/CatHeader.kt" preview="true">
-      <provider selected="true" editor-type-id="android-source-code">
-        <state selected-layout="SHOW_EDITOR">
-          <editor-state relative-caret-position="1085">
-            <caret line="56" column="59" selection-start-line="56" selection-start-column="59" selection-end-line="56" selection-end-column="59" />
-          </editor-state>
-          <multi-preview-state selected="Compose">
-            <representations>
-              <list>
-                <representation name="Compose">
-                  <settings>
-                    <setting name="previewLayout" value="Grid" />
-                    <setting name="selectedGroup" value="" />
-                  </settings>
-                </representation>
-              </list>
-            </representations>
-          </multi-preview-state>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/composeApp/src/commonMain/kotlin/com/mrboomdev/uust/components/ScheduleItem.kt">
       <provider selected="true" editor-type-id="android-source-code">
         <state selected-layout="SHOW_EDITOR">
-          <editor-state relative-caret-position="-4731">
-            <caret line="80" column="31" selection-start-line="80" selection-start-column="31" selection-end-line="80" selection-end-column="31" />
+          <editor-state relative-caret-position="264">
+            <caret line="81" column="60" selection-start-line="81" selection-start-column="60" selection-end-line="81" selection-end-column="60" />
           </editor-state>
           <multi-preview-state selected="Compose">
             <representations>
@@ -1694,37 +1632,233 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.compose.runtime/runtime-saveable-js/1.10.0-alpha05/89f72c2a9dc8f8772d7a2596ce342b960f4df239/runtime-saveable-js-1.10.0-alpha05-sources.jar!/commonMain/androidx/compose/runtime/saveable/SaveableStateHolder.kt">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-datetime/0.7.1/a3263ecac965edb9964e594629131d727909090d/kotlinx-datetime-0.7.1-sources.jar!/commonMain/LocalTime.kt">
       <provider selected="true" editor-type-id="android-source-code">
         <state>
-          <editor-state relative-caret-position="324">
-            <caret line="48" column="27" selection-start-line="48" selection-start-column="27" selection-end-line="48" selection-end-column="27" />
+          <editor-state relative-caret-position="402">
+            <caret line="83" column="29" selection-start-line="83" selection-start-column="20" selection-end-line="83" selection-end-column="29" />
           </editor-state>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.navigation3/navigation3-runtime/1.0.0-alpha11/33b6332ef09de19dcaac7111ee78763a7239629e/navigation3-runtime-1.0.0-alpha11-sources.jar!/commonMain/androidx/navigation3/runtime/SaveableStateHolderNavEntryDecorator.kt">
+    <entry file="jar://$USER_HOME$/.jdks/valhalla-ea-23-valhalla+1-90/lib/src.zip!/java.base/java/time/temporal/ValueRange.java">
       <provider selected="true" editor-type-id="android-source-code">
         <state>
-          <editor-state relative-caret-position="695">
-            <caret line="56" column="45" selection-start-line="56" selection-start-column="45" selection-end-line="56" selection-end-column="45" />
+          <editor-state relative-caret-position="926">
+            <caret line="260" column="20" lean-forward="true" selection-start-line="260" selection-start-column="20" selection-end-line="260" selection-end-column="20" />
+            <folding>
+              <element signature="e#10263#10264#0" expanded="true" />
+              <element signature="e#10296#10297#0" expanded="true" />
+              <element signature="e#11348#11349#0" expanded="true" />
+              <element signature="e#11419#11420#0" expanded="true" />
+            </folding>
+          </editor-state>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-datetime-jvm/0.7.1/62e1b01b1d8a8e136fd7c8f2ab544500d734b853/kotlinx-datetime-jvm-0.7.1-sources.jar!/jvmMain/LocalTimeJvm.kt">
+      <provider selected="true" editor-type-id="android-source-code">
+        <state>
+          <editor-state relative-caret-position="395">
+            <caret line="71" column="32" lean-forward="true" selection-start-line="71" selection-start-column="32" selection-end-line="71" selection-end-column="32" />
+          </editor-state>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.jdks/valhalla-ea-23-valhalla+1-90/lib/src.zip!/java.base/java/time/temporal/ChronoField.java">
+      <provider selected="true" editor-type-id="android-source-code">
+        <state>
+          <editor-state relative-caret-position="910">
+            <caret line="139" column="88" selection-start-line="139" selection-start-column="88" selection-end-line="139" selection-end-column="88" />
+            <folding>
+              <element signature="e#34305#34306#0" expanded="true" />
+              <element signature="e#34333#34334#0" expanded="true" />
+            </folding>
+          </editor-state>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.jdks/valhalla-ea-23-valhalla+1-90/lib/src.zip!/java.base/java/time/LocalTime.java">
+      <provider selected="true" editor-type-id="android-source-code">
+        <state>
+          <editor-state relative-caret-position="6125">
+            <caret line="408" column="17" selection-start-line="408" selection-start-column="17" selection-end-line="408" selection-end-column="17" />
+          </editor-state>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composeApp/src/commonMain/kotlin/com/mrboomdev/uust/utils/PaddingUtils.kt" preview="true">
+      <provider selected="true" editor-type-id="android-source-code">
+        <state selected-layout="SHOW_EDITOR">
+          <editor-state relative-caret-position="371">
+            <caret line="16" column="11" lean-forward="true" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
+          </editor-state>
+          <multi-preview-state selected="Compose">
+            <representations>
+              <list>
+                <representation name="Compose">
+                  <settings>
+                    <setting name="previewLayout" value="Grid" />
+                    <setting name="selectedGroup" value="" />
+                  </settings>
+                </representation>
+              </list>
+            </representations>
+          </multi-preview-state>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.compose.material3/material3-uikitsimarm64/1.10.0-alpha05/68b56ea346994eb9ecfb72990d97c9b59c57a947/material3-uikitsimarm64-1.10.0-alpha05-sources.jar!/commonMain/androidx/compose/material3/tokens/FloatingToolbarTokens.kt">
+      <provider selected="true" editor-type-id="android-source-code">
+        <state>
+          <editor-state relative-caret-position="382">
+            <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
+          </editor-state>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.compose.material3/material3/1.10.0-alpha05/8671428ba0ea55c3be69fcfc937f45e1c2d2ca1d/material3-1.10.0-alpha05-sources.jar!/commonMain/androidx/compose/material3/FloatingToolbar.kt">
+      <provider selected="true" editor-type-id="android-source-code">
+        <state>
+          <editor-state relative-caret-position="786">
+            <caret line="331" column="36" lean-forward="true" selection-start-line="331" selection-start-column="36" selection-end-line="331" selection-end-column="36" />
+          </editor-state>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.compose.material3/material3-uikitsimarm64/1.10.0-alpha05/68b56ea346994eb9ecfb72990d97c9b59c57a947/material3-uikitsimarm64-1.10.0-alpha05-sources.jar!/commonMain/androidx/compose/material3/tokens/FabMediumTokens.kt">
+      <provider selected="true" editor-type-id="android-source-code">
+        <state>
+          <editor-state relative-caret-position="420">
+            <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
+          </editor-state>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.compose.material3/material3-uikitsimarm64/1.10.0-alpha05/68b56ea346994eb9ecfb72990d97c9b59c57a947/material3-uikitsimarm64-1.10.0-alpha05-sources.jar!/commonMain/androidx/compose/material3/FloatingToolbar.kt">
+      <provider selected="true" editor-type-id="android-source-code">
+        <state>
+          <editor-state relative-caret-position="325">
+            <caret line="1254" column="87" lean-forward="true" selection-start-line="1254" selection-start-column="87" selection-end-line="1254" selection-end-column="87" />
+          </editor-state>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composeApp/src/webMain/kotlin/com/mrboomdev/uust/data/Cache.web.kt" preview="true">
+      <provider selected="true" editor-type-id="android-source-code">
+        <state>
+          <editor-state relative-caret-position="140">
+            <caret line="4" selection-start-line="4" selection-end-line="4" />
           </editor-state>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/composeApp/src/commonMain/kotlin/com/mrboomdev/uust/App.kt" preview="true">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="93">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+      <provider selected="true" editor-type-id="android-source-code">
+        <state>
+          <editor-state relative-caret-position="982">
+            <caret line="134" column="48" selection-start-line="134" selection-start-column="48" selection-end-line="134" selection-end-column="48" />
+          </editor-state>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composeApp/build.gradle.kts" preview="true">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4655">
+          <caret line="133" column="8" lean-forward="true" selection-start-line="133" selection-start-column="8" selection-end-line="133" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#103#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composeApp/src/androidMain/AndroidManifest.xml" preview="true">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="385">
+          <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-manifest" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composeApp/src/androidMain/res/values/strings.xml" preview="true">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="35">
+          <caret line="1" column="36" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composeApp/src/androidDebug/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="35">
+          <caret line="1" column="11" lean-forward="true" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composeApp/src/androidMain/res/values/ic_launcher_background.xml" preview="true">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composeApp/src/androidMain/res/drawable/ic_launcher_background.xml" preview="true" />
+    <entry file="file://$PROJECT_DIR$/composeApp/src/androidMain/res/drawable/logo.png" preview="true">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composeApp/src/androidMain/res/mipmap-anydpi-v26/ic_launcher_round.xml" preview="true">
+      <provider selected="true" editor-type-id="android-preview-designer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composeApp/src/androidMain/res/drawable-v24/ic_launcher_foreground.xml" preview="true" />
+    <entry file="file://$PROJECT_DIR$/composeApp/src/androidMain/res/mipmap-hdpi/ic_launcher.webp" preview="true">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composeApp/src/androidMain/res/mipmap-hdpi/ic_launcher_foreground.webp" preview="true">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composeApp/src/androidMain/res/mipmap-hdpi/ic_launcher_round.webp" preview="true">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composeApp/src/androidMain/res/mipmap-mdpi/ic_launcher.webp" preview="true">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composeApp/src/androidMain/res/mipmap-mdpi/ic_launcher_foreground.webp" preview="true">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composeApp/src/androidMain/res/mipmap-mdpi/ic_launcher_round.webp" preview="true">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composeApp/src/androidMain/res/mipmap-xxhdpi/ic_launcher_foreground.webp" preview="true">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composeApp/src/androidMain/res/mipmap-xxhdpi/ic_launcher_round.webp" preview="true">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composeApp/src/androidMain/res/mipmap-xxxhdpi/ic_launcher.webp" preview="true">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composeApp/src/androidMain/res/mipmap-xxxhdpi/ic_launcher_foreground.webp" preview="true">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composeApp/src/androidMain/res/mipmap-xxxhdpi/ic_launcher_round.webp" preview="true">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composeApp/src/androidMain/res/mipmap-anydpi-v26/ic_launcher.xml" preview="true">
+      <provider selected="true" editor-type-id="android-preview-designer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composeApp/src/androidMain/res/drawable/logo_wrapper.xml" preview="true">
+      <provider selected="true" editor-type-id="android-preview-designer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composeApp/src/androidDebug/res/drawable/logo_dev.xml" />
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.compose.material3/material3/1.10.0-alpha05/8671428ba0ea55c3be69fcfc937f45e1c2d2ca1d/material3-1.10.0-alpha05-sources.jar!/commonMain/androidx/compose/material3/Typography.kt">
+      <provider selected="true" editor-type-id="android-source-code">
+        <state>
+          <editor-state relative-caret-position="255">
+            <caret line="108" column="14" selection-start-line="108" selection-start-column="14" selection-end-line="108" selection-end-column="14" />
+          </editor-state>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composeApp/src/commonMain/kotlin/com/mrboomdev/uust/screens/CalendarScreen.kt" preview="true">
       <provider selected="true" editor-type-id="android-source-code">
         <state selected-layout="SHOW_EDITOR">
-          <editor-state relative-caret-position="417">
-            <caret line="157" column="26" selection-start-line="157" selection-start-column="26" selection-end-line="157" selection-end-column="26" />
-            <folding>
-              <element signature="e#28#4239#0" expanded="true" />
-            </folding>
+          <editor-state relative-caret-position="700">
+            <caret line="324" column="37" lean-forward="true" selection-start-line="324" selection-start-column="37" selection-end-line="324" selection-end-column="37" />
           </editor-state>
           <multi-preview-state selected="Compose">
             <representations>
@@ -1741,11 +1875,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/composeApp/src/androidMain/kotlin/com/mrboomdev/uust/MainActivity.kt">
+    <entry file="file://$PROJECT_DIR$/composeApp/src/commonMain/kotlin/com/mrboomdev/uust/components/Holiday.kt" preview="true">
       <provider selected="true" editor-type-id="android-source-code">
         <state selected-layout="SHOW_EDITOR">
-          <editor-state relative-caret-position="341">
-            <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+          <editor-state relative-caret-position="371">
+            <caret line="19" column="11" lean-forward="true" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
           </editor-state>
           <multi-preview-state selected="Compose">
             <representations>
@@ -1765,32 +1899,8 @@
     <entry file="file://$PROJECT_DIR$/composeApp/src/commonMain/kotlin/com/mrboomdev/uust/screens/HomeScreen.kt" preview="true">
       <provider selected="true" editor-type-id="android-source-code">
         <state selected-layout="SHOW_EDITOR">
-          <editor-state relative-caret-position="279">
-            <caret line="179" column="49" lean-forward="true" selection-start-line="179" selection-start-column="49" selection-end-line="179" selection-end-column="49" />
-          </editor-state>
-          <multi-preview-state selected="Compose">
-            <representations>
-              <list>
-                <representation name="Compose">
-                  <settings>
-                    <setting name="previewLayout" value="Grid" />
-                    <setting name="selectedGroup" value="" />
-                  </settings>
-                </representation>
-              </list>
-            </representations>
-          </multi-preview-state>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/composeApp/src/commonMain/kotlin/com/mrboomdev/uust/screens/CalendarScreen.kt">
-      <provider selected="true" editor-type-id="android-source-code">
-        <state selected-layout="SHOW_EDITOR">
-          <editor-state relative-caret-position="695">
-            <caret line="84" column="4" lean-forward="true" selection-start-line="84" selection-start-column="4" selection-end-line="84" selection-end-column="4" />
-            <folding>
-              <element signature="e#36#1096#0" expanded="true" />
-            </folding>
+          <editor-state relative-caret-position="350">
+            <caret line="487" column="44" selection-start-line="487" selection-start-column="44" selection-end-line="487" selection-end-column="44" />
           </editor-state>
           <multi-preview-state selected="Compose">
             <representations>

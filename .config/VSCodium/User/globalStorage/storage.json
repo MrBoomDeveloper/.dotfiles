@@ -6,7 +6,7 @@
         "workspaces": [],
         "folders": [
             {
-                "folderUri": "file:///home/mrboomdev/.config/swaync"
+                "folderUri": "file:///run/media/mrboomdev/ESD-USB/UUST-ugatu/%D0%9F%D0%BE%D0%B4%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D1%8B/%D0%9F%D0%BE%D0%B4%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D0%B0%20%D0%93%D0%98%D0%A1%20%D0%A3%D0%93%D0%90%D0%A2%D0%A3%20%D0%B7%D0%B0%D0%B2.%D0%BB%D0%B0%D0%B1%20-%20%D0%A4%D0%B0%D1%80%D0%B8%D0%B4%D0%BE%D0%BD%D0%BE%D0%B2%20%D0%90.%D0%98"
             }
         ],
         "emptyWindows": []
@@ -15,7 +15,10 @@
     "profileAssociations": {
         "workspaces": {
             "file:///home/mrboomdev/VSCodeProjects/AweryServer": "__default__profile__",
-            "file:///home/mrboomdev/.config/swaync": "__default__profile__"
+            "file:///home/mrboomdev/.config/swaync": "__default__profile__",
+            "file:///home/mrboomdev/VSCodeProjects/YTMusicCLI": "__default__profile__",
+            "file:///home/mrboomdev/.config/hypr": "__default__profile__",
+            "file:///run/media/mrboomdev/ESD-USB/UUST-ugatu/%D0%9F%D0%BE%D0%B4%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D1%8B/%D0%9F%D0%BE%D0%B4%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D0%B0%20%D0%93%D0%98%D0%A1%20%D0%A3%D0%93%D0%90%D0%A2%D0%A3%20%D0%B7%D0%B0%D0%B2.%D0%BB%D0%B0%D0%B1%20-%20%D0%A4%D0%B0%D1%80%D0%B8%D0%B4%D0%BE%D0%BD%D0%BE%D0%B2%20%D0%90.%D0%98": "__default__profile__"
         },
         "emptyWindows": {}
     },
@@ -51,14 +54,14 @@
     },
     "windowsState": {
         "lastActiveWindow": {
-            "folder": "file:///home/mrboomdev/.config/swaync",
-            "backupPath": "/home/mrboomdev/.config/VSCodium/Backups/b09be21dfbceb96257f78514ba62774f",
+            "folder": "file:///run/media/mrboomdev/ESD-USB/UUST-ugatu/%D0%9F%D0%BE%D0%B4%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D1%8B/%D0%9F%D0%BE%D0%B4%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D0%B0%20%D0%93%D0%98%D0%A1%20%D0%A3%D0%93%D0%90%D0%A2%D0%A3%20%D0%B7%D0%B0%D0%B2.%D0%BB%D0%B0%D0%B1%20-%20%D0%A4%D0%B0%D1%80%D0%B8%D0%B4%D0%BE%D0%BD%D0%BE%D0%B2%20%D0%90.%D0%98",
+            "backupPath": "/home/mrboomdev/.config/VSCodium/Backups/36d2e92100747c502a2262f3f7d57a0b",
             "uiState": {
                 "mode": 1,
-                "x": 5,
-                "y": 35,
-                "width": 1910,
-                "height": 1040
+                "x": 0,
+                "y": 0,
+                "width": 1920,
+                "height": 1080
             }
         },
         "openedWindows": []
@@ -77,6 +80,18 @@
                     "auxiliaryBarVisible": false
                 },
                 "2ef6d8911d8563f1666dbf68a532007a": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "50efe7203fd2f40647d8801c399a2503": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "04ece203e8963f8d2dd3f61a041156af": {
+                    "sideBarVisible": false,
+                    "auxiliaryBarVisible": false
+                },
+                "cbaf90b0215bff54e243942026bc30e4": {
                     "sideBarVisible": true,
                     "auxiliaryBarVisible": false
                 }

@@ -605,3 +605,159 @@
 {"time":1761658054653,"level":20,"msg":"Calling Profile.Data.Put","name":"mcall"}
 {"time":1761658306024,"level":20,"msg":"Calling Fetch.Commons","name":"mcall"}
 {"time":1761658317536,"level":20,"msg":"On window.close: close to tray enabled","name":"m/reac/winds"}
+{"time":1763148800572,"level":30,"msg":"itch@26.1.9 on electron@22.3.27 in production"}
+{"time":1763148800575,"level":20,"msg":"imported preferences: {\"downloadSelfUpdates\":true,\"offlineMode\":false,\"installLocations\":{},\"defaultInstallLocation\":\"appdata\",\"isolateApps\":true,\"closeToTray\":true,\"readyNotification\":true,\"showAdvanced\":false,\"openAtLogin\":false,\"openAsHidden\":false,\"manualGameUpdates\":false,\"preventDisplaySleep\":true,\"preferOptimizedPatches\":false,\"disableBrowser\":false,\"enableTabs\":true,\"lastSuccessfulSetupVersion\":\"26.1.9\",\"importedOldInstallLocations\":true,\"gotMinimizeNotification\":true}","name":"m/reac/preb/load-preferences"}
+{"time":1763148800630,"level":20,"msg":"Skipping game update check as requested per environment variable","name":"m/reac/updater"}
+{"time":1763148800747,"level":20,"msg":"imported preferences: {\"downloadSelfUpdates\":true,\"offlineMode\":false,\"installLocations\":{},\"defaultInstallLocation\":\"appdata\",\"isolateApps\":true,\"closeToTray\":true,\"readyNotification\":true,\"showAdvanced\":false,\"openAtLogin\":false,\"openAsHidden\":false,\"manualGameUpdates\":false,\"preventDisplaySleep\":true,\"preferOptimizedPatches\":false,\"disableBrowser\":false,\"enableTabs\":true,\"lastSuccessfulSetupVersion\":\"26.1.9\",\"importedOldInstallLocations\":true,\"gotMinimizeNotification\":true}","name":"m/reac/preb/load-preferences"}
+{"time":1763148800763,"level":20,"msg":"Registering itch: protocol for session with user agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) itch/26.1.9 Chrome/108.0.5359.215 Electron/22.3.27 Safari/537.36","name":"m/net/register-itch-protocol"}
+{"time":1763148800869,"level":30,"msg":"preboot ran in 122.00ms","name":"m/reac/preboot"}
+{"time":1763148800870,"level":20,"msg":"Updating login item settings, open=false, hidden=false","name":"m/reac/open-at-login"}
+{"time":1763148800871,"level":20,"msg":"Copying /usr/share/applications/io.itch.itch.desktop => /home/mrboomdev/.config/autostart/io.itch.itch.desktop","name":"m/reac/open-at-login"}
+{"time":1763148800873,"level":20,"msg":"Waiting on root window to dispatch boot","name":"m/reac/winds"}
+{"time":1763148801752,"level":30,"msg":"Language settings: preference undefined, sniffed en-US, fallback en","name":"m/reac/i18n"}
+{"time":1763148801756,"level":20,"msg":"Reading local locale file /home/mrboomdev/.itch/app-26.1.9/resources/app/src/static/locales/en.json","name":"m/reac/locales"}
+{"time":1763148801759,"level":20,"msg":"Reading remote locale file /home/mrboomdev/.itch/app-26.1.9/resources/app/src/static/locales/en.json","name":"m/reac/locales"}
+{"time":1763148802186,"level":30,"msg":"Setup starting...","name":"🔧 setup"}
+{"time":1763148802187,"level":30,"msg":"Creating broth manager","name":"🔧 setup"}
+{"time":1763148802188,"level":30,"msg":"Ensuring broth dependencies, for startup","name":"🔧 setup"}
+{"time":1763148802188,"level":20,"msg":"Package (itch) got version prefix","name":"🔧 setup"}
+{"time":1763148802197,"level":20,"msg":"Reading local locale file /home/mrboomdev/.itch/app-26.1.9/resources/app/src/static/locales/en.json","name":"m/reac/locales"}
+{"time":1763148802200,"level":20,"msg":"Reading remote locale file /home/mrboomdev/.itch/app-26.1.9/resources/app/src/static/locales/en.json","name":"m/reac/locales"}
+{"time":1763148802417,"level":30,"msg":"(15.24.0) is chosen and valid","name":"📦 butler"}
+{"time":1763148802418,"level":30,"msg":"Switching to (15.24.0)","name":"📦 butler"}
+{"time":1763148802418,"level":20,"msg":"Package (butler) got version prefix","name":"🔧 setup"}
+{"time":1763148802419,"level":30,"msg":"Refreshing butlerd!","name":"🔧 setup"}
+{"time":1763148802419,"level":30,"msg":"Spinning up butlerd instance 1...","name":"🔧 setup"}
+{"time":1763148802424,"level":30,"msg":"...waiting for endpoint from butlerd instance 1...","name":"🔧 setup"}
+{"time":1763148802434,"level":20,"msg":"spawning /home/mrboomdev/.config/itch/broth/itch-setup/versions/1.27.0/itch-setup :: --version","name":"📦 itch-setup"}
+{"time":1763148802475,"level":30,"msg":"(1.27.0) is chosen and valid","name":"📦 itch-setup"}
+{"time":1763148802476,"level":30,"msg":"Switching to (1.27.0)","name":"📦 itch-setup"}
+{"time":1763148802476,"level":30,"msg":"Already set up 26.1.9 once, delaying components upgrade check","name":"🔧 setup"}
+{"time":1763148802476,"level":20,"msg":"Waiting for butler promise...","name":"🔧 setup"}
+{"time":1763148802476,"level":20,"msg":"Package (itch-setup) got version prefix","name":"🔧 setup"}
+{"time":1763148802482,"level":30,"msg":"...for butlerd instance 1 got endpoint 127.0.0.1:41779","name":"🔧 setup"}
+{"time":1763148802665,"level":30,"msg":"Now speaking with butlerd instance 1, version v15.24.0, built on Dec 13 2024 @ 06:12:35, ref f1203f79c4b65ef2201e95ca81b6b02b7d37cb04, endpoint 127.0.0.1:41779","name":"🔧 setup"}
+{"time":1763148802666,"level":20,"msg":"Syncing install locations...","name":"🔧 setup"}
+{"time":1763148802667,"level":20,"msg":"Calling Install.Locations.List","name":"mcall"}
+{"time":1763148802668,"level":20,"msg":"Downloads driver reacting to gotButlerdEndpoint, cancelling state...","name":"m/reac/down/driver"}
+{"time":1763148802669,"level":20,"msg":"Not cancelling, current phase is 0","name":"m/reac/down/driver-persistent-state"}
+{"time":1763148802669,"level":20,"msg":"Downloads driver reacting to gotButlerdEndpoint, state is cancelled...","name":"m/reac/down/driver"}
+{"time":1763148802669,"level":20,"msg":"Download driver polling...","name":"m/reac/down/driver"}
+{"time":1763148802669,"level":20,"msg":"Calling Downloads.List","name":"mcall"}
+{"time":1763148802713,"level":20,"msg":"Dispatching setup done!","name":"🔧 setup"}
+{"time":1763148802713,"level":30,"msg":"Setup done","name":"🔧 setup"}
+{"time":1763148802715,"level":20,"msg":"Calling Fetch.Caves","name":"mcall"}
+{"time":1763148802716,"level":30,"msg":"Scanning install locations for items...","name":"m/reac/silent-location-scan"}
+{"time":1763148802716,"level":20,"msg":"Calling Install.Locations.Scan","name":"mcall"}
+{"time":1763148802718,"level":20,"msg":"Calling Profile.List","name":"rcall"}
+{"time":1763148802758,"level":30,"msg":"• Scanning install location /home/mrboomdev/.config/itch/apps...","name":"m/reac/silent-location-scan"}
+{"time":1763148802758,"level":30,"msg":"No items found","name":"m/reac/silent-location-scan"}
+{"time":1763148802758,"level":30,"msg":"Scan complete.","name":"m/reac/silent-location-scan"}
+{"time":1763148802759,"level":20,"msg":"Calling Fetch.Caves","name":"mcall"}
+{"time":1763148802760,"level":20,"msg":"Calling Fetch.Commons","name":"mcall"}
+{"time":1763148802761,"level":30,"msg":"Using tray image (/home/mrboomdev/.itch/app-26.1.9/resources/app/src/static/images/tray/itch.png)"}
+{"time":1763148804202,"level":20,"msg":"Downloading fresh locale file from https://locales.itch.zone/itch/en.json","name":"m/reac/locales"}
+{"time":1763148804202,"level":20,"msg":"HTTP get https://locales.itch.zone/itch/en.json","name":"r"}
+{"time":1763148804705,"level":30,"msg":"Attempting saved login for profile 6382512","name":"m/reac/login"}
+{"time":1763148804705,"level":20,"msg":"Calling Profile.UseSavedLogin","name":"mcall"}
+{"time":1763148804750,"level":30,"msg":"• Validating credentials...","name":"m/reac/login"}
+{"time":1763148805004,"level":40,"msg":"Failed downloading locale for en: net::ERR_NAME_NOT_RESOLVED","name":"m/reac/locales"}
+{"time":1763148805882,"level":30,"msg":"• Logged in! (online)","name":"m/reac/login"}
+{"time":1763148805883,"level":30,"msg":"Saved login succeeded!","name":"m/reac/login"}
+{"time":1763148805883,"level":30,"msg":"Login succeeded, setting up session","name":"m/reac/login"}
+{"time":1763148805886,"level":30,"msg":"Registering itch protocol for session persist:itchio-6382512","name":"m/reac/login"}
+{"time":1763148805886,"level":20,"msg":"Registering itch: protocol for session with user agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) itch/26.1.9 Chrome/108.0.5359.215 Electron/22.3.27 Safari/537.36","name":"m/net/register-itch-protocol"}
+{"time":1763148805886,"level":30,"msg":"Restoring tabs...","name":"m/reac/login"}
+{"time":1763148805886,"level":20,"msg":"Calling Profile.Data.Get","name":"mcall"}
+{"time":1763148805929,"level":30,"msg":"Dispatching login succeeded","name":"m/reac/login"}
+{"time":1763148805929,"level":30,"msg":"Fetching owned keys...","name":"m/reac/login"}
+{"time":1763148805930,"level":20,"msg":"Calling Fetch.ProfileOwnedKeys","name":"mcall"}
+{"time":1763148805931,"level":20,"msg":"Calling Fetch.Commons","name":"mcall"}
+{"time":1763148805933,"level":20,"msg":"Download driver polling...","name":"m/reac/down/driver"}
+{"time":1763148805933,"level":20,"msg":"Not paused... current phase: IDLE","name":"m/reac/down/driver"}
+{"time":1763148805933,"level":20,"msg":"IDLE => STARTING","name":"m/reac/down/driver-persistent-state"}
+{"time":1763148805933,"level":20,"msg":"Calling Downloads.Drive","name":"mcall"}
+{"time":1763148805934,"level":20,"msg":"STARTING => RUNNING","name":"m/reac/down/driver-persistent-state"}
+{"time":1763148805934,"level":30,"msg":"Downloads started","name":"m/reac/down/driver-persistent-state"}
+{"time":1763148805968,"level":20,"msg":"Calling Fetch.Caves","name":"rcall"}
+{"time":1763148805973,"level":30,"msg":"Fetching fresh data...","name":"m/reac/login"}
+{"time":1763148805973,"level":30,"msg":"Fetching page 1","name":"m/reac/login"}
+{"time":1763148805976,"level":30,"msg":"Now driving downloads...","name":"m/reac/down/driver"}
+{"time":1763148806033,"level":20,"msg":"Loading url 'https://itch.io/games/top-sellers/free'","name":"m/reac/web-contents"}
+{"time":1763148806220,"level":30,"msg":"Waited 246.595876ms for fetch (non-shared)","name":"m/reac/login"}
+{"time":1763148806220,"level":30,"msg":"Fetched owned keys in 291.00ms","name":"m/reac/login"}
+{"time":1763148806432,"level":20,"msg":"Calling Fetch.Commons","name":"mcall"}
+{"time":1763148807687,"level":40,"msg":"Did fail load: -101, ERR_CONNECTION_RESET for https://itch.io/games/top-sellers/free","name":"m/reac/web-contents"}
+{"time":1763148807698,"level":20,"msg":"did-finish-load (once)","name":"m/reac/web-contents"}
+{"time":1763148808751,"level":20,"msg":"Calling Profile.Data.Put","name":"mcall"}
+{"time":1763148815752,"level":20,"msg":"spawning /home/mrboomdev/.config/itch/broth/itch-setup/versions/1.27.0/itch-setup :: --appname ::: itch ::: --upgrade","name":"m/brot/itch-setup"}
+{"time":1763148815771,"level":20,"msg":"> 2025/11/15 00:33:35 itch-setup will log to /tmp/itch-setup-log.txt","name":"📦 self"}
+{"time":1763148815772,"level":20,"msg":"> 2025/11/15 00:33:35 =========================================","name":"📦 self"}
+{"time":1763148815772,"level":20,"msg":"> 2025/11/15 00:33:35 itch-setup \"head, built on Dec  4 2024 @ 01:40:44, ref no-commit\" starting up at \"2025-11-15 00:33:35.771520408 +0500 +05 m=+0.002309502\" with arguments:","name":"📦 self"}
+{"time":1763148815772,"level":20,"msg":"> 2025/11/15 00:33:35 \"/home/mrboomdev/.config/itch/broth/itch-setup/versions/1.27.0/itch-setup\"","name":"📦 self"}
+{"time":1763148815772,"level":20,"msg":"> 2025/11/15 00:33:35 \"--appname\"","name":"📦 self"}
+{"time":1763148815772,"level":20,"msg":"> 2025/11/15 00:33:35 \"itch\"","name":"📦 self"}
+{"time":1763148815772,"level":20,"msg":"> 2025/11/15 00:33:35 \"--upgrade\"","name":"📦 self"}
+{"time":1763148815772,"level":20,"msg":"> 2025/11/15 00:33:35 =========================================","name":"📦 self"}
+{"time":1763148815772,"level":20,"msg":"> 2025/11/15 00:33:35 App name specified on command-line: itch","name":"📦 self"}
+{"time":1763148815772,"level":20,"msg":"> 2025/11/15 00:33:35 Locale:  en-US","name":"📦 self"}
+{"time":1763148815773,"level":20,"msg":"> 2025/11/15 00:33:35 Initializing installer GUI...","name":"📦 self"}
+{"time":1763148815773,"level":20,"msg":"> 2025/11/15 00:33:35 Using GTK UI","name":"📦 self"}
+{"time":1763148815777,"level":20,"msg":"> 2025/11/15 00:33:35 Initializing (itch) multiverse @ (/home/mrboomdev/.itch)","name":"📦 self"}
+{"time":1763148815777,"level":20,"msg":"> 2025/11/15 00:33:35 (/home/mrboomdev/.itch)(current = \"26.1.9\", ready = \"\")","name":"📦 self"}
+{"time":1763148817679,"level":20,"msg":"> 2025/11/15 00:33:37 Installed 26.1.9","name":"📦 self"}
+{"time":1763148817679,"level":20,"msg":"> 2025/11/15 00:33:37 Latest    26.1.9","name":"📦 self"}
+{"time":1763148817679,"level":20,"msg":"> 2025/11/15 00:33:37 We're up-to-date!","name":"📦 self"}
+{"time":1763148817683,"level":20,"msg":"Trying to satisfy semver constraint (^15.20.0)","name":"📦 butler"}
+{"time":1763148817683,"level":20,"msg":"GET (https://broth.itch.zone/butler/linux-amd64/versions)","name":"📦 butler"}
+{"time":1763148817684,"level":20,"msg":"HTTP get https://broth.itch.zone/butler/linux-amd64/versions","name":"r"}
+{"time":1763148818027,"level":20,"msg":"Got HTTP 200, content-length: 0 B","name":"r"}
+{"time":1763148818033,"level":30,"msg":"Latest is (15.24.0)","name":"📦 butler"}
+{"time":1763148818033,"level":30,"msg":"Already the active version, nothing to do","name":"📦 butler"}
+{"time":1763148818038,"level":20,"msg":"Present versions: 15.24.0","name":"📦 butler"}
+{"time":1763148818039,"level":20,"msg":"Trying to satisfy semver constraint (^1.8.0)","name":"📦 itch-setup"}
+{"time":1763148818039,"level":20,"msg":"GET (https://broth.itch.zone/itch-setup/linux-amd64/versions)","name":"📦 itch-setup"}
+{"time":1763148818039,"level":20,"msg":"HTTP get https://broth.itch.zone/itch-setup/linux-amd64/versions","name":"r"}
+{"time":1763148818275,"level":20,"msg":"Got HTTP 200, content-length: 0 B","name":"r"}
+{"time":1763148818277,"level":30,"msg":"Latest is (1.27.0)","name":"📦 itch-setup"}
+{"time":1763148818278,"level":30,"msg":"Already the active version, nothing to do","name":"📦 itch-setup"}
+{"time":1763148818279,"level":20,"msg":"Present versions: 1.27.0","name":"📦 itch-setup"}
+{"time":1763148825522,"level":20,"msg":"Calling Fetch.Commons","name":"mcall"}
+{"time":1763148828757,"level":20,"msg":"Calling Profile.Data.Put","name":"mcall"}
+{"time":1763148829758,"level":20,"msg":"Calling Profile.Data.Put","name":"mcall"}
+{"time":1763148831757,"level":20,"msg":"Calling Profile.Data.Put","name":"mcall"}
+{"time":1763154155225,"level":20,"msg":"Calling Fetch.Commons","name":"mcall"}
+{"time":1763154157652,"level":20,"msg":"On window.close: close to tray enabled","name":"m/reac/winds"}
+{"time":1763156736531,"level":20,"msg":"spawning /home/mrboomdev/.config/itch/broth/itch-setup/versions/1.27.0/itch-setup :: --appname ::: itch ::: --upgrade","name":"m/brot/itch-setup"}
+{"time":1763156736550,"level":20,"msg":"> 2025/11/15 02:45:36 itch-setup will log to /tmp/itch-setup-log.txt","name":"📦 self"}
+{"time":1763156736550,"level":20,"msg":"> 2025/11/15 02:45:36 =========================================","name":"📦 self"}
+{"time":1763156736550,"level":20,"msg":"> 2025/11/15 02:45:36 itch-setup \"head, built on Dec  4 2024 @ 01:40:44, ref no-commit\" starting up at \"2025-11-15 02:45:36.55062178 +0500 +05 m=+0.002413792\" with arguments:","name":"📦 self"}
+{"time":1763156736550,"level":20,"msg":"> 2025/11/15 02:45:36 \"/home/mrboomdev/.config/itch/broth/itch-setup/versions/1.27.0/itch-setup\"","name":"📦 self"}
+{"time":1763156736551,"level":20,"msg":"> 2025/11/15 02:45:36 \"--appname\"","name":"📦 self"}
+{"time":1763156736551,"level":20,"msg":"> 2025/11/15 02:45:36 \"itch\"","name":"📦 self"}
+{"time":1763156736551,"level":20,"msg":"> 2025/11/15 02:45:36 \"--upgrade\"","name":"📦 self"}
+{"time":1763156736551,"level":20,"msg":"> 2025/11/15 02:45:36 =========================================","name":"📦 self"}
+{"time":1763156736551,"level":20,"msg":"> 2025/11/15 02:45:36 App name specified on command-line: itch","name":"📦 self"}
+{"time":1763156736551,"level":20,"msg":"> 2025/11/15 02:45:36 Locale:  en-US","name":"📦 self"}
+{"time":1763156736552,"level":20,"msg":"> 2025/11/15 02:45:36 Initializing installer GUI...","name":"📦 self"}
+{"time":1763156736552,"level":20,"msg":"> 2025/11/15 02:45:36 Using GTK UI","name":"📦 self"}
+{"time":1763156736555,"level":20,"msg":"> 2025/11/15 02:45:36 Initializing (itch) multiverse @ (/home/mrboomdev/.itch)","name":"📦 self"}
+{"time":1763156736555,"level":20,"msg":"> 2025/11/15 02:45:36 (/home/mrboomdev/.itch)(current = \"26.1.9\", ready = \"\")","name":"📦 self"}
+{"time":1763156738294,"level":20,"msg":"> 2025/11/15 02:45:38 Installed 26.1.9","name":"📦 self"}
+{"time":1763156738294,"level":20,"msg":"> 2025/11/15 02:45:38 Latest    26.1.9","name":"📦 self"}
+{"time":1763156738294,"level":20,"msg":"> 2025/11/15 02:45:38 We're up-to-date!","name":"📦 self"}
+{"time":1763156738298,"level":20,"msg":"Trying to satisfy semver constraint (^15.20.0)","name":"📦 butler"}
+{"time":1763156738298,"level":20,"msg":"GET (https://broth.itch.zone/butler/linux-amd64/versions)","name":"📦 butler"}
+{"time":1763156738298,"level":20,"msg":"HTTP get https://broth.itch.zone/butler/linux-amd64/versions","name":"r"}
+{"time":1763156738909,"level":20,"msg":"Got HTTP 200, content-length: 0 B","name":"r"}
+{"time":1763156738911,"level":30,"msg":"Latest is (15.24.0)","name":"📦 butler"}
+{"time":1763156738911,"level":30,"msg":"Already the active version, nothing to do","name":"📦 butler"}
+{"time":1763156738913,"level":20,"msg":"Present versions: 15.24.0","name":"📦 butler"}
+{"time":1763156738914,"level":20,"msg":"Trying to satisfy semver constraint (^1.8.0)","name":"📦 itch-setup"}
+{"time":1763156738914,"level":20,"msg":"GET (https://broth.itch.zone/itch-setup/linux-amd64/versions)","name":"📦 itch-setup"}
+{"time":1763156738914,"level":20,"msg":"HTTP get https://broth.itch.zone/itch-setup/linux-amd64/versions","name":"r"}
+{"time":1763156739215,"level":20,"msg":"Got HTTP 200, content-length: 0 B","name":"r"}
+{"time":1763156739215,"level":30,"msg":"Latest is (1.27.0)","name":"📦 itch-setup"}
+{"time":1763156739215,"level":30,"msg":"Already the active version, nothing to do","name":"📦 itch-setup"}
+{"time":1763156739216,"level":20,"msg":"Present versions: 1.27.0","name":"📦 itch-setup"}
+{"time":1763157590622,"level":30,"msg":"butlerd instance 1 has closed.","name":"🔧 setup"}

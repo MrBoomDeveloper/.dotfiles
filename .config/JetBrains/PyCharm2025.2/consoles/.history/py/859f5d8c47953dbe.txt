@@ -1,0 +1,1 @@
+runfile('/home/mrboomdev/PycharmProjects/BoomieBackend/index.py', wdir='/home/mrboomdev/PycharmProjects/BoomieBackend')

@@ -1,0 +1,9 @@
+<application>
+  <component name="AdvancedSettings">
+    <option name="settings">
+      <map>
+        <entry key="ide.ui.non.modal.settings.window" value="true" />
+      </map>
+    </option>
+  </component>
+</application>

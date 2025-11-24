@@ -50,12 +50,12 @@
     "redirect_listen_address": "127.0.0.1",
     "redirect_listen_port": 443,
     "remember_enable": false,
-    "remember_id": 9777,
+    "remember_id": 11296,
     "show_system_dns": false,
     "skip_cert": false,
     "speed_test_mode": 0,
     "speed_test_timeout_ms": 5000,
-    "splitter_state": "AAAA/wAAAAEAAAACAAAAwgAAAL4B/////wEAAAACAA==",
+    "splitter_state": "AAAA/wAAAAEAAAACAAAA4QAAAOEB/////wEAAAACAA==",
     "spmode2": [
         "vpn"
     ],

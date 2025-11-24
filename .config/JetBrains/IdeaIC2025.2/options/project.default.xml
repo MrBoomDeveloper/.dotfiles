@@ -4,6 +4,7 @@
       <component name="ProjectViewState">
         <option name="flattenModules" value="true" />
         <option name="showLibraryContents" value="true" />
+        <option name="showScratchesAndConsoles" value="false" />
       </component>
       <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {

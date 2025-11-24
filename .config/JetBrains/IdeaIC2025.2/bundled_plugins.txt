@@ -12,7 +12,6 @@ com.intellij.java|Languages
 com.intellij.marketplace|null
 com.intellij.modules.json|Languages
 com.intellij.platform.images|null
-com.intellij.properties|Languages
 com.intellij.searcheverywhere.ml|Local AI/ML Tools
 com.intellij.settingsSync|IDE Settings
 com.intellij.turboComplete|Local AI/ML Tools
@@ -32,5 +31,4 @@ org.jetbrains.plugins.github|Version Controls
 org.jetbrains.plugins.gradle|Build Tools
 org.jetbrains.plugins.terminal|Other Tools
 org.jetbrains.plugins.yaml|Languages
-org.toml.lang|Languages
 tanvd.grazi|null

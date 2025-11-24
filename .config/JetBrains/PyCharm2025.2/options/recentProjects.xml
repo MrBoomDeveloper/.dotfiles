@@ -1,0 +1,42 @@
+<application>
+  <component name="RecentProjectsManager">
+    <option name="additionalInfo">
+      <map>
+        <entry key="$USER_HOME$/PycharmProjects/BoomieBackend">
+          <value>
+            <RecentProjectMetaInfo frameTitle="BoomieBackend – laba.py" projectWorkspaceId="35ZPKXkPiLRCGQEPNzEBWMUYzvz">
+              <option name="activationTimestamp" value="1763528212477" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="PY-252.27397.106" />
+              <option name="buildTimestamp" value="1761213660000" />
+              <option name="colorInfo">
+                <RecentProjectColorInfo associatedIndex="0" />
+              </option>
+              <frame x="5" y="32" width="1910" height="1043" />
+              <option name="productionCode" value="PY" />
+              <option name="projectOpenTimestamp" value="1763314556590" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Downloads/drive-download-20251119T044917Z-1-001">
+          <value>
+            <RecentProjectMetaInfo frameTitle="drive-download-20251119T044917Z-1-001 – res.txt" opened="true" projectWorkspaceId="35gOOloEMzRH1SpE75yNc7K6eOX">
+              <option name="activationTimestamp" value="1763528218540" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="PY-252.27397.106" />
+              <option name="buildTimestamp" value="1761213660000" />
+              <option name="colorInfo">
+                <RecentProjectColorInfo associatedIndex="1" />
+              </option>
+              <frame x="5" y="32" width="1910" height="1043" />
+              <option name="productionCode" value="PY" />
+              <option name="projectOpenTimestamp" value="1763528218718" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="lastOpenedProject" value="$USER_HOME$/Downloads/drive-download-20251119T044917Z-1-001" />
+    <option name="lastProjectLocation" value="$USER_HOME$/PycharmProjects" />
+  </component>
+</application>

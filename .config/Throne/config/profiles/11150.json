@@ -1,0 +1,49 @@
+{
+    "bean": {
+        "_v": 0,
+        "addr": "delilah.ns.cloudflare.com",
+        "brutal_speed": 0,
+        "c_cfg": "",
+        "c_out": "",
+        "enable_brutal": false,
+        "flow": "",
+        "mux": 0,
+        "name": "Telegram:@Enzewa_network",
+        "pass": "53f0bca8-f170-4ef7-8031-c7d441189dbf",
+        "port": 443,
+        "stream": {
+            "alpn": "",
+            "cert": "",
+            "ed_len": 0,
+            "ed_name": "",
+            "h_type": "",
+            "headers": "",
+            "host": "638987378208894304.sentra-amshr.info",
+            "insecure": false,
+            "method": "",
+            "net": "ws",
+            "pac_enc": "xudp",
+            "path": "/cahttingws",
+            "pbk": "",
+            "sec": "tls",
+            "sid": "",
+            "sni": "638987378208894304.sentra-amshr.info",
+            "tls_frag": false,
+            "tls_frag_fall_delay": "",
+            "tls_record_frag": false,
+            "utls": ""
+        }
+    },
+    "country": "",
+    "dl": "",
+    "gid": 1,
+    "id": 11150,
+    "report": "",
+    "traffic": {
+        "dl": 113254,
+        "ul": 53743
+    },
+    "type": "vless",
+    "ul": "",
+    "yc": -1
+}

@@ -1,40 +1,46 @@
 <application>
   <component name="ActionsLocalSummary">
+    <e n="$Copy">
+      <i c="1" l="1763406843662" />
+    </e>
     <e n="$Cut">
       <i c="2" l="1761932310655" />
     </e>
     <e n="$Delete">
-      <i c="14" l="1762089518099" />
+      <i c="46" l="1763931335269" />
     </e>
     <e n="$Paste">
-      <i c="2" l="1761932312877" />
+      <i c="3" l="1763406845976" />
     </e>
     <e n="$Redo">
-      <i c="130" l="1762307501216" />
+      <i c="354" l="1763928059637" />
     </e>
     <e n="$SelectAll">
-      <i c="19" l="1762088934023" />
+      <i c="47" l="1763984237164" />
     </e>
     <e n="$Undo">
-      <i c="1152" l="1762307788546" />
+      <i c="2924" l="1763932314468" />
     </e>
     <e n="ActivateBuildToolWindow">
-      <i c="5" l="1761975364708" />
+      <i c="38" l="1763954356573" />
+    </e>
+    <e n="ActivateBuildVariantsToolWindow">
+      <i c="1" l="1763899210083" />
     </e>
     <e n="ActivateCommitToolWindow">
-      <i c="7" l="1762089793572" />
+      <i c="33" l="1763984226944" />
     </e>
     <e n="ActivateDeviceManager2ToolWindow">
-      <i c="4" d="4" l="1762085237415" k="1762085237415" />
+      <i c="6" d="6" l="1763400946104" k="1763400946104" />
     </e>
     <e n="ActivateFindToolWindow">
       <i c="1" l="1761323293200" />
     </e>
     <e n="ActivateLogcatToolWindow">
-      <i c="12" l="1761983410196" />
+      <i c="78" l="1763931469747" />
     </e>
     <e n="ActivateProjectToolWindow">
-      <i c="68" l="1762089820543" />
+      <i c="182" l="1763932532960" />
     </e>
     <e n="ActivateRunningDevicesToolWindow">
       <i c="1" l="1762085362488" />
@@ -43,31 +49,46 @@
       <i c="1" l="1760888740815" />
     </e>
     <e n="ActivateTerminalToolWindow">
-      <i c="4" l="1761759293746" />
+      <i c="7" l="1763756137752" />
+    </e>
+    <e n="ActivateWindsurfConsoleToolWindow">
+      <i c="1" d="1" l="1763490162125" k="1763490162125" />
+    </e>
+    <e n="Adtui.ZoomOutAction">
+      <i c="6" l="1763931295869" />
     </e>
     <e n="AllRunConfigurationsToggle">
-      <i c="1" l="1762306917971" />
+      <i c="4" l="1763754230605" />
     </e>
     <e n="Android.AdbDevicePairing">
-      <i c="40" l="1761994811271" />
+      <i c="63" l="1763931005512" />
     </e>
     <e n="Android.CreateResourceDirectory">
       <i c="1" l="1761926079424" />
     </e>
     <e n="Android.GenerateSignedApk">
-      <i c="2" l="1761975246526" />
+      <i c="16" l="1763954342560" />
     </e>
     <e n="Android.RunAndroidSdkManager">
       <i c="2" l="1761944338650" />
+    </e>
+    <e n="Android.SyncProject">
+      <i c="3" d="3" l="1763886129755" k="1763886129755" />
+    </e>
+    <e n="AndroidConnectDebuggerAction">
+      <i c="2" d="2" l="1763931762308" k="1763931762308" />
     </e>
     <e n="ChangeKeymap">
       <i c="1" l="1760888773721" />
     </e>
     <e n="ChangesView.ShowCommitOptions">
-      <i c="3" l="1761676850154" />
+      <i c="6" l="1763984240351" />
+    </e>
+    <e n="CloseEditor">
+      <i c="1" l="1763571815829" />
     </e>
     <e n="CloseProject">
-      <i c="12" l="1762308010570" />
+      <i c="28" l="1763984295636" />
     </e>
     <e n="CodeCompletion">
       <i c="1" l="1761920046069" />
@@ -76,85 +97,124 @@
       <i c="1" l="1760989349362" />
     </e>
     <e n="CommentByBlockComment">
-      <i c="14" l="1762084032871" />
+      <i c="17" l="1763926248403" />
     </e>
     <e n="CommentByLineComment">
-      <i c="34" l="1762087653014" />
+      <i c="101" l="1763916685834" />
     </e>
     <e n="Compose.Live.Edit.Refresh">
       <i c="1" l="1761928231167" />
     </e>
+    <e n="ConfigurationXDebuggerResumeAction">
+      <i c="1" l="1763565365655" />
+    </e>
+    <e n="CopyAbsolutePath">
+      <i c="2" l="1763756135647" />
+    </e>
+    <e n="CopyReference">
+      <i c="1" l="1763880232018" />
+    </e>
+    <e n="CopyReferencePopupGroup">
+      <i c="3" l="1763880223539" />
+    </e>
+    <e n="Debug">
+      <i c="10" l="1763932106636" />
+    </e>
     <e n="DeleteRunConfiguration">
-      <i c="1" l="1760889074104" />
+      <i c="2" l="1763754223698" />
     </e>
     <e n="Diff.NextChange">
-      <i c="54" l="1762088932003" />
+      <i c="201" l="1763932469824" />
+    </e>
+    <e n="Diff.OpenInEditor">
+      <i c="1" l="1763899264707" />
     </e>
     <e n="Diff.PrevChange">
-      <i c="1" l="1761332585207" />
+      <i c="5" l="1763932410539" />
     </e>
     <e n="Documentation.EditSource">
-      <i c="29" l="1762087741495" />
+      <i c="45" l="1763923253266" />
     </e>
     <e n="EditorBackSpace">
-      <i c="7721" l="1762307986221" />
+      <i c="16152" l="1763932455525" />
     </e>
     <e n="EditorChooseLookupItem">
-      <i c="3292" l="1762307665112" />
+      <i c="6316" l="1763932197006" />
     </e>
     <e n="EditorChooseLookupItemReplace">
       <i c="3" l="1762087703275" />
     </e>
     <e n="EditorCopy">
-      <i c="465" l="1762307519315" />
+      <i c="868" l="1763932306469" />
     </e>
     <e n="EditorCut">
-      <i c="63" l="1762305127248" />
+      <i c="243" l="1763932325461" />
+    </e>
+    <e n="EditorDelete">
+      <i c="2" l="1763713283785" />
+    </e>
+    <e n="EditorDeleteToWordStart">
+      <i c="1" l="1763832714146" />
     </e>
     <e n="EditorDown">
-      <i c="1401" l="1762307326853" />
+      <i c="3790" l="1763931438028" />
+    </e>
+    <e n="EditorDownWithSelection">
+      <i c="1" l="1763110038562" />
+    </e>
+    <e n="EditorDuplicate">
+      <i c="3" l="1763888449683" />
     </e>
     <e n="EditorEnter">
-      <i c="2750" l="1762307606780" />
+      <i c="5514" l="1763932195723" />
     </e>
     <e n="EditorEscape">
-      <i c="6" l="1762305793862" />
+      <i c="23" l="1763915367616" />
     </e>
     <e n="EditorLeft">
-      <i c="802" l="1762307629889" />
+      <i c="1151" l="1763929922615" />
     </e>
     <e n="EditorLeftWithSelection">
-      <i c="25" l="1761907002676" />
+      <i c="151" l="1763896959971" />
     </e>
     <e n="EditorLineStart">
       <i c="2" l="1761994908978" />
     </e>
     <e n="EditorMatchBrace">
-      <i c="1" l="1761922718903" />
+      <i c="3" l="1763832728887" />
+    </e>
+    <e n="EditorMoveToPageTopWithSelection">
+      <i c="1" l="1763194636101" />
     </e>
     <e n="EditorNextWord">
-      <i c="122" l="1762307185794" />
+      <i c="209" l="1763923953217" />
+    </e>
+    <e n="EditorNextWordWithSelection">
+      <i c="7" l="1763192398411" />
     </e>
     <e n="EditorPageDown">
-      <i c="2" l="1761805304008" />
+      <i c="6" l="1763697862196" />
     </e>
     <e n="EditorPaste">
-      <i c="612" l="1762307783899" />
+      <i c="1322" l="1763932328408" />
     </e>
     <e n="EditorPasteFromX11">
-      <i c="11" l="1761668210278" />
+      <i c="13" l="1763528851590" />
     </e>
     <e n="EditorPreviousWord">
-      <i c="43" l="1762306523155" />
+      <i c="133" l="1763922220801" />
+    </e>
+    <e n="EditorPreviousWordWithSelection">
+      <i c="12" l="1763192398929" />
     </e>
     <e n="EditorRight">
-      <i c="774" l="1762307468013" />
+      <i c="1376" l="1763931276494" />
     </e>
     <e n="EditorRightWithSelection">
-      <i c="1" l="1761933536463" />
+      <i c="9" l="1763110064196" />
     </e>
     <e n="EditorScrollDown">
-      <i c="7" l="1762307032337" />
+      <i c="32" l="1763914855798" />
     </e>
     <e n="EditorScrollToCenter">
       <i c="3" l="1762088830161" />
@@ -163,25 +223,34 @@
       <i c="1" l="1761784694839" />
     </e>
     <e n="EditorSplitLine">
-      <i c="6" l="1761973284976" />
+      <i c="7" l="1763714785279" />
     </e>
     <e n="EditorStartNewLine">
-      <i c="7" l="1762081150266" />
+      <i c="19" l="1763913634200" />
     </e>
     <e n="EditorTab">
-      <i c="17" l="1762087687052" />
+      <i c="26" l="1763931268767" />
+    </e>
+    <e n="EditorTabsEntryPoint">
+      <i c="2" l="1763887664037" />
     </e>
     <e n="EditorToggleInsertState">
-      <i c="10" l="1761994904212" />
+      <i c="26" l="1763925901052" />
     </e>
     <e n="EditorUp">
-      <i c="708" l="1762307305212" />
+      <i c="1395" l="1763927848388" />
+    </e>
+    <e n="EditorUpWithSelection">
+      <i c="7" l="1763192388303" />
+    </e>
+    <e n="Exit">
+      <i c="1" l="1763930351842" />
     </e>
     <e n="ExternalSystem.HideProjectRefreshAction">
       <i c="2" l="1761311288207" />
     </e>
     <e n="ExternalSystem.ProjectRefreshAction">
-      <i c="32" l="1761944605581" />
+      <i c="65" l="1763931058606" />
     </e>
     <e n="ExtractFunction">
       <i c="1" l="1761661850921" />
@@ -190,67 +259,115 @@
       <i c="1" l="1760888900102" />
     </e>
     <e n="Find">
-      <i c="2" l="1762082478151" />
+      <i c="22" l="1763915365329" />
     </e>
     <e n="FindNext">
-      <i c="2" l="1762084030435" />
+      <i c="3" l="1762927619688" />
     </e>
     <e n="FindUsages">
-      <i c="4" l="1761910187351" />
+      <i c="5" l="1763405865985" />
     </e>
     <e n="Floating.CodeToolbar.Extract">
-      <i c="5" l="1761788507502" />
+      <i c="12" l="1763571455822" />
     </e>
     <e n="Floating.CodeToolbar.Surround">
-      <i c="2" l="1761914952285" />
+      <i c="10" l="1763928663893" />
     </e>
     <e n="Generate">
       <i c="1" l="1762086686070" />
     </e>
     <e n="Git.Commit.And.Push.Executor">
-      <i c="5" l="1762089811639" />
+      <i c="20" l="1763984253104" />
+    </e>
+    <e n="Git.Log">
+      <i c="1" d="1" l="1763651107450" k="1763651107450" />
     </e>
     <e n="Github.Share">
       <i c="1" l="1761018386153" />
     </e>
     <e n="GotoAction">
-      <i c="10" l="1762085344250" />
+      <i c="31" l="1763931757573" />
     </e>
     <e n="GotoClass">
-      <i c="76" l="1762307365384" />
+      <i c="196" l="1763959328682" />
     </e>
     <e n="GotoDeclaration">
-      <i c="242" l="1762307653651" />
+      <i c="550" l="1763931374358" />
     </e>
     <e n="GotoFile">
-      <i c="24" l="1762306902402" />
+      <i c="76" l="1763930050410" />
+    </e>
+    <e n="GotoImplementation">
+      <i c="1" l="1763915196098" />
+    </e>
+    <e n="GotoLine">
+      <i c="1" l="1762882137377" />
+    </e>
+    <e n="GotoRelated">
+      <i c="1" l="1763915200018" />
     </e>
     <e n="GotoTypeDeclaration">
       <i c="2" l="1761659221829" />
     </e>
     <e n="Gradle.ExecuteTask">
-      <i c="1" d="1" l="1760989812244" k="1760989812244" />
+      <i c="7" d="7" l="1763755247283" k="1763755247283" />
     </e>
     <e n="HideAllWindows">
-      <i c="2" l="1761327409842" />
+      <i c="6" l="1763892518797" />
     </e>
     <e n="Images.SetBackgroundImage">
-      <i c="3" l="1760888806648" />
+      <i c="4" l="1763879855806" />
     </e>
     <e n="InsertInlineCompletionAction">
-      <i c="8" l="1762307564294" />
+      <i c="60" l="1763932179670" />
+    </e>
+    <e n="InsertLiveTemplate">
+      <i c="1" l="1763405282612" />
+    </e>
+    <e n="InvalidateCaches">
+      <i c="1" l="1763754401414" />
     </e>
     <e n="JumpToLastWindow">
       <i c="2" l="1761920702270" />
     </e>
     <e n="Kotlin.NewFile">
-      <i c="47" l="1762080216654" />
+      <i c="81" l="1763892380247" />
+    </e>
+    <e n="LocalHistory.ShowHistory">
+      <i c="1" l="1763915139757" />
+    </e>
+    <e n="LocalHistory.ShowSelectionHistory">
+      <i c="1" l="1763915117473" />
+    </e>
+    <e n="MaximizeToolWindow">
+      <i c="1" l="1762344354244" />
+    </e>
+    <e n="MoreRunToolbarActions">
+      <i c="2" l="1763489267401" />
+    </e>
+    <e n="MoveStatementDown">
+      <i c="1" l="1763110035372" />
+    </e>
+    <e n="MoveStatementUp">
+      <i c="5" l="1763192390072" />
+    </e>
+    <e n="NewAndroidImageAsset">
+      <i c="3" l="1763931197599" />
+    </e>
+    <e n="NewAndroidVectorAsset">
+      <i c="1" l="1763492651222" />
     </e>
     <e n="NewDir">
-      <i c="8" l="1761914493143" />
+      <i c="24" l="1763931245943" />
+    </e>
+    <e n="NewFile">
+      <i c="2" l="1763692546576" />
+    </e>
+    <e n="NewModuleInGroup">
+      <i c="1" l="1763692519050" />
     </e>
     <e n="NextTemplateVariable">
-      <i c="9" l="1762087276159" />
+      <i c="28" l="1763888523696" />
     </e>
     <e n="OverrideMethods">
       <i c="1" l="1761996988690" />
@@ -273,62 +390,98 @@
     <e n="ProjectView.HideEmptyMiddlePackages">
       <i c="3" l="1761318384371" />
     </e>
+    <e n="ProjectView.ShowScratchesAndConsoles">
+      <i c="3" l="1763307398511" />
+    </e>
+    <e n="ProjectView.ShowVisibilityIcons">
+      <i c="4" l="1763307396101" />
+    </e>
     <e n="QuickDocCopy">
-      <i c="5" l="1762081401260" />
+      <i c="8" l="1763764088707" />
+    </e>
+    <e n="RecentFiles">
+      <i c="1" l="1763400938534" />
+    </e>
+    <e n="RecentLocations">
+      <i c="1" l="1763400941179" />
     </e>
     <e n="RedesignedRunConfigurationSelector">
-      <i c="31" l="1762306916075" />
+      <i c="107" l="1763930044374" />
     </e>
     <e n="RenameElement">
-      <i c="17" l="1762087273442" />
+      <i c="53" l="1763901242645" />
+    </e>
+    <e n="Resume">
+      <i c="6" l="1763914569810" />
+    </e>
+    <e n="RevealIn">
+      <i c="1" l="1763932539025" />
     </e>
     <e n="Run">
-      <i c="400" l="1762306920044" />
+      <i c="958" l="1763932347592" />
     </e>
     <e n="SaveAll">
-      <i c="1909" l="1762307789385" />
+      <i c="5268" l="1763932346169" />
+    </e>
+    <e n="SaveTemporaryRunConfiguration">
+      <i c="1" l="1763763368940" />
+    </e>
+    <e n="ScrollTreeToCenter">
+      <i c="1" l="1762931785157" />
     </e>
     <e n="SearchEverywhere">
-      <i c="14" l="1761928510131" />
+      <i c="51" l="1763915216782" />
     </e>
     <e n="SelectInProjectView">
-      <i c="29" l="1762080646380" />
+      <i c="85" l="1763931328163" />
     </e>
     <e n="SelectMultipleDevices">
-      <i c="1" l="1761944398486" />
+      <i c="2" l="1762888161321" />
     </e>
     <e n="SettingsEntryPoint">
-      <i c="25" l="1762083906546" />
+      <i c="34" l="1763930342823" />
     </e>
     <e n="SettingsSyncStatusAction">
-      <i c="2" l="1761652906953" />
+      <i c="3" l="1762347396445" />
     </e>
     <e n="ShowIntentionActions">
-      <i c="32" l="1762305346585" />
+      <i c="76" l="1763928662973" />
     </e>
     <e n="ShowSettings">
-      <i c="9" l="1762083908138" />
+      <i c="10" l="1763879847705" />
+    </e>
+    <e n="SpeedSearch">
+      <i c="2" l="1763109588781" />
     </e>
     <e n="Stop">
-      <i c="11" l="1761975102406" />
+      <i c="29" l="1763929976788" />
+    </e>
+    <e n="SynchronizeCurrentFile">
+      <i c="3" l="1763466609982" />
     </e>
     <e n="TabList">
       <i c="1" l="1762080884223" />
     </e>
     <e n="Terminal.CopySelectedText">
-      <i c="4" l="1761759595593" />
+      <i c="5" l="1763756905836" />
+    </e>
+    <e n="Terminal.NewTab">
+      <i c="1" l="1763756727731" />
     </e>
     <e n="Terminal.Paste">
-      <i c="6" l="1761759575384" />
+      <i c="12" l="1763757237875" />
     </e>
     <e n="ToggleBookmark">
-      <i c="2" l="1761326367767" />
+      <i c="3" l="1763489198123" />
     </e>
     <e n="ToggleBookmark9">
-      <i c="1" l="1761326309271" />
+      <i c="2" l="1763489193779" />
     </e>
     <e n="ToggleLineBreakpoint">
-      <i c="3" l="1761927797454" />
+      <i c="65" l="1763984244384" />
+    </e>
+    <e n="Tree-selectNext">
+      <i c="1" l="1763931764010" />
     </e>
     <e n="Tree-selectNextExtendSelection">
       <i c="1" l="1760889128733" />
@@ -340,13 +493,25 @@
       <i c="1" l="1762085289993" />
     </e>
     <e n="Vcs.Push">
-      <i c="1" l="1762088964525" />
+      <i c="2" l="1763408334642" />
+    </e>
+    <e n="Vcs.QuickListPopupAction">
+      <i c="1" l="1763887236078" />
+    </e>
+    <e n="Vcs.Show.Log">
+      <i c="2" d="2" l="1763651112055" k="1763651112055" />
+    </e>
+    <e n="Vcs.ShowHistoryForBlock">
+      <i c="1" l="1763915161647" />
     </e>
     <e n="Vcs.ShowTabbedFileHistory">
       <i c="1" l="1761309685018" />
     </e>
     <e n="Vcs.VcsClone">
-      <i c="5" l="1762308105061" />
+      <i c="9" l="1763829906144" />
+    </e>
+    <e n="ViewInplaceComments">
+      <i c="2" l="1763307400356" />
     </e>
     <e n="ViewToolButtons">
       <i c="1" l="1762084990154" />
@@ -355,22 +520,31 @@
       <i c="6" l="1761782785879" />
     </e>
     <e n="WelcomeScreen.OpenProject">
-      <i c="3" l="1760985875160" />
+      <i c="4" l="1763879818685" />
     </e>
     <e n="WelcomeScreen.Plugins">
-      <i c="4" l="1761920795244" />
+      <i c="10" d="1" l="1763930344840" k="1763189907988" />
     </e>
     <e n="WelcomeScreen.RemoveSelected">
-      <i c="1" l="1760985592762" />
+      <i c="2" l="1763879816215" />
     </e>
     <e n="WelcomeScreen.Settings">
-      <i c="2" l="1760887737536" />
+      <i c="3" d="1" l="1763108342315" k="1763108342315" />
+    </e>
+    <e n="XDebugger.AttachToProcess">
+      <i c="1" d="1" l="1763914384940" k="1763914384940" />
     </e>
     <e n="android.device.back.button">
       <i c="8" l="1762085773307" />
     </e>
+    <e n="android.emulator.extended.controls">
+      <i c="1" l="1762888316710" />
+    </e>
+    <e n="com.android.tools.idea.common.editor.DesignToolsSplitEditor$MyToolBarAction">
+      <i c="11" l="1763931262220" />
+    </e>
     <e n="com.android.tools.idea.devicemanagerv2.DeviceManagerPanel$toAnAction$2">
-      <i c="2" l="1761944511960" />
+      <i c="3" l="1762888170336" />
     </e>
     <e n="com.android.tools.idea.editors.liveedit.ui.ConfigureLiveEditAction">
       <i c="2" l="1761928278198" />
@@ -381,8 +555,17 @@
     <e n="com.android.tools.idea.editors.liveedit.ui.LiveEditIssueNotificationAction">
       <i c="6" l="1761928276141" />
     </e>
+    <e n="com.android.tools.idea.gradle.project.upgrade.ProjectUpgradeNotification$1">
+      <i c="1" l="1763753926553" />
+    </e>
+    <e n="com.android.tools.idea.logcat.actions.ClearLogcatAction">
+      <i c="19" l="1763895137737" />
+    </e>
+    <e n="com.android.tools.idea.logcat.actions.CopyMessageTextAction">
+      <i c="1" l="1763308316028" />
+    </e>
     <e n="com.android.tools.idea.logcat.actions.IgnoreTagAction">
-      <i c="40" l="1762000805102" />
+      <i c="85" l="1763568062134" />
     </e>
     <e n="com.android.tools.idea.logcat.actions.LogcatFoldLinesLikeThisAction">
       <i c="2" l="1762000817966" />
@@ -393,14 +576,20 @@
     <e n="com.android.tools.idea.logcat.actions.LogcatFormatModifyViewsAction">
       <i c="4" l="1761923974049" />
     </e>
+    <e n="com.android.tools.idea.logcat.actions.RestartOrReloadLogcatAction">
+      <i c="3" l="1763489281020" />
+    </e>
+    <e n="com.android.tools.idea.preview.actions.PreviewStatusIcon">
+      <i c="1" l="1763913693239" />
+    </e>
     <e n="com.android.tools.idea.run.deployment.selector.SelectDeviceAction">
-      <i c="2" l="1762086049741" />
+      <i c="5" l="1762888474112" />
     </e>
     <e n="com.android.tools.idea.streaming.core.StreamingToolWindowFactory$MoveToWindowAction">
       <i c="1" l="1762085252202" />
     </e>
     <e n="com.android.tools.idea.uibuilder.editor.multirepresentation.TextEditorWithMultiRepresentationPreview$SplitEditorActionDelegate">
-      <i c="5" l="1761805254037" />
+      <i c="10" l="1763913783910" />
     </e>
     <e n="com.codeium.intellij.auth.CodeiumAuthService$maybeShowLoginPrompt$3">
       <i c="1" l="1762084017770" />
@@ -411,17 +600,23 @@
     <e n="com.codeium.intellij.auth.LogoutAction">
       <i c="1" d="1" l="1762084240249" k="1762084240249" />
     </e>
+    <e n="com.codeium.intellij.chat_window.OpenChatWindowAction">
+      <i c="1" d="1" l="1763490170517" k="1763490170517" />
+    </e>
     <e n="com.codeium.intellij.chat_window.send_to_cascade.SendToCascade">
-      <i c="6" l="1762087858572" />
+      <i c="8" l="1763926816637" />
+    </e>
+    <e n="com.codeium.intellij.command.CommandAction">
+      <i c="1" l="1762927684091" />
     </e>
     <e n="com.intellij.codeInsight.daemon.NavigateAction">
-      <i c="62" l="1762088414953" />
+      <i c="107" l="1763764258635" />
     </e>
     <e n="com.intellij.codeInsight.daemon.impl.DaemonTooltipWithActionRenderer$SettingsActionGroup">
-      <i c="2" l="1761652758709" />
+      <i c="3" l="1763881166652" />
     </e>
     <e n="com.intellij.codeInsight.daemon.impl.DaemonTooltipWithActionRenderer$ShowDocAction">
-      <i c="4" l="1761652762720" />
+      <i c="5" l="1763881167350" />
     </e>
     <e n="com.intellij.codeInsight.daemon.impl.DaemonTooltipWithActionRenderer$addActionsRow$2">
       <i c="2" l="1761325575337" />
@@ -432,14 +627,32 @@
     <e n="com.intellij.diff.tools.fragmented.UnifiedDiffViewer$MyToggleExpandByDefaultAction">
       <i c="1" l="1761309712311" />
     </e>
+    <e n="com.intellij.execution.actions.RunSpecifiedConfigExecutorAction">
+      <i c="8" l="1763929405077" />
+    </e>
+    <e n="com.intellij.execution.actions.StopProcessAction">
+      <i c="1" l="1763108322613" />
+    </e>
     <e n="com.intellij.execution.ui.PinConfigurationAction">
-      <i c="2" l="1760889085165" />
+      <i c="6" l="1763763361769" />
+    </e>
+    <e n="com.intellij.execution.ui.RunToolbarPopupKt$createCurrentFileWithInlineActions$2">
+      <i c="3" l="1763751742673" />
     </e>
     <e n="com.intellij.execution.ui.RunToolbarPopupKt$createRunConfigurationWithInlines$2">
-      <i c="12" l="1762306919113" />
+      <i c="34" l="1763930045016" />
     </e>
     <e n="com.intellij.find.SearchReplaceComponent$CloseAction">
-      <i c="4" l="1762084031553" />
+      <i c="18" l="1763898625133" />
+    </e>
+    <e n="com.intellij.find.editorHeaderActions.NextOccurrenceAction">
+      <i c="32" l="1763888108470" />
+    </e>
+    <e n="com.intellij.find.editorHeaderActions.PrevOccurrenceAction">
+      <i c="5" l="1763888104094" />
+    </e>
+    <e n="com.intellij.find.editorHeaderActions.ToggleMatchCase">
+      <i c="1" l="1763571501903" />
     </e>
     <e n="com.intellij.find.impl.TextSearchContributor$ScopeAction">
       <i c="1" l="1761656216783" />
@@ -451,10 +664,16 @@
       <i c="1" l="1760888774898" />
     </e>
     <e n="com.intellij.ide.actions.ToolWindowViewModeAction">
-      <i c="5" l="1761910097509" />
+      <i c="10" l="1763889238306" />
     </e>
     <e n="com.intellij.ide.actions.runAnything.ui.RunAnythingScrollingUtil$1">
-      <i c="2" l="1760989832379" />
+      <i c="94" l="1763755295277" />
+    </e>
+    <e n="com.intellij.ide.actions.runAnything.ui.RunAnythingScrollingUtil$2">
+      <i c="10" l="1763755300682" />
+    </e>
+    <e n="com.intellij.ide.actions.searcheverywhere.AbstractGotoSEContributor$doGetActions$toggleAction$1">
+      <i c="1" l="1763747677994" />
     </e>
     <e n="com.intellij.ide.plugins.newui.SelectionBasedPluginModelAction$UninstallAction">
       <i c="1" l="1761920801951" />
@@ -466,31 +685,34 @@
       <i c="1" l="1760887315893" />
     </e>
     <e n="com.intellij.notification.NotificationAction$Simple">
-      <i c="1" l="1761332638832" />
+      <i c="3" l="1763829961795" />
     </e>
     <e n="com.intellij.openapi.actionSystem.DefaultActionGroup">
       <i c="1" l="1761659255631" />
     </e>
     <e n="com.intellij.openapi.actionSystem.impl.MoreActionGroup">
-      <i c="5" l="1761943107204" />
+      <i c="8" l="1763491422771" />
     </e>
     <e n="com.intellij.openapi.editor.actions.ScrollToTheEndToolbarAction">
-      <i c="21" l="1762000788096" />
+      <i c="67" l="1763915547524" />
     </e>
     <e n="com.intellij.openapi.editor.impl.EditorMarkupModelImpl$TrafficLightAction">
-      <i c="3" l="1762087792794" />
+      <i c="11" l="1763880205119" />
     </e>
     <e n="com.intellij.openapi.fileEditor.impl.tabActions.CloseTab">
-      <i c="434" l="1762307201237" />
+      <i c="1019" l="1763932393626" />
     </e>
     <e n="com.intellij.openapi.options.newEditor.settings.SettingsFileEditorProvider$GotItAwareCloseTab">
-      <i c="1" l="1762085352378" />
+      <i c="9" l="1763917039768" />
     </e>
     <e n="com.intellij.openapi.project.DumbAwareAction$SimpleDumbAwareAction">
-      <i c="111" l="1762306904708" />
+      <i c="296" l="1763959330628" />
+    </e>
+    <e n="com.intellij.openapi.project.LightEditActionFactory$SimpleLightEditCompatibleAction">
+      <i c="1" l="1763400940037" />
     </e>
     <e n="com.intellij.openapi.ui.DialogWrapper$5">
-      <i c="13" l="1761996692999" />
+      <i c="32" l="1763931110619" />
     </e>
     <e n="com.intellij.openapi.updateSettings.impl.UpdateSettingsEntryPointActionProvider$3">
       <i c="1" l="1761663087885" />
@@ -498,44 +720,59 @@
     <e n="com.intellij.openapi.vcs.ex.LineStatusMarkerPopupActions$ShowLineStatusRangeDiffAction">
       <i c="2" l="1762087526285" />
     </e>
+    <e n="com.intellij.openapi.vcs.ex.LocalLineStatusTrackerImpl$LocalLineStatusMarkerRenderer$RollbackLineStatusRangeAction">
+      <i c="2" l="1763926514283" />
+    </e>
     <e n="com.intellij.openapi.wm.impl.SquareAnActionButton">
       <i c="1" l="1762084969087" />
     </e>
     <e n="com.intellij.openapi.wm.impl.customFrameDecorations.header.toolbar.MainMenuButton$ShowMenuAction">
-      <i c="20" l="1762308007982" />
+      <i c="87" l="1763984294145" />
     </e>
     <e n="com.intellij.openapi.wm.impl.welcomeScreen.WelcomeScreenComponentFactory$4">
-      <i c="3" l="1760887736454" />
+      <i c="4" l="1763882081172" />
     </e>
     <e n="com.intellij.openapi.wm.impl.welcomeScreen.projectActions.ChangeProjectColorAction">
       <i c="2" l="1761783023021" />
     </e>
+    <e n="com.intellij.platform.debugger.impl.frontend.hotswap.HideAction">
+      <i c="1" l="1763914582444" />
+    </e>
     <e n="com.intellij.terminal.frontend.action.SendShortcutToTerminalAction">
-      <i c="82" l="1761759581984" />
+      <i c="458" l="1763757500366" />
     </e>
     <e n="com.intellij.toolWindow.ToolWindowHeader$HideAction">
-      <i c="42" l="1762306936274" />
+      <i c="166" l="1763984249389" />
     </e>
     <e n="com.intellij.toolWindow.ToolWindowHeader$ShowOptionsAction">
-      <i c="9" l="1762083108701" />
+      <i c="18" l="1763889235976" />
     </e>
     <e n="com.intellij.ui.CommonActionsPanel$AddButton">
-      <i c="1" l="1760887750778" />
+      <i c="6" l="1763754149143" />
     </e>
     <e n="com.intellij.ui.CommonActionsPanel$RemoveButton">
-      <i c="2" l="1760887772557" />
+      <i c="9" l="1763755196093" />
     </e>
     <e n="com.intellij.ui.CommonActionsPanel$UpButton">
       <i c="4" l="1760887776151" />
     </e>
+    <e n="com.intellij.ui.NotificationBalloonActionProvider$5">
+      <i c="1" l="1762341597959" />
+    </e>
     <e n="com.intellij.ui.ScrollingUtil$ListMoveDownAction">
-      <i c="145" l="1762305313496" />
+      <i c="245" l="1763914391084" />
     </e>
     <e n="com.intellij.ui.ScrollingUtil$ListMoveUpAction">
-      <i c="9" l="1761834945119" />
+      <i c="26" l="1763887245889" />
     </e>
     <e n="com.intellij.ui.dsl.builder.components.SegmentedButtonAction">
       <i c="16" l="1761782805996" />
+    </e>
+    <e n="com.intellij.ui.tabs.impl.JBTabsImpl$SelectNextAction">
+      <i c="2" l="1763714679997" />
+    </e>
+    <e n="com.intellij.ui.tabs.impl.JBTabsImpl$SelectPreviousAction">
+      <i c="5" l="1763714676420" />
     </e>
     <e n="com.intellij.usages.impl.UsageFilteringRuleAction">
       <i c="2" l="1761659260418" />
@@ -543,17 +780,23 @@
     <e n="com.intellij.usages.impl.UsageViewImpl$ShowSettings">
       <i c="1" l="1761659262119" />
     </e>
+    <e n="com.intellij.xdebugger.impl.actions.EditBreakpointAction$ContextAction">
+      <i c="4" l="1763932099443" />
+    </e>
     <e n="com.intellij.xdebugger.impl.breakpoints.RemoveBreakpointGutterIconAction">
-      <i c="3" l="1761927798146" />
+      <i c="51" l="1763932167552" />
     </e>
     <e n="editRunConfigurations">
-      <i c="5" l="1761715536913" />
+      <i c="24" l="1763898061663" />
     </e>
     <e n="org.intellij.images.editor.actions.BackgroundImageDialog$1A">
-      <i c="1" l="1760888761663" />
+      <i c="2" l="1763879879043" />
+    </e>
+    <e n="org.jetbrains.android.actions.CreateResourceFileActionGroup$3">
+      <i c="2" l="1763931254701" />
     </e>
     <e n="org.jetbrains.android.actions.CreateTypedResourceFileAction">
-      <i c="2" l="1761926092565" />
+      <i c="4" l="1763931104921" />
     </e>
   </component>
 </application>

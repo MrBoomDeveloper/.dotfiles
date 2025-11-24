@@ -1,19 +1,79 @@
 <application>
   <component name="ActionsLocalSummary">
+    <e n="$SelectAll">
+      <i c="4" l="1763959772450" />
+    </e>
+    <e n="$Undo">
+      <i c="7" l="1763958257893" />
+    </e>
     <e n="ActivateProjectToolWindow">
       <i c="2" l="1760887394844" />
+    </e>
+    <e n="EditorBackSpace">
+      <i c="218" l="1763959095884" />
+    </e>
+    <e n="EditorChooseLookupItem">
+      <i c="21" l="1763956561332" />
+    </e>
+    <e n="EditorCopy">
+      <i c="3" l="1763959772716" />
+    </e>
+    <e n="EditorDown">
+      <i c="26" l="1763957052746" />
+    </e>
+    <e n="EditorEnter">
+      <i c="53" l="1763959096473" />
+    </e>
+    <e n="EditorLeft">
+      <i c="83" l="1763956564275" />
+    </e>
+    <e n="EditorNextWord">
+      <i c="3" l="1763956044804" />
+    </e>
+    <e n="EditorPaste">
+      <i c="3" l="1763957444463" />
+    </e>
+    <e n="EditorRight">
+      <i c="40" l="1763957481286" />
+    </e>
+    <e n="EditorTab">
+      <i c="8" l="1763956336195" />
+    </e>
+    <e n="EditorUp">
+      <i c="36" l="1763956284709" />
+    </e>
+    <e n="Exit">
+      <i c="1" l="1763930334034" />
+    </e>
+    <e n="GotoDeclaration">
+      <i c="1" l="1763956097508" />
     </e>
     <e n="Images.SetBackgroundImage">
       <i c="2" l="1760887448381" />
     </e>
+    <e n="LocalHistory.ShowHistory">
+      <i c="1" l="1763958136765" />
+    </e>
+    <e n="NextTemplateVariable">
+      <i c="7" l="1763958482773" />
+    </e>
+    <e n="RenameElement">
+      <i c="9" l="1763958478430" />
+    </e>
     <e n="Run">
-      <i c="1" l="1760887470355" />
+      <i c="16" l="1763959085382" />
+    </e>
+    <e n="SaveAll">
+      <i c="121" l="1763958930349" />
     </e>
     <e n="SettingsEntryPoint">
-      <i c="2" l="1760887443556" />
+      <i c="5" l="1763930360076" />
     </e>
     <e n="ShowSettings">
       <i c="2" l="1760887445568" />
+    </e>
+    <e n="WelcomeScreen.Plugins">
+      <i c="3" l="1763930361510" />
     </e>
     <e n="WelcomeScreen.Settings">
       <i c="1" l="1760887019483" />
@@ -30,6 +90,9 @@
     <e n="com.intellij.openapi.project.DumbAwareAction$SimpleDumbAwareAction">
       <i c="1" l="1760887025415" />
     </e>
+    <e n="com.intellij.openapi.wm.impl.customFrameDecorations.header.toolbar.MainMenuButton$ShowMenuAction">
+      <i c="1" l="1763930332591" />
+    </e>
     <e n="com.intellij.openapi.wm.impl.welcomeScreen.ActionGroupPanelWrapper$6">
       <i c="2" l="1760887367325" />
     </e>
@@ -37,10 +100,16 @@
       <i c="1" l="1760887017331" />
     </e>
     <e n="com.intellij.toolWindow.ToolWindowHeader$HideAction">
-      <i c="1" l="1760887389741" />
+      <i c="3" l="1763957544773" />
     </e>
     <e n="com.intellij.ui.components.BasicOptionButtonUI$ActionDelegate">
       <i c="1" l="1760887348249" />
+    </e>
+    <e n="com.jetbrains.rider.actions.RiderAWTEventPostResponseProcessorAction">
+      <i c="1" l="1763957054823" />
+    </e>
+    <e n="com.jetbrains.rider.actions.RiderActionUpdateInterceptor$RiderBackendCompositeAction">
+      <i c="11" l="1763958478426" />
     </e>
     <e n="org.intellij.images.editor.actions.BackgroundImageDialog$1A">
       <i c="1" l="1760887435281" />

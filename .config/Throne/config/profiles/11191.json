@@ -1,0 +1,49 @@
+{
+    "bean": {
+        "_v": 0,
+        "addr": "fl-3-direct.djarbnet.ru",
+        "brutal_speed": 0,
+        "c_cfg": "",
+        "c_out": "",
+        "enable_brutal": false,
+        "flow": "",
+        "mux": 0,
+        "name": "🔥Join+Telegram:@Farah_VPN🟣",
+        "pass": "cc67ca7f-064e-4117-ac31-a66d5728a11c",
+        "port": 443,
+        "stream": {
+            "alpn": "",
+            "cert": "",
+            "ed_len": 0,
+            "ed_name": "",
+            "h_type": "",
+            "headers": "",
+            "host": "fl-3-direct.djarbnet.ru",
+            "insecure": false,
+            "method": "",
+            "net": "ws",
+            "pac_enc": "xudp",
+            "path": "/getupdates",
+            "pbk": "",
+            "sec": "tls",
+            "sid": "",
+            "sni": "fl-3-direct.djarbnet.ru",
+            "tls_frag": false,
+            "tls_frag_fall_delay": "",
+            "tls_record_frag": false,
+            "utls": "chrome"
+        }
+    },
+    "country": "",
+    "dl": "",
+    "gid": 1,
+    "id": 11191,
+    "report": "",
+    "traffic": {
+        "dl": 25366147,
+        "ul": 960749
+    },
+    "type": "vless",
+    "ul": "",
+    "yc": -1
+}

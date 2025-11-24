@@ -8,7 +8,6 @@
 configuration {
 	modi: "drun";
 	scroll-method: 1;
-	transient-window: true;
 
 	tokenize: true;
 	matching: "normal";

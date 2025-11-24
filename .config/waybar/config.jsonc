@@ -1,29 +1,28 @@
 {
 	"layer": "top",
 	"position": "top",
-	"height": 30,
+	"height": 24,
 	"spacing": 1,
 	"reload_style_on_change": true,
 	
 	"modules-left": [
-		"hyprland/workspaces",
-		"tray",
-		"mpris"
+		"battery",
+		"memory",
+		"cpu",
+		"temperature"
+	],
+
+	"modules-center": [
+		"hyprland/workspaces"
 	],
 
 	"modules-right": [
-		"temperature",
-		"cpu",
-		"memory",
-		"battery",
+	    "hyprland/language",
 		"bluetooth",
 		"network",
 		"pulseaudio",
 		"backlight",
-		"hyprland/language",
-		"clock",
-		"custom/notifications",
-		"custom/power"
+		"clock"
 	],
 
 	"backlight": {
@@ -34,23 +33,23 @@
 	},
 
 	"hyprland/language": {
-		"format": "{}",
+		"format": "{}   ",
 		"format-en": "English",
 		"format-ru": "Russian",
 		"keyboard-name": "ganss-usb-keyboard"
 	},
 	
 	"hyprland/workspaces": {
-        	"all-outputs": true,
+        "all-outputs": true,
 		"move-to-monitor": true,
 		"format": "{icon}"
 	},
 
 	"bluetooth": {
 		"format-on": "Bluetooth ",
-		"format-off": "Bluetooth ({status}) ",
+		"format-off": "",
 		"format-connected": "{device_alias} ",
-		"format-connected-battery": "{device_alias} {device_battery_percentage}% ",
+		"format-connected-battery": "{device_alias} {device_battery_percentage}%  ",
 		"format-device-preference": [ "ugreen_1", "ugreen_2" ],
 		"tooltip-format": "{controller_alias}\t{controller_address}\n\n{num_connections} connected",
 		"tooltip-format-connected": "{controller_alias}\t{controller_address}\n\n{num_connections} connected\n\n{device_enumerate}",
@@ -75,15 +74,15 @@
 	},
 
 	"tray": {
-		"icon-size": 14,
-		"spacing": 12,
+		"icon-size": 13,
+		"spacing": 14,
 		"show-passive-items": true
 	},
 
 	"clock": {
 		"interval": 60,
 		"timezone": "Etc/GMT-5",
-		"format": "{:%H:%M}",
+		"format": "{:%H:%M}  ",
 		"tooltip-format": "<tt><small>{calendar}</small></tt>",
 
 		"calendar": {

@@ -9,6 +9,19 @@
       "event_id" : [ "{enum:screen.reader.detected|screen.reader.support.enabled|screen.reader.support.enabled.in.vmoptions}" ]
     }
   }, {
+    "id" : "accessibility.tools.state",
+    "builds" : [ ],
+    "versions" : [ {
+      "from" : "1"
+    } ],
+    "rules" : {
+      "event_id" : [ "{enum:screen.reader|screen.magnifier|voice.control|os.high.contrast}" ],
+      "event_data" : {
+        "enabled" : [ "{enum#boolean}" ],
+        "name" : [ "{enum:NVDA|JAWS|VoiceOver|Orca}", "{enum:WindowsMagnifier|MacOSZoom}", "{enum:WindowsVoiceAccess|MacOSVoiceControl}" ]
+      }
+    }
+  }, {
     "id" : "action.group.popup",
     "builds" : [ ],
     "versions" : [ {
@@ -222,7 +235,7 @@
         "tokens_consumed" : [ "{regexp#integer}" ]
       },
       "enums" : {
-        "__event_id" : [ "chat_created", "message_edited", "toolwindow_opened", "model_removed", "chat_history_cleared", "chat_removed", "message_regenerated", "prompt_parameters_set", "add_provider_dialog_open", "chat_opened", "chat_renamed", "chat_closed", "provider", "prompt_submitted", "model_added", "manage_providers_opened", "message_completed", "env_api_keys_added", "line_marker_click", "env_api_keys_dialog_canceled", "line_marker_shown", "env_api_keys_dialog_shown" ]
+        "__event_id" : [ "chat_created", "message_edited", "toolwindow_opened", "model_removed", "chat_history_cleared", "chat_removed", "message_regenerated", "prompt_parameters_set", "add_provider_dialog_open", "chat_opened", "chat_renamed", "chat_closed", "provider", "prompt_submitted", "model_added", "manage_providers_opened", "message_completed", "env_api_keys_added", "line_marker_click", "env_api_keys_dialog_canceled", "line_marker_shown", "env_api_keys_dialog_shown", "inlay_hint_hovered", "inlay_hint_shown", "inlay_hint_click", "intention_click", "inlay_hint_disabled", "inlay_hint_right_click", "inlay_hint_enabled" ]
       }
     }
   }, {
@@ -1476,7 +1489,8 @@
     "id" : "clion.ab.test",
     "builds" : [ ],
     "versions" : [ {
-      "from" : "1"
+      "from" : "1",
+      "to" : "2"
     } ],
     "rules" : {
       "event_id" : [ "{enum:plugin.chosen}" ],
@@ -1493,7 +1507,7 @@
     "rules" : {
       "event_id" : [ "{enum:flavor.detected|flavor.changed.to|cmake.reloaded}" ],
       "event_data" : {
-        "flavor_type" : [ "{util#class_name}" ],
+        "flavor_type" : [ "{util#class_name}", "{enum:CMakePlainProjectFlavor|CMakeWestFlavor}" ],
         "plugin" : [ "{util#plugin}" ],
         "plugin_type" : [ "{util#plugin_type}" ],
         "plugin_version" : [ "{util#plugin_version}" ]
@@ -1739,6 +1753,7 @@
         "buildType" : [ "{enum:Default|Debug|Release|RelWithDebInfo|MinSizeRel}" ],
         "emptyGenerationOptions" : [ "{enum#boolean}" ],
         "enabled" : [ "{regexp#integer}", "{enum#boolean}" ],
+        "flavorType" : [ "{enum:CMakePlainProjectFlavor|CMakeWestFlavor}" ],
         "fromPreset" : [ "{enum#boolean}" ],
         "hasAdditionalEnvironment" : [ "{enum#boolean}" ],
         "hasCustomBuildOptions" : [ "{enum#boolean}" ],
@@ -1753,8 +1768,11 @@
         "passSystemEnvironment" : [ "{enum#boolean}" ],
         "similarProfilesPercent" : [ "{regexp#integer}" ],
         "toolchain" : [ "{enum:default|MinGW|Cygwin|Visual Studio|WSL|System|System|Remote Host|Docker}" ],
-        "toolchainKind" : [ "{enum:unknown|MinGW|Cygwin|Visual Studio|WSL|System|System|Remote Host|Docker}" ],
+        "toolchainKind" : [ "{enum:unknown|MinGW|Cygwin|Visual Studio|WSL|System|System|Remote Host|Docker}", "{enum#__toolchainKind}" ],
         "total" : [ "{regexp#integer}" ]
+      },
+      "enums" : {
+        "__toolchainKind" : [ "SYSTEM_WINDOWS_TOOLSET", "DOCKER", "SYSTEM_UNIX_TOOLSET", "CYGWIN", "MSVC", "SSH", "MINGW" ]
       }
     }
   }, {
@@ -1768,6 +1786,21 @@
       "event_data" : {
         "lines_selected" : [ "{regexp#integer}" ],
         "top_to_bottom" : [ "{enum#boolean}" ]
+      }
+    }
+  }, {
+    "id" : "code.insight.context",
+    "builds" : [ ],
+    "versions" : [ {
+      "from" : "1"
+    } ],
+    "rules" : {
+      "event_id" : [ "{enum:context_report|shared_source_support_enabled}" ],
+      "event_data" : {
+        "context_number" : [ "{regexp#integer}" ],
+        "enabled" : [ "{enum#boolean}" ],
+        "file_number" : [ "{regexp#integer}" ],
+        "file_type" : [ "{util#file_type}" ]
       }
     }
   }, {
@@ -2097,12 +2130,18 @@
         "additional.rust_cargo_new_terminal_descriptor" : [ "{enum:MODULE|FUNCTION}" ],
         "additional.self_type_compatible" : [ "{enum#boolean}" ],
         "additional.spellchecker" : [ "{enum#boolean}" ],
+        "additional.terminal_command" : [ "{enum:<relative path>|<absolute path>|<empty>|<whitespaces>|ksh|doctl|blockdev|puppetserver|gcloud-sdk|postman|pick|tee|twint|redis-cli|mesosphere|eksctl|nova|cdb|hashicorp-vault|cdf|abrt-action-notify|liquidctl|groot|cproto|cdk|gunicorn|ldapmodify|rosrun|xdg-open|base32|wing|nats-server|xsltproc|kubevela|terraform-lsp|trellis|xrandr|unrar|hubble|typeorm|openebs|terragrunt|connect|mdfind|jarsigner|pluto|cfn|i3blocks|j|n|prettier|q|r|containerd-shim|parquet-tools|adduser|bash-completion|rojo|w|debootstrap|scrollphat|kwok|arch|bibtex|appman|hexo|ansible-lint|kubens|conan|lttng|xinput|ncal|tig|hashpump|semver|pigz|ncat|export|gpg|rome|abrt-action-analyze-backtrace|jcmd|ocamlopt|chezmoi|ccal|pax|check|bitrise|eval|brunch|quickmail|ccat|devspace|abrt-action-analyze-oops|zabbix-cli|minio|mkdocs|nodejs|caffeine|prop-types|pbcopy|prisma|tkn|conda|gkrellm|simplehttp2server|bochs|abrt-applet|geoserver|diff-so-fancy|vroom|twine|git-flow|pdb|ecryptfs|argo|orc-tools|service|coffee|tetragon|awsume|splash|copypath|xclip|ocrmypdf|atlas|systeminfo|argocd|inotifywait|ansible-vault|nces|agrippa|peg|xprop|dscl|powerman|sass|flow|aws-vault|umount|clj|unalias|linuxdeployqt|clp|ros2|cls|angular|deja-dup|install|ncdu|lightning-cli|tns|caffeinate|clilol|cmd|gum|zsh-autosuggestions|remix|nmcli|wait|groff|jsdoc|a2ensite|clojure|ping|cdk8s|pip3|oh-my-posh|vcpkg|goto|scully|top|rails|scriptreplay|tor|cadvisor|opkg-install|cni|gvm|json-server|tempo-cli|quilt|spinnaker|alacritty|xxd|calibre|flickity|homebrew|agave|mdls|sha1sum|php|cog|codesign|diff3|oh-my-zsh|ocamlc|xenserver|col|procs|backupninja|coq|debugfs|steward|s6-svstat|base64|ip6tables|cot|mocha|unexpand|liquibase|gleam|dotslash|pip|dhcpdump|flyway|xmodmap|airflow|less|ulimit|emctl|gyb|werf|zapier|kubevirt|irssi|jhat|locate|tsc|llvm-objdump|tsh|ccls|dprint|lcc|pkg|automake|tracepath|combinepdf|pm2|heroku|tsx|flux|chmod|floor|mftrace|mblaze|custodian|dmesg|whence|plantuml|cry|ldd|s6-svscan|kinit|ops-manager|pipx|tty|csh|taskkill|ply|sketch|wall|lame|degit|realpath|aapt|kubefwd|cfn_nag|hostname|sfdx|whereis|cfn-lint|ntop|let|svokit|cargo|arm-none-eabi-gcc|graphcdn|sapphire|ctr|amazon-ssm-agent|tracert|vmware|taskmgr|bamboo|ignite-cli|mpack|groovy|molecule|ctop|mosquitto_pub|memcached|cut|pod|lualatex|harfbuzz|screenshot|trackball|lbzip2|ansible|clay|celery|networkctl|kops|encrypt|sidekiq|markdown|pow|cvm|kitchen|lesspipe|abrt-action-analyze-ccpp|istioctl|jconsole|nats-streaming-server|ettercap|cvs|karma|think|coffeescript|daemonize|apt-key|jackd|northflank|imgur-screenshot|librarian|asyncapi|install-sh|yat|phpunit|perlbrew|kool|charm|watch|sassc|abrt-action-generate-core-backtrace|bison|cpio|rustc|unittest|source|tilt|ncurses|netsh|dos2unix|logstash|openfaas-cli|knot-resolver|ndisasm|bashdb|homey|code-insiders|stencil|openfortivpn|openconnect|espanso|last|aisleriot|lastpass|rosbag|pro|lrun|smimesign|vmctl|cmocka|pathping|jsonlint|shopt|speedtest-cli|gtk-launch|snaplet|linode-cli|nixops|httpstat|readlink|exuberant-ctags|libinput|aria2c|wifi-password|erlang|gphoto2|erlc|sbcl|hcp|attrib|buildah|autoexpect|yed|keybase|perl|prometheus|platformio|hyperfine|encfs|start|bash-it|tmux|pushd|goproxy|hadolint|watson|time|app-builder|editcap|ovs-vsctl|sha256sum|dirname|three|redis|python3|mmls|truncate|flatpak|trap|kpack|add-apt-repository|twiggy|openapi|mergemachine|iperf|multivault|fish_config|vue-cli|localstack|light|mirrord|tfmigrate|jenkins-cli|kubescape|tccutil|ldapdelete|pwd|zsh-completions|rsnapshot|dotnet|bmon|log|gcloud|cobalt|seesaw|ngrok|unzip|fuse|openjdk|arduino|concourse|cavif|ecryptfs-recover-private|clion|jfsck|ledger|asciidoctor|glTF-SDK|clif|proj|sshd|wrangler|litecli|capacitor|fluentd|kubesec|pbench|stepzen|cbconsole|garden|gpgkey2ssh|apt-get|mkfifo|quick|compact|circleci|cucumber|trex|medusa|clean-css|drush|g++-multilib|datadog-agent|hasura|figlet|ammonite|wezterm|playwright|appium-doctor|zulip|netplan|dagit|xargs|gatsby|ccze|format|ipatool|tree|blkid|history|done|copyfile|pause|podman-compose|languagetool|dnsmasq|qmake|dbt|espctl|lsd|dnscrypt-proxy|gtop|shutdown|soap|critical|dcd|vtex|asar|virt-manager|xfsprogs|cloc|opa-envoy|ykman|bunyan|cwebp|alias|chage|theia|proof-general|ipadm|gopherjs|debug|ddd|pytest|git-profile|juju|regtest|chef|clear|banner|sysdig-cli-scanner|clean|fbset|create-next-app|mdoclint|dotenv|arkade|dateseq|glab|git-extras|lua|dhcpstarv|travis|kubeseal|openid-connect|globus|beep|tsuru|stack|xvfb|hb-service|ethtool|quarkus|ufw|abrt-action-analyze-python|del|intellij|elm-json|elastic-agent|luz|beadm|ffplay|dex|telnet|asdf|railway|badblocks|atlantis|lvm|pass|pyenv|savelogs|netcat-traditional|route|defaults|jshint|softwareupdate|ftrace|sftp|opkg-cl|gomobile|rgrep|xcodebuild|berkshelf|semgrep|hop|cpphs|pnpm|minu|rustup|mint|spark|lxc|lxd|oculus|cdbs|pocketbase|netcat|tail|dehydrated|lz4|serverless|staff|wsdd|usermod|genymotion|gometalinter|espeak|ganache-cli|rsync|wireguard-tools|pylint|timidity|fuzz|dig|autossh|jmap|abrt-action-analyze-vmcore|kafkacat|dir|spark-submit|arm-none-eabi-size|linuxdeploy|shfmt|vault|info|dolphin|test|samtools|flatcar-installer|netstat|graph|linkerd-top|pnpx|rancher-desktop|locust|arangosh|qrcode|ecs-cli|entr|osc-cli|title|bjarne|mavintegration|yum|cilium|mpg123|redshift|cppcheck|solr|gpg-connect-agent|dcat|connect-proxy|just|apt-mark|scantailor|poetry|prince|doskey|critest|appium|lscpu|solc|babl|mkinitcpio|start-storybook|xauth|reflex|hub|s6-tcpserver|defaultbrowser|googler|copilot|egrep|bridgecrew|convert|kitten|s4cmd|sstp-client|editorconfig|pgrep|dnf|gauge|python|qtcreator|meld|xcopy|genkernel|choosenim|brew|ghci|explorer|dog|react-native|lftp|akonadictl|glances|credo|awscli|nuke|file|chsh|idevicesyslog|dash-cli|i3status|man|map|mas|midnight-commander|steadybit|logrotate|asmc|crictl|sockit|sops|torch|bless|gatling|lazydocker|tangram|helmfile|cmatrix|socat|scaffold|lolcat|otel|podman-remote|firectl|okta|beanstalkd|emoji|golangci-lint|mail|serve|chkdsk|fastlane|blade|pkill|linkerd|gtable|find|host|hashcat|klist|podman|nginx|create-remix|pulumi|winrm|sort|lsof|nomad|pbpaste|trash|blitz|astro|task|mdp|wscat|ansible-pull|bt-monitor|sitecake|glow|mdv|apktool|sw_vers|libuv|linklint|derek|openjdk-jre|galera_new_cluster|tmutil|ora2pg|repeat|vampire|vpnc|k3sup|dtm|aliyun|make|rushx|broot|step-ca|nohup|kctl|pg_restore|kotlin|stern|ruby|uptime|nix-env|bake|bulk-extractor|curl|pymol|osqueryi|dynatrace|supervisord|tfsec|virtctl|dcli|loki|cf-cli|whatis|git-crypt|orbit|nmap|jinfo|solidity|netctl|bcmath|taskctl|xdg-mime|ebtables|regex|metasploit|passwd|a2enmod|llvm-strings|dwm|saron|fasttext|openscad|scan|depstar|global|masscan|update-alternatives|jmeter|jupyter|mermaid|buildctl|mknod|man-db|eiffel|sumocli|free|mix|stat|qri|milpa|msmtp|ruff|fish|amazon-efs-utils|babel|kustomize|open|agent|x11vnc|nvidia-docker|qemu|fail2ban|shellenv|rustfmt|tesseract|dumpcap|zed|mysql|create-video|android-tools|crane|cradle|pwsh|kubectx|daemon|gource|mlr|dropbox|kubectl|minicom|heroku-cli|mongo|gulp|mmc|class-dump|newman|ranger|digiKam|opkg|ldapadd|nuxi|mmv|ionic|authchanger|glusterfs|iex|hbase|git-subrepo|mask|protoc|supervisorctl|lstat|iconv|sceptre|scdl|gcsfuse|nerdctl|sublist3r|iftop|abigen|apt-cache|taplo|mongoimport|minikube|bash|neovim|step|growingio|certbot|osascript|mob|abrt-cli|monit|okteto|svtplay-dl|enable|pmset|dctl|zig|mpd|zip|mpc|xcodeproj|gedit|cloudflare|pacman|os-prober|appstreamcli|nuxt|spectrum|trivy|tizonia|kubebuilder|openstack|comms|abduco|kudo|wget|preset|iio|jruby|eslint|fortio|ncrack|oath-toolkit|dfu-util|eas|megacli|gifsicle|syncthing-cli|chaos-mesh|kubecfg|uuidgen|faas-cli|ansible-inventory|shellcheck|cfssl|nginx-debug|psql|mlflow|nocorrect|dmitool|quasar|bokeh|dnstracer|nativescript|speedtest|wmctrl|aliases|float|mailx|symfony|ecj|nifi|afplay|space|p10k|mavproxy|unison-fsmonitor|softu2f|unshare|autojump|minectl|slapd|dfu-programmer|gmailctl|edb|laravel|ver|berks|maven|msfconsole|qutebrowser|pageres|uncrustify|pssh|ts-node|cloudsql-proxy|lighttpd|chaoskube|jstat|dscacheutil|kube-score|vectr|findmnt|circuitbreaker|brotli|openhab-cli|bdf2psf|buildozer|aggregate|suitecloud|pandoc|paper|whois|clojurescript|htop|abrt-action-analyze-c|urxvt|augeas|fortune|mongocli|mvn|pdfgrep|dircolors|bikeshed|mongorestore|chisel|nmon|rush|swiftlint|command|k0s|colordiff|zlib|aptly|ssh-keygen|bpftrace|weave|chartmuseum|g++|popd|calicoctl|epubcheck|cvs2git|neat|near|nvcc|vim|kibana|packer|diffpdf|polarion|dconf|zshrc|browsertime|guake|volta|obxprop|opkg-key|shasum|k3d|stow|nativefier|k3s|skaffold|zsh|sleep|promtool|arm-linux-gnueabihf-gcc|irb|do-release-upgrade|aws-okta|lpass|cisco|lsblk|kdoctor|ghcup|fasd|terramate|signify|csvkit|memtester|opkg-update|concurrency|cypress|drawio|jenv|fast|libtool|flips|haproxy|emerge|ipconfig|tmuxinator|basenc|fleet|gsettings|iso|foreman|logcat|turbo|ack|create-web3-frontend|apachectl|asm2wasm|spring|stty|act|riak|reg|duck|shred|tfswitch|addr2line|mongoexport|adb|artillery|gibo|swift|itk|xattr|chown|cmus|elm|e2fsck|adr|js-beautify|users|flink|gmic|cryptsetup|overmind|ninja|port|obfsproxy|noglob|datafusion|http|meshery|onboardbase|spring-boot|github-desktop|tofu|exec|xcodes|anchore|solana|ifconfig|paste|stivale|fluent-bit|macpass|torsocks|byobu|vagrant|xsel|nsenter|nvim|airspec|cipher|jake|rich|rick|cobaltstrike|env|jest|bce-command|neofetch|flyctl|tuist|kubecolor|aircrack-ng|micro|visudo|ddosify|age|ionice|backup|c++|colima|k9s|slim|sanity|xcrun|truffle|bzip2|terragrunt-infra|fisher|bitwarden|qodana|eject|cookiecutter|slack|xkill|ddev|numfmt|unarchiver|palera1n|doxygen|nhost|aglio|script|exit|rlwrap|valet|knative|abrt-action-analyze-xorg|nvidia-smi|ibus|openshift|login|rke|pacman-key|rspec|django-admin|aftman|can-utils|resty|erb|ncl|ncm|ncp|rkt|nco|blade-cli|kubeshark|clockdiff|chruby|ncu|vapor|zoxide|poweroff|aspell|gzip|ttfautohint|balena|sharp|elastic-apm|csvsql|esc|mamba|cmake|s3cmd|atop|babel-traverse|mosquitto_sub|mysqlimport|envsubst|etcd|git-tfs|git-cliff|vue|cfn-nag|jabba|odin|screen|pdfinfo|imagemagick|mode|eventcreate|assoc|llvm-ar|ffmpeg|net|mdadm|arm-none-eabi-objcopy|cryfs|touch|yadm|datree|kubetail|rosbuild|minetest|basename|capistrano|flightplan|nickle|uniq|mock|zellij|cdktf|iptables|elixir|kubeverify|fsck|ansible-galaxy|zipcloak|kitty|gopls|hcloud|grunt|cairo-dock|updatedb|ctrun|cloudflared|ltsp|ros|expr|imapfilter|spark-shell|expo|magento|neon|ant|flagger|msgfmt|dockviz|goctl|rpm|bettercap|openshift-install|vscode|vagrant_cloud|cacert|bibtool|terrascan|until|xcode-select|shift|wt.exe|echo|hwinfo|jad|exa|java|cordova|slush|bpytop|mpstat|graphviz|abrt-harvest-vmcore|subl|nix|lctl|apk|exo|claudia|apport-cli|cdargs|rtorrent|apt|ssh-add|iperf3|subst|openresty|mount|gitea|toilet|matplotlib|deployctl|telepresence|snakemake|kcadm|bloaty|yalc|lazygit|smtpd|launchctl|checkinstall|arc|envoy|filezilla|mojo|watchman|modprobe|where|ark|nala|sudo|arp|linuxbrew|strace|black|jdb|meteor|exiftool|nest|tailscale|bower|brightnessctl|ccache|gradle|calm|claws-mail|argo-rollouts|calc|xorriso|asr|hyperspace|hugo|nano|run|openapi-generator-cli|turbot|atc|stripe|create-react-app|dust|glib-genmarshal|cron|octave|rosdep|buildkite-agent|rvm|jsrun|openjdk-java|croc|camo|drone|camp|mdbook|flutter|consul|crow|dockerd|ltrace|bolt|migrate|next|gitleaks|import|binwalk|yapf|android|remotion|rbenv|cosmic-ray|faas-idler|mftutil|now|opennebula-cli|mkfs|ffprobe|hadoop|factor|waf|abrt-retrace-client|rack|grep|geoiplookup|gitk|npm|grex|slurm|mysqlpump|what|awk|npx|cloudctl|aws|pkgutil|yank|play|yard|llvm-nm|fping|gdbserver|rollup|git-secret|logout|mackup|crush|powershell|electron|ssh-keyscan|mikro-orm|galen|nrm|fbi|trunk|jjs|datamash|zappa|civicrm|ansible-doc|nats|stardog|mosh|azcopy|guard|repo|apport-unpack|gmusicbrowser|gometalinter.v2|bosh|kafkactl|julia|datadog|aptitude|sendmail|amass|spacevim|caprover|jshell|stress|grip|makecert|tornado|ibmcloud|keda|more|prezto|cosign|esptool|kill|redis-server|run-parts|elm-format|exercism|codium|pidgin|rebar|corkscrew|eleventy|parted|ttyrec|pscale|yarn|php-fpm|goimports|pidcat|tinkerbell|jmc|clinfo|krb5|cfn-validate|cloud-nuke|facter|bazel|sha512sum|webpack|fzf-tmux|trash-cli|plex|hyper|mergerfs|ksync|rain|kindctl|restic|nvm|kind|tracee|abrt-action-save-package-data|tfenv|opencpu|chef-run|epmd|lerna|vimr|clusterctl|gparted|httpie|nslookup|alpine|git-svn|kubebench|abrt-action-trim-files|ssh-agent|who|sqlite3|shortcuts|captain|flake8|libguestfs|highlight|rscript|parallel|expo-cli|fsharp|airstrike|doppler|simctl|iputils|sam|sonobuoy|rest|move|yamllint|mongosh|autotune|saw|unix2dos|abrt-server|oclock|puppet|fastapi|nyc|zsh-history-substring-search|build-storybook|nccopy|rake|glslangValidator|unbound|nym|virsh|fig|ipfs|rclone|deltacopy|fin|cmdtest|tanzu|killall|robot|scc|bat|draft|pagekite|mkdir|prowl|swagger-typescript-api|scp|ab|ac|cicada|lynx|ag|scw|antlr|diff|maigret|elif|sdb|ar|fastx-toolkit|fold|as|at|gitlab-runner|envchain|az|gron|tasklist|rackspace-cli|bc|bcd|be|bce|bg|cxxtestgen|bch|jsp|pacaur|anyenv|bcp|drain|smee|br|javadoc|bt|hardhat|sed|vela|vite|xfs_repair|firecracker|selenium|bw|renice|seq|tailwindcss|cc|cd|cf|set|systemd|vimdiff|ci|jobs|column|kswitch|midori|mpeg123|krew|firebase|cp|goreleaser|fly|ccrypt|cv|ecspresso|cloudfoundry|create-t3-app|decipher|sdiff|dc|dd|dockerd-rootless|encode|venv|df|javac|kclean|dompdf|sonar-scanner|duplicity|pgbench|pdfunite|sequelize|do|bshed|fastboot|fmt|tunnelblick|javap|eclim|du|enlighter|browserify|dx|dy|cypher-shell|thanos|eb|ed|which|bfg|cscope|etcdctl|fnm|containerd|polaris|scrub|protofmt|pdftk|emulator|knife|ldapsearch|appwrite|ex|gnuplot|xml_grep|emojify|meroxa|networkmanager|ddclient|fd|cursor|sencha|fg|bashrc|winlogbeat|d++|conftest|for|timeout|checkov|multipass|automysqlbackup|otool|brigade|yarnpkg|exabgp|gh|kris|six|fuser|ingress-nginx|go|plop|i3|mgnl|gs|gt|pngcrush|gw|sphinx|wrk|gitpod|fastqc|publish|inflect|cssnano|prompt|tunnel|hg|httpy|obs|openldap|ipmitool|jstatd|bit|grpcui|ipod|ovs-dpctl|mbuffer|hx|git-annex|elasticsearch|multitail|snapcraft|else|ecryptfs-migrate-home|drag|https|id|join|ncpdp|powertop|if|darkstat|gawk|ocaml|ip|supabase|audacity|index|csdx|k6|bsdtar|httpd|batctl|smit|tldr|chalice|ipmi|logoff|sln|grafana|kubecost|jspm|s6-supervise|cqlsh|sls|jf|template|cfngin|iptraf|jq|js|amplify|vale|astronomer|json_pp|gpgconf|dirb|bundle|munin|encore|callgrind|kali|km|mlocate|ftp|kn|appscale|knex|composer|jflex|mlton|ks|jlink|fastly|clang|cprehash|mercurial|ansible-playbook|lf|lg|kale|tazpkg|zpool|nix-shell|ll|ln|sqlfluff|lp|ls|notepad|pre-commit|a2query|arp-scan|while|unset|swagger|edge|pgcli|split|crossplane|mc|md|pprof|abrt-xorg|mg|fvm|mintty|btop|porter|gprof|xbacklight|gltfjsx|mt|iterm|dirs|mv|syncthing|manpath|expand|nc|nylas|ne|ng|plug|assimp|ni|nl|whoami|np|code|nr|ns|apt-add-repository|coda|nu|box|nx|postcss|head|oc|mailsy|od|wifi-menu|dive|iso-mount|cripple|dhclient|astyle|direnv|op|clair|src|pypy|gpg-agent|argo-workflows|clerk|st2|fgrep|ganglia|netlify-cli|pp|portainer|dockle|ps|airtime-analyzer|babel-node|delta|ssh|py|rmdir|corepack|nixos-rebuild|shellexpand|kcadm.sh|rootlesskit|fzf|cssmin|sst|abrt-watch-log|asciinema|vmstat|sta|github|stf|uname|redwood|streamlit|tanka|stl|then|deno|esbuild|collectd|devcontainer-cli|cftp|node|rd|rg|xterm|bundler|plink|rancher|rm|twilio|rs|cfn-tail|omf|swiftc|codeceptjs|nextflow|catimg|sc|sd|osslsigncode|sf|sg|sh|sk|sl|gai.conf|omz|postgres|kex|sshfs|ss|surreal|svc|su|github-cli|spotify|svn|nuget|rustdoc|tb|pkg-config|ovftool|gomplate|dirbsearch|splunk|bun|bup|tp|swc|tr|deta|clairctl|dmidecode|tx|encscript|ua|twofactor|fswatch|swt|kawa|kubeconform|vitest|opa|clamscan|wuzz|bwa|verif|cliff-jumper|thin|picocom|pathchk|autopoint|ops|vi|forge|tflint|clangd|vr|knox|cabal-install|cocoapods|tccli|systemctl|devd|keycloak|hivemind|xfsdump|mdspell|install-name-tool|ubuntu-advantage|oci-cli|create-react-native-app|ctrlp|wc|wd|newrelic|docker|fdisk|limactl|coreutils|meson|skaffold-run|dracut|gap|wp|zenity|mysqladmin|pg_dump|vpnkit|wt|asymptote|caesarcipher|jolokia|glib-compile-schemas|ncmatrix|orc|csso|open-vm-tools|dopewars|parca|vercel|skaffold-debug|xc|nssm|pipenv|sips|babel-plugin|projj|appium-inspector|uget|argus|ditto|fakeroot|golint|forego|goleft|osc|leanote|yomo|mcedit|selecta|xz|keytool|scrot|dotenv-vault|cython|gcc|cloudmonkey|react|yc|ajenti|ansible-config|cheerio|type|helm|backstop|gadmin-samba|dapr|gcp|atomicparsley|xed|yo|apt-cdrom|yq|microk8s|filebeat|rncli|netdata|elm-review|create-nx-workspace|yolo|wifi|antibody|gdb|emcc|gdc|xev|apollo|emacs|pdfjam|readelf|plenv|suexec|clang++|perltidy|bicep|sigil|sysctl|choco|jstack|lparstat|wakeonlan|typos|cygpath|autovenv|fabric|openssl|chef-client|ticktick|mdocml|crypttool|rpmbuild|unison|flac|sysbench|pycodestyle|aurora|gem|imgur-uploader|cabal|dart|geckodriver|ghost|scontrol|virtualbox|ctags|argoproj|copy|dhcping|phpunit-watcher|linkerd-viz|tokei|msbuild|firewall-cmd|leaf|expect|help|kns|lpstat|catalina|xcodegen|date|celestia-node|firefox|harbor|oculus-debug-tool|docker-compose|browser-sync|corral|md5sum|tac|terraform-docs|wasm-pack|valgrind|microstack|onefetch|ghc|tar|crontab|pachctl|obs-cli|ghk|kpt|zsh-syntax-highlighting|mkisofs|dataplane|ghq|wasm-bindgen|networkQuality|ghz|velero|terraform|dash|smbclient|macchanger|nodemon|tuna|angband|scala|traceroute|autorest|cal|postman-cli|git|cap|car|flex|cat|nopaste|dvips|lima|swagger-cli|vsce|xmlstarlet|akamai|ndk-build|tfnotify|gjs|netlify|cpanm|git-lfs|doorkeeper|vultr-cli|consul-template|ghostscript|snap}" ],
+        "additional.terminal_last_selected_item_length" : [ "{regexp#integer}" ],
+        "additional.terminal_last_selected_item_matching_length" : [ "{regexp#integer}" ],
+        "additional.terminal_last_selected_item_type" : [ "{enum:COMMAND|OPTION|ARGUMENT|FILE|FOLDER}" ],
+        "additional.terminal_subcommand" : [ "{enum:start|restart|--status-all|status|stop|-n|-c|-t|db:migrate|new|c|s|repair|baseline|migrate|validate|info|clean|install|suspend|create|reconcile|bootstrap|logs|export|get|rustdoc|update|rustc|search|build|bench|miri|fetch|vendor|report|install|uninstall|init|test|verify-project|remove|doc|metadata|add|tree|version|generate-lockfile|pkgid|check|run|clean|help|fmt|new|fix|locale-project|int|wlan|advfirewall|run|ef|watch|publish|tool|restore|test|new|build|clean|test|install|run|-avz|--delete|-e|any|mx|+short|-s|-an|-i|info|upgrade|doctor|commands|uninstall|edit|config|list|search|update|install|create|-sL|ifconfig.me|--data|-I|notebook|scale|top|describe|logs|get|version|delete|port-forward|create|apply|exec|build|lint|watch|compress|serve|clean|deploy|debug|test|service|dashboard|addons|delete|--ignore-path|--ext|--fix|--debug|--cache|deploy|invoke|up|remove|new|console|fix|build|validate|inspect|/renew|/release|/all|/flushdns|test|make|reactor|eth0|deploy|status|logs|scale|secrets|monitor|launch|startapp|migrate|createsuperuser|collectstatic|startproject|runserver|makemigrations|mix|iex|install|test|build|run|clean|publish|init|run:android|start|upgrade|run:ios|eject|build:ios|build:android|update|prebuild|install|set_trace|help|set_param|list_param|-f|-p|init|install|assemble|bootRun|build|test|eclipse|check|--daemon|clean|buildship|wrapper|tasks|run|dependencies|run|create|doctor|pub|test|build|analyze|format|upgrade|install|--color|-i|-r|test|install|run|test|install|run|set|fsi|dotnet|-r|-P|verify|run|node|debug|test|compile|accounts|deploy|-i|firestore:indexes|database:get|init|login|serve|emulators:start|deploy|hosting:disable|functions:log|logout|actions|issue|pr|repo|doc|fmt|test|vet|get|run|build|tool|clean|fix|sum|version|env|generate|outdated|reinstall|global|depends|search|run-script|bump|self-update|completion|install|validate|licenses|create-project|dump-autoload|list|audit|update|exec|suggests|help|check-platform-reqs|remove|diagnose|config|init|prohibits|require|clear-cache|show|status|-t|-i|-p|lint|run|bundle|test|upgrade|doc|compile|install|info|cache|fmt|build|watch|serve|bundle|checkout|commit|update|status|restart|start|enable|status|push|swarm|login|compose|logs|images|pull|stop|ps|run|inspect|build|exec|info|repo|uninstall|install|upgrade|start|status|stop|enable|disable|kubectl|-w|-a|list|update|push|install|uninstall|build|test|run|pub|down|up|-cvf|-xvf|-tvf|apply|state|fmt|init|destroy|graph|providers|plan|validate|am|filter-branch|annotate|commit|help|lfs|restore|mv|revert|apply|diff|blame|svn|reset|log|push|difftool|switch|rm|cherry|init|shortlog|branch|reflog|bisect|gui|fetch|version|gc|archive|grep|checkout|cherry-pick|merge|mergetool|pull|show|clean|clone|stash|worktree|remote|fsck|repack|format-patch|describe|ls-tree|tag|request-pull|ls-files|whatchanged|add|submodule|bundle|prune|show-ref|replace|status|ls-remote|config|rebase}" ],
+        "additional.terminal_was_executed" : [ "{enum#boolean}" ],
         "additional.total_ml_time" : [ "{regexp#integer}" ],
         "additional.unsafe_fn" : [ "{enum#boolean}" ],
         "additional.version" : [ "{regexp#version}" ],
         "alphabetically" : [ "{enum#boolean}" ],
         "backspaces" : [ "{regexp#integer}" ],
-        "completion_char" : [ "{enum#__completion_char}" ],
+        "completion_char" : [ "{enum#__completion_char}", "{regexp:Enter|Tab|AutoInsert|CompleteStatement|.}" ],
         "contributor" : [ "{util#class_name}" ],
         "current_file" : [ "{util#current_file}" ],
         "dumb_finish" : [ "{enum#boolean}" ],
@@ -2112,6 +2151,7 @@
         "finish_type" : [ "{enum:TYPED|EXPLICIT|CANCELED_EXPLICITLY|CANCELED_BY_TYPING}" ],
         "incomplete_dependencies_mode_on_finish" : [ "{enum:COMPLETE|INCOMPLETE}" ],
         "incomplete_dependencies_mode_on_start" : [ "{enum:COMPLETE|INCOMPLETE}" ],
+        "insert_handler_duration" : [ "{regexp#integer}" ],
         "iren_model_type" : [ "{enum:default|ngram}" ],
         "iren_probability" : [ "{regexp#float}" ],
         "lang" : [ "{util#lang}" ],
@@ -2461,6 +2501,30 @@
         "__result-state" : [ "state_starting_up", "state_resuming", "state_relaxing", "state_kicked_off", "state_running", "state_completing", "state_asleep", "state_finishing" ]
       }
     }
+  }, {
+    "id" : "db.cloud.explorer",
+    "builds" : [ ],
+    "versions" : [ {
+      "from" : "1"
+    } ],
+    "rules" : {
+      "event_id" : [ "{enum:cloud.provider.database.tab.refresh|cloud.provider.modified}" ],
+      "event_data" : {
+        "cloud_connection_id" : [ "{regexp#hash}" ],
+        "number_of_shown_databases" : [ "{regexp#integer}" ],
+        "plugin" : [ "{util#plugin}" ],
+        "plugin_type" : [ "{util#plugin_type}" ],
+        "plugin_version" : [ "{util#plugin_version}" ],
+        "type" : [ "{enum:CREATED|MODIFIED_IN_DIALOG|REMOVED}" ]
+      }
+    },
+    "anonymized_fields" : [ {
+      "event" : "cloud.provider.database.tab.refresh",
+      "fields" : [ "cloud_connection_id" ]
+    }, {
+      "event" : "cloud.provider.modified",
+      "fields" : [ "cloud_connection_id" ]
+    } ]
   }, {
     "id" : "db.connections",
     "builds" : [ ],
@@ -3572,6 +3636,7 @@
     "rules" : {
       "event_id" : [ "{enum#__event_id}" ],
       "event_data" : {
+        "Success" : [ "{enum#boolean}" ],
         "data_accessor" : [ "{util#class_name}" ],
         "duration_ms" : [ "{regexp#integer}" ],
         "loaded_rows_count" : [ "{regexp#integer}" ],
@@ -3743,7 +3808,7 @@
       "event_id" : [ "{enum#__event_id}" ],
       "event_data" : {
         "always_translate" : [ "{enum#boolean}" ],
-        "course_id" : [ "{regexp#integer}" ],
+        "course_id" : [ "{regexp#integer}", "{enum#__course_id}" ],
         "marketplace_course_version" : [ "{regexp#integer}" ],
         "original_lang" : [ "{enum:aa|ab|ae|af|ak|am|an|ar|as|av|ay|az|ba|be|bg|bh|bi|bm|bn|bo|br|bs|ca|ce|ch|co|cr|cs|cu|cv|cy|da|de|dv|dz|ee|el|en|eo|es|et|eu|fa|ff|fi|fj|fo|fr|fy|ga|gd|gl|gn|gu|gv|ha|he|hi|ho|hr|ht|hu|hy|hz|ia|id|ie|ig|ii|ik|id|io|is|it|iu|he|ja|yi|jv|ka|kg|ki|kj|kk|kl|km|kn|ko|kr|ks|ku|kv|kw|ky|la|lb|lg|li|ln|lo|lt|lu|lv|mg|mh|mi|mk|ml|mn|mo|mr|ms|mt|my|na|nb|nd|ne|ng|nl|nn|no|nr|nv|ny|oc|oj|om|or|os|pa|pi|pl|ps|pt|qu|rm|rn|ro|ru|rw|sa|sc|sd|se|sg|si|sk|sl|sm|sn|so|sq|sr|ss|st|su|sv|sw|ta|te|tg|th|ti|tk|tl|tn|to|tr|ts|tt|tw|ty|ug|uk|ur|uz|ve|vi|vo|wa|wo|xh|yi|yo|za|zh|zu}" ],
         "task_id" : [ "{regexp#integer}" ],
@@ -3754,6 +3819,7 @@
         "type" : [ "{enum:CODE|TEXT|ERROR}" ]
       },
       "enums" : {
+        "__course_id" : [ "20995", "21005", "27805", "16631", "16630", "21067", "21188", "18392", "26697", "27687", "23048", "27941", "22214", "23369", "27682", "24051", "18302", "17654", "25212", "23135", "21913", "23312", "22686", "23536", "23833", "0", "25097", "16629", "25398", "17519", "18905", "16628", "19933" ],
         "__event_id" : [ "translation.button.clicked", "translation.finished.with.error", "translation.disabled", "translation.finished", "translation.updated", "translation.started", "translation.language.picker.opened", "translation.retried", "hints.hint.banner.shown", "hints.get.hint.button.clicked", "hints.hint.banner.closed", "hints.code.hint.accepted", "hints.retry.clicked", "hints.code.hint.cancelled", "hints.show.in.code.clicked", "theory.lookup.disabled", "theory.lookup.finished", "theory.lookup.finished.with.error", "theory.lookup.retried", "theory.lookup.started", "theory.lookup.term.hovered", "theory.lookup.term.viewed" ]
       }
     }
@@ -3767,7 +3833,7 @@
       "event_id" : [ "{enum#__event_id}" ],
       "event_data" : {
         "ai_agreement" : [ "{enum:accepted|declined|terminated|not_shown}" ],
-        "course_id" : [ "{enum:0|16630|16631|16628|17654|23135|20995|21067|18302|18392|22214|23833|23048|23312|22686|16629|21913|23536|21188|24051|17519}" ],
+        "course_id" : [ "{enum:0|16630|16631|16628|17654|23135|20995|21067|18302|18392|22214|23833|23048|23312|22686|16629|21913|23536|21188|24051|17519}", "{enum#__course_id}" ],
         "event" : [ "{enum#authorization_event}", "{enum#hint_event}", "{enum#post_course_event}" ],
         "index" : [ "{regexp#integer}" ],
         "key" : [ "{enum:welcome|taskDescription|codeEditor|checkSolution|courseView}" ],
@@ -3783,6 +3849,7 @@
         "type" : [ "{enum#edu_item_type}", "{enum#link_type}" ]
       },
       "enums" : {
+        "__course_id" : [ "21005", "27682", "27805", "25097", "25398", "26697", "25212", "27687", "27941", "18905", "19933", "23369" ],
         "__event_id" : [ "navigate.to.task", "edu.project.created", "edu.project.opened", "study.item.created", "link.clicked", "authorization", "show.full.output", "peek.solution", "leave.feedback", "revert.task", "review.stage.topics", "check.task", "hint", "create.course.preview", "preview.task.file", "create.course.archive", "post.course", "synchronize.course", "import.course", "codeforces.submit.solution", "twitter.dialog.shown", "open.course.selection.view", "select.tab.course.selection.view", "open.task", "create.new.course.clicked", "obtain.jba.token", "create.new.file.in.non.template.based.framework.lesson.by.learner", "rate.marketplace.course", "peer.solution.diff.opened", "solution.share.state", "submission.invite.action", "open.community.tab", "submission.share.invite.shown", "submission.attempt", "task.created", "linkedin.dialog.shown", "community.tab.opened.by.link", "x.dialog.shown", "ui.onboarding.relaunched", "ui.onboarding.skipped", "ui.onboarding.finished", "ui.onboarding.started", "user.agreement.changed" ],
         "authorization_event" : [ "log_in", "log_out", "log_out_succeed", "log_in_succeed" ],
         "authorization_place" : [ "settings", "widget", "start_course_dialog", "submissions_tab", "unknown", "task_description_header" ],
@@ -3807,13 +3874,14 @@
     "rules" : {
       "event_id" : [ "{enum:role|task.panel|course}" ],
       "event_data" : {
-        "course_id" : [ "{enum:0|16630|16631|16628|17654|23135|20995|21067|18302|18392|22214|23833|23048|23312|22686|16629|21913|23536|21188|24051|17519}" ],
+        "course_id" : [ "{enum:0|16630|16631|16628|17654|23135|20995|21067|18302|18392|22214|23833|23048|23312|22686|16629|21913|23536|21188|24051|17519}", "{enum#__course_id}" ],
         "language" : [ "{enum:JAVA|kotlin|Python|Scala|JavaScript|Rust|ObjectiveC|go|PHP}" ],
         "mode" : [ "{enum:Study|Course Creator}" ],
         "platform" : [ "{enum:CheckiO|PyCharm|Coursera|Hyperskill|Marketplace|Codeforces}" ],
         "value" : [ "{enum#task_panel}", "{enum#role}" ]
       },
       "enums" : {
+        "__course_id" : [ "21005", "27682", "27805", "25097", "25398", "26697", "25212", "27687", "27941", "18905", "19933", "23369" ],
         "role" : [ "student", "educator" ],
         "task_panel" : [ "swing", "javafx", "jcef" ]
       }
@@ -4403,7 +4471,7 @@
         "version" : [ "{regexp#version}" ]
       },
       "enums" : {
-        "__event_id" : [ "external.send.finished", "metadata.load.failed", "external.send.started", "metadata.updated", "external.send.command.creation.started", "logs.send", "metadata.loaded", "metadata.update.failed", "external.send.command.creation.finished", "loading.config.failed", "sent.logs.files.calculated", "dictionaries.load.failed", "dictionaries.loaded", "dictionary.updated", "dictionary.update.failed" ]
+        "__event_id" : [ "external.send.finished", "metadata.load.failed", "external.send.started", "metadata.updated", "external.send.command.creation.started", "logs.send", "metadata.loaded", "metadata.update.failed", "external.send.command.creation.finished", "loading.config.failed", "sent.logs.files.calculated", "dictionaries.load.failed", "dictionaries.loaded", "dictionary.updated", "dictionary.update.failed", "dictionary.load.failed", "dictionary.list.load.failed", "dictionary.list.update.failed", "dictionary.loaded" ]
       }
     },
     "anonymized_fields" : [ {
@@ -4651,10 +4719,14 @@
       "from" : "1"
     } ],
     "rules" : {
-      "event_id" : [ "{enum:config.file.exists|config.file.selected|linter.selected}" ],
+      "event_id" : [ "{enum#__event_id}" ],
       "event_data" : {
+        "enabled" : [ "{enum#boolean}" ],
         "exists" : [ "{enum#boolean}" ],
         "selected" : [ "{enum#boolean}" ]
+      },
+      "enums" : {
+        "__event_id" : [ "config.file.exists", "config.file.selected", "linter.selected", "formatting.enabled", "linting.enabled" ]
       }
     }
   }, {
@@ -4694,9 +4766,13 @@
       "from" : "2"
     } ],
     "rules" : {
-      "event_id" : [ "{enum:welcome.screen.tab.opened|welcome.screen.tab.button.clicked|welcome.screen.tab.disabled|welcome.screen.tab.closed}" ],
+      "event_id" : [ "{enum#__event_id}" ],
       "event_data" : {
+        "banner" : [ "{enum:FeaturesTrainer|TerminalLauncher}" ],
         "feature" : [ "{enum:Terminal|Docker|Kubernetes|HttpClient|Database|Plugins}" ]
+      },
+      "enums" : {
+        "__event_id" : [ "welcome.screen.tab.opened", "welcome.screen.tab.button.clicked", "welcome.screen.tab.disabled", "welcome.screen.tab.closed", "promotion.banner.clicked", "promotion.banner.shown", "promotion.banner.dismissed" ]
       }
     }
   }, {
@@ -4942,6 +5018,32 @@
       "event_id" : [ "{enum:GROOVY_SDK_VERSION}" ],
       "event_data" : {
         "version" : [ "{regexp#version}" ]
+      }
+    }
+  }, {
+    "id" : "grouped.diff",
+    "builds" : [ ],
+    "versions" : [ {
+      "from" : "1"
+    } ],
+    "rules" : {
+      "event_id" : [ "{enum#__event_id}" ],
+      "event_data" : {
+        "avg_percent_excluded" : [ "{regexp#integer}" ],
+        "diff_size" : [ "{regexp#integer}" ],
+        "duration_ms_1" : [ "{regexp#integer}" ],
+        "duration_ms_2" : [ "{regexp#integer}" ],
+        "file_number" : [ "{regexp#integer}" ],
+        "group_number" : [ "{regexp#integer}" ],
+        "grouped_diff_id" : [ "{regexp#integer}" ],
+        "number_of_attempts" : [ "{regexp#integer}" ],
+        "number_of_groups_committed" : [ "{regexp#integer}" ],
+        "origin" : [ "{enum:VCS_LOG|LOCAL_CHANGES|OTHER|AI_AGENT}" ],
+        "rating" : [ "{enum:DISLIKE|NEED_IMPROVEMENTS|LIKE}" ],
+        "total_file_size" : [ "{regexp#integer}" ]
+      },
+      "enums" : {
+        "__event_id" : [ "rate", "loaded.on.restart", "turned.off", "commit.with.ai.diff", "calculate" ]
       }
     }
   }, {
@@ -5556,7 +5658,7 @@
         "enabled" : [ "{enum#boolean}" ],
         "enabled_globally" : [ "{enum#boolean}" ],
         "lang" : [ "{util#lang}" ],
-        "model" : [ "{enum#__model}", "{enum:sql.column.names.inlay.hints}", "{enum:spring.boot.generate.starters.gradle.kts|spring.boot.generate.starters.maven|spring.boot.generate.starters.gradle|python.dataframe.inlay.hints}", "{enum:rename}", "{enum:component.usage}", "{enum:cron.inlay}", "{enum:python.web.structure}", "{enum:change.signature}", "{enum:quarkus.edit.extensions.gradle|qs.edit.extensions.maven}", "{enum:quarkus.edit.extensions.gradle.kts}", "{enum:quarkus.edit.extensions.maven}", "{enum:go.implement.interface|vgo.update.dependencies}", "{enum:ktor.add.plugins.gradle|ktor.add.plugins.gradle.kts|ktor.add.plugins.maven}", "{enum:SpringPropertiesVisionProvider}", "{enum:spring.config.codevision}", "{enum:chain-method.hints|rust.type.hints|rust.value.range.exclusive.hints}", "{enum:GoAddMethodToInterfaceCodeVisionProvider}", "{enum:rust.implicit.hints}", "{enum:spring.boot.data.aot.method.query}", "{enum:kubernetes.port.forwarding}", "{enum:kotlin.compiler.plugins.declarations}", "{enum:java.configuration}", "{enum:spring.boot.generate.starters.amper}", "{enum:kubernetes.env.values}", "{enum:kubernetes.pod.statuses}" ],
+        "model" : [ "{enum#__model}", "{enum:sql.column.names.inlay.hints}", "{enum:spring.boot.generate.starters.gradle.kts|spring.boot.generate.starters.maven|spring.boot.generate.starters.gradle|python.dataframe.inlay.hints}", "{enum:rename}", "{enum:component.usage}", "{enum:cron.inlay}", "{enum:python.web.structure}", "{enum:change.signature}", "{enum:quarkus.edit.extensions.gradle|qs.edit.extensions.maven}", "{enum:quarkus.edit.extensions.gradle.kts}", "{enum:quarkus.edit.extensions.maven}", "{enum:go.implement.interface|vgo.update.dependencies}", "{enum:ktor.add.plugins.gradle|ktor.add.plugins.gradle.kts|ktor.add.plugins.maven}", "{enum:SpringPropertiesVisionProvider}", "{enum:spring.config.codevision}", "{enum:chain-method.hints|rust.type.hints|rust.value.range.exclusive.hints}", "{enum:GoAddMethodToInterfaceCodeVisionProvider}", "{enum:rust.implicit.hints}", "{enum:spring.boot.data.aot.method.query}", "{enum:kubernetes.port.forwarding}", "{enum:kotlin.compiler.plugins.declarations}", "{enum:java.configuration}", "{enum:spring.boot.generate.starters.amper}", "{enum:kubernetes.env.values}", "{enum:kubernetes.pod.statuses}", "{enum:aiplayground.inlay.hint.for.prompts}", "{enum:go.add.method.to.interface}" ],
         "option_id" : [ "{enum#__option_id}", "{enum:ruby.parameter.name.reflected.in.method.name|kotlin.values.ranges}", "{enum:js.only.show.names.for.literal.args|ts.param.hints.show.names.for.literal.args|vuejs.show.names.for.literal.args|angular.show.names.for.literal.args}", "{enum:derefs_if_borrowed|mutable_borrows|immutable_borrows}" ],
         "option_value" : [ "{enum#boolean}" ]
       },
@@ -6008,6 +6110,35 @@
       }
     }
   }, {
+    "id" : "js.language.service.oom",
+    "builds" : [ ],
+    "versions" : [ {
+      "from" : "1"
+    } ],
+    "rules" : {
+      "event_id" : [ "{enum:oom}" ],
+      "event_data" : {
+        "configured_memory_limit_mb" : [ "{regexp#integer}" ],
+        "plugin" : [ "{util#plugin}" ],
+        "plugin_type" : [ "{util#plugin_type}" ],
+        "plugin_version" : [ "{util#plugin_version}" ],
+        "service" : [ "{util#class_name}" ]
+      }
+    }
+  }, {
+    "id" : "js.language.service.oom.outcome",
+    "builds" : [ ],
+    "versions" : [ {
+      "from" : "1"
+    } ],
+    "rules" : {
+      "event_id" : [ "{enum:action.invoked}" ],
+      "event_data" : {
+        "action_kind" : [ "{enum:AddMB|EnableAutoIncrease|DisableAutoIncrease|HowTo|Configure}" ],
+        "action_place" : [ "{enum:NOTIFICATION|EDITOR_NOTIFICATION}" ]
+      }
+    }
+  }, {
     "id" : "js.lens",
     "builds" : [ ],
     "versions" : [ {
@@ -6114,21 +6245,34 @@
     "rules" : {
       "event_id" : [ "{enum#__event_id}" ],
       "event_data" : {
+        "OS" : [ "{enum:Windows|macOS|Linux|FreeBSD|Other}" ],
         "duration_ms" : [ "{regexp#integer}" ],
+        "duration_sec" : [ "{regexp#integer}" ],
+        "duration_second" : [ "{regexp#integer}" ],
+        "executionType" : [ "{enum:local|Remote_Docker|Remote_Docker_Compose|Remote_WSL|Remote_null|third_party|Remote_SSH_Credentials|Remote_Vagrant|Remote_Web_Deployment|Remote_Unknown}" ],
         "fileSize" : [ "{regexp#integer}" ],
         "file_type" : [ "{util#file_type}" ],
+        "interpreterType" : [ "{enum:pipenv|condavenv|base_conda|virtualenv|regular|poetry|pyenv|uv|hatch}" ],
+        "is_success" : [ "{enum#boolean}" ],
         "kernel_kind" : [ "{enum:JUPYTER_LAB|IPYKERNEL}" ],
         "managed" : [ "{enum#boolean}" ],
         "next" : [ "{enum:CONNECTED|CONNECTION_ERROR|LOADING|STOPPED}" ],
+        "plugin" : [ "{util#plugin}" ],
+        "plugin_type" : [ "{util#plugin_type}" ],
+        "plugin_version" : [ "{util#plugin_version}" ],
         "previous" : [ "{enum:CONNECTED|CONNECTION_ERROR|LOADING|STOPPED}" ],
+        "python_version" : [ "{regexp#version}" ],
         "remote_file" : [ "{enum#boolean}" ],
+        "server" : [ "{enum:JUPYTERLAB|IPYKERNEL}" ],
         "server_kind" : [ "{enum:Lab}", "{enum:Hub|Notebook|SageMaker|UNKNOWN}" ],
-        "start_result" : [ "{enum:SUCCESS|PACKAGE_INSTALL_FAILED|SERVER_ERROR|NO_PROJECT_SDK|UNSUPPORTED_SDK|PROCESS_STOPPED_ON_START|UNKNOWN_ERROR}", "{enum:SDK_READ_ONLY}" ],
+        "session_factory" : [ "{util#class_name}" ],
+        "start_result" : [ "{enum:SUCCESS|PACKAGE_INSTALL_FAILED|SERVER_ERROR|NO_PROJECT_SDK|UNSUPPORTED_SDK|PROCESS_STOPPED_ON_START|UNKNOWN_ERROR}", "{enum:SUCCESS|PACKAGE_INSTALL_FAILED|VERIFY_FAILED|PROCESS_UNEXPECTED_STOP_ON_START_ERROR|PROCESS_START_FAILED|SDK_READ_ONLY|UNKNOWN_ERROR}" ],
+        "start_time_sec" : [ "{regexp#integer}" ],
         "success" : [ "{enum#boolean}" ],
         "version" : [ "{regexp#version}" ]
       },
       "enums" : {
-        "__event_id" : [ "jupyter.server.version", "jupyter.remote.file.download", "jupyter.session.connect", "jupyter.client.connect", "jupyter.remote.file.upload", "jupyter.rfs.connect", "jupyter.managed.start", "jupyter.managed.server.prepare.time" ]
+        "__event_id" : [ "jupyter.server.version", "jupyter.remote.file.download", "jupyter.session.connect", "jupyter.client.connect", "jupyter.remote.file.upload", "jupyter.rfs.connect", "jupyter.managed.start", "jupyter.managed.server.prepare.time", "jupyterlab.server.start", "jupyter.session.start" ]
       }
     }
   }, {
@@ -6218,7 +6362,8 @@
         "duration_ms" : [ "{regexp#integer}" ],
         "plugin" : [ "{util#plugin}" ],
         "plugin_type" : [ "{util#plugin_type}" ],
-        "plugin_version" : [ "{util#plugin_version}" ]
+        "plugin_version" : [ "{util#plugin_version}" ],
+        "success" : [ "{enum#boolean}" ]
       }
     }
   }, {
@@ -6400,6 +6545,37 @@
       }
     }
   }, {
+    "id" : "kmp.plugin",
+    "builds" : [ ],
+    "versions" : [ {
+      "from" : "1"
+    } ],
+    "rules" : {
+      "event_id" : [ "{enum:plugin.used}" ],
+      "event_data" : {
+        "PluginVersion" : [ "{regexp:\\d+\\.\\d+-\\d+\\.\\d+-(IJ(?:_CE)?|AS)-\\d+|error}" ]
+      }
+    }
+  }, {
+    "id" : "kmp.project.environment",
+    "builds" : [ ],
+    "versions" : [ {
+      "from" : "1"
+    } ],
+    "rules" : {
+      "event_id" : [ "{enum:xcode}" ],
+      "event_data" : {
+        "ios" : [ "{regexp#version}" ],
+        "macOs" : [ "{regexp#version}" ],
+        "swift" : [ "{regexp#version}" ],
+        "tvos" : [ "{regexp#version}" ],
+        "version" : [ "{regexp#version}" ],
+        "visionos" : [ "{regexp#version}" ],
+        "watchos" : [ "{regexp#version}" ],
+        "xcode_build" : [ "{regexp:\\d{1,2}[A-Z]\\d+[a-z]?|unknown}" ]
+      }
+    }
+  }, {
     "id" : "kmp.run_config",
     "builds" : [ ],
     "versions" : [ {
@@ -6417,12 +6593,12 @@
         "plugin_type" : [ "{util#plugin_type}" ],
         "plugin_version" : [ "{util#plugin_version}" ],
         "sdk" : [ "{enum:macosx|iphoneos|iphonesimulator|appletvos|appletvsimulator|watchos|watchsimulator}" ],
-        "target" : [ "{enum:Jvm|Desktop|WasmJs|Js|Gradle|Ktor|Compose|Apple|Android|Unknown}" ],
+        "target" : [ "{enum:Jvm|JvmHotReload|Desktop|WasmJs|Js|Gradle|Ktor|Compose|Apple|Android|Unknown}" ],
         "version" : [ "{regexp#version}" ],
         "web" : [ "{enum:WasmJs|Js}" ]
       },
       "enums" : {
-        "__event_id" : [ "run.configuration.finished", "run.configuration.compose.finished", "run.configuration.gradle.started", "run.configuration.apple.finished", "run.configuration.ktor.started", "run.configuration.apple.started", "run.configuration.jvm.started", "run.configuration.ktor.finished", "run.configuration.web.started", "run.configuration.android.finished", "run.configuration.unknown.finished", "run.configuration.jvm.finished", "run.configuration.android.started", "run.configuration.gradle.finished", "run.configuration.compose.started", "run.configuration.web.finished", "run.configuration.unknown.started" ]
+        "__event_id" : [ "run.configuration.finished", "run.configuration.compose.finished", "run.configuration.gradle.started", "run.configuration.apple.finished", "run.configuration.ktor.started", "run.configuration.apple.started", "run.configuration.jvm.started", "run.configuration.ktor.finished", "run.configuration.web.started", "run.configuration.android.finished", "run.configuration.unknown.finished", "run.configuration.jvm.finished", "run.configuration.android.started", "run.configuration.gradle.finished", "run.configuration.compose.started", "run.configuration.web.finished", "run.configuration.unknown.started", "run.configuration.started", "run.configuration.hot_reload.jvm.finished", "run.configuration.hot_reload.jvm.started" ]
       }
     }
   }, {
@@ -6786,9 +6962,12 @@
         "jvm_defaults" : [ "{regexp:((enable|no-compatibility|disable);?)+}" ],
         "kmp_top_level_dependencies_block" : [ "{enum#boolean}" ],
         "kotlin_api_version" : [ "{regexp:(\\d+).(\\d+).(\\d+)-?(dev|snapshot|m\\d?|rc\\d?|beta\\d?)?}" ],
+        "kotlin_bta_used" : [ "{enum#boolean}" ],
         "kotlin_compilation_failed" : [ "{enum#boolean}" ],
+        "kotlin_compiler_execution_policy" : [ "{regexp:((in-process|daemon|out-of-process);?)+}" ],
         "kotlin_compiler_version" : [ "{regexp:(\\d+).(\\d+).(\\d+)-?(dev|snapshot|m\\d?|rc\\d?|beta\\d?)?}" ],
         "kotlin_coroutines_version" : [ "{regexp:(\\d+).(\\d+).(\\d+)-?(dev|snapshot|m\\d?|rc\\d?|beta\\d?)?}" ],
+        "kotlin_gradle_plugin_version" : [ "{regexp:(\\d+).(\\d+).(\\d+)-?(dev|snapshot|m\\d?|rc\\d?|beta\\d?)?}" ],
         "kotlin_incremental_native_enabled" : [ "{enum#boolean}" ],
         "kotlin_js_plugin_enabled" : [ "{enum#boolean}" ],
         "kotlin_kts_used" : [ "{enum#boolean}" ],
@@ -7236,7 +7415,21 @@
         "system" : [ "{enum:JPS|Maven|Gradle|unknown}" ]
       },
       "enums" : {
-        "language_feature" : [ "AbstractClassMemberNotImplementedWithIntermediateAbstractClass", "AdaptedCallableReferenceAgainstReflectiveType", "AdditionalBuiltInsMembers", "AllowAccessToProtectedFieldFromSuperCompanion", "AllowAnyAsAnActualTypeForExpectInterface", "AllowAssigningArrayElementsToVarargsInNamedFormForFunctions", "AllowBreakAndContinueInsideWhen", "AllowCallingJavaOpenSealedClassConstructor", "AllowCheckForErasedTypesInContracts", "AllowContractsForCustomFunctions", "AllowContractsForNonOverridableMembers", "AllowContractsOnPropertyAccessors", "AllowContractsOnSomeOperators", "AllowDnnTypeOverridingFlexibleType", "AllowEagerSupertypeAccessibilityChecks", "AllowEmptyIntersectionsInResultTypeResolver", "AllowExpectDeclarationsInJsExport", "AllowNullOperatorsForResult", "AllowNullOperatorsForResultAndResultReturnTypeByDefault", "AllowReifiedGenericsInContracts", "AllowReifiedTypeInCatchClause", "AllowReturnInExpressionBodyWithExplicitType", "AllowSealedInheritorsInDifferentFilesOfSamePackage", "AllowSuperCallToJavaInterface", "AnnotationAllUseSiteTarget", "AnnotationDefaultTargetMigrationWarning", "AnnotationsInMetadata", "ApproximateAnonymousReturnTypesInPrivateInlineFunctions", "AssigningArraysToVarargsInNamedFormInAnnotations", "AvoidApproximationOfRecursiveCapturedTypesWithNoReason", "AvoidWrongOptimizationOfTypeOperatorsOnValueClasses", "BareArrayClassLiteral", "BoundCallableReferences", "BreakContinueInInlineLambdas", "CallableReferenceOverloadResolutionInLambda", "CallableReferencesToClassMembersWithEmptyLHS", "CapturedInClosureSmartCasts", "CapturedTypeApproximationReworked", "CheckLambdaAgainstTypeVariableContradictionInResolution", "CheckOptInOnPureEnumEntries", "CheckPackageInfoNullnessAnnotations", "ClassTypeParameterAnnotations", "ConditionImpliesReturnsContracts", "ConsiderExtensionReceiverFromConstrainsInLambda", "ConsiderForkPointsWhenCheckingContradictions", "ContextParameters", "ContextReceivers", "ContextSensitiveEnumResolutionInWhen", "ContextSensitiveResolutionUsingExpectedType", "ContractSyntaxV2", "ContractsOnCallsWithImplicitReceiver", "Coroutines", "CorrectSourceMappingSyntax", "CorrectSpecificityCheckForSignedAndUnsigned", "CustomEqualsInValueClasses", "DataClassCopyRespectsConstructorVisibility", "DataClassInheritance", "DataFlowBasedExhaustiveness", "DataObjects", "DefaultImportOfPackageKotlinComparisons", "DefaultMethodsCallFromJava6TargetError", "DefinitelyNonNullableTypes", "DeprecateNameMismatchInShortDestructuringWithParentheses", "DeprecatedFieldForInvisibleCompanionObject", "DestructuringLambdaParameters", "DfaBooleanVariables", "DirectJavaActualization", "DisableCheckingChangedProgressionsResolve", "DisableCompatibilityModeForNewInference", "DisableWarningsForIdentitySensitiveOperationsOnValueClassesAndPrimitives", "DisableWarningsForValueBasedJavaClasses", "DiscriminateSuspendInOverloadResolution", "DivisionByZeroInConstantExpressions", "DoNotGenerateThrowsForDelegatedKotlinMembers", "DoNotRunSuspendConversionForLambdaReturnStatements", "DontCreateSyntheticPropertiesWithoutBaseJavaGetter", "DontIgnoreUpperBoundViolatedOnImplicitArguments", "DontLoseDiagnosticsDuringOverloadResolutionByReturnType", "DontMakeExplicitJavaTypeArgumentsFlexible", "DslMarkerOnFunctionTypeReceiver", "DslMarkersSupport", "EliminateAmbiguitiesOnInheritedSamInterfaces", "EliminateAmbiguitiesWithExternalTypeParameters", "ElvisInferenceImprovementsIn21", "EnableDfaWarningsInK2", "EnableNameBasedDestructuringShortForm", "EnhanceNullabilityOfPrimitiveArrays", "EnumEntries", "ErrorAboutDataClassCopyVisibilityChange", "ExpectActualClasses", "ExpectRefinement", "ExpectedTypeFromCast", "ExperimentalBuilderInference", "ExplicitBackingFields", "ExportKlibToOlderAbiVersion", "ExtendedMainConvention", "FixationEnhancementsIn22", "ForbidAnnotationsWithUseSiteTargetOnExpressions", "ForbidCaptureInlinableLambdasInJsCode", "ForbidCompanionInLocalInnerClass", "ForbidCrossFileIrFieldAccessInKlibs", "ForbidEnumEntryNamedEntries", "ForbidExposingLessVisibleTypesInInline", "ForbidExposingPackagePrivateInInternal", "ForbidExposingTypesInPrimaryConstructorProperties", "ForbidExposureOfPrivateTypesInNonPrivateInlineFunctionsInKlibs", "ForbidExtensionCallsOnInlineFunctionalParameters", "ForbidExtensionFunctionTypeOnNonFunctionTypes", "ForbidFieldAnnotationsOnAnnotationParameters", "ForbidGetSetValueWithTooManyParameters", "ForbidImplementationByDelegationWithDifferentGenericSignature", "ForbidImplicitTypeAnnotationWithMissingDependency", "ForbidInferOfInvisibleTypeAsReifiedOrVararg", "ForbidInferOfInvisibleTypeAsReifiedVarargOrReturnType", "ForbidInferringPostponedTypeVariableIntoDeclaredUpperBound", "ForbidInferringTypeVariablesIntoEmptyIntersection", "ForbidInitializationBeforeDeclarationInAnonymous", "ForbidInlineEnumEntries", "ForbidJvmAnnotationsOnAnnotationParameters", "ForbidJvmSerializableLambdaOnInlinedFunctionLiterals", "ForbidLambdaParameterWithMissingDependencyType", "ForbidObjectDelegationToItself", "ForbidParenthesizedLhsInAssignments", "ForbidProjectionsInAnnotationProperties", "ForbidRecursiveDelegateExpressions", "ForbidReferencingToUnderscoreNamedParameterOfCatchBlock", "ForbidReifiedTypeParametersOnTypeAliases", "ForbidReturnInExpressionBodyWithoutExplicitTypeEdgeCases", "ForbidSuperDelegationToAbstractAnyMethod", "ForbidSuperDelegationToAbstractFakeOverride", "ForbidSyntheticPropertiesWithoutBaseJavaGetter", "ForbidTypeAliasWithMissingDependencyType", "ForbidUpperBoundsViolationOnTypeOperatorAndParameterBounds", "ForbidUsingExpressionTypesWithInaccessibleContent", "ForbidUsingExtensionPropertyTypeParameterInDelegate", "ForbidUsingSupertypesWithInaccessibleContentInTypeArguments", "ForkIsNotSuccessfulWhenNoBranchIsSuccessful", "FunctionReferenceWithDefaultValueAsOtherType", "FunctionTypesWithBigArity", "FunctionalInterfaceConversion", "FunctionalTypeWithExtensionAsSupertype", "GenerateJvmOverloadsAsFinal", "GenericInlineClassParameter", "HoldsInContracts", "IgnoreNullabilityForErasedValueParameters", "ImplicitJvmExposeBoxed", "ImplicitSignedToUnsignedIntegerConversion", "ImproveReportingDiagnosticsOnProtectedMembersOfBaseClass", "ImprovedCapturedTypeApproximationInInference", "ImprovedExhaustivenessChecksIn21", "ImprovedVarianceInCst", "InferMoreImplicationsFromBooleanExpressions", "InferenceCompatibility", "InferenceEnhancementsIn21", "InferenceEnhancementsIn23", "InlineClassImplementationByDelegation", "InlineClasses", "InlineConstVals", "InlineDefaultFunctionalParameters", "InlineLateinit", "InlineProperties", "InnerClassInEnumEntryClass", "InstantiationOfAnnotationClasses", "IntrinsicConstEvaluation", "IrCrossModuleInlinerBeforeKlibSerialization", "IrInlinerBeforeKlibSerialization", "IrIntraModuleInlinerBeforeKlibSerialization", "IrRichCallableReferencesInKlibs", "JavaSamConversionEqualsHashCode", "JavaTypeParameterDefaultRepresentationWithDNN", "JsAllowImplementingFunctionInterface", "JsAllowInvalidCharsIdentifiersEscaping", "JsAllowLongInExportedDeclarations", "JsAllowValueClassesInExternals", "JsEnableExtensionFunctionInExternals", "JsExternalPropertyParameters", "JvmDefaultEnableByDefault", "JvmFieldInInterface", "JvmIndyAllowLambdasWithAnnotations", "JvmInlineValueClasses", "JvmIrEnabledByDefault", "JvmNullOutSpilledCoroutineLocals", "JvmPackageName", "JvmPermittedSubclassesAttributeForSealed", "JvmRecordSupport", "JvmStaticInInterface", "KeepNullabilityWhenApproximatingLocalType", "KotlinFunInterfaceConstructorReference", "LateinitLocalVariables", "LateinitTopLevelProperties", "LightweightLambdas", "LocalDelegatedProperties", "MangleCallsToJavaMethodsWithValueClasses", "MangleClassMembersReturningInlineClasses", "MixedNamedArgumentsInTheirOwnPosition", "ModifierNonBuiltinSuspendFunError", "MultiDollarInterpolation", "MultiPlatformProjects", "MultiplatformRestrictions", "NameBasedDestructuring", "NativeJsProhibitLateinitIsInitializedIntrinsicWithoutPrivateAccess", "NestedClassesInAnnotations", "NestedClassesInEnumEntryShouldBeInner", "NestedTypeAliases", "NewCapturedReceiverFieldNamingConvention", "NewInference", "NoAdditionalErrorsInK1DiagnosticReporter", "NoBuilderInferenceWithoutAnnotationRestriction", "NoConstantValueAttributeForNonConstVals", "NoDelegationToJavaDefaultInterfaceMembers", "NoDeprecationOnDeprecatedEnumEntries", "NoSourceCodeInNotNullAssertionExceptions", "NonParenthesizedAnnotationsOnFunctionalTypes", "NormalizeConstructorCalls", "NullabilityAssertionOnExtensionReceiver", "NullableNothingInReifiedPosition", "ObjCSignatureOverrideAnnotation", "OperatorProvideDelegate", "OperatorRem", "OptInContagiousSignatures", "OptInRelease", "OverloadResolutionByLambdaReturnType", "PCLAEnhancementsIn21", "PackagePrivateFileClassesWithAllPrivateMembers", "ParseLambdaWithSuspendModifier", "PartiallySpecifiedTypeArguments", "PolymorphicSignature", "PreciseSimplificationToFlexibleLowerConstraint", "PreferDependentTypeVariablesWithProperArgumentConstraint", "PreferJavaFieldOverload", "PrioritizedEnumEntries", "PrivateInFileEffectiveVisibility", "ProgressionsChangingResolve", "ProhibitAccessToEnumCompanionMembersInEnumConstructorCall", "ProhibitAccessToInvisibleSetterFromDerivedClass", "ProhibitAllMultipleDefaultsInheritedFromSupertypes", "ProhibitArrayLiteralsInCompanionOfAnnotation", "ProhibitAssigningSingleElementsToVarargsInNamedForm", "ProhibitComparisonOfIncompatibleClasses", "ProhibitComparisonOfIncompatibleEnums", "ProhibitConcurrentHashMapContains", "ProhibitConfusingSyntaxInWhenBranches", "ProhibitConstructorAndSupertypeOnTypealiasWithTypeProjection", "ProhibitConstructorCallOnFunctionalSupertype", "ProhibitCyclesInAnnotations", "ProhibitDataClassesOverridingCopy", "ProhibitDefaultArgumentsInExpectActualizedByFakeOverride", "ProhibitEnumDeclaringClass", "ProhibitErroneousExpressionsInAnnotationsWithUseSiteTargets", "ProhibitGenericArrayClassLiteral", "ProhibitGenericQualifiersOnConstructorCalls", "ProhibitIllegalValueParameterUsageInDefaultArguments", "ProhibitImplementingVarByInheritedVal", "ProhibitInlineModifierOnPrimaryConstructorParameters", "ProhibitInnerClassesOfGenericClassExtendingThrowable", "ProhibitIntersectionReifiedTypeParameter", "ProhibitInvalidCharsInNativeIdentifiers", "ProhibitInvisibleAbstractMethodsInSuperclasses", "ProhibitJavaClassInheritingPrivateKotlinClass", "ProhibitJvmFieldOnOverrideFromInterfaceInPrimaryConstructor", "ProhibitJvmOverloadsOnConstructorsOfAnnotationClasses", "ProhibitLocalAnnotations", "ProhibitMissedMustBeInitializedWhenThereIsNoPrimaryConstructor", "ProhibitNonConstValuesAsVarargsInAnnotations", "ProhibitNonExhaustiveIfInRhsOfElvis", "ProhibitNonExhaustiveWhenOnAlgebraicTypes", "ProhibitNonReifiedArraysAsReifiedTypeArguments", "ProhibitNothingAsCatchParameter", "ProhibitNullableTypeThroughTypealias", "ProhibitOpenValDeferredInitialization", "ProhibitOperatorMod", "ProhibitPrivateOperatorCallInInline", "ProhibitProtectedCallFromInline", "ProhibitProtectedConstructorCallFromPublicInline", "ProhibitQualifiedAccessToUninitializedEnumEntry", "ProhibitRepeatedUseSiteTargetAnnotations", "ProhibitReturningIncorrectNullabilityValuesFromSamConstructorLambdaOfJdkInterfaces", "ProhibitScriptTopLevelInnerClasses", "ProhibitSelfCallsInNestedObjects", "ProhibitSimplificationOfNonTrivialConstBooleanExpressions", "ProhibitSingleNamedFunctionAsExpression", "ProhibitSmartcastsOnLocalDelegatedProperty", "ProhibitSmartcastsOnPropertyFromAlienBaseClass", "ProhibitSmartcastsOnPropertyFromAlienBaseClassInheritedInInvisibleClass", "ProhibitSpreadOnSignaturePolymorphicCall", "ProhibitSuperCallsFromPublicInline", "ProhibitSynchronizationByValueClassesAndPrimitives", "ProhibitTailrecOnVirtualMember", "ProhibitTypeParametersForLocalVariables", "ProhibitTypeParametersInAnonymousObjects", "ProhibitTypeParametersInClassLiteralsInAnnotationArguments", "ProhibitTypealiasAsCallableQualifierInImport", "ProhibitUseSiteGetTargetAnnotations", "ProhibitUseSiteTargetAnnotationsOnSuperTypes", "ProhibitUsingNullableTypeParameterAgainstNotNullAnnotated", "ProhibitVarargAsArrayAfterSamArgument", "ProhibitVisibilityOfNestedClassifiersFromSupertypesOfCompanion", "ProperArrayConventionSetterWithDefaultCalls", "ProperCheckAnnotationsTargetInTypeUsePositions", "ProperComputationOrderOfTailrecDefaultParameters", "ProperEqualityChecksInBuilderInferenceCalls", "ProperExhaustivenessCheckForJavaOpenSealedClass", "ProperFieldAccessGenerationForFieldAccessShadowedByKotlinProperty", "ProperFinally", "ProperForInArrayLoopRangeVariableAssignmentSemantic", "ProperIeee754Comparisons", "ProperInlineFromHigherPlatformDiagnostic", "ProperInternalVisibilityCheckInImportingScope", "ProperTypeInferenceConstraintsProcessing", "ProperUninitializedEnumEntryAccessAnalysis", "ProperVisibilityForCompanionObjectInstanceField", "PropertyParamAnnotationDefaultTargetMode", "QualifiedSupertypeMayBeExtendedByOtherSupertype", "RangeUntilOperator", "ReadDeserializedContracts", "ReferencesToSyntheticJavaProperties", "RefineTypeCheckingOnAssignmentsToJavaFields", "RefinedSamAdaptersPriority", "ReleaseCoroutines", "RepeatableAnnotationContainerConstraints", "RepeatableAnnotations", "ReportErrorsForComparisonOperators", "ReportErrorsOnRecursiveTypeInsidePlusAssignment", "ReportExposedTypeForInternalTypeParameterBounds", "ReportExposedTypeForMoreCasesOfTypeParameterBounds", "ReportMissingUpperBoundsViolatedErrorOnAbbreviationAtSupertypes", "ReportNonVarargSpreadOnGenericCalls", "ReportTypeVarianceConflictOnQualifierArguments", "RequiredPrimaryConstructorDelegationCallInEnums", "ResolveTopLevelLambdasAsSyntheticCallArgument", "RestrictRetentionForExpressionAnnotations", "RestrictReturnStatementTarget", "RestrictionOfValReassignmentViaBackingField", "RestrictionOfWrongAnnotationsWithUseSiteTargetsOnTypes", "SafeCallBoundSmartCasts", "SafeCallsAreAlwaysNullable", "SafeCastCheckBoundSmartCasts", "SamConversionForKotlinFunctions", "SamConversionPerArgument", "SamWrapperClassesAreSynthetic", "SealedInterfaces", "ShortSyntaxForPropertyGetters", "SingleUnderscoreForParameterName", "SkipStandaloneScriptsInSourceRoots", "SoundSmartCastsAfterTry", "SoundSmartcastForEnumEntries", "StopPropagatingDeprecationThroughOverrides", "StrictJavaNullabilityAssertions", "StrictOnlyInputTypesChecks", "StricterConstraintIncorporationRecursionDetector", "SupportEffectivelyFinalInExpectActualVisibilityCheck", "SupportJavaErrorEnhancementOfArgumentsOfWarningLevelEnhanced", "SuspendConversion", "SuspendFunctionAsSupertype", "SuspendFunctionsInFunInterfaces", "SuspendOnlySamConversions", "SynchronizedSuspendError", "TakeIntoAccountEffectivelyFinalInMustBeInitializedCheck", "ThrowNpeOnExplicitEqualsForBoxedNull", "TopLevelSealedInheritance", "TrailingCommas", "TurnTypeCheckWarningsIntoErrors", "TypeAliases", "TypeEnhancementImprovementsInStrictMode", "TypeInferenceOnCallsWithSelfTypes", "TypeInferenceOnGenericsForCallableReferences", "UnderscoresInNumericLiterals", "UnitConversionsOnArbitraryExpressions", "UnnamedLocalVariables", "UnrestrictedBuilderInference", "UnstableSmartcastOnDelegatedProperties", "UseBuilderInferenceOnlyIfNeeded", "UseBuilderInferenceWithoutAnnotation", "UseCallsInPlaceEffect", "UseConsistentRulesForPrivateConstructorsOfSealedClasses", "UseCorrectExecutionOrderForVarargArguments", "UseGetterNameForPropertyAnnotationsMethodOnJvm", "UseReturnsEffect", "ValueClasses", "ValueClassesSecondaryConstructorWithBody", "VariableDeclarationInWhenSubject", "WarnAboutNonExhaustiveWhenOnAlgebraicTypes", "WarningOnMainUnusedParameter", "WhenGuards", "YieldIsNoMoreReserved", "JsAllowExportingSuspendFunctions", "JsStaticInInterface", "ImprovedExhaustivenessChecksIn23", "RevertSimplificationOfFlexibleUpperConstraintWithDnnLowerBound", "ForbidTypeAliasToCompilerRequiredAnnotation", "EqualityConstraintForOperatorsUnderAssignments", "KlibAnnotationsInMetadata", "LocalTypeAliases", "CollectionLiterals", "ForbidClassLiteralWithPotentiallyNullableReifiedLhs", "ForbidArrayLiteralsInNonAnnotationContexts", "DisableMaxTypeDepthFromInitialConstraints" ]
+        "language_feature" : [ "AbstractClassMemberNotImplementedWithIntermediateAbstractClass", "AdaptedCallableReferenceAgainstReflectiveType", "AdditionalBuiltInsMembers", "AllowAccessToProtectedFieldFromSuperCompanion", "AllowAnyAsAnActualTypeForExpectInterface", "AllowAssigningArrayElementsToVarargsInNamedFormForFunctions", "AllowBreakAndContinueInsideWhen", "AllowCallingJavaOpenSealedClassConstructor", "AllowCheckForErasedTypesInContracts", "AllowContractsForCustomFunctions", "AllowContractsForNonOverridableMembers", "AllowContractsOnPropertyAccessors", "AllowContractsOnSomeOperators", "AllowDnnTypeOverridingFlexibleType", "AllowEagerSupertypeAccessibilityChecks", "AllowEmptyIntersectionsInResultTypeResolver", "AllowExpectDeclarationsInJsExport", "AllowNullOperatorsForResult", "AllowNullOperatorsForResultAndResultReturnTypeByDefault", "AllowReifiedGenericsInContracts", "AllowReifiedTypeInCatchClause", "AllowReturnInExpressionBodyWithExplicitType", "AllowSealedInheritorsInDifferentFilesOfSamePackage", "AllowSuperCallToJavaInterface", "AnnotationAllUseSiteTarget", "AnnotationDefaultTargetMigrationWarning", "AnnotationsInMetadata", "ApproximateAnonymousReturnTypesInPrivateInlineFunctions", "AssigningArraysToVarargsInNamedFormInAnnotations", "AvoidApproximationOfRecursiveCapturedTypesWithNoReason", "AvoidWrongOptimizationOfTypeOperatorsOnValueClasses", "BareArrayClassLiteral", "BoundCallableReferences", "BreakContinueInInlineLambdas", "CallableReferenceOverloadResolutionInLambda", "CallableReferencesToClassMembersWithEmptyLHS", "CapturedInClosureSmartCasts", "CapturedTypeApproximationReworked", "CheckLambdaAgainstTypeVariableContradictionInResolution", "CheckOptInOnPureEnumEntries", "CheckPackageInfoNullnessAnnotations", "ClassTypeParameterAnnotations", "ConditionImpliesReturnsContracts", "ConsiderExtensionReceiverFromConstrainsInLambda", "ConsiderForkPointsWhenCheckingContradictions", "ContextParameters", "ContextReceivers", "ContextSensitiveEnumResolutionInWhen", "ContextSensitiveResolutionUsingExpectedType", "ContractSyntaxV2", "ContractsOnCallsWithImplicitReceiver", "Coroutines", "CorrectSourceMappingSyntax", "CorrectSpecificityCheckForSignedAndUnsigned", "CustomEqualsInValueClasses", "DataClassCopyRespectsConstructorVisibility", "DataClassInheritance", "DataFlowBasedExhaustiveness", "DataObjects", "DefaultImportOfPackageKotlinComparisons", "DefaultMethodsCallFromJava6TargetError", "DefinitelyNonNullableTypes", "DeprecateNameMismatchInShortDestructuringWithParentheses", "DeprecatedFieldForInvisibleCompanionObject", "DestructuringLambdaParameters", "DfaBooleanVariables", "DirectJavaActualization", "DisableCheckingChangedProgressionsResolve", "DisableCompatibilityModeForNewInference", "DisableWarningsForIdentitySensitiveOperationsOnValueClassesAndPrimitives", "DisableWarningsForValueBasedJavaClasses", "DiscriminateSuspendInOverloadResolution", "DivisionByZeroInConstantExpressions", "DoNotGenerateThrowsForDelegatedKotlinMembers", "DoNotRunSuspendConversionForLambdaReturnStatements", "DontCreateSyntheticPropertiesWithoutBaseJavaGetter", "DontIgnoreUpperBoundViolatedOnImplicitArguments", "DontLoseDiagnosticsDuringOverloadResolutionByReturnType", "DontMakeExplicitJavaTypeArgumentsFlexible", "DslMarkerOnFunctionTypeReceiver", "DslMarkersSupport", "EliminateAmbiguitiesOnInheritedSamInterfaces", "EliminateAmbiguitiesWithExternalTypeParameters", "ElvisInferenceImprovementsIn21", "EnableDfaWarningsInK2", "EnableNameBasedDestructuringShortForm", "EnhanceNullabilityOfPrimitiveArrays", "EnumEntries", "ErrorAboutDataClassCopyVisibilityChange", "ExpectActualClasses", "ExpectRefinement", "ExpectedTypeFromCast", "ExperimentalBuilderInference", "ExplicitBackingFields", "ExportKlibToOlderAbiVersion", "ExtendedMainConvention", "FixationEnhancementsIn22", "ForbidAnnotationsWithUseSiteTargetOnExpressions", "ForbidCaptureInlinableLambdasInJsCode", "ForbidCompanionInLocalInnerClass", "ForbidCrossFileIrFieldAccessInKlibs", "ForbidEnumEntryNamedEntries", "ForbidExposingLessVisibleTypesInInline", "ForbidExposingPackagePrivateInInternal", "ForbidExposingTypesInPrimaryConstructorProperties", "ForbidExposureOfPrivateTypesInNonPrivateInlineFunctionsInKlibs", "ForbidExtensionCallsOnInlineFunctionalParameters", "ForbidExtensionFunctionTypeOnNonFunctionTypes", "ForbidFieldAnnotationsOnAnnotationParameters", "ForbidGetSetValueWithTooManyParameters", "ForbidImplementationByDelegationWithDifferentGenericSignature", "ForbidImplicitTypeAnnotationWithMissingDependency", "ForbidInferOfInvisibleTypeAsReifiedOrVararg", "ForbidInferOfInvisibleTypeAsReifiedVarargOrReturnType", "ForbidInferringPostponedTypeVariableIntoDeclaredUpperBound", "ForbidInferringTypeVariablesIntoEmptyIntersection", "ForbidInitializationBeforeDeclarationInAnonymous", "ForbidInlineEnumEntries", "ForbidJvmAnnotationsOnAnnotationParameters", "ForbidJvmSerializableLambdaOnInlinedFunctionLiterals", "ForbidLambdaParameterWithMissingDependencyType", "ForbidObjectDelegationToItself", "ForbidParenthesizedLhsInAssignments", "ForbidProjectionsInAnnotationProperties", "ForbidRecursiveDelegateExpressions", "ForbidReferencingToUnderscoreNamedParameterOfCatchBlock", "ForbidReifiedTypeParametersOnTypeAliases", "ForbidReturnInExpressionBodyWithoutExplicitTypeEdgeCases", "ForbidSuperDelegationToAbstractAnyMethod", "ForbidSuperDelegationToAbstractFakeOverride", "ForbidSyntheticPropertiesWithoutBaseJavaGetter", "ForbidTypeAliasWithMissingDependencyType", "ForbidUpperBoundsViolationOnTypeOperatorAndParameterBounds", "ForbidUsingExpressionTypesWithInaccessibleContent", "ForbidUsingExtensionPropertyTypeParameterInDelegate", "ForbidUsingSupertypesWithInaccessibleContentInTypeArguments", "ForkIsNotSuccessfulWhenNoBranchIsSuccessful", "FunctionReferenceWithDefaultValueAsOtherType", "FunctionTypesWithBigArity", "FunctionalInterfaceConversion", "FunctionalTypeWithExtensionAsSupertype", "GenerateJvmOverloadsAsFinal", "GenericInlineClassParameter", "HoldsInContracts", "IgnoreNullabilityForErasedValueParameters", "ImplicitJvmExposeBoxed", "ImplicitSignedToUnsignedIntegerConversion", "ImproveReportingDiagnosticsOnProtectedMembersOfBaseClass", "ImprovedCapturedTypeApproximationInInference", "ImprovedExhaustivenessChecksIn21", "ImprovedVarianceInCst", "InferMoreImplicationsFromBooleanExpressions", "InferenceCompatibility", "InferenceEnhancementsIn21", "InferenceEnhancementsIn23", "InlineClassImplementationByDelegation", "InlineClasses", "InlineConstVals", "InlineDefaultFunctionalParameters", "InlineLateinit", "InlineProperties", "InnerClassInEnumEntryClass", "InstantiationOfAnnotationClasses", "IntrinsicConstEvaluation", "IrCrossModuleInlinerBeforeKlibSerialization", "IrInlinerBeforeKlibSerialization", "IrIntraModuleInlinerBeforeKlibSerialization", "IrRichCallableReferencesInKlibs", "JavaSamConversionEqualsHashCode", "JavaTypeParameterDefaultRepresentationWithDNN", "JsAllowImplementingFunctionInterface", "JsAllowInvalidCharsIdentifiersEscaping", "JsAllowLongInExportedDeclarations", "JsAllowValueClassesInExternals", "JsEnableExtensionFunctionInExternals", "JsExternalPropertyParameters", "JvmDefaultEnableByDefault", "JvmFieldInInterface", "JvmIndyAllowLambdasWithAnnotations", "JvmInlineValueClasses", "JvmIrEnabledByDefault", "JvmNullOutSpilledCoroutineLocals", "JvmPackageName", "JvmPermittedSubclassesAttributeForSealed", "JvmRecordSupport", "JvmStaticInInterface", "KeepNullabilityWhenApproximatingLocalType", "KotlinFunInterfaceConstructorReference", "LateinitLocalVariables", "LateinitTopLevelProperties", "LightweightLambdas", "LocalDelegatedProperties", "MangleCallsToJavaMethodsWithValueClasses", "MangleClassMembersReturningInlineClasses", "MixedNamedArgumentsInTheirOwnPosition", "ModifierNonBuiltinSuspendFunError", "MultiDollarInterpolation", "MultiPlatformProjects", "MultiplatformRestrictions", "NameBasedDestructuring", "NativeJsProhibitLateinitIsInitializedIntrinsicWithoutPrivateAccess", "NestedClassesInAnnotations", "NestedClassesInEnumEntryShouldBeInner", "NestedTypeAliases", "NewCapturedReceiverFieldNamingConvention", "NewInference", "NoAdditionalErrorsInK1DiagnosticReporter", "NoBuilderInferenceWithoutAnnotationRestriction", "NoConstantValueAttributeForNonConstVals", "NoDelegationToJavaDefaultInterfaceMembers", "NoDeprecationOnDeprecatedEnumEntries", "NoSourceCodeInNotNullAssertionExceptions", "NonParenthesizedAnnotationsOnFunctionalTypes", "NormalizeConstructorCalls", "NullabilityAssertionOnExtensionReceiver", "NullableNothingInReifiedPosition", "ObjCSignatureOverrideAnnotation", "OperatorProvideDelegate", "OperatorRem", "OptInContagiousSignatures", "OptInRelease", "OverloadResolutionByLambdaReturnType", "PCLAEnhancementsIn21", "PackagePrivateFileClassesWithAllPrivateMembers", "ParseLambdaWithSuspendModifier", "PartiallySpecifiedTypeArguments", "PolymorphicSignature", "PreciseSimplificationToFlexibleLowerConstraint", "PreferDependentTypeVariablesWithProperArgumentConstraint", "PreferJavaFieldOverload", "PrioritizedEnumEntries", "PrivateInFileEffectiveVisibility", "ProgressionsChangingResolve", "ProhibitAccessToEnumCompanionMembersInEnumConstructorCall", "ProhibitAccessToInvisibleSetterFromDerivedClass", "ProhibitAllMultipleDefaultsInheritedFromSupertypes", "ProhibitArrayLiteralsInCompanionOfAnnotation", "ProhibitAssigningSingleElementsToVarargsInNamedForm", "ProhibitComparisonOfIncompatibleClasses", "ProhibitComparisonOfIncompatibleEnums", "ProhibitConcurrentHashMapContains", "ProhibitConfusingSyntaxInWhenBranches", "ProhibitConstructorAndSupertypeOnTypealiasWithTypeProjection", "ProhibitConstructorCallOnFunctionalSupertype", "ProhibitCyclesInAnnotations", "ProhibitDataClassesOverridingCopy", "ProhibitDefaultArgumentsInExpectActualizedByFakeOverride", "ProhibitEnumDeclaringClass", "ProhibitErroneousExpressionsInAnnotationsWithUseSiteTargets", "ProhibitGenericArrayClassLiteral", "ProhibitGenericQualifiersOnConstructorCalls", "ProhibitIllegalValueParameterUsageInDefaultArguments", "ProhibitImplementingVarByInheritedVal", "ProhibitInlineModifierOnPrimaryConstructorParameters", "ProhibitInnerClassesOfGenericClassExtendingThrowable", "ProhibitIntersectionReifiedTypeParameter", "ProhibitInvalidCharsInNativeIdentifiers", "ProhibitInvisibleAbstractMethodsInSuperclasses", "ProhibitJavaClassInheritingPrivateKotlinClass", "ProhibitJvmFieldOnOverrideFromInterfaceInPrimaryConstructor", "ProhibitJvmOverloadsOnConstructorsOfAnnotationClasses", "ProhibitLocalAnnotations", "ProhibitMissedMustBeInitializedWhenThereIsNoPrimaryConstructor", "ProhibitNonConstValuesAsVarargsInAnnotations", "ProhibitNonExhaustiveIfInRhsOfElvis", "ProhibitNonExhaustiveWhenOnAlgebraicTypes", "ProhibitNonReifiedArraysAsReifiedTypeArguments", "ProhibitNothingAsCatchParameter", "ProhibitNullableTypeThroughTypealias", "ProhibitOpenValDeferredInitialization", "ProhibitOperatorMod", "ProhibitPrivateOperatorCallInInline", "ProhibitProtectedCallFromInline", "ProhibitProtectedConstructorCallFromPublicInline", "ProhibitQualifiedAccessToUninitializedEnumEntry", "ProhibitRepeatedUseSiteTargetAnnotations", "ProhibitReturningIncorrectNullabilityValuesFromSamConstructorLambdaOfJdkInterfaces", "ProhibitScriptTopLevelInnerClasses", "ProhibitSelfCallsInNestedObjects", "ProhibitSimplificationOfNonTrivialConstBooleanExpressions", "ProhibitSingleNamedFunctionAsExpression", "ProhibitSmartcastsOnLocalDelegatedProperty", "ProhibitSmartcastsOnPropertyFromAlienBaseClass", "ProhibitSmartcastsOnPropertyFromAlienBaseClassInheritedInInvisibleClass", "ProhibitSpreadOnSignaturePolymorphicCall", "ProhibitSuperCallsFromPublicInline", "ProhibitSynchronizationByValueClassesAndPrimitives", "ProhibitTailrecOnVirtualMember", "ProhibitTypeParametersForLocalVariables", "ProhibitTypeParametersInAnonymousObjects", "ProhibitTypeParametersInClassLiteralsInAnnotationArguments", "ProhibitTypealiasAsCallableQualifierInImport", "ProhibitUseSiteGetTargetAnnotations", "ProhibitUseSiteTargetAnnotationsOnSuperTypes", "ProhibitUsingNullableTypeParameterAgainstNotNullAnnotated", "ProhibitVarargAsArrayAfterSamArgument", "ProhibitVisibilityOfNestedClassifiersFromSupertypesOfCompanion", "ProperArrayConventionSetterWithDefaultCalls", "ProperCheckAnnotationsTargetInTypeUsePositions", "ProperComputationOrderOfTailrecDefaultParameters", "ProperEqualityChecksInBuilderInferenceCalls", "ProperExhaustivenessCheckForJavaOpenSealedClass", "ProperFieldAccessGenerationForFieldAccessShadowedByKotlinProperty", "ProperFinally", "ProperForInArrayLoopRangeVariableAssignmentSemantic", "ProperIeee754Comparisons", "ProperInlineFromHigherPlatformDiagnostic", "ProperInternalVisibilityCheckInImportingScope", "ProperTypeInferenceConstraintsProcessing", "ProperUninitializedEnumEntryAccessAnalysis", "ProperVisibilityForCompanionObjectInstanceField", "PropertyParamAnnotationDefaultTargetMode", "QualifiedSupertypeMayBeExtendedByOtherSupertype", "RangeUntilOperator", "ReadDeserializedContracts", "ReferencesToSyntheticJavaProperties", "RefineTypeCheckingOnAssignmentsToJavaFields", "RefinedSamAdaptersPriority", "ReleaseCoroutines", "RepeatableAnnotationContainerConstraints", "RepeatableAnnotations", "ReportErrorsForComparisonOperators", "ReportErrorsOnRecursiveTypeInsidePlusAssignment", "ReportExposedTypeForInternalTypeParameterBounds", "ReportExposedTypeForMoreCasesOfTypeParameterBounds", "ReportMissingUpperBoundsViolatedErrorOnAbbreviationAtSupertypes", "ReportNonVarargSpreadOnGenericCalls", "ReportTypeVarianceConflictOnQualifierArguments", "RequiredPrimaryConstructorDelegationCallInEnums", "ResolveTopLevelLambdasAsSyntheticCallArgument", "RestrictRetentionForExpressionAnnotations", "RestrictReturnStatementTarget", "RestrictionOfValReassignmentViaBackingField", "RestrictionOfWrongAnnotationsWithUseSiteTargetsOnTypes", "SafeCallBoundSmartCasts", "SafeCallsAreAlwaysNullable", "SafeCastCheckBoundSmartCasts", "SamConversionForKotlinFunctions", "SamConversionPerArgument", "SamWrapperClassesAreSynthetic", "SealedInterfaces", "ShortSyntaxForPropertyGetters", "SingleUnderscoreForParameterName", "SkipStandaloneScriptsInSourceRoots", "SoundSmartCastsAfterTry", "SoundSmartcastForEnumEntries", "StopPropagatingDeprecationThroughOverrides", "StrictJavaNullabilityAssertions", "StrictOnlyInputTypesChecks", "StricterConstraintIncorporationRecursionDetector", "SupportEffectivelyFinalInExpectActualVisibilityCheck", "SupportJavaErrorEnhancementOfArgumentsOfWarningLevelEnhanced", "SuspendConversion", "SuspendFunctionAsSupertype", "SuspendFunctionsInFunInterfaces", "SuspendOnlySamConversions", "SynchronizedSuspendError", "TakeIntoAccountEffectivelyFinalInMustBeInitializedCheck", "ThrowNpeOnExplicitEqualsForBoxedNull", "TopLevelSealedInheritance", "TrailingCommas", "TurnTypeCheckWarningsIntoErrors", "TypeAliases", "TypeEnhancementImprovementsInStrictMode", "TypeInferenceOnCallsWithSelfTypes", "TypeInferenceOnGenericsForCallableReferences", "UnderscoresInNumericLiterals", "UnitConversionsOnArbitraryExpressions", "UnnamedLocalVariables", "UnrestrictedBuilderInference", "UnstableSmartcastOnDelegatedProperties", "UseBuilderInferenceOnlyIfNeeded", "UseBuilderInferenceWithoutAnnotation", "UseCallsInPlaceEffect", "UseConsistentRulesForPrivateConstructorsOfSealedClasses", "UseCorrectExecutionOrderForVarargArguments", "UseGetterNameForPropertyAnnotationsMethodOnJvm", "UseReturnsEffect", "ValueClasses", "ValueClassesSecondaryConstructorWithBody", "VariableDeclarationInWhenSubject", "WarnAboutNonExhaustiveWhenOnAlgebraicTypes", "WarningOnMainUnusedParameter", "WhenGuards", "YieldIsNoMoreReserved", "JsAllowExportingSuspendFunctions", "JsStaticInInterface", "ImprovedExhaustivenessChecksIn23", "RevertSimplificationOfFlexibleUpperConstraintWithDnnLowerBound", "ForbidTypeAliasToCompilerRequiredAnnotation", "EqualityConstraintForOperatorsUnderAssignments", "KlibAnnotationsInMetadata", "LocalTypeAliases", "CollectionLiterals", "ForbidClassLiteralWithPotentiallyNullableReifiedLhs", "ForbidArrayLiteralsInNonAnnotationContexts", "DisableMaxTypeDepthFromInitialConstraints", "ProhibitExtendingAnnotationClasses", "ForbidOverriddenDefaultParametersInInline", "RefinedVarargConversionRulesForCallableReferences", "ExplicitContextArguments", "ForbidRootIdePackageInCli", "DisableSimplificationOfFlexibleUpperConstraintWithDnnLowerBound", "ImprovedResolutionInSecondaryConstructors", "ReportUpperBoundViolatedInCallArgumentInteractions", "ProperlyCheckUpperBoundsViolationsWhenCreatingFreshVariables", "LocalVariableTargetedAnnotationOnDestructuring" ]
+      }
+    }
+  }, {
+    "id" : "kotlin.project.opener",
+    "builds" : [ ],
+    "versions" : [ {
+      "from" : "1"
+    } ],
+    "rules" : {
+      "event_id" : [ "{enum:project.opened.from.website}" ],
+      "event_data" : {
+        "utm_campaign" : [ "{regexp:ktor3-wave2|organic|other|c-(\\d)+}" ],
+        "utm_medium" : [ "{enum:social|referral|cpc|email|banner|conference|organic|integration|sticky_banner|other}" ],
+        "utm_source" : [ "{enum:google|twitter|facebook|linkedin|instagram|youtube.com|newsletter|reddit|kotlinlang.org|jetbrains.com|other}" ]
       }
     }
   }, {
@@ -7618,7 +7811,7 @@
         "selected_option_length_rounded" : [ "{regexp#integer}" ],
         "show_diff_applied_immediately" : [ "{enum#boolean}" ],
         "snippet_length" : [ "{regexp#integer}" ],
-        "source_action" : [ "{enum:UNKNOWN|NEW_CHAT_ON_START|NEW_CHAT|NEW_POPUP_CHAT|NEW_CHAT_FROM_EDITOR|EXPLAIN_CODE_INTENTION|FIND_PROBLEMS_INTENTION|FIX_CODE_INTENTION|REFACTOR_THIS|UNKNOWN_CHAT_INTENTION|LOAD_STATE|RUNTIME_ERROR_EXPLANATION|BUILD_ERROR_EXPLANATION|EXPLAIN_COMMIT|UNITY_CREATE_NEW_FILE|GENERATE_CODE_INPLACE|GENERATE_CODE_INLINE_PROMPT|GENERATE_UNIT_TESTS|NAME_SUGGESTION|EXTRACT_COMPONENT|CUSTOM_CHAT|PROMPT_LIBRARY|ERROR_MESSAGE|WRITE_DOCUMENTATION|EXPLAIN_REGEXP|PYTHON_DJANGO_ADMIN_FOR_MODEL_INTENTION|PYTHON_DJANGO_VIEW_FOR_MODEL_INTENTION|PYTHON_DJANGO_SERIALIZER_FOR_MODEL_INTENTION|PYTHON_DJANGO_CUSTOM_INTENTION|PYTHON_DJANGO_CUSTOM_SMART_CHAT_INTENTION|PYTHON_FILE_SIGNATURES_CUSTOM_INTENTION|PYTHON_EXPLAIN_DATA_FRAME|PYTHON_GENERATE_VISUALIZATIONS|PYTHON_ADD_TYPE_ANNOTATIONS|PYTHON_CONVERT_LOOP_TO_COMPREHENSION|GRAPH_BUILDER_GENERATE_VISUALIZATIONS|GENERATE_JUPYTER_FILE_CONTENT|KOTLIN_EXPLAIN_DATA_FRAME|KOTLIN_GENERATE_VISUALIZATIONS|GENERATE_API_REQUEST_EXAMPLE|GOTO_CHAT|MINI_CHAT}", "{enum:GENERATE_CODE_FROM_CHAT}", "{enum:DATASPELL_CHAT_WITH_DATA_WRANGLER}", "{enum:DATASPELL_DATA_WRANGLER_AGENT}", "{enum:RUST_FIX_WITH_AI}" ],
+        "source_action" : [ "{enum:UNKNOWN|NEW_CHAT_ON_START|NEW_CHAT|NEW_POPUP_CHAT|NEW_CHAT_FROM_EDITOR|EXPLAIN_CODE_INTENTION|FIND_PROBLEMS_INTENTION|FIX_CODE_INTENTION|REFACTOR_THIS|UNKNOWN_CHAT_INTENTION|LOAD_STATE|RUNTIME_ERROR_EXPLANATION|BUILD_ERROR_EXPLANATION|EXPLAIN_COMMIT|UNITY_CREATE_NEW_FILE|GENERATE_CODE_INPLACE|GENERATE_CODE_INLINE_PROMPT|GENERATE_UNIT_TESTS|NAME_SUGGESTION|EXTRACT_COMPONENT|CUSTOM_CHAT|PROMPT_LIBRARY|ERROR_MESSAGE|WRITE_DOCUMENTATION|EXPLAIN_REGEXP|PYTHON_DJANGO_ADMIN_FOR_MODEL_INTENTION|PYTHON_DJANGO_VIEW_FOR_MODEL_INTENTION|PYTHON_DJANGO_SERIALIZER_FOR_MODEL_INTENTION|PYTHON_DJANGO_CUSTOM_INTENTION|PYTHON_DJANGO_CUSTOM_SMART_CHAT_INTENTION|PYTHON_FILE_SIGNATURES_CUSTOM_INTENTION|PYTHON_EXPLAIN_DATA_FRAME|PYTHON_GENERATE_VISUALIZATIONS|PYTHON_ADD_TYPE_ANNOTATIONS|PYTHON_CONVERT_LOOP_TO_COMPREHENSION|GRAPH_BUILDER_GENERATE_VISUALIZATIONS|GENERATE_JUPYTER_FILE_CONTENT|KOTLIN_EXPLAIN_DATA_FRAME|KOTLIN_GENERATE_VISUALIZATIONS|GENERATE_API_REQUEST_EXAMPLE|GOTO_CHAT|MINI_CHAT}", "{enum:GENERATE_CODE_FROM_CHAT}", "{enum:DATASPELL_CHAT_WITH_DATA_WRANGLER}", "{enum:DATASPELL_DATA_WRANGLER_AGENT}", "{enum:RUST_FIX_WITH_AI}", "{enum:FLOATING_TOOLBAR_ADD_TO_CHAT}" ],
         "specify_count" : [ "{regexp#integer}" ],
         "state" : [ "{enum:SUCCEED|ERROR|CANCEL|NOT_AUTHENTICATED}" ],
         "succeed" : [ "{enum#boolean}" ],
@@ -7893,7 +8086,7 @@
         "similarity_with_code_in_message" : [ "{regexp#float}" ],
         "similarity_with_current_message" : [ "{regexp#float}" ],
         "source" : [ "{enum:CHAT_LOGIN_BUTTON|CHAT_RETRY_BUTTON|CHAT_WAIT_LIST|SETTINGS_PAGE|SETTINGS_PAGE_WAIT_LIST|NOTIFICATION|FULL_LINE}", "{enum:STATUS_BAR_LOGIN_BUTTON}" ],
-        "source_action" : [ "{enum:RIDER_GENERATE_UNIT_TESTS}", "{enum:PYTHON_EXPLAIN_DATA_FRAME}", "{enum:GENERATE_API_REQUEST_EXAMPLE}", "{enum:BUILD_ERROR_EXPLANATION}", "{enum:NEW_POPUP_CHAT}", "{enum:WRITE_DOCUMENTATION|EXPLAIN_REGEXP}", "{enum:PYTHON_GENERATE_VISUALIZATIONS}", "{enum:FIX_CODE_INTENTION}", "{enum:NEW_CHAT_FROM_EDITOR}", "{enum:EXTRACT_COMPONENT|KOTLIN_GENERATE_VISUALIZATIONS|KOTLIN_EXPLAIN_DATA_FRAME}", "{enum:GRAPH_BUILDER_GENERATE_VISUALIZATIONS}", "{enum:NAME_SUGGESTION}", "{enum:PYTHON_ADD_TYPE_ANNOTATIONS}", "{enum:GENERATE_JUPYTER_FILE_CONTENT}", "{enum:PYTHON_CONVERT_LOOP_TO_COMPREHENSION}", "{enum:GENERATE_CODE_INLINE_PROMPT}", "{enum:NEW_CHAT_ON_START|GOTO_CHAT}", "{enum:MINI_CHAT}", "{enum:GENERATE_CODE_FROM_CHAT}", "{enum:DATASPELL_CHAT_WITH_DATA_WRANGLER}", "{enum:DATASPELL_DATA_WRANGLER_AGENT}", "{enum:RUST_FIX_WITH_AI}", "{enum:UNKNOWN|NEW_CHAT|EXPLAIN_CODE_INTENTION|FIND_PROBLEMS_INTENTION|REFACTOR_THIS|UNKNOWN_CHAT_INTENTION|LOAD_STATE|RUNTIME_ERROR_EXPLANATION|EXPLAIN_COMMIT|UNITY_CREATE_NEW_FILE|UNITY_GENERATE_CODE|GENERATE_CODE_INPLACE|GENERATE_UNIT_TESTS|CUSTOM_CHAT|PROMPT_LIBRARY|ERROR_MESSAGE|PYTHON_DJANGO_ADMIN_FOR_MODEL_INTENTION|PYTHON_DJANGO_VIEW_FOR_MODEL_INTENTION|PYTHON_DJANGO_SERIALIZER_FOR_MODEL_INTENTION|PYTHON_DJANGO_CUSTOM_INTENTION|PYTHON_DJANGO_CUSTOM_SMART_CHAT_INTENTION|PYTHON_FILE_SIGNATURES_CUSTOM_INTENTION}" ],
+        "source_action" : [ "{enum:RIDER_GENERATE_UNIT_TESTS}", "{enum:PYTHON_EXPLAIN_DATA_FRAME}", "{enum:GENERATE_API_REQUEST_EXAMPLE}", "{enum:BUILD_ERROR_EXPLANATION}", "{enum:NEW_POPUP_CHAT}", "{enum:WRITE_DOCUMENTATION|EXPLAIN_REGEXP}", "{enum:PYTHON_GENERATE_VISUALIZATIONS}", "{enum:FIX_CODE_INTENTION}", "{enum:NEW_CHAT_FROM_EDITOR}", "{enum:EXTRACT_COMPONENT|KOTLIN_GENERATE_VISUALIZATIONS|KOTLIN_EXPLAIN_DATA_FRAME}", "{enum:GRAPH_BUILDER_GENERATE_VISUALIZATIONS}", "{enum:NAME_SUGGESTION}", "{enum:PYTHON_ADD_TYPE_ANNOTATIONS}", "{enum:GENERATE_JUPYTER_FILE_CONTENT}", "{enum:PYTHON_CONVERT_LOOP_TO_COMPREHENSION}", "{enum:GENERATE_CODE_INLINE_PROMPT}", "{enum:NEW_CHAT_ON_START|GOTO_CHAT}", "{enum:MINI_CHAT}", "{enum:GENERATE_CODE_FROM_CHAT}", "{enum:DATASPELL_CHAT_WITH_DATA_WRANGLER}", "{enum:DATASPELL_DATA_WRANGLER_AGENT}", "{enum:RUST_FIX_WITH_AI}", "{enum:FLOATING_TOOLBAR_ADD_TO_CHAT}", "{enum:UNKNOWN|NEW_CHAT|EXPLAIN_CODE_INTENTION|FIND_PROBLEMS_INTENTION|REFACTOR_THIS|UNKNOWN_CHAT_INTENTION|LOAD_STATE|RUNTIME_ERROR_EXPLANATION|EXPLAIN_COMMIT|UNITY_CREATE_NEW_FILE|UNITY_GENERATE_CODE|GENERATE_CODE_INPLACE|GENERATE_UNIT_TESTS|CUSTOM_CHAT|PROMPT_LIBRARY|ERROR_MESSAGE|PYTHON_DJANGO_ADMIN_FOR_MODEL_INTENTION|PYTHON_DJANGO_VIEW_FOR_MODEL_INTENTION|PYTHON_DJANGO_SERIALIZER_FOR_MODEL_INTENTION|PYTHON_DJANGO_CUSTOM_INTENTION|PYTHON_DJANGO_CUSTOM_SMART_CHAT_INTENTION|PYTHON_FILE_SIGNATURES_CUSTOM_INTENTION}" ],
         "start_time" : [ "{regexp#integer}" ],
         "status" : [ "{regexp#integer}" ],
         "tab_selected_count" : [ "{regexp#integer}" ],
@@ -8240,11 +8433,19 @@
       "from" : "1"
     } ],
     "rules" : {
-      "event_id" : [ "{enum:request}" ],
+      "event_id" : [ "{enum#__event_id}" ],
       "event_data" : {
         "cached_postprocessed_insights" : [ "{regexp#integer}" ],
+        "comment_type" : [ "{enum:COMMENT|DOCSTRING}" ],
+        "insight_id" : [ "{regexp#integer}" ],
+        "insights_enabled" : [ "{enum#boolean}" ],
         "new_postprocessed_insights" : [ "{regexp#integer}" ],
-        "new_processed_lines" : [ "{regexp#integer}" ]
+        "new_processed_lines" : [ "{regexp#integer}" ],
+        "rating" : [ "{enum:LIKE|DISLIKE}" ],
+        "settings_source" : [ "{enum:REGULAR_SETTINGS|POPUP_MENU|AI_HUB}" ]
+      },
+      "enums" : {
+        "__event_id" : [ "request", "settings_changed", "insert_as_comment", "rated", "copied", "hidden", "hovered" ]
       }
     }
   }, {
@@ -8260,8 +8461,9 @@
         "button_name" : [ "{enum:Lets Go|Upgrade|Refresh}", "{enum:Add}" ],
         "current_plan" : [ "{enum:ULTIMATE|ENTERPRISE|PRO_TRIAL|PRO|BUSINESS_TRIAL|BUSINESS|EAP_TRIAL|FREE|NONE}", "{enum:Ultimate|Enterprise|Pro Trial|Pro|Business Trial|Business|Trial for EAP IDE|Free|None}" ],
         "new_plan" : [ "{enum:Ultimate|Enterprise|Pro Trial|Pro|Business Trial|Business|Trial for EAP IDE|Free|None}" ],
-        "notification_action" : [ "{enum:Top-up credits|Upgrade to ultimate}", "{enum:Add top-up credits|About top-up credits}", "{enum:Close(x)|Upgrade now|Renew now|Upgrade to Pro}" ],
-        "notification_type" : [ "{enum:Trial expires in 5 days|Trial expired|Trial expired Free available|Trial expired Free not available}", "{enum:Free limit|Pro limit|Pro trial limit|Business limit|Business trial limit|Ultimate plan|Enterprise}", "{enum:Ultimate top up limit|Pro top up limit}", "{enum:Plan limit, top up available|Business top up limit}", "{enum:Pro expires in 5 days|Pro expired|Pro expired Free available|Pro expired Free not available}", "{enum:Pro expired, top up remained}", "{enum:Business expires in 5 days|Business expired}", "{enum:Business expired, top up remained}", "{enum:Business trial expires in 5 days|Business trial expired}", "{enum:Ultimate expired, top up remained}" ],
+        "notification_action" : [ "{enum:Top-up credits|Upgrade to ultimate}", "{enum:Close(x)|Upgrade now|Renew now|Upgrade to Pro}", "{enum:Close(x)|Upgrade now|Renew now|Upgrade to ultimate|Add top-up credits|About top-up credits}" ],
+        "notification_plan" : [ "{enum:Ultimate|Enterprise|Pro Trial|Pro|Business Trial|Business|Trial for EAP IDE|Free|None}" ],
+        "notification_type" : [ "{enum:Trial expires in 5 days|Trial expired|Trial expired Free available|Trial expired Free not available}", "{enum:Free limit|Pro limit|Pro trial limit|Business limit|Business trial limit|Ultimate plan|Enterprise}", "{enum:Ultimate top up limit|Pro top up limit}", "{enum:Plan limit, top up available|Business top up limit}", "{enum:Pro expires in 5 days|Pro expired|Pro expired Free available|Pro expired Free not available}", "{enum:Pro expired, top up remained}", "{enum:Business expires in 5 days|Business expired}", "{enum:Business expired, top up remained}", "{enum:Business trial expires in 5 days|Business trial expired}", "{enum:Ultimate expired, top up remained}", "{enum:License expires in 5 days|License expired|License expired, top up remained|Quota reaching|Quota reached|Quota reached, top up remained|Quota reached, 15% top-up left|Quota reached, top up exhausted}" ],
         "plan_type" : [ "{enum:ULTIMATE|ENTERPRISE|PRO_TRIAL|PRO|BUSINESS_TRIAL|BUSINESS|EAP_TRIAL|FREE|NONE}" ],
         "plugin" : [ "{util#plugin}" ],
         "plugin_type" : [ "{util#plugin_type}" ],
@@ -8269,7 +8471,7 @@
         "previous_plan" : [ "{enum:Ultimate|Enterprise|Pro Trial|Pro|Business Trial|Business|Trial for EAP IDE|Free|None}" ]
       },
       "enums" : {
-        "__event_id" : [ "hub.notifications.type.trial.action.clicked", "hub.notifications.quota.shown", "hub.current.aia.plan.displayed", "hub.notifications.quota.action.clicked", "hub.notifications.type.trial.shown", "hub.notifications.type.pro.action.clicked", "hub.actions.clicked", "hub.notifications.type.pro.shown", "plan.changed", "hub.icon.clicked", "button.clicked", "hub.notifications.type.business.shown", "hub.notifications.type.business.action.clicked", "hub.notifications.type.business.trial.action.clicked", "hub.notifications.type.business.trial.shown", "hub.notifications.no.local.models.shown", "hub.notifications.no.local.models.configure.clicked", "hub.notifications.type.ultimate.shown" ]
+        "__event_id" : [ "hub.notifications.type.trial.action.clicked", "hub.notifications.quota.shown", "hub.current.aia.plan.displayed", "hub.notifications.quota.action.clicked", "hub.notifications.type.trial.shown", "hub.notifications.type.pro.action.clicked", "hub.actions.clicked", "hub.notifications.type.pro.shown", "plan.changed", "hub.icon.clicked", "button.clicked", "hub.notifications.type.business.shown", "hub.notifications.type.business.action.clicked", "hub.notifications.type.business.trial.action.clicked", "hub.notifications.type.business.trial.shown", "hub.notifications.no.local.models.shown", "hub.notifications.no.local.models.configure.clicked", "hub.notifications.type.ultimate.shown", "hub.notification.action.clicked", "hub.notification.shown" ]
       }
     }
   }, {
@@ -8367,7 +8569,7 @@
         "state" : [ "{enum:SUCCEED|ERROR|CANCEL|NOT_AUTHENTICATED}" ]
       },
       "enums" : {
-        "__event_id" : [ "autopilot.generation.accept", "autopilot.generation.accept.and.run", "autopilot.generation.start", "autopilot.score", "autopilot.select.suggestion", "autopilot.ask.suggestions", "autopilot.generation.regenerate", "autopilot.generation.stop", "autopilot.specify.user.prompt", "autopilot.started", "autopilot.initial.user.prompt", "autopilot.finished", "autopilot.generation.run.generated.cells", "autopilot.original.updated.stop", "autopilot.fix.cell.accept.all", "autopilot.edit.cell.accept.all", "autopilot.original.updated.cancel", "autopilot.many.cells.generation.stop", "autopilot.edit.cell.cancel", "autopilot.edit.cell.run", "autopilot.fix.cell.discard.all", "autopilot.original.updated.finish", "autopilot.many.cells.generation.run", "autopilot.many.cells.generation.discard.all", "autopilot.many.cells.generation.discard.change", "autopilot.original.updated.discard.all", "autopilot.edit.cell.finish", "autopilot.fix.cell.prompts.history.select", "autopilot.many.cells.generation.cancel", "autopilot.fix.cell.regenerate", "autopilot.many.cells.generation.specify", "autopilot.generation.interaction.finish", "autopilot.edit.cell.discard.change", "autopilot.many.cells.prompts.history.select", "autopilot.fix.cell.cancel", "autopilot.many.cells.generation.finish", "autopilot.edit.cell.specify", "autopilot.many.cells.generation.regenerate", "autopilot.edit.cell.regenerate", "autopilot.original.updated.run", "autopilot.original.updated.prompts.history.click", "autopilot.many.cells.prompts.history.click", "autopilot.original.updated.accept.all", "autopilot.fix.cell.specify", "autopilot.fix.cell.stop", "autopilot.fix.cell.run", "autopilot.edit.cell.prompts.history.select", "autopilot.edit.cell.stop", "autopilot.fix.cell.finish", "autopilot.fix.cell.prompts.history.click", "autopilot.original.updated.prompts.history.select", "autopilot.original.updated.specify", "autopilot.edit.cell.discard.all", "autopilot.edit.cell.prompts.history.click", "autopilot.many.cells.generation.accept.all", "autopilot.original.updated.discard.change", "autopilot.fix.cell.discard.change" ]
+        "__event_id" : [ "autopilot.generation.accept", "autopilot.generation.accept.and.run", "autopilot.generation.start", "autopilot.score", "autopilot.select.suggestion", "autopilot.ask.suggestions", "autopilot.generation.regenerate", "autopilot.generation.stop", "autopilot.specify.user.prompt", "autopilot.started", "autopilot.initial.user.prompt", "autopilot.finished", "autopilot.generation.run.generated.cells", "autopilot.original.updated.stop", "autopilot.fix.cell.accept.all", "autopilot.edit.cell.accept.all", "autopilot.original.updated.cancel", "autopilot.many.cells.generation.stop", "autopilot.edit.cell.cancel", "autopilot.edit.cell.run", "autopilot.fix.cell.discard.all", "autopilot.original.updated.finish", "autopilot.many.cells.generation.run", "autopilot.many.cells.generation.discard.all", "autopilot.many.cells.generation.discard.change", "autopilot.original.updated.discard.all", "autopilot.edit.cell.finish", "autopilot.fix.cell.prompts.history.select", "autopilot.many.cells.generation.cancel", "autopilot.fix.cell.regenerate", "autopilot.many.cells.generation.specify", "autopilot.generation.interaction.finish", "autopilot.edit.cell.discard.change", "autopilot.many.cells.prompts.history.select", "autopilot.fix.cell.cancel", "autopilot.many.cells.generation.finish", "autopilot.edit.cell.specify", "autopilot.many.cells.generation.regenerate", "autopilot.edit.cell.regenerate", "autopilot.original.updated.run", "autopilot.original.updated.prompts.history.click", "autopilot.many.cells.prompts.history.click", "autopilot.original.updated.accept.all", "autopilot.fix.cell.specify", "autopilot.fix.cell.stop", "autopilot.fix.cell.run", "autopilot.edit.cell.prompts.history.select", "autopilot.edit.cell.stop", "autopilot.fix.cell.finish", "autopilot.fix.cell.prompts.history.click", "autopilot.original.updated.prompts.history.select", "autopilot.original.updated.specify", "autopilot.edit.cell.discard.all", "autopilot.edit.cell.prompts.history.click", "autopilot.many.cells.generation.accept.all", "autopilot.original.updated.discard.change", "autopilot.fix.cell.discard.change", "autopilot.cancel.generation", "autopilot.close.autopilot.panel", "autopilot.fix.cell.ai", "autopilot.run", "autopilot.prompts.history.select", "autopilot.discard.all", "autopilot.many.cells.generation.ai", "autopilot.prompts.history.click", "autopilot.regenerate", "autopilot.start.generation", "autopilot.discard.change", "autopilot.edit.cell.ai", "autopilot.accept.all", "autopilot.stop", "autopilot.finish", "autopilot.original.updated.ai", "autopilot.specify.followup", "autopilot.stop.all.open.new" ]
       }
     }
   }, {
@@ -8403,7 +8605,7 @@
         "plugin_type" : [ "{util#plugin_type}" ],
         "plugin_version" : [ "{util#plugin_version}" ],
         "result_length" : [ "{regexp#float}" ],
-        "source_action" : [ "{enum:UNKNOWN|NEW_CHAT|NEW_POPUP_CHAT|NEW_CHAT_FROM_EDITOR|EXPLAIN_CODE_INTENTION|FIND_PROBLEMS_INTENTION|FIX_CODE_INTENTION|REFACTOR_THIS|UNKNOWN_CHAT_INTENTION|LOAD_STATE|RUNTIME_ERROR_EXPLANATION|BUILD_ERROR_EXPLANATION|EXPLAIN_COMMIT|UNITY_CREATE_NEW_FILE|GENERATE_CODE_INPLACE|GENERATE_UNIT_TESTS|NAME_SUGGESTION|EXTRACT_COMPONENT|CUSTOM_CHAT|PROMPT_LIBRARY|ERROR_MESSAGE|WRITE_DOCUMENTATION|EXPLAIN_REGEXP|PYTHON_DJANGO_ADMIN_FOR_MODEL_INTENTION|PYTHON_DJANGO_VIEW_FOR_MODEL_INTENTION|PYTHON_DJANGO_SERIALIZER_FOR_MODEL_INTENTION|PYTHON_DJANGO_CUSTOM_INTENTION|PYTHON_DJANGO_CUSTOM_SMART_CHAT_INTENTION|PYTHON_FILE_SIGNATURES_CUSTOM_INTENTION|PYTHON_EXPLAIN_DATA_FRAME|PYTHON_GENERATE_VISUALIZATIONS|PYTHON_ADD_TYPE_ANNOTATIONS|PYTHON_CONVERT_LOOP_TO_COMPREHENSION|GRAPH_BUILDER_GENERATE_VISUALIZATIONS|GENERATE_JUPYTER_FILE_CONTENT|KOTLIN_EXPLAIN_DATA_FRAME|KOTLIN_GENERATE_VISUALIZATIONS|GENERATE_API_REQUEST_EXAMPLE}", "{enum:NEW_CHAT_ON_START|GENERATE_CODE_INLINE_PROMPT|GOTO_CHAT}", "{enum:MINI_CHAT}", "{enum:GENERATE_CODE_FROM_CHAT}", "{enum:DATASPELL_CHAT_WITH_DATA_WRANGLER}", "{enum:DATASPELL_DATA_WRANGLER_AGENT}", "{enum:RUST_FIX_WITH_AI}" ]
+        "source_action" : [ "{enum:UNKNOWN|NEW_CHAT|NEW_POPUP_CHAT|NEW_CHAT_FROM_EDITOR|EXPLAIN_CODE_INTENTION|FIND_PROBLEMS_INTENTION|FIX_CODE_INTENTION|REFACTOR_THIS|UNKNOWN_CHAT_INTENTION|LOAD_STATE|RUNTIME_ERROR_EXPLANATION|BUILD_ERROR_EXPLANATION|EXPLAIN_COMMIT|UNITY_CREATE_NEW_FILE|GENERATE_CODE_INPLACE|GENERATE_UNIT_TESTS|NAME_SUGGESTION|EXTRACT_COMPONENT|CUSTOM_CHAT|PROMPT_LIBRARY|ERROR_MESSAGE|WRITE_DOCUMENTATION|EXPLAIN_REGEXP|PYTHON_DJANGO_ADMIN_FOR_MODEL_INTENTION|PYTHON_DJANGO_VIEW_FOR_MODEL_INTENTION|PYTHON_DJANGO_SERIALIZER_FOR_MODEL_INTENTION|PYTHON_DJANGO_CUSTOM_INTENTION|PYTHON_DJANGO_CUSTOM_SMART_CHAT_INTENTION|PYTHON_FILE_SIGNATURES_CUSTOM_INTENTION|PYTHON_EXPLAIN_DATA_FRAME|PYTHON_GENERATE_VISUALIZATIONS|PYTHON_ADD_TYPE_ANNOTATIONS|PYTHON_CONVERT_LOOP_TO_COMPREHENSION|GRAPH_BUILDER_GENERATE_VISUALIZATIONS|GENERATE_JUPYTER_FILE_CONTENT|KOTLIN_EXPLAIN_DATA_FRAME|KOTLIN_GENERATE_VISUALIZATIONS|GENERATE_API_REQUEST_EXAMPLE}", "{enum:NEW_CHAT_ON_START|GENERATE_CODE_INLINE_PROMPT|GOTO_CHAT}", "{enum:MINI_CHAT}", "{enum:GENERATE_CODE_FROM_CHAT}", "{enum:DATASPELL_CHAT_WITH_DATA_WRANGLER}", "{enum:DATASPELL_DATA_WRANGLER_AGENT}", "{enum:RUST_FIX_WITH_AI}", "{enum:FLOATING_TOOLBAR_ADD_TO_CHAT}" ]
       }
     },
     "anonymized_fields" : [ {
@@ -8514,6 +8716,7 @@
         "enabled" : [ "{enum#boolean}" ],
         "end_of_quotas" : [ "{regexp#integer}" ],
         "level" : [ "{enum:Allowed|JvmFlag|OSRegistry|Agreement|IdeLicense|IdeLicenseNotInitialized|ProjectFile|UserSetting}", "{enum:RemDev}", "{enum:CompanyLicenseInCommunity}" ],
+        "license_type" : [ "{enum:COMMERCIAL|PERSONAL|NONE}" ],
         "number_of_prompts_created" : [ "{regexp#integer}" ],
         "paid" : [ "{enum#boolean}" ],
         "percent" : [ "{regexp#integer}" ],
@@ -8778,6 +8981,7 @@
       "event_id" : [ "{enum#__event_id}" ],
       "event_data" : {
         "agent_locs_added" : [ "{regexp#integer}" ],
+        "agent_locs_changed" : [ "{regexp#integer}" ],
         "agent_locs_read" : [ "{regexp#integer}" ],
         "agent_locs_removed" : [ "{regexp#integer}" ],
         "anonymous_id" : [ "{regexp#hash}" ],
@@ -8816,7 +9020,7 @@
         "speed_mode" : [ "{enum:Speed|Quality}" ],
         "start_time_ms" : [ "{regexp#integer}" ],
         "step_result" : [ "{enum:UNKNOWN|SUBMIT|EXIT_COST|EXIT_PAYMENT_REQUIRED|EXIT_FORMAT|EXIT_TIMEOUT|EXIT_CONTEXT|EXIT_MAX_ITERATIONS|EXIT_EARLY|EXIT_CANCELLATION|EXIT_EXCEPTION|EXIT_UNEXPECTED_EXCEPTION}", "{enum:ERROR|EXIT_COUNTRY_FORBIDDEN}", "{enum:STOPPED|DECLINED}", "{enum:EXIT_PROBLEM_WITH_SHELL}" ],
-        "step_type" : [ "{enum:unknown|add_npm_dependency|create|replace_lines|search_replace|edit|edit_symbol|find_class_by_fqn|find_file|find_related_test|goto|npm_install|open|remove_npm_dependency|rewrite_file|npm_build|npm_test|run_test|scroll_up|scroll_down|search_dir|search_file|search_project|submit|undo_edit|get_file_structure|summarize_task_description|report_generator|ls|cd|find|cat|rm|grep|python|python3|pip|pip3|curl|git|pytest|conda}", "{enum#__step_type}" ]
+        "step_type" : [ "{enum:unknown|add_npm_dependency|create|replace_lines|search_replace|edit|edit_symbol|find_class_by_fqn|find_file|find_related_test|goto|npm_install|open|remove_npm_dependency|rewrite_file|npm_build|npm_test|run_test|scroll_up|scroll_down|search_dir|search_file|search_project|submit|undo_edit|get_file_structure|summarize_task_description|report_generator|ls|cd|find|cat|rm|grep|python|python3|pip|pip3|curl|git|pytest|conda}", "{enum#__step_type}", "{enum:apply_patch}" ]
       },
       "enums" : {
         "__event_id" : [ "ej_generation.finished", "ej_generation.started", "ej_generation_step.started", "ej_generation_step.finished", "ej_post_generation.finished", "ej_post_generation.started" ],
@@ -8848,6 +9052,9 @@
     "rules" : {
       "event_id" : [ "{enum#__event_id}" ],
       "event_data" : {
+        "agent_locs_added" : [ "{regexp#integer}" ],
+        "agent_locs_changed" : [ "{regexp#integer}" ],
+        "agent_locs_removed" : [ "{regexp#integer}" ],
         "auth_state" : [ "{enum:AIE_BLOCKED|AIP_BLOCKED|EAP_LICENSE_AGREEMENT|JBA_UNAUTHENTICATED|LICENSE_AGREEMENT|MISSING_AIP_LICENSE|STEP_FAIL|UNKNOWN}" ],
         "chain_id" : [ "{regexp#short_hash}" ],
         "checked" : [ "{enum#boolean}" ],
@@ -8856,11 +9063,14 @@
         "file_id" : [ "{regexp#short_hash}" ],
         "follow_up" : [ "{enum#boolean}" ],
         "issue_id" : [ "{regexp#short_hash}" ],
-        "reason" : [ "{enum:LowQuota|EndOfQuota}" ],
+        "reason" : [ "{enum:LowQuota|EndOfQuota}", "{enum:FromLicenseDialog}" ],
+        "rollback_locs_added" : [ "{regexp#integer}" ],
+        "rollback_locs_changed" : [ "{regexp#integer}" ],
+        "rollback_locs_removed" : [ "{regexp#integer}" ],
         "speed_mode" : [ "{enum:Speed|Quality}" ]
       },
       "enums" : {
-        "__event_id" : [ "task.done.button.clicked", "task.reopen.from.history", "task.ask.confirmation.answered", "task.cancel.step.button.clicked", "task.description.input", "task.go.back.button.clicked", "task.command.auto.approve.checked", "task.description.focus", "task.recent.files.removed", "task.recent.files.selected", "task.rollback.button.clicked", "task.ask.confirmation.showed", "task.recent.files.button.clicked", "task.stop.button.clicked", "task.delete.menu.clicked", "task.start.again.menu.clicked", "task.stop.menu.clicked", "task.start.again.button.clicked", "task.decline.button.clicked", "task.rollback.menu.clicked", "task.delete.all.menu.clicked", "task.example.clicked", "task.submit", "task.command.speed.mode.changed", "initial.screen.not.logged.showed", "initial.screen.register.clicked", "initial.screen.login.jb.clicked", "license.upgrade.to.ultimate", "license.add.credits" ]
+        "__event_id" : [ "task.done.button.clicked", "task.reopen.from.history", "task.ask.confirmation.answered", "task.cancel.step.button.clicked", "task.description.input", "task.go.back.button.clicked", "task.command.auto.approve.checked", "task.description.focus", "task.recent.files.removed", "task.recent.files.selected", "task.rollback.button.clicked", "task.ask.confirmation.showed", "task.recent.files.button.clicked", "task.stop.button.clicked", "task.delete.menu.clicked", "task.start.again.menu.clicked", "task.stop.menu.clicked", "task.start.again.button.clicked", "task.decline.button.clicked", "task.rollback.menu.clicked", "task.delete.all.menu.clicked", "task.example.clicked", "task.submit", "task.command.speed.mode.changed", "initial.screen.not.logged.showed", "initial.screen.register.clicked", "initial.screen.login.jb.clicked", "license.upgrade.to.ultimate", "license.add.credits", "task.rollback.file.change.clicked" ]
       }
     },
     "anonymized_fields" : [ {
@@ -8890,6 +9100,9 @@
     }, {
       "event" : "task.start.again.button.clicked",
       "fields" : [ "issue_id", "chain_id" ]
+    }, {
+      "event" : "task.rollback.file.change.clicked",
+      "fields" : [ "chain_id" ]
     }, {
       "event" : "task.ask.confirmation.showed",
       "fields" : [ "issue_id", "chain_id" ]
@@ -9030,7 +9243,7 @@
     "rules" : {
       "event_id" : [ "{enum:mcp.running|mcp.brave.mode.enabled|mcp.global.clients}" ],
       "event_data" : {
-        "client_type" : [ "{enum:VSCode (Project)|VSCode|Claude App|Windsurf (Project)|Windsurf|Cursor (Project)|Cursor|Claude Code (Project)|Claude Code}" ],
+        "client_type" : [ "{enum:VSCode (Project)|VSCode|Claude App|Windsurf (Project)|Windsurf|Cursor (Project)|Cursor|Claude Code (Project)|Claude Code}", "{enum:Codex}" ],
         "enabled" : [ "{enum#boolean}" ],
         "has_port_mismatch" : [ "{enum#boolean}" ],
         "is_configured" : [ "{enum#boolean}" ]
@@ -9489,7 +9702,7 @@
       },
       "enums" : {
         "__event_id" : [ "action.invoked", "balloon.collapsed", "balloon.expanded", "closed.by.user", "event.log.balloon.shown", "hyperlink.clicked", "logged", "settings.clicked", "shown" ],
-        "notification_id" : [ "ignored.to.exclude.synchronization.notification", "externally.added.files.notification", "project.configuration.files.added.notification", "manage.ignore.files.notification", "github.missing.default.account", "github.pull.request.cannot.set.tracking.branch", "github.clone.unable.to.create.destination.dir", "github.clone.unable.to.find.destination", "github.open.in.browser.file.is.not.under.repo", "github.open.in.browser.cannot.get.last.revision", "github.rebase.success", "github.gist.cannot.create", "github.pull.request.cannot.load.branches", "github.pull.request.cannot.collect.additional.data", "github.pull.request.cannot.load.forks", "github.pull.request.failed.to.add.remote", "github.pull.request.push.failed", "github.pull.request.creation.error", "github.pull.request.cannot.collect.diff.data", "github.pull.request.cannot.find.repo", "github.pull.request.created", "github.pull.request.cannot.process.remote", "github.pull.request.no.current.branch", "github.rebase.cannot.validate.upstream.remote", "github.rebase.upstream.is.own.repo", "github.rebase.cannot.get.user.info", "github.rebase.cannot.retrieve.upstream.info", "github.rebase.cannot.configure.upstream.remote", "github.rebase.repo.not.found", "github.rebase.cannot.load.repo.info", "github.rebase.repo.is.not.a.fork", "github.share.cannot.find.git.repo", "github.share.cannot.create.repo", "github.share.project.successfully.shared", "github.share.empty.repo.created", "github.share.project.created.init.commit.failed", "github.share.init.push.failed", "github.gist.created", "github.git.repo.init.error", "unknown", "hg.update.unresolved.conflicts.error", "git.merge.local.changes.detected", "vcs.patch.apply.rollback.failed", "hg.qrefresh.error", "git.revert.abort.failed", "git.fetch.success", "git.branch.operation.success", "git.pull.failed", "hg.merge.warning", "vcs.commit.finished.with.warnings", "vcs.shelve.successful", "git.merge.reset.error", "git.stage.commit.successful", "git.clone.unable.to.create.destination.dir", "git.rebase.cannot.continue", "vcs.commit.canceled", "git.branch.rename.rollback.success", "hg.merge.error", "hg.rebase.error", "git.update.no.tracked.branch.error", "git.rebase.update.project.error", "hg.tag.creation.error", "git.local.changes.not.restored", "hg.clone.destination.error", "vcs.shelve.failed", "hg.merging.with.ancestor.skipped", "vcs.patch.apply.aborted", "hg.pushed.successfully", "git.remote.branch.deletion.success", "hg.repository.created", "git.tag.created", "hg.qpop.completed.with.errors", "git.branch.operation.error", "hg.compare.with.branch.error", "git.fetch.error", "hg.nothing.to.push", "git.rebase.cannot.abort", "hg.unsupported.extensions", "vcs.patch.partially.applied", "git.branches.update.successful", "hg.exception.during.merge.commit", "git.init.failed", "git.rebase.not.allowed", "hg.qfold.error", "hg.qfinish.error", "git.merge.abort.success", "git.init.error", "git.rebase.commit.edit.undo.error.repo.changed", "git.reset.failed", "git.update.detached.head.error", "git.create.branch.rollback.successful", "git.branch.checkout.failed", "git.delete.branch.on.merge", "vcs.root.added", "git.stash.failed", "vcs.patch.copied.to.clipboard", "git.merge.abort.failed", "vcs.could.not.compare.with.branch", "git.reset.successful", "git.branch.creation.failed", "git.branch.deletion.rollback.error", "hg.graft.continue.error", "hg.merge.exception", "git.rebase.abort.succeeded", "hg.debugancestor.error", "hg.log.command.execution.error", "hg.unable.to.run.executable", "hg.bookmark.error", "git.rebase.commit.edit.undo.error", "git.unstash.with.unresolved.conflicts", "git.unstash.failed", "hg.qgoto.error", "hg.clone.error", "git.clone.failed", "git.rebase.abort.failed", "hg.remote.auth.error", "vcs.uncommitted.changes.saving.error", "git.update.nothing.to.update", "git.merge.rollback.error", "hg.qnew.error", "git.checkout.success", "git.update.error", "git.cannot.resolve.conflict", "git.unstash.with.conflicts", "space.sharing.not.finished", "hg.rebase.continue.error", "git.checkout.rollback.error", "git.reset.partially.failed", "git.remote.branch.deletion.error", "hg.qrename.error", "hg.unsupported.version", "hg.repo.creation.error", "space.git.repo.init.error", "git.tag.remote.deletion.error", "hg.push.error", "vcs.cherry.pick.error", "git.repository.created", "vcs.roots.invalid", "git.stash.local.changes.detected", "git.could.not.compare.with.branch", "git.rebase.not.started", "space.project.shared.successfully", "vcs.compare.failed", "vcs.patch.apply.success.applied", "hg.qdelete.error", "hg.branch.creation.error", "git.cherry.pick.abort.failed", "git.rebase.rollback.failed", "git.merge.error", "vcs.patch.apply.cannot.find.patch.file", "git.rebase.commit.edit.undo.error.protected.branch", "git.rebase.successful", "vcs.commit.failed", "git.could.not.load.changes.of.commit", "git.unresolved.conflicts", "vcs.patch.apply.new.files.error", "hg.rebase.abort.error", "git.revert.abort.success", "git.stage.commit.error", "git.tag.not.created", "git.create.branch.rollback.error", "git.fix.tracked.not.on.branch", "vcs.shelve.deletion.undo", "hg.tag.creation.failed", "git.tag.deletion.rollback.error", "hg.update.error", "vcs.roots.registered", "hg.status.command.error", "hg.qimport.error", "vcs.patch.apply.not.patch.type.file", "vcs.commit.finished", "git.could.not.save.uncommitted.changes", "hg.rename.failed", "git.branch.rename.rollback.failed", "git.cherry.pick.abort.success", "hg.qpop.error", "git.conflict.resolving.error", "git.merge.failed", "hg.pull.error", "git.unstash.patch.applied", "hg.bookmark.name.is.empty", "hg.pull.auth.required", "git.rebase.abort", "vcs.patch.already.applied", "git.checkout.new.branch.operation.rollback.error", "hg4idea.changesets.error", "vcs.patch.creation.failed", "hg.graft.error", "hg.qpush.error", "git.checkout.new.branch.operation.rollback.successful", "github.rebase.remote.origin.not.found", "github.rebase.account.not.found", "github.rebase.multi.repo.not.supported", "rebase.error.failed.to.match.gh.repo", "git.branch.set.upstream.failed", "git.log.could.not.load.changes.of.commit", "vcs.project.partially.updated", "vcs.shelf.undo.delete", "vcs.branch.operations.are.executed.on.all.roots", "git.rebase.collect.updated.changes.error", "git.push.not.supported", "vcs.inactive.ranges.damaged", "git.commit.cancelled", "git.fetch.result", "git.tag.remote.deletion.success", "git.fetch.cancelled", "git.fetch.details", "git.project.updated", "git.all.files.are.up.to.date", "git.fetch.result.error", "git.project.partially.updated", "git.push.result", "git.branch.deleted", "git.tag.restored", "git.files.updated.after.merge", "vcs.project.update.finished", "git.tag.deleted", "git.commit.edit.success", "space.other", "gradle.jvm.invalid", "gradle.jvm.configured", "gradle.configuration.error", "sh.update.shellcheck.error", "sh.update.shellcheck.success", "sh.update.formatter.success", "sh.install.formatter.error", "sh.update.formatter.error", "sh.install.formatter", "sh.update.shellcheck", "sh.update.formatter", "sh.install.formatter.success", "git.bad.executable", "git.init.stage.failed", "git.rebase.failed", "diff.external.too.many.selected", "ignored.to.exclude.not.found", "git.rebase.stopped.for.editing", "vcs.cannot.load.annotations", "untracked.files.overwritten", "diff.external.cant.load.changes", "vcs.obsolete.plugin.unbundled", "vcs.suggested.plugin.install.failed", "diff.merge.intenral.error", "git.rebase.stopped.due.to.conflicts", "vcs.commit.checks.failed", "git.tags.loading.failed", "vcs.commit.checks.only.failed", "vcs.add.unversioned.error", "vcs.post.commit.checks.failed", "grazie.pro.advertisement", "git.open.in.browser.error", "git.ignore.file.generation.error", "review.branch.checkout.failed", "space.merge.request.creation.failed", "space.merge.request.created", "space.git.repo.foldernotfound", "git.stage.operation.error", "vcs.log.navigation.error", "vcs.log.commit.not.found", "file.history.load.details.error", "vcs.log.fatal.error", "vcs.log.not.available", "git.stash.non.empty.index.detected", "git.stash.successful", "space.review.create", "gitlab.merge.request.create", "github.pull.request.create", "maven.workspace.first.import.notification", "maven.wrapper.file.not.found.notification", "maven.workspace.external.storage.notification", "maven.wrapper.downloading.error.notification", "project.structure.automatically.detected.notification.id", "build.script.found.notification.id", "maven.wrapper.information.notification", "maven.wrapper.empty.url.notification", "github.pull.request.branch.update.failed", "lvcs.storage.corrupted", "lvcs.label.created", "git.update.force.pushed.branch.success", "git.update.force.pushed.branch.not.all.cherry.picked", "PrepareIntrospectionDiagnostic.finished", "DiagnosticRefreshAction.finished", "DumpToDdlDataSourceAction.no.db.data.source", "SaveLobAsAction.structure.changed", "SaveLobAsAction.error", "DatabaseModelLoader.single.db.mode.required", "DetailsSyncHelper.sync.required", "database.undo.is.impossible", "git.apply.changes.conflicts", "CopyDdlFromDbAction.error", "CliNotificationManagerBase.dump.finished", "DataSourceUtil.generic.notification", "PasswordExpirationConnectionInterceptor.successful", "CancelProgressAuditor.too.long", "DataSourceConfigurable.storage.move.failed", "CliNotificationManagerBase.restore.finished", "SchemaScripts.generation.finished", "DatabaseEditorHelper.Auditor.print", "DatabaseConfigFileWatcher.found", "RevertFix.failed", "DumpToDdlDataSourceAction.dump.error", "ImportHead.import.finished", "ImportHead.import.failed", "git.apply.changes.success", "DumpToDdlDataSourceAction.no.introspected.schemas", "DbSrcValidator.introspection.suggested", "ImportAction.error", "HandleErrorTask.cant.access", "git.apply.changes.local.changes.detected", "SaveLobAsAction.finished", "ScriptFileLayoutPanel.finished", "DumpToDdlDataSourceAction.no.objects", "DbSrcValidator.stale.pruned", "SaveLobAsAction.failed", "RemoteConsoleProcessSupport.before.task.cycle.prevented", "UseMyFix.failed", "SessionLogger.query.finished", "MergeFix.failed", "SqlAddExternalRelationIntention.stored", "DatabaseEditorHelper.Auditor.warn", "OutdatedCheck.failed", "ScriptFileLayoutPanel.error", "git.apply.changes.error", "DumpToDdlDataSourceAction.no.ddl.data.source", "db.import.failed", "DbSrcValidator.regeneration.suggested", "MsPlanModelBuilder.unable.to.find.table", "DumpToDdlDataSourceAction.failed.to.create.layout", "DataSourceConfigurable.set.default.dialect", "DatabaseEditorHelper.Auditor.error", "git.gpg.agent.configuration.propose", "git.gpg.agent.configuration.success", "git.gpg.agent.configuration.propose.suggestion", "git.gpg.agent.configuration.error", "git.unshallow.success", "invalid.rust.std.lib.source", "could.not.reach.crates.io", "install.target.error", "org.rust.database.plugin.suggestion", "visual.studio.installer", "project.not.found", "target.is.not.installed", "rustfmt.not.installed", "rust.version.not.supported", "component.not.available", "bad.answer.from.crates.io", "rustfmt.error", "defmap.rebuilt", "running.tests.with.sudo", "rustup.not.available", "cannot.load.rustc.for.debugger", "rustup.update.finished", "rustfmt.enabled.by.default", "file.was.shared.on.playground", "crate.is.not.installed", "feedback.form.prompted", "failure.to.share.on.playground", "failed.to.create.mod", "install.component.error", "command.not.available", "git.commit.modal.deprecation", "vcs.git.repo.init.error", "vcs.share.cannot.find.git.repo", "vcs.share.init.push.failed", "vcs.share.cannot.create.repo", "vcs.share.project.successfully.shared", "vcs.share.project.created.init.commit.failed", "vcs.share.empty.repo.created", "vcs.commit.finished.initial", "toolbox.open.project.error", "git.rebase.log.changes.drop.failed", "git.in.memory.operation.failed", "some.requirements.from.base.files.were.not.updated", "all.files.are.up.to.date", "ssh.configuration.created", "installation.failed", "using.future.imports", "download.notebook.package.started", "could.not.upload.helpers.for.remote.interpreter", "stale.python.version", "api.key.invalid", "server.restarted", "server.runner.not.found", "reload.file.from.server.error", "table.data.exception.raised", "jupyter.cell.edited.during.sessions", "server.connection.error", "analyze.entries.in.requirements.file.failed", "exception.raised", "connection.failed", "requirements.have.been.ignored", "download.notebook.package.finished", "api.keys.found", "reconnected.kernel.busy", "python.package.deleted", "provide.path.to.settings.py", "cython.extension.speeds.up.python.debugging", "download.file.is.finished", "refresh.skeletons.for.remote.interpreter.failed", "python.installation.interrupted", "api.key.valid", "deployment.configuration.created", "jupyter.other.cell.under.debugger", "cannot.delete.non.empty.directory", "execution.exception", "jupyter.server.detached", "using.six.package", "no.interpreter.configured", "cannot.delete", "remote.file.rename.exception", "sdk.has.been.configured.as.the.project.interpreter", "reconnected.kernel.idle", "local.files.are.not.synchronized.with.the.server", "jupyter.cell.edited.between.sessions", "jupyter.server.starting", "jupyter.server.started", "kernel.changed", "all.plots.are.saved", "nbstripout.filter", "sync.still.enabled", "create.requirements.file.failed", "run.pipenv.lock.suggestion", "loading.cancelled", "remote.interpreter.support.is.not.available", "unknown.remote.file.status.copying.aborted", "installation.succeeded", "python.package.installed", "file.saved", "black.formatter.support", "cell.execution.finished", "api.keys.imported", "git.in.memory.rebase.merge.conflict", "git.in.memory.rebase.validation.failed", "language.server.is.not.installed", "toolbox.provided.notification", "black.formatter.failed", "black.formatter.sdk.not.configured", "black.formatter.timeout", "black.formatter.exception", "ipykernel.process.stopped", "ipykernel.process.started" ]
+        "notification_id" : [ "ignored.to.exclude.synchronization.notification", "externally.added.files.notification", "project.configuration.files.added.notification", "manage.ignore.files.notification", "github.missing.default.account", "github.pull.request.cannot.set.tracking.branch", "github.clone.unable.to.create.destination.dir", "github.clone.unable.to.find.destination", "github.open.in.browser.file.is.not.under.repo", "github.open.in.browser.cannot.get.last.revision", "github.rebase.success", "github.gist.cannot.create", "github.pull.request.cannot.load.branches", "github.pull.request.cannot.collect.additional.data", "github.pull.request.cannot.load.forks", "github.pull.request.failed.to.add.remote", "github.pull.request.push.failed", "github.pull.request.creation.error", "github.pull.request.cannot.collect.diff.data", "github.pull.request.cannot.find.repo", "github.pull.request.created", "github.pull.request.cannot.process.remote", "github.pull.request.no.current.branch", "github.rebase.cannot.validate.upstream.remote", "github.rebase.upstream.is.own.repo", "github.rebase.cannot.get.user.info", "github.rebase.cannot.retrieve.upstream.info", "github.rebase.cannot.configure.upstream.remote", "github.rebase.repo.not.found", "github.rebase.cannot.load.repo.info", "github.rebase.repo.is.not.a.fork", "github.share.cannot.find.git.repo", "github.share.cannot.create.repo", "github.share.project.successfully.shared", "github.share.empty.repo.created", "github.share.project.created.init.commit.failed", "github.share.init.push.failed", "github.gist.created", "github.git.repo.init.error", "unknown", "hg.update.unresolved.conflicts.error", "git.merge.local.changes.detected", "vcs.patch.apply.rollback.failed", "hg.qrefresh.error", "git.revert.abort.failed", "git.fetch.success", "git.branch.operation.success", "git.pull.failed", "hg.merge.warning", "vcs.commit.finished.with.warnings", "vcs.shelve.successful", "git.merge.reset.error", "git.stage.commit.successful", "git.clone.unable.to.create.destination.dir", "git.rebase.cannot.continue", "vcs.commit.canceled", "git.branch.rename.rollback.success", "hg.merge.error", "hg.rebase.error", "git.update.no.tracked.branch.error", "git.rebase.update.project.error", "hg.tag.creation.error", "git.local.changes.not.restored", "hg.clone.destination.error", "vcs.shelve.failed", "hg.merging.with.ancestor.skipped", "vcs.patch.apply.aborted", "hg.pushed.successfully", "git.remote.branch.deletion.success", "hg.repository.created", "git.tag.created", "hg.qpop.completed.with.errors", "git.branch.operation.error", "hg.compare.with.branch.error", "git.fetch.error", "hg.nothing.to.push", "git.rebase.cannot.abort", "hg.unsupported.extensions", "vcs.patch.partially.applied", "git.branches.update.successful", "hg.exception.during.merge.commit", "git.init.failed", "git.rebase.not.allowed", "hg.qfold.error", "hg.qfinish.error", "git.merge.abort.success", "git.init.error", "git.rebase.commit.edit.undo.error.repo.changed", "git.reset.failed", "git.update.detached.head.error", "git.create.branch.rollback.successful", "git.branch.checkout.failed", "git.delete.branch.on.merge", "vcs.root.added", "git.stash.failed", "vcs.patch.copied.to.clipboard", "git.merge.abort.failed", "vcs.could.not.compare.with.branch", "git.reset.successful", "git.branch.creation.failed", "git.branch.deletion.rollback.error", "hg.graft.continue.error", "hg.merge.exception", "git.rebase.abort.succeeded", "hg.debugancestor.error", "hg.log.command.execution.error", "hg.unable.to.run.executable", "hg.bookmark.error", "git.rebase.commit.edit.undo.error", "git.unstash.with.unresolved.conflicts", "git.unstash.failed", "hg.qgoto.error", "hg.clone.error", "git.clone.failed", "git.rebase.abort.failed", "hg.remote.auth.error", "vcs.uncommitted.changes.saving.error", "git.update.nothing.to.update", "git.merge.rollback.error", "hg.qnew.error", "git.checkout.success", "git.update.error", "git.cannot.resolve.conflict", "git.unstash.with.conflicts", "space.sharing.not.finished", "hg.rebase.continue.error", "git.checkout.rollback.error", "git.reset.partially.failed", "git.remote.branch.deletion.error", "hg.qrename.error", "hg.unsupported.version", "hg.repo.creation.error", "space.git.repo.init.error", "git.tag.remote.deletion.error", "hg.push.error", "vcs.cherry.pick.error", "git.repository.created", "vcs.roots.invalid", "git.stash.local.changes.detected", "git.could.not.compare.with.branch", "git.rebase.not.started", "space.project.shared.successfully", "vcs.compare.failed", "vcs.patch.apply.success.applied", "hg.qdelete.error", "hg.branch.creation.error", "git.cherry.pick.abort.failed", "git.rebase.rollback.failed", "git.merge.error", "vcs.patch.apply.cannot.find.patch.file", "git.rebase.commit.edit.undo.error.protected.branch", "git.rebase.successful", "vcs.commit.failed", "git.could.not.load.changes.of.commit", "git.unresolved.conflicts", "vcs.patch.apply.new.files.error", "hg.rebase.abort.error", "git.revert.abort.success", "git.stage.commit.error", "git.tag.not.created", "git.create.branch.rollback.error", "git.fix.tracked.not.on.branch", "vcs.shelve.deletion.undo", "hg.tag.creation.failed", "git.tag.deletion.rollback.error", "hg.update.error", "vcs.roots.registered", "hg.status.command.error", "hg.qimport.error", "vcs.patch.apply.not.patch.type.file", "vcs.commit.finished", "git.could.not.save.uncommitted.changes", "hg.rename.failed", "git.branch.rename.rollback.failed", "git.cherry.pick.abort.success", "hg.qpop.error", "git.conflict.resolving.error", "git.merge.failed", "hg.pull.error", "git.unstash.patch.applied", "hg.bookmark.name.is.empty", "hg.pull.auth.required", "git.rebase.abort", "vcs.patch.already.applied", "git.checkout.new.branch.operation.rollback.error", "hg4idea.changesets.error", "vcs.patch.creation.failed", "hg.graft.error", "hg.qpush.error", "git.checkout.new.branch.operation.rollback.successful", "github.rebase.remote.origin.not.found", "github.rebase.account.not.found", "github.rebase.multi.repo.not.supported", "rebase.error.failed.to.match.gh.repo", "git.branch.set.upstream.failed", "git.log.could.not.load.changes.of.commit", "vcs.project.partially.updated", "vcs.shelf.undo.delete", "vcs.branch.operations.are.executed.on.all.roots", "git.rebase.collect.updated.changes.error", "git.push.not.supported", "vcs.inactive.ranges.damaged", "git.commit.cancelled", "git.fetch.result", "git.tag.remote.deletion.success", "git.fetch.cancelled", "git.fetch.details", "git.project.updated", "git.all.files.are.up.to.date", "git.fetch.result.error", "git.project.partially.updated", "git.push.result", "git.branch.deleted", "git.tag.restored", "git.files.updated.after.merge", "vcs.project.update.finished", "git.tag.deleted", "git.commit.edit.success", "space.other", "gradle.jvm.invalid", "gradle.jvm.configured", "gradle.configuration.error", "sh.update.shellcheck.error", "sh.update.shellcheck.success", "sh.update.formatter.success", "sh.install.formatter.error", "sh.update.formatter.error", "sh.install.formatter", "sh.update.shellcheck", "sh.update.formatter", "sh.install.formatter.success", "git.bad.executable", "git.init.stage.failed", "git.rebase.failed", "diff.external.too.many.selected", "ignored.to.exclude.not.found", "git.rebase.stopped.for.editing", "vcs.cannot.load.annotations", "untracked.files.overwritten", "diff.external.cant.load.changes", "vcs.obsolete.plugin.unbundled", "vcs.suggested.plugin.install.failed", "diff.merge.intenral.error", "git.rebase.stopped.due.to.conflicts", "vcs.commit.checks.failed", "git.tags.loading.failed", "vcs.commit.checks.only.failed", "vcs.add.unversioned.error", "vcs.post.commit.checks.failed", "grazie.pro.advertisement", "git.open.in.browser.error", "git.ignore.file.generation.error", "review.branch.checkout.failed", "space.merge.request.creation.failed", "space.merge.request.created", "space.git.repo.foldernotfound", "git.stage.operation.error", "vcs.log.navigation.error", "vcs.log.commit.not.found", "file.history.load.details.error", "vcs.log.fatal.error", "vcs.log.not.available", "git.stash.non.empty.index.detected", "git.stash.successful", "space.review.create", "gitlab.merge.request.create", "github.pull.request.create", "maven.workspace.first.import.notification", "maven.wrapper.file.not.found.notification", "maven.workspace.external.storage.notification", "maven.wrapper.downloading.error.notification", "project.structure.automatically.detected.notification.id", "build.script.found.notification.id", "maven.wrapper.information.notification", "maven.wrapper.empty.url.notification", "github.pull.request.branch.update.failed", "lvcs.storage.corrupted", "lvcs.label.created", "git.update.force.pushed.branch.success", "git.update.force.pushed.branch.not.all.cherry.picked", "PrepareIntrospectionDiagnostic.finished", "DiagnosticRefreshAction.finished", "DumpToDdlDataSourceAction.no.db.data.source", "SaveLobAsAction.structure.changed", "SaveLobAsAction.error", "DatabaseModelLoader.single.db.mode.required", "DetailsSyncHelper.sync.required", "database.undo.is.impossible", "git.apply.changes.conflicts", "CopyDdlFromDbAction.error", "CliNotificationManagerBase.dump.finished", "DataSourceUtil.generic.notification", "PasswordExpirationConnectionInterceptor.successful", "CancelProgressAuditor.too.long", "DataSourceConfigurable.storage.move.failed", "CliNotificationManagerBase.restore.finished", "SchemaScripts.generation.finished", "DatabaseEditorHelper.Auditor.print", "DatabaseConfigFileWatcher.found", "RevertFix.failed", "DumpToDdlDataSourceAction.dump.error", "ImportHead.import.finished", "ImportHead.import.failed", "git.apply.changes.success", "DumpToDdlDataSourceAction.no.introspected.schemas", "DbSrcValidator.introspection.suggested", "ImportAction.error", "HandleErrorTask.cant.access", "git.apply.changes.local.changes.detected", "SaveLobAsAction.finished", "ScriptFileLayoutPanel.finished", "DumpToDdlDataSourceAction.no.objects", "DbSrcValidator.stale.pruned", "SaveLobAsAction.failed", "RemoteConsoleProcessSupport.before.task.cycle.prevented", "UseMyFix.failed", "SessionLogger.query.finished", "MergeFix.failed", "SqlAddExternalRelationIntention.stored", "DatabaseEditorHelper.Auditor.warn", "OutdatedCheck.failed", "ScriptFileLayoutPanel.error", "git.apply.changes.error", "DumpToDdlDataSourceAction.no.ddl.data.source", "db.import.failed", "DbSrcValidator.regeneration.suggested", "MsPlanModelBuilder.unable.to.find.table", "DumpToDdlDataSourceAction.failed.to.create.layout", "DataSourceConfigurable.set.default.dialect", "DatabaseEditorHelper.Auditor.error", "git.gpg.agent.configuration.propose", "git.gpg.agent.configuration.success", "git.gpg.agent.configuration.propose.suggestion", "git.gpg.agent.configuration.error", "git.unshallow.success", "invalid.rust.std.lib.source", "could.not.reach.crates.io", "install.target.error", "org.rust.database.plugin.suggestion", "visual.studio.installer", "project.not.found", "target.is.not.installed", "rustfmt.not.installed", "rust.version.not.supported", "component.not.available", "bad.answer.from.crates.io", "rustfmt.error", "defmap.rebuilt", "running.tests.with.sudo", "rustup.not.available", "cannot.load.rustc.for.debugger", "rustup.update.finished", "rustfmt.enabled.by.default", "file.was.shared.on.playground", "crate.is.not.installed", "feedback.form.prompted", "failure.to.share.on.playground", "failed.to.create.mod", "install.component.error", "command.not.available", "git.commit.modal.deprecation", "vcs.git.repo.init.error", "vcs.share.cannot.find.git.repo", "vcs.share.init.push.failed", "vcs.share.cannot.create.repo", "vcs.share.project.successfully.shared", "vcs.share.project.created.init.commit.failed", "vcs.share.empty.repo.created", "vcs.commit.finished.initial", "toolbox.open.project.error", "git.rebase.log.changes.drop.failed", "git.in.memory.operation.failed", "some.requirements.from.base.files.were.not.updated", "all.files.are.up.to.date", "ssh.configuration.created", "installation.failed", "using.future.imports", "download.notebook.package.started", "could.not.upload.helpers.for.remote.interpreter", "stale.python.version", "api.key.invalid", "server.restarted", "server.runner.not.found", "reload.file.from.server.error", "table.data.exception.raised", "jupyter.cell.edited.during.sessions", "server.connection.error", "analyze.entries.in.requirements.file.failed", "exception.raised", "connection.failed", "requirements.have.been.ignored", "download.notebook.package.finished", "api.keys.found", "reconnected.kernel.busy", "python.package.deleted", "provide.path.to.settings.py", "cython.extension.speeds.up.python.debugging", "download.file.is.finished", "refresh.skeletons.for.remote.interpreter.failed", "python.installation.interrupted", "api.key.valid", "deployment.configuration.created", "jupyter.other.cell.under.debugger", "cannot.delete.non.empty.directory", "execution.exception", "jupyter.server.detached", "using.six.package", "no.interpreter.configured", "cannot.delete", "remote.file.rename.exception", "sdk.has.been.configured.as.the.project.interpreter", "reconnected.kernel.idle", "local.files.are.not.synchronized.with.the.server", "jupyter.cell.edited.between.sessions", "jupyter.server.starting", "jupyter.server.started", "kernel.changed", "all.plots.are.saved", "nbstripout.filter", "sync.still.enabled", "create.requirements.file.failed", "run.pipenv.lock.suggestion", "loading.cancelled", "remote.interpreter.support.is.not.available", "unknown.remote.file.status.copying.aborted", "installation.succeeded", "python.package.installed", "file.saved", "black.formatter.support", "cell.execution.finished", "api.keys.imported", "git.in.memory.rebase.merge.conflict", "git.in.memory.rebase.validation.failed", "language.server.is.not.installed", "toolbox.provided.notification", "black.formatter.failed", "black.formatter.sdk.not.configured", "black.formatter.timeout", "black.formatter.exception", "ipykernel.process.stopped", "ipykernel.process.started", "dataspell.chart.editor.export.svg.failed", "dataspell.chart.editor.export.png.failed", "database.ultimate.button.clicked", "database.ultimate.tooltip.shown", "git.cherry.pick.continue.failed", "git.cherry.pick.continue.success", "gitlab.upload.file.action.error" ]
       }
     }
   }, {
@@ -9657,6 +9870,27 @@
       "event_id" : [ "{enum:tab.opened}" ],
       "event_data" : {
         "tab_type" : [ "{enum:LOGS|METRICS|TRACES|SPANS}" ]
+      }
+    }
+  }, {
+    "id" : "orm.elements.generation",
+    "builds" : [ ],
+    "versions" : [ {
+      "from" : "1"
+    } ],
+    "rules" : {
+      "event_id" : [ "{enum:reverse.engineering|diff.generation}" ],
+      "event_data" : {
+        "entry_point" : [ "{enum:ACTION|COMPLETION|QUICK_FIX}" ],
+        "framework" : [ "{util#class_name}" ],
+        "migration_type" : [ "{enum:LIQUIBASE|FLYWAY}" ],
+        "new_attributes_count" : [ "{regexp#integer}" ],
+        "new_entities_count" : [ "{regexp#integer}" ],
+        "plugin" : [ "{util#plugin}" ],
+        "plugin_type" : [ "{util#plugin_type}" ],
+        "plugin_version" : [ "{util#plugin_version}" ],
+        "source_type" : [ "{enum:DB|MODEL|SNAPSHOT|EMPTY}" ],
+        "target_type" : [ "{enum:DB|MODEL|SNAPSHOT|EMPTY}" ]
       }
     }
   }, {
@@ -10447,6 +10681,34 @@
       }
     }
   }, {
+    "id" : "py.tables.inspections",
+    "builds" : [ ],
+    "versions" : [ {
+      "from" : "1"
+    } ],
+    "rules" : {
+      "event_id" : [ "{enum:inspection.computation.started|inspection.fix.clicked}" ],
+      "event_data" : {
+        "auto_start" : [ "{enum#boolean}" ],
+        "number_of_problems_found" : [ "{regexp#integer}" ],
+        "number_of_problems_selected_to_fixed" : [ "{regexp#integer}" ],
+        "table_cols_count" : [ "{regexp#integer}" ],
+        "table_rows_count" : [ "{regexp#integer}" ]
+      }
+    }
+  }, {
+    "id" : "pycharm.welcome.screen.tab",
+    "builds" : [ ],
+    "versions" : [ {
+      "from" : "1"
+    } ],
+    "rules" : {
+      "event_id" : [ "{enum:welcome.screen.tab.button.clicked}" ],
+      "event_data" : {
+        "feature" : [ "{enum:NEW_PY_FILE|NEW_JUPYTER_FILE|IMPORT_FILE|LEARN_IDE|PLUGINS}" ]
+      }
+    }
+  }, {
     "id" : "python.code.vision",
     "builds" : [ ],
     "versions" : [ {
@@ -10821,7 +11083,8 @@
     "id" : "radler.completion",
     "builds" : [ ],
     "versions" : [ {
-      "from" : "1"
+      "from" : "1",
+      "to" : "2"
     } ],
     "rules" : {
       "event_id" : [ "{enum:item_selected|first_item_received|cancelled}" ],
@@ -11049,13 +11312,39 @@
       }
     }
   }, {
+    "id" : "recap.usage",
+    "builds" : [ ],
+    "versions" : [ {
+      "from" : "1"
+    } ],
+    "rules" : {
+      "event_id" : [ "{enum:recap.usage.toggle.expand|recap.usage.chronicle.click|recap.usage.update.executed|recap.usage.rated}" ],
+      "event_data" : {
+        "activity_index" : [ "{regexp#integer}" ],
+        "chronicle_index" : [ "{regexp#integer}" ],
+        "chronicle_kind" : [ "{enum:Run|Idle|Shutdown|Startup|Tests|FileSwitch|FindUsages|FindInFile|FindInPath|GotoDeclaration|CodeChanges|BreakpointSet|BreakpointRemoved|BreakpointHit|DebugStart|DebugStop|BuildStart|BuildSuccess|BuildFailed|Scroll|ChangeBranches|NewFile|DeleteFile|MoveFile|CopyFile|AiCodeGeneration}" ],
+        "chronicles_in_activity" : [ "{regexp#integer}" ],
+        "correlation_id" : [ "{regexp#integer}" ],
+        "expanded" : [ "{enum#boolean}" ],
+        "has_2h_interval" : [ "{enum#boolean}" ],
+        "input_chronicles_2h" : [ "{regexp#integer}" ],
+        "input_chronicles_30m" : [ "{regexp#integer}" ],
+        "liked_disliked" : [ "{enum:UNSPECIFIED|LIKE|DISLIKE}" ],
+        "result_activities_2h" : [ "{regexp#integer}" ],
+        "result_activities_30m" : [ "{regexp#integer}" ],
+        "time_interval" : [ "{enum:Interval30Minutes|Interval2Hours}" ],
+        "updated_intentionally" : [ "{enum#boolean}" ],
+        "visible_chronicles_in_activity" : [ "{regexp#integer}" ]
+      }
+    }
+  }, {
     "id" : "recent.projects.panel",
     "builds" : [ ],
     "versions" : [ {
       "from" : "1"
     } ],
     "rules" : {
-      "event_id" : [ "{enum:learn.more.button.clicked|go.to.projects.button.clicked}" ]
+      "event_id" : [ "{enum:learn.more.button.clicked|go.to.projects.button.clicked|try.native.mode.button.clicked}" ]
     }
   }, {
     "id" : "refactoring",
@@ -11551,7 +11840,7 @@
         "is_multispot" : [ "{enum#boolean}" ],
         "kind" : [ "{enum:SINGLE_FILE|DIR_MOD_RS}" ],
         "location" : [ "{enum:BANG_MACRO|ATTR_MACRO|NO_MACRO}" ],
-        "mir_error" : [ "{enum:UnexpectedIndexBase|OnlyIntegersSupportedDiv|OnlyIntegersSupportedNeg|NoEnclosingBreakableScope|DropTreeForContinueDoesNotExist|CouldNotGetReturnTypeOfConst|CouldNotFindReturnTypeSourceOfConst|CouldNotGetTypeReferenceFromFunctionReturnType|CouldNotGetBlockOfFunction1|CouldNotGetBlockOfFunction2|CouldNotGetTypeReferenceFromLambdaReturnType|CouldNotGetBlockOfLambda1|CouldNotGetBlockOfLambda2|CannotFindEnumVariant|BadCapture|CorrespondingScopeIsNotFound|ShouldNotCallStatementExprOnGeneralExpressionWithoutStatementScope|CouldNotFindVariable|BlockIsExpectedToBeSetHere|OrPatternsShouldHaveAlreadyBeenHandled|SimplifiablePatternFound|UnexpectedFakeVariableInCapture|CouldNotCratePlaceFromPlaceBuilder|NoReturnBreakableScope|CannotUseNonFieldProjectionOnDowncastedPlace|TerminatorIsExpectedToBeSpecifiedByThisMoment|TerminatorIsNotUnwindable|Impossible}" ],
+        "mir_error" : [ "{enum:UnexpectedIndexBase|OnlyIntegersSupportedDiv|OnlyIntegersSupportedNeg|NoEnclosingBreakableScope|DropTreeForContinueDoesNotExist|CouldNotGetReturnTypeOfConst|CouldNotFindReturnTypeSourceOfConst|CouldNotGetTypeReferenceFromFunctionReturnType|CouldNotGetBlockOfFunction1|CouldNotGetBlockOfFunction2|CouldNotGetTypeReferenceFromLambdaReturnType|CouldNotGetBlockOfLambda1|CouldNotGetBlockOfLambda2|CannotFindEnumVariant|BadCapture|CorrespondingScopeIsNotFound|ShouldNotCallStatementExprOnGeneralExpressionWithoutStatementScope|CouldNotFindVariable|BlockIsExpectedToBeSetHere|OrPatternsShouldHaveAlreadyBeenHandled|SimplifiablePatternFound|UnexpectedFakeVariableInCapture|CouldNotCratePlaceFromPlaceBuilder|NoReturnBreakableScope|CannotUseNonFieldProjectionOnDowncastedPlace|TerminatorIsExpectedToBeSpecifiedByThisMoment|TerminatorIsNotUnwindable|Impossible}", "{enum:MissingInitializerWithPresentElseBlock}" ],
         "mir_incomplete" : [ "{enum:NotEnoughCastsSupported|NoDowncastInLoweringEnumsField|ReferenceOfSpanIsNullLoweringMatch|ReferenceOfSpanIsUnexpectedLoweringMatch|UnhandledVariableInPlaceIntoPattern|UnhandledNullMatchPlaceInPlaceIntoPattern|UnhandledLhsThatNeedsDrop|UnhandledLiteral|UnhandledNonHirLiteral|UnhandledConstParam|UnhandledConstBlock|UnhandledStaticRef|UnhandledOtherConstant}" ],
         "name" : [ "{enum#crate_name}" ],
         "package_and_directory_with_the_same_name" : [ "{enum#boolean}" ],
@@ -11622,17 +11911,21 @@
       "event_id" : [ "{enum:evaluated|element.used|mir.evaluation.failed}" ],
       "event_data" : {
         "backend" : [ "{enum:Native|MIR|NativeAsFallback}" ],
-        "context_retrieval_error" : [ "{enum:NoPosition|NoPsiFile|NoPsiElement|NoRsElement}" ],
+        "context_retrieval_error" : [ "{enum:NoPosition|NoPsiFile|NoPsiElement|NoRsElement}", "{enum:DumbMode}", "{enum:UnknownArchitecture}" ],
         "debugger_kind" : [ "{enum:GDB|LLDB|Unknown}" ],
+        "duration_ms" : [ "{regexp#integer}" ],
         "element" : [ "{enum:MethodCall|InherentImplMethodCall|TraitImplMethodCall|FunctionCall|TypeQualifiedPath|PathToGenericItem|MacroCall|Lambda|UnresolvedReference|Unknown}" ],
+        "fallback_duration_ms" : [ "{regexp#integer}" ],
         "lldb_evaluation_error" : [ "{enum:AdtTypeCreationError|BuiltinTypeNotFound|ChildAccessError|DivisionByZero|DowncastFail|ElementTypeMismatch|EmptyInput|ErrorOnNotOperation|FailedAssert|FailedAssertEval|FailedSwitchIntDiscr|IncorrectScalar|IntFromNonInt|InvalidAddress|InvalidElementType|InvalidEnumDiscriminant|InvalidIndex|InvalidState|NonAggregateChildAccess|NonAggregateIndexAccess|NonArrayIndexAccessError|NonArraySubsliceError|NonIntegralOperationWithOverflow|NonPointerDereferenceError|OutOfBoundsArg|OutOfBoundsBlock|OutOfBoundsFunc|OutOfBoundsIndexAccess|OutOfBoundsLocal|OutOfBoundsSubsliceAccess|RefTypeCreationError|StackOverflow|StuckEvaluation|TupleTypeCreationError|UnexpectedState|UnknownByteSize|FailedToExtractData|Unreachable|UnsupportedEmptyArray|UnsupportedFloatSemantics|UnsupportedFunction|UnsupportedMutability|UnsupportedNonScalarOperation|UnsupportedRefToTemporary|VariableNotFound|VariableNotResolved|Unknown}", "{enum:UnknownType|FailedBinOp|OutOfBoundsConstant|InvalidOutput}", "{enum:UnexpectedProjectionResult|FailedProcWrite|DifferentTypeAssignment}" ],
-        "lldb_transformation_error" : [ "{enum:Uncontrolled|UncontrolledAll|NoFieldName|UnsupportedCallee|CannotMonomorphizeCall|MissingCallTarget|ConstNonInt|UnsupportedConst|ProjConstIndex|ProjSubslice|RvalueAddressOf|AdtNoName|RvalueClosure|RvalueCopyForDeref|RvalueLen|RvalueNullary|RepeatNonConstCount|RvalueThreadLocalRef|MissingVariant|MissingVariantName|NullVariantFieldName|BinOpOffset|TyNeverSerialized|NonPrimitiveTy|Todo}" ],
-        "mir_build_error" : [ "{enum:UnexpectedIndexBase|OnlyIntegersSupportedDiv|OnlyIntegersSupportedNeg|NoEnclosingBreakableScope|DropTreeForContinueDoesNotExist|CouldNotGetReturnTypeOfConst|CouldNotFindReturnTypeSourceOfConst|CouldNotGetTypeReferenceFromFunctionReturnType|CouldNotGetBlockOfFunction1|CouldNotGetBlockOfFunction2|CouldNotGetTypeReferenceFromLambdaReturnType|CouldNotGetBlockOfLambda1|CouldNotGetBlockOfLambda2|CannotFindEnumVariant|BadCapture|CorrespondingScopeIsNotFound|ShouldNotCallStatementExprOnGeneralExpressionWithoutStatementScope|CouldNotFindVariable|BlockIsExpectedToBeSetHere|OrPatternsShouldHaveAlreadyBeenHandled|SimplifiablePatternFound|UnexpectedFakeVariableInCapture|CouldNotCratePlaceFromPlaceBuilder|NoReturnBreakableScope|CannotUseNonFieldProjectionOnDowncastedPlace|TerminatorIsExpectedToBeSpecifiedByThisMoment|TerminatorIsNotUnwindable|Impossible}" ],
+        "lldb_transformation_error" : [ "{enum:Uncontrolled|UncontrolledAll|NoFieldName|UnsupportedCallee|CannotMonomorphizeCall|MissingCallTarget|ConstNonInt|UnsupportedConst|ProjConstIndex|ProjSubslice|RvalueAddressOf|AdtNoName|RvalueClosure|RvalueCopyForDeref|RvalueLen|RvalueNullary|RepeatNonConstCount|RvalueThreadLocalRef|MissingVariant|MissingVariantName|NullVariantFieldName|BinOpOffset|TyNeverSerialized|NonPrimitiveTy|Todo}", "{enum:UnsupportedDrop}" ],
+        "mir_build_duration_ms" : [ "{regexp#integer}" ],
+        "mir_build_error" : [ "{enum:UnexpectedIndexBase|OnlyIntegersSupportedDiv|OnlyIntegersSupportedNeg|NoEnclosingBreakableScope|DropTreeForContinueDoesNotExist|CouldNotGetReturnTypeOfConst|CouldNotFindReturnTypeSourceOfConst|CouldNotGetTypeReferenceFromFunctionReturnType|CouldNotGetBlockOfFunction1|CouldNotGetBlockOfFunction2|CouldNotGetTypeReferenceFromLambdaReturnType|CouldNotGetBlockOfLambda1|CouldNotGetBlockOfLambda2|CannotFindEnumVariant|BadCapture|CorrespondingScopeIsNotFound|ShouldNotCallStatementExprOnGeneralExpressionWithoutStatementScope|CouldNotFindVariable|BlockIsExpectedToBeSetHere|OrPatternsShouldHaveAlreadyBeenHandled|SimplifiablePatternFound|UnexpectedFakeVariableInCapture|CouldNotCratePlaceFromPlaceBuilder|NoReturnBreakableScope|CannotUseNonFieldProjectionOnDowncastedPlace|TerminatorIsExpectedToBeSpecifiedByThisMoment|TerminatorIsNotUnwindable|Impossible}", "{enum:MissingInitializerWithPresentElseBlock}" ],
+        "mir_eval_duration_ms" : [ "{regexp#integer}" ],
         "mir_incomplete" : [ "{enum:NoDowncastInLoweringEnumsField|ReferenceOfSpanIsNullLoweringMatch|ReferenceOfSpanIsUnexpectedLoweringMatch|UnhandledVariableInPlaceIntoPattern|UnhandledNullMatchPlaceInPlaceIntoPattern|UnhandledLhsThatNeedsDrop|UnhandledLiteral|UnhandledNonHirLiteral|UnhandledConstParam|UnhandledConstBlock|UnhandledStaticRef|UnhandledOtherConstant}" ],
         "success" : [ "{enum#boolean}" ],
         "thir_build_error" : [ "{enum:CantFindEnumVariant|IsNotRsStructItemOrRsEnumVariant1|IsNotRsStructItemOrRsEnumVariant2|BinaryExpressionWithoutRightOperand|FormatArgsMacrosDoNotHaveFormatMacroArgument|ExpressionIsTooDeep|OnlyActualFunctionCallsAreHandled|CantFindRangeInclusiveNew|CantFindRange|LetExprWithoutPattern|LetExprWithoutInitializer|HasToBeAlreadyHandled|CannotResolveBreakTarget|CouldNotFindBreaksLoop|ImpossibleCaseOfVariant}", "{enum:HasToBeAlreadyHandled2|HasToBeAlreadyHandled3}", "{enum:HasToBeAlreadyHandled6|HasToBeAlreadyHandled7|HasToBeAlreadyHandled4|HasToBeAlreadyHandled5}" ],
         "thir_incomplete" : [ "{enum:UnhandledBorrowPointerAdjustment|UnhandledMutToConstPointerAdjustment|UnhandledToClosureFnPointerAdjustment|UnhandledReifyFnPointerAdjustment|UnhandledUnsafeFnPointerAdjustment|ConstantInConvert|UnexpectedInConvert|UnsupportedUnaryOperator|UnhandledUnderscoreExpr|NonSupportedExpression|CapturedByRefButNotReference|UnhandledLiteralPat|UnhandledConstPat|UnhandledRangePat|UnknownPatternEnumIsNotAdt|UnknownPatIdentResolution|UnknownPatSlice|UnknownPatTupleIsNotTyTuple|UnknownPatTupleIsNotTyAdt|UnknownPatTuplePathIsNotEnum|UnknownPatStructIsNotTyAdt|UnknownPatStructPathIsNotFieldsOwner|UnknownPatStructUnknownPatField|UnknownPatStructFieldDeclUnresolved|UnknownPatStructFieldDeclOutOfIndex|UnknownPatMacroUnexpanded|UnknownPat|PatConstTyAdtNotEnum|PatConstTyAdtNotPathExpr|PatConstTyAdtUnresolvedVariant|PatConstTyAdtUnknownVariantIndex|UnknownPatConst|UnknownConstantPat}" ],
-        "verification_declined" : [ "{enum:LAMBDA_UNSUPPORTED|FOR_LOOP_UNSUPPORTED|ASYNC_BLOCK_UNSUPPORTED|ASYNC_FUNCTION_UNSUPPORTED|MACRO_NOT_EXPANDED|FRU_UNSUPPORTED|DIAGNOSTIC_ERROR|UNCONTROLLED_STATEMENT|UNCONTROLLED_ALL_STATEMENT|CLOSURE_UNSUPPORTED|SUBSTITUTES_USE_ONLY_IN_COMPLETION|DUMMY_TERMINATOR|UNEVALUATED_CONSTANT|UNKNOWN_CONSTANT|SYNTAX_ERROR|WRONG_GENERICS}", "{enum:UNSUPPORTED_128BIT_TYPES}" ]
+        "verification_declined" : [ "{enum:LAMBDA_UNSUPPORTED|FOR_LOOP_UNSUPPORTED|ASYNC_BLOCK_UNSUPPORTED|ASYNC_FUNCTION_UNSUPPORTED|MACRO_NOT_EXPANDED|FRU_UNSUPPORTED|DIAGNOSTIC_ERROR|UNCONTROLLED_STATEMENT|UNCONTROLLED_ALL_STATEMENT|CLOSURE_UNSUPPORTED|SUBSTITUTES_USE_ONLY_IN_COMPLETION|DUMMY_TERMINATOR|UNEVALUATED_CONSTANT|UNKNOWN_CONSTANT|SYNTAX_ERROR|WRONG_GENERICS}", "{enum:UNSUPPORTED_128BIT_TYPES}", "{enum:TRY_UNSUPPORTED}", "{enum:CFG_TEST_UNSUPPORTED}" ]
       }
     }
   }, {
@@ -12011,7 +12304,7 @@
     "rules" : {
       "event_id" : [ "{enum:firs.element.shown|contributor.search.started|first.element.found}" ],
       "event_data" : {
-        "contributorID" : [ "{enum:FileSearchEverywhereContributor|SearchEverywhereContributor.All|ClassSearchEverywhereContributor|RecentFilesSEContributor|ActionSearchEverywhereContributor|SymbolSearchEverywhereContributor|TopHitSEContributor|RunConfigurationsSEContributor|YAMLKeysSearchEverywhereContributor|CommandsContributor|third.party|Vcs.Git|UrlSearchEverywhereContributor|GitSearchEverywhereContributor|TextSearchContributor}", "{enum:RiderOnboardingSearchEverywhereContributor}", "{enum:DbSETablesContributor|CalculatorSEContributor}" ]
+        "contributorID" : [ "{enum:FileSearchEverywhereContributor|SearchEverywhereContributor.All|ClassSearchEverywhereContributor|RecentFilesSEContributor|ActionSearchEverywhereContributor|SymbolSearchEverywhereContributor|TopHitSEContributor|RunConfigurationsSEContributor|YAMLKeysSearchEverywhereContributor|CommandsContributor|third.party|Vcs.Git|UrlSearchEverywhereContributor|GitSearchEverywhereContributor|TextSearchContributor}", "{enum:RiderOnboardingSearchEverywhereContributor}", "{enum:DbSETablesContributor|CalculatorSEContributor}", "{enum:DbObjectsSEContributor}" ]
       }
     }
   }, {
@@ -12023,7 +12316,7 @@
     "rules" : {
       "event_id" : [ "{enum#__event_id}" ],
       "event_data" : {
-        "contributorID" : [ "{enum#__contributorID}", "{enum:SETextContributor}", "{enum:TextSearchContributor}", "{enum:RiderOnboardingSearchEverywhereContributor}", "{enum:DbSETablesContributor|CalculatorSEContributor}" ],
+        "contributorID" : [ "{enum#__contributorID}", "{enum:SETextContributor}", "{enum:TextSearchContributor}", "{enum:RiderOnboardingSearchEverywhereContributor}", "{enum:DbSETablesContributor|CalculatorSEContributor}", "{enum:DbObjectsSEContributor}" ],
         "currentTabId" : [ "{enum#__currentTabId}", "{enum:UrlSearchEverywhereContributor|DbSETablesContributor|TextSearchContributor|CalculatorSEContributor}" ],
         "dialogWasCancelled" : [ "{enum#boolean}" ],
         "durationFromActionStartMs" : [ "{regexp#integer}" ],
@@ -12501,11 +12794,20 @@
       "from" : "1"
     } ],
     "rules" : {
-      "event_id" : [ "{enum:repository.created.from.completion}" ],
+      "event_id" : [ "{enum:repository.created.from.completion|repository.method.created.from.completion}" ],
       "event_data" : {
         "lang" : [ "{util#lang}" ],
         "parent_repository_class" : [ "{enum:org.springframework.data.repository.reactive.RxJava3SortingRepository|org.springframework.data.repository.Repository|org.springframework.data.repository.ListCrudRepository|org.springframework.data.repository.kotlin.CoroutineSortingRepository|org.springframework.data.repository.kotlin.CoroutineCrudRepository|org.springframework.data.jpa.repository.support.JpaRepositoryImplementation|org.springframework.data.jpa.repository.JpaRepository|org.springframework.data.repository.reactive.RxJava3CrudRepository|org.springframework.data.repository.CrudRepository|org.springframework.data.repository.PagingAndSortingRepository|org.springframework.data.repository.ListPagingAndSortingRepository|org.springframework.data.repository.reactive.ReactiveSortingRepository}" ]
       }
+    }
+  }, {
+    "id" : "spring.debugger.bean.definition.load",
+    "builds" : [ ],
+    "versions" : [ {
+      "from" : "1"
+    } ],
+    "rules" : {
+      "event_id" : [ "{enum:definition.load|definition.load.fallback}" ]
     }
   }, {
     "id" : "spring.debugger.db.connections",
@@ -12516,7 +12818,7 @@
     "rules" : {
       "event_id" : [ "{enum:connection.failed|connection.succeeded|data.source.added|data.source.saved}" ],
       "event_data" : {
-        "dbms" : [ "{enum:UNKNOWN|HANA|FIREBIRD|ATHENA|PRESTO|TRINO|INFORMIX|IMPALA|NETEZZA|PHOENIX|INGRES|TERADATA|OPENEDGE|TIBERO|FILEMAKER|CLOUD_SPANNER|ZEN|FRONTBASE|IGNITE|MONET|DENODO|IRIS|DRILL|CRATE|GBASE|SQLANYWHERE|ELASTICSEARCH|SALESFORCE|KDB|TIMESTREAM|MSACCESS|BIGQUERY|CASSANDRA|CLICKHOUSE|COUCHBASE|DB2_IS|DB2_LUW|DB2_ZOS|DB2|DERBY|EXASOL|H2|HIVE|HSQLDB|MARIADB|MONGO|AZURE|MSSQL_LOCALDB|SYNAPSE|MYSQL_AURORA|MYSQL|GITBASE|TIDB|OCEANBASE|VITESS|MEMSQL|ORACLE|NETSUITE|POSTGRES|YUGABYTE|COCKROACH|GREENPLUM|REDSHIFT|SNOWFLAKE|SPARK|SYBASE|MSSQL|VERTICA|REDIS|SQLITE|DYNAMO}", "{util#dbms}", "{enum:DATABRICKS|INFLUXDB}" ],
+        "dbms" : [ "{enum:UNKNOWN|HANA|FIREBIRD|ATHENA|PRESTO|TRINO|INFORMIX|IMPALA|NETEZZA|PHOENIX|INGRES|TERADATA|OPENEDGE|TIBERO|FILEMAKER|CLOUD_SPANNER|ZEN|FRONTBASE|IGNITE|MONET|DENODO|IRIS|DRILL|CRATE|GBASE|SQLANYWHERE|ELASTICSEARCH|SALESFORCE|KDB|TIMESTREAM|MSACCESS|BIGQUERY|CASSANDRA|CLICKHOUSE|COUCHBASE|DB2_IS|DB2_LUW|DB2_ZOS|DB2|DERBY|EXASOL|H2|HIVE|HSQLDB|MARIADB|MONGO|AZURE|MSSQL_LOCALDB|SYNAPSE|MYSQL_AURORA|MYSQL|GITBASE|TIDB|OCEANBASE|VITESS|MEMSQL|ORACLE|NETSUITE|POSTGRES|YUGABYTE|COCKROACH|GREENPLUM|REDSHIFT|SNOWFLAKE|SPARK|SYBASE|MSSQL|VERTICA|REDIS|SQLITE|DYNAMO}", "{util#dbms}", "{enum:DATABRICKS|INFLUXDB}", "{enum:DUCKDB}" ],
         "error_code" : [ "{regexp#integer}" ],
         "sql_state" : [ "{regexp:[0-9A-Z ]{5}}" ]
       }
@@ -12880,6 +13182,43 @@
       "event_id" : [ "{enum:combo_on_toolbar}" ],
       "event_data" : {
         "visible" : [ "{enum#boolean}" ]
+      }
+    }
+  }, {
+    "id" : "teamcity.build",
+    "builds" : [ ],
+    "versions" : [ {
+      "from" : "1"
+    } ],
+    "rules" : {
+      "event_id" : [ "{enum:build.started|build.finished}" ],
+      "event_data" : {
+        "source" : [ "{enum:RUN_CONFIGURATION|REMOTE_RUN}" ],
+        "status" : [ "{enum:SUCCESS|FAILURE|CANCELED|FAILED_TO_START|UNKNOWN}" ]
+      }
+    }
+  }, {
+    "id" : "teamcity.entrypoint",
+    "builds" : [ ],
+    "versions" : [ {
+      "from" : "1"
+    } ],
+    "rules" : {
+      "event_id" : [ "{enum:setup.clicked|run.configuration.created|toolwindow.opened}" ],
+      "event_data" : {
+        "source" : [ "{enum:VCS_COMMIT_BUILD_STATUS|TOOLWINDOW_NO_CREDITS|TOOLWINDOW_CREDITS_EXPIRED|TOOLWINDOW_FAILURE|TOOLWINDOW_UNSUPPORTED|TEAMCITY_PROJECT_SCOPE|TOOLS_MENU|SETTINGS}", "{enum:ICON_CLICK}" ]
+      }
+    }
+  }, {
+    "id" : "teamcity.interact.with.run.results",
+    "builds" : [ ],
+    "versions" : [ {
+      "from" : "1"
+    } ],
+    "rules" : {
+      "event_id" : [ "{enum:interact.with.run.results}" ],
+      "event_data" : {
+        "source" : [ "{enum:VCS_COMMIT_BUILD_STATUS|TOOLWINDOW_BUILDS_TABLE|FAVORITE_BUILDS_NOTIFICATION}" ]
       }
     }
   }, {
@@ -13254,7 +13593,7 @@
       },
       "enums" : {
         "__event_id" : [ "Default", "Darcula", "Obsidian", "Visual_Studio", "Solarized", "Wombat", "Monkai", "XCode", "Sublime", "Oblivion", "Zenburn", "Cobalt", "Netbeans", "Eclipse", "Aptana", "Flash_Builder", "IdeaLight", "High_contrast", "ReSharper", "Rider", "Other", "enabled.color.scheme" ],
-        "__scheme" : [ "Default", "Darcula", "Obsidian", "Visual_Studio", "Solarized", "Wombat", "Monkai", "XCode", "Sublime", "Oblivion", "Zenburn", "Cobalt", "Netbeans", "Eclipse", "Aptana", "Flash_Builder", "IdeaLight", "High_contrast", "ReSharper", "Rider", "Other", "IntelliJ_Light" ]
+        "__scheme" : [ "Default", "Darcula", "Obsidian", "Visual_Studio", "Solarized", "Wombat", "Monkai", "XCode", "Sublime", "Oblivion", "Zenburn", "Cobalt", "Netbeans", "Eclipse", "Aptana", "Flash_Builder", "IdeaLight", "High_contrast", "ReSharper", "Rider", "Other", "IntelliJ_Light", "Rider Dark", "Visual Assist Light", "Rider Light", "Visual Studio Dark", "Visual Assist Dark", "Rider Melon Dark", "Islands Dark", "ReSharper Light", "Rider Islands Dark", "Visual Studio Light", "Rider Melon Light", "ReSharper Dark" ]
       }
     }
   }, {
@@ -13352,6 +13691,7 @@
     "rules" : {
       "event_id" : [ "{enum#__event_id}" ],
       "event_data" : {
+        "background_image_set" : [ "{enum#boolean}" ],
         "count" : [ "{regexp#integer}" ],
         "display_id" : [ "{regexp#integer}" ],
         "enabled" : [ "{enum#boolean}" ],
@@ -13364,7 +13704,7 @@
         "value" : [ "{enum:visible|floating}", "{enum:visible|hidden}", "{enum:Top|None|Right|Left|Bottom}", "{enum#look_and_feel}", "{enum:per_monitor_dpi|system_dpi}", "{regexp#integer}", "{regexp#integer}x{regexp#integer}", "{regexp#integer}x{regexp#integer}_({regexp#integer}%)", "{enum:classic|new}" ]
       },
       "enums" : {
-        "__event_id" : [ "Nav.Bar", "Toolbar", "Status.bar", "Tool.Window.buttons", "Toolbar.and.NavBar", "Recent.files.limit", "Show.Editor.Tabs.In.Single.Row", "Hide.Editor.Tabs.If.Needed", "Block.cursor", "Line.Numbers", "Gutter.Icons", "Soft.Wraps", "Tabs", "Retina", "Show.tips.on.startup", "Allow.merging.buttons", "QuickDoc.Show.Toolwindow", "QuickDoc.AutoUpdate", "Look.and.Feel", "Hidpi.Mode", "Screen.Reader", "Screen.Scale", "Nav.Bar.members", "QuickListsCount", "Number.Of.Monitors", "Screen.Resolution", "laf.autodetect", "tool.window.layouts", "UI.type" ]
+        "__event_id" : [ "Nav.Bar", "Toolbar", "Status.bar", "Tool.Window.buttons", "Toolbar.and.NavBar", "Recent.files.limit", "Show.Editor.Tabs.In.Single.Row", "Hide.Editor.Tabs.If.Needed", "Block.cursor", "Line.Numbers", "Gutter.Icons", "Soft.Wraps", "Tabs", "Retina", "Show.tips.on.startup", "Allow.merging.buttons", "QuickDoc.Show.Toolwindow", "QuickDoc.AutoUpdate", "Look.and.Feel", "Hidpi.Mode", "Screen.Reader", "Screen.Scale", "Nav.Bar.members", "QuickListsCount", "Number.Of.Monitors", "Screen.Resolution", "laf.autodetect", "tool.window.layouts", "UI.type", "background.image" ]
       }
     }
   }, {
@@ -13808,7 +14148,7 @@
         "version" : [ "{regexp#version}" ]
       },
       "enums" : {
-        "__event_id" : [ "timeline.opened", "diff.opened", "merged", "server.meta.collected", "list.opened", "details.branch.checked.out", "details.opened", "details.prev.commit.chosen", "details.checks.opened", "list.filters.applied", "details.next.commit.chosen", "details.branches.opened", "details.commit.chosen", "details.additional.actions.invoked", "selectors.opened", "details.change.selected", "new.pr.view.opened", "api.request.finished", "api.request.started", "api.rates" ]
+        "__event_id" : [ "timeline.opened", "diff.opened", "merged", "server.meta.collected", "list.opened", "details.branch.checked.out", "details.opened", "details.prev.commit.chosen", "details.checks.opened", "list.filters.applied", "details.next.commit.chosen", "details.branches.opened", "details.commit.chosen", "details.additional.actions.invoked", "selectors.opened", "details.change.selected", "new.pr.view.opened", "api.request.finished", "api.request.started", "api.rates", "multiline.comments.created", "comments.resized" ]
       }
     },
     "anonymized_fields" : [ {
@@ -13874,7 +14214,7 @@
         "version" : [ "{regexp#version}" ]
       },
       "enums" : {
-        "__event_id" : [ "mergerequests.toolwindow.login.opened", "mergerequests.list.filters.applied", "mergerequests.details.opened", "mergerequests.list.opened", "mergerequests.diff.opened", "mergerequests.action.performed", "api.gql.model.error.occurred", "api.server.error.occurred", "api.json.deserialization.error.occurred", "api.server.version-fetched", "snippets.action.performed", "toolwindow.tab.opened", "mergerequests.creation.failed", "mergerequests.creation.started", "toolwindow.tab.closed", "mergerequests.creation.branches.changed", "mergerequests.creation.succeeded", "mergerequests.creation.reviewer.adjusted" ]
+        "__event_id" : [ "mergerequests.toolwindow.login.opened", "mergerequests.list.filters.applied", "mergerequests.details.opened", "mergerequests.list.opened", "mergerequests.diff.opened", "mergerequests.action.performed", "api.gql.model.error.occurred", "api.server.error.occurred", "api.json.deserialization.error.occurred", "api.server.version-fetched", "snippets.action.performed", "toolwindow.tab.opened", "mergerequests.creation.failed", "mergerequests.creation.started", "toolwindow.tab.closed", "mergerequests.creation.branches.changed", "mergerequests.creation.succeeded", "mergerequests.creation.reviewer.adjusted", "project.markdown.file.uploaded" ]
       }
     }
   }, {
@@ -14748,5 +15088,5 @@
       "version" : "Unknown|unknown.format|unknown|UNKNOWN|((\\d+\\.?)*\\d+)"
     }
   },
-  "version" : "6332"
+  "version" : "6452"
 }

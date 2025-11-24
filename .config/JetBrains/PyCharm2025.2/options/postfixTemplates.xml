@@ -1,0 +1,124 @@
+<application>
+  <component name="PostfixTemplatesSettings">
+    <option name="postfixTemplatesEnabled" value="false" />
+    <option name="providerToDisabledTemplates">
+      <disabled-templates provider="builtin.groovy">
+        <value>
+          <set>
+            <option value="groovy.postfix.template.all" />
+            <option value="groovy.postfix.template.arg" />
+            <option value="groovy.postfix.template.cast" />
+            <option value="groovy.postfix.template.def" />
+            <option value="groovy.postfix.template.else" />
+            <option value="groovy.postfix.template.filter" />
+            <option value="groovy.postfix.template.flatMap" />
+            <option value="groovy.postfix.template.foldLeft" />
+            <option value="groovy.postfix.template.for" />
+            <option value="groovy.postfix.template.if" />
+            <option value="groovy.postfix.template.iter" />
+            <option value="groovy.postfix.template.map" />
+            <option value="groovy.postfix.template.new" />
+            <option value="groovy.postfix.template.nn" />
+            <option value="groovy.postfix.template.not" />
+            <option value="groovy.postfix.template.notnull" />
+            <option value="groovy.postfix.template.null" />
+            <option value="groovy.postfix.template.par" />
+            <option value="groovy.postfix.template.reduce" />
+            <option value="groovy.postfix.template.reqnonnull" />
+            <option value="groovy.postfix.template.return" />
+            <option value="groovy.postfix.template.serr" />
+            <option value="groovy.postfix.template.sout" />
+            <option value="groovy.postfix.template.throw" />
+            <option value="groovy.postfix.template.try" />
+            <option value="groovy.postfix.template.var" />
+            <option value="groovy.postfix.template.while" />
+          </set>
+        </value>
+      </disabled-templates>
+      <disabled-templates provider="builtin.java">
+        <value>
+          <set>
+            <option value="Arrays.asList" />
+            <option value="List.of" />
+            <option value="arg" />
+            <option value="assert" />
+            <option value="com.intellij.codeInsight.template.postfix.templates.CastExpressionPostfixTemplate#.cast" />
+            <option value="com.intellij.codeInsight.template.postfix.templates.CastVarPostfixTemplate#.castvar" />
+            <option value="com.intellij.codeInsight.template.postfix.templates.ElseStatementPostfixTemplate#.else" />
+            <option value="com.intellij.codeInsight.template.postfix.templates.IfStatementPostfixTemplate#.if" />
+            <option value="com.intellij.codeInsight.template.postfix.templates.InstanceofExpressionPostfixTemplate#.inst" />
+            <option value="com.intellij.codeInsight.template.postfix.templates.InstanceofExpressionPostfixTemplate#.instanceof" />
+            <option value="com.intellij.codeInsight.template.postfix.templates.IntroduceFieldPostfixTemplate#.field" />
+            <option value="com.intellij.codeInsight.template.postfix.templates.IntroduceVariablePostfixTemplate#.var" />
+            <option value="com.intellij.codeInsight.template.postfix.templates.IsNullCheckPostfixTemplate#.null" />
+            <option value="com.intellij.codeInsight.template.postfix.templates.NewExpressionPostfixTemplate#.new" />
+            <option value="com.intellij.codeInsight.template.postfix.templates.NotExpressionPostfixTemplate#!" />
+            <option value="com.intellij.codeInsight.template.postfix.templates.NotExpressionPostfixTemplate#.not" />
+            <option value="com.intellij.codeInsight.template.postfix.templates.NotNullCheckPostfixTemplate#.nn" />
+            <option value="com.intellij.codeInsight.template.postfix.templates.NotNullCheckPostfixTemplate#.notnull" />
+            <option value="com.intellij.codeInsight.template.postfix.templates.ParenthesizedExpressionPostfixTemplate#.par" />
+            <option value="com.intellij.codeInsight.template.postfix.templates.StreamPostfixTemplate#.stream" />
+            <option value="com.intellij.codeInsight.template.postfix.templates.SwitchStatementPostfixTemplate#.switch" />
+            <option value="com.intellij.codeInsight.template.postfix.templates.TryStatementPostfixTemplate#.try" />
+            <option value="com.intellij.codeInsight.template.postfix.templates.TryWithResourcesPostfixTemplate#.twr" />
+            <option value="for" />
+            <option value="fori" />
+            <option value="format" />
+            <option value="forr" />
+            <option value="iter" />
+            <option value="lambda" />
+            <option value="new ArrayList" />
+            <option value="opt" />
+            <option value="reqnonnull" />
+            <option value="return" />
+            <option value="serr" />
+            <option value="souf" />
+            <option value="sout" />
+            <option value="soutv" />
+            <option value="synchronized" />
+            <option value="throw" />
+            <option value="toLocalDate" />
+            <option value="toSet" />
+            <option value="toSqlDate" />
+            <option value="while" />
+          </set>
+        </value>
+      </disabled-templates>
+      <disabled-templates provider="org.jetbrains.kotlin.idea.codeInsight.postfix.KotlinPostfixTemplateProvider">
+        <value>
+          <set>
+            <option value="org.jetbrains.kotlin.idea.codeInsight.postfix.KotlinArgumentPostfixTemplate#.arg" />
+            <option value="org.jetbrains.kotlin.idea.codeInsight.postfix.KotlinAssertPostfixTemplate#.assert" />
+            <option value="org.jetbrains.kotlin.idea.codeInsight.postfix.KotlinForLoopNumbersPostfixTemplate#.fori" />
+            <option value="org.jetbrains.kotlin.idea.codeInsight.postfix.KotlinForLoopReverseNumbersPostfixTemplate#.forr" />
+            <option value="org.jetbrains.kotlin.idea.codeInsight.postfix.KotlinForPostfixTemplate#.for" />
+            <option value="org.jetbrains.kotlin.idea.codeInsight.postfix.KotlinForReversedPostfixTemplate#.forr" />
+            <option value="org.jetbrains.kotlin.idea.codeInsight.postfix.KotlinForWithIndexPostfixTemplate#.fori" />
+            <option value="org.jetbrains.kotlin.idea.codeInsight.postfix.KotlinIfPostfixTemplate#.if" />
+            <option value="org.jetbrains.kotlin.idea.codeInsight.postfix.KotlinIterPostfixTemplate#.iter" />
+            <option value="org.jetbrains.kotlin.idea.codeInsight.postfix.KotlinItorPostfixTemplate#.itor" />
+            <option value="org.jetbrains.kotlin.idea.codeInsight.postfix.KotlinNnPostfixTemplate#.nn" />
+            <option value="org.jetbrains.kotlin.idea.codeInsight.postfix.KotlinNotNullPostfixTemplate#.notnull" />
+            <option value="org.jetbrains.kotlin.idea.codeInsight.postfix.KotlinNotPostfixTemplate#.not" />
+            <option value="org.jetbrains.kotlin.idea.codeInsight.postfix.KotlinNullPostfixTemplate#.null" />
+            <option value="org.jetbrains.kotlin.idea.codeInsight.postfix.KotlinParenthesizedPostfixTemplate#.par" />
+            <option value="org.jetbrains.kotlin.idea.codeInsight.postfix.KotlinReturnPostfixTemplate#.return" />
+            <option value="org.jetbrains.kotlin.idea.codeInsight.postfix.KotlinSpreadPostfixTemplate#.spread" />
+            <option value="org.jetbrains.kotlin.idea.codeInsight.postfix.KotlinSystemOutPostfixTemplate#.sout" />
+            <option value="org.jetbrains.kotlin.idea.codeInsight.postfix.KotlinTryPostfixTemplate#.try" />
+            <option value="org.jetbrains.kotlin.idea.codeInsight.postfix.KotlinUnlessPostfixTemplate#.unless" />
+            <option value="org.jetbrains.kotlin.idea.codeInsight.postfix.KotlinWhenPostfixTemplate#.when" />
+            <option value="org.jetbrains.kotlin.idea.codeInsight.postfix.KotlinWhilePostfixTemplate#.while" />
+            <option value="org.jetbrains.kotlin.idea.codeInsight.postfix.KotlinWithPostfixTemplate#.with" />
+            <option value="org.jetbrains.kotlin.idea.codeInsight.postfix.KotlinWrapIntoArrayPostfixTemplate#.arrayOf" />
+            <option value="org.jetbrains.kotlin.idea.codeInsight.postfix.KotlinWrapIntoListPostfixTemplate#.listOf" />
+            <option value="org.jetbrains.kotlin.idea.codeInsight.postfix.KotlinWrapIntoSequencePostfixTemplate#.sequenceOf" />
+            <option value="org.jetbrains.kotlin.idea.codeInsight.postfix.KotlinWrapIntoSetPostfixTemplate#.setOf" />
+            <option value="val" />
+            <option value="var" />
+          </set>
+        </value>
+      </disabled-templates>
+    </option>
+  </component>
+</application>

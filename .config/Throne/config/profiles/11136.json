@@ -1,0 +1,49 @@
+{
+    "bean": {
+        "_v": 0,
+        "addr": "89.23.96.122",
+        "brutal_speed": 0,
+        "c_cfg": "",
+        "c_out": "",
+        "enable_brutal": false,
+        "flow": "xtls-rprx-vision",
+        "mux": 0,
+        "name": "🔥Join+Telegram:@Farah_VPN🟣",
+        "pass": "9d97c649-47a5-47e2-aa33-65e30e74bc76",
+        "port": 443,
+        "stream": {
+            "alpn": "",
+            "cert": "",
+            "ed_len": 0,
+            "ed_name": "",
+            "h_type": "",
+            "headers": "",
+            "host": "",
+            "insecure": false,
+            "method": "",
+            "net": "tcp",
+            "pac_enc": "xudp",
+            "path": "",
+            "pbk": "6_Fj5F7wmZoehHhk7X0su7zMfN9J5SiQa4GNgXtJl1o",
+            "sec": "tls",
+            "sid": "69fa4297",
+            "sni": "stats.vk-portal.net",
+            "tls_frag": false,
+            "tls_frag_fall_delay": "",
+            "tls_record_frag": false,
+            "utls": "chrome"
+        }
+    },
+    "country": "",
+    "dl": "",
+    "gid": 1,
+    "id": 11136,
+    "report": "",
+    "traffic": {
+        "dl": 5713308,
+        "ul": 275255
+    },
+    "type": "vless",
+    "ul": "",
+    "yc": -1
+}

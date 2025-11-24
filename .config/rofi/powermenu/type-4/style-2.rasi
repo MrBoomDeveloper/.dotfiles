@@ -1,20 +1,8 @@
-/**
- *
- * Author : Aditya Shakya (adi1090x)
- * Github : @adi1090x
- * 
- * Rofi Theme File
- * Rofi Version: 1.7.3
- **/
-
-/*****----- Configuration -----*****/
 configuration {
-    show-icons:                 false;
+    show-icons: false;
 }
 
-/*****----- Global Properties -----*****/
 * {
-    /* Resolution : 1920x1080 */
     mainbox-spacing:             100px;
     mainbox-margin:              150px 400px;
     message-margin:              0px 350px;
@@ -35,14 +23,13 @@ configuration {
     foreground-selected:         white;
 }
 
-/*****----- Main Window -----*****/
 window {
-    transparency:                "real";
-    location:                    center;
-    anchor:                      center;
-    fullscreen:                  true;
-    cursor:                      "default";
-    background-color:            var(background-window);
+    transparency: "real";
+    location: center;
+    anchor: center;
+    fullscreen: true;
+    cursor: "default";
+    background-color: var(background-window);
 }
 
 /*****----- Main Box -----*****/
@@ -81,6 +68,7 @@ message {
     background-color:            var(background-normal);
     text-color:                  var(foreground-normal);
 }
+
 textbox {
     font:                        var(textbox-font);
     background-color:            transparent;
@@ -93,7 +81,7 @@ textbox {
 listview {
     enabled:                     true;
     expand:                      false;
-    columns: 4;
+    columns: 3;
     lines:                       1;
     cycle:                       true;
     dynamic:                     true;
@@ -108,24 +96,25 @@ listview {
     cursor:                      "default";
 }
 
-/*****----- Elements -----*****/
 element {
-    enabled:                     true;
-    padding:                     var(element-padding);
-    border-radius:               var(element-border-radius);
-    background-color:            var(background-normal);
-    text-color:                  var(foreground-normal);
-    cursor:                      pointer;
+    enabled: true;
+    padding: var(element-padding);
+    border-radius: var(element-border-radius);
+    background-color: var(background-normal);
+    text-color: var(foreground-normal);
+    cursor: pointer;
 }
+
 element-text {
-    font:                        var(element-text-font);
-    background-color:            transparent;
-    text-color:                  inherit;
-    cursor:                      inherit;
-    vertical-align:              0.5;
-    horizontal-align:            0.5;
+    font: var(element-text-font);
+    background-color: transparent;
+    text-color: inherit;
+    cursor: inherit;
+    vertical-align: 0.5;
+    horizontal-align: 0.5;
 }
+
 element selected.normal {
-    background-color:            var(background-selected);
-    text-color:                  var(foreground-selected);
+    background-color: var(background-selected);
+    text-color: var(foreground-selected);
 }

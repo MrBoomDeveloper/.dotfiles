@@ -1,0 +1,2670 @@
+<project version="4">
+  <component name="BookmarksManager">
+    <option name="groups">
+      <GroupState>
+        <option name="name" value="V2rayNG" />
+      </GroupState>
+    </option>
+  </component>
+  <component name="DesignSurfaceV2">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable/license_24px.xml" value="1.64" />
+        <entry key="app/src/main/res/layout/activity_about.xml" value="0.4890560875512996" />
+        <entry key="app/src/main/res/layout/activity_check_update.xml" value="1.0437756497948016" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.4890560875512996" />
+        <entry key="app/src/main/res/menu/menu_drawer.xml" value="0.4265625" />
+        <entry key="app/src/main/res/menu/menu_logcat.xml" value="1.1203830369357046" />
+        <entry key="app/src/main/res/menu/menu_main.xml" value="1.0820793433652531" />
+        <entry key="app/src/main/res/xml/pref_settings.xml" value="1.0437756497948016" />
+      </map>
+    </option>
+  </component>
+  <component name="FileEditorManager">
+    <leaf ideFingerprint="3nkc6dx5tviuj" SIDE_TABS_SIZE_LIMIT_KEY="-1">
+      <file>
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/v2ray/ang/ui/MainActivity.kt" file-id="412683" managing-fs="1763754416123">
+          <provider editor-type-id="android-source-code" selected="true">
+            <state>
+              <editor-state relative-caret-position="260">
+                <caret line="346" column="16" lean-forward="true" selection-start-line="346" selection-start-column="16" selection-end-line="346" selection-end-column="16" />
+                <folding>
+                  <element signature="e#26#2108#0" expanded="true" />
+                  <element signature="e#4062#4100#1" expanded="true" />
+                  <element signature="e#4228#4260#1" expanded="true" />
+                  <element signature="e#5110#5142#0" expanded="true" />
+                  <element signature="e#5833#5876#1" expanded="true" />
+                  <element signature="e#6779#6810#1" expanded="true" />
+                  <element signature="e#6812#6844#1" expanded="true" />
+                  <element signature="e#8826#8866#1" expanded="true" />
+                  <element signature="e#9294#9338#1" expanded="true" />
+                  <element signature="e#9768#9805#1" expanded="true" />
+                  <element signature="e#10985#11012#1" expanded="true" />
+                  <element signature="e#15329#15414#1" expanded="true" />
+                  <element signature="e#15536#15621#1" expanded="true" />
+                  <element signature="e#15872#15912#1" expanded="true" />
+                  <element signature="e#18292#18344#1" expanded="true" />
+                  <element signature="e#18532#18554#1" expanded="true" />
+                  <element signature="e#18757#18779#1" expanded="true" />
+                  <element signature="e#19637#19689#1" expanded="true" />
+                  <element signature="e#19800#19822#1" expanded="true" />
+                  <element signature="e#20190#20240#1" expanded="true" />
+                  <element signature="e#20294#20316#1" expanded="true" />
+                  <element signature="e#20468#20495#1" expanded="true" />
+                  <element signature="e#20852#20899#1" expanded="true" />
+                  <element signature="e#21223#21250#1" expanded="true" />
+                  <element signature="e#21613#21670#1" expanded="true" />
+                  <element signature="e#21992#22027#1" expanded="true" />
+                  <element signature="e#22388#22435#1" expanded="true" />
+                  <element signature="e#23667#23705#1" expanded="true" />
+                </folding>
+              </editor-state>
+            </state>
+          </provider>
+        </entry>
+        <tab><![CDATA[{"tabTitle":"MainActivity.kt","foregroundColor":-7752454,"textAttributes":{"name":"a","children":[{"name":"option","attributes":{"name":"FOREGROUND","value":"89b4fa"}}]},"icon":[10,57,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,82,97,115,116,101,114,105,122,101,100,73,109,97,103,101,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,-122,1,10,47,111,114,103,47,106,101,116,98,114,97,105,110,115,47,107,111,116,108,105,110,47,105,100,101,97,47,105,99,111,110,115,47,99,108,97,115,115,75,111,116,108,105,110,46,115,118,103,18,53,111,114,103,47,106,101,116,98,114,97,105,110,115,47,107,111,116,108,105,110,47,105,100,101,97,47,105,99,111,110,115,47,101,120,112,117,105,47,99,108,97,115,115,75,111,116,108,105,110,46,115,118,103,26,20,111,114,103,46,106,101,116,98,114,97,105,110,115,46,107,111,116,108,105,110,40,-16,-50,-72,-55,2,48,0]}]]></tab>
+      </file>
+      <file current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/v2ray/ang/viewmodel/MainViewModel.kt" file-id="412857" managing-fs="1763754416123">
+          <provider editor-type-id="android-source-code" selected="true">
+            <state>
+              <editor-state relative-caret-position="395">
+                <caret line="275" column="12" lean-forward="true" selection-start-line="275" selection-start-column="12" selection-end-line="275" selection-end-column="12" />
+                <folding>
+                  <element signature="e#33#1603#0" expanded="true" />
+                  <element signature="e#12312#12357#1" expanded="true" />
+                  <element signature="e#16100#16122#1" expanded="true" />
+                  <element signature="e#16215#16237#1" expanded="true" />
+                  <element signature="e#17551#17582#1" expanded="true" />
+                  <element signature="e#17765#17796#1" expanded="true" />
+                </folding>
+              </editor-state>
+            </state>
+          </provider>
+        </entry>
+        <tab><![CDATA[{"tabTitle":"MainViewModel.kt","foregroundColor":-7752454,"textAttributes":{"name":"a","children":[{"name":"option","attributes":{"name":"FOREGROUND","value":"89b4fa"}}]},"icon":[10,57,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,82,97,115,116,101,114,105,122,101,100,73,109,97,103,101,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,-122,1,10,47,111,114,103,47,106,101,116,98,114,97,105,110,115,47,107,111,116,108,105,110,47,105,100,101,97,47,105,99,111,110,115,47,99,108,97,115,115,75,111,116,108,105,110,46,115,118,103,18,53,111,114,103,47,106,101,116,98,114,97,105,110,115,47,107,111,116,108,105,110,47,105,100,101,97,47,105,99,111,110,115,47,101,120,112,117,105,47,99,108,97,115,115,75,111,116,108,105,110,46,115,118,103,26,20,111,114,103,46,106,101,116,98,114,97,105,110,115,46,107,111,116,108,105,110,40,-16,-50,-72,-55,2,48,0]}]]></tab>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTypeUsageLocalSummary"><![CDATA[{
+  "data": {
+    "settingsType": {
+      "usageCount": 1,
+      "lastUsed": 1763879848433
+    },
+    "XML": {
+      "usageCount": 36,
+      "lastUsed": 1763901238854
+    },
+    "Image": {
+      "usageCount": 2,
+      "lastUsed": 1763896852049
+    },
+    "Kotlin": {
+      "usageCount": 104,
+      "lastUsed": 1763900864119
+    },
+    "JAVA": {
+      "usageCount": 1,
+      "lastUsed": 1763887972501
+    },
+    "CLASS": {
+      "usageCount": 3,
+      "lastUsed": 1763894876756
+    },
+    "TOML": {
+      "usageCount": 1,
+      "lastUsed": 1763895235726
+    },
+    "DIFF": {
+      "usageCount": 1,
+      "lastUsed": 1763898845029
+    }
+  }
+}]]></component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>title_pref_start_scan_immediate</find>
+      <find>theme</find>
+      <find>onCreate(</find>
+      <find>colorS</find>
+      <find>MSG_MEASURE_CONFIG</find>
+      <find>AboutA</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+  </component>
+  <component name="GitSEFilterConfiguration">{}</component>
+  <component name="IdeDocumentHistory"><![CDATA[{
+  "changedPaths": [
+    "/home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/java/com/v2ray/ang/handler/SubscriptionUpdater.kt",
+    "/home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/java/com/v2ray/ang/handler/UpdateCheckerManager.kt",
+    "/home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/java/com/v2ray/ang/handler/V2RayServiceManager.kt",
+    "/home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/java/com/v2ray/ang/util/Utils.kt",
+    "/home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/java/com/v2ray/ang/util/HttpUtil.kt",
+    "/home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/java/com/v2ray/ang/ui/UserAssetUrlActivity.kt",
+    "/home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/java/com/v2ray/ang/ui/UserAssetActivity.kt",
+    "/home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/java/com/v2ray/ang/ui/UrlSchemeActivity.kt",
+    "/home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/java/com/v2ray/ang/ui/TaskerActivity.kt",
+    "/home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/java/com/v2ray/ang/ui/SubSettingRecyclerAdapter.kt",
+    "/home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/java/com/v2ray/ang/ui/SubSettingActivity.kt",
+    "/home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/java/com/v2ray/ang/ui/SubEditActivity.kt",
+    "/home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/java/com/v2ray/ang/ui/SettingsActivity.kt",
+    "/home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/java/com/v2ray/ang/ui/ServerCustomConfigActivity.kt",
+    "/home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/java/com/v2ray/ang/ui/ServerActivity.kt",
+    "/home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/java/com/v2ray/ang/ui/ScSwitchActivity.kt",
+    "/home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/java/com/v2ray/ang/ui/ScScannerActivity.kt",
+    "/home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/java/com/v2ray/ang/ui/RoutingSettingRecyclerAdapter.kt",
+    "/home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/java/com/v2ray/ang/ui/RoutingSettingActivity.kt",
+    "/home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/java/com/v2ray/ang/ui/RoutingEditActivity.kt",
+    "/home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/java/com/v2ray/ang/ui/PerAppProxyAdapter.kt",
+    "/home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/java/com/v2ray/ang/ui/PerAppProxyActivity.kt",
+    "/home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/java/com/v2ray/ang/ui/MainRecyclerAdapter.kt",
+    "/home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/java/com/v2ray/ang/ui/LogcatRecyclerAdapter.kt",
+    "/home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/java/com/v2ray/ang/ui/LogcatActivity.kt",
+    "/home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/java/com/v2ray/ang/receiver/WidgetProvider.kt",
+    "/home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/java/com/v2ray/ang/handler/SpeedtestManager.kt",
+    "/home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/java/com/v2ray/ang/service/V2RayVpnService.kt",
+    "/home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/java/com/v2ray/ang/service/QSTileService.kt",
+    "/home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/java/com/v2ray/ang/ui/ScannerActivity.kt",
+    "/home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/res/xml/pref_settings.xml",
+    "/home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/res/values/strings.xml",
+    "/home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/res/menu/menu_main.xml",
+    "/home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/res/menu/menu_drawer.xml",
+    "/home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/java/com/v2ray/ang/util/UiUtils.kt",
+    "/home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/java/com/mrboomdev/v2rayng2/utils/ColorUtils.kt",
+    "/home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/java/com/mrboomdev/v2rayng2/PingTester.kt",
+    "/home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/java/com/mrboomdev/v2rayng2/DelayTester.kt",
+    "/home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/java/com/v2ray/ang/service/V2RayTestService.kt",
+    "/home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/gradle/libs.versions.toml",
+    "/home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/java/com/v2ray/ang/AngApplication.kt",
+    "/home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/java/com/v2ray/ang/ui/CheckUpdateActivity.kt",
+    "/home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/java/com/v2ray/ang/AppConfig.kt",
+    "/home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/res/layout/activity_about.xml",
+    "/home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/java/com/v2ray/ang/ui/AboutActivity.kt",
+    "/home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/AndroidManifest.xml",
+    "/home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/java/com/v2ray/ang/handler/V2rayConfigManager.kt",
+    "/home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/build.gradle.kts",
+    "/home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/java/com/v2ray/ang/ui/MainActivity.kt",
+    "/home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/debug/res/values/strings.xml",
+    "/home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/java/com/v2ray/ang/viewmodel/MainViewModel.kt"
+  ]
+}]]></component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="LanguageUsageStatistics">
+    <language id="JAVA">
+      <summary usageCount="1" lastUsage="1763887972501" />
+    </language>
+    <language id="TOML">
+      <summary usageCount="1" lastUsage="1763895235726" />
+    </language>
+    <language id="XML">
+      <summary usageCount="36" lastUsage="1763901238854" />
+    </language>
+    <language id="kotlin">
+      <summary usageCount="104" lastUsage="1763900864119" />
+    </language>
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" />
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="v2rayNG" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="v2rayNG" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="v2rayNG" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/libs}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="v2rayNG" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="v2rayNG" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="v2rayNG" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/java}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="v2rayNG" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/java}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/java/com}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="v2rayNG" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/java}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/java/com}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/java/com/mrboomdev}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="v2rayNG" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/java}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/java/com}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/java/com/mrboomdev}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/java/com/mrboomdev/v2rayng2}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="v2rayNG" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/java}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/java/com}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/java/com/mrboomdev}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/java/com/mrboomdev/v2rayng2}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/java/com/mrboomdev/v2rayng2/utils}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="v2rayNG" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/java}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/java/com}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/java/com/v2ray}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="v2rayNG" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/java}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/java/com}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/java/com/v2ray}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/java/com/v2ray/ang}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="v2rayNG" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/java}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/java/com}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/java/com/v2ray}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/java/com/v2ray/ang}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/java/com/v2ray/ang/service}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="v2rayNG" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/java}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/java/com}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/java/com/v2ray}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/java/com/v2ray/ang}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/java/com/v2ray/ang/ui}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="v2rayNG" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/java}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/java/com}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/java/com/v2ray}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/java/com/v2ray/ang}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/java/com/v2ray/ang/util}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="v2rayNG" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/java}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/java/com}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/java/com/v2ray}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/java/com/v2ray/ang}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/java/com/v2ray/ang/viewmodel}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="v2rayNG" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/res}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="v2rayNG" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/res}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/res/drawable}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="v2rayNG" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/res}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/res/menu}" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+          <presentation>
+            <attributes />
+            <data iconPath="expui/toolwindows/project.svg" iconPlugin="com.intellij" isLeaf="false" text="v2rayNG" />
+            <item name="v2rayNG" type="b2602c69:ProjectViewProjectNode" />
+            <presentation>
+              <attributes>
+                <map>
+                  <entry key="filePath" value="$PROJECT_DIR$" />
+                </map>
+              </attributes>
+              <data iconPath="expui/nodes/module.svg" iconPlugin="com.intellij" isLeaf="false" text="V2rayNG" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/.gradle" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/nodes/excludeRoot.svg" iconPlugin="com.intellij" isLeaf="false" text=".gradle" />
+                <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/.gradle}" type="462c0819:PsiDirectoryNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/.idea" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text=".idea" />
+                <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/.idea}" type="462c0819:PsiDirectoryNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/.kotlin" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text=".kotlin" />
+                <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/.kotlin}" type="462c0819:PsiDirectoryNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/app" />
+                  </map>
+                </attributes>
+                <data iconPath="studio/icons/shell/filetree/android-module.svg" iconPlugin="org.jetbrains.android" isLeaf="false" text="app" />
+                <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/app/build" />
+                    </map>
+                  </attributes>
+                  <data iconPath="expui/nodes/excludeRoot.svg" iconPlugin="com.intellij" isLeaf="false" text="build" />
+                  <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/build}" type="462c0819:PsiDirectoryNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/app/libs" />
+                    </map>
+                  </attributes>
+                  <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="libs" />
+                  <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/libs}" type="462c0819:PsiDirectoryNode" />
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/app/libs/arm64-v8a" />
+                      </map>
+                    </attributes>
+                    <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="arm64-v8a" />
+                    <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/libs/arm64-v8a}" type="462c0819:PsiDirectoryNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/app/libs/armeabi-v7a" />
+                      </map>
+                    </attributes>
+                    <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="armeabi-v7a" />
+                    <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/libs/armeabi-v7a}" type="462c0819:PsiDirectoryNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/app/libs/riscv64" />
+                      </map>
+                    </attributes>
+                    <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="riscv64" />
+                    <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/libs/riscv64}" type="462c0819:PsiDirectoryNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/app/libs/x86" />
+                      </map>
+                    </attributes>
+                    <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="x86" />
+                    <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/libs/x86}" type="462c0819:PsiDirectoryNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/app/libs/x86_64" />
+                      </map>
+                    </attributes>
+                    <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="x86_64" />
+                    <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/libs/x86_64}" type="462c0819:PsiDirectoryNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/app/libs/libv2ray.aar" />
+                      </map>
+                    </attributes>
+                    <data iconPath="studio/icons/shell/filetree/android-file.svg" iconPlugin="org.jetbrains.android" isLeaf="true" text="libv2ray.aar" />
+                    <item name="libv2ray.aar" type="ab9368bb:PsiFileNode" />
+                  </presentation>
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/app/release" />
+                    </map>
+                  </attributes>
+                  <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="release" />
+                  <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/release}" type="462c0819:PsiDirectoryNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/app/src" />
+                    </map>
+                  </attributes>
+                  <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="src" />
+                  <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src}" type="462c0819:PsiDirectoryNode" />
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/app/src/debug" />
+                      </map>
+                    </attributes>
+                    <data iconPath="studio/icons/shell/filetree/android-module.svg" iconPlugin="org.jetbrains.android" isLeaf="false" text="debug" />
+                    <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/debug}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/app/src/main" />
+                      </map>
+                    </attributes>
+                    <data iconPath="studio/icons/shell/filetree/android-module.svg" iconPlugin="org.jetbrains.android" isLeaf="false" text="main" />
+                    <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+                    <presentation>
+                      <attributes>
+                        <map>
+                          <entry key="filePath" value="$PROJECT_DIR$/app/src/main/assets" />
+                        </map>
+                      </attributes>
+                      <data iconPath="expui/nodes/resourcesRoot.svg" iconPlugin="com.intellij" isLeaf="false" text="assets" />
+                      <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/assets}" type="462c0819:PsiDirectoryNode" />
+                    </presentation>
+                    <presentation>
+                      <attributes>
+                        <map>
+                          <entry key="filePath" value="$PROJECT_DIR$/app/src/main/java" />
+                        </map>
+                      </attributes>
+                      <data iconPath="expui/nodes/sourceRoot.svg" iconPlugin="com.intellij" isLeaf="false" text="java" />
+                      <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/java}" type="462c0819:PsiDirectoryNode" />
+                      <presentation>
+                        <attributes>
+                          <map>
+                            <entry key="filePath" value="$PROJECT_DIR$/app/src/main/java/com" />
+                          </map>
+                        </attributes>
+                        <data iconPath="expui/nodes/package.svg" iconPlugin="com.intellij" isLeaf="false" text="com" />
+                        <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/java/com}" type="462c0819:PsiDirectoryNode" />
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/java/com/mrboomdev" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/nodes/package.svg" iconPlugin="com.intellij" isLeaf="false" text="mrboomdev" />
+                          <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/java/com/mrboomdev}" type="462c0819:PsiDirectoryNode" />
+                          <presentation>
+                            <attributes>
+                              <map>
+                                <entry key="filePath" value="$PROJECT_DIR$/app/src/main/java/com/mrboomdev/v2rayng2" />
+                              </map>
+                            </attributes>
+                            <data iconPath="expui/nodes/package.svg" iconPlugin="com.intellij" isLeaf="false" text="v2rayng2" />
+                            <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/java/com/mrboomdev/v2rayng2}" type="462c0819:PsiDirectoryNode" />
+                            <presentation>
+                              <attributes>
+                                <map>
+                                  <entry key="filePath" value="$PROJECT_DIR$/app/src/main/java/com/mrboomdev/v2rayng2/utils" />
+                                </map>
+                              </attributes>
+                              <data iconPath="expui/nodes/package.svg" iconPlugin="com.intellij" isLeaf="false" text="utils" />
+                              <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/java/com/mrboomdev/v2rayng2/utils}" type="462c0819:PsiDirectoryNode" />
+                              <presentation>
+                                <attributes>
+                                  <map>
+                                    <entry key="filePath" value="$PROJECT_DIR$/app/src/main/java/com/mrboomdev/v2rayng2/utils/ColorUtils.kt" />
+                                  </map>
+                                </attributes>
+                                <data iconPath="org/jetbrains/kotlin/idea/icons/expui/kotlin.svg" iconPlugin="org.jetbrains.kotlin" isLeaf="true" text="ColorUtils.kt" />
+                                <item name="ColorUtils.kt" type="24436e51:KtFileTreeNode" />
+                              </presentation>
+                            </presentation>
+                          </presentation>
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/java/com/v2ray" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/nodes/package.svg" iconPlugin="com.intellij" isLeaf="false" text="v2ray" />
+                          <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/java/com/v2ray}" type="462c0819:PsiDirectoryNode" />
+                          <presentation>
+                            <attributes>
+                              <map>
+                                <entry key="filePath" value="$PROJECT_DIR$/app/src/main/java/com/v2ray/ang" />
+                              </map>
+                            </attributes>
+                            <data iconPath="expui/nodes/package.svg" iconPlugin="com.intellij" isLeaf="false" text="ang" />
+                            <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/java/com/v2ray/ang}" type="462c0819:PsiDirectoryNode" />
+                            <presentation>
+                              <attributes>
+                                <map>
+                                  <entry key="filePath" value="$PROJECT_DIR$/app/src/main/java/com/v2ray/ang/dto" />
+                                </map>
+                              </attributes>
+                              <data iconPath="expui/nodes/package.svg" iconPlugin="com.intellij" isLeaf="false" text="dto" />
+                              <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/java/com/v2ray/ang/dto}" type="462c0819:PsiDirectoryNode" />
+                            </presentation>
+                            <presentation>
+                              <attributes>
+                                <map>
+                                  <entry key="filePath" value="$PROJECT_DIR$/app/src/main/java/com/v2ray/ang/extension" />
+                                </map>
+                              </attributes>
+                              <data iconPath="expui/nodes/package.svg" iconPlugin="com.intellij" isLeaf="false" text="extension" />
+                              <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/java/com/v2ray/ang/extension}" type="462c0819:PsiDirectoryNode" />
+                            </presentation>
+                            <presentation>
+                              <attributes>
+                                <map>
+                                  <entry key="filePath" value="$PROJECT_DIR$/app/src/main/java/com/v2ray/ang/fmt" />
+                                </map>
+                              </attributes>
+                              <data iconPath="expui/nodes/package.svg" iconPlugin="com.intellij" isLeaf="false" text="fmt" />
+                              <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/java/com/v2ray/ang/fmt}" type="462c0819:PsiDirectoryNode" />
+                            </presentation>
+                            <presentation>
+                              <attributes>
+                                <map>
+                                  <entry key="filePath" value="$PROJECT_DIR$/app/src/main/java/com/v2ray/ang/handler" />
+                                </map>
+                              </attributes>
+                              <data iconPath="expui/nodes/package.svg" iconPlugin="com.intellij" isLeaf="false" text="handler" />
+                              <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/java/com/v2ray/ang/handler}" type="462c0819:PsiDirectoryNode" />
+                            </presentation>
+                            <presentation>
+                              <attributes>
+                                <map>
+                                  <entry key="filePath" value="$PROJECT_DIR$/app/src/main/java/com/v2ray/ang/helper" />
+                                </map>
+                              </attributes>
+                              <data iconPath="expui/nodes/package.svg" iconPlugin="com.intellij" isLeaf="false" text="helper" />
+                              <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/java/com/v2ray/ang/helper}" type="462c0819:PsiDirectoryNode" />
+                            </presentation>
+                            <presentation>
+                              <attributes>
+                                <map>
+                                  <entry key="filePath" value="$PROJECT_DIR$/app/src/main/java/com/v2ray/ang/plugin" />
+                                </map>
+                              </attributes>
+                              <data iconPath="expui/nodes/package.svg" iconPlugin="com.intellij" isLeaf="false" text="plugin" />
+                              <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/java/com/v2ray/ang/plugin}" type="462c0819:PsiDirectoryNode" />
+                            </presentation>
+                            <presentation>
+                              <attributes>
+                                <map>
+                                  <entry key="filePath" value="$PROJECT_DIR$/app/src/main/java/com/v2ray/ang/receiver" />
+                                </map>
+                              </attributes>
+                              <data iconPath="expui/nodes/package.svg" iconPlugin="com.intellij" isLeaf="false" text="receiver" />
+                              <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/java/com/v2ray/ang/receiver}" type="462c0819:PsiDirectoryNode" />
+                            </presentation>
+                            <presentation>
+                              <attributes>
+                                <map>
+                                  <entry key="filePath" value="$PROJECT_DIR$/app/src/main/java/com/v2ray/ang/service" />
+                                </map>
+                              </attributes>
+                              <data iconPath="expui/nodes/package.svg" iconPlugin="com.intellij" isLeaf="false" text="service" />
+                              <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/java/com/v2ray/ang/service}" type="462c0819:PsiDirectoryNode" />
+                              <presentation>
+                                <attributes>
+                                  <map>
+                                    <entry key="filePath" value="$PROJECT_DIR$/app/src/main/java/com/v2ray/ang/service/ProcessService.kt" />
+                                  </map>
+                                </attributes>
+                                <data iconPath="org/jetbrains/kotlin/idea/icons/expui/classKotlin.svg" iconPlugin="org.jetbrains.kotlin" isLeaf="true" text="ProcessService" />
+                                <item name="ProcessService" type="2c5a2ef7:KtClassOrObjectTreeNode" />
+                              </presentation>
+                              <presentation>
+                                <attributes>
+                                  <map>
+                                    <entry key="filePath" value="$PROJECT_DIR$/app/src/main/java/com/v2ray/ang/service/QSTileService.kt" />
+                                  </map>
+                                </attributes>
+                                <data iconPath="org/jetbrains/kotlin/idea/icons/expui/classKotlin.svg" iconPlugin="org.jetbrains.kotlin" isLeaf="true" text="QSTileService" />
+                                <item name="QSTileService" type="2c5a2ef7:KtClassOrObjectTreeNode" />
+                              </presentation>
+                              <presentation>
+                                <attributes>
+                                  <map>
+                                    <entry key="filePath" value="$PROJECT_DIR$/app/src/main/java/com/v2ray/ang/service/ServiceControl.kt" />
+                                  </map>
+                                </attributes>
+                                <data iconPath="org/jetbrains/kotlin/idea/icons/expui/interfaceKotlin.svg" iconPlugin="org.jetbrains.kotlin" isLeaf="true" text="ServiceControl" />
+                                <item name="ServiceControl" type="2c5a2ef7:KtClassOrObjectTreeNode" />
+                              </presentation>
+                              <presentation>
+                                <attributes>
+                                  <map>
+                                    <entry key="filePath" value="$PROJECT_DIR$/app/src/main/java/com/v2ray/ang/service/TProxyService.kt" />
+                                  </map>
+                                </attributes>
+                                <data iconPath="org/jetbrains/kotlin/idea/icons/expui/classKotlin.svg" iconPlugin="org.jetbrains.kotlin" isLeaf="true" text="TProxyService" />
+                                <item name="TProxyService" type="2c5a2ef7:KtClassOrObjectTreeNode" />
+                              </presentation>
+                              <presentation>
+                                <attributes>
+                                  <map>
+                                    <entry key="filePath" value="$PROJECT_DIR$/app/src/main/java/com/v2ray/ang/service/Tun2SocksControl.kt" />
+                                  </map>
+                                </attributes>
+                                <data iconPath="org/jetbrains/kotlin/idea/icons/expui/interfaceKotlin.svg" iconPlugin="org.jetbrains.kotlin" isLeaf="true" text="Tun2SocksControl" />
+                                <item name="Tun2SocksControl" type="2c5a2ef7:KtClassOrObjectTreeNode" />
+                              </presentation>
+                              <presentation>
+                                <attributes>
+                                  <map>
+                                    <entry key="filePath" value="$PROJECT_DIR$/app/src/main/java/com/v2ray/ang/service/Tun2SocksService.kt" />
+                                  </map>
+                                </attributes>
+                                <data iconPath="org/jetbrains/kotlin/idea/icons/expui/classKotlin.svg" iconPlugin="org.jetbrains.kotlin" isLeaf="true" text="Tun2SocksService" />
+                                <item name="Tun2SocksService" type="2c5a2ef7:KtClassOrObjectTreeNode" />
+                              </presentation>
+                              <presentation>
+                                <attributes>
+                                  <map>
+                                    <entry key="filePath" value="$PROJECT_DIR$/app/src/main/java/com/v2ray/ang/service/V2RayProxyOnlyService.kt" />
+                                  </map>
+                                </attributes>
+                                <data iconPath="org/jetbrains/kotlin/idea/icons/expui/classKotlin.svg" iconPlugin="org.jetbrains.kotlin" isLeaf="true" text="V2RayProxyOnlyService" />
+                                <item name="V2RayProxyOnlyService" type="2c5a2ef7:KtClassOrObjectTreeNode" />
+                              </presentation>
+                              <presentation>
+                                <attributes>
+                                  <map>
+                                    <entry key="filePath" value="$PROJECT_DIR$/app/src/main/java/com/v2ray/ang/service/V2RayTestService.kt" />
+                                  </map>
+                                </attributes>
+                                <data iconPath="org/jetbrains/kotlin/idea/icons/expui/classKotlin.svg" iconPlugin="org.jetbrains.kotlin" isLeaf="true" text="V2RayTestService" />
+                                <item name="V2RayTestService" type="2c5a2ef7:KtClassOrObjectTreeNode" />
+                              </presentation>
+                              <presentation>
+                                <attributes>
+                                  <map>
+                                    <entry key="filePath" value="$PROJECT_DIR$/app/src/main/java/com/v2ray/ang/service/V2RayVpnService.kt" />
+                                  </map>
+                                </attributes>
+                                <data iconPath="org/jetbrains/kotlin/idea/icons/expui/classKotlin.svg" iconPlugin="org.jetbrains.kotlin" isLeaf="true" text="V2RayVpnService" />
+                                <item name="V2RayVpnService" type="2c5a2ef7:KtClassOrObjectTreeNode" />
+                              </presentation>
+                            </presentation>
+                            <presentation>
+                              <attributes>
+                                <map>
+                                  <entry key="filePath" value="$PROJECT_DIR$/app/src/main/java/com/v2ray/ang/ui" />
+                                </map>
+                              </attributes>
+                              <data iconPath="expui/nodes/package.svg" iconPlugin="com.intellij" isLeaf="false" text="ui" />
+                              <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/java/com/v2ray/ang/ui}" type="462c0819:PsiDirectoryNode" />
+                              <presentation>
+                                <attributes>
+                                  <map>
+                                    <entry key="filePath" value="$PROJECT_DIR$/app/src/main/java/com/v2ray/ang/ui/AboutActivity.kt" />
+                                  </map>
+                                </attributes>
+                                <data iconPath="org/jetbrains/kotlin/idea/icons/expui/classKotlin.svg" iconPlugin="org.jetbrains.kotlin" isLeaf="true" text="AboutActivity" />
+                                <item name="AboutActivity" type="2c5a2ef7:KtClassOrObjectTreeNode" />
+                              </presentation>
+                              <presentation>
+                                <attributes>
+                                  <map>
+                                    <entry key="filePath" value="$PROJECT_DIR$/app/src/main/java/com/v2ray/ang/ui/BaseActivity.kt" />
+                                  </map>
+                                </attributes>
+                                <data iconPath="org/jetbrains/kotlin/idea/icons/expui/abstractClassKotlin.svg" iconPlugin="org.jetbrains.kotlin" isLeaf="true" text="BaseActivity" />
+                                <item name="BaseActivity" type="2c5a2ef7:KtClassOrObjectTreeNode" />
+                              </presentation>
+                              <presentation>
+                                <attributes>
+                                  <map>
+                                    <entry key="filePath" value="$PROJECT_DIR$/app/src/main/java/com/v2ray/ang/ui/CheckUpdateActivity.kt" />
+                                  </map>
+                                </attributes>
+                                <data iconPath="org/jetbrains/kotlin/idea/icons/expui/classKotlin.svg" iconPlugin="org.jetbrains.kotlin" isLeaf="true" text="CheckUpdateActivity" />
+                                <item name="CheckUpdateActivity" type="2c5a2ef7:KtClassOrObjectTreeNode" />
+                              </presentation>
+                              <presentation>
+                                <attributes>
+                                  <map>
+                                    <entry key="filePath" value="$PROJECT_DIR$/app/src/main/java/com/v2ray/ang/ui/FragmentAdapter.kt" />
+                                  </map>
+                                </attributes>
+                                <data iconPath="org/jetbrains/kotlin/idea/icons/expui/classKotlin.svg" iconPlugin="org.jetbrains.kotlin" isLeaf="true" text="FragmentAdapter" />
+                                <item name="FragmentAdapter" type="2c5a2ef7:KtClassOrObjectTreeNode" />
+                              </presentation>
+                              <presentation>
+                                <attributes>
+                                  <map>
+                                    <entry key="filePath" value="$PROJECT_DIR$/app/src/main/java/com/v2ray/ang/ui/MainActivity.kt" />
+                                  </map>
+                                </attributes>
+                                <data iconPath="org/jetbrains/kotlin/idea/icons/expui/classKotlin.svg" iconPlugin="org.jetbrains.kotlin" isLeaf="true" text="MainActivity" />
+                                <item name="MainActivity" type="2c5a2ef7:KtClassOrObjectTreeNode" />
+                              </presentation>
+                              <presentation>
+                                <attributes>
+                                  <map>
+                                    <entry key="filePath" value="$PROJECT_DIR$/app/src/main/java/com/v2ray/ang/ui/MainRecyclerAdapter.kt" />
+                                  </map>
+                                </attributes>
+                                <data iconPath="org/jetbrains/kotlin/idea/icons/expui/classKotlin.svg" iconPlugin="org.jetbrains.kotlin" isLeaf="true" text="MainRecyclerAdapter" />
+                                <item name="MainRecyclerAdapter" type="2c5a2ef7:KtClassOrObjectTreeNode" />
+                              </presentation>
+                              <presentation>
+                                <attributes>
+                                  <map>
+                                    <entry key="filePath" value="$PROJECT_DIR$/app/src/main/java/com/v2ray/ang/ui/PerAppProxyActivity.kt" />
+                                  </map>
+                                </attributes>
+                                <data iconPath="org/jetbrains/kotlin/idea/icons/expui/classKotlin.svg" iconPlugin="org.jetbrains.kotlin" isLeaf="true" text="PerAppProxyActivity" />
+                                <item name="PerAppProxyActivity" type="2c5a2ef7:KtClassOrObjectTreeNode" />
+                              </presentation>
+                              <presentation>
+                                <attributes>
+                                  <map>
+                                    <entry key="filePath" value="$PROJECT_DIR$/app/src/main/java/com/v2ray/ang/ui/PerAppProxyAdapter.kt" />
+                                  </map>
+                                </attributes>
+                                <data iconPath="org/jetbrains/kotlin/idea/icons/expui/classKotlin.svg" iconPlugin="org.jetbrains.kotlin" isLeaf="true" text="PerAppProxyAdapter" />
+                                <item name="PerAppProxyAdapter" type="2c5a2ef7:KtClassOrObjectTreeNode" />
+                              </presentation>
+                              <presentation>
+                                <attributes>
+                                  <map>
+                                    <entry key="filePath" value="$PROJECT_DIR$/app/src/main/java/com/v2ray/ang/ui/RoutingEditActivity.kt" />
+                                  </map>
+                                </attributes>
+                                <data iconPath="org/jetbrains/kotlin/idea/icons/expui/classKotlin.svg" iconPlugin="org.jetbrains.kotlin" isLeaf="true" text="RoutingEditActivity" />
+                                <item name="RoutingEditActivity" type="2c5a2ef7:KtClassOrObjectTreeNode" />
+                              </presentation>
+                              <presentation>
+                                <attributes>
+                                  <map>
+                                    <entry key="filePath" value="$PROJECT_DIR$/app/src/main/java/com/v2ray/ang/ui/RoutingSettingActivity.kt" />
+                                  </map>
+                                </attributes>
+                                <data iconPath="org/jetbrains/kotlin/idea/icons/expui/classKotlin.svg" iconPlugin="org.jetbrains.kotlin" isLeaf="true" text="RoutingSettingActivity" />
+                                <item name="RoutingSettingActivity" type="2c5a2ef7:KtClassOrObjectTreeNode" />
+                              </presentation>
+                              <presentation>
+                                <attributes>
+                                  <map>
+                                    <entry key="filePath" value="$PROJECT_DIR$/app/src/main/java/com/v2ray/ang/ui/RoutingSettingRecyclerAdapter.kt" />
+                                  </map>
+                                </attributes>
+                                <data iconPath="org/jetbrains/kotlin/idea/icons/expui/classKotlin.svg" iconPlugin="org.jetbrains.kotlin" isLeaf="true" text="RoutingSettingRecyclerAdapter" />
+                                <item name="RoutingSettingRecyclerAdapter" type="2c5a2ef7:KtClassOrObjectTreeNode" />
+                              </presentation>
+                              <presentation>
+                                <attributes>
+                                  <map>
+                                    <entry key="filePath" value="$PROJECT_DIR$/app/src/main/java/com/v2ray/ang/ui/ScannerActivity.kt" />
+                                  </map>
+                                </attributes>
+                                <data iconPath="org/jetbrains/kotlin/idea/icons/expui/classKotlin.svg" iconPlugin="org.jetbrains.kotlin" isLeaf="true" text="ScannerActivity" />
+                                <item name="ScannerActivity" type="2c5a2ef7:KtClassOrObjectTreeNode" />
+                              </presentation>
+                              <presentation>
+                                <attributes>
+                                  <map>
+                                    <entry key="filePath" value="$PROJECT_DIR$/app/src/main/java/com/v2ray/ang/ui/ScScannerActivity.kt" />
+                                  </map>
+                                </attributes>
+                                <data iconPath="org/jetbrains/kotlin/idea/icons/expui/classKotlin.svg" iconPlugin="org.jetbrains.kotlin" isLeaf="true" text="ScScannerActivity" />
+                                <item name="ScScannerActivity" type="2c5a2ef7:KtClassOrObjectTreeNode" />
+                              </presentation>
+                              <presentation>
+                                <attributes>
+                                  <map>
+                                    <entry key="filePath" value="$PROJECT_DIR$/app/src/main/java/com/v2ray/ang/ui/ScSwitchActivity.kt" />
+                                  </map>
+                                </attributes>
+                                <data iconPath="org/jetbrains/kotlin/idea/icons/expui/classKotlin.svg" iconPlugin="org.jetbrains.kotlin" isLeaf="true" text="ScSwitchActivity" />
+                                <item name="ScSwitchActivity" type="2c5a2ef7:KtClassOrObjectTreeNode" />
+                              </presentation>
+                              <presentation>
+                                <attributes>
+                                  <map>
+                                    <entry key="filePath" value="$PROJECT_DIR$/app/src/main/java/com/v2ray/ang/ui/ServerActivity.kt" />
+                                  </map>
+                                </attributes>
+                                <data iconPath="org/jetbrains/kotlin/idea/icons/expui/classKotlin.svg" iconPlugin="org.jetbrains.kotlin" isLeaf="true" text="ServerActivity" />
+                                <item name="ServerActivity" type="2c5a2ef7:KtClassOrObjectTreeNode" />
+                              </presentation>
+                              <presentation>
+                                <attributes>
+                                  <map>
+                                    <entry key="filePath" value="$PROJECT_DIR$/app/src/main/java/com/v2ray/ang/ui/ServerCustomConfigActivity.kt" />
+                                  </map>
+                                </attributes>
+                                <data iconPath="org/jetbrains/kotlin/idea/icons/expui/classKotlin.svg" iconPlugin="org.jetbrains.kotlin" isLeaf="true" text="ServerCustomConfigActivity" />
+                                <item name="ServerCustomConfigActivity" type="2c5a2ef7:KtClassOrObjectTreeNode" />
+                              </presentation>
+                              <presentation>
+                                <attributes>
+                                  <map>
+                                    <entry key="filePath" value="$PROJECT_DIR$/app/src/main/java/com/v2ray/ang/ui/SettingsActivity.kt" />
+                                  </map>
+                                </attributes>
+                                <data iconPath="org/jetbrains/kotlin/idea/icons/expui/classKotlin.svg" iconPlugin="org.jetbrains.kotlin" isLeaf="true" text="SettingsActivity" />
+                                <item name="SettingsActivity" type="2c5a2ef7:KtClassOrObjectTreeNode" />
+                              </presentation>
+                              <presentation>
+                                <attributes>
+                                  <map>
+                                    <entry key="filePath" value="$PROJECT_DIR$/app/src/main/java/com/v2ray/ang/ui/SubEditActivity.kt" />
+                                  </map>
+                                </attributes>
+                                <data iconPath="org/jetbrains/kotlin/idea/icons/expui/classKotlin.svg" iconPlugin="org.jetbrains.kotlin" isLeaf="true" text="SubEditActivity" />
+                                <item name="SubEditActivity" type="2c5a2ef7:KtClassOrObjectTreeNode" />
+                              </presentation>
+                              <presentation>
+                                <attributes>
+                                  <map>
+                                    <entry key="filePath" value="$PROJECT_DIR$/app/src/main/java/com/v2ray/ang/ui/SubSettingActivity.kt" />
+                                  </map>
+                                </attributes>
+                                <data iconPath="org/jetbrains/kotlin/idea/icons/expui/classKotlin.svg" iconPlugin="org.jetbrains.kotlin" isLeaf="true" text="SubSettingActivity" />
+                                <item name="SubSettingActivity" type="2c5a2ef7:KtClassOrObjectTreeNode" />
+                              </presentation>
+                              <presentation>
+                                <attributes>
+                                  <map>
+                                    <entry key="filePath" value="$PROJECT_DIR$/app/src/main/java/com/v2ray/ang/ui/SubSettingRecyclerAdapter.kt" />
+                                  </map>
+                                </attributes>
+                                <data iconPath="org/jetbrains/kotlin/idea/icons/expui/classKotlin.svg" iconPlugin="org.jetbrains.kotlin" isLeaf="true" text="SubSettingRecyclerAdapter" />
+                                <item name="SubSettingRecyclerAdapter" type="2c5a2ef7:KtClassOrObjectTreeNode" />
+                              </presentation>
+                              <presentation>
+                                <attributes>
+                                  <map>
+                                    <entry key="filePath" value="$PROJECT_DIR$/app/src/main/java/com/v2ray/ang/ui/TaskerActivity.kt" />
+                                  </map>
+                                </attributes>
+                                <data iconPath="org/jetbrains/kotlin/idea/icons/expui/classKotlin.svg" iconPlugin="org.jetbrains.kotlin" isLeaf="true" text="TaskerActivity" />
+                                <item name="TaskerActivity" type="2c5a2ef7:KtClassOrObjectTreeNode" />
+                              </presentation>
+                              <presentation>
+                                <attributes>
+                                  <map>
+                                    <entry key="filePath" value="$PROJECT_DIR$/app/src/main/java/com/v2ray/ang/ui/UrlSchemeActivity.kt" />
+                                  </map>
+                                </attributes>
+                                <data iconPath="org/jetbrains/kotlin/idea/icons/expui/classKotlin.svg" iconPlugin="org.jetbrains.kotlin" isLeaf="true" text="UrlSchemeActivity" />
+                                <item name="UrlSchemeActivity" type="2c5a2ef7:KtClassOrObjectTreeNode" />
+                              </presentation>
+                              <presentation>
+                                <attributes>
+                                  <map>
+                                    <entry key="filePath" value="$PROJECT_DIR$/app/src/main/java/com/v2ray/ang/ui/UserAssetActivity.kt" />
+                                  </map>
+                                </attributes>
+                                <data iconPath="org/jetbrains/kotlin/idea/icons/expui/classKotlin.svg" iconPlugin="org.jetbrains.kotlin" isLeaf="true" text="UserAssetActivity" />
+                                <item name="UserAssetActivity" type="2c5a2ef7:KtClassOrObjectTreeNode" />
+                              </presentation>
+                              <presentation>
+                                <attributes>
+                                  <map>
+                                    <entry key="filePath" value="$PROJECT_DIR$/app/src/main/java/com/v2ray/ang/ui/UserAssetUrlActivity.kt" />
+                                  </map>
+                                </attributes>
+                                <data iconPath="org/jetbrains/kotlin/idea/icons/expui/classKotlin.svg" iconPlugin="org.jetbrains.kotlin" isLeaf="true" text="UserAssetUrlActivity" />
+                                <item name="UserAssetUrlActivity" type="2c5a2ef7:KtClassOrObjectTreeNode" />
+                              </presentation>
+                            </presentation>
+                            <presentation>
+                              <attributes>
+                                <map>
+                                  <entry key="filePath" value="$PROJECT_DIR$/app/src/main/java/com/v2ray/ang/util" />
+                                </map>
+                              </attributes>
+                              <data iconPath="expui/nodes/package.svg" iconPlugin="com.intellij" isLeaf="false" text="util" />
+                              <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/java/com/v2ray/ang/util}" type="462c0819:PsiDirectoryNode" />
+                              <presentation>
+                                <attributes>
+                                  <map>
+                                    <entry key="filePath" value="$PROJECT_DIR$/app/src/main/java/com/v2ray/ang/util/AppManagerUtil.kt" />
+                                  </map>
+                                </attributes>
+                                <data iconPath="org/jetbrains/kotlin/idea/icons/expui/objectKotlin.svg" iconPlugin="org.jetbrains.kotlin" isLeaf="true" text="AppManagerUtil" />
+                                <item name="AppManagerUtil" type="2c5a2ef7:KtClassOrObjectTreeNode" />
+                              </presentation>
+                              <presentation>
+                                <attributes>
+                                  <map>
+                                    <entry key="filePath" value="$PROJECT_DIR$/app/src/main/java/com/v2ray/ang/util/HttpUtil.kt" />
+                                  </map>
+                                </attributes>
+                                <data iconPath="org/jetbrains/kotlin/idea/icons/expui/objectKotlin.svg" iconPlugin="org.jetbrains.kotlin" isLeaf="true" text="HttpUtil" />
+                                <item name="HttpUtil" type="2c5a2ef7:KtClassOrObjectTreeNode" />
+                              </presentation>
+                              <presentation>
+                                <attributes>
+                                  <map>
+                                    <entry key="filePath" value="$PROJECT_DIR$/app/src/main/java/com/v2ray/ang/util/JsonUtil.kt" />
+                                  </map>
+                                </attributes>
+                                <data iconPath="org/jetbrains/kotlin/idea/icons/expui/objectKotlin.svg" iconPlugin="org.jetbrains.kotlin" isLeaf="true" text="JsonUtil" />
+                                <item name="JsonUtil" type="2c5a2ef7:KtClassOrObjectTreeNode" />
+                              </presentation>
+                              <presentation>
+                                <attributes>
+                                  <map>
+                                    <entry key="filePath" value="$PROJECT_DIR$/app/src/main/java/com/v2ray/ang/util/MessageUtil.kt" />
+                                  </map>
+                                </attributes>
+                                <data iconPath="org/jetbrains/kotlin/idea/icons/expui/objectKotlin.svg" iconPlugin="org.jetbrains.kotlin" isLeaf="true" text="MessageUtil" />
+                                <item name="MessageUtil" type="2c5a2ef7:KtClassOrObjectTreeNode" />
+                              </presentation>
+                              <presentation>
+                                <attributes>
+                                  <map>
+                                    <entry key="filePath" value="$PROJECT_DIR$/app/src/main/java/com/v2ray/ang/util/MyContextWrapper.kt" />
+                                  </map>
+                                </attributes>
+                                <data iconPath="org/jetbrains/kotlin/idea/icons/expui/classKotlin.svg" iconPlugin="org.jetbrains.kotlin" isLeaf="true" text="MyContextWrapper" />
+                                <item name="MyContextWrapper" type="2c5a2ef7:KtClassOrObjectTreeNode" />
+                              </presentation>
+                              <presentation>
+                                <attributes>
+                                  <map>
+                                    <entry key="filePath" value="$PROJECT_DIR$/app/src/main/java/com/v2ray/ang/util/QRCodeDecoder.kt" />
+                                  </map>
+                                </attributes>
+                                <data iconPath="org/jetbrains/kotlin/idea/icons/expui/objectKotlin.svg" iconPlugin="org.jetbrains.kotlin" isLeaf="true" text="QRCodeDecoder" />
+                                <item name="QRCodeDecoder" type="2c5a2ef7:KtClassOrObjectTreeNode" />
+                              </presentation>
+                              <presentation>
+                                <attributes>
+                                  <map>
+                                    <entry key="filePath" value="$PROJECT_DIR$/app/src/main/java/com/v2ray/ang/util/Utils.kt" />
+                                  </map>
+                                </attributes>
+                                <data iconPath="org/jetbrains/kotlin/idea/icons/expui/objectKotlin.svg" iconPlugin="org.jetbrains.kotlin" isLeaf="true" text="Utils" />
+                                <item name="Utils" type="2c5a2ef7:KtClassOrObjectTreeNode" />
+                              </presentation>
+                              <presentation>
+                                <attributes>
+                                  <map>
+                                    <entry key="filePath" value="$PROJECT_DIR$/app/src/main/java/com/v2ray/ang/util/ZipUtil.kt" />
+                                  </map>
+                                </attributes>
+                                <data iconPath="org/jetbrains/kotlin/idea/icons/expui/objectKotlin.svg" iconPlugin="org.jetbrains.kotlin" isLeaf="true" text="ZipUtil" />
+                                <item name="ZipUtil" type="2c5a2ef7:KtClassOrObjectTreeNode" />
+                              </presentation>
+                            </presentation>
+                            <presentation>
+                              <attributes>
+                                <map>
+                                  <entry key="filePath" value="$PROJECT_DIR$/app/src/main/java/com/v2ray/ang/viewmodel" />
+                                </map>
+                              </attributes>
+                              <data iconPath="expui/nodes/package.svg" iconPlugin="com.intellij" isLeaf="false" text="viewmodel" />
+                              <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/java/com/v2ray/ang/viewmodel}" type="462c0819:PsiDirectoryNode" />
+                              <presentation>
+                                <attributes>
+                                  <map>
+                                    <entry key="filePath" value="$PROJECT_DIR$/app/src/main/java/com/v2ray/ang/viewmodel/MainViewModel.kt" />
+                                  </map>
+                                </attributes>
+                                <data iconPath="org/jetbrains/kotlin/idea/icons/expui/classKotlin.svg" iconPlugin="org.jetbrains.kotlin" isLeaf="true" text="MainViewModel" />
+                                <item name="MainViewModel" type="2c5a2ef7:KtClassOrObjectTreeNode" />
+                              </presentation>
+                              <presentation>
+                                <attributes>
+                                  <map>
+                                    <entry key="filePath" value="$PROJECT_DIR$/app/src/main/java/com/v2ray/ang/viewmodel/SettingsViewModel.kt" />
+                                  </map>
+                                </attributes>
+                                <data iconPath="org/jetbrains/kotlin/idea/icons/expui/classKotlin.svg" iconPlugin="org.jetbrains.kotlin" isLeaf="true" text="SettingsViewModel" />
+                                <item name="SettingsViewModel" type="2c5a2ef7:KtClassOrObjectTreeNode" />
+                              </presentation>
+                            </presentation>
+                            <presentation>
+                              <attributes>
+                                <map>
+                                  <entry key="filePath" value="$PROJECT_DIR$/app/src/main/java/com/v2ray/ang/AngApplication.kt" />
+                                </map>
+                              </attributes>
+                              <data iconPath="org/jetbrains/kotlin/idea/icons/expui/classKotlin.svg" iconPlugin="org.jetbrains.kotlin" isLeaf="true" text="AngApplication" />
+                              <item name="AngApplication" type="2c5a2ef7:KtClassOrObjectTreeNode" />
+                            </presentation>
+                            <presentation>
+                              <attributes>
+                                <map>
+                                  <entry key="filePath" value="$PROJECT_DIR$/app/src/main/java/com/v2ray/ang/AppConfig.kt" />
+                                </map>
+                              </attributes>
+                              <data iconPath="org/jetbrains/kotlin/idea/icons/expui/objectKotlin.svg" iconPlugin="org.jetbrains.kotlin" isLeaf="true" text="AppConfig" />
+                              <item name="AppConfig" type="2c5a2ef7:KtClassOrObjectTreeNode" />
+                            </presentation>
+                          </presentation>
+                        </presentation>
+                      </presentation>
+                    </presentation>
+                    <presentation>
+                      <attributes>
+                        <map>
+                          <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res" />
+                        </map>
+                      </attributes>
+                      <data iconPath="expui/nodes/resourcesRoot.svg" iconPlugin="com.intellij" isLeaf="false" text="res" />
+                      <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/res}" type="462c0819:PsiDirectoryNode" />
+                      <presentation>
+                        <attributes>
+                          <map>
+                            <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/color" />
+                          </map>
+                        </attributes>
+                        <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="color" />
+                        <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/res/color}" type="462c0819:PsiDirectoryNode" />
+                      </presentation>
+                      <presentation>
+                        <attributes>
+                          <map>
+                            <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable" />
+                          </map>
+                        </attributes>
+                        <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="drawable" />
+                        <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/res/drawable}" type="462c0819:PsiDirectoryNode" />
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable/custom_divider.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="custom_divider.xml" />
+                          <item name="custom_divider.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable/ic_about_24dp.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="ic_about_24dp.xml" />
+                          <item name="ic_about_24dp.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable/ic_action_done.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="ic_action_done.xml" />
+                          <item name="ic_action_done.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable/ic_add_24dp.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="ic_add_24dp.xml" />
+                          <item name="ic_add_24dp.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable/ic_backup_24dp.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="ic_backup_24dp.xml" />
+                          <item name="ic_backup_24dp.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable/ic_check_update_24dp.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="ic_check_update_24dp.xml" />
+                          <item name="ic_check_update_24dp.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable/ic_circle.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="ic_circle.xml" />
+                          <item name="ic_circle.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable/ic_cloud_download_24dp.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="ic_cloud_download_24dp.xml" />
+                          <item name="ic_cloud_download_24dp.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable/ic_copy.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="ic_copy.xml" />
+                          <item name="ic_copy.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable/ic_delete_24dp.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="ic_delete_24dp.xml" />
+                          <item name="ic_delete_24dp.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable/ic_description_24dp.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="ic_description_24dp.xml" />
+                          <item name="ic_description_24dp.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable/ic_edit_24dp.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="ic_edit_24dp.xml" />
+                          <item name="ic_edit_24dp.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable/ic_fab_check.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="ic_fab_check.xml" />
+                          <item name="ic_fab_check.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable/ic_feedback_24dp.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="ic_feedback_24dp.xml" />
+                          <item name="ic_feedback_24dp.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable/ic_file_24dp.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="ic_file_24dp.xml" />
+                          <item name="ic_file_24dp.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable/ic_image_24dp.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="ic_image_24dp.xml" />
+                          <item name="ic_image_24dp.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable/ic_lock_24dp.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="ic_lock_24dp.xml" />
+                          <item name="ic_lock_24dp.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable/ic_logcat_24dp.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="ic_logcat_24dp.xml" />
+                          <item name="ic_logcat_24dp.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable/ic_more_vert_24dp.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="ic_more_vert_24dp.xml" />
+                          <item name="ic_more_vert_24dp.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable/ic_outline_filter_alt_24.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="ic_outline_filter_alt_24.xml" />
+                          <item name="ic_outline_filter_alt_24.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable/ic_per_apps_24dp.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="ic_per_apps_24dp.xml" />
+                          <item name="ic_per_apps_24dp.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable/ic_play_24dp.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="ic_play_24dp.xml" />
+                          <item name="ic_play_24dp.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable/ic_privacy_24dp.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="ic_privacy_24dp.xml" />
+                          <item name="ic_privacy_24dp.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable/ic_promotion_24dp.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="ic_promotion_24dp.xml" />
+                          <item name="ic_promotion_24dp.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable/ic_qu_scan_24dp.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="ic_qu_scan_24dp.xml" />
+                          <item name="ic_qu_scan_24dp.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable/ic_qu_switch_24dp.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="ic_qu_switch_24dp.xml" />
+                          <item name="ic_qu_switch_24dp.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable/ic_restore_24dp.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="ic_restore_24dp.xml" />
+                          <item name="ic_restore_24dp.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable/ic_rounded_corner_active.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="ic_rounded_corner_active.xml" />
+                          <item name="ic_rounded_corner_active.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable/ic_rounded_corner_inactive.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="ic_rounded_corner_inactive.xml" />
+                          <item name="ic_rounded_corner_inactive.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable/ic_routing_24dp.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="ic_routing_24dp.xml" />
+                          <item name="ic_routing_24dp.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable/ic_save_24dp.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="ic_save_24dp.xml" />
+                          <item name="ic_save_24dp.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable/ic_scan_24dp.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="ic_scan_24dp.xml" />
+                          <item name="ic_scan_24dp.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable/ic_search_outlined.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="ic_search_outlined.xml" />
+                          <item name="ic_search_outlined.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable/ic_select_all_24dp.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="ic_select_all_24dp.xml" />
+                          <item name="ic_select_all_24dp.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable/ic_settings_24dp.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="ic_settings_24dp.xml" />
+                          <item name="ic_settings_24dp.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable/ic_share_24dp.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="ic_share_24dp.xml" />
+                          <item name="ic_share_24dp.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable/ic_source_code_24dp.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="ic_source_code_24dp.xml" />
+                          <item name="ic_source_code_24dp.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable/ic_stop_24dp.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="ic_stop_24dp.xml" />
+                          <item name="ic_stop_24dp.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable/ic_subscriptions_24dp.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="ic_subscriptions_24dp.xml" />
+                          <item name="ic_subscriptions_24dp.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable/ic_telegram_24dp.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="ic_telegram_24dp.xml" />
+                          <item name="ic_telegram_24dp.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable/ic_update.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="ic_update.xml" />
+                          <item name="ic_update.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable/license_24px.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="license_24px.xml" />
+                          <item name="license_24px.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable/nav_header_bg.png" />
+                            </map>
+                          </attributes>
+                          <data iconPath="fileTypes/image.svg" iconPlugin="com.intellij" isLeaf="true" text="nav_header_bg.png" />
+                          <item name="nav_header_bg.png" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                      </presentation>
+                      <presentation>
+                        <attributes>
+                          <map>
+                            <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable-hdpi" />
+                          </map>
+                        </attributes>
+                        <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="drawable-hdpi" />
+                        <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/res/drawable-hdpi}" type="462c0819:PsiDirectoryNode" />
+                      </presentation>
+                      <presentation>
+                        <attributes>
+                          <map>
+                            <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable-mdpi" />
+                          </map>
+                        </attributes>
+                        <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="drawable-mdpi" />
+                        <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/res/drawable-mdpi}" type="462c0819:PsiDirectoryNode" />
+                      </presentation>
+                      <presentation>
+                        <attributes>
+                          <map>
+                            <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable-night" />
+                          </map>
+                        </attributes>
+                        <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="drawable-night" />
+                        <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/res/drawable-night}" type="462c0819:PsiDirectoryNode" />
+                      </presentation>
+                      <presentation>
+                        <attributes>
+                          <map>
+                            <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi" />
+                          </map>
+                        </attributes>
+                        <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="drawable-xhdpi" />
+                        <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/res/drawable-xhdpi}" type="462c0819:PsiDirectoryNode" />
+                      </presentation>
+                      <presentation>
+                        <attributes>
+                          <map>
+                            <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi" />
+                          </map>
+                        </attributes>
+                        <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="drawable-xxhdpi" />
+                        <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/res/drawable-xxhdpi}" type="462c0819:PsiDirectoryNode" />
+                      </presentation>
+                      <presentation>
+                        <attributes>
+                          <map>
+                            <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi" />
+                          </map>
+                        </attributes>
+                        <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="drawable-xxxhdpi" />
+                        <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/res/drawable-xxxhdpi}" type="462c0819:PsiDirectoryNode" />
+                      </presentation>
+                      <presentation>
+                        <attributes>
+                          <map>
+                            <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/font" />
+                          </map>
+                        </attributes>
+                        <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="font" />
+                        <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/res/font}" type="462c0819:PsiDirectoryNode" />
+                      </presentation>
+                      <presentation>
+                        <attributes>
+                          <map>
+                            <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/layout" />
+                          </map>
+                        </attributes>
+                        <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="layout" />
+                        <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/res/layout}" type="462c0819:PsiDirectoryNode" />
+                      </presentation>
+                      <presentation>
+                        <attributes>
+                          <map>
+                            <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/menu" />
+                          </map>
+                        </attributes>
+                        <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="menu" />
+                        <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/res/menu}" type="462c0819:PsiDirectoryNode" />
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/menu/action_server.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="action_server.xml" />
+                          <item name="action_server.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/menu/action_sub_setting.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="action_sub_setting.xml" />
+                          <item name="action_sub_setting.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/menu/menu_asset.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="menu_asset.xml" />
+                          <item name="menu_asset.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/menu/menu_bypass_list.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="menu_bypass_list.xml" />
+                          <item name="menu_bypass_list.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/menu/menu_drawer.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="menu_drawer.xml" />
+                          <item name="menu_drawer.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/menu/menu_logcat.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="menu_logcat.xml" />
+                          <item name="menu_logcat.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/menu/menu_main.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="menu_main.xml" />
+                          <item name="menu_main.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/menu/menu_routing_setting.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="menu_routing_setting.xml" />
+                          <item name="menu_routing_setting.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/menu/menu_scanner.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="menu_scanner.xml" />
+                          <item name="menu_scanner.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                      </presentation>
+                      <presentation>
+                        <attributes>
+                          <map>
+                            <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26" />
+                          </map>
+                        </attributes>
+                        <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="mipmap-anydpi-v26" />
+                        <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/res/mipmap-anydpi-v26}" type="462c0819:PsiDirectoryNode" />
+                      </presentation>
+                      <presentation>
+                        <attributes>
+                          <map>
+                            <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi" />
+                          </map>
+                        </attributes>
+                        <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="mipmap-hdpi" />
+                        <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/res/mipmap-hdpi}" type="462c0819:PsiDirectoryNode" />
+                      </presentation>
+                      <presentation>
+                        <attributes>
+                          <map>
+                            <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi" />
+                          </map>
+                        </attributes>
+                        <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="mipmap-mdpi" />
+                        <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/res/mipmap-mdpi}" type="462c0819:PsiDirectoryNode" />
+                      </presentation>
+                      <presentation>
+                        <attributes>
+                          <map>
+                            <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi" />
+                          </map>
+                        </attributes>
+                        <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="mipmap-xhdpi" />
+                        <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/res/mipmap-xhdpi}" type="462c0819:PsiDirectoryNode" />
+                      </presentation>
+                      <presentation>
+                        <attributes>
+                          <map>
+                            <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi" />
+                          </map>
+                        </attributes>
+                        <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="mipmap-xxhdpi" />
+                        <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/res/mipmap-xxhdpi}" type="462c0819:PsiDirectoryNode" />
+                      </presentation>
+                      <presentation>
+                        <attributes>
+                          <map>
+                            <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi" />
+                          </map>
+                        </attributes>
+                        <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="mipmap-xxxhdpi" />
+                        <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/res/mipmap-xxxhdpi}" type="462c0819:PsiDirectoryNode" />
+                      </presentation>
+                      <presentation>
+                        <attributes>
+                          <map>
+                            <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/raw" />
+                          </map>
+                        </attributes>
+                        <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="raw" />
+                        <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/res/raw}" type="462c0819:PsiDirectoryNode" />
+                      </presentation>
+                      <presentation>
+                        <attributes>
+                          <map>
+                            <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/values" />
+                          </map>
+                        </attributes>
+                        <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="values" />
+                        <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/res/values}" type="462c0819:PsiDirectoryNode" />
+                      </presentation>
+                      <presentation>
+                        <attributes>
+                          <map>
+                            <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/values-ar" />
+                          </map>
+                        </attributes>
+                        <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="values-ar" />
+                        <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/res/values-ar}" type="462c0819:PsiDirectoryNode" />
+                      </presentation>
+                      <presentation>
+                        <attributes>
+                          <map>
+                            <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/values-bn" />
+                          </map>
+                        </attributes>
+                        <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="values-bn" />
+                        <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/res/values-bn}" type="462c0819:PsiDirectoryNode" />
+                      </presentation>
+                      <presentation>
+                        <attributes>
+                          <map>
+                            <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/values-bqi-rIR" />
+                          </map>
+                        </attributes>
+                        <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="values-bqi-rIR" />
+                        <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/res/values-bqi-rIR}" type="462c0819:PsiDirectoryNode" />
+                      </presentation>
+                      <presentation>
+                        <attributes>
+                          <map>
+                            <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/values-fa" />
+                          </map>
+                        </attributes>
+                        <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="values-fa" />
+                        <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/res/values-fa}" type="462c0819:PsiDirectoryNode" />
+                      </presentation>
+                      <presentation>
+                        <attributes>
+                          <map>
+                            <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/values-night" />
+                          </map>
+                        </attributes>
+                        <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="values-night" />
+                        <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/res/values-night}" type="462c0819:PsiDirectoryNode" />
+                      </presentation>
+                      <presentation>
+                        <attributes>
+                          <map>
+                            <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/values-ru" />
+                          </map>
+                        </attributes>
+                        <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="values-ru" />
+                        <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/res/values-ru}" type="462c0819:PsiDirectoryNode" />
+                      </presentation>
+                      <presentation>
+                        <attributes>
+                          <map>
+                            <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/values-sw360dp-v13" />
+                          </map>
+                        </attributes>
+                        <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="values-sw360dp-v13" />
+                        <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/res/values-sw360dp-v13}" type="462c0819:PsiDirectoryNode" />
+                      </presentation>
+                      <presentation>
+                        <attributes>
+                          <map>
+                            <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/values-vi" />
+                          </map>
+                        </attributes>
+                        <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="values-vi" />
+                        <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/res/values-vi}" type="462c0819:PsiDirectoryNode" />
+                      </presentation>
+                      <presentation>
+                        <attributes>
+                          <map>
+                            <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/values-zh-rCN" />
+                          </map>
+                        </attributes>
+                        <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="values-zh-rCN" />
+                        <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/res/values-zh-rCN}" type="462c0819:PsiDirectoryNode" />
+                      </presentation>
+                      <presentation>
+                        <attributes>
+                          <map>
+                            <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/values-zh-rTW" />
+                          </map>
+                        </attributes>
+                        <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="values-zh-rTW" />
+                        <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/res/values-zh-rTW}" type="462c0819:PsiDirectoryNode" />
+                      </presentation>
+                      <presentation>
+                        <attributes>
+                          <map>
+                            <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/xml" />
+                          </map>
+                        </attributes>
+                        <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="xml" />
+                        <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/res/xml}" type="462c0819:PsiDirectoryNode" />
+                      </presentation>
+                    </presentation>
+                    <presentation>
+                      <attributes>
+                        <map>
+                          <entry key="filePath" value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+                        </map>
+                      </attributes>
+                      <data iconPath="studio/icons/shell/filetree/manifest-file.svg" iconPlugin="org.jetbrains.android" isLeaf="true" text="AndroidManifest.xml" />
+                      <item name="AndroidManifest.xml" type="ab9368bb:PsiFileNode" />
+                    </presentation>
+                    <presentation>
+                      <attributes>
+                        <map>
+                          <entry key="filePath" value="$PROJECT_DIR$/app/src/main/ic_launcher-web.png" />
+                        </map>
+                      </attributes>
+                      <data iconPath="fileTypes/image.svg" iconPlugin="com.intellij" isLeaf="true" text="ic_launcher-web.png" />
+                      <item name="ic_launcher-web.png" type="ab9368bb:PsiFileNode" />
+                    </presentation>
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/app/src/test" />
+                      </map>
+                    </attributes>
+                    <data iconPath="expui/nodes/module.svg" iconPlugin="com.intellij" isLeaf="false" text="test" />
+                    <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/test}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+                  </presentation>
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/app/build.gradle.kts" />
+                    </map>
+                  </attributes>
+                  <data iconPath="org/jetbrains/kotlin/idea/icons/expui/kotlinGradleScript.svg" iconPlugin="org.jetbrains.kotlin" isLeaf="true" text="build.gradle.kts" />
+                  <item name="build.gradle.kts" type="24436e51:KtFileTreeNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/app/proguard-rules.pro" />
+                    </map>
+                  </attributes>
+                  <data iconPath="expui/fileTypes/text.svg" iconPlugin="com.intellij" isLeaf="true" text="proguard-rules.pro" />
+                  <item name="proguard-rules.pro" type="ab9368bb:PsiFileNode" />
+                </presentation>
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/gradle" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="gradle" />
+                <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/gradle}" type="462c0819:PsiDirectoryNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/build.gradle.kts" />
+                  </map>
+                </attributes>
+                <data iconPath="org/jetbrains/kotlin/idea/icons/expui/kotlinGradleScript.svg" iconPlugin="org.jetbrains.kotlin" isLeaf="true" text="build.gradle.kts" />
+                <item name="build.gradle.kts" type="24436e51:KtFileTreeNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/gradle.properties" />
+                  </map>
+                </attributes>
+                <data iconPath="fileTypes/properties.svg" iconPlugin="com.intellij" isLeaf="true" text="gradle.properties" />
+                <item name="gradle.properties" type="ab9368bb:PsiFileNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/gradlew" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/fileTypes/unknown.svg" iconPlugin="com.intellij" isLeaf="true" text="gradlew" />
+                <item name="gradlew" type="ab9368bb:PsiFileNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/gradlew.bat" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/fileTypes/unknown.svg" iconPlugin="com.intellij" isLeaf="true" text="gradlew.bat" />
+                <item name="gradlew.bat" type="ab9368bb:PsiFileNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/local.properties" />
+                  </map>
+                </attributes>
+                <data iconPath="fileTypes/properties.svg" iconPlugin="com.intellij" isLeaf="true" text="local.properties" />
+                <item name="local.properties" type="ab9368bb:PsiFileNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/settings.gradle.kts" />
+                  </map>
+                </attributes>
+                <data iconPath="org/jetbrains/kotlin/idea/icons/expui/kotlinGradleScript.svg" iconPlugin="org.jetbrains.kotlin" isLeaf="true" text="settings.gradle.kts" />
+                <item name="settings.gradle.kts" type="24436e51:KtFileTreeNode" />
+              </presentation>
+            </presentation>
+            <presentation>
+              <attributes />
+              <data iconPath="nodes/ppLib.svg" iconPlugin="com.intellij" isLeaf="false" text="External Libraries" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </presentation>
+          </presentation>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+    </panes>
+  </component>
+  <component name="ReaderModeSettings">
+    <option name="enableVisualFormatting" value="false" />
+  </component>
+  <component name="RunConfigurationStartHistory">
+    <history>
+      <element setting="Android App.app" />
+    </history>
+  </component>
+  <component name="SplittingTabsState">
+    <tool-windows>
+      <tool-window id="Logcat" selected-tab="0">
+        <tabs>
+          <tab name="Logcat">
+            <content>
+              <panel>{'device':{'physicalDevice':{'serialNumber':'adb-144002558C005280-isNWce._adb-tls-connect._tcp','isOnline':false,'release':'15','apiLevel':{'majorVersion':35,'minorVersion':0},'featureLevel':35,'manufacturer':'TECNO','model':'TECNO LJ7','type':'HANDHELD'}},'formattingConfig':{'preset':'STANDARD'},'filter':'package:mine ','filterMatchCase':false,'isSoftWrap':false}</panel>
+            </content>
+          </tab>
+        </tabs>
+      </tool-window>
+    </tool-windows>
+  </component>
+  <component name="ToolWindowManager">
+    <layoutV2>
+      <window_info id="Bookmarks" show_stripe_button="false" side_tool="true" />
+      <window_info id="Backup and Sync History" show_stripe_button="false" />
+      <window_info id="Pull Requests" show_stripe_button="false" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22015707" />
+      <window_info id="Commit" order="1" weight="0.22015707" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info id="Resources Explorer" order="3" />
+      <window_info id="Build Variants" order="4" side_tool="true" weight="0.22015707" />
+      <window_info anchor="bottom" id="TODO" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Find" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="0" />
+      <window_info anchor="bottom" id="Problems" order="1" />
+      <window_info anchor="bottom" id="Problems View" order="2" weight="0.33029723" />
+      <window_info anchor="bottom" id="Terminal" order="3" />
+      <window_info anchor="bottom" id="Services" order="4" />
+      <window_info anchor="bottom" id="Android Profiler" order="5" />
+      <window_info anchor="bottom" id="App Inspection" order="6" />
+      <window_info active="true" anchor="bottom" x="5" y="32" width="1910" height="1043" id="Logcat" order="7" type="WINDOWED" weight="0.33029723" />
+      <window_info active="true" anchor="bottom" id="Build" order="8" visible="true" weight="0.33029723" />
+      <window_info anchor="bottom" id="Run" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Debug" order="10" />
+      <window_info anchor="right" id="documentation.v2" show_stripe_button="false" side_tool="true" />
+      <window_info anchor="right" id="Coverage" show_stripe_button="false" side_tool="true" />
+      <window_info anchor="right" id="Layout Validation" show_stripe_button="false" />
+      <window_info anchor="right" id="Desktop Preview" show_stripe_button="false" />
+      <window_info anchor="right" content_ui="combo" id="Notifications" order="0" weight="0.25" />
+      <window_info anchor="right" id="AIAssistant" order="1" weight="0.25" />
+      <window_info anchor="right" id="Database" order="2" weight="0.25" />
+      <window_info anchor="right" id="Gradle" order="3" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="4" weight="0.25" />
+      <window_info anchor="right" id="Running Devices" order="5" side_tool="true" />
+      <window_info anchor="right" id="Device Explorer" order="6" side_tool="true" />
+      <window_info anchor="right" id="Device Manager 2" order="7" />
+      <unified_weights bottom="0.33029723" left="0.22015707" />
+    </layoutV2>
+    <recentWindows>
+      <value>Project</value>
+      <value>Build</value>
+      <value>Commit</value>
+      <value>Build Variants</value>
+      <value>Logcat</value>
+      <value>Problems View</value>
+    </recentWindows>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="448" y="146" key="#Project_Structure" timestamp="1763880007247">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="448" y="146" key="#Project_Structure/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1763880007247" />
+    <state x="560" y="230" width="901" height="647" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1763898071011">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="560" y="230" width="901" height="647" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1763898071011" />
+    <state x="585" y="291" width="750" height="525" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1763888525449">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="585" y="291" width="750" height="525" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1763888525449" />
+    <state x="748" y="326" key="FileChooserDialogImpl" timestamp="1763899823460">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="748" y="326" key="FileChooserDialogImpl/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1763899823460" />
+    <state x="560" y="304" key="Vcs.Push.Dialog.v2" timestamp="1763899780195">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="560" y="304" key="Vcs.Push.Dialog.v2/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1763899780195" />
+    <state x="963" y="32" width="952" height="1043" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1763879902106">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="963" y="32" width="952" height="1043" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1763879902106" />
+    <state x="623" y="256" width="1057" height="722" key="search.everywhere.popup" timestamp="1763900864026">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="623" y="256" width="1057" height="722" key="search.everywhere.popup/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1763900864026" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/v2ray/ang/ui/PerAppProxyActivity.kt">
+      <provider selected="true" editor-type-id="android-source-code">
+        <state>
+          <editor-state relative-caret-position="246">
+            <caret line="13" column="29" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
+            <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+            <folding>
+              <element signature="e#1394#1436#0" expanded="true" />
+              <element signature="e#2209#2244#1" expanded="true" />
+              <element signature="e#6434#6466#1" expanded="true" />
+              <element signature="e#7022#7044#1" expanded="true" />
+              <element signature="e#7321#7343#1" expanded="true" />
+              <element signature="e#7645#7667#1" expanded="true" />
+            </folding>
+          </editor-state>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/v2ray/ang/ui/MainRecyclerAdapter.kt">
+      <provider selected="true" editor-type-id="android-source-code">
+        <state>
+          <editor-state relative-caret-position="316">
+            <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+            <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+            <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+            <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
+            <folding>
+              <element signature="e#9072#9094#1" expanded="true" />
+              <element signature="e#9146#9168#1" expanded="true" />
+              <element signature="e#9622#9644#1" expanded="true" />
+              <element signature="e#9712#9734#1" expanded="true" />
+              <element signature="e#10981#11008#1" expanded="true" />
+              <element signature="e#11448#11481#1" expanded="true" />
+            </folding>
+          </editor-state>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/v2ray/ang/receiver/WidgetProvider.kt">
+      <provider selected="true" editor-type-id="android-source-code">
+        <state>
+          <editor-state relative-caret-position="211">
+            <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
+          </editor-state>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/v2ray/ang/handler/SubscriptionUpdater.kt">
+      <provider selected="true" editor-type-id="android-source-code">
+        <state>
+          <editor-state relative-caret-position="211">
+            <caret line="13" column="29" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
+            <folding>
+              <element signature="e#926#989#1" expanded="true" />
+            </folding>
+          </editor-state>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/v2ray/ang/service/V2RayVpnService.kt">
+      <provider selected="true" editor-type-id="android-source-code">
+        <state>
+          <editor-state relative-caret-position="211">
+            <caret line="19" column="29" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
+          </editor-state>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/v2ray/ang/service/QSTileService.kt">
+      <provider selected="true" editor-type-id="android-source-code">
+        <state>
+          <editor-state relative-caret-position="211">
+            <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+            <folding>
+              <element signature="e#1053#1081#0" expanded="true" />
+            </folding>
+          </editor-state>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/v2ray/ang/handler/V2RayServiceManager.kt">
+      <provider selected="true" editor-type-id="android-source-code">
+        <state>
+          <editor-state relative-caret-position="211">
+            <caret line="21" column="13" lean-forward="true" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+            <folding>
+              <element signature="e#1880#1907#1" expanded="true" />
+              <element signature="e#2573#2601#1" expanded="true" />
+              <element signature="e#3904#3950#1" expanded="true" />
+              <element signature="e#3995#4024#1" expanded="true" />
+              <element signature="e#9358#9417#0" expanded="true" />
+              <element signature="e#9455#9514#0" expanded="true" />
+            </folding>
+          </editor-state>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/v2ray/ang/ui/ScannerActivity.kt">
+      <provider selected="true" editor-type-id="android-source-code">
+        <state>
+          <editor-state relative-caret-position="465">
+            <caret line="58" column="20" lean-forward="true" selection-start-line="58" selection-start-column="20" selection-end-line="58" selection-end-column="20" />
+            <folding>
+              <element signature="e#26#715#0" expanded="true" />
+              <element signature="e#1377#1407#1" expanded="true" />
+              <element signature="e#1624#1654#1" expanded="true" />
+              <element signature="e#1962#1994#1" expanded="true" />
+              <element signature="e#4164#4202#1" expanded="true" />
+              <element signature="e#4397#4432#1" expanded="true" />
+            </folding>
+          </editor-state>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/xml/pref_settings.xml">
+      <provider selected="true" editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values-ru/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1145">
+          <caret line="28" column="18" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.appcompat/appcompat/1.7.1/91fc2664fc6ba15f6c431072b24c2133f601383/appcompat-1.7.1-sources.jar!/androidx/appcompat/app/AlertDialog.java">
+      <provider selected="true" editor-type-id="android-source-code">
+        <state>
+          <editor-state relative-caret-position="325">
+            <caret line="143" column="16" selection-start-line="143" selection-start-column="16" selection-end-line="143" selection-end-column="16" />
+          </editor-state>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/menu_logcat.xml">
+      <provider selected="true" editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/v2ray/ang/handler/PluginServiceManager.kt">
+      <provider selected="true" editor-type-id="android-source-code">
+        <state>
+          <editor-state relative-caret-position="430">
+            <caret line="70" lean-forward="true" selection-start-line="70" selection-end-line="70" />
+          </editor-state>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mrboomdev/v2rayng2/utils/ColorUtils.kt">
+      <provider selected="true" editor-type-id="android-source-code">
+        <state>
+          <editor-state relative-caret-position="630">
+            <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+            <folding>
+              <element signature="e#38#285#0" expanded="true" />
+            </folding>
+          </editor-state>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/v2ray/ang/util/UiUtils.kt" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mrboomdev/v2rayng2/PingTester.kt" />
+    <entry file="jar://$USER_HOME$/AndroidSDK/platforms/android-35/android.jar!/android/content/Context.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="466" column="34" selection-start-line="466" selection-start-column="34" selection-end-line="466" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mrboomdev/v2rayng2/DelayTester.kt" />
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-viewmodel-android/2.9.4/30e204279e6cc8023e11e95240264ffca9a7cede/lifecycle-viewmodel-android-2.9.4-sources.jar!/androidMain/androidx/lifecycle/AndroidViewModel.android.kt">
+      <provider selected="true" editor-type-id="android-source-code">
+        <state>
+          <editor-state relative-caret-position="378">
+            <caret line="28" column="38" selection-start-line="28" selection-start-column="38" selection-end-line="28" selection-end-column="38" />
+          </editor-state>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml" preview="true">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="280" column="44" selection-start-line="280" selection-start-column="18" selection-end-line="280" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/menu_main.xml">
+      <provider selected="true" editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/v2ray/ang/util/MessageUtil.kt">
+      <provider selected="true" editor-type-id="android-source-code">
+        <state>
+          <editor-state relative-caret-position="535">
+            <caret line="48" column="25" selection-start-line="48" selection-start-column="25" selection-end-line="48" selection-end-column="25" />
+          </editor-state>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/v2ray/ang/handler/AngConfigManager.kt">
+      <provider selected="true" editor-type-id="android-source-code">
+        <state>
+          <editor-state relative-caret-position="1585">
+            <caret line="431" selection-start-line="431" selection-end-line="431" />
+            <folding>
+              <element signature="e#31#810#0" expanded="true" />
+              <element signature="e#10430#10463#0" expanded="true" />
+              <element signature="e#11392#11416#0" expanded="true" />
+              <element signature="e#12382#12415#0" expanded="true" />
+            </folding>
+          </editor-state>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/9.0.0/transforms/b92586e154cf5b6242a0cd32f9dc956c/transformed/mmkv-static-1.3.14/jars/classes.jar!/com/tencent/mmkv/MMKV.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16506">
+          <caret line="515" column="18" selection-start-line="515" selection-start-column="18" selection-end-line="515" selection-end-column="18" />
+          <folding>
+            <element signature="e#19890#19891#0" expanded="true" />
+            <element signature="e#19968#19969#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/v2ray/ang/handler/MmkvManager.kt">
+      <provider selected="true" editor-type-id="android-source-code">
+        <state>
+          <editor-state relative-caret-position="465">
+            <caret line="93" column="41" lean-forward="true" selection-start-line="93" selection-start-column="41" selection-end-line="93" selection-end-column="41" />
+          </editor-state>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/9.0.0/transforms/93500f21ef0091112e0c8d32c570bac5/transformed/libv2ray/jars/classes.jar!/libv2ray/Libv2ray.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="22" column="30" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/v2ray/ang/handler/SpeedtestManager.kt">
+      <provider selected="true" editor-type-id="android-source-code">
+        <state>
+          <editor-state relative-caret-position="395">
+            <caret line="53" column="33" lean-forward="true" selection-start-line="53" selection-start-column="33" selection-end-line="53" selection-end-column="33" />
+            <folding>
+              <element signature="e#31#590#0" expanded="true" />
+              <element signature="e#5113#5175#0" expanded="true" />
+              <element signature="e#5252#5389#1" expanded="true" />
+              <element signature="e#5545#5605#0" expanded="true" />
+              <element signature="e#5725#5785#0" expanded="true" />
+            </folding>
+          </editor-state>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gradle/libs.versions.toml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="55" column="118" selection-start-line="55" selection-start-column="118" selection-end-line="55" selection-end-column="118" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/v2ray/ang/AngApplication.kt">
+      <provider selected="true" editor-type-id="android-source-code">
+        <state>
+          <editor-state relative-caret-position="105">
+            <caret line="3" column="30" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
+          </editor-state>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/v2ray/ang/service/V2RayTestService.kt">
+      <provider selected="true" editor-type-id="android-source-code">
+        <state>
+          <editor-state relative-caret-position="613">
+            <caret line="86" column="45" selection-start-line="86" selection-start-column="45" selection-end-line="86" selection-end-column="45" />
+            <folding>
+              <element signature="e#31#884#0" expanded="true" />
+            </folding>
+          </editor-state>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/license_24px.xml" preview="true">
+      <provider selected="true" editor-type-id="android-preview-designer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/nav_header_bg.png" preview="true">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values-bn/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="324" column="41" selection-start-line="324" selection-start-column="18" selection-end-line="324" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_check_update.xml">
+      <provider selected="true" editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/menu_drawer.xml">
+      <provider selected="true" editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/v2ray/ang/AppConfig.kt">
+      <provider selected="true" editor-type-id="android-source-code">
+        <state>
+          <editor-state relative-caret-position="508">
+            <caret line="251" lean-forward="true" selection-start-line="251" selection-end-line="251" />
+          </editor-state>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/v2ray/ang/handler/UpdateCheckerManager.kt">
+      <provider selected="true" editor-type-id="android-source-code">
+        <state>
+          <editor-state relative-caret-position="-175">
+            <caret line="20" column="37" lean-forward="true" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
+            <folding>
+              <element signature="e#31#503#0" expanded="true" />
+            </folding>
+          </editor-state>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/v2ray/ang/ui/CheckUpdateActivity.kt">
+      <provider selected="true" editor-type-id="android-source-code">
+        <state>
+          <editor-state relative-caret-position="500">
+            <caret line="50" column="56" selection-start-line="50" selection-start-column="56" selection-end-line="50" selection-end-column="56" />
+            <folding>
+              <element signature="e#26#699#0" expanded="true" />
+              <element signature="e#989#1032#0" expanded="true" />
+              <element signature="e#1742#1777#1" expanded="true" />
+              <element signature="e#2057#2095#1" expanded="true" />
+              <element signature="e#2274#2307#0" expanded="true" />
+              <element signature="e#2458#2524#1" expanded="true" />
+              <element signature="e#2602#2621#1" expanded="true" />
+            </folding>
+          </editor-state>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_about.xml" preview="true">
+      <provider selected="true" editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/v2ray/ang/ui/AboutActivity.kt">
+      <provider selected="true" editor-type-id="android-source-code">
+        <state>
+          <editor-state relative-caret-position="535">
+            <caret line="46" column="36" lean-forward="true" selection-start-line="46" selection-start-column="36" selection-end-line="46" selection-end-column="36" />
+            <folding>
+              <element signature="e#26#853#0" expanded="true" />
+              <element signature="e#1445#1477#1" expanded="true" />
+              <element signature="e#1658#1689#0" expanded="true" />
+              <element signature="e#1730#1791#0" expanded="true" />
+              <element signature="e#1964#1986#1" expanded="true" />
+              <element signature="e#2036#2058#1" expanded="true" />
+              <element signature="e#2771#2816#1" expanded="true" />
+              <element signature="e#2905#2927#1" expanded="true" />
+              <element signature="e#5128#5156#0" expanded="true" />
+              <element signature="e#6220#6258#1" expanded="true" />
+              <element signature="e#6417#6452#1" expanded="true" />
+              <element signature="e#7189#7211#1" expanded="true" />
+              <element signature="e#7277#7299#1" expanded="true" />
+              <element signature="e#7468#7490#1" expanded="true" />
+            </folding>
+          </editor-state>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" preview="true">
+      <provider selected="true" editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml" preview="true">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-592">
+          <caret line="52" column="40" lean-forward="true" selection-start-line="52" selection-start-column="40" selection-end-line="52" selection-end-column="40" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-manifest" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/v2ray/ang/handler/V2rayConfigManager.kt">
+      <provider selected="true" editor-type-id="android-source-code">
+        <state>
+          <editor-state relative-caret-position="10658">
+            <caret line="1253" column="34" selection-start-line="1253" selection-start-column="34" selection-end-line="1253" selection-end-column="34" />
+            <folding>
+              <element signature="e#31#1076#0" expanded="true" />
+              <element signature="e#8019#8068#0" expanded="true" />
+              <element signature="e#8098#8147#0" expanded="true" />
+            </folding>
+          </editor-state>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/v2ray/ang/handler/SettingsManager.kt">
+      <provider selected="true" editor-type-id="android-source-code">
+        <state>
+          <editor-state relative-caret-position="290">
+            <caret line="244" column="28" lean-forward="true" selection-start-line="244" selection-start-column="28" selection-end-line="244" selection-end-column="28" />
+          </editor-state>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/v2ray/ang/util/Utils.kt" preview="true">
+      <provider selected="true" editor-type-id="android-source-code">
+        <state>
+          <editor-state relative-caret-position="360">
+            <caret line="520" column="11" selection-start-line="520" selection-start-column="11" selection-end-line="520" selection-end-column="11" />
+            <folding>
+              <element signature="e#28#894#0" expanded="true" />
+            </folding>
+          </editor-state>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/v2ray/ang/ui/LogcatActivity.kt">
+      <provider selected="true" editor-type-id="android-source-code">
+        <state>
+          <editor-state relative-caret-position="325">
+            <caret line="23" column="6" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
+            <folding>
+              <element signature="e#26#751#0" expanded="true" />
+              <element signature="e#1255#1287#0" expanded="true" />
+              <element signature="e#1631#1671#1" expanded="true" />
+              <element signature="e#4459#4481#1" expanded="true" />
+            </folding>
+          </editor-state>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/v2ray/ang/ui/LogcatRecyclerAdapter.kt">
+      <provider selected="true" editor-type-id="android-source-code">
+        <state>
+          <editor-state relative-caret-position="325">
+            <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+            <folding>
+              <element signature="e#26#262#0" expanded="true" />
+            </folding>
+          </editor-state>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build.gradle.kts" preview="true">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1575">
+          <caret line="45" column="36" lean-forward="true" selection-start-line="45" selection-start-column="36" selection-end-line="45" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/debug/res/values/strings.xml" preview="true">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70">
+          <caret line="2" column="53" selection-start-line="2" selection-start-column="50" selection-end-line="2" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/v2ray/ang/ui/MainActivity.kt">
+      <provider selected="true" editor-type-id="android-source-code">
+        <state>
+          <editor-state relative-caret-position="260">
+            <caret line="346" column="16" lean-forward="true" selection-start-line="346" selection-start-column="16" selection-end-line="346" selection-end-column="16" />
+            <folding>
+              <element signature="e#26#2108#0" expanded="true" />
+              <element signature="e#4062#4100#1" expanded="true" />
+              <element signature="e#4228#4260#1" expanded="true" />
+              <element signature="e#5110#5142#0" expanded="true" />
+              <element signature="e#5833#5876#1" expanded="true" />
+              <element signature="e#6779#6810#1" expanded="true" />
+              <element signature="e#6812#6844#1" expanded="true" />
+              <element signature="e#8826#8866#1" expanded="true" />
+              <element signature="e#9294#9338#1" expanded="true" />
+              <element signature="e#9768#9805#1" expanded="true" />
+              <element signature="e#10985#11012#1" expanded="true" />
+              <element signature="e#15329#15414#1" expanded="true" />
+              <element signature="e#15536#15621#1" expanded="true" />
+              <element signature="e#15872#15912#1" expanded="true" />
+              <element signature="e#18292#18344#1" expanded="true" />
+              <element signature="e#18532#18554#1" expanded="true" />
+              <element signature="e#18757#18779#1" expanded="true" />
+              <element signature="e#19637#19689#1" expanded="true" />
+              <element signature="e#19800#19822#1" expanded="true" />
+              <element signature="e#20190#20240#1" expanded="true" />
+              <element signature="e#20294#20316#1" expanded="true" />
+              <element signature="e#20468#20495#1" expanded="true" />
+              <element signature="e#20852#20899#1" expanded="true" />
+              <element signature="e#21223#21250#1" expanded="true" />
+              <element signature="e#21613#21670#1" expanded="true" />
+              <element signature="e#21992#22027#1" expanded="true" />
+              <element signature="e#22388#22435#1" expanded="true" />
+              <element signature="e#23667#23705#1" expanded="true" />
+            </folding>
+          </editor-state>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/v2ray/ang/viewmodel/MainViewModel.kt">
+      <provider selected="true" editor-type-id="android-source-code">
+        <state>
+          <editor-state relative-caret-position="395">
+            <caret line="275" column="12" lean-forward="true" selection-start-line="275" selection-start-column="12" selection-end-line="275" selection-end-column="12" />
+            <folding>
+              <element signature="e#33#1603#0" expanded="true" />
+              <element signature="e#12312#12357#1" expanded="true" />
+              <element signature="e#16100#16122#1" expanded="true" />
+              <element signature="e#16215#16237#1" expanded="true" />
+              <element signature="e#17551#17582#1" expanded="true" />
+              <element signature="e#17765#17796#1" expanded="true" />
+            </folding>
+          </editor-state>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Android</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI" />
+      <state key="JdkListConfigurable.UI" />
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>v2rayNG</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>aapt2-proto-8.12.3-13700139.jar</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

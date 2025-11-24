@@ -1,0 +1,93 @@
+<application>
+  <component name="FileEditorProviderManager">{}</component>
+  <component name="LangManager">
+    <option name="languageName" value="Python" />
+  </component>
+  <component name="NotRoamableUiSettings">
+    <option name="fontSize" value="15.0" />
+    <option name="presentationModeIdeScale" value="1.75" />
+  </component>
+  <component name="PropertyService"><![CDATA[{
+  "keyToString": {
+    "AIPLUGIN_VERSION": "1.39.0-252",
+    "CUSTOMIZE_ACTIONS": "trial",
+    "GEMINI_INTELLIJ_INSTALLATION_ID": "51f82c3a-baa3-48dc-ab0d-3781271a0958",
+    "InstalledPluginsSearchHistory": "trial",
+    "KEYMAP": "terminal\nclose tab",
+    "LAST_CALCULATED_COLOR_INDEX_KEY": "1",
+    "NEXT_SURVEY_TIMESTAMP": "2025-11-23T17:35:56.840418147Z",
+    "PluginConfigurable.selectionTab": "1",
+    "PyCharm.InitialConfiguration": "true",
+    "PyCharm.InitialConfiguration.V2": "true",
+    "PyCharm.InitialConfiguration.V3": "true",
+    "PyCharm.InitialConfiguration.V4": "true",
+    "PyCharm.InitialConfiguration.V5": "true",
+    "PyCharm.InitialConfiguration.V6": "true",
+    "PyCharm.InitialConfiguration.V7": "true",
+    "PyCharm.InitialConfiguration.V8": "true",
+    "RunOnceActivity.TerminalFontSettingsService.fixStoredNonMonospacedFonts": "true",
+    "RunOnceActivity.TerminalOptionsProvider.migration.2025.1.1": "true",
+    "RunOnceActivity.VFSInitializationConditionsToFusReporter": "true",
+    "RunOnceActivity.git.modal.commit.toggle": "true",
+    "RunOnceActivity.reset.auto.reparse.settings.to.default": "true",
+    "RunOnceActivity.set.chat.model.provider.canary4": "true",
+    "STUDIOBOT_MCP_SERVERS_ENABLED": "true",
+    "SettingsSearchHistory": "sticky\nmouse\ntrial",
+    "ask.about.ctrl.y.shortcut.v2": "true",
+    "com.google.tools.ij.aiplugin.onboarding_session_index": "20251116_0000",
+    "enter_selection_count": "5",
+    "evlsprt3.252": "3",
+    "experimental.ui.on.first.startup": "true",
+    "experimental.ui.used.version": "252.27397.106",
+    "experimentalFeature.terminal.shell.command.handling": "false",
+    "file.gist.reindex.count": "2",
+    "fileTypeChangedCounter": "42",
+    "fontSizeToResetConsole": "16.0",
+    "fontSizeToResetEditor": "16.0",
+    "got.it.tooltip.Plugins Auto-Update": "1",
+    "idea.background.editor": "/home/mrboomdev/Downloads/121887479_p0.jpg,40,scale,center",
+    "idea.background.frame": "/home/mrboomdev/Downloads/121887479_p0.jpg,100,scale,center",
+    "ift.hide.welcome.screen.promo": "true",
+    "input.method.disabler.muted": "true",
+    "last_opened_file_path": "/home/mrboomdev/Downloads/121887479_p0.jpg",
+    "lvcs.diff.with.list.splitter.horizontal": "0.1760234",
+    "migrated.non.roamable.values.from.general.settings": "true",
+    "org.intellij.images.editor.actions.BackgroundImageDialog#recent": "/home/mrboomdev/Downloads/121887479_p0.jpg",
+    "previousColorScheme": "_@user_Catppuccin Mocha",
+    "python.new.interpreter.fav.manager": "VIRTUALENV",
+    "python.new.interpreter.fav.method": "CREATE_NEW",
+    "python.new.interpreter.fav.mode": "PROJECT_VENV",
+    "registry.to.advanced.settings.migration.build": "PY-252.27397.106",
+    "studio.bot.shown": "true",
+    "terminal.gen.one.option.visible": "false",
+    "terminal.is.new.user": "true",
+    "trial.state.last.availability.check": "1763314233155",
+    "trial.state.last.availability.state": "true",
+    "trial.state.last.state": "ACTIVE",
+    "ts.lib.d.ts.version": "5.7.3",
+    "whats.new.last.shown.version": "2025-2.4-27397-bf9800fe06357a8d934337c13de66c2b153b9545"
+  },
+  "keyToStringList": {
+    "DAILY_ACTION_TIMESTAMPS": [
+      "2025-11-16T17:35:56.666711165Z"
+    ],
+    "file.chooser.recent.files": [
+      "/home/mrboomdev/Downloads/drive-download-20251119T044917Z-1-001",
+      "/home/mrboomdev/Downloads/121887479_p0.jpg",
+      "/home/mrboomdev/Downloads/Animewallpaper-1lmbjix~2.jpg",
+      "/home/mrboomdev/Downloads/archlinux-logo-light-1200dpi.png",
+      "/home/mrboomdev/Downloads/mountain-fuji-pink-theme-cartoon-game-background-japan-japanese-landscape-mount-fuji-sakura-cherry-blossom-mountain-range-nature-325946974.jpg",
+      "/home/mrboomdev/Downloads/splash.png",
+      "/home/mrboomdev/Downloads/2025-10-31_10-48.png",
+      "/home/mrboomdev/Downloads/2025-10-28_14-16.png",
+      "/home/mrboomdev/Downloads/2025-10-28_12-04.png"
+    ],
+    "fileTypeDetectors": [
+      "com.intellij.ide.scratch.ScratchFileServiceImpl$Detector",
+      "com.intellij.database.vfs.DbStorageFileType$Detector",
+      "com.intellij.docker.dockerFile.DockerFileTypeDetector",
+      "org.jetbrains.plugins.textmate.TextMateFileType$TextMateFileDetector"
+    ]
+  }
+}]]></component>
+</application>

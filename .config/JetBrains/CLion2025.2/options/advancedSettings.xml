@@ -3,6 +3,8 @@
     <option name="settings">
       <map>
         <entry key="clion.use.radler" value="true" />
+        <entry key="confirm.rerun.with.termination" value="false" />
+        <entry key="ide.ui.non.modal.settings.window" value="true" />
       </map>
     </option>
   </component>

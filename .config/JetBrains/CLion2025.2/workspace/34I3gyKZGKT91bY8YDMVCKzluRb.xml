@@ -7,12 +7,12 @@
     </option>
   </component>
   <component name="FileEditorManager">
-    <leaf ideFingerprint="3fmu8ywbky1yi">
+    <leaf ideFingerprint="6qgu4eoyw9oa" SIDE_TABS_SIZE_LIMIT_KEY="-1">
       <file current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.cpp" file-id="12" managing-fs="1760886846998">
           <provider editor-type-id="text-editor" selected="true">
-            <state relative-caret-position="36">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            <state relative-caret-position="576">
+              <caret line="19" column="26" lean-forward="true" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -23,8 +23,8 @@
   <component name="FileTypeUsageLocalSummary"><![CDATA[{
   "data": {
     "C/C++": {
-      "usageCount": 1,
-      "lastUsed": 1760887376888
+      "usageCount": 6,
+      "lastUsed": 1763958104433
     },
     "WebPreview": {
       "usageCount": 1,
@@ -33,14 +33,18 @@
     "CMakeLists.txt": {
       "usageCount": 1,
       "lastUsed": 1760887376043
+    },
+    "settingsType": {
+      "usageCount": 2,
+      "lastUsed": 1763930362180
     }
   }
 }]]></component>
-  <component name="IdeDocumentHistory"><![CDATA[{
-  "changedPaths": [
-    "/home/mrboomdev/CLionProjects/untitled/main.cpp"
+  <component name="IdeDocumentHistory">{
+  &quot;changedPaths&quot;: [
+    &quot;/home/mrboomdev/CLionProjects/untitled/main.cpp&quot;
   ]
-}]]></component>
+}</component>
   <component name="IgnoredFileRootStore">
     <option name="generatedRoots">
       <set>
@@ -50,7 +54,7 @@
   </component>
   <component name="LanguageUsageStatistics">
     <language id="C++">
-      <summary usageCount="1" lastUsage="1760887376888" />
+      <summary usageCount="6" lastUsage="1763958104435" />
     </language>
     <language id="CMake">
       <summary usageCount="1" lastUsage="1760887376044" />
@@ -135,8 +139,8 @@
       <window_info anchor="bottom" id="Terminal" order="3" />
       <window_info anchor="bottom" id="Services" order="4" />
       <window_info anchor="bottom" id="CMake" order="5" />
-      <window_info anchor="bottom" id="Run" order="6" show_stripe_button="false" weight="0.33028847" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.33028847" />
+      <window_info anchor="bottom" id="Run" order="6" visible="true" weight="0.33029723" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.33029723" />
       <window_info anchor="right" content_ui="combo" id="Notifications" order="0" weight="0.25" />
       <window_info anchor="right" id="AIAssistant" order="1" weight="0.25" />
       <window_info anchor="right" id="Database" order="2" weight="0.25" />
@@ -144,7 +148,7 @@
       <window_info anchor="right" id="Maven" order="4" weight="0.25" />
       <window_info anchor="right" id="Meson" order="5" />
       <window_info anchor="right" id="StudioBot" order="6" weight="0.3301047" />
-      <unified_weights bottom="0.33028847" left="0.15314136" right="0.3301047" />
+      <unified_weights bottom="0.33029723" left="0.15314136" right="0.3301047" />
     </layoutV2>
     <recentWindows>
       <value>Run</value>
@@ -158,26 +162,34 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="838" y="343" key="FileChooserDialogImpl/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1760887453309" />
-    <state width="1910" height="311" key="GridCell.Tab.0.bottom" timestamp="1760887473186">
+    <state width="1910" height="312" key="GridCell.Tab.0.bottom" timestamp="1763959085534">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1910" height="311" key="GridCell.Tab.0.bottom/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1760887473186" />
-    <state width="1910" height="311" key="GridCell.Tab.0.center" timestamp="1760887473186">
+    <state width="1910" height="312" key="GridCell.Tab.0.bottom/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1763930380036" />
+    <state width="1910" height="312" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1763959085534" />
+    <state width="1910" height="312" key="GridCell.Tab.0.center" timestamp="1763959085534">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1910" height="311" key="GridCell.Tab.0.center/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1760887473186" />
-    <state width="1910" height="311" key="GridCell.Tab.0.left" timestamp="1760887473186">
+    <state width="1910" height="312" key="GridCell.Tab.0.center/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1763930380036" />
+    <state width="1910" height="312" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1763959085534" />
+    <state width="1910" height="312" key="GridCell.Tab.0.left" timestamp="1763959085534">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1910" height="311" key="GridCell.Tab.0.left/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1760887473186" />
-    <state width="1910" height="311" key="GridCell.Tab.0.right" timestamp="1760887473186">
+    <state width="1910" height="312" key="GridCell.Tab.0.left/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1763930380036" />
+    <state width="1910" height="312" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1763959085534" />
+    <state width="1910" height="312" key="GridCell.Tab.0.right" timestamp="1763959085534">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1910" height="311" key="GridCell.Tab.0.right/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1760887473186" />
-    <state x="469" y="205" key="SettingsEditor" timestamp="1760887457343">
+    <state width="1910" height="312" key="GridCell.Tab.0.right/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1763930380036" />
+    <state width="1910" height="312" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1763959085534" />
+    <state x="469" y="205" key="SettingsEditor" timestamp="1763930317009">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="469" y="205" key="SettingsEditor/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1760887457343" />
+    <state x="469" y="205" key="SettingsEditor/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1763930317009" />
+    <state x="105" y="132" width="1710" height="843" key="lvcs.dialog.size" timestamp="1763958231078">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="105" y="132" width="1710" height="843" key="lvcs.dialog.size/0.0.1920.1080@0.0.1920.1080" timestamp="1763958231078" />
     <state x="745" y="446" width="828" height="546" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1760887455399">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -189,8 +201,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        <state relative-caret-position="576">
+          <caret line="19" column="26" lean-forward="true" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
         </state>
       </provider>
     </entry>

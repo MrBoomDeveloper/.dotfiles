@@ -11,6 +11,7 @@ PythonCore
 Subversion
 XPathView
 com.deadlock.scsyntax
+com.google.tools.ij.aiplugin
 com.intellij.cidr.lang
 com.intellij.clion-compdb
 com.intellij.clion.embedded

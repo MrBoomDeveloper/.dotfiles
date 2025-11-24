@@ -20,7 +20,6 @@ host=`hostname`
 # Options
 shutdown=''
 reboot=''
-lock=''
 logout=''
 yes=''
 no=''
@@ -35,7 +34,7 @@ rofi_cmd() {
 
 # Pass variables to rofi dmenu
 run_rofi() {
-	echo -e "$lock\n$logout\n$reboot\n$shutdown" | rofi_cmd
+	echo -e "$logout\n$reboot\n$shutdown" | rofi_cmd
 }
 
 # Actions
@@ -44,12 +43,11 @@ case ${chosen} in
     $shutdown)
 		systemctl poweroff
         ;;
+        
     $reboot)
 		systemctl reboot
         ;;
-    $lock)
-		hyprlock
-        ;;
+        
     $logout)
 		hyprctl dispatch exit
         ;;

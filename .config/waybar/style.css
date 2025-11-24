@@ -1,11 +1,8 @@
 @import url("./colors.css");
 
 * {
-    border: none;
-    border-radius: 1px;
     font-family: NotoSansMono Nerd Font, "Noto Sans", "JetBrainsMono Nerd Font", "Font Awesome", "Font Awesome 6 Free", "Font Awesome 5 Free", "Symbols Nerd Font";
     font-size: 12px;
-    min-height: 0;
 }
 
 window#waybar {
@@ -25,7 +22,7 @@ tooltip label {
 button {
     box-shadow: inset 0 -3px transparent;
     border: none;
-    border-radius: 1px;
+    border-radius: 4px;
 }
 
 button:hover {
@@ -41,11 +38,11 @@ button:hover {
 #workspaces button.active {
     box-shadow: inherit;
     text-shadow: inherit;
-    background-color: rgba(255, 255, 255, .05);
+	background-color: @text;
+	color: @background;
 }
 
 #workspaces button.focused {
-    background-image: linear-gradient(0deg, @mauve, @surface1);
     box-shadow: inset 0 -3px @text;
 }
 
@@ -103,4 +100,16 @@ label:focus {
 #custom-notifications, #custom-power {
 	padding-right: 16px;
 	padding-left: 8px;
+}
+
+#battery {
+	margin-left: 8px;
+}
+
+#language {
+    margin-right: 8px;
+}
+
+#clock {
+	margin-right: 8px;
 }

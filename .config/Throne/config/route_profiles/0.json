@@ -26,7 +26,15 @@
             "actionType": "route",
             "domain": [
                 "developer.android.com",
-                "developers.google.com"
+                "localhost",
+                "192.168.0.100",
+                "ozon.com",
+                "ir.ozone.ru",
+                "developers.google.com",
+                "dl.google.com",
+                "plugins.gradle.org",
+                "repo.maven.apache.org",
+                "central.sonatype.com"
             ],
             "invert": false,
             "ip_is_private": false,

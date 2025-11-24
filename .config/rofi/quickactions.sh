@@ -1,14 +1,14 @@
 #!/usr/bin/env bash
 
 # Options
-emojiPicker='Emoji Picker'
+emojiPicker="Emoji Picker"
 iconPicker='Icon Picker'
 manageNetwork='Manage Network'
 manageBluetooth='Manage Bluetooth'
 power='Power Options'
 
 launchRofi() {
-	echo -e "$emojiPicker\n$iconPicker\n$manageNetwork\n$manageBluetooth\n$power" | \
+	echo -e "$emojiPicker\0icon\x1f<span>🫠</span>\n$iconPicker\0icon\x1f<span>✨</span>\n$manageNetwork\0icon\x1f<span>🌐</span>\n$manageBluetooth\0icon\x1f<span>🎧</span>\n$power\0icon\x1f<span>✌️</span>" | \
 		rofi \
 			-dmenu \
 			-format s \
