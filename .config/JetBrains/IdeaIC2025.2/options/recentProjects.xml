@@ -50,38 +50,6 @@
             </RecentProjectMetaInfo>
           </value>
         </entry>
-        <entry key="$USER_HOME$/IdeaProjects/v2rayNG2/V2rayNG">
-          <value>
-            <RecentProjectMetaInfo frameTitle="v2rayNG – MainViewModel.kt [v2rayNG.app.main]" projectWorkspaceId="35rt5VmK6Jq760glEBA89dVKnsn">
-              <option name="activationTimestamp" value="1763901584740" />
-              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
-              <option name="build" value="IC-252.27397.103" />
-              <option name="buildTimestamp" value="1761196320000" />
-              <option name="colorInfo">
-                <RecentProjectColorInfo associatedIndex="6" />
-              </option>
-              <frame x="5" y="32" width="1910" height="1043" />
-              <option name="productionCode" value="IC" />
-              <option name="projectOpenTimestamp" value="1763885594905" />
-            </RecentProjectMetaInfo>
-          </value>
-        </entry>
-        <entry key="$USER_HOME$/IdeaProjects/Uust">
-          <value>
-            <RecentProjectMetaInfo frameTitle="UUST – HomeScreen.kt [UUST.composeApp.commonMain]" projectWorkspaceId="34lKi3hFrxO2Cpmfsx7yfPipytG">
-              <option name="activationTimestamp" value="1763984211342" />
-              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
-              <option name="build" value="IC-252.27397.103" />
-              <option name="buildTimestamp" value="1761196320000" />
-              <option name="colorInfo">
-                <RecentProjectColorInfo associatedIndex="6" />
-              </option>
-              <frame x="5" y="32" width="1910" height="1043" />
-              <option name="productionCode" value="IC" />
-              <option name="projectOpenTimestamp" value="1763912674158" />
-            </RecentProjectMetaInfo>
-          </value>
-        </entry>
         <entry key="$USER_HOME$/IdeaProjects/Awery">
           <value>
             <RecentProjectMetaInfo frameTitle="Awery – App.kt [Awery.ui.commonMain]" projectWorkspaceId="34I4fJlCyB9KCIhOFm6jNUX8Y53">
@@ -98,9 +66,41 @@
             </RecentProjectMetaInfo>
           </value>
         </entry>
+        <entry key="$USER_HOME$/IdeaProjects/v2rayNG2/V2rayNG">
+          <value>
+            <RecentProjectMetaInfo frameTitle="v2rayNG – HomeScreen.kt [v2rayNG.app.main]" projectWorkspaceId="35rt5VmK6Jq760glEBA89dVKnsn">
+              <option name="activationTimestamp" value="1764104774226" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IC-252.27397.103" />
+              <option name="buildTimestamp" value="1761196320000" />
+              <option name="colorInfo">
+                <RecentProjectColorInfo associatedIndex="6" />
+              </option>
+              <frame x="5" y="32" width="1910" height="1043" />
+              <option name="productionCode" value="IC" />
+              <option name="projectOpenTimestamp" value="1764086345396" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/IdeaProjects/Uust">
+          <value>
+            <RecentProjectMetaInfo frameTitle="UUST – GeoMap.android.kt [UUST.composeApp.main]" opened="true" projectWorkspaceId="34lKi3hFrxO2Cpmfsx7yfPipytG">
+              <option name="activationTimestamp" value="1764231181671" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IC-252.27397.103" />
+              <option name="buildTimestamp" value="1761196320000" />
+              <option name="colorInfo">
+                <RecentProjectColorInfo associatedIndex="6" />
+              </option>
+              <frame x="5" y="32" width="952" height="1043" extendedState="6" />
+              <option name="productionCode" value="IC" />
+              <option name="projectOpenTimestamp" value="1764227686170" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
       </map>
     </option>
-    <option name="lastOpenedProject" value="$USER_HOME$/IdeaProjects/Awery" />
+    <option name="lastOpenedProject" value="$USER_HOME$/IdeaProjects/Uust" />
     <option name="lastProjectLocation" value="$USER_HOME$/IdeaProjects/v2rayNG2" />
   </component>
 </application>

@@ -1,11 +1,14 @@
 <application>
   <component name="com.codeium.intellij.settings.AppSettingsState">
+    <option name="allowCascadeAccessGitignoreFiles" value="true" />
     <option name="cascadeOnboardingCompleted" value="true" />
+    <option name="chatZoomLevel" value="50" />
     <option name="completedCascadeOnboardingItems">
       <list>
         <option value="ONBOARDING_ACTION_TYPE_CHAT" />
       </list>
     </option>
+    <option name="enableCascadeToolWindow" value="false" />
     <option name="firstInstall" value="false" />
     <option name="hasShownPreReleaseNotification" value="true" />
   </component>

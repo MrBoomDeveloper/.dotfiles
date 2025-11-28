@@ -3,17 +3,17 @@
     <ids>
       <option value="com.codeium.intellij.auth.LoginAction" />
       <option value="com.codeium.intellij.auth.LogoutAction" />
-      <option value="WelcomeScreen.Settings" />
       <option value="WelcomeScreen.Plugins" />
-      <option value="ActivateDeviceManager2ToolWindow" />
       <option value="ActivateWindsurfConsoleToolWindow" />
       <option value="com.codeium.intellij.chat_window.OpenChatWindowAction" />
       <option value="Git.Log" />
       <option value="Vcs.Show.Log" />
-      <option value="Gradle.ExecuteTask" />
-      <option value="Android.SyncProject" />
       <option value="XDebugger.AttachToProcess" />
       <option value="AndroidConnectDebuggerAction" />
+      <option value="Android.SyncProject" />
+      <option value="ActivateDeviceManager2ToolWindow" />
+      <option value="Gradle.ExecuteTask" />
+      <option value="WelcomeScreen.Settings" />
     </ids>
   </component>
   <component name="FileEditorProviderManager">{
@@ -36,6 +36,15 @@
     "ATTACHED_TOOL_WINDOW.Compose Preview.TOOL_ORDER": "",
     "ATTACHED_TOOL_WINDOW.DEFAULT.Compose Preview.TOOL_ORDER": "",
     "ATTACHED_TOOL_WINDOW.DEFAULT.DESIGN_FILES_PREVIEW_EDITOR.TOOL_ORDER": "",
+    "ATTACHED_TOOL_WINDOW.DEFAULT.Layout Inspector.PROPERTIES.AUTO_HIDE": "false",
+    "ATTACHED_TOOL_WINDOW.DEFAULT.Layout Inspector.PROPERTIES.LEFT": "false",
+    "ATTACHED_TOOL_WINDOW.DEFAULT.Layout Inspector.PROPERTIES.MINIMIZED": "false",
+    "ATTACHED_TOOL_WINDOW.DEFAULT.Layout Inspector.PROPERTIES.SPLIT": "true",
+    "ATTACHED_TOOL_WINDOW.DEFAULT.Layout Inspector.TOOL_ORDER": "TREE,PROPERTIES",
+    "ATTACHED_TOOL_WINDOW.DEFAULT.Layout Inspector.TREE.AUTO_HIDE": "false",
+    "ATTACHED_TOOL_WINDOW.DEFAULT.Layout Inspector.TREE.LEFT": "true",
+    "ATTACHED_TOOL_WINDOW.DEFAULT.Layout Inspector.TREE.MINIMIZED": "false",
+    "ATTACHED_TOOL_WINDOW.DEFAULT.Layout Inspector.TREE.SPLIT": "true",
     "ATTACHED_TOOL_WINDOW.DEFAULT.NELE_EDITOR.COMPONENT_TREE.FULL.AUTO_HIDE": "false",
     "ATTACHED_TOOL_WINDOW.DEFAULT.NELE_EDITOR.COMPONENT_TREE.FULL.LEFT": "true",
     "ATTACHED_TOOL_WINDOW.DEFAULT.NELE_EDITOR.COMPONENT_TREE.FULL.MINIMIZED": "false",
@@ -62,6 +71,10 @@
     "ATTACHED_TOOL_WINDOW.DEFAULT.NELE_EDITOR.PROPERTIES.SPLIT.SPLIT": "false",
     "ATTACHED_TOOL_WINDOW.DEFAULT.NELE_EDITOR.TOOL_ORDER": "PALETTE,PROPERTIES,COMPONENT_TREE",
     "ATTACHED_TOOL_WINDOW.DESIGN_FILES_PREVIEW_EDITOR.TOOL_ORDER": "",
+    "ATTACHED_TOOL_WINDOW.Layout Inspector.PROPERTIES.SPLIT": "true",
+    "ATTACHED_TOOL_WINDOW.Layout Inspector.TOOL_ORDER": "TREE,PROPERTIES",
+    "ATTACHED_TOOL_WINDOW.Layout Inspector.TREE.LEFT": "true",
+    "ATTACHED_TOOL_WINDOW.Layout Inspector.TREE.SPLIT": "true",
     "ATTACHED_TOOL_WINDOW.NELE_EDITOR.COMPONENT_TREE.FULL.LEFT": "true",
     "ATTACHED_TOOL_WINDOW.NELE_EDITOR.COMPONENT_TREE.FULL.SPLIT": "true",
     "ATTACHED_TOOL_WINDOW.NELE_EDITOR.COMPONENT_TREE.SPLIT.LEFT": "true",
@@ -74,6 +87,7 @@
     "ATTACHED_TOOL_WINDOW.NELE_EDITOR.TOOL_ORDER": "PALETTE,PROPERTIES,COMPONENT_TREE",
     "BuildView.Splitter.Proportion": "0.250787",
     "ColorChooser.RecentColors": "255-255-255-255,,,114-59-255-255",
+    "Drag.Drop.Confirmation": "false",
     "InstalledPluginsSearchHistory": "hot\ncom\nadb\nbro\nbr",
     "Kotlin-Was-Debugged": "9",
     "LAST_CALCULATED_COLOR_INDEX_KEY": "6",
@@ -106,7 +120,7 @@
     "SPLIT_EDITOR_MODE_/home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/res/menu/menu_logcat.xml": "SPLIT",
     "SPLIT_EDITOR_MODE_/home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/res/menu/menu_main.xml": "SPLIT",
     "SPLIT_EDITOR_MODE_/home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/res/xml/pref_settings.xml": "SPLIT",
-    "SettingsSearchHistory": "android\ndevice mi\ntab\nhot\nbrowser",
+    "SettingsSearchHistory": "auto\nautoc\nandroid\ndevice mi\ntab",
     "Source Code Editor With PreviewLayout": "Editor only",
     "TextEditorWithPreview.SplitterProportionKey": "0.6666667",
     "ask.about.ctrl.y.shortcut.v2": "true",
@@ -114,6 +128,7 @@
     "build.toolwindow.Sync.selection.state": "com.intellij.build.BuildTreeConsoleView",
     "build.toolwindow.run.selection.state": "com.intellij.build.BuildTreeConsoleView",
     "codeium.api_key": "sk-ws-01-9x6Sf78qI5YUqMZJc_a5abEUcfxHoh_bVvfUf-xlqbJoB-OjzNS7F0Zx6azK_YFjBa7Zu5xnD6T8n9B3CGc414edA5mQaw",
+    "com.android.tools.idea.layoutinspector.runningdevices.ui.uiconfigkey": "HORIZONTAL",
     "com.codeium.apiServerUrl": "https://server.self-serve.windsurf.com",
     "com.intellij.ide.projectWizard.generators.JavaNewProjectWizard$Step.selectedStep": "IntelliJ",
     "com.intellij.openapi.roots.ui.configuration.TabbedModuleEditor.selectedEditor": "Sources",
@@ -122,7 +137,7 @@
     "enter_selection_count": "5",
     "experimental.ui.on.first.startup": "true",
     "experimental.ui.used.version": "252.27397.103",
-    "file.gist.reindex.count": "2",
+    "file.gist.reindex.count": "8",
     "fileTypeChangedCounter": "3",
     "fontSizeToResetConsole": "16.0",
     "fontSizeToResetEditor": "16.0",
@@ -135,7 +150,7 @@
     "input.method.disabler.muted": "true",
     "installed.kotlin.plugin.version": "252.27397.103-IJ",
     "jdk.selected.JAVA_MODULE": "23",
-    "kotlin.lastUpdateCheck": "1763984258518",
+    "kotlin.lastUpdateCheck": "1764158419968",
     "last_opened_file_path": "/home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG",
     "migrate.android.sdk.path.to.roamable.storage": "false",
     "migrated.non.roamable.values.from.general.settings": "true",
@@ -145,6 +160,7 @@
     "project.wizard.group": "NPW.simple-module.Kotlin",
     "registry.to.advanced.settings.migration.build": "IC-252.27397.103",
     "selected.color.option.type": "KOTLIN_DSL_STYLE3",
+    "settings.code.style.selected.tab.kotlin": "Spaces",
     "terminal.gen.one.option.visible": "false",
     "terminal.is.new.user": "true",
     "vcs.history.diff.splitter.proportion": "0.39192024"

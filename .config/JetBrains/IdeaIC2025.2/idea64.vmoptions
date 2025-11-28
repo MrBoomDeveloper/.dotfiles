@@ -2,3 +2,4 @@
 -Dide.managed.by.toolbox=/home/mrboomdev/Downloads/jetbrains-toolbox-3.0.0.59313/bin/jetbrains-toolbox
 -Dtoolbox.notification.token=f956aa29-a23b-4f2f-8b86-5fb707d5c4f5
 -Dtoolbox.notification.portFile=/home/mrboomdev/.cache/JetBrains/Toolbox/ports/f60457fb-5fb4-49d0-9317-933431fafa00.port
+-Dawt.toolkit.name=WLToolkit

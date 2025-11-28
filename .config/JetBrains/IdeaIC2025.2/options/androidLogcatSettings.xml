@@ -12,12 +12,16 @@
         <option value="MbrainDebugManagerImpl" />
         <option value="os.LiceInfo" />
         <option value="DMABUFHEAPS" />
+        <option value="Manager" />
         <option value="TranVersion" />
         <option value="TranClassInfo" />
         <option value="cr_DisplayManager" />
+        <option value="ServerFlag" />
         <option value="WM-SystemFgDispatcher" />
         <option value="cr_PolicyProvider" />
         <option value="ViewRootImpl" />
+        <option value="TransportRuntime.CctTransportBackend" />
+        <option value="DecoupledTextDelegate" />
         <option value="ScrollPolicy" />
         <option value="QT" />
         <option value="phonemaster_log" />
@@ -33,10 +37,12 @@
         <option value="GraphicsEnvironment" />
         <option value="cr_WVCFactoryProvider" />
         <option value="FdLeakLice" />
+        <option value="TransportRuntime.SQLiteEventStore" />
         <option value="TABE-TranTabeComponentImpl" />
         <option value="libPerfCtl" />
         <option value="WindowOnBackDispatcher" />
         <option value="GrallocExtra" />
+        <option value="DynamiteModule" />
         <option value="WindowExtensionsImpl" />
         <option value="VideoCapabilities" />
         <option value="PowerHalWrapper" />
@@ -47,6 +53,7 @@
         <option value="MAGT_SYNC_FRAME" />
         <option value="M-ProMotion" />
         <option value="skia" />
+        <option value="PipelineManager" />
         <option value="os.FrameworkDoorMan" />
         <option value="ActivityThread" />
         <option value="libc" />
@@ -57,6 +64,7 @@
         <option value="cr_LibraryLoader" />
         <option value="libMEOW" />
         <option value="vulkan" />
+        <option value="native" />
         <option value="ProfileInstaller" />
         <option value="ActivityThreadLice" />
         <option value="ApplicationLoaders" />
@@ -64,12 +72,14 @@
         <option value="InsetsSourceConsumer" />
         <option value="nativeloader" />
         <option value="chromium" />
+        <option value="tflite" />
         <option value="WM-WorkerWrapper" />
         <option value="AudioCapabilities" />
         <option value="ApplicationPackageManager" />
         <option value="CameraManagerGlobal" />
         <option value="View" />
         <option value="ScrollIdentify" />
+        <option value="TransportRuntime.JobInfoScheduler" />
         <option value="cr_CombinedPProvider" />
         <option value="cr_media" />
         <option value="os.SingleLiceFactory" />
@@ -77,16 +87,7 @@
         <option value="cr_CachingUmaRecorder" />
         <option value="WM-GreedyScheduler" />
         <option value="WM-ForceStopRunnable" />
-        <option value="native" />
-        <option value="TransportRuntime.SQLiteEventStore" />
-        <option value="TransportRuntime.JobInfoScheduler" />
-        <option value="TransportRuntime.CctTransportBackend" />
-        <option value="tflite" />
-        <option value="DynamiteModule" />
-        <option value="PipelineManager" />
-        <option value="ServerFlag" />
-        <option value="Manager" />
-        <option value="DecoupledTextDelegate" />
+        <option value="SurfaceFlinger" />
       </set>
     </option>
   </component>
