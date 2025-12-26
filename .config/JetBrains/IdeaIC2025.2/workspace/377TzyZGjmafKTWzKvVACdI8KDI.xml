@@ -1,0 +1,935 @@
+<project version="4">
+  <component name="BookmarksManager">
+    <option name="groups">
+      <GroupState>
+        <option name="name" value="AmaterasuCraftMod" />
+      </GroupState>
+    </option>
+  </component>
+  <component name="FileEditorManager">
+    <leaf ideFingerprint="o6g7557l4mda" SIDE_TABS_SIZE_LIMIT_KEY="-1">
+      <file>
+        <entry file="file://$PROJECT_DIR$/src/client/kotlin/com/mrboomdev/amaterasucraft/mod/AmaterasuCraftModClient.kt" file-id="1665217" managing-fs="1763754416123">
+          <provider editor-type-id="text-editor" selected="true">
+            <state relative-caret-position="210">
+              <caret line="5" column="55" selection-start-line="5" selection-start-column="55" selection-end-line="5" selection-end-column="55" />
+              <folding>
+                <element signature="e#42#117#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+        <tab><![CDATA[{"tabTitle":"AmaterasuCraftModClient.kt","foregroundColor":-3287308,"textAttributes":{"name":"a"},"icon":[10,57,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,82,97,115,116,101,114,105,122,101,100,73,109,97,103,101,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,-120,1,10,48,111,114,103,47,106,101,116,98,114,97,105,110,115,47,107,111,116,108,105,110,47,105,100,101,97,47,105,99,111,110,115,47,111,98,106,101,99,116,75,111,116,108,105,110,46,115,118,103,18,54,111,114,103,47,106,101,116,98,114,97,105,110,115,47,107,111,116,108,105,110,47,105,100,101,97,47,105,99,111,110,115,47,101,120,112,117,105,47,111,98,106,101,99,116,75,111,116,108,105,110,46,115,118,103,26,20,111,114,103,46,106,101,116,98,114,97,105,110,115,46,107,111,116,108,105,110,40,-28,-44,-33,-100,3,48,0]}]]></tab>
+      </file>
+      <file current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/mrboomdev/amaterasucraft/mod/AmaterasuCraftMod.kt" file-id="1600749" managing-fs="1763754416123">
+          <provider editor-type-id="text-editor" selected="true">
+            <state relative-caret-position="455">
+              <caret line="12" column="42" lean-forward="true" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+        <tab><![CDATA[{"tabTitle":"AmaterasuCraftMod.kt","foregroundColor":-3287308,"textAttributes":{"name":"a"},"icon":[10,57,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,82,97,115,116,101,114,105,122,101,100,73,109,97,103,101,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,-120,1,10,48,111,114,103,47,106,101,116,98,114,97,105,110,115,47,107,111,116,108,105,110,47,105,100,101,97,47,105,99,111,110,115,47,111,98,106,101,99,116,75,111,116,108,105,110,46,115,118,103,18,54,111,114,103,47,106,101,116,98,114,97,105,110,115,47,107,111,116,108,105,110,47,105,100,101,97,47,105,99,111,110,115,47,101,120,112,117,105,47,111,98,106,101,99,116,75,111,116,108,105,110,46,115,118,103,26,20,111,114,103,46,106,101,116,98,114,97,105,110,115,46,107,111,116,108,105,110,40,-28,-44,-33,-100,3,48,0]}]]></tab>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTypeUsageLocalSummary"><![CDATA[{
+  "data": {
+    "settingsType": {
+      "usageCount": 3,
+      "lastUsed": 1766255566641
+    },
+    "Kotlin": {
+      "usageCount": 7,
+      "lastUsed": 1766258128994
+    },
+    "JSON": {
+      "usageCount": 3,
+      "lastUsed": 1766254832539
+    },
+    "JAVA": {
+      "usageCount": 7,
+      "lastUsed": 1766255732841
+    },
+    "CLASS": {
+      "usageCount": 6,
+      "lastUsed": 1766258128038
+    }
+  }
+}]]></component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>(Clie</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+  </component>
+  <component name="GitSEFilterConfiguration"><![CDATA[{}]]></component>
+  <component name="IdeDocumentHistory"><![CDATA[{
+  "changedPaths": [
+    "/home/mrboomdev/IdeaProjects/AmaterasuCraftMod/src/client/kotlin/com/mrboomdev/amaterasucraft/mod/AmaterasuCraftModClient.kt",
+    "/home/mrboomdev/IdeaProjects/AmaterasuCraftMod/src/main/resources/fabric.mod.json",
+    "/home/mrboomdev/IdeaProjects/AmaterasuCraftMod/src/main/kotlin/com/mrboomdev/amaterasucraft/mod/AmaterasuCraftMod.kt"
+  ]
+}]]></component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="LanguageUsageStatistics">
+    <language id="JAVA">
+      <summary usageCount="7" lastUsage="1766255732841" />
+    </language>
+    <language id="JSON">
+      <summary usageCount="3" lastUsage="1766254832539" />
+    </language>
+    <language id="kotlin">
+      <summary usageCount="7" lastUsage="1766258128994" />
+    </language>
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" />
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="AmaterasuCraftMod" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/AmaterasuCraftMod}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="AmaterasuCraftMod" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/AmaterasuCraftMod}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/AmaterasuCraftMod/src}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AmaterasuCraftMod" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/AmaterasuCraftMod}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/AmaterasuCraftMod/src}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/AmaterasuCraftMod/src/client}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="AmaterasuCraftMod" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/AmaterasuCraftMod}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/AmaterasuCraftMod/src}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/AmaterasuCraftMod/src/client}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/AmaterasuCraftMod/src/client/java}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AmaterasuCraftMod" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/AmaterasuCraftMod}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/AmaterasuCraftMod/src}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/AmaterasuCraftMod/src/client}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/AmaterasuCraftMod/src/client/java}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/AmaterasuCraftMod/src/client/java/com}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AmaterasuCraftMod" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/AmaterasuCraftMod}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/AmaterasuCraftMod/src}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/AmaterasuCraftMod/src/client}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/AmaterasuCraftMod/src/client/java}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/AmaterasuCraftMod/src/client/java/com}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/AmaterasuCraftMod/src/client/java/com/mrboomdev}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AmaterasuCraftMod" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/AmaterasuCraftMod}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/AmaterasuCraftMod/src}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/AmaterasuCraftMod/src/client}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/AmaterasuCraftMod/src/client/java}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/AmaterasuCraftMod/src/client/java/com}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/AmaterasuCraftMod/src/client/java/com/mrboomdev}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/AmaterasuCraftMod/src/client/java/com/mrboomdev/amaterasucraft}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AmaterasuCraftMod" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/AmaterasuCraftMod}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/AmaterasuCraftMod/src}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/AmaterasuCraftMod/src/client}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/AmaterasuCraftMod/src/client/java}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/AmaterasuCraftMod/src/client/java/com}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/AmaterasuCraftMod/src/client/java/com/mrboomdev}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/AmaterasuCraftMod/src/client/java/com/mrboomdev/amaterasucraft}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/AmaterasuCraftMod/src/client/java/com/mrboomdev/amaterasucraft/mod}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AmaterasuCraftMod" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/AmaterasuCraftMod}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/AmaterasuCraftMod/src}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/AmaterasuCraftMod/src/client}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/AmaterasuCraftMod/src/client/java}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/AmaterasuCraftMod/src/client/java/com}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/AmaterasuCraftMod/src/client/java/com/mrboomdev}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/AmaterasuCraftMod/src/client/java/com/mrboomdev/amaterasucraft}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/AmaterasuCraftMod/src/client/java/com/mrboomdev/amaterasucraft/mod}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/AmaterasuCraftMod/src/client/java/com/mrboomdev/amaterasucraft/mod/mixin}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AmaterasuCraftMod" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/AmaterasuCraftMod}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/AmaterasuCraftMod/src}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/AmaterasuCraftMod/src/client}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/AmaterasuCraftMod/src/client/java}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/AmaterasuCraftMod/src/client/java/com}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/AmaterasuCraftMod/src/client/java/com/mrboomdev}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/AmaterasuCraftMod/src/client/java/com/mrboomdev/amaterasucraft}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/AmaterasuCraftMod/src/client/java/com/mrboomdev/amaterasucraft/mod}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/AmaterasuCraftMod/src/client/java/com/mrboomdev/amaterasucraft/mod/mixin}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/AmaterasuCraftMod/src/client/java/com/mrboomdev/amaterasucraft/mod/mixin/client}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AmaterasuCraftMod" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/AmaterasuCraftMod}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/AmaterasuCraftMod/src}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/AmaterasuCraftMod/src/client}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/AmaterasuCraftMod/src/client/kotlin}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AmaterasuCraftMod" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/AmaterasuCraftMod}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/AmaterasuCraftMod/src}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/AmaterasuCraftMod/src/client}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/AmaterasuCraftMod/src/client/kotlin}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/AmaterasuCraftMod/src/client/kotlin/com}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AmaterasuCraftMod" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/AmaterasuCraftMod}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/AmaterasuCraftMod/src}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/AmaterasuCraftMod/src/client}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/AmaterasuCraftMod/src/client/kotlin}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/AmaterasuCraftMod/src/client/kotlin/com}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/AmaterasuCraftMod/src/client/kotlin/com/mrboomdev}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AmaterasuCraftMod" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/AmaterasuCraftMod}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/AmaterasuCraftMod/src}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/AmaterasuCraftMod/src/client}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/AmaterasuCraftMod/src/client/kotlin}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/AmaterasuCraftMod/src/client/kotlin/com}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/AmaterasuCraftMod/src/client/kotlin/com/mrboomdev}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/AmaterasuCraftMod/src/client/kotlin/com/mrboomdev/amaterasucraft}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AmaterasuCraftMod" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/AmaterasuCraftMod}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/AmaterasuCraftMod/src}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/AmaterasuCraftMod/src/client}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/AmaterasuCraftMod/src/client/kotlin}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/AmaterasuCraftMod/src/client/kotlin/com}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/AmaterasuCraftMod/src/client/kotlin/com/mrboomdev}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/AmaterasuCraftMod/src/client/kotlin/com/mrboomdev/amaterasucraft}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/AmaterasuCraftMod/src/client/kotlin/com/mrboomdev/amaterasucraft/mod}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AmaterasuCraftMod" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/AmaterasuCraftMod}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/AmaterasuCraftMod/src}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/AmaterasuCraftMod/src/main}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="AmaterasuCraftMod" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/AmaterasuCraftMod}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/AmaterasuCraftMod/src}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/AmaterasuCraftMod/src/main}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/AmaterasuCraftMod/src/main/generated}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AmaterasuCraftMod" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/AmaterasuCraftMod}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/AmaterasuCraftMod/src}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/AmaterasuCraftMod/src/main}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/AmaterasuCraftMod/src/main/kotlin}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AmaterasuCraftMod" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/AmaterasuCraftMod}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/AmaterasuCraftMod/src}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/AmaterasuCraftMod/src/main}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/AmaterasuCraftMod/src/main/kotlin}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/AmaterasuCraftMod/src/main/kotlin/com}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AmaterasuCraftMod" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/AmaterasuCraftMod}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/AmaterasuCraftMod/src}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/AmaterasuCraftMod/src/main}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/AmaterasuCraftMod/src/main/kotlin}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/AmaterasuCraftMod/src/main/kotlin/com}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/AmaterasuCraftMod/src/main/kotlin/com/mrboomdev}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AmaterasuCraftMod" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/AmaterasuCraftMod}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/AmaterasuCraftMod/src}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/AmaterasuCraftMod/src/main}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/AmaterasuCraftMod/src/main/kotlin}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/AmaterasuCraftMod/src/main/kotlin/com}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/AmaterasuCraftMod/src/main/kotlin/com/mrboomdev}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/AmaterasuCraftMod/src/main/kotlin/com/mrboomdev/amaterasucraft}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AmaterasuCraftMod" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/AmaterasuCraftMod}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/AmaterasuCraftMod/src}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/AmaterasuCraftMod/src/main}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/AmaterasuCraftMod/src/main/kotlin}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/AmaterasuCraftMod/src/main/kotlin/com}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/AmaterasuCraftMod/src/main/kotlin/com/mrboomdev}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/AmaterasuCraftMod/src/main/kotlin/com/mrboomdev/amaterasucraft}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/AmaterasuCraftMod/src/main/kotlin/com/mrboomdev/amaterasucraft/mod}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AmaterasuCraftMod" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/AmaterasuCraftMod}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/AmaterasuCraftMod/src}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/AmaterasuCraftMod/src/main}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/AmaterasuCraftMod/src/main/resources}" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+          <presentation>
+            <attributes />
+            <data iconPath="expui/toolwindows/project.svg" iconPlugin="com.intellij" isLeaf="false" text="AmaterasuCraftMod" />
+            <item name="AmaterasuCraftMod" type="b2602c69:ProjectViewProjectNode" />
+            <presentation>
+              <attributes>
+                <map>
+                  <entry key="filePath" value="$PROJECT_DIR$" />
+                </map>
+              </attributes>
+              <data iconPath="expui/nodes/module.svg" iconPlugin="com.intellij" isLeaf="false" text="AmaterasuCraftMod" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/AmaterasuCraftMod}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/.github" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text=".github" />
+                <item name="dir{file:///home/mrboomdev/IdeaProjects/AmaterasuCraftMod/.github}" type="462c0819:PsiDirectoryNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/.gradle" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/nodes/excludeRoot.svg" iconPlugin="com.intellij" isLeaf="false" text=".gradle" />
+                <item name="dir{file:///home/mrboomdev/IdeaProjects/AmaterasuCraftMod/.gradle}" type="462c0819:PsiDirectoryNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/.idea" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text=".idea" />
+                <item name="dir{file:///home/mrboomdev/IdeaProjects/AmaterasuCraftMod/.idea}" type="462c0819:PsiDirectoryNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/.kotlin" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text=".kotlin" />
+                <item name="dir{file:///home/mrboomdev/IdeaProjects/AmaterasuCraftMod/.kotlin}" type="462c0819:PsiDirectoryNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/build" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/nodes/excludeRoot.svg" iconPlugin="com.intellij" isLeaf="false" text="build" />
+                <item name="dir{file:///home/mrboomdev/IdeaProjects/AmaterasuCraftMod/build}" type="462c0819:PsiDirectoryNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/gradle" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="gradle" />
+                <item name="dir{file:///home/mrboomdev/IdeaProjects/AmaterasuCraftMod/gradle}" type="462c0819:PsiDirectoryNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/run" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="run" />
+                <item name="dir{file:///home/mrboomdev/IdeaProjects/AmaterasuCraftMod/run}" type="462c0819:PsiDirectoryNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/src" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="src" />
+                <item name="dir{file:///home/mrboomdev/IdeaProjects/AmaterasuCraftMod/src}" type="462c0819:PsiDirectoryNode" />
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/src/client" />
+                    </map>
+                  </attributes>
+                  <data isLeaf="false" text="client" />
+                  <item name="dir{file:///home/mrboomdev/IdeaProjects/AmaterasuCraftMod/src/client}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/src/client/java" />
+                      </map>
+                    </attributes>
+                    <data iconPath="expui/nodes/sourceRoot.svg" iconPlugin="com.intellij" isLeaf="false" text="java" />
+                    <item name="dir{file:///home/mrboomdev/IdeaProjects/AmaterasuCraftMod/src/client/java}" type="462c0819:PsiDirectoryNode" />
+                    <presentation>
+                      <attributes>
+                        <map>
+                          <entry key="filePath" value="$PROJECT_DIR$/src/client/java/com" />
+                        </map>
+                      </attributes>
+                      <data iconPath="expui/nodes/package.svg" iconPlugin="com.intellij" isLeaf="false" text="com" />
+                      <item name="dir{file:///home/mrboomdev/IdeaProjects/AmaterasuCraftMod/src/client/java/com}" type="462c0819:PsiDirectoryNode" />
+                      <presentation>
+                        <attributes>
+                          <map>
+                            <entry key="filePath" value="$PROJECT_DIR$/src/client/java/com/mrboomdev" />
+                          </map>
+                        </attributes>
+                        <data iconPath="expui/nodes/package.svg" iconPlugin="com.intellij" isLeaf="false" text="mrboomdev" />
+                        <item name="dir{file:///home/mrboomdev/IdeaProjects/AmaterasuCraftMod/src/client/java/com/mrboomdev}" type="462c0819:PsiDirectoryNode" />
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/src/client/java/com/mrboomdev/amaterasucraft" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/nodes/package.svg" iconPlugin="com.intellij" isLeaf="false" text="amaterasucraft" />
+                          <item name="dir{file:///home/mrboomdev/IdeaProjects/AmaterasuCraftMod/src/client/java/com/mrboomdev/amaterasucraft}" type="462c0819:PsiDirectoryNode" />
+                          <presentation>
+                            <attributes>
+                              <map>
+                                <entry key="filePath" value="$PROJECT_DIR$/src/client/java/com/mrboomdev/amaterasucraft/mod" />
+                              </map>
+                            </attributes>
+                            <data iconPath="expui/nodes/package.svg" iconPlugin="com.intellij" isLeaf="false" text="mod" />
+                            <item name="dir{file:///home/mrboomdev/IdeaProjects/AmaterasuCraftMod/src/client/java/com/mrboomdev/amaterasucraft/mod}" type="462c0819:PsiDirectoryNode" />
+                            <presentation>
+                              <attributes>
+                                <map>
+                                  <entry key="filePath" value="$PROJECT_DIR$/src/client/java/com/mrboomdev/amaterasucraft/mod/mixin" />
+                                </map>
+                              </attributes>
+                              <data iconPath="expui/nodes/package.svg" iconPlugin="com.intellij" isLeaf="false" text="mixin" />
+                              <item name="dir{file:///home/mrboomdev/IdeaProjects/AmaterasuCraftMod/src/client/java/com/mrboomdev/amaterasucraft/mod/mixin}" type="462c0819:PsiDirectoryNode" />
+                              <presentation>
+                                <attributes>
+                                  <map>
+                                    <entry key="filePath" value="$PROJECT_DIR$/src/client/java/com/mrboomdev/amaterasucraft/mod/mixin/client" />
+                                  </map>
+                                </attributes>
+                                <data iconPath="expui/nodes/package.svg" iconPlugin="com.intellij" isLeaf="false" text="client" />
+                                <item name="dir{file:///home/mrboomdev/IdeaProjects/AmaterasuCraftMod/src/client/java/com/mrboomdev/amaterasucraft/mod/mixin/client}" type="462c0819:PsiDirectoryNode" />
+                                <presentation>
+                                  <attributes>
+                                    <map>
+                                      <entry key="filePath" value="$PROJECT_DIR$/src/client/java/com/mrboomdev/amaterasucraft/mod/mixin/client/ExampleClientMixin.java" />
+                                    </map>
+                                  </attributes>
+                                  <data iconPath="expui/nodes/class.svg" iconPlugin="com.intellij" isLeaf="true" text="ExampleClientMixin" />
+                                  <item name="ExampleClientMixin" type="1a9f42e2:ClassTreeNode" />
+                                </presentation>
+                              </presentation>
+                            </presentation>
+                          </presentation>
+                        </presentation>
+                      </presentation>
+                    </presentation>
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/src/client/kotlin" />
+                      </map>
+                    </attributes>
+                    <data iconPath="expui/nodes/sourceRoot.svg" iconPlugin="com.intellij" isLeaf="false" text="kotlin" />
+                    <item name="dir{file:///home/mrboomdev/IdeaProjects/AmaterasuCraftMod/src/client/kotlin}" type="462c0819:PsiDirectoryNode" />
+                    <presentation>
+                      <attributes>
+                        <map>
+                          <entry key="filePath" value="$PROJECT_DIR$/src/client/kotlin/com" />
+                        </map>
+                      </attributes>
+                      <data iconPath="expui/nodes/package.svg" iconPlugin="com.intellij" isLeaf="false" text="com" />
+                      <item name="dir{file:///home/mrboomdev/IdeaProjects/AmaterasuCraftMod/src/client/kotlin/com}" type="462c0819:PsiDirectoryNode" />
+                      <presentation>
+                        <attributes>
+                          <map>
+                            <entry key="filePath" value="$PROJECT_DIR$/src/client/kotlin/com/mrboomdev" />
+                          </map>
+                        </attributes>
+                        <data iconPath="expui/nodes/package.svg" iconPlugin="com.intellij" isLeaf="false" text="mrboomdev" />
+                        <item name="dir{file:///home/mrboomdev/IdeaProjects/AmaterasuCraftMod/src/client/kotlin/com/mrboomdev}" type="462c0819:PsiDirectoryNode" />
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/src/client/kotlin/com/mrboomdev/amaterasucraft" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/nodes/package.svg" iconPlugin="com.intellij" isLeaf="false" text="amaterasucraft" />
+                          <item name="dir{file:///home/mrboomdev/IdeaProjects/AmaterasuCraftMod/src/client/kotlin/com/mrboomdev/amaterasucraft}" type="462c0819:PsiDirectoryNode" />
+                          <presentation>
+                            <attributes>
+                              <map>
+                                <entry key="filePath" value="$PROJECT_DIR$/src/client/kotlin/com/mrboomdev/amaterasucraft/mod" />
+                              </map>
+                            </attributes>
+                            <data iconPath="expui/nodes/package.svg" iconPlugin="com.intellij" isLeaf="false" text="mod" />
+                            <item name="dir{file:///home/mrboomdev/IdeaProjects/AmaterasuCraftMod/src/client/kotlin/com/mrboomdev/amaterasucraft/mod}" type="462c0819:PsiDirectoryNode" />
+                            <presentation>
+                              <attributes>
+                                <map>
+                                  <entry key="filePath" value="$PROJECT_DIR$/src/client/kotlin/com/mrboomdev/amaterasucraft/mod/AmaterasuCraftModClient.kt" />
+                                </map>
+                              </attributes>
+                              <data iconPath="org/jetbrains/kotlin/idea/icons/expui/objectKotlin.svg" iconPlugin="org.jetbrains.kotlin" isLeaf="true" text="AmaterasuCraftModClient" />
+                              <item name="AmaterasuCraftModClient" type="2c5a2ef7:KtClassOrObjectTreeNode" />
+                            </presentation>
+                            <presentation>
+                              <attributes>
+                                <map>
+                                  <entry key="filePath" value="$PROJECT_DIR$/src/client/kotlin/com/mrboomdev/amaterasucraft/mod/AmaterasuCraftModDataGenerator.kt" />
+                                </map>
+                              </attributes>
+                              <data iconPath="org/jetbrains/kotlin/idea/icons/expui/objectKotlin.svg" iconPlugin="org.jetbrains.kotlin" isLeaf="true" text="AmaterasuCraftModDataGenerator" />
+                              <item name="AmaterasuCraftModDataGenerator" type="2c5a2ef7:KtClassOrObjectTreeNode" />
+                            </presentation>
+                          </presentation>
+                        </presentation>
+                      </presentation>
+                    </presentation>
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/src/client/resources" />
+                      </map>
+                    </attributes>
+                    <data iconPath="expui/nodes/resourcesRoot.svg" iconPlugin="com.intellij" isLeaf="false" text="resources" />
+                    <item name="dir{file:///home/mrboomdev/IdeaProjects/AmaterasuCraftMod/src/client/resources}" type="462c0819:PsiDirectoryNode" />
+                  </presentation>
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/src/main" />
+                    </map>
+                  </attributes>
+                  <data isLeaf="false" text="main" />
+                  <item name="dir{file:///home/mrboomdev/IdeaProjects/AmaterasuCraftMod/src/main}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/src/main/generated" />
+                      </map>
+                    </attributes>
+                    <data iconPath="expui/nodes/resourcesRoot.svg" iconPlugin="com.intellij" isLeaf="false" text="generated" />
+                    <item name="dir{file:///home/mrboomdev/IdeaProjects/AmaterasuCraftMod/src/main/generated}" type="462c0819:PsiDirectoryNode" />
+                    <presentation>
+                      <attributes>
+                        <map>
+                          <entry key="filePath" value="$PROJECT_DIR$/src/main/generated/.cache" />
+                        </map>
+                      </attributes>
+                      <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="true" text=".cache" />
+                      <item name="dir{file:///home/mrboomdev/IdeaProjects/AmaterasuCraftMod/src/main/generated/.cache}" type="462c0819:PsiDirectoryNode" />
+                    </presentation>
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/src/main/java" />
+                      </map>
+                    </attributes>
+                    <data iconPath="expui/nodes/sourceRoot.svg" iconPlugin="com.intellij" isLeaf="false" text="java" />
+                    <item name="dir{file:///home/mrboomdev/IdeaProjects/AmaterasuCraftMod/src/main/java}" type="462c0819:PsiDirectoryNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/src/main/kotlin" />
+                      </map>
+                    </attributes>
+                    <data iconPath="expui/nodes/sourceRoot.svg" iconPlugin="com.intellij" isLeaf="false" text="kotlin" />
+                    <item name="dir{file:///home/mrboomdev/IdeaProjects/AmaterasuCraftMod/src/main/kotlin}" type="462c0819:PsiDirectoryNode" />
+                    <presentation>
+                      <attributes>
+                        <map>
+                          <entry key="filePath" value="$PROJECT_DIR$/src/main/kotlin/com" />
+                        </map>
+                      </attributes>
+                      <data iconPath="expui/nodes/package.svg" iconPlugin="com.intellij" isLeaf="false" text="com" />
+                      <item name="dir{file:///home/mrboomdev/IdeaProjects/AmaterasuCraftMod/src/main/kotlin/com}" type="462c0819:PsiDirectoryNode" />
+                      <presentation>
+                        <attributes>
+                          <map>
+                            <entry key="filePath" value="$PROJECT_DIR$/src/main/kotlin/com/mrboomdev" />
+                          </map>
+                        </attributes>
+                        <data iconPath="expui/nodes/package.svg" iconPlugin="com.intellij" isLeaf="false" text="mrboomdev" />
+                        <item name="dir{file:///home/mrboomdev/IdeaProjects/AmaterasuCraftMod/src/main/kotlin/com/mrboomdev}" type="462c0819:PsiDirectoryNode" />
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/src/main/kotlin/com/mrboomdev/amaterasucraft" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/nodes/package.svg" iconPlugin="com.intellij" isLeaf="false" text="amaterasucraft" />
+                          <item name="dir{file:///home/mrboomdev/IdeaProjects/AmaterasuCraftMod/src/main/kotlin/com/mrboomdev/amaterasucraft}" type="462c0819:PsiDirectoryNode" />
+                          <presentation>
+                            <attributes>
+                              <map>
+                                <entry key="filePath" value="$PROJECT_DIR$/src/main/kotlin/com/mrboomdev/amaterasucraft/mod" />
+                              </map>
+                            </attributes>
+                            <data iconPath="expui/nodes/package.svg" iconPlugin="com.intellij" isLeaf="false" text="mod" />
+                            <item name="dir{file:///home/mrboomdev/IdeaProjects/AmaterasuCraftMod/src/main/kotlin/com/mrboomdev/amaterasucraft/mod}" type="462c0819:PsiDirectoryNode" />
+                            <presentation>
+                              <attributes>
+                                <map>
+                                  <entry key="filePath" value="$PROJECT_DIR$/src/main/kotlin/com/mrboomdev/amaterasucraft/mod/AmaterasuCraftMod.kt" />
+                                </map>
+                              </attributes>
+                              <data iconPath="org/jetbrains/kotlin/idea/icons/expui/objectKotlin.svg" iconPlugin="org.jetbrains.kotlin" isLeaf="true" text="AmaterasuCraftMod" />
+                              <item name="AmaterasuCraftMod" type="2c5a2ef7:KtClassOrObjectTreeNode" />
+                            </presentation>
+                          </presentation>
+                        </presentation>
+                      </presentation>
+                    </presentation>
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/src/main/resources" />
+                      </map>
+                    </attributes>
+                    <data iconPath="expui/nodes/resourcesRoot.svg" iconPlugin="com.intellij" isLeaf="false" text="resources" />
+                    <item name="dir{file:///home/mrboomdev/IdeaProjects/AmaterasuCraftMod/src/main/resources}" type="462c0819:PsiDirectoryNode" />
+                    <presentation>
+                      <attributes>
+                        <map>
+                          <entry key="filePath" value="$PROJECT_DIR$/src/main/resources/assets" />
+                        </map>
+                      </attributes>
+                      <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="assets" />
+                      <item name="dir{file:///home/mrboomdev/IdeaProjects/AmaterasuCraftMod/src/main/resources/assets}" type="462c0819:PsiDirectoryNode" />
+                    </presentation>
+                    <presentation>
+                      <attributes>
+                        <map>
+                          <entry key="filePath" value="$PROJECT_DIR$/src/main/resources/amaterasucraft-mod.mixins.json" />
+                        </map>
+                      </attributes>
+                      <data isLeaf="true" text="amaterasucraft-mod.mixins.json" />
+                      <item name="amaterasucraft-mod.mixins.json" type="ab9368bb:PsiFileNode" />
+                    </presentation>
+                    <presentation>
+                      <attributes>
+                        <map>
+                          <entry key="filePath" value="$PROJECT_DIR$/src/main/resources/fabric.mod.json" />
+                        </map>
+                      </attributes>
+                      <data isLeaf="true" text="fabric.mod.json" />
+                      <item name="fabric.mod.json" type="ab9368bb:PsiFileNode" />
+                    </presentation>
+                  </presentation>
+                </presentation>
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/.gitattributes" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/fileTypes/text.svg" iconPlugin="com.intellij" isLeaf="true" text=".gitattributes" />
+                <item name=".gitattributes" type="ab9368bb:PsiFileNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/.gitignore" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/fileTypes/ignored.svg" iconPlugin="com.intellij" isLeaf="true" text=".gitignore" />
+                <item name=".gitignore" type="ab9368bb:PsiFileNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/build.gradle" />
+                  </map>
+                </attributes>
+                <data iconPath="icons/expui/gradle.svg" iconPlugin="com.intellij.gradle" isLeaf="true" text="build.gradle" />
+                <item name="build.gradle" type="ab9368bb:PsiFileNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/gradle.properties" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/fileTypes/properties.svg" iconPlugin="com.intellij" isLeaf="true" text="gradle.properties" />
+                <item name="gradle.properties" type="ab9368bb:PsiFileNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/gradlew" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/fileTypes/text.svg" iconPlugin="com.intellij" isLeaf="true" text="gradlew" />
+                <item name="gradlew" type="ab9368bb:PsiFileNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/gradlew.bat" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/fileTypes/text.svg" iconPlugin="com.intellij" isLeaf="true" text="gradlew.bat" />
+                <item name="gradlew.bat" type="ab9368bb:PsiFileNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/LICENSE" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/fileTypes/text.svg" iconPlugin="com.intellij" isLeaf="true" text="LICENSE" />
+                <item name="LICENSE" type="ab9368bb:PsiFileNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/settings.gradle" />
+                  </map>
+                </attributes>
+                <data iconPath="icons/expui/gradle.svg" iconPlugin="com.intellij.gradle" isLeaf="true" text="settings.gradle" />
+                <item name="settings.gradle" type="ab9368bb:PsiFileNode" />
+              </presentation>
+            </presentation>
+            <presentation>
+              <attributes />
+              <data iconPath="expui/nodes/library.svg" iconPlugin="com.intellij" isLeaf="false" text="External Libraries" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </presentation>
+          </presentation>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="ReaderModeSettings">
+    <option name="enableVisualFormatting" value="false" />
+  </component>
+  <component name="RunConfigurationStartHistory">
+    <history>
+      <element setting="Application.Data Generation" />
+      <element setting="Application.Minecraft Client" />
+    </history>
+  </component>
+  <component name="ToolWindowManager">
+    <layoutV2>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19712043" />
+      <window_info id="Commit" order="1" weight="0.25" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info id="Resources Explorer" order="3" />
+      <window_info anchor="bottom" id="Version Control" order="0" />
+      <window_info anchor="bottom" id="Problems" order="1" />
+      <window_info anchor="bottom" id="Problems View" order="2" />
+      <window_info anchor="bottom" id="Terminal" order="3" />
+      <window_info anchor="bottom" id="Services" order="4" />
+      <window_info anchor="bottom" id="Windsurf Console" order="5" />
+      <window_info anchor="bottom" id="Android Profiler" order="6" />
+      <window_info anchor="bottom" id="App Inspection" order="7" />
+      <window_info anchor="bottom" id="Logcat" order="8" />
+      <window_info active="true" anchor="bottom" id="Build" order="9" visible="true" weight="0.33029723" />
+      <window_info anchor="bottom" id="Run" order="10" show_stripe_button="false" weight="0.33029723" />
+      <window_info anchor="right" content_ui="combo" id="Notifications" order="0" weight="0.25" />
+      <window_info anchor="right" id="AIAssistant" order="1" weight="0.25" />
+      <window_info anchor="right" id="Database" order="2" weight="0.25" />
+      <window_info anchor="right" id="Gradle" order="3" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="4" weight="0.25" />
+      <window_info anchor="right" id="Running Devices" order="5" side_tool="true" />
+      <window_info anchor="right" id="Device Explorer" order="6" side_tool="true" />
+      <window_info anchor="right" id="Device Manager 2" order="7" />
+      <window_info anchor="right" id="Cascade" order="8" weight="0.16465968" />
+      <unified_weights bottom="0.33029723" left="0.19712043" right="0.16465968" />
+    </layoutV2>
+    <recentWindows>
+      <value>Project</value>
+      <value>Run</value>
+      <value>Cascade</value>
+      <value>Build</value>
+    </recentWindows>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="-1366" y="-186" key="#Plugins" timestamp="1766253563495">
+      <screen x="-1920" y="-350" width="1920" height="1080" />
+    </state>
+    <state x="-1366" y="-186" key="#Plugins/-1920.-350.1920.1080/0.0.1920.1080@-1920.-350.1920.1080" timestamp="1766253563495" />
+    <state x="-1478" y="-252" key="#Project_Structure" timestamp="1766255313960">
+      <screen x="-1920" y="-350" width="1920" height="1080" />
+    </state>
+    <state x="-1478" y="-252" key="#Project_Structure/-1920.-350.1920.1080/0.0.1920.1080@-1920.-350.1920.1080" timestamp="1766255313960" />
+    <state x="-1366" y="-168" width="819" height="679" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1766255560983">
+      <screen x="-1920" y="-350" width="1920" height="1080" />
+    </state>
+    <state x="-1366" y="-168" width="819" height="679" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1920.-350.1920.1080/0.0.1920.1080@-1920.-350.1920.1080" timestamp="1766255560983" />
+    <state x="-1340" y="-91" width="750" height="525" key="#com.intellij.ide.util.MemberChooser" timestamp="1766255918236">
+      <screen x="-1920" y="-350" width="1920" height="1080" />
+    </state>
+    <state x="-1340" y="-91" width="750" height="525" key="#com.intellij.ide.util.MemberChooser/-1920.-350.1920.1080/0.0.1920.1080@-1920.-350.1920.1080" timestamp="1766255918236" />
+    <state x="-1880" y="-86" key="FileChooserDialogImpl" timestamp="1766255538452">
+      <screen x="-1920" y="-350" width="1920" height="1080" />
+    </state>
+    <state x="-1880" y="-86" key="FileChooserDialogImpl/-1920.-350.1920.1080/0.0.1920.1080@-1920.-350.1920.1080" timestamp="1766255538452" />
+    <state width="1910" height="312" key="GridCell.Tab.0.bottom" timestamp="1766258128165">
+      <screen x="-1920" y="-350" width="1920" height="1080" />
+    </state>
+    <state width="1910" height="312" key="GridCell.Tab.0.bottom/-1920.-350.1920.1080/0.0.1920.1080@-1920.-350.1920.1080" timestamp="1766258128165" />
+    <state width="1910" height="312" key="GridCell.Tab.0.center" timestamp="1766258128165">
+      <screen x="-1920" y="-350" width="1920" height="1080" />
+    </state>
+    <state width="1910" height="312" key="GridCell.Tab.0.center/-1920.-350.1920.1080/0.0.1920.1080@-1920.-350.1920.1080" timestamp="1766258128165" />
+    <state width="1910" height="312" key="GridCell.Tab.0.left" timestamp="1766258128165">
+      <screen x="-1920" y="-350" width="1920" height="1080" />
+    </state>
+    <state width="1910" height="312" key="GridCell.Tab.0.left/-1920.-350.1920.1080/0.0.1920.1080@-1920.-350.1920.1080" timestamp="1766258128165" />
+    <state width="1910" height="312" key="GridCell.Tab.0.right" timestamp="1766258128165">
+      <screen x="-1920" y="-350" width="1920" height="1080" />
+    </state>
+    <state width="1910" height="312" key="GridCell.Tab.0.right/-1920.-350.1920.1080/0.0.1920.1080@-1920.-350.1920.1080" timestamp="1766258128165" />
+    <state x="-683" y="-378" width="672" height="695" key="run.anything.popup" timestamp="1766255601174">
+      <screen x="-1920" y="-350" width="1920" height="1080" />
+    </state>
+    <state x="-683" y="-378" width="672" height="695" key="run.anything.popup/-1920.-350.1920.1080/0.0.1920.1080@-1920.-350.1920.1080" timestamp="1766255601174" />
+    <state x="-1920" y="-350" width="670" height="169" key="search.everywhere.popup" timestamp="1766255743929">
+      <screen x="-1920" y="-350" width="1920" height="1080" />
+    </state>
+    <state x="-1920" y="-350" width="670" height="169" key="search.everywhere.popup/-1920.-350.1920.1080/0.0.1920.1080@-1920.-350.1920.1080" timestamp="1766255743929" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar://$PROJECT_DIR$/.gradle/loom-cache/minecraftMaven/net/minecraft/minecraft-common-e572a196b7/1.20.1-loom.mappings.1_20_1.layered+hash.2198-v2/minecraft-common-e572a196b7-1.20.1-loom.mappings.1_20_1.layered+hash.2198-v2.jar!/net/minecraft/server/Bootstrap.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-70">
+          <caret line="37" column="13" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/client/kotlin/com/mrboomdev/amaterasucraft/mod/AmaterasuCraftModDataGenerator.kt" preview="true">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/fabric.mod.json" preview="true">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="36" column="15" lean-forward="true" selection-start-line="36" selection-start-column="15" selection-end-line="36" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/.gradle/loom-cache/minecraftMaven/net/minecraft/minecraft-clientOnly-e572a196b7/1.20.1-loom.mappings.1_20_1.layered+hash.2198-v2/minecraft-clientOnly-e572a196b7-1.20.1-loom.mappings.1_20_1.layered+hash.2198-v2.jar!/net/minecraft/client/Minecraft.class" preview="true">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="706" column="8" selection-start-line="706" selection-start-column="8" selection-end-line="706" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/.gradle/loom-cache/minecraftMaven/net/minecraft/minecraft-clientOnly-e572a196b7/1.20.1-loom.mappings.1_20_1.layered+hash.2198-v2/minecraft-clientOnly-e572a196b7-1.20.1-loom.mappings.1_20_1.layered+hash.2198-v2-sources.jar!/net/minecraft/client/Minecraft.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="253" column="28" lean-forward="true" selection-start-line="253" selection-start-column="28" selection-end-line="253" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/client/java/com/mrboomdev/amaterasucraft/mod/mixin/client/ExampleClientMixin.java" preview="true">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="8" column="13" lean-forward="true" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-language-kotlin-c2d2b86c/1.13.8+kotlin.2.3.0/fabric-language-kotlin-c2d2b86c-1.13.8+kotlin.2.3.0.jar!/net/fabricmc/language/kotlin/KotlinAdapter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-language-kotlin-c2d2b86c/1.13.8+kotlin.2.3.0/fabric-language-kotlin-c2d2b86c-1.13.8+kotlin.2.3.0-sources.jar!/net/fabricmc/language/kotlin/KotlinAdapter.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="30" column="44" lean-forward="true" selection-start-line="30" selection-start-column="44" selection-end-line="30" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/client/kotlin/com/mrboomdev/amaterasucraft/mod/AmaterasuCraftModClient.kt" preview="true">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="5" column="55" lean-forward="true" selection-start-line="5" selection-start-column="55" selection-end-line="5" selection-end-column="55" />
+          <folding>
+            <element signature="e#42#117#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/mrboomdev/amaterasucraft/mod/AmaterasuCraftMod.kt" preview="true">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="455">
+          <caret line="12" column="42" lean-forward="true" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI" />
+      <state key="GlobalLibrariesConfigurable.UI" />
+      <state key="JdkListConfigurable.UI" />
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Minecraft|client|AmaterasuCraftMod</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI" />
+    </states>
+  </component>
+</project>

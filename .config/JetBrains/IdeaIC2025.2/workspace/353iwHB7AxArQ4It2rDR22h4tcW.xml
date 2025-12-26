@@ -7,33 +7,16 @@
     </option>
   </component>
   <component name="FileEditorManager">
-    <leaf ideFingerprint="n77sze5w1ffs" SIDE_TABS_SIZE_LIMIT_KEY="-1">
-      <file>
-        <entry file="file://$PROJECT_DIR$/navigation-jetpack/src/commonMain/kotlin/com/mrboomdev/navigation/jetpack/LocalRouteInfo.kt" file-id="1186536" managing-fs="1760887306540">
-          <provider editor-type-id="android-source-code" selected="true">
-            <state>
-              <editor-state relative-caret-position="256">
-                <caret line="6" column="27" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
-                <folding>
-                  <element signature="e#42#138#0" expanded="true" />
-                </folding>
-              </editor-state>
-            </state>
-          </provider>
-        </entry>
-        <tab><![CDATA[{"tabTitle":"LocalRouteInfo.kt","foregroundColor":-5839967,"textAttributes":{"name":"a","children":[{"name":"option","attributes":{"name":"FOREGROUND","value":"a6e3a1"}}]},"icon":[10,57,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,82,97,115,116,101,114,105,122,101,100,73,109,97,103,101,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,-122,1,10,47,111,114,103,47,106,101,116,98,114,97,105,110,115,47,107,111,116,108,105,110,47,105,100,101,97,47,105,99,111,110,115,47,107,111,116,108,105,110,95,102,105,108,101,46,115,118,103,18,48,111,114,103,47,106,101,116,98,114,97,105,110,115,47,107,111,116,108,105,110,47,105,100,101,97,47,105,99,111,110,115,47,101,120,112,117,105,47,107,111,116,108,105,110,46,115,118,103,26,20,111,114,103,46,106,101,116,98,114,97,105,110,115,46,107,111,116,108,105,110,40,-98,-111,-47,-25,-8,-1,-1,-1,-1,1,48,0]}]]></tab>
-      </file>
+    <leaf ideFingerprint="10k2069keaxb9" SIDE_TABS_SIZE_LIMIT_KEY="-1">
       <file current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/navigation-jetpack/src/commonMain/kotlin/com/mrboomdev/navigation/jetpack/JetpackNavigationHost.kt" file-id="1110923" managing-fs="1760887306540">
-          <provider editor-type-id="android-source-code" selected="true">
-            <state>
-              <editor-state relative-caret-position="160">
-                <caret line="98" selection-start-line="98" selection-end-line="98" />
-              </editor-state>
+        <entry file="file://$PROJECT_DIR$/gradle.properties" file-id="1071609" managing-fs="1763754416123">
+          <provider editor-type-id="text-editor" selected="true">
+            <state relative-caret-position="699">
+              <caret line="39" selection-start-line="39" selection-end-line="39" />
             </state>
           </provider>
         </entry>
-        <tab><![CDATA[{"tabTitle":"JetpackNavigationHost.kt","foregroundColor":-7752454,"textAttributes":{"name":"a","children":[{"name":"option","attributes":{"name":"FOREGROUND","value":"89b4fa"}}]},"icon":[10,57,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,82,97,115,116,101,114,105,122,101,100,73,109,97,103,101,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,-122,1,10,47,111,114,103,47,106,101,116,98,114,97,105,110,115,47,107,111,116,108,105,110,47,105,100,101,97,47,105,99,111,110,115,47,107,111,116,108,105,110,95,102,105,108,101,46,115,118,103,18,48,111,114,103,47,106,101,116,98,114,97,105,110,115,47,107,111,116,108,105,110,47,105,100,101,97,47,105,99,111,110,115,47,101,120,112,117,105,47,107,111,116,108,105,110,46,115,118,103,26,20,111,114,103,46,106,101,116,98,114,97,105,110,115,46,107,111,116,108,105,110,40,-98,-111,-47,-25,-8,-1,-1,-1,-1,1,48,0]}]]></tab>
+        <tab><![CDATA[{"tabTitle":"gradle.properties","foregroundColor":-7752454,"textAttributes":{"name":"a","children":[{"name":"option","attributes":{"name":"FOREGROUND","value":"89b4fa"}}]},"icon":[10,57,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,82,97,115,116,101,114,105,122,101,100,73,109,97,103,101,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,85,10,24,102,105,108,101,84,121,112,101,115,47,112,114,111,112,101,114,116,105,101,115,46,115,118,103,18,30,101,120,112,117,105,47,102,105,108,101,84,121,112,101,115,47,112,114,111,112,101,114,116,105,101,115,46,115,118,103,26,12,99,111,109,46,105,110,116,101,108,108,105,106,40,-9,-117,-107,-50,-8,-1,-1,-1,-1,1,48,0]}]]></tab>
       </file>
     </leaf>
   </component>
@@ -44,20 +27,38 @@
       "lastUsed": 1762347397154
     },
     "Properties": {
-      "usageCount": 2,
-      "lastUsed": 1762347374916
+      "usageCount": 5,
+      "lastUsed": 1765128493584
     },
     "Kotlin": {
-      "usageCount": 10,
-      "lastUsed": 1762877647439
+      "usageCount": 30,
+      "lastUsed": 1765128067683
+    },
+    "TOML": {
+      "usageCount": 2,
+      "lastUsed": 1765127787044
+    },
+    "DIFF": {
+      "usageCount": 2,
+      "lastUsed": 1765127853331
     }
   }
 }]]></component>
+  <component name="GitSEFilterConfiguration">{}</component>
   <component name="IdeDocumentHistory">{
   &quot;changedPaths&quot;: [
+    &quot;/home/mrboomdev/IdeaProjects/Navigation/navigation-jetpack/src/commonMain/kotlin/com/mrboomdev/navigation/jetpack/JetpackNavigationHost.kt&quot;,
+    &quot;/home/mrboomdev/IdeaProjects/Navigation/settings.gradle.kts&quot;,
+    &quot;/home/mrboomdev/IdeaProjects/Navigation/navigation-jetpack3/src/commonMain/kotlin/com/mrboomdev/navigation/jetpack3/JetpackNavigationHost.kt&quot;,
+    &quot;/home/mrboomdev/IdeaProjects/Navigation/navigation-jetpack3/src/commonMain/kotlin/com/mrboomdev/navigation/jetpack3/JetpackNavigation.kt&quot;,
     &quot;/home/mrboomdev/IdeaProjects/Navigation/navigation-jetpack/src/commonMain/kotlin/com/mrboomdev/navigation/jetpack/LocalRouteInfo.kt&quot;,
-    &quot;/home/mrboomdev/IdeaProjects/Navigation/gradle.properties&quot;,
-    &quot;/home/mrboomdev/IdeaProjects/Navigation/navigation-jetpack/src/commonMain/kotlin/com/mrboomdev/navigation/jetpack/JetpackNavigationHost.kt&quot;
+    &quot;/home/mrboomdev/IdeaProjects/Navigation/sample/src/commonMain/kotlin/com/mrboomdev/navigation/sample/App.kt&quot;,
+    &quot;/home/mrboomdev/IdeaProjects/Navigation/navigation-core/build.gradle.kts&quot;,
+    &quot;/home/mrboomdev/IdeaProjects/Navigation/deeplinks/build.gradle.kts&quot;,
+    &quot;/home/mrboomdev/IdeaProjects/Navigation/navigation-jetpack/build.gradle.kts&quot;,
+    &quot;/home/mrboomdev/IdeaProjects/Navigation/navigation-jetpack3/build.gradle.kts&quot;,
+    &quot;/home/mrboomdev/IdeaProjects/Navigation/gradle/libs.versions.toml&quot;,
+    &quot;/home/mrboomdev/IdeaProjects/Navigation/gradle.properties&quot;
   ]
 }</component>
   <component name="IgnoredFileRootStore">
@@ -69,10 +70,13 @@
   </component>
   <component name="LanguageUsageStatistics">
     <language id="Properties">
-      <summary usageCount="2" lastUsage="1762347374916" />
+      <summary usageCount="5" lastUsage="1765128493587" />
+    </language>
+    <language id="TOML">
+      <summary usageCount="2" lastUsage="1765127787044" />
     </language>
     <language id="kotlin">
-      <summary usageCount="10" lastUsage="1762877647439" />
+      <summary usageCount="30" lastUsage="1765128067683" />
     </language>
   </component>
   <component name="ProjectView">
@@ -85,6 +89,16 @@
             <path>
               <item name="Navigation" type="b2602c69:ProjectViewProjectNode" />
               <item name="dir{file:///home/mrboomdev/IdeaProjects/Navigation}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="Navigation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/Navigation}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/Navigation/deeplinks}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="Navigation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/Navigation}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/Navigation/gradle}" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Navigation" type="b2602c69:ProjectViewProjectNode" />
@@ -222,6 +236,11 @@
               <item name="dir{file:///home/mrboomdev/IdeaProjects/Navigation/navigation-jetpack/src/commonMain/kotlin/com/mrboomdev/navigation}" type="462c0819:PsiDirectoryNode" />
               <item name="dir{file:///home/mrboomdev/IdeaProjects/Navigation/navigation-jetpack/src/commonMain/kotlin/com/mrboomdev/navigation/jetpack}" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Navigation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/Navigation}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/Navigation/navigation-jetpack3}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
           </expand>
           <select />
           <presentation>
@@ -278,8 +297,26 @@
                     <entry key="filePath" value="$PROJECT_DIR$/deeplinks" />
                   </map>
                 </attributes>
-                <data iconPath="expui/nodes/ideaProject.svg" iconPlugin="com.intellij" isLeaf="false" text="deeplinks" />
+                <data iconPath="studio/icons/shell/filetree/library-module.svg" iconPlugin="org.jetbrains.android" isLeaf="false" text="deeplinks" />
                 <item name="dir{file:///home/mrboomdev/IdeaProjects/Navigation/deeplinks}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/deeplinks/build" />
+                    </map>
+                  </attributes>
+                  <data iconPath="expui/nodes/excludeRoot.svg" iconPlugin="com.intellij" isLeaf="false" text="build" />
+                  <item name="dir{file:///home/mrboomdev/IdeaProjects/Navigation/deeplinks/build}" type="462c0819:PsiDirectoryNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/deeplinks/build.gradle.kts" />
+                    </map>
+                  </attributes>
+                  <data iconPath="org/jetbrains/kotlin/idea/icons/expui/kotlinGradleScript.svg" iconPlugin="org.jetbrains.kotlin" isLeaf="true" text="build.gradle.kts" />
+                  <item name="build.gradle.kts" type="24436e51:KtFileTreeNode" />
+                </presentation>
               </presentation>
               <presentation>
                 <attributes>
@@ -289,6 +326,24 @@
                 </attributes>
                 <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="gradle" />
                 <item name="dir{file:///home/mrboomdev/IdeaProjects/Navigation/gradle}" type="462c0819:PsiDirectoryNode" />
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/gradle/wrapper" />
+                    </map>
+                  </attributes>
+                  <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="wrapper" />
+                  <item name="dir{file:///home/mrboomdev/IdeaProjects/Navigation/gradle/wrapper}" type="462c0819:PsiDirectoryNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/gradle/libs.versions.toml" />
+                    </map>
+                  </attributes>
+                  <data iconPath="icons/newui/toml.svg" iconPlugin="org.toml.lang" isLeaf="true" text="libs.versions.toml" />
+                  <item name="libs.versions.toml" type="ab9368bb:PsiFileNode" />
+                </presentation>
               </presentation>
               <presentation>
                 <attributes>
@@ -296,7 +351,7 @@
                     <entry key="filePath" value="$PROJECT_DIR$/navigation-core" />
                   </map>
                 </attributes>
-                <data iconPath="expui/nodes/ideaProject.svg" iconPlugin="com.intellij" isLeaf="false" text="navigation-core" />
+                <data iconPath="studio/icons/shell/filetree/library-module.svg" iconPlugin="org.jetbrains.android" isLeaf="false" text="navigation-core" />
                 <item name="dir{file:///home/mrboomdev/IdeaProjects/Navigation/navigation-core}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
                 <presentation>
                   <attributes>
@@ -440,7 +495,7 @@
                     <entry key="filePath" value="$PROJECT_DIR$/navigation-jetpack" />
                   </map>
                 </attributes>
-                <data iconPath="expui/nodes/ideaProject.svg" iconPlugin="com.intellij" isLeaf="false" text="navigation-jetpack" />
+                <data iconPath="studio/icons/shell/filetree/library-module.svg" iconPlugin="org.jetbrains.android" isLeaf="false" text="navigation-jetpack" />
                 <item name="dir{file:///home/mrboomdev/IdeaProjects/Navigation/navigation-jetpack}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
                 <presentation>
                   <attributes>
@@ -465,7 +520,7 @@
                         <entry key="filePath" value="$PROJECT_DIR$/navigation-jetpack/src/androidMain" />
                       </map>
                     </attributes>
-                    <data iconPath="expui/nodes/ideaProject.svg" iconPlugin="com.intellij" isLeaf="false" text="androidMain" />
+                    <data iconPath="studio/icons/shell/filetree/library-module.svg" iconPlugin="org.jetbrains.android" isLeaf="false" text="androidMain" />
                     <item name="dir{file:///home/mrboomdev/IdeaProjects/Navigation/navigation-jetpack/src/androidMain}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
                   </presentation>
                   <presentation>
@@ -611,8 +666,35 @@
                     <entry key="filePath" value="$PROJECT_DIR$/navigation-jetpack3" />
                   </map>
                 </attributes>
-                <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="navigation-jetpack3" />
-                <item name="dir{file:///home/mrboomdev/IdeaProjects/Navigation/navigation-jetpack3}" type="462c0819:PsiDirectoryNode" />
+                <data iconPath="studio/icons/shell/filetree/library-module.svg" iconPlugin="org.jetbrains.android" isLeaf="false" text="navigation-jetpack3" />
+                <item name="dir{file:///home/mrboomdev/IdeaProjects/Navigation/navigation-jetpack3}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/navigation-jetpack3/build" />
+                    </map>
+                  </attributes>
+                  <data iconPath="expui/nodes/excludeRoot.svg" iconPlugin="com.intellij" isLeaf="false" text="build" />
+                  <item name="dir{file:///home/mrboomdev/IdeaProjects/Navigation/navigation-jetpack3/build}" type="462c0819:PsiDirectoryNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/navigation-jetpack3/src" />
+                    </map>
+                  </attributes>
+                  <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="src" />
+                  <item name="dir{file:///home/mrboomdev/IdeaProjects/Navigation/navigation-jetpack3/src}" type="462c0819:PsiDirectoryNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/navigation-jetpack3/build.gradle.kts" />
+                    </map>
+                  </attributes>
+                  <data iconPath="org/jetbrains/kotlin/idea/icons/expui/kotlinGradleScript.svg" iconPlugin="org.jetbrains.kotlin" isLeaf="true" text="build.gradle.kts" />
+                  <item name="build.gradle.kts" type="24436e51:KtFileTreeNode" />
+                </presentation>
               </presentation>
               <presentation>
                 <attributes>
@@ -620,7 +702,7 @@
                     <entry key="filePath" value="$PROJECT_DIR$/sample" />
                   </map>
                 </attributes>
-                <data iconPath="expui/nodes/ideaProject.svg" iconPlugin="com.intellij" isLeaf="false" text="sample" />
+                <data iconPath="studio/icons/shell/filetree/android-module.svg" iconPlugin="org.jetbrains.android" isLeaf="false" text="sample" />
                 <item name="dir{file:///home/mrboomdev/IdeaProjects/Navigation/sample}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               </presentation>
               <presentation>
@@ -647,7 +729,7 @@
                     <entry key="filePath" value="$PROJECT_DIR$/gradle.properties" />
                   </map>
                 </attributes>
-                <data iconPath="fileTypes/properties.svg" iconPlugin="com.intellij" isLeaf="true" text="gradle.properties" />
+                <data iconPath="expui/fileTypes/properties.svg" iconPlugin="com.intellij" isLeaf="true" text="gradle.properties" />
                 <item name="gradle.properties" type="ab9368bb:PsiFileNode" />
               </presentation>
               <presentation>
@@ -656,7 +738,7 @@
                     <entry key="filePath" value="$PROJECT_DIR$/gradlew" />
                   </map>
                 </attributes>
-                <data iconPath="expui/fileTypes/unknown.svg" iconPlugin="com.intellij" isLeaf="true" text="gradlew" />
+                <data iconPath="expui/fileTypes/text.svg" iconPlugin="com.intellij" isLeaf="true" text="gradlew" />
                 <item name="gradlew" type="ab9368bb:PsiFileNode" />
               </presentation>
               <presentation>
@@ -665,7 +747,7 @@
                     <entry key="filePath" value="$PROJECT_DIR$/gradlew.bat" />
                   </map>
                 </attributes>
-                <data iconPath="expui/fileTypes/unknown.svg" iconPlugin="com.intellij" isLeaf="true" text="gradlew.bat" />
+                <data iconPath="expui/fileTypes/text.svg" iconPlugin="com.intellij" isLeaf="true" text="gradlew.bat" />
                 <item name="gradlew.bat" type="ab9368bb:PsiFileNode" />
               </presentation>
               <presentation>
@@ -674,7 +756,7 @@
                     <entry key="filePath" value="$PROJECT_DIR$/local.properties" />
                   </map>
                 </attributes>
-                <data iconPath="fileTypes/properties.svg" iconPlugin="com.intellij" isLeaf="true" text="local.properties" />
+                <data iconPath="expui/fileTypes/properties.svg" iconPlugin="com.intellij" isLeaf="true" text="local.properties" />
                 <item name="local.properties" type="ab9368bb:PsiFileNode" />
               </presentation>
               <presentation>
@@ -689,12 +771,12 @@
             </presentation>
             <presentation>
               <attributes />
-              <data iconPath="nodes/ppLib.svg" iconPlugin="com.intellij" isLeaf="false" text="External Libraries" />
+              <data iconPath="expui/nodes/library.svg" iconPlugin="com.intellij" isLeaf="false" text="External Libraries" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </presentation>
             <presentation>
               <attributes />
-              <data iconPath="scope/scratches.svg" iconPlugin="com.intellij" isLeaf="true" text="Scratches and Consoles" />
+              <data iconPath="expui/fileTypes/scratches.svg" iconPlugin="com.intellij" isLeaf="true" text="Scratches and Consoles" />
               <item name="Scratches and Consoles" type="b85a3e1f:ScratchTreeStructureProvider$MyProjectNode" />
             </presentation>
           </presentation>
@@ -709,27 +791,33 @@
   </component>
   <component name="RunConfigurationStartHistory">
     <history>
+      <element setting="Gradle.Publish Core" />
       <element setting="Gradle.Publish Jetpack" />
+      <element setting="Android App.sample" />
     </history>
+  </component>
+  <component name="TerminalArrangementManager">
+    <option name="mySelectedTabIndex" value="-1" />
   </component>
   <component name="ToolWindowManager">
     <layoutV2>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2248691" />
-      <window_info id="Commit" order="1" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.2248691" />
+      <window_info id="Commit" order="1" weight="0.2248691" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info id="Resources Explorer" order="3" />
       <window_info id="Build Variants" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="0" />
       <window_info anchor="bottom" id="Problems" order="1" />
       <window_info anchor="bottom" id="Problems View" order="2" />
-      <window_info anchor="bottom" id="Terminal" order="3" />
+      <window_info anchor="bottom" id="Terminal" order="3" weight="0.33029723" />
       <window_info anchor="bottom" id="Services" order="4" />
       <window_info anchor="bottom" id="Windsurf Console" order="5" />
       <window_info anchor="bottom" id="Android Profiler" order="6" />
       <window_info anchor="bottom" id="App Inspection" order="7" />
       <window_info anchor="bottom" id="Logcat" order="8" />
-      <window_info active="true" anchor="bottom" id="Build" order="9" visible="true" weight="0.33028847" />
-      <window_info anchor="bottom" id="Run" order="10" show_stripe_button="false" weight="0.33028847" />
+      <window_info anchor="bottom" id="Build" order="9" show_stripe_button="false" weight="0.33029723" />
+      <window_info anchor="bottom" id="Run" order="10" show_stripe_button="false" weight="0.33029723" />
+      <window_info anchor="bottom" id="Upgrade Assistant" order="11" weight="0.33029723" />
       <window_info anchor="right" content_ui="combo" id="Notifications" order="0" weight="0.25" />
       <window_info anchor="right" id="AIAssistant" order="1" weight="0.25" />
       <window_info anchor="right" id="Database" order="2" weight="0.25" />
@@ -738,37 +826,61 @@
       <window_info anchor="right" id="Running Devices" order="5" side_tool="true" />
       <window_info anchor="right" id="Device Explorer" order="6" side_tool="true" />
       <window_info anchor="right" id="Device Manager 2" order="7" />
-      <window_info anchor="right" id="Cascade" order="8" weight="0.3301047" />
-      <unified_weights bottom="0.33028847" left="0.2248691" right="0.3301047" />
+      <window_info anchor="right" id="Cascade" order="8" weight="0.33035713" />
+      <unified_weights bottom="0.33029723" left="0.2248691" right="0.33035713" />
     </layoutV2>
     <recentWindows>
       <value>Run</value>
       <value>Cascade</value>
       <value>Project</value>
+      <value>Commit</value>
       <value>Build</value>
+      <value>Terminal</value>
+      <value>Upgrade Assistant</value>
     </recentWindows>
   </component>
   <component name="WindowStateProjectService">
-    <state x="586" y="265" width="889" height="647" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1762347670907">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state x="-1478" y="-252" key="#Project_Structure" timestamp="1765125157564">
+      <screen x="-1920" y="-350" width="1920" height="1080" />
     </state>
+    <state x="-1478" y="-252" key="#Project_Structure/-1920.-350.1920.1080/0.0.1920.1080@-1920.-350.1920.1080" timestamp="1765125157564" />
+    <state x="-1334" y="-85" width="891" height="671" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1765128126050">
+      <screen x="-1920" y="-350" width="1920" height="1080" />
+    </state>
+    <state x="-1334" y="-85" width="891" height="671" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1920.-350.1920.1080/0.0.1920.1080@-1920.-350.1920.1080" timestamp="1765128126050" />
     <state x="586" y="265" width="889" height="647" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1762347670907" />
-    <state width="1910" height="311" key="GridCell.Tab.0.bottom" timestamp="1762352058665">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state x="-1340" y="-91" width="750" height="525" key="#com.intellij.ide.util.MemberChooser" timestamp="1765125200448">
+      <screen x="-1920" y="-350" width="1920" height="1080" />
     </state>
+    <state x="-1340" y="-91" width="750" height="525" key="#com.intellij.ide.util.MemberChooser/-1920.-350.1920.1080/0.0.1920.1080@-1920.-350.1920.1080" timestamp="1765125200448" />
+    <state width="952" height="312" key="GridCell.Tab.0.bottom" timestamp="1765128425148">
+      <screen x="-1920" y="-350" width="1920" height="1080" />
+    </state>
+    <state width="952" height="312" key="GridCell.Tab.0.bottom/-1920.-350.1920.1080/0.0.1920.1080@-1920.-350.1920.1080" timestamp="1765128425148" />
     <state width="1910" height="311" key="GridCell.Tab.0.bottom/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1762352058665" />
-    <state width="1910" height="311" key="GridCell.Tab.0.center" timestamp="1762352058665">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="952" height="312" key="GridCell.Tab.0.center" timestamp="1765128425148">
+      <screen x="-1920" y="-350" width="1920" height="1080" />
     </state>
+    <state width="952" height="312" key="GridCell.Tab.0.center/-1920.-350.1920.1080/0.0.1920.1080@-1920.-350.1920.1080" timestamp="1765128425148" />
     <state width="1910" height="311" key="GridCell.Tab.0.center/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1762352058665" />
-    <state width="1910" height="311" key="GridCell.Tab.0.left" timestamp="1762352058665">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="952" height="312" key="GridCell.Tab.0.left" timestamp="1765128425148">
+      <screen x="-1920" y="-350" width="1920" height="1080" />
     </state>
+    <state width="952" height="312" key="GridCell.Tab.0.left/-1920.-350.1920.1080/0.0.1920.1080@-1920.-350.1920.1080" timestamp="1765128425148" />
     <state width="1910" height="311" key="GridCell.Tab.0.left/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1762352058665" />
-    <state width="1910" height="311" key="GridCell.Tab.0.right" timestamp="1762352058665">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="952" height="312" key="GridCell.Tab.0.right" timestamp="1765128425148">
+      <screen x="-1920" y="-350" width="1920" height="1080" />
     </state>
+    <state width="952" height="312" key="GridCell.Tab.0.right/-1920.-350.1920.1080/0.0.1920.1080@-1920.-350.1920.1080" timestamp="1765128425148" />
     <state width="1910" height="311" key="GridCell.Tab.0.right/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1762352058665" />
+    <state x="-1366" y="-94" key="Vcs.Push.Dialog.v2" timestamp="1765128046267">
+      <screen x="-1920" y="-350" width="1920" height="1080" />
+    </state>
+    <state x="-1366" y="-94" key="Vcs.Push.Dialog.v2/-1920.-350.1920.1080/0.0.1920.1080@-1920.-350.1920.1080" timestamp="1765128046267" />
+    <state x="-1920" y="-350" width="672" height="171" key="search.everywhere.popup" timestamp="1765128076512">
+      <screen x="-1920" y="-350" width="1920" height="1080" />
+    </state>
+    <state x="-1920" y="-350" width="672" height="171" key="search.everywhere.popup/-1920.-350.1920.1080/0.0.1920.1080@-1920.-350.1920.1080" timestamp="1765128076512" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/navigation-core/src/commonMain/kotlin/com/mrboomdev/navigation/core/Current.kt" preview="true">
@@ -834,33 +946,267 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gradle.properties" preview="true">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="41" column="18" selection-start-line="41" selection-start-column="18" selection-end-line="41" selection-end-column="18" />
+    <entry file="file://$PROJECT_DIR$/navigation-jetpack/src/commonMain/kotlin/com/mrboomdev/navigation/jetpack/JetpackNavigationHost.kt" preview="true">
+      <provider selected="true" editor-type-id="android-source-code">
+        <state selected-layout="SHOW_EDITOR">
+          <editor-state relative-caret-position="282">
+            <caret line="98" lean-forward="true" selection-start-line="98" selection-end-line="98" />
+          </editor-state>
+          <multi-preview-state selected="Compose">
+            <representations>
+              <list>
+                <representation name="Compose">
+                  <settings>
+                    <setting name="previewLayout" value="Grid" />
+                    <setting name="selectedGroup" value="" />
+                  </settings>
+                </representation>
+              </list>
+            </representations>
+          </multi-preview-state>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/navigation-jetpack/src/commonMain/kotlin/com/mrboomdev/navigation/jetpack/LocalRouteInfo.kt">
       <provider selected="true" editor-type-id="android-source-code">
-        <state>
-          <editor-state relative-caret-position="256">
+        <state selected-layout="SHOW_EDITOR">
+          <editor-state relative-caret-position="280">
             <caret line="6" column="27" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
             <folding>
               <element signature="e#42#138#0" expanded="true" />
             </folding>
           </editor-state>
+          <multi-preview-state selected="Compose">
+            <representations>
+              <list>
+                <representation name="Compose">
+                  <settings>
+                    <setting name="previewLayout" value="Grid" />
+                    <setting name="selectedGroup" value="" />
+                  </settings>
+                </representation>
+              </list>
+            </representations>
+          </multi-preview-state>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/navigation-jetpack/src/commonMain/kotlin/com/mrboomdev/navigation/jetpack/JetpackNavigationHost.kt" preview="true">
+    <entry file="file://$PROJECT_DIR$/settings.gradle.kts" preview="true">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/navigation-core/src/commonMain/kotlin/com/mrboomdev/navigation/core/Navigation.kt" preview="true">
+      <provider selected="true" editor-type-id="android-source-code">
+        <state selected-layout="SHOW_EDITOR">
+          <editor-state relative-caret-position="175">
+            <caret line="6" column="20" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="20" />
+          </editor-state>
+          <multi-preview-state selected="Compose">
+            <representations>
+              <list>
+                <representation name="Compose">
+                  <settings>
+                    <setting name="previewLayout" value="Grid" />
+                    <setting name="selectedGroup" value="" />
+                  </settings>
+                </representation>
+              </list>
+            </representations>
+          </multi-preview-state>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.compose.runtime/runtime/1.10.0-rc01/e613dee4075f7bf2838b9d6e8120de8049382692/runtime-1.10.0-rc01-sources.jar!/commonMain/androidx/compose/runtime/SnapshotState.kt">
       <provider selected="true" editor-type-id="android-source-code">
         <state>
-          <editor-state relative-caret-position="160">
-            <caret line="98" selection-start-line="98" selection-end-line="98" />
+          <editor-state relative-caret-position="397">
+            <caret line="255" column="41" lean-forward="true" selection-start-line="255" selection-start-column="41" selection-end-line="255" selection-end-column="41" />
           </editor-state>
         </state>
       </provider>
     </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.compose.runtime/runtime/1.10.0-rc01/e613dee4075f7bf2838b9d6e8120de8049382692/runtime-1.10.0-rc01-sources.jar!/commonMain/androidx/compose/runtime/snapshots/Snapshot.kt">
+      <provider selected="true" editor-type-id="android-source-code">
+        <state>
+          <editor-state relative-caret-position="26">
+            <caret line="1350" lean-forward="true" selection-start-line="1350" selection-end-line="1350" />
+          </editor-state>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.compose.runtime/runtime/1.10.0-rc01/e613dee4075f7bf2838b9d6e8120de8049382692/runtime-1.10.0-rc01-sources.jar!/commonMain/androidx/compose/runtime/snapshots/SnapshotStateList.kt">
+      <provider selected="true" editor-type-id="android-source-code">
+        <state>
+          <editor-state relative-caret-position="361">
+            <caret line="35" column="11" lean-forward="true" selection-start-line="35" selection-start-column="11" selection-end-line="35" selection-end-column="11" />
+          </editor-state>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/navigation-jetpack3/src/commonMain/kotlin/com/mrboomdev/navigation/jetpack3/JetpackNavigation.kt" preview="true">
+      <provider selected="true" editor-type-id="android-source-code">
+        <state selected-layout="SHOW_EDITOR">
+          <editor-state relative-caret-position="210">
+            <caret line="6" selection-start-line="6" selection-end-line="6" />
+            <folding>
+              <element signature="e#43#206#0" expanded="true" />
+            </folding>
+          </editor-state>
+          <multi-preview-state selected="Compose">
+            <representations>
+              <list>
+                <representation name="Compose">
+                  <settings>
+                    <setting name="previewLayout" value="Grid" />
+                    <setting name="selectedGroup" value="" />
+                  </settings>
+                </representation>
+              </list>
+            </representations>
+          </multi-preview-state>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/navigation-jetpack3/src/commonMain/kotlin/com/mrboomdev/navigation/jetpack3/JetpackNavigationHost.kt" preview="true">
+      <provider selected="true" editor-type-id="android-source-code">
+        <state selected-layout="SHOW_EDITOR">
+          <editor-state relative-caret-position="441">
+            <caret line="21" column="32" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
+          </editor-state>
+          <multi-preview-state selected="Compose">
+            <representations>
+              <list>
+                <representation name="Compose">
+                  <settings>
+                    <setting name="previewLayout" value="Grid" />
+                    <setting name="selectedGroup" value="" />
+                  </settings>
+                </representation>
+              </list>
+            </representations>
+          </multi-preview-state>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/navigation-core/build.gradle.kts" preview="true">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sample/src/androidMain/kotlin/com/mrboomdev/navigation/sample/App.android.kt">
+      <provider selected="true" editor-type-id="android-source-code">
+        <state selected-layout="SHOW_EDITOR">
+          <editor-state relative-caret-position="301">
+            <caret line="11" column="46" lean-forward="true" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="46" />
+          </editor-state>
+          <multi-preview-state selected="Compose">
+            <representations>
+              <list>
+                <representation name="Compose">
+                  <settings>
+                    <setting name="previewLayout" value="Grid" />
+                    <setting name="selectedGroup" value="" />
+                  </settings>
+                </representation>
+              </list>
+            </representations>
+          </multi-preview-state>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deeplinks/build.gradle.kts" preview="true">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="19" column="43" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/navigation-jetpack/build.gradle.kts" preview="true">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="21" column="43" selection-start-line="21" selection-start-column="43" selection-end-line="21" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/navigation-jetpack3/build.gradle.kts" preview="true">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="20" column="43" selection-start-line="20" selection-start-column="43" selection-end-line="20" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gradle/libs.versions.toml" preview="true">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-260">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sample/src/commonMain/kotlin/com/mrboomdev/navigation/sample/App.kt" preview="true">
+      <provider selected="true" editor-type-id="android-source-code">
+        <state selected-layout="SHOW_EDITOR">
+          <editor-state relative-caret-position="320">
+            <caret line="81" selection-start-line="81" selection-end-line="81" />
+          </editor-state>
+          <multi-preview-state selected="Compose">
+            <representations>
+              <list>
+                <representation name="Compose">
+                  <settings>
+                    <setting name="previewLayout" value="Grid" />
+                    <setting name="selectedGroup" value="" />
+                  </settings>
+                </representation>
+              </list>
+            </representations>
+          </multi-preview-state>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sample/build.gradle.kts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gradle.properties" preview="true">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="699">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI" />
+      <state key="GlobalLibrariesConfigurable.UI" />
+      <state key="JdkListConfigurable.UI" />
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>navigation-jetpack3|Navigation</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI" />
+    </states>
   </component>
 </project>

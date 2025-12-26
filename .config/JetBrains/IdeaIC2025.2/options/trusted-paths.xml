@@ -2,11 +2,14 @@
   <component name="Trusted.Paths">
     <option name="TRUSTED_PROJECT_PATHS">
       <map>
+        <entry key="$USER_HOME$/IdeaProjects/AmaterasuCraft" value="true" />
+        <entry key="$USER_HOME$/IdeaProjects/AmaterasuCraftMod" value="true" />
         <entry key="$USER_HOME$/IdeaProjects/Awery" value="true" />
         <entry key="$USER_HOME$/IdeaProjects/AweryServer" value="true" />
         <entry key="$USER_HOME$/IdeaProjects/Navigation" value="true" />
         <entry key="$USER_HOME$/IdeaProjects/Test KMP App" value="true" />
         <entry key="$USER_HOME$/IdeaProjects/Uust" value="true" />
+        <entry key="$USER_HOME$/IdeaProjects/WebDisplays" value="true" />
         <entry key="$USER_HOME$/IdeaProjects/v2rayNG2" value="true" />
         <entry key="$USER_HOME$/IdeaProjects/v2rayNG2/V2rayNG" value="true" />
       </map>

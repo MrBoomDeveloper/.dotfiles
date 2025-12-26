@@ -26,8 +26,12 @@
             "actionType": "route",
             "domain": [
                 "developer.android.com",
+                "last.fm",
+                "uust.ru",
+                "isu.uust.ru",
+                "sdo.uust.ru",
                 "localhost",
-                "192.168.0.100",
+                "192.168.0.104",
                 "ozon.com",
                 "ir.ozone.ru",
                 "developers.google.com",

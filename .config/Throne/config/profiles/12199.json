@@ -1,0 +1,49 @@
+{
+    "bean": {
+        "_v": 0,
+        "addr": "poland.nebesniy.com",
+        "brutal_speed": 0,
+        "c_cfg": "",
+        "c_out": "",
+        "enable_brutal": false,
+        "flow": "xtls-rprx-vision",
+        "mux": 0,
+        "name": "🇵🇱 Poland",
+        "pass": "ad7a9316-1953-439a-854f-66355100a004",
+        "port": 443,
+        "stream": {
+            "alpn": "",
+            "cert": "",
+            "ed_len": 0,
+            "ed_name": "",
+            "h_type": "",
+            "headers": "",
+            "host": "",
+            "insecure": false,
+            "method": "",
+            "net": "tcp",
+            "pac_enc": "xudp",
+            "path": "",
+            "pbk": "4WI4bWzGjxTzGYpJawVWeUzqcOCm8jsjDdXXBlr2axQ",
+            "sec": "tls",
+            "sid": "a05add1ef2a1b7",
+            "sni": "ok.ru",
+            "tls_frag": false,
+            "tls_frag_fall_delay": "",
+            "tls_record_frag": false,
+            "utls": "random"
+        }
+    },
+    "country": "",
+    "dl": "",
+    "gid": 10,
+    "id": 12199,
+    "report": "",
+    "traffic": {
+        "dl": 0,
+        "ul": 0
+    },
+    "type": "vless",
+    "ul": "",
+    "yc": -1
+}

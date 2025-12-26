@@ -1,19 +1,18 @@
 {
     "bean": {
         "_v": 0,
-        "addr": "46.183.185.37",
+        "addr": "128.75.228.190",
         "brutal_speed": 0,
         "c_cfg": "",
         "c_out": "",
         "enable_brutal": false,
-        "method": "aes-256-cfb",
+        "flow": "",
         "mux": 0,
-        "name": "🇲🇰MK-46.183.185.37-0287",
-        "pass": "f8f7aCzcPKbsF8p3",
-        "plugin": "",
-        "port": 989,
+        "name": "🇷🇺 Timeweb — #15",
+        "pass": "b231b160-e095-4f3a-83c2-4534b01768c0",
+        "port": 443,
         "stream": {
-            "alpn": "",
+            "alpn": "h2,http/1.1",
             "cert": "",
             "ed_len": 0,
             "ed_name": "",
@@ -22,30 +21,29 @@
             "host": "",
             "insecure": false,
             "method": "",
-            "net": "tcp",
-            "pac_enc": "",
+            "net": "xhttp",
+            "pac_enc": "xudp",
             "path": "",
             "pbk": "",
-            "sec": "",
+            "sec": "tls",
             "sid": "",
-            "sni": "",
+            "sni": "ok.ufavpn.ru",
             "tls_frag": false,
             "tls_frag_fall_delay": "",
             "tls_record_frag": false,
-            "utls": ""
-        },
-        "uot": 0
+            "utls": "chrome"
+        }
     },
     "country": "",
     "dl": "",
-    "gid": 9,
+    "gid": 10,
     "id": 11993,
     "report": "",
     "traffic": {
         "dl": 0,
         "ul": 0
     },
-    "type": "shadowsocks",
+    "type": "vless",
     "ul": "",
-    "yc": -1
+    "yc": 0
 }

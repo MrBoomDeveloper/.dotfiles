@@ -1,0 +1,49 @@
+{
+    "bean": {
+        "_v": 0,
+        "addr": "95.163.215.93",
+        "brutal_speed": 0,
+        "c_cfg": "",
+        "c_out": "",
+        "enable_brutal": false,
+        "flow": "xtls-rprx-vision",
+        "mux": 0,
+        "name": "💎CIDR💎🇷🇺 📵 4G Мегафон/Yota 1.2⚡️#📱 Антиблок 63 | Fast, Megafon, Yota",
+        "pass": "7d8689e1-8c6f-4072-8110-80a2dcbc6461",
+        "port": 8443,
+        "stream": {
+            "alpn": "",
+            "cert": "",
+            "ed_len": 0,
+            "ed_name": "",
+            "h_type": "",
+            "headers": "",
+            "host": "",
+            "insecure": false,
+            "method": "",
+            "net": "tcp",
+            "pac_enc": "xudp",
+            "path": "",
+            "pbk": "ccfP5xSIpFgQVJIXA4Yj7fZ9Agjc9JVHvESTv3hnZjQ",
+            "sec": "tls",
+            "sid": "62094d6a0b771c25",
+            "sni": "api-maps.yandex.ru",
+            "tls_frag": false,
+            "tls_frag_fall_delay": "",
+            "tls_record_frag": false,
+            "utls": "qq"
+        }
+    },
+    "country": "",
+    "dl": "",
+    "gid": 10,
+    "id": 12079,
+    "report": "",
+    "traffic": {
+        "dl": 0,
+        "ul": 0
+    },
+    "type": "vless",
+    "ul": "",
+    "yc": -1
+}

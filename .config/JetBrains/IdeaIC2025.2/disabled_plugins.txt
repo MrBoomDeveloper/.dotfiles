@@ -3,6 +3,7 @@ HtmlTools
 PerforceDirectPlugin
 Subversion
 TestNG-J
+com.codeium.intellij
 com.intellij.copyright
 com.intellij.ja
 com.intellij.java-i18n
@@ -27,7 +28,6 @@ org.intellij.qodana
 org.jetbrains.completion.full.line
 org.jetbrains.debugger.streams
 org.jetbrains.idea.eclipse
-org.jetbrains.idea.maven
 org.jetbrains.plugins.gitlab
 org.jetbrains.plugins.javaFX
 org.jetbrains.plugins.kotlin.jupyter

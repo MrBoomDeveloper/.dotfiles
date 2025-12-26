@@ -1,0 +1,51 @@
+{
+    "bean": {
+        "_v": 0,
+        "addr": "190.103.176.32",
+        "brutal_speed": 0,
+        "c_cfg": "",
+        "c_out": "",
+        "enable_brutal": false,
+        "method": "chacha20-ietf-poly1305",
+        "mux": 0,
+        "name": "🇦🇷AR-190.103.176.32-0387",
+        "pass": "ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=",
+        "plugin": "",
+        "port": 990,
+        "stream": {
+            "alpn": "",
+            "cert": "",
+            "ed_len": 0,
+            "ed_name": "",
+            "h_type": "",
+            "headers": "",
+            "host": "",
+            "insecure": false,
+            "method": "",
+            "net": "tcp",
+            "pac_enc": "",
+            "path": "",
+            "pbk": "",
+            "sec": "",
+            "sid": "",
+            "sni": "",
+            "tls_frag": false,
+            "tls_frag_fall_delay": "",
+            "tls_record_frag": false,
+            "utls": ""
+        },
+        "uot": 0
+    },
+    "country": "",
+    "dl": "",
+    "gid": 9,
+    "id": 12555,
+    "report": "",
+    "traffic": {
+        "dl": 0,
+        "ul": 0
+    },
+    "type": "shadowsocks",
+    "ul": "",
+    "yc": -1
+}

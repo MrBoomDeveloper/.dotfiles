@@ -1,0 +1,33 @@
+---
+import Html from "@layouts/Html.astro";
+import Header from "@components/Header.astro";
+import { getLocaleFromUrl, localeStaticPaths, useTranslations } from "@i18n/translate";
+import Footer from "@components/Footer.astro";
+import ContactForm from "@components/ContactForm.astro";
+export const getStaticPaths = localeStaticPaths
+
+const locale = getLocaleFromUrl(Astro.url);
+const t = useTranslations(locale);
+---
+
+<Html title={t("contact_me")} description="A new way of enjoying anime">
+	<Header />
+    <ContactForm />
+	<Footer />
+</Html>
+
+<style>
+    width: 100%;
+		display: flex;
+		justify-content: center;
+
+		&.section-dim {
+			background-color: rgba(0, 0, 0, .2);
+		}
+
+		.section-content {
+			width: 100%;
+			max-width: 800px;
+			padding: 1rem;
+		}
+</style>

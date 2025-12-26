@@ -17,54 +17,16 @@
     </option>
   </component>
   <component name="FileEditorManager">
-    <leaf ideFingerprint="1iysxnmv46rt3" SIDE_TABS_SIZE_LIMIT_KEY="-1">
-      <file>
-        <entry file="file://$PROJECT_DIR$/data/src/commonMain/kotlin/com/mrboomdev/awery/data/settings/AwerySettings.kt" file-id="677885" managing-fs="1763754416123">
-          <provider editor-type-id="android-source-code" selected="true">
-            <state>
-              <editor-state relative-caret-position="1295">
-                <caret line="31" column="39" selection-start-line="31" selection-start-column="39" selection-end-line="31" selection-end-column="39" />
-              </editor-state>
-              <multi-preview-state selected="Compose">
-                <representations>
-                  <list>
-                    <representation name="Compose">
-                      <settings>
-                        <setting name="previewLayout" value="Grid" />
-                        <setting name="selectedGroup" value="" />
-                      </settings>
-                    </representation>
-                  </list>
-                </representations>
-              </multi-preview-state>
-            </state>
-          </provider>
-        </entry>
-        <tab><![CDATA[{"tabTitle":"AwerySettings.kt","foregroundColor":-3287308,"textAttributes":{"name":"a"},"icon":[10,57,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,82,97,115,116,101,114,105,122,101,100,73,109,97,103,101,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,-120,1,10,48,111,114,103,47,106,101,116,98,114,97,105,110,115,47,107,111,116,108,105,110,47,105,100,101,97,47,105,99,111,110,115,47,111,98,106,101,99,116,75,111,116,108,105,110,46,115,118,103,18,54,111,114,103,47,106,101,116,98,114,97,105,110,115,47,107,111,116,108,105,110,47,105,100,101,97,47,105,99,111,110,115,47,101,120,112,117,105,47,111,98,106,101,99,116,75,111,116,108,105,110,46,115,118,103,26,20,111,114,103,46,106,101,116,98,114,97,105,110,115,46,107,111,116,108,105,110,40,-28,-44,-33,-100,3,48,0]}]]></tab>
-      </file>
+    <leaf ideFingerprint="10k2069keaxb9" SIDE_TABS_SIZE_LIMIT_KEY="-1">
       <file current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ui/src/commonMain/kotlin/com/mrboomdev/awery/ui/App.kt" file-id="677884" managing-fs="1763754416123">
-          <provider editor-type-id="android-source-code" selected="true">
-            <state>
-              <editor-state relative-caret-position="732">
-                <caret line="158" column="12" selection-start-line="158" selection-start-column="12" selection-end-line="158" selection-end-column="12" />
-              </editor-state>
+        <entry file="file://$PROJECT_DIR$/app/build.gradle.kts" file-id="674149" managing-fs="1763754416123">
+          <provider editor-type-id="text-editor" selected="true">
+            <state relative-caret-position="560">
+              <caret line="33" column="50" selection-start-line="33" selection-start-column="50" selection-end-line="33" selection-end-column="50" />
             </state>
           </provider>
         </entry>
-        <tab><![CDATA[{"tabTitle":"App.kt","foregroundColor":-3287308,"textAttributes":{"name":"a"},"icon":[10,57,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,82,97,115,116,101,114,105,122,101,100,73,109,97,103,101,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,-122,1,10,47,111,114,103,47,106,101,116,98,114,97,105,110,115,47,107,111,116,108,105,110,47,105,100,101,97,47,105,99,111,110,115,47,107,111,116,108,105,110,95,102,105,108,101,46,115,118,103,18,48,111,114,103,47,106,101,116,98,114,97,105,110,115,47,107,111,116,108,105,110,47,105,100,101,97,47,105,99,111,110,115,47,101,120,112,117,105,47,107,111,116,108,105,110,46,115,118,103,26,20,111,114,103,46,106,101,116,98,114,97,105,110,115,46,107,111,116,108,105,110,40,-98,-111,-47,-25,-8,-1,-1,-1,-1,1,48,0]}]]></tab>
-      </file>
-      <file>
-        <entry file="file://$PROJECT_DIR$/ui/src/commonMain/kotlin/com/mrboomdev/awery/ui/navigation/Routes.kt" file-id="677888" managing-fs="1763754416123">
-          <provider editor-type-id="android-source-code" selected="true">
-            <state>
-              <editor-state relative-caret-position="2415">
-                <caret line="83" selection-start-line="83" selection-end-line="83" />
-              </editor-state>
-            </state>
-          </provider>
-        </entry>
-        <tab><![CDATA[{"tabTitle":"Routes.kt","foregroundColor":-3287308,"textAttributes":{"name":"a"},"icon":[10,57,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,82,97,115,116,101,114,105,122,101,100,73,109,97,103,101,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,-122,1,10,47,111,114,103,47,106,101,116,98,114,97,105,110,115,47,107,111,116,108,105,110,47,105,100,101,97,47,105,99,111,110,115,47,107,111,116,108,105,110,95,102,105,108,101,46,115,118,103,18,48,111,114,103,47,106,101,116,98,114,97,105,110,115,47,107,111,116,108,105,110,47,105,100,101,97,47,105,99,111,110,115,47,101,120,112,117,105,47,107,111,116,108,105,110,46,115,118,103,26,20,111,114,103,46,106,101,116,98,114,97,105,110,115,46,107,111,116,108,105,110,40,-98,-111,-47,-25,-8,-1,-1,-1,-1,1,48,0]}]]></tab>
+        <tab>{&quot;tabTitle&quot;:&quot;build.gradle.kts (:app)&quot;,&quot;foregroundColor&quot;:-7752454,&quot;textAttributes&quot;:{&quot;name&quot;:&quot;a&quot;,&quot;children&quot;:[{&quot;name&quot;:&quot;option&quot;,&quot;attributes&quot;:{&quot;name&quot;:&quot;FOREGROUND&quot;,&quot;value&quot;:&quot;89b4fa&quot;}}]},&quot;icon&quot;:[10,57,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,82,97,115,116,101,114,105,122,101,100,73,109,97,103,101,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,-106,1,10,56,111,114,103,47,106,101,116,98,114,97,105,110,115,47,107,111,116,108,105,110,47,105,100,101,97,47,105,99,111,110,115,47,107,111,116,108,105,110,95,103,114,97,100,108,101,95,115,99,114,105,112,116,46,115,118,103,18,60,111,114,103,47,106,101,116,98,114,97,105,110,115,47,107,111,116,108,105,110,47,105,100,101,97,47,105,99,111,110,115,47,101,120,112,117,105,47,107,111,116,108,105,110,71,114,97,100,108,101,83,99,114,105,112,116,46,115,118,103,26,20,111,114,103,46,106,101,116,98,114,97,105,110,115,46,107,111,116,108,105,110,40,-24,-65,-15,-112,2,48,0]}</tab>
       </file>
     </leaf>
   </component>
@@ -75,16 +37,16 @@
       "lastUsed": 1760887855064
     },
     "Kotlin": {
-      "usageCount": 463,
-      "lastUsed": 1763984291902
+      "usageCount": 481,
+      "lastUsed": 1765203990063
     },
     "CLASS": {
       "usageCount": 3,
       "lastUsed": 1761659311515
     },
     "TOML": {
-      "usageCount": 1,
-      "lastUsed": 1761218490780
+      "usageCount": 5,
+      "lastUsed": 1765129162746
     },
     "XML": {
       "usageCount": 13,
@@ -113,6 +75,10 @@
     "JAVA": {
       "usageCount": 1,
       "lastUsed": 1763310242614
+    },
+    "Properties": {
+      "usageCount": 1,
+      "lastUsed": 1765128862019
     }
   }
 }]]></component>
@@ -142,12 +108,6 @@
   <component name="GitSEFilterConfiguration">{}</component>
   <component name="IdeDocumentHistory">{
   &quot;changedPaths&quot;: [
-    &quot;/home/mrboomdev/IdeaProjects/Awery/core/src/androidMain/kotlin/com/mrboomdev/awery/core/utils/AndroidUtils.kt&quot;,
-    &quot;/home/mrboomdev/IdeaProjects/Awery/core/src/androidMain/kotlin/com/mrboomdev/awery/core/utils/PermissionUtils.kt&quot;,
-    &quot;/home/mrboomdev/IdeaProjects/Awery/ui/src/commonMain/kotlin/com/mrboomdev/awery/ui/components/ContextMenu.kt&quot;,
-    &quot;/home/mrboomdev/IdeaProjects/Awery/resources/src/commonMain/composeResources/drawable/ic_paste_outlined.xml&quot;,
-    &quot;/home/mrboomdev/IdeaProjects/Awery/resources/src/commonMain/composeResources/drawable/ic_cut_outlined.xml&quot;,
-    &quot;/home/mrboomdev/IdeaProjects/Awery/resources/src/commonMain/composeResources/drawable/ic_copy_outlined.xml&quot;,
     &quot;/home/mrboomdev/IdeaProjects/Awery/resources/src/commonMain/composeResources/drawable/ic_select_all.xml&quot;,
     &quot;/home/mrboomdev/IdeaProjects/Awery/app/src/desktopMain/kotlin/com/mrboomdev/awery/app/Main.kt&quot;,
     &quot;/home/mrboomdev/IdeaProjects/Awery/ui/src/commonMain/kotlin/com/mrboomdev/awery/ui/screens/settings/pages/SettingsExtensionsPage.kt&quot;,
@@ -177,10 +137,7 @@
     &quot;/home/mrboomdev/IdeaProjects/Awery/ui/src/commonMain/kotlin/com/mrboomdev/awery/ui/screens/search/SearchScreen.kt&quot;,
     &quot;/home/mrboomdev/IdeaProjects/Awery/ui/src/commonMain/kotlin/com/mrboomdev/awery/ui/screens/media/MediaScreen.kt&quot;,
     &quot;/home/mrboomdev/IdeaProjects/Awery/ui/src/commonMain/kotlin/com/mrboomdev/awery/ui/screens/home/HomeScreen.kt&quot;,
-    &quot;/home/mrboomdev/IdeaProjects/Awery/ui/src/commonMain/kotlin/com/mrboomdev/awery/ui/screens/history/HistoryScreen.kt&quot;,
     &quot;/home/mrboomdev/IdeaProjects/Awery/ui/src/commonMain/kotlin/com/mrboomdev/awery/ui/screens/settings/pages/SettingsMainPage.kt&quot;,
-    &quot;/home/mrboomdev/IdeaProjects/Awery/ui/src/commonMain/kotlin/com/mrboomdev/awery/ui/navigation/RouteInfo.kt&quot;,
-    &quot;/home/mrboomdev/IdeaProjects/Awery/ui/src/commonMain/kotlin/com/mrboomdev/awery/ui/navigation/RouteInfoEffect.kt&quot;,
     &quot;/home/mrboomdev/IdeaProjects/Awery/ui/src/commonMain/kotlin/com/mrboomdev/awery/ui/screens/settings/SettingsScreen.kt&quot;,
     &quot;/home/mrboomdev/IdeaProjects/Awery/ui/src/androidMain/kotlin/com/mrboomdev/awery/ui/screens/media/MediaScreen.android.kt&quot;,
     &quot;/home/mrboomdev/IdeaProjects/Awery/ui/src/desktopMain/kotlin/com/mrboomdev/awery/ui/screens/media/MediaScreen.desktop.kt&quot;,
@@ -192,7 +149,16 @@
     &quot;/home/mrboomdev/IdeaProjects/Awery/ui/src/commonMain/kotlin/com/mrboomdev/awery/ui/screens/browser/BrowserScreen.kt&quot;,
     &quot;/home/mrboomdev/IdeaProjects/Awery/ui/src/commonMain/kotlin/com/mrboomdev/awery/ui/screens/notifications/NotificationsScreen.kt&quot;,
     &quot;/home/mrboomdev/IdeaProjects/Awery/ui/src/commonMain/kotlin/com/mrboomdev/awery/ui/navigation/Routes.kt&quot;,
-    &quot;/home/mrboomdev/IdeaProjects/Awery/ui/src/commonMain/kotlin/com/mrboomdev/awery/ui/App.kt&quot;
+    &quot;/home/mrboomdev/IdeaProjects/Awery/ui/src/commonMain/kotlin/com/mrboomdev/awery/ui/navigation/RouteInfo.kt&quot;,
+    &quot;/home/mrboomdev/IdeaProjects/Awery/ui/src/commonMain/kotlin/com/mrboomdev/awery/ui/App.kt&quot;,
+    &quot;/home/mrboomdev/IdeaProjects/Awery/gradle/android.versions.toml&quot;,
+    &quot;/home/mrboomdev/IdeaProjects/Awery/gradle/libs.versions.toml&quot;,
+    &quot;/home/mrboomdev/IdeaProjects/Awery/gradle.properties&quot;,
+    &quot;/home/mrboomdev/IdeaProjects/Awery/ui/src/commonMain/kotlin/com/mrboomdev/awery/ui/navigation/RouteInfoEffect.kt&quot;,
+    &quot;/home/mrboomdev/IdeaProjects/Awery/ui/build.gradle.kts&quot;,
+    &quot;/home/mrboomdev/IdeaProjects/Awery/gradle/compose.versions.toml&quot;,
+    &quot;/home/mrboomdev/IdeaProjects/Awery/ui/src/commonMain/kotlin/com/mrboomdev/awery/ui/screens/history/HistoryScreen.kt&quot;,
+    &quot;/home/mrboomdev/IdeaProjects/Awery/app/build.gradle.kts&quot;
   ]
 }</component>
   <component name="IgnoredFileRootStore">
@@ -212,14 +178,17 @@
     <language id="Markdown">
       <summary usageCount="1" lastUsage="1760887855065" />
     </language>
+    <language id="Properties">
+      <summary usageCount="1" lastUsage="1765128862019" />
+    </language>
     <language id="TOML">
-      <summary usageCount="1" lastUsage="1761218490780" />
+      <summary usageCount="5" lastUsage="1765129162746" />
     </language>
     <language id="XML">
       <summary usageCount="13" lastUsage="1763191641416" />
     </language>
     <language id="kotlin">
-      <summary usageCount="463" lastUsage="1763984291902" />
+      <summary usageCount="481" lastUsage="1765203990066" />
     </language>
   </component>
   <component name="ProjectView">
@@ -879,7 +848,7 @@
                                       <entry key="filePath" value="$PROJECT_DIR$/core/src/commonMain/kotlin/com/mrboomdev/awery/core/utils/PlatformSdk.kt" />
                                     </map>
                                   </attributes>
-                                  <data iconPath="org/jetbrains/kotlin/idea/icons/annotationKotlin.svg" iconPlugin="org.jetbrains.kotlin" isLeaf="true" text="PlatformSdk" />
+                                  <data iconPath="org/jetbrains/kotlin/idea/icons/expui/annotationKotlin.svg" iconPlugin="org.jetbrains.kotlin" isLeaf="true" text="PlatformSdk" />
                                   <item name="PlatformSdk" type="2c5a2ef7:KtClassOrObjectTreeNode" />
                                 </presentation>
                                 <presentation>
@@ -950,7 +919,7 @@
                       <entry key="filePath" value="$PROJECT_DIR$/core/build.gradle.kts" />
                     </map>
                   </attributes>
-                  <data iconPath="org/jetbrains/kotlin/idea/icons/expui/kotlinGradleScript.svg" iconPlugin="org.jetbrains.kotlin" isLeaf="true" text="build.gradle.kts" />
+                  <data iconPath="org/jetbrains/kotlin/idea/icons/kotlin_gradle_script.svg" iconPlugin="org.jetbrains.kotlin" isLeaf="true" text="build.gradle.kts" />
                   <item name="build.gradle.kts" type="24436e51:KtFileTreeNode" />
                 </presentation>
               </presentation>
@@ -1130,7 +1099,7 @@
                                         <entry key="filePath" value="$PROJECT_DIR$/extension/loaders/src/commonMain/kotlin/eu/kanade/tachiyomi/animesource/model/AnimeUpdateStrategy.kt" />
                                       </map>
                                     </attributes>
-                                    <data iconPath="org/jetbrains/kotlin/idea/icons/enumKotlin.svg" iconPlugin="org.jetbrains.kotlin" isLeaf="true" text="AnimeUpdateStrategy" />
+                                    <data iconPath="org/jetbrains/kotlin/idea/icons/expui/enumKotlin.svg" iconPlugin="org.jetbrains.kotlin" isLeaf="true" text="AnimeUpdateStrategy" />
                                     <item name="AnimeUpdateStrategy" type="2c5a2ef7:KtClassOrObjectTreeNode" />
                                   </presentation>
                                   <presentation>
@@ -1291,7 +1260,7 @@
                         <entry key="filePath" value="$PROJECT_DIR$/extension/loaders/build.gradle.kts" />
                       </map>
                     </attributes>
-                    <data iconPath="org/jetbrains/kotlin/idea/icons/expui/kotlinGradleScript.svg" iconPlugin="org.jetbrains.kotlin" isLeaf="true" text="build.gradle.kts" />
+                    <data iconPath="org/jetbrains/kotlin/idea/icons/kotlin_gradle_script.svg" iconPlugin="org.jetbrains.kotlin" isLeaf="true" text="build.gradle.kts" />
                     <item name="build.gradle.kts" type="24436e51:KtFileTreeNode" />
                   </presentation>
                 </presentation>
@@ -1891,7 +1860,7 @@
                               <entry key="filePath" value="$PROJECT_DIR$/resources/src/commonMain/composeResources/drawable/logo_aniyomi.png" />
                             </map>
                           </attributes>
-                          <data iconPath="expui/fileTypes/image.svg" iconPlugin="com.intellij" isLeaf="true" text="logo_aniyomi.png" />
+                          <data iconPath="fileTypes/image.svg" iconPlugin="com.intellij" isLeaf="true" text="logo_aniyomi.png" />
                           <item name="logo_aniyomi.png" type="ab9368bb:PsiFileNode" />
                         </presentation>
                         <presentation>
@@ -1900,7 +1869,7 @@
                               <entry key="filePath" value="$PROJECT_DIR$/resources/src/commonMain/composeResources/drawable/logo_awery.png" />
                             </map>
                           </attributes>
-                          <data iconPath="expui/fileTypes/image.svg" iconPlugin="com.intellij" isLeaf="true" text="logo_awery.png" />
+                          <data iconPath="fileTypes/image.svg" iconPlugin="com.intellij" isLeaf="true" text="logo_awery.png" />
                           <item name="logo_awery.png" type="ab9368bb:PsiFileNode" />
                         </presentation>
                         <presentation>
@@ -1909,7 +1878,7 @@
                               <entry key="filePath" value="$PROJECT_DIR$/resources/src/commonMain/composeResources/drawable/logo_dantotsu.png" />
                             </map>
                           </attributes>
-                          <data iconPath="expui/fileTypes/image.svg" iconPlugin="com.intellij" isLeaf="true" text="logo_dantotsu.png" />
+                          <data iconPath="fileTypes/image.svg" iconPlugin="com.intellij" isLeaf="true" text="logo_dantotsu.png" />
                           <item name="logo_dantotsu.png" type="ab9368bb:PsiFileNode" />
                         </presentation>
                         <presentation>
@@ -1936,7 +1905,7 @@
                               <entry key="filePath" value="$PROJECT_DIR$/resources/src/commonMain/composeResources/drawable/logo_tachiyomi.jpg" />
                             </map>
                           </attributes>
-                          <data iconPath="expui/fileTypes/image.svg" iconPlugin="com.intellij" isLeaf="true" text="logo_tachiyomi.jpg" />
+                          <data iconPath="fileTypes/image.svg" iconPlugin="com.intellij" isLeaf="true" text="logo_tachiyomi.jpg" />
                           <item name="logo_tachiyomi.jpg" type="ab9368bb:PsiFileNode" />
                         </presentation>
                         <presentation>
@@ -1954,7 +1923,7 @@
                               <entry key="filePath" value="$PROJECT_DIR$/resources/src/commonMain/composeResources/drawable/poster_no_image.jpg" />
                             </map>
                           </attributes>
-                          <data iconPath="expui/fileTypes/image.svg" iconPlugin="com.intellij" isLeaf="true" text="poster_no_image.jpg" />
+                          <data iconPath="fileTypes/image.svg" iconPlugin="com.intellij" isLeaf="true" text="poster_no_image.jpg" />
                           <item name="poster_no_image.jpg" type="ab9368bb:PsiFileNode" />
                         </presentation>
                       </presentation>
@@ -2291,7 +2260,7 @@
                       <entry key="filePath" value="$PROJECT_DIR$/resources/build.gradle.kts" />
                     </map>
                   </attributes>
-                  <data iconPath="org/jetbrains/kotlin/idea/icons/expui/kotlinGradleScript.svg" iconPlugin="org.jetbrains.kotlin" isLeaf="true" text="build.gradle.kts" />
+                  <data iconPath="org/jetbrains/kotlin/idea/icons/kotlin_gradle_script.svg" iconPlugin="org.jetbrains.kotlin" isLeaf="true" text="build.gradle.kts" />
                   <item name="build.gradle.kts" type="24436e51:KtFileTreeNode" />
                 </presentation>
               </presentation>
@@ -2660,7 +2629,7 @@
                       <entry key="filePath" value="$PROJECT_DIR$/ui/build.gradle.kts" />
                     </map>
                   </attributes>
-                  <data iconPath="org/jetbrains/kotlin/idea/icons/expui/kotlinGradleScript.svg" iconPlugin="org.jetbrains.kotlin" isLeaf="true" text="build.gradle.kts" />
+                  <data iconPath="org/jetbrains/kotlin/idea/icons/kotlin_gradle_script.svg" iconPlugin="org.jetbrains.kotlin" isLeaf="true" text="build.gradle.kts" />
                   <item name="build.gradle.kts" type="24436e51:KtFileTreeNode" />
                 </presentation>
               </presentation>
@@ -2679,7 +2648,7 @@
                     <entry key="filePath" value="$PROJECT_DIR$/.gitattributes" />
                   </map>
                 </attributes>
-                <data iconPath="expui/fileTypes/text.svg" iconPlugin="com.intellij" isLeaf="true" text=".gitattributes" />
+                <data iconPath="expui/fileTypes/unknown.svg" iconPlugin="com.intellij" isLeaf="true" text=".gitattributes" />
                 <item name=".gitattributes" type="ab9368bb:PsiFileNode" />
               </presentation>
               <presentation>
@@ -2697,7 +2666,7 @@
                     <entry key="filePath" value="$PROJECT_DIR$/app_icon.ico" />
                   </map>
                 </attributes>
-                <data iconPath="expui/fileTypes/image.svg" iconPlugin="com.intellij" isLeaf="true" text="app_icon.ico" />
+                <data iconPath="fileTypes/image.svg" iconPlugin="com.intellij" isLeaf="true" text="app_icon.ico" />
                 <item name="app_icon.ico" type="ab9368bb:PsiFileNode" />
               </presentation>
               <presentation>
@@ -2706,7 +2675,7 @@
                     <entry key="filePath" value="$PROJECT_DIR$/build.gradle.kts" />
                   </map>
                 </attributes>
-                <data iconPath="org/jetbrains/kotlin/idea/icons/expui/kotlinGradleScript.svg" iconPlugin="org.jetbrains.kotlin" isLeaf="true" text="build.gradle.kts" />
+                <data iconPath="org/jetbrains/kotlin/idea/icons/kotlin_gradle_script.svg" iconPlugin="org.jetbrains.kotlin" isLeaf="true" text="build.gradle.kts" />
                 <item name="build.gradle.kts" type="24436e51:KtFileTreeNode" />
               </presentation>
               <presentation>
@@ -2733,7 +2702,7 @@
                     <entry key="filePath" value="$PROJECT_DIR$/gradlew" />
                   </map>
                 </attributes>
-                <data iconPath="expui/fileTypes/text.svg" iconPlugin="com.intellij" isLeaf="true" text="gradlew" />
+                <data iconPath="expui/fileTypes/unknown.svg" iconPlugin="com.intellij" isLeaf="true" text="gradlew" />
                 <item name="gradlew" type="ab9368bb:PsiFileNode" />
               </presentation>
               <presentation>
@@ -2742,7 +2711,7 @@
                     <entry key="filePath" value="$PROJECT_DIR$/gradlew.bat" />
                   </map>
                 </attributes>
-                <data iconPath="expui/fileTypes/text.svg" iconPlugin="com.intellij" isLeaf="true" text="gradlew.bat" />
+                <data iconPath="expui/fileTypes/unknown.svg" iconPlugin="com.intellij" isLeaf="true" text="gradlew.bat" />
                 <item name="gradlew.bat" type="ab9368bb:PsiFileNode" />
               </presentation>
               <presentation>
@@ -2778,7 +2747,7 @@
                     <entry key="filePath" value="$PROJECT_DIR$/settings.gradle.kts" />
                   </map>
                 </attributes>
-                <data iconPath="org/jetbrains/kotlin/idea/icons/expui/kotlinGradleScript.svg" iconPlugin="org.jetbrains.kotlin" isLeaf="true" text="settings.gradle.kts" />
+                <data iconPath="org/jetbrains/kotlin/idea/icons/kotlin_gradle_script.svg" iconPlugin="org.jetbrains.kotlin" isLeaf="true" text="settings.gradle.kts" />
                 <item name="settings.gradle.kts" type="24436e51:KtFileTreeNode" />
               </presentation>
             </presentation>
@@ -2835,7 +2804,14 @@
     </tool-windows>
   </component>
   <component name="TerminalArrangementManager">
-    <option name="mySelectedTabIndex" value="-1" />
+    <option name="myTabStates">
+      <TerminalTabState tabName="Local" />
+    </option>
+  </component>
+  <component name="TerminalTabsStorage">
+    <option name="tabs">
+      <TerminalSessionPersistedTab name="Local" workingDirectory="$PROJECT_DIR$" />
+    </option>
   </component>
   <component name="ToolWindowManager">
     <layoutV2>
@@ -2843,7 +2819,7 @@
       <window_info id="Backup and Sync History" show_stripe_button="false" />
       <window_info id="Pull Requests" show_stripe_button="false" />
       <window_info content_ui="combo" id="Project" order="0" weight="0.2013089" />
-      <window_info active="true" id="Commit" order="1" visible="true" weight="0.2013089" />
+      <window_info id="Commit" order="1" weight="0.2013089" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info id="Build Variants" order="3" side_tool="true" />
       <window_info id="Resources Explorer" order="4" />
@@ -2851,15 +2827,16 @@
       <window_info anchor="bottom" id="Version Control" order="0" weight="0.5612934" />
       <window_info anchor="bottom" id="Problems" order="1" />
       <window_info anchor="bottom" id="Problems View" order="2" weight="0.32933843" />
-      <window_info anchor="bottom" id="Terminal" order="3" weight="0.32932693" />
+      <window_info anchor="bottom" id="Terminal" order="3" weight="0.33029723" />
       <window_info anchor="bottom" id="Services" order="4" weight="0.33028847" />
-      <window_info anchor="bottom" x="5" y="32" width="1910" height="1043" id="Build" order="5" show_stripe_button="false" type="WINDOWED" weight="0.32933843" />
+      <window_info active="true" anchor="bottom" x="-960" y="-381" width="664" height="1042" id="Build" maximized="true" order="5" type="WINDOWED" weight="0.33029723" />
       <window_info anchor="bottom" id="Android Profiler" order="6" />
       <window_info anchor="bottom" id="App Inspection" order="7" />
       <window_info active="true" anchor="bottom" x="1925" y="32" width="1910" height="1043" id="Logcat" order="8" type="WINDOWED" weight="0.32933843" />
       <window_info anchor="bottom" x="5" y="35" width="1910" height="1040" id="Run" order="9" show_stripe_button="false" type="WINDOWED" weight="0.32932693" />
       <window_info anchor="bottom" id="Find" order="10" show_stripe_button="false" weight="0.32933843" />
       <window_info anchor="bottom" id="Windsurf Console" order="11" />
+      <window_info anchor="bottom" id="Upgrade Assistant" order="12" weight="0.33029723" />
       <window_info anchor="right" id="documentation.v2" show_stripe_button="false" side_tool="true" />
       <window_info anchor="right" id="Coverage" show_stripe_button="false" side_tool="true" />
       <window_info anchor="right" id="Layout Validation" />
@@ -2873,20 +2850,21 @@
       <window_info anchor="right" id="Device Explorer" order="6" side_tool="true" />
       <window_info anchor="right" id="Device Manager 2" order="7" sideWeight="0.500497" weight="0.33035713" />
       <window_info anchor="right" id="Cascade" order="8" weight="0.3301047" />
-      <unified_weights bottom="0.32933843" left="0.2013089" right="0.3301047" />
+      <unified_weights bottom="0.33029723" left="0.2013089" right="0.3301047" />
     </layoutV2>
     <recentWindows>
-      <value>Commit</value>
       <value>Cascade</value>
+      <value>Build</value>
+      <value>Terminal</value>
+      <value>Upgrade Assistant</value>
+      <value>Project</value>
+      <value>Commit</value>
       <value>Find</value>
       <value>Problems View</value>
-      <value>Build</value>
-      <value>Project</value>
       <value>Device Manager 2</value>
       <value>Logcat</value>
       <value>Run</value>
       <value>Running Devices</value>
-      <value>Terminal</value>
       <value>Version Control</value>
       <value>Services</value>
     </recentWindows>
@@ -2938,6 +2916,10 @@
     </state>
     <state width="1910" height="1008" key="GridCell.Tab.0.right/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1762308010579" />
     <state width="1910" height="1008" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1763109687209" />
+    <state x="-1378" y="-90" width="826" height="555" key="IDE.errors.dialog" timestamp="1765128519724">
+      <screen x="-1920" y="-350" width="1920" height="1080" />
+    </state>
+    <state x="-1378" y="-90" width="826" height="555" key="IDE.errors.dialog/-1920.-350.1920.1080/0.0.1920.1080@-1920.-350.1920.1080" timestamp="1765128519724" />
     <state x="469" y="205" key="SettingsEditor" timestamp="1762083905005">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -2965,121 +2947,15 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="130" y="287" width="700" height="530" key="recent.locations.popup/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1763400942567" />
-    <state x="766" y="220" width="813" height="687" key="search.everywhere.popup" timestamp="1763405846474">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state x="-1920" y="-350" width="672" height="171" key="search.everywhere.popup" timestamp="1765129566982">
+      <screen x="-1920" y="-350" width="1920" height="1080" />
     </state>
+    <state x="-1920" y="-350" width="672" height="171" key="search.everywhere.popup/-1920.-350.1920.1080/0.0.1920.1080@-1920.-350.1920.1080" timestamp="1765129566982" />
     <state x="766" y="220" width="813" height="687" key="search.everywhere.popup/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1763405846474" />
     <state x="2664" y="225" width="674" height="681" key="search.everywhere.popup/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1763313622181" />
     <state x="766" y="220" width="844" height="689" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1763293512249" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/data/src/commonMain/kotlin/com/mrboomdev/awery/data/database/AweryHistoryDatabase.kt">
-      <provider selected="true" editor-type-id="android-source-code">
-        <state selected-layout="SHOW_EDITOR">
-          <editor-state relative-caret-position="325">
-            <caret line="17" column="39" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
-            <folding>
-              <element signature="e#43#349#0" expanded="true" />
-            </folding>
-          </editor-state>
-          <multi-preview-state selected="Compose">
-            <representations>
-              <list>
-                <representation name="Compose">
-                  <settings>
-                    <setting name="previewLayout" value="Grid" />
-                    <setting name="selectedGroup" value="" />
-                  </settings>
-                </representation>
-              </list>
-            </representations>
-          </multi-preview-state>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/src/commonMain/kotlin/com/mrboomdev/awery/data/database/AweryDatabase.kt" preview="true">
-      <provider selected="true" editor-type-id="android-source-code">
-        <state selected-layout="SHOW_EDITOR">
-          <editor-state relative-caret-position="253">
-            <caret line="30" column="28" selection-start-line="30" selection-start-column="28" selection-end-line="30" selection-end-column="28" />
-          </editor-state>
-          <multi-preview-state selected="Compose">
-            <representations>
-              <list>
-                <representation name="Compose">
-                  <settings>
-                    <setting name="previewLayout" value="Grid" />
-                    <setting name="selectedGroup" value="" />
-                  </settings>
-                </representation>
-              </list>
-            </representations>
-          </multi-preview-state>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/src/commonMain/kotlin/com/mrboomdev/awery/data/database/DBTypeConverters.kt">
-      <provider selected="true" editor-type-id="android-source-code">
-        <state>
-          <editor-state relative-caret-position="784">
-            <caret line="24" column="42" selection-start-line="24" selection-start-column="42" selection-end-line="24" selection-end-column="42" />
-          </editor-state>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/extension/loaders/src/commonMain/kotlin/com/mrboomdev/awery/extension/loaders/yomi/YomiPreferences.kt">
-      <provider selected="true" editor-type-id="android-source-code">
-        <state selected-layout="SHOW_EDITOR">
-          <editor-state relative-caret-position="192">
-            <caret line="6" column="53" selection-start-line="6" selection-start-column="53" selection-end-line="6" selection-end-column="53" />
-          </editor-state>
-          <multi-preview-state selected="Compose">
-            <representations>
-              <list>
-                <representation name="Compose">
-                  <settings>
-                    <setting name="previewLayout" value="Grid" />
-                    <setting name="selectedGroup" value="" />
-                  </settings>
-                </representation>
-              </list>
-            </representations>
-          </multi-preview-state>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ui/src/commonMain/kotlin/com/mrboomdev/awery/ui/screens/settings/Setting.kt">
-      <provider selected="true" editor-type-id="android-source-code">
-        <state selected-layout="SHOW_EDITOR">
-          <editor-state relative-caret-position="773">
-            <caret line="228" column="96" selection-start-line="228" selection-start-column="96" selection-end-line="228" selection-end-column="96" />
-          </editor-state>
-          <multi-preview-state selected="Compose">
-            <representations>
-              <list>
-                <representation name="Compose">
-                  <settings>
-                    <setting name="previewLayout" value="Grid" />
-                    <setting name="selectedGroup" value="" />
-                  </settings>
-                </representation>
-              </list>
-            </representations>
-          </multi-preview-state>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/androidMain/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-manifest" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/src/commonMain/composeResources/drawable/poster_no_image.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/ui/src/commonMain/kotlin/com/mrboomdev/awery/ui/screens/media/DefaultMediaScreen.kt" preview="true">
       <provider selected="true" editor-type-id="android-source-code">
         <state selected-layout="SHOW_EDITOR">
@@ -3455,72 +3331,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ui/src/commonMain/kotlin/com/mrboomdev/awery/ui/navigation/RouteInfo.kt">
-      <provider selected="true" editor-type-id="android-source-code">
-        <state selected-layout="SHOW_EDITOR">
-          <editor-state relative-caret-position="231">
-            <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
-          </editor-state>
-          <multi-preview-state selected="Compose">
-            <representations>
-              <list>
-                <representation name="Compose">
-                  <settings>
-                    <setting name="previewLayout" value="Grid" />
-                    <setting name="selectedGroup" value="" />
-                  </settings>
-                </representation>
-              </list>
-            </representations>
-          </multi-preview-state>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ui/src/commonMain/kotlin/com/mrboomdev/awery/ui/navigation/RouteInfoEffect.kt">
-      <provider selected="true" editor-type-id="android-source-code">
-        <state selected-layout="SHOW_EDITOR">
-          <editor-state relative-caret-position="726">
-            <caret line="37" column="26" selection-start-line="37" selection-start-column="26" selection-end-line="37" selection-end-column="26" />
-            <folding>
-              <element signature="e#43#246#0" expanded="true" />
-            </folding>
-          </editor-state>
-          <multi-preview-state selected="Compose">
-            <representations>
-              <list>
-                <representation name="Compose">
-                  <settings>
-                    <setting name="previewLayout" value="Grid" />
-                    <setting name="selectedGroup" value="" />
-                  </settings>
-                </representation>
-              </list>
-            </representations>
-          </multi-preview-state>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ui/src/commonMain/kotlin/com/mrboomdev/awery/ui/screens/history/HistoryScreen.kt">
-      <provider selected="true" editor-type-id="android-source-code">
-        <state selected-layout="SHOW_EDITOR">
-          <editor-state relative-caret-position="396">
-            <caret line="62" column="14" selection-start-line="62" selection-start-column="14" selection-end-line="62" selection-end-column="14" />
-          </editor-state>
-          <multi-preview-state selected="Compose">
-            <representations>
-              <list>
-                <representation name="Compose">
-                  <settings>
-                    <setting name="previewLayout" value="Grid" />
-                    <setting name="selectedGroup" value="" />
-                  </settings>
-                </representation>
-              </list>
-            </representations>
-          </multi-preview-state>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ui/src/commonMain/kotlin/com/mrboomdev/awery/ui/screens/settings/pages/SettingsLibraryPage.kt" preview="true">
       <provider selected="true" editor-type-id="android-source-code">
         <state selected-layout="SHOW_EDITOR">
@@ -3743,27 +3553,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ui/src/commonMain/kotlin/com/mrboomdev/awery/ui/screens/notifications/NotificationsScreen.kt">
-      <provider selected="true" editor-type-id="android-source-code">
-        <state selected-layout="SHOW_EDITOR">
-          <editor-state relative-caret-position="845">
-            <caret line="96" column="37" lean-forward="true" selection-start-line="96" selection-start-column="37" selection-end-line="96" selection-end-column="37" />
-          </editor-state>
-          <multi-preview-state selected="Compose">
-            <representations>
-              <list>
-                <representation name="Compose">
-                  <settings>
-                    <setting name="previewLayout" value="Grid" />
-                    <setting name="selectedGroup" value="" />
-                  </settings>
-                </representation>
-              </list>
-            </representations>
-          </multi-preview-state>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ui/src/commonMain/kotlin/com/mrboomdev/awery/ui/screens/library/LibraryTabbedScreen.kt">
       <provider selected="true" editor-type-id="android-source-code">
         <state selected-layout="SHOW_EDITOR">
@@ -3787,8 +3576,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/data/src/commonMain/kotlin/com/mrboomdev/awery/data/settings/AwerySettings.kt">
       <provider selected="true" editor-type-id="android-source-code">
-        <state>
-          <editor-state relative-caret-position="1295">
+        <state selected-layout="SHOW_EDITOR">
+          <editor-state relative-caret-position="593">
             <caret line="31" column="39" selection-start-line="31" selection-start-column="39" selection-end-line="31" selection-end-column="39" />
           </editor-state>
           <multi-preview-state selected="Compose">
@@ -3808,19 +3597,190 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ui/src/commonMain/kotlin/com/mrboomdev/awery/ui/navigation/Routes.kt">
       <provider selected="true" editor-type-id="android-source-code">
-        <state>
-          <editor-state relative-caret-position="2415">
+        <state selected-layout="SHOW_EDITOR">
+          <editor-state relative-caret-position="768">
             <caret line="83" selection-start-line="83" selection-end-line="83" />
           </editor-state>
+          <multi-preview-state selected="Compose">
+            <representations>
+              <list>
+                <representation name="Compose">
+                  <settings>
+                    <setting name="previewLayout" value="Grid" />
+                    <setting name="selectedGroup" value="" />
+                  </settings>
+                </representation>
+              </list>
+            </representations>
+          </multi-preview-state>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui/src/commonMain/kotlin/com/mrboomdev/awery/ui/navigation/RouteInfo.kt">
+      <provider selected="true" editor-type-id="android-source-code">
+        <state selected-layout="SHOW_EDITOR">
+          <editor-state relative-caret-position="210">
+            <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+          </editor-state>
+          <multi-preview-state selected="Compose">
+            <representations>
+              <list>
+                <representation name="Compose">
+                  <settings>
+                    <setting name="previewLayout" value="Grid" />
+                    <setting name="selectedGroup" value="" />
+                  </settings>
+                </representation>
+              </list>
+            </representations>
+          </multi-preview-state>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui/src/commonMain/kotlin/com/mrboomdev/awery/ui/screens/notifications/NotificationsScreen.kt" preview="true">
+      <provider selected="true" editor-type-id="android-source-code">
+        <state selected-layout="SHOW_EDITOR">
+          <editor-state relative-caret-position="2226">
+            <caret line="96" column="37" lean-forward="true" selection-start-line="96" selection-start-column="37" selection-end-line="96" selection-end-column="37" />
+          </editor-state>
+          <multi-preview-state selected="Compose">
+            <representations>
+              <list>
+                <representation name="Compose">
+                  <settings>
+                    <setting name="previewLayout" value="Grid" />
+                    <setting name="selectedGroup" value="" />
+                  </settings>
+                </representation>
+              </list>
+            </representations>
+          </multi-preview-state>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gradle/android.versions.toml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="945">
+          <caret line="27" column="9" lean-forward="true" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gradle/libs.versions.toml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-385">
+          <caret line="1" column="21" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gradle.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ui/src/commonMain/kotlin/com/mrboomdev/awery/ui/App.kt">
       <provider selected="true" editor-type-id="android-source-code">
-        <state>
-          <editor-state relative-caret-position="732">
-            <caret line="158" column="12" selection-start-line="158" selection-start-column="12" selection-end-line="158" selection-end-column="12" />
+        <state selected-layout="SHOW_EDITOR">
+          <editor-state relative-caret-position="291">
+            <caret line="987" column="26" lean-forward="true" selection-start-line="987" selection-start-column="26" selection-end-line="987" selection-end-column="26" />
           </editor-state>
+          <multi-preview-state selected="Compose">
+            <representations>
+              <list>
+                <representation name="Compose">
+                  <settings>
+                    <setting name="previewLayout" value="Grid" />
+                    <setting name="selectedGroup" value="" />
+                  </settings>
+                </representation>
+              </list>
+            </representations>
+          </multi-preview-state>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gradle/compose.versions.toml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="35">
+          <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui/src/commonMain/kotlin/com/mrboomdev/awery/ui/screens/history/HistoryScreen.kt">
+      <provider selected="true" editor-type-id="android-source-code">
+        <state selected-layout="SHOW_EDITOR">
+          <editor-state relative-caret-position="245">
+            <caret line="27" column="36" lean-forward="true" selection-start-line="27" selection-start-column="36" selection-end-line="27" selection-end-column="36" />
+          </editor-state>
+          <multi-preview-state selected="Compose">
+            <representations>
+              <list>
+                <representation name="Compose">
+                  <settings>
+                    <setting name="previewLayout" value="Grid" />
+                    <setting name="selectedGroup" value="" />
+                  </settings>
+                </representation>
+              </list>
+            </representations>
+          </multi-preview-state>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui/build.gradle.kts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="10" column="8" lean-forward="true" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui/src/commonMain/kotlin/com/mrboomdev/awery/ui/navigation/RouteInfoEffect.kt">
+      <provider selected="true" editor-type-id="android-source-code">
+        <state selected-layout="SHOW_EDITOR">
+          <editor-state relative-caret-position="245">
+            <caret line="28" column="4" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="4" />
+          </editor-state>
+          <multi-preview-state selected="Compose">
+            <representations>
+              <list>
+                <representation name="Compose">
+                  <settings>
+                    <setting name="previewLayout" value="Grid" />
+                    <setting name="selectedGroup" value="" />
+                  </settings>
+                </representation>
+              </list>
+            </representations>
+          </multi-preview-state>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/commonMain/kotlin/com/mrboomdev/awery/app/AweryInit.kt">
+      <provider selected="true" editor-type-id="android-source-code">
+        <state selected-layout="SHOW_EDITOR">
+          <editor-state relative-caret-position="105">
+            <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+          </editor-state>
+          <multi-preview-state selected="Compose">
+            <representations>
+              <list>
+                <representation name="Compose">
+                  <settings>
+                    <setting name="previewLayout" value="Grid" />
+                    <setting name="selectedGroup" value="" />
+                  </settings>
+                </representation>
+              </list>
+            </representations>
+          </multi-preview-state>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build.gradle.kts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="560">
+          <caret line="33" column="50" selection-start-line="33" selection-start-column="50" selection-end-line="33" selection-end-column="50" />
         </state>
       </provider>
     </entry>

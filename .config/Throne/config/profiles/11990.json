@@ -1,17 +1,16 @@
 {
     "bean": {
         "_v": 0,
-        "addr": "45.159.250.190",
+        "addr": "51.250.76.247",
         "brutal_speed": 0,
         "c_cfg": "",
         "c_out": "",
         "enable_brutal": false,
-        "method": "chacha20-ietf-poly1305",
+        "flow": "xtls-rprx-vision",
         "mux": 0,
-        "name": "🇰🇿KZ-45.159.250.190-0286",
-        "pass": "ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=",
-        "plugin": "",
-        "port": 990,
+        "name": "🇷🇺 Yandex — #12",
+        "pass": "b768cdbb-c4bf-4b80-bbe6-b5f0dcc3753d",
+        "port": 443,
         "stream": {
             "alpn": "",
             "cert": "",
@@ -23,29 +22,28 @@
             "insecure": false,
             "method": "",
             "net": "tcp",
-            "pac_enc": "",
+            "pac_enc": "xudp",
             "path": "",
-            "pbk": "",
-            "sec": "",
-            "sid": "",
-            "sni": "",
+            "pbk": "10rVZPoOUP1TlQviIAsQ_jAROX0fRQxH0C92nq_zGQc",
+            "sec": "tls",
+            "sid": "43dcff53849b81e6",
+            "sni": "ads.x5.ru",
             "tls_frag": false,
             "tls_frag_fall_delay": "",
             "tls_record_frag": false,
             "utls": ""
-        },
-        "uot": 0
+        }
     },
     "country": "",
     "dl": "",
-    "gid": 9,
+    "gid": 10,
     "id": 11990,
     "report": "",
     "traffic": {
         "dl": 0,
         "ul": 0
     },
-    "type": "shadowsocks",
+    "type": "vless",
     "ul": "",
-    "yc": 404
+    "yc": -1
 }

@@ -1,0 +1,321 @@
+---
+import { Image } from "astro:assets";
+import AweryScreenshot from "@assets/awery_screenshot.jpg";
+import V2rayNG2Screenshot from "@assets/v2rayng2_screenshot.jpg";
+import WeUustScreenshot from "@assets/we_uust_screenshot.jpg";
+import WindowsIcon from "@assets/windows.svg";
+import LinuxIcon from "@assets/linux.svg";
+import AndroidIcon from "@assets/android.svg";
+import InstantMixIcon from "@assets/ic_instant_mix.svg";
+import AnimatedImagesIcon from "@assets/ic_animated_images.svg";
+import ArrowForwardIcon from "@assets/ic_arrow_forward.svg";
+import SentimentCalmIcon from "@assets/ic_sentiment_calm.svg";
+import CalendarIcon from "@assets/ic_calendar_today.svg";
+import AccountCircleIcon from "@assets/ic_account_circle.svg";
+import MapIcon from "@assets/ic_map.svg";
+import { getLocaleFromUrl, useTranslations } from "@i18n/translate";
+import { getRelativeLocaleUrl } from "astro:i18n";
+import Button from "./Button.astro";
+
+const locale = getLocaleFromUrl(Astro.url);
+const t = useTranslations(locale);
+---
+
+<div class="projects">
+    <!-- <a href={getRelativeLocaleUrl(locale, "/projects/awery")}> -->
+    <a href="https://github.com/MrBoomDeveloper/Awery">
+        <div class="project">
+            <Image class="project-banner" src={AweryScreenshot} alt="Awery Screenshot" />
+    
+            <div class="project-info">
+                <span class="project-info-name">Awery</span>
+
+                <div class="project-info-tags">
+                    <span>Kotlin</span>
+                    <span>Jetpack Compose</span>
+                </div>
+
+                <span class="project-info-description">Tons of features, a stylish look, and ultimate flexibility. It is an open-source app for discovering, tracking, and streaming anime, movies, and TV series.</span>
+                
+                <span class="project-info-subcategory">Supported platforms</span>
+                <span class="project-info-subcategory-value">
+                    <img src={WindowsIcon.src} alt="Windows logo" class="icon" />Windows
+                    <Image src={LinuxIcon} alt="Linux logo" class="icon" />Linux
+                    <Image src={AndroidIcon} alt="Android logo" class="icon" />Android
+                </span>
+
+                <div class="project-features">
+                    <div class="project-feature">
+                        <Image 
+                            class="project-feature-icon"
+                            src={AnimatedImagesIcon} 
+                            alt="Catalog" />
+    
+                        <div class="project-feature-info">
+                            <h4 class="project-feature-title">Infinite Catalog</h4>
+                            <span class="project-feature-description">You are not limited to an individual service. Use extensions to make available catalog bigger.</span>
+                        </div>
+                    </div>
+
+                    <div class="project-feature">
+                        <Image 
+                            class="project-feature-icon"
+                            src={InstantMixIcon} 
+                            alt="Customization" />
+    
+                        <div class="project-feature-info">
+                            <h4 class="project-feature-title">Huge Customization</h4>
+                            <span class="project-feature-description">You can customizable almost anything that would come into your head</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <Button 
+                    text="Visit website" 
+                    icon={ArrowForwardIcon}
+                    iconScale={.75}
+                    class="project-visit-button" />
+            </div>
+        </div>
+    </a>
+
+    <!-- <a href={getRelativeLocaleUrl(locale, "/projects/awery")}> -->
+    <a href="https://github.com/MrBoomDeveloper/v2rayNG2">
+        <div class="project reverse">
+            <Image class="project-banner" src={V2rayNG2Screenshot} alt="V2rayNG2 Screenshot" />
+    
+            <div class="project-info">
+                <span class="project-info-name">v2rayNG2</span>
+
+                <div class="project-info-tags">
+                    <span>Kotlin</span>
+                    <span>C++</span>
+                    <span>Jetpack Compose</span>
+                </div>
+
+                <span class="project-info-description">A V2Ray2 client for Android, support Xray core and v2fly core, which is a fork of v2rayNG</span>
+
+                <span class="project-info-subcategory">Supported platforms</span>
+                <span class="project-info-subcategory-value">
+                    <Image src={AndroidIcon} alt="Android logo" class="icon" />Android
+                </span>
+
+                <div class="project-features">
+                    <div class="project-feature">
+                        <Image 
+                            class="project-feature-icon"
+                            src={SentimentCalmIcon} 
+                            alt="Happy emoji" />
+    
+                        <div class="project-feature-info">
+                            <h4 class="project-feature-title">Simple Interface</h4>
+                            <span class="project-feature-description">VPN client with intuitive design. After short setup, you'll be to enable VPN connection without any hustle.</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <Button 
+                    text="Visit website" 
+                    icon={ArrowForwardIcon}
+                    iconScale={.75}
+                    class="project-visit-button" />
+            </div>
+        </div>
+    </a>
+
+    <a href="target:blank">
+        <div class="project">
+            <Image class="project-banner" src={WeUustScreenshot} alt="We Uust Screenshot" />
+    
+            <div class="project-info">
+                <span class="project-info-name">Мы УУНиТ</span>
+
+                <div class="project-info-tags">
+                    <span>Kotlin</span>
+                    <span>Jetpack Compose</span>
+                </div>
+
+                <span class="project-info-description">Приложение для просмотра расписания занятий, меню буфета и предоставляющее 3D навигацию по корпусам университета.</span>
+
+                <span class="project-info-subcategory">Supported platforms</span>
+                <span class="project-info-subcategory-value">
+                    <Image src={AndroidIcon} alt="Android logo" class="icon" />Android
+                    <!-- <Image src={} -->and Web
+                </span>
+
+                <div class="project-features">
+                    <div class="project-feature">
+                        <Image 
+                            class="project-feature-icon"
+                            src={CalendarIcon} 
+                            alt="Calendar icon" />
+    
+                        <div class="project-feature-info">
+                            <h4 class="project-feature-title">Расписание всегда под рукой</h4>
+                            <span class="project-feature-description">Удобный интерфейс, виджеты, напоминания</span>
+                        </div>
+                    </div>
+
+                    <div class="project-feature">
+                        <Image 
+                            class="project-feature-icon"
+                            src={AccountCircleIcon} 
+                            alt="Account icon" />
+    
+                        <div class="project-feature-info">
+                            <h4 class="project-feature-title">Интеграция с личным кабинетом</h4>
+                            <span class="project-feature-description">Просматривыйте отметки, выполняйте удаленные задания</span>
+                        </div>
+                    </div>
+
+                    <div class="project-feature">
+                        <Image 
+                            class="project-feature-icon"
+                            src={MapIcon} 
+                            alt="Map icon" />
+    
+                        <div class="project-feature-info">
+                            <h4 class="project-feature-title">Карта Университета</h4>
+                            <span class="project-feature-description">Узнайте все маршуруты по великим лабиринтам УУНиТ</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </a>
+</div>
+
+<style>
+    .projects {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .project {
+        @media screen and (min-width: 800px) {
+            display: flex;
+            gap: 1.8rem;
+
+            &.reverse {
+                flex-direction: row-reverse;
+            }
+
+            .project-banner {
+                width: 16em;
+                height: 38rem;
+                border-radius: 1rem;
+                transition: .1s, scale .2s;
+            }
+
+            &:hover {
+                .project-banner {
+                    box-shadow: rgba(255, 160, 247, .3) 0 0 2rem;
+                    scale: .99;
+                }
+            }
+        }
+    }
+
+    .project-info {
+        display: flex;
+        flex-direction: column;
+        gap: .6rem;
+    }
+
+    .project-info-name {
+        color: white;
+        font-family: poppins, sans-serif;
+        font-weight: 700;
+        font-size: 2em;
+    }
+
+    .project-info-tags {
+        display: flex;
+        flex-wrap: wrap;
+        gap: .4rem;
+        margin-top: .1rem;
+        margin-bottom: .5rem;
+
+        span {
+            padding: .2rem .6rem;
+            color: rgb(255, 160, 247);
+            background-color: rgb(58, 19, 69);
+            border-radius: .4rem;
+            font-size: .9em;
+        }
+    }
+
+    .project-info-description {
+        color: white;
+        font-family: poppins, sans-serif;
+        font-size: 1em;
+        line-height: 1.9em;
+    }
+
+    .project-info-subcategory {
+        color: white;
+        font-family: poppins, sans-serif;
+        font-size: 1.1em;
+        font-weight: 600;
+        margin-top: .2rem;
+    }
+
+    .project-info-subcategory-value {
+        color: white;
+        font-family: poppins, sans-serif;
+
+        .icon {
+            display: inline-block;
+            width: 1em;
+            height: 1em;
+            margin-right: .5em;
+            vertical-align: middle;
+            filter: brightness(0) saturate(100%) invert(94%) sepia(94%) saturate(24%) hue-rotate(54deg) brightness(104%) contrast(109%);
+
+            & + .icon {
+                margin-left: .8em;
+            }
+        }
+    }
+
+    .project-visit-button {
+        width: max-content;
+        margin-top: .4rem;
+    }
+
+    .project-features {
+        display: flex;
+        flex-direction: column;
+        gap: .4rem;
+        margin-top: .4rem;
+    }
+
+    .project-feature {
+        display: flex;
+        gap: .8rem;
+        padding: .6rem;
+        color: #ffa0f7;
+        background-color: rgb(33, 14, 39);
+        border-radius: .4rem;
+        font-size: .9em;
+    }
+
+    .project-feature-icon {
+        width: 1.6rem;
+        height: 1.6rem;
+        margin-top: .2rem;
+        filter: brightness(0) saturate(100%) invert(88%) sepia(15%) saturate(4123%) hue-rotate(229deg) brightness(104%) contrast(102%);
+    }
+
+    .project-feature-info {
+        display: flex;
+        flex-direction: column;
+        gap: .2rem;
+
+        .project-feature-title {
+            font-size: 1.1em;
+            font-weight: 600;
+        }
+    }
+</style>

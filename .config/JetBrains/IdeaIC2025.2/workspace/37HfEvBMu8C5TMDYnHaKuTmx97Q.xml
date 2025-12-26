@@ -1,0 +1,1127 @@
+<project version="4">
+  <component name="BookmarksManager">
+    <option name="groups">
+      <GroupState>
+        <option name="name" value="WebDisplays" />
+      </GroupState>
+    </option>
+  </component>
+  <component name="FileEditorManager">
+    <leaf ideFingerprint="o6g7557l4mda">
+      <file>
+        <entry file="file://$PROJECT_DIR$/gradle.properties" file-id="1698297" managing-fs="1763754416123">
+          <provider editor-type-id="text-editor" selected="true">
+            <state relative-caret-position="210">
+              <caret line="6" column="29" lean-forward="true" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+        <tab><![CDATA[{"tabTitle":"gradle.properties","foregroundColor":-7752454,"textAttributes":{"name":"a","children":[{"name":"option","attributes":{"name":"FOREGROUND","value":"89b4fa"}}]},"icon":[10,57,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,82,97,115,116,101,114,105,122,101,100,73,109,97,103,101,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,85,10,24,102,105,108,101,84,121,112,101,115,47,112,114,111,112,101,114,116,105,101,115,46,115,118,103,18,30,101,120,112,117,105,47,102,105,108,101,84,121,112,101,115,47,112,114,111,112,101,114,116,105,101,115,46,115,118,103,26,12,99,111,109,46,105,110,116,101,108,108,105,106,40,-9,-117,-107,-50,-8,-1,-1,-1,-1,1,48,0]}]]></tab>
+      </file>
+      <file current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/fabric.mod.json" file-id="1698300" managing-fs="1763754416123">
+          <provider editor-type-id="text-editor" selected="true">
+            <state relative-caret-position="355">
+              <caret line="32" column="18" lean-forward="true" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+        <tab><![CDATA[{"tabTitle":"fabric.mod.json","foregroundColor":-7752454,"textAttributes":{"name":"a","children":[{"name":"option","attributes":{"name":"FOREGROUND","value":"89b4fa"}}]},"icon":[10,57,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,82,97,115,116,101,114,105,122,101,100,73,109,97,103,101,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,73,10,18,102,105,108,101,84,121,112,101,115,47,106,115,111,110,46,115,118,103,18,24,101,120,112,117,105,47,102,105,108,101,84,121,112,101,115,47,106,115,111,110,46,115,118,103,26,12,99,111,109,46,105,110,116,101,108,108,105,106,40,-55,-15,-115,-58,-6,-1,-1,-1,-1,1,48,2]}]]></tab>
+      </file>
+      <file>
+        <entry file="file://$PROJECT_DIR$/src/main/resources/fabric.mod.json" file-id="1698658" managing-fs="1763754416123">
+          <provider editor-type-id="text-editor" selected="true">
+            <state relative-caret-position="96">
+              <caret line="28" column="14" lean-forward="true" selection-start-line="28" selection-start-column="14" selection-end-line="28" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+        <tab><![CDATA[{"tabTitle":"src/…/fabric.mod.json","foregroundColor":-7752454,"textAttributes":{"name":"a","children":[{"name":"option","attributes":{"name":"FOREGROUND","value":"89b4fa"}}]},"icon":[10,45,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,85,114,108,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,-84,1,10,-87,1,106,97,114,58,102,105,108,101,58,47,104,111,109,101,47,109,114,98,111,111,109,100,101,118,47,46,108,111,99,97,108,47,115,104,97,114,101,47,74,101,116,66,114,97,105,110,115,47,73,100,101,97,73,67,50,48,50,53,46,50,47,77,105,110,101,99,114,97,102,116,37,50,48,68,101,118,101,108,111,112,109,101,110,116,47,108,105,98,47,77,105,110,101,99,114,97,102,116,37,50,48,68,101,118,101,108,111,112,109,101,110,116,45,50,48,50,53,46,50,45,49,46,56,46,49,49,45,98,97,115,101,46,106,97,114,33,47,97,115,115,101,116,115,47,105,99,111,110,115,47,112,108,97,116,102,111,114,109,47,70,97,98,114,105,99,46,112,110,103]}]]></tab>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTypeUsageLocalSummary"><![CDATA[{
+  "data": {
+    "JSON": {
+      "usageCount": 2,
+      "lastUsed": 1766565252986
+    },
+    "Properties": {
+      "usageCount": 1,
+      "lastUsed": 1766564831957
+    },
+    "Markdown": {
+      "usageCount": 1,
+      "lastUsed": 1766564809447
+    }
+  }
+}]]></component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find />
+    </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+  </component>
+  <component name="GitSEFilterConfiguration"><![CDATA[{}]]></component>
+  <component name="IdeDocumentHistory"><![CDATA[{
+  "changedPaths": [
+    "/home/mrboomdev/IdeaProjects/WebDisplays/gradle.properties",
+    "/home/mrboomdev/IdeaProjects/WebDisplays/src/main/resources/fabric.mod.json",
+    "/home/mrboomdev/IdeaProjects/WebDisplays/fabric.mod.json"
+  ]
+}]]></component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="LanguageUsageStatistics">
+    <language id="JSON">
+      <summary usageCount="2" lastUsage="1766565252986" />
+    </language>
+    <language id="Markdown">
+      <summary usageCount="1" lastUsage="1766564809447" />
+    </language>
+    <language id="Properties">
+      <summary usageCount="1" lastUsage="1766564831957" />
+    </language>
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" />
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="WebDisplays" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/WebDisplays}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebDisplays" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/WebDisplays}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/WebDisplays/build}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebDisplays" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/WebDisplays}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/WebDisplays/build}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/WebDisplays/build/libs}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebDisplays" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+          <presentation>
+            <attributes />
+            <data iconPath="expui/toolwindows/project.svg" iconPlugin="com.intellij" isLeaf="false" text="WebDisplays" />
+            <item name="WebDisplays" type="b2602c69:ProjectViewProjectNode" />
+            <presentation>
+              <attributes>
+                <map>
+                  <entry key="filePath" value="$PROJECT_DIR$" />
+                </map>
+              </attributes>
+              <data iconPath="expui/nodes/module.svg" iconPlugin="com.intellij" isLeaf="false" text="WebDisplays" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/WebDisplays}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/.gradle" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/nodes/excludeRoot.svg" iconPlugin="com.intellij" isLeaf="false" text=".gradle" />
+                <item name="dir{file:///home/mrboomdev/IdeaProjects/WebDisplays/.gradle}" type="462c0819:PsiDirectoryNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/.idea" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/nodes/excludeRoot.svg" iconPlugin="com.intellij" isLeaf="false" text=".idea" />
+                <item name="dir{file:///home/mrboomdev/IdeaProjects/WebDisplays/.idea}" type="462c0819:PsiDirectoryNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/build" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/nodes/excludeRoot.svg" iconPlugin="com.intellij" isLeaf="false" text="build" />
+                <item name="dir{file:///home/mrboomdev/IdeaProjects/WebDisplays/build}" type="462c0819:PsiDirectoryNode" />
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/build/classes" />
+                    </map>
+                  </attributes>
+                  <data iconPath="expui/nodes/excludeRoot.svg" iconPlugin="com.intellij" isLeaf="false" text="classes" />
+                  <item name="dir{file:///home/mrboomdev/IdeaProjects/WebDisplays/build/classes}" type="462c0819:PsiDirectoryNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/build/devlibs" />
+                    </map>
+                  </attributes>
+                  <data iconPath="expui/nodes/excludeRoot.svg" iconPlugin="com.intellij" isLeaf="false" text="devlibs" />
+                  <item name="dir{file:///home/mrboomdev/IdeaProjects/WebDisplays/build/devlibs}" type="462c0819:PsiDirectoryNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/build/generated" />
+                    </map>
+                  </attributes>
+                  <data iconPath="expui/nodes/excludeRoot.svg" iconPlugin="com.intellij" isLeaf="false" text="generated" />
+                  <item name="dir{file:///home/mrboomdev/IdeaProjects/WebDisplays/build/generated}" type="462c0819:PsiDirectoryNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/build/libs" />
+                    </map>
+                  </attributes>
+                  <data iconPath="expui/nodes/excludeRoot.svg" iconPlugin="com.intellij" isLeaf="false" text="libs" />
+                  <item name="dir{file:///home/mrboomdev/IdeaProjects/WebDisplays/build/libs}" type="462c0819:PsiDirectoryNode" />
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/build/libs/webdisplays-fabric-1.0.0.jar" />
+                      </map>
+                    </attributes>
+                    <data iconPath="expui/fileTypes/archive.svg" iconPlugin="com.intellij" isLeaf="true" text="webdisplays-fabric-1.0.0.jar" />
+                    <item name="webdisplays-fabric-1.0.0.jar" type="ab9368bb:PsiFileNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/build/libs/webdisplays-fabric-1.0.0-sources.jar" />
+                      </map>
+                    </attributes>
+                    <data iconPath="expui/fileTypes/archive.svg" iconPlugin="com.intellij" isLeaf="true" text="webdisplays-fabric-1.0.0-sources.jar" />
+                    <item name="webdisplays-fabric-1.0.0-sources.jar" type="ab9368bb:PsiFileNode" />
+                  </presentation>
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/build/loom-cache" />
+                    </map>
+                  </attributes>
+                  <data iconPath="expui/nodes/excludeRoot.svg" iconPlugin="com.intellij" isLeaf="false" text="loom-cache" />
+                  <item name="dir{file:///home/mrboomdev/IdeaProjects/WebDisplays/build/loom-cache}" type="462c0819:PsiDirectoryNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/build/resources" />
+                    </map>
+                  </attributes>
+                  <data iconPath="expui/nodes/excludeRoot.svg" iconPlugin="com.intellij" isLeaf="false" text="resources" />
+                  <item name="dir{file:///home/mrboomdev/IdeaProjects/WebDisplays/build/resources}" type="462c0819:PsiDirectoryNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/build/tmp" />
+                    </map>
+                  </attributes>
+                  <data iconPath="expui/nodes/excludeRoot.svg" iconPlugin="com.intellij" isLeaf="false" text="tmp" />
+                  <item name="dir{file:///home/mrboomdev/IdeaProjects/WebDisplays/build/tmp}" type="462c0819:PsiDirectoryNode" />
+                </presentation>
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/gradle" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="gradle" />
+                <item name="dir{file:///home/mrboomdev/IdeaProjects/WebDisplays/gradle}" type="462c0819:PsiDirectoryNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/run" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="run" />
+                <item name="dir{file:///home/mrboomdev/IdeaProjects/WebDisplays/run}" type="462c0819:PsiDirectoryNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/src" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="src" />
+                <item name="dir{file:///home/mrboomdev/IdeaProjects/WebDisplays/src}" type="462c0819:PsiDirectoryNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/.gitignore" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/fileTypes/ignored.svg" iconPlugin="com.intellij" isLeaf="true" text=".gitignore" />
+                <item name=".gitignore" type="ab9368bb:PsiFileNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/build.gradle" />
+                  </map>
+                </attributes>
+                <data iconPath="icons/expui/gradle.svg" iconPlugin="com.intellij.gradle" isLeaf="true" text="build.gradle" />
+                <item name="build.gradle" type="ab9368bb:PsiFileNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/DEVELOPER_NOTES.md" />
+                  </map>
+                </attributes>
+                <data iconPath="icons/expui/markdown.svg" iconPlugin="org.intellij.plugins.markdown" isLeaf="true" text="DEVELOPER_NOTES.md" />
+                <item name="DEVELOPER_NOTES.md" type="ab9368bb:PsiFileNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/fabric.mod.json" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/fileTypes/json.svg" iconPlugin="com.intellij" isLeaf="true" text="fabric.mod.json" />
+                <item name="fabric.mod.json" type="ab9368bb:PsiFileNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/FINAL_PORT_REPORT.md" />
+                  </map>
+                </attributes>
+                <data iconPath="icons/expui/markdown.svg" iconPlugin="org.intellij.plugins.markdown" isLeaf="true" text="FINAL_PORT_REPORT.md" />
+                <item name="FINAL_PORT_REPORT.md" type="ab9368bb:PsiFileNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/gradle.properties" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/fileTypes/properties.svg" iconPlugin="com.intellij" isLeaf="true" text="gradle.properties" />
+                <item name="gradle.properties" type="ab9368bb:PsiFileNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/gradlew" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/fileTypes/text.svg" iconPlugin="com.intellij" isLeaf="true" text="gradlew" />
+                <item name="gradlew" type="ab9368bb:PsiFileNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/gradlew.bat" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/fileTypes/text.svg" iconPlugin="com.intellij" isLeaf="true" text="gradlew.bat" />
+                <item name="gradlew.bat" type="ab9368bb:PsiFileNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/INSTALLATION.md" />
+                  </map>
+                </attributes>
+                <data iconPath="icons/expui/markdown.svg" iconPlugin="org.intellij.plugins.markdown" isLeaf="true" text="INSTALLATION.md" />
+                <item name="INSTALLATION.md" type="ab9368bb:PsiFileNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/NEED_JDK.txt" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/fileTypes/text.svg" iconPlugin="com.intellij" isLeaf="true" text="NEED_JDK.txt" />
+                <item name="NEED_JDK.txt" type="ab9368bb:PsiFileNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/PORT_SUMMARY.md" />
+                  </map>
+                </attributes>
+                <data iconPath="icons/expui/markdown.svg" iconPlugin="org.intellij.plugins.markdown" isLeaf="true" text="PORT_SUMMARY.md" />
+                <item name="PORT_SUMMARY.md" type="ab9368bb:PsiFileNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/PORTING_DOCUMENTATION.md" />
+                  </map>
+                </attributes>
+                <data iconPath="icons/expui/markdown.svg" iconPlugin="org.intellij.plugins.markdown" isLeaf="true" text="PORTING_DOCUMENTATION.md" />
+                <item name="PORTING_DOCUMENTATION.md" type="ab9368bb:PsiFileNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/README.md" />
+                  </map>
+                </attributes>
+                <data iconPath="icons/expui/markdown.svg" iconPlugin="org.intellij.plugins.markdown" isLeaf="true" text="README.md" />
+                <item name="README.md" type="ab9368bb:PsiFileNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/settings.gradle" />
+                  </map>
+                </attributes>
+                <data iconPath="icons/expui/gradle.svg" iconPlugin="com.intellij.gradle" isLeaf="true" text="settings.gradle" />
+                <item name="settings.gradle" type="ab9368bb:PsiFileNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/SETUP_INSTRUCTIONS.md" />
+                  </map>
+                </attributes>
+                <data iconPath="icons/expui/markdown.svg" iconPlugin="org.intellij.plugins.markdown" isLeaf="true" text="SETUP_INSTRUCTIONS.md" />
+                <item name="SETUP_INSTRUCTIONS.md" type="ab9368bb:PsiFileNode" />
+              </presentation>
+            </presentation>
+            <presentation>
+              <attributes />
+              <data iconPath="expui/nodes/library.svg" iconPlugin="com.intellij" isLeaf="false" text="External Libraries" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <presentation>
+                <attributes />
+                <data iconPath="expui/nodes/jdk.svg" iconPlugin="com.intellij" isLeaf="false" text="&lt; jbr-17 &gt;" />
+                <item name="&lt; jbr-17 &gt;" type="70bed36:NamedLibraryElementNode" />
+              </presentation>
+              <presentation>
+                <attributes />
+                <data iconPath="expui/nodes/libraryFolder.svg" iconPlugin="com.intellij" isLeaf="false" text="Gradle: com.github.oshi:oshi-core:6.2.2" />
+                <item name="Gradle: com.github.oshi:oshi-core:6.2.2" type="70bed36:NamedLibraryElementNode" />
+              </presentation>
+              <presentation>
+                <attributes />
+                <data iconPath="expui/nodes/libraryFolder.svg" iconPlugin="com.intellij" isLeaf="false" text="Gradle: com.google.code.gson:gson:2.10" />
+                <item name="Gradle: com.google.code.gson:gson:2.10" type="70bed36:NamedLibraryElementNode" />
+              </presentation>
+              <presentation>
+                <attributes />
+                <data iconPath="expui/nodes/libraryFolder.svg" iconPlugin="com.intellij" isLeaf="false" text="Gradle: com.google.guava:failureaccess:1.0.1" />
+                <item name="Gradle: com.google.guava:failureaccess:1.0.1" type="70bed36:NamedLibraryElementNode" />
+              </presentation>
+              <presentation>
+                <attributes />
+                <data iconPath="expui/nodes/libraryFolder.svg" iconPlugin="com.intellij" isLeaf="false" text="Gradle: com.google.guava:guava:31.1-jre" />
+                <item name="Gradle: com.google.guava:guava:31.1-jre" type="70bed36:NamedLibraryElementNode" />
+              </presentation>
+              <presentation>
+                <attributes />
+                <data iconPath="expui/nodes/libraryFolder.svg" iconPlugin="com.intellij" isLeaf="false" text="Gradle: com.ibm.icu:icu4j:71.1" />
+                <item name="Gradle: com.ibm.icu:icu4j:71.1" type="70bed36:NamedLibraryElementNode" />
+              </presentation>
+              <presentation>
+                <attributes />
+                <data iconPath="expui/nodes/libraryFolder.svg" iconPlugin="com.intellij" isLeaf="false" text="Gradle: com.mojang:authlib:4.0.43" />
+                <item name="Gradle: com.mojang:authlib:4.0.43" type="70bed36:NamedLibraryElementNode" />
+              </presentation>
+              <presentation>
+                <attributes />
+                <data iconPath="expui/nodes/libraryFolder.svg" iconPlugin="com.intellij" isLeaf="false" text="Gradle: com.mojang:blocklist:1.0.10" />
+                <item name="Gradle: com.mojang:blocklist:1.0.10" type="70bed36:NamedLibraryElementNode" />
+              </presentation>
+              <presentation>
+                <attributes />
+                <data iconPath="expui/nodes/libraryFolder.svg" iconPlugin="com.intellij" isLeaf="false" text="Gradle: com.mojang:brigadier:1.1.8" />
+                <item name="Gradle: com.mojang:brigadier:1.1.8" type="70bed36:NamedLibraryElementNode" />
+              </presentation>
+              <presentation>
+                <attributes />
+                <data iconPath="expui/nodes/libraryFolder.svg" iconPlugin="com.intellij" isLeaf="false" text="Gradle: com.mojang:datafixerupper:6.0.8" />
+                <item name="Gradle: com.mojang:datafixerupper:6.0.8" type="70bed36:NamedLibraryElementNode" />
+              </presentation>
+              <presentation>
+                <attributes />
+                <data iconPath="expui/nodes/libraryFolder.svg" iconPlugin="com.intellij" isLeaf="false" text="Gradle: com.mojang:logging:1.1.1" />
+                <item name="Gradle: com.mojang:logging:1.1.1" type="70bed36:NamedLibraryElementNode" />
+              </presentation>
+              <presentation>
+                <attributes />
+                <data iconPath="expui/nodes/libraryFolder.svg" iconPlugin="com.intellij" isLeaf="false" text="Gradle: com.mojang:patchy:2.2.10" />
+                <item name="Gradle: com.mojang:patchy:2.2.10" type="70bed36:NamedLibraryElementNode" />
+              </presentation>
+              <presentation>
+                <attributes />
+                <data iconPath="expui/nodes/libraryFolder.svg" iconPlugin="com.intellij" isLeaf="false" text="Gradle: com.mojang:text2speech:1.17.9" />
+                <item name="Gradle: com.mojang:text2speech:1.17.9" type="70bed36:NamedLibraryElementNode" />
+              </presentation>
+              <presentation>
+                <attributes />
+                <data iconPath="expui/nodes/libraryFolder.svg" iconPlugin="com.intellij" isLeaf="false" text="Gradle: commons-codec:commons-codec:1.15" />
+                <item name="Gradle: commons-codec:commons-codec:1.15" type="70bed36:NamedLibraryElementNode" />
+              </presentation>
+              <presentation>
+                <attributes />
+                <data iconPath="expui/nodes/libraryFolder.svg" iconPlugin="com.intellij" isLeaf="false" text="Gradle: commons-io:commons-io:2.11.0" />
+                <item name="Gradle: commons-io:commons-io:2.11.0" type="70bed36:NamedLibraryElementNode" />
+              </presentation>
+              <presentation>
+                <attributes />
+                <data iconPath="expui/nodes/libraryFolder.svg" iconPlugin="com.intellij" isLeaf="false" text="Gradle: commons-logging:commons-logging:1.2" />
+                <item name="Gradle: commons-logging:commons-logging:1.2" type="70bed36:NamedLibraryElementNode" />
+              </presentation>
+              <presentation>
+                <attributes />
+                <data iconPath="expui/nodes/libraryFolder.svg" iconPlugin="com.intellij" isLeaf="false" text="Gradle: io.netty:netty-buffer:4.1.82.Final" />
+                <item name="Gradle: io.netty:netty-buffer:4.1.82.Final" type="70bed36:NamedLibraryElementNode" />
+              </presentation>
+              <presentation>
+                <attributes />
+                <data iconPath="expui/nodes/libraryFolder.svg" iconPlugin="com.intellij" isLeaf="false" text="Gradle: io.netty:netty-codec:4.1.82.Final" />
+                <item name="Gradle: io.netty:netty-codec:4.1.82.Final" type="70bed36:NamedLibraryElementNode" />
+              </presentation>
+              <presentation>
+                <attributes />
+                <data iconPath="expui/nodes/libraryFolder.svg" iconPlugin="com.intellij" isLeaf="false" text="Gradle: io.netty:netty-common:4.1.82.Final" />
+                <item name="Gradle: io.netty:netty-common:4.1.82.Final" type="70bed36:NamedLibraryElementNode" />
+              </presentation>
+              <presentation>
+                <attributes />
+                <data iconPath="expui/nodes/libraryFolder.svg" iconPlugin="com.intellij" isLeaf="false" text="Gradle: io.netty:netty-handler:4.1.82.Final" />
+                <item name="Gradle: io.netty:netty-handler:4.1.82.Final" type="70bed36:NamedLibraryElementNode" />
+              </presentation>
+              <presentation>
+                <attributes />
+                <data iconPath="expui/nodes/libraryFolder.svg" iconPlugin="com.intellij" isLeaf="false" text="Gradle: io.netty:netty-resolver:4.1.82.Final" />
+                <item name="Gradle: io.netty:netty-resolver:4.1.82.Final" type="70bed36:NamedLibraryElementNode" />
+              </presentation>
+              <presentation>
+                <attributes />
+                <data iconPath="expui/nodes/libraryFolder.svg" iconPlugin="com.intellij" isLeaf="false" text="Gradle: io.netty:netty-transport:4.1.82.Final" />
+                <item name="Gradle: io.netty:netty-transport:4.1.82.Final" type="70bed36:NamedLibraryElementNode" />
+              </presentation>
+              <presentation>
+                <attributes />
+                <data iconPath="expui/nodes/libraryFolder.svg" iconPlugin="com.intellij" isLeaf="false" text="Gradle: io.netty:netty-transport-classes-epoll:4.1.82.Final" />
+                <item name="Gradle: io.netty:netty-transport-classes-epoll:4.1.82.Final" type="70bed36:NamedLibraryElementNode" />
+              </presentation>
+              <presentation>
+                <attributes />
+                <data iconPath="expui/nodes/libraryFolder.svg" iconPlugin="com.intellij" isLeaf="false" text="Gradle: io.netty:netty-transport-native-epoll:linux-aarch_64:4.1.82.Final" />
+                <item name="Gradle: io.netty:netty-transport-native-epoll:linux-aarch_64:4.1.82.Final" type="70bed36:NamedLibraryElementNode" />
+              </presentation>
+              <presentation>
+                <attributes />
+                <data iconPath="expui/nodes/libraryFolder.svg" iconPlugin="com.intellij" isLeaf="false" text="Gradle: io.netty:netty-transport-native-epoll:linux-x86_64:4.1.82.Final" />
+                <item name="Gradle: io.netty:netty-transport-native-epoll:linux-x86_64:4.1.82.Final" type="70bed36:NamedLibraryElementNode" />
+              </presentation>
+              <presentation>
+                <attributes />
+                <data iconPath="expui/nodes/libraryFolder.svg" iconPlugin="com.intellij" isLeaf="false" text="Gradle: io.netty:netty-transport-native-unix-common:4.1.82.Final" />
+                <item name="Gradle: io.netty:netty-transport-native-unix-common:4.1.82.Final" type="70bed36:NamedLibraryElementNode" />
+              </presentation>
+              <presentation>
+                <attributes />
+                <data iconPath="expui/nodes/libraryFolder.svg" iconPlugin="com.intellij" isLeaf="false" text="Gradle: it.unimi.dsi:fastutil:8.5.9" />
+                <item name="Gradle: it.unimi.dsi:fastutil:8.5.9" type="70bed36:NamedLibraryElementNode" />
+              </presentation>
+              <presentation>
+                <attributes />
+                <data iconPath="expui/nodes/libraryFolder.svg" iconPlugin="com.intellij" isLeaf="false" text="Gradle: mappings.jar" />
+                <item name="Gradle: mappings.jar" type="70bed36:NamedLibraryElementNode" />
+              </presentation>
+              <presentation>
+                <attributes />
+                <data iconPath="expui/nodes/libraryFolder.svg" iconPlugin="com.intellij" isLeaf="false" text="Gradle: net.fabricmc:access-widener:2.1.0" />
+                <item name="Gradle: net.fabricmc:access-widener:2.1.0" type="70bed36:NamedLibraryElementNode" />
+              </presentation>
+              <presentation>
+                <attributes />
+                <data iconPath="expui/nodes/libraryFolder.svg" iconPlugin="com.intellij" isLeaf="false" text="Gradle: net.fabricmc:dev-launch-injector:0.2.1+build.8" />
+                <item name="Gradle: net.fabricmc:dev-launch-injector:0.2.1+build.8" type="70bed36:NamedLibraryElementNode" />
+              </presentation>
+              <presentation>
+                <attributes />
+                <data iconPath="expui/nodes/libraryFolder.svg" iconPlugin="com.intellij" isLeaf="false" text="Gradle: net.fabricmc:fabric-loader:0.14.22" />
+                <item name="Gradle: net.fabricmc:fabric-loader:0.14.22" type="70bed36:NamedLibraryElementNode" />
+              </presentation>
+              <presentation>
+                <attributes />
+                <data iconPath="expui/nodes/libraryFolder.svg" iconPlugin="com.intellij" isLeaf="false" text="Gradle: net.fabricmc:sponge-mixin:0.12.5+mixin.0.8.5" />
+                <item name="Gradle: net.fabricmc:sponge-mixin:0.12.5+mixin.0.8.5" type="70bed36:NamedLibraryElementNode" />
+              </presentation>
+              <presentation>
+                <attributes />
+                <data iconPath="expui/nodes/libraryFolder.svg" iconPlugin="com.intellij" isLeaf="false" text="Gradle: net.fabricmc:tiny-mappings-parser:0.3.0+build.17" />
+                <item name="Gradle: net.fabricmc:tiny-mappings-parser:0.3.0+build.17" type="70bed36:NamedLibraryElementNode" />
+              </presentation>
+              <presentation>
+                <attributes />
+                <data iconPath="expui/nodes/libraryFolder.svg" iconPlugin="com.intellij" isLeaf="false" text="Gradle: net.fabricmc:tiny-remapper:0.8.2" />
+                <item name="Gradle: net.fabricmc:tiny-remapper:0.8.2" type="70bed36:NamedLibraryElementNode" />
+              </presentation>
+              <presentation>
+                <attributes />
+                <data iconPath="expui/nodes/libraryFolder.svg" iconPlugin="com.intellij" isLeaf="false" text="Gradle: net.fabricmc:yarn:constants:1.20.1+build.10" />
+                <item name="Gradle: net.fabricmc:yarn:constants:1.20.1+build.10" type="70bed36:NamedLibraryElementNode" />
+              </presentation>
+              <presentation>
+                <attributes />
+                <data iconPath="expui/nodes/libraryFolder.svg" iconPlugin="com.intellij" isLeaf="false" text="Gradle: net.java.dev.jna:jna:5.12.1" />
+                <item name="Gradle: net.java.dev.jna:jna:5.12.1" type="70bed36:NamedLibraryElementNode" />
+              </presentation>
+              <presentation>
+                <attributes />
+                <data iconPath="expui/nodes/libraryFolder.svg" iconPlugin="com.intellij" isLeaf="false" text="Gradle: net.java.dev.jna:jna-platform:5.12.1" />
+                <item name="Gradle: net.java.dev.jna:jna-platform:5.12.1" type="70bed36:NamedLibraryElementNode" />
+              </presentation>
+              <presentation>
+                <attributes />
+                <data iconPath="expui/nodes/libraryFolder.svg" iconPlugin="com.intellij" isLeaf="false" text="Gradle: net.minecraft:minecraft-merged-project-root:1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.10-v2" />
+                <item name="Gradle: net.minecraft:minecraft-merged-project-root:1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.10-v2" type="70bed36:NamedLibraryElementNode" />
+              </presentation>
+              <presentation>
+                <attributes />
+                <data iconPath="expui/nodes/libraryFolder.svg" iconPlugin="com.intellij" isLeaf="false" text="Gradle: net.minecrell:terminalconsoleappender:1.2.0" />
+                <item name="Gradle: net.minecrell:terminalconsoleappender:1.2.0" type="70bed36:NamedLibraryElementNode" />
+              </presentation>
+              <presentation>
+                <attributes />
+                <data iconPath="expui/nodes/libraryFolder.svg" iconPlugin="com.intellij" isLeaf="false" text="Gradle: net.sf.jopt-simple:jopt-simple:5.0.4" />
+                <item name="Gradle: net.sf.jopt-simple:jopt-simple:5.0.4" type="70bed36:NamedLibraryElementNode" />
+              </presentation>
+              <presentation>
+                <attributes />
+                <data iconPath="expui/nodes/libraryFolder.svg" iconPlugin="com.intellij" isLeaf="false" text="Gradle: net_fabricmc_yarn_1_20_1_1_20_1_build_10_v2.net.fabricmc.fabric-api:fabric-api:0.89.0+1.20.1" />
+                <item name="Gradle: net_fabricmc_yarn_1_20_1_1_20_1_build_10_v2.net.fabricmc.fabric-api:fabric-api:0.89.0+1.20.1" type="70bed36:NamedLibraryElementNode" />
+              </presentation>
+              <presentation>
+                <attributes />
+                <data iconPath="expui/nodes/libraryFolder.svg" iconPlugin="com.intellij" isLeaf="false" text="Gradle: net_fabricmc_yarn_1_20_1_1_20_1_build_10_v2.net.fabricmc.fabric-api:fabric-api-base:0.4.30+7abfd51577" />
+                <item name="Gradle: net_fabricmc_yarn_1_20_1_1_20_1_build_10_v2.net.fabricmc.fabric-api:fabric-api-base:0.4.30+7abfd51577" type="70bed36:NamedLibraryElementNode" />
+              </presentation>
+              <presentation>
+                <attributes />
+                <data iconPath="expui/nodes/libraryFolder.svg" iconPlugin="com.intellij" isLeaf="false" text="Gradle: net_fabricmc_yarn_1_20_1_1_20_1_build_10_v2.net.fabricmc.fabric-api:fabric-api-lookup-api-v1:1.6.35+4d8536c977" />
+                <item name="Gradle: net_fabricmc_yarn_1_20_1_1_20_1_build_10_v2.net.fabricmc.fabric-api:fabric-api-lookup-api-v1:1.6.35+4d8536c977" type="70bed36:NamedLibraryElementNode" />
+              </presentation>
+              <presentation>
+                <attributes />
+                <data iconPath="expui/nodes/libraryFolder.svg" iconPlugin="com.intellij" isLeaf="false" text="Gradle: net_fabricmc_yarn_1_20_1_1_20_1_build_10_v2.net.fabricmc.fabric-api:fabric-biome-api-v1:13.0.10+b3afc78b77" />
+                <item name="Gradle: net_fabricmc_yarn_1_20_1_1_20_1_build_10_v2.net.fabricmc.fabric-api:fabric-biome-api-v1:13.0.10+b3afc78b77" type="70bed36:NamedLibraryElementNode" />
+              </presentation>
+              <presentation>
+                <attributes />
+                <data iconPath="expui/nodes/libraryFolder.svg" iconPlugin="com.intellij" isLeaf="false" text="Gradle: net_fabricmc_yarn_1_20_1_1_20_1_build_10_v2.net.fabricmc.fabric-api:fabric-block-api-v1:1.0.10+92a0d36777" />
+                <item name="Gradle: net_fabricmc_yarn_1_20_1_1_20_1_build_10_v2.net.fabricmc.fabric-api:fabric-block-api-v1:1.0.10+92a0d36777" type="70bed36:NamedLibraryElementNode" />
+              </presentation>
+              <presentation>
+                <attributes />
+                <data iconPath="expui/nodes/libraryFolder.svg" iconPlugin="com.intellij" isLeaf="false" text="Gradle: net_fabricmc_yarn_1_20_1_1_20_1_build_10_v2.net.fabricmc.fabric-api:fabric-block-view-api-v2:1.0.0+92a0d36777" />
+                <item name="Gradle: net_fabricmc_yarn_1_20_1_1_20_1_build_10_v2.net.fabricmc.fabric-api:fabric-block-view-api-v2:1.0.0+92a0d36777" type="70bed36:NamedLibraryElementNode" />
+              </presentation>
+              <presentation>
+                <attributes />
+                <data iconPath="expui/nodes/libraryFolder.svg" iconPlugin="com.intellij" isLeaf="false" text="Gradle: net_fabricmc_yarn_1_20_1_1_20_1_build_10_v2.net.fabricmc.fabric-api:fabric-blockrenderlayer-v1:1.1.40+b3afc78b77" />
+                <item name="Gradle: net_fabricmc_yarn_1_20_1_1_20_1_build_10_v2.net.fabricmc.fabric-api:fabric-blockrenderlayer-v1:1.1.40+b3afc78b77" type="70bed36:NamedLibraryElementNode" />
+              </presentation>
+              <presentation>
+                <attributes />
+                <data iconPath="expui/nodes/libraryFolder.svg" iconPlugin="com.intellij" isLeaf="false" text="Gradle: net_fabricmc_yarn_1_20_1_1_20_1_build_10_v2.net.fabricmc.fabric-api:fabric-client-tags-api-v1:1.1.1+97bb207577" />
+                <item name="Gradle: net_fabricmc_yarn_1_20_1_1_20_1_build_10_v2.net.fabricmc.fabric-api:fabric-client-tags-api-v1:1.1.1+97bb207577" type="70bed36:NamedLibraryElementNode" />
+              </presentation>
+              <presentation>
+                <attributes />
+                <data iconPath="expui/nodes/libraryFolder.svg" iconPlugin="com.intellij" isLeaf="false" text="Gradle: net_fabricmc_yarn_1_20_1_1_20_1_build_10_v2.net.fabricmc.fabric-api:fabric-command-api-v1:1.2.33+f71b366f77" />
+                <item name="Gradle: net_fabricmc_yarn_1_20_1_1_20_1_build_10_v2.net.fabricmc.fabric-api:fabric-command-api-v1:1.2.33+f71b366f77" type="70bed36:NamedLibraryElementNode" />
+              </presentation>
+              <presentation>
+                <attributes />
+                <data iconPath="expui/nodes/libraryFolder.svg" iconPlugin="com.intellij" isLeaf="false" text="Gradle: net_fabricmc_yarn_1_20_1_1_20_1_build_10_v2.net.fabricmc.fabric-api:fabric-command-api-v2:2.2.12+b3afc78b77" />
+                <item name="Gradle: net_fabricmc_yarn_1_20_1_1_20_1_build_10_v2.net.fabricmc.fabric-api:fabric-command-api-v2:2.2.12+b3afc78b77" type="70bed36:NamedLibraryElementNode" />
+              </presentation>
+              <presentation>
+                <attributes />
+                <data iconPath="expui/nodes/libraryFolder.svg" iconPlugin="com.intellij" isLeaf="false" text="Gradle: net_fabricmc_yarn_1_20_1_1_20_1_build_10_v2.net.fabricmc.fabric-api:fabric-commands-v0:0.2.50+df3654b377" />
+                <item name="Gradle: net_fabricmc_yarn_1_20_1_1_20_1_build_10_v2.net.fabricmc.fabric-api:fabric-commands-v0:0.2.50+df3654b377" type="70bed36:NamedLibraryElementNode" />
+              </presentation>
+              <presentation>
+                <attributes />
+                <data iconPath="expui/nodes/libraryFolder.svg" iconPlugin="com.intellij" isLeaf="false" text="Gradle: net_fabricmc_yarn_1_20_1_1_20_1_build_10_v2.net.fabricmc.fabric-api:fabric-containers-v0:0.1.63+df3654b377" />
+                <item name="Gradle: net_fabricmc_yarn_1_20_1_1_20_1_build_10_v2.net.fabricmc.fabric-api:fabric-containers-v0:0.1.63+df3654b377" type="70bed36:NamedLibraryElementNode" />
+              </presentation>
+              <presentation>
+                <attributes />
+                <data iconPath="expui/nodes/libraryFolder.svg" iconPlugin="com.intellij" isLeaf="false" text="Gradle: net_fabricmc_yarn_1_20_1_1_20_1_build_10_v2.net.fabricmc.fabric-api:fabric-content-registries-v0:4.0.9+b3afc78b77" />
+                <item name="Gradle: net_fabricmc_yarn_1_20_1_1_20_1_build_10_v2.net.fabricmc.fabric-api:fabric-content-registries-v0:4.0.9+b3afc78b77" type="70bed36:NamedLibraryElementNode" />
+              </presentation>
+              <presentation>
+                <attributes />
+                <data iconPath="expui/nodes/libraryFolder.svg" iconPlugin="com.intellij" isLeaf="false" text="Gradle: net_fabricmc_yarn_1_20_1_1_20_1_build_10_v2.net.fabricmc.fabric-api:fabric-convention-tags-v1:1.5.4+a1a980da77" />
+                <item name="Gradle: net_fabricmc_yarn_1_20_1_1_20_1_build_10_v2.net.fabricmc.fabric-api:fabric-convention-tags-v1:1.5.4+a1a980da77" type="70bed36:NamedLibraryElementNode" />
+              </presentation>
+              <presentation>
+                <attributes />
+                <data iconPath="expui/nodes/libraryFolder.svg" iconPlugin="com.intellij" isLeaf="false" text="Gradle: net_fabricmc_yarn_1_20_1_1_20_1_build_10_v2.net.fabricmc.fabric-api:fabric-crash-report-info-v1:0.2.18+aeb40ebe77" />
+                <item name="Gradle: net_fabricmc_yarn_1_20_1_1_20_1_build_10_v2.net.fabricmc.fabric-api:fabric-crash-report-info-v1:0.2.18+aeb40ebe77" type="70bed36:NamedLibraryElementNode" />
+              </presentation>
+              <presentation>
+                <attributes />
+                <data iconPath="expui/nodes/libraryFolder.svg" iconPlugin="com.intellij" isLeaf="false" text="Gradle: net_fabricmc_yarn_1_20_1_1_20_1_build_10_v2.net.fabricmc.fabric-api:fabric-data-generation-api-v1:12.3.0+0883a8d477" />
+                <item name="Gradle: net_fabricmc_yarn_1_20_1_1_20_1_build_10_v2.net.fabricmc.fabric-api:fabric-data-generation-api-v1:12.3.0+0883a8d477" type="70bed36:NamedLibraryElementNode" />
+              </presentation>
+              <presentation>
+                <attributes />
+                <data iconPath="expui/nodes/libraryFolder.svg" iconPlugin="com.intellij" isLeaf="false" text="Gradle: net_fabricmc_yarn_1_20_1_1_20_1_build_10_v2.net.fabricmc.fabric-api:fabric-dimensions-v1:2.1.53+8536527b77" />
+                <item name="Gradle: net_fabricmc_yarn_1_20_1_1_20_1_build_10_v2.net.fabricmc.fabric-api:fabric-dimensions-v1:2.1.53+8536527b77" type="70bed36:NamedLibraryElementNode" />
+              </presentation>
+              <presentation>
+                <attributes />
+                <data iconPath="expui/nodes/libraryFolder.svg" iconPlugin="com.intellij" isLeaf="false" text="Gradle: net_fabricmc_yarn_1_20_1_1_20_1_build_10_v2.net.fabricmc.fabric-api:fabric-entity-events-v1:1.5.22+b3afc78b77" />
+                <item name="Gradle: net_fabricmc_yarn_1_20_1_1_20_1_build_10_v2.net.fabricmc.fabric-api:fabric-entity-events-v1:1.5.22+b3afc78b77" type="70bed36:NamedLibraryElementNode" />
+              </presentation>
+              <presentation>
+                <attributes />
+                <data iconPath="expui/nodes/libraryFolder.svg" iconPlugin="com.intellij" isLeaf="false" text="Gradle: net_fabricmc_yarn_1_20_1_1_20_1_build_10_v2.net.fabricmc.fabric-api:fabric-events-interaction-v0:0.6.1+e91849a877" />
+                <item name="Gradle: net_fabricmc_yarn_1_20_1_1_20_1_build_10_v2.net.fabricmc.fabric-api:fabric-events-interaction-v0:0.6.1+e91849a877" type="70bed36:NamedLibraryElementNode" />
+              </presentation>
+              <presentation>
+                <attributes />
+                <data iconPath="expui/nodes/libraryFolder.svg" iconPlugin="com.intellij" isLeaf="false" text="Gradle: net_fabricmc_yarn_1_20_1_1_20_1_build_10_v2.net.fabricmc.fabric-api:fabric-events-lifecycle-v0:0.2.62+df3654b377" />
+                <item name="Gradle: net_fabricmc_yarn_1_20_1_1_20_1_build_10_v2.net.fabricmc.fabric-api:fabric-events-lifecycle-v0:0.2.62+df3654b377" type="70bed36:NamedLibraryElementNode" />
+              </presentation>
+              <presentation>
+                <attributes />
+                <data iconPath="expui/nodes/libraryFolder.svg" iconPlugin="com.intellij" isLeaf="false" text="Gradle: net_fabricmc_yarn_1_20_1_1_20_1_build_10_v2.net.fabricmc.fabric-api:fabric-game-rule-api-v1:1.0.38+b04edc7a77" />
+                <item name="Gradle: net_fabricmc_yarn_1_20_1_1_20_1_build_10_v2.net.fabricmc.fabric-api:fabric-game-rule-api-v1:1.0.38+b04edc7a77" type="70bed36:NamedLibraryElementNode" />
+              </presentation>
+              <presentation>
+                <attributes />
+                <data iconPath="expui/nodes/libraryFolder.svg" iconPlugin="com.intellij" isLeaf="false" text="Gradle: net_fabricmc_yarn_1_20_1_1_20_1_build_10_v2.net.fabricmc.fabric-api:fabric-gametest-api-v1:1.2.12+b3afc78b77" />
+                <item name="Gradle: net_fabricmc_yarn_1_20_1_1_20_1_build_10_v2.net.fabricmc.fabric-api:fabric-gametest-api-v1:1.2.12+b3afc78b77" type="70bed36:NamedLibraryElementNode" />
+              </presentation>
+              <presentation>
+                <attributes />
+                <data iconPath="expui/nodes/libraryFolder.svg" iconPlugin="com.intellij" isLeaf="false" text="Gradle: net_fabricmc_yarn_1_20_1_1_20_1_build_10_v2.net.fabricmc.fabric-api:fabric-item-api-v1:2.1.27+b3afc78b77" />
+                <item name="Gradle: net_fabricmc_yarn_1_20_1_1_20_1_build_10_v2.net.fabricmc.fabric-api:fabric-item-api-v1:2.1.27+b3afc78b77" type="70bed36:NamedLibraryElementNode" />
+              </presentation>
+              <presentation>
+                <attributes />
+                <data iconPath="expui/nodes/libraryFolder.svg" iconPlugin="com.intellij" isLeaf="false" text="Gradle: net_fabricmc_yarn_1_20_1_1_20_1_build_10_v2.net.fabricmc.fabric-api:fabric-item-group-api-v1:4.0.10+23d9108177" />
+                <item name="Gradle: net_fabricmc_yarn_1_20_1_1_20_1_build_10_v2.net.fabricmc.fabric-api:fabric-item-group-api-v1:4.0.10+23d9108177" type="70bed36:NamedLibraryElementNode" />
+              </presentation>
+              <presentation>
+                <attributes />
+                <data iconPath="expui/nodes/libraryFolder.svg" iconPlugin="com.intellij" isLeaf="false" text="Gradle: net_fabricmc_yarn_1_20_1_1_20_1_build_10_v2.net.fabricmc.fabric-api:fabric-key-binding-api-v1:1.0.36+fb8d95da77" />
+                <item name="Gradle: net_fabricmc_yarn_1_20_1_1_20_1_build_10_v2.net.fabricmc.fabric-api:fabric-key-binding-api-v1:1.0.36+fb8d95da77" type="70bed36:NamedLibraryElementNode" />
+              </presentation>
+              <presentation>
+                <attributes />
+                <data iconPath="expui/nodes/libraryFolder.svg" iconPlugin="com.intellij" isLeaf="false" text="Gradle: net_fabricmc_yarn_1_20_1_1_20_1_build_10_v2.net.fabricmc.fabric-api:fabric-keybindings-v0:0.2.34+df3654b377" />
+                <item name="Gradle: net_fabricmc_yarn_1_20_1_1_20_1_build_10_v2.net.fabricmc.fabric-api:fabric-keybindings-v0:0.2.34+df3654b377" type="70bed36:NamedLibraryElementNode" />
+              </presentation>
+              <presentation>
+                <attributes />
+                <data iconPath="expui/nodes/libraryFolder.svg" iconPlugin="com.intellij" isLeaf="false" text="Gradle: net_fabricmc_yarn_1_20_1_1_20_1_build_10_v2.net.fabricmc.fabric-api:fabric-lifecycle-events-v1:2.2.21+b3afc78b77" />
+                <item name="Gradle: net_fabricmc_yarn_1_20_1_1_20_1_build_10_v2.net.fabricmc.fabric-api:fabric-lifecycle-events-v1:2.2.21+b3afc78b77" type="70bed36:NamedLibraryElementNode" />
+              </presentation>
+              <presentation>
+                <attributes />
+                <data iconPath="expui/nodes/libraryFolder.svg" iconPlugin="com.intellij" isLeaf="false" text="Gradle: net_fabricmc_yarn_1_20_1_1_20_1_build_10_v2.net.fabricmc.fabric-api:fabric-loot-api-v2:1.1.39+b3afc78b77" />
+                <item name="Gradle: net_fabricmc_yarn_1_20_1_1_20_1_build_10_v2.net.fabricmc.fabric-api:fabric-loot-api-v2:1.1.39+b3afc78b77" type="70bed36:NamedLibraryElementNode" />
+              </presentation>
+              <presentation>
+                <attributes />
+                <data iconPath="expui/nodes/libraryFolder.svg" iconPlugin="com.intellij" isLeaf="false" text="Gradle: net_fabricmc_yarn_1_20_1_1_20_1_build_10_v2.net.fabricmc.fabric-api:fabric-loot-tables-v1:1.1.43+9e7660c677" />
+                <item name="Gradle: net_fabricmc_yarn_1_20_1_1_20_1_build_10_v2.net.fabricmc.fabric-api:fabric-loot-tables-v1:1.1.43+9e7660c677" type="70bed36:NamedLibraryElementNode" />
+              </presentation>
+              <presentation>
+                <attributes />
+                <data iconPath="expui/nodes/libraryFolder.svg" iconPlugin="com.intellij" isLeaf="false" text="Gradle: net_fabricmc_yarn_1_20_1_1_20_1_build_10_v2.net.fabricmc.fabric-api:fabric-message-api-v1:5.1.7+3265161977" />
+                <item name="Gradle: net_fabricmc_yarn_1_20_1_1_20_1_build_10_v2.net.fabricmc.fabric-api:fabric-message-api-v1:5.1.7+3265161977" type="70bed36:NamedLibraryElementNode" />
+              </presentation>
+              <presentation>
+                <attributes />
+                <data iconPath="expui/nodes/libraryFolder.svg" iconPlugin="com.intellij" isLeaf="false" text="Gradle: net_fabricmc_yarn_1_20_1_1_20_1_build_10_v2.net.fabricmc.fabric-api:fabric-mining-level-api-v1:2.1.49+b3afc78b77" />
+                <item name="Gradle: net_fabricmc_yarn_1_20_1_1_20_1_build_10_v2.net.fabricmc.fabric-api:fabric-mining-level-api-v1:2.1.49+b3afc78b77" type="70bed36:NamedLibraryElementNode" />
+              </presentation>
+              <presentation>
+                <attributes />
+                <data iconPath="expui/nodes/libraryFolder.svg" iconPlugin="com.intellij" isLeaf="false" text="Gradle: net_fabricmc_yarn_1_20_1_1_20_1_build_10_v2.net.fabricmc.fabric-api:fabric-model-loading-api-v1:1.0.2+709a987177" />
+                <item name="Gradle: net_fabricmc_yarn_1_20_1_1_20_1_build_10_v2.net.fabricmc.fabric-api:fabric-model-loading-api-v1:1.0.2+709a987177" type="70bed36:NamedLibraryElementNode" />
+              </presentation>
+              <presentation>
+                <attributes />
+                <data iconPath="expui/nodes/libraryFolder.svg" iconPlugin="com.intellij" isLeaf="false" text="Gradle: net_fabricmc_yarn_1_20_1_1_20_1_build_10_v2.net.fabricmc.fabric-api:fabric-models-v0:0.4.1+9386d8a777" />
+                <item name="Gradle: net_fabricmc_yarn_1_20_1_1_20_1_build_10_v2.net.fabricmc.fabric-api:fabric-models-v0:0.4.1+9386d8a777" type="70bed36:NamedLibraryElementNode" />
+              </presentation>
+              <presentation>
+                <attributes />
+                <data iconPath="expui/nodes/libraryFolder.svg" iconPlugin="com.intellij" isLeaf="false" text="Gradle: net_fabricmc_yarn_1_20_1_1_20_1_build_10_v2.net.fabricmc.fabric-api:fabric-networking-api-v1:1.3.10+eeb8eb3677" />
+                <item name="Gradle: net_fabricmc_yarn_1_20_1_1_20_1_build_10_v2.net.fabricmc.fabric-api:fabric-networking-api-v1:1.3.10+eeb8eb3677" type="70bed36:NamedLibraryElementNode" />
+              </presentation>
+              <presentation>
+                <attributes />
+                <data iconPath="expui/nodes/libraryFolder.svg" iconPlugin="com.intellij" isLeaf="false" text="Gradle: net_fabricmc_yarn_1_20_1_1_20_1_build_10_v2.net.fabricmc.fabric-api:fabric-networking-v0:0.3.50+df3654b377" />
+                <item name="Gradle: net_fabricmc_yarn_1_20_1_1_20_1_build_10_v2.net.fabricmc.fabric-api:fabric-networking-v0:0.3.50+df3654b377" type="70bed36:NamedLibraryElementNode" />
+              </presentation>
+              <presentation>
+                <attributes />
+                <data iconPath="expui/nodes/libraryFolder.svg" iconPlugin="com.intellij" isLeaf="false" text="Gradle: net_fabricmc_yarn_1_20_1_1_20_1_build_10_v2.net.fabricmc.fabric-api:fabric-object-builder-api-v1:11.1.1+6beca84877" />
+                <item name="Gradle: net_fabricmc_yarn_1_20_1_1_20_1_build_10_v2.net.fabricmc.fabric-api:fabric-object-builder-api-v1:11.1.1+6beca84877" type="70bed36:NamedLibraryElementNode" />
+              </presentation>
+              <presentation>
+                <attributes />
+                <data iconPath="expui/nodes/libraryFolder.svg" iconPlugin="com.intellij" isLeaf="false" text="Gradle: net_fabricmc_yarn_1_20_1_1_20_1_build_10_v2.net.fabricmc.fabric-api:fabric-particles-v1:1.1.1+201a23a077" />
+                <item name="Gradle: net_fabricmc_yarn_1_20_1_1_20_1_build_10_v2.net.fabricmc.fabric-api:fabric-particles-v1:1.1.1+201a23a077" type="70bed36:NamedLibraryElementNode" />
+              </presentation>
+              <presentation>
+                <attributes />
+                <data iconPath="expui/nodes/libraryFolder.svg" iconPlugin="com.intellij" isLeaf="false" text="Gradle: net_fabricmc_yarn_1_20_1_1_20_1_build_10_v2.net.fabricmc.fabric-api:fabric-recipe-api-v1:1.0.20+b3afc78b77" />
+                <item name="Gradle: net_fabricmc_yarn_1_20_1_1_20_1_build_10_v2.net.fabricmc.fabric-api:fabric-recipe-api-v1:1.0.20+b3afc78b77" type="70bed36:NamedLibraryElementNode" />
+              </presentation>
+              <presentation>
+                <attributes />
+                <data iconPath="expui/nodes/libraryFolder.svg" iconPlugin="com.intellij" isLeaf="false" text="Gradle: net_fabricmc_yarn_1_20_1_1_20_1_build_10_v2.net.fabricmc.fabric-api:fabric-registry-sync-v0:2.3.2+4df89eb277" />
+                <item name="Gradle: net_fabricmc_yarn_1_20_1_1_20_1_build_10_v2.net.fabricmc.fabric-api:fabric-registry-sync-v0:2.3.2+4df89eb277" type="70bed36:NamedLibraryElementNode" />
+              </presentation>
+              <presentation>
+                <attributes />
+                <data iconPath="expui/nodes/libraryFolder.svg" iconPlugin="com.intellij" isLeaf="false" text="Gradle: net_fabricmc_yarn_1_20_1_1_20_1_build_10_v2.net.fabricmc.fabric-api:fabric-renderer-api-v1:3.2.0+39a511ba77" />
+                <item name="Gradle: net_fabricmc_yarn_1_20_1_1_20_1_build_10_v2.net.fabricmc.fabric-api:fabric-renderer-api-v1:3.2.0+39a511ba77" type="70bed36:NamedLibraryElementNode" />
+              </presentation>
+              <presentation>
+                <attributes />
+                <data iconPath="expui/nodes/libraryFolder.svg" iconPlugin="com.intellij" isLeaf="false" text="Gradle: net_fabricmc_yarn_1_20_1_1_20_1_build_10_v2.net.fabricmc.fabric-api:fabric-renderer-indigo:1.5.0+39a511ba77" />
+                <item name="Gradle: net_fabricmc_yarn_1_20_1_1_20_1_build_10_v2.net.fabricmc.fabric-api:fabric-renderer-indigo:1.5.0+39a511ba77" type="70bed36:NamedLibraryElementNode" />
+              </presentation>
+              <presentation>
+                <attributes />
+                <data iconPath="expui/nodes/libraryFolder.svg" iconPlugin="com.intellij" isLeaf="false" text="Gradle: net_fabricmc_yarn_1_20_1_1_20_1_build_10_v2.net.fabricmc.fabric-api:fabric-renderer-registries-v1:3.2.45+df3654b377" />
+                <item name="Gradle: net_fabricmc_yarn_1_20_1_1_20_1_build_10_v2.net.fabricmc.fabric-api:fabric-renderer-registries-v1:3.2.45+df3654b377" type="70bed36:NamedLibraryElementNode" />
+              </presentation>
+              <presentation>
+                <attributes />
+                <data iconPath="expui/nodes/libraryFolder.svg" iconPlugin="com.intellij" isLeaf="false" text="Gradle: net_fabricmc_yarn_1_20_1_1_20_1_build_10_v2.net.fabricmc.fabric-api:fabric-rendering-data-attachment-v1:0.3.36+92a0d36777" />
+                <item name="Gradle: net_fabricmc_yarn_1_20_1_1_20_1_build_10_v2.net.fabricmc.fabric-api:fabric-rendering-data-attachment-v1:0.3.36+92a0d36777" type="70bed36:NamedLibraryElementNode" />
+              </presentation>
+              <presentation>
+                <attributes />
+                <data iconPath="expui/nodes/libraryFolder.svg" iconPlugin="com.intellij" isLeaf="false" text="Gradle: net_fabricmc_yarn_1_20_1_1_20_1_build_10_v2.net.fabricmc.fabric-api:fabric-rendering-fluids-v1:3.0.27+b3afc78b77" />
+                <item name="Gradle: net_fabricmc_yarn_1_20_1_1_20_1_build_10_v2.net.fabricmc.fabric-api:fabric-rendering-fluids-v1:3.0.27+b3afc78b77" type="70bed36:NamedLibraryElementNode" />
+              </presentation>
+              <presentation>
+                <attributes />
+                <data iconPath="expui/nodes/libraryFolder.svg" iconPlugin="com.intellij" isLeaf="false" text="Gradle: net_fabricmc_yarn_1_20_1_1_20_1_build_10_v2.net.fabricmc.fabric-api:fabric-rendering-v0:1.1.48+df3654b377" />
+                <item name="Gradle: net_fabricmc_yarn_1_20_1_1_20_1_build_10_v2.net.fabricmc.fabric-api:fabric-rendering-v0:1.1.48+df3654b377" type="70bed36:NamedLibraryElementNode" />
+              </presentation>
+              <presentation>
+                <attributes />
+                <data iconPath="expui/nodes/libraryFolder.svg" iconPlugin="com.intellij" isLeaf="false" text="Gradle: net_fabricmc_yarn_1_20_1_1_20_1_build_10_v2.net.fabricmc.fabric-api:fabric-rendering-v1:3.0.7+b3afc78b77" />
+                <item name="Gradle: net_fabricmc_yarn_1_20_1_1_20_1_build_10_v2.net.fabricmc.fabric-api:fabric-rendering-v1:3.0.7+b3afc78b77" type="70bed36:NamedLibraryElementNode" />
+              </presentation>
+              <presentation>
+                <attributes />
+                <data iconPath="expui/nodes/libraryFolder.svg" iconPlugin="com.intellij" isLeaf="false" text="Gradle: net_fabricmc_yarn_1_20_1_1_20_1_build_10_v2.net.fabricmc.fabric-api:fabric-resource-conditions-api-v1:2.3.5+ea08f9d877" />
+                <item name="Gradle: net_fabricmc_yarn_1_20_1_1_20_1_build_10_v2.net.fabricmc.fabric-api:fabric-resource-conditions-api-v1:2.3.5+ea08f9d877" type="70bed36:NamedLibraryElementNode" />
+              </presentation>
+              <presentation>
+                <attributes />
+                <data iconPath="expui/nodes/libraryFolder.svg" iconPlugin="com.intellij" isLeaf="false" text="Gradle: net_fabricmc_yarn_1_20_1_1_20_1_build_10_v2.net.fabricmc.fabric-api:fabric-resource-loader-v0:0.11.9+132c48c177" />
+                <item name="Gradle: net_fabricmc_yarn_1_20_1_1_20_1_build_10_v2.net.fabricmc.fabric-api:fabric-resource-loader-v0:0.11.9+132c48c177" type="70bed36:NamedLibraryElementNode" />
+              </presentation>
+              <presentation>
+                <attributes />
+                <data iconPath="expui/nodes/libraryFolder.svg" iconPlugin="com.intellij" isLeaf="false" text="Gradle: net_fabricmc_yarn_1_20_1_1_20_1_build_10_v2.net.fabricmc.fabric-api:fabric-screen-api-v1:2.0.7+b3afc78b77" />
+                <item name="Gradle: net_fabricmc_yarn_1_20_1_1_20_1_build_10_v2.net.fabricmc.fabric-api:fabric-screen-api-v1:2.0.7+b3afc78b77" type="70bed36:NamedLibraryElementNode" />
+              </presentation>
+              <presentation>
+                <attributes />
+                <data iconPath="expui/nodes/libraryFolder.svg" iconPlugin="com.intellij" isLeaf="false" text="Gradle: net_fabricmc_yarn_1_20_1_1_20_1_build_10_v2.net.fabricmc.fabric-api:fabric-screen-handler-api-v1:1.3.29+b3afc78b77" />
+                <item name="Gradle: net_fabricmc_yarn_1_20_1_1_20_1_build_10_v2.net.fabricmc.fabric-api:fabric-screen-handler-api-v1:1.3.29+b3afc78b77" type="70bed36:NamedLibraryElementNode" />
+              </presentation>
+              <presentation>
+                <attributes />
+                <data iconPath="expui/nodes/libraryFolder.svg" iconPlugin="com.intellij" isLeaf="false" text="Gradle: net_fabricmc_yarn_1_20_1_1_20_1_build_10_v2.net.fabricmc.fabric-api:fabric-sound-api-v1:1.0.12+b3afc78b77" />
+                <item name="Gradle: net_fabricmc_yarn_1_20_1_1_20_1_build_10_v2.net.fabricmc.fabric-api:fabric-sound-api-v1:1.0.12+b3afc78b77" type="70bed36:NamedLibraryElementNode" />
+              </presentation>
+              <presentation>
+                <attributes />
+                <data iconPath="expui/nodes/libraryFolder.svg" iconPlugin="com.intellij" isLeaf="false" text="Gradle: net_fabricmc_yarn_1_20_1_1_20_1_build_10_v2.net.fabricmc.fabric-api:fabric-transfer-api-v1:3.3.1+195226a777" />
+                <item name="Gradle: net_fabricmc_yarn_1_20_1_1_20_1_build_10_v2.net.fabricmc.fabric-api:fabric-transfer-api-v1:3.3.1+195226a777" type="70bed36:NamedLibraryElementNode" />
+              </presentation>
+              <presentation>
+                <attributes />
+                <data iconPath="expui/nodes/libraryFolder.svg" iconPlugin="com.intellij" isLeaf="false" text="Gradle: net_fabricmc_yarn_1_20_1_1_20_1_build_10_v2.net.fabricmc.fabric-api:fabric-transitive-access-wideners-v1:4.3.0+6c31357e77" />
+                <item name="Gradle: net_fabricmc_yarn_1_20_1_1_20_1_build_10_v2.net.fabricmc.fabric-api:fabric-transitive-access-wideners-v1:4.3.0+6c31357e77" type="70bed36:NamedLibraryElementNode" />
+              </presentation>
+              <presentation>
+                <attributes />
+                <data iconPath="expui/nodes/libraryFolder.svg" iconPlugin="com.intellij" isLeaf="false" text="Gradle: org.apache.commons:commons-compress:1.21" />
+                <item name="Gradle: org.apache.commons:commons-compress:1.21" type="70bed36:NamedLibraryElementNode" />
+              </presentation>
+              <presentation>
+                <attributes />
+                <data iconPath="expui/nodes/libraryFolder.svg" iconPlugin="com.intellij" isLeaf="false" text="Gradle: org.apache.commons:commons-lang3:3.12.0" />
+                <item name="Gradle: org.apache.commons:commons-lang3:3.12.0" type="70bed36:NamedLibraryElementNode" />
+              </presentation>
+              <presentation>
+                <attributes />
+                <data iconPath="expui/nodes/libraryFolder.svg" iconPlugin="com.intellij" isLeaf="false" text="Gradle: org.apache.httpcomponents:httpclient:4.5.13" />
+                <item name="Gradle: org.apache.httpcomponents:httpclient:4.5.13" type="70bed36:NamedLibraryElementNode" />
+              </presentation>
+              <presentation>
+                <attributes />
+                <data iconPath="expui/nodes/libraryFolder.svg" iconPlugin="com.intellij" isLeaf="false" text="Gradle: org.apache.httpcomponents:httpcore:4.4.15" />
+                <item name="Gradle: org.apache.httpcomponents:httpcore:4.4.15" type="70bed36:NamedLibraryElementNode" />
+              </presentation>
+              <presentation>
+                <attributes />
+                <data iconPath="expui/nodes/libraryFolder.svg" iconPlugin="com.intellij" isLeaf="false" text="Gradle: org.apache.logging.log4j:log4j-api:2.19.0" />
+                <item name="Gradle: org.apache.logging.log4j:log4j-api:2.19.0" type="70bed36:NamedLibraryElementNode" />
+              </presentation>
+              <presentation>
+                <attributes />
+                <data iconPath="expui/nodes/libraryFolder.svg" iconPlugin="com.intellij" isLeaf="false" text="Gradle: org.apache.logging.log4j:log4j-core:2.19.0" />
+                <item name="Gradle: org.apache.logging.log4j:log4j-core:2.19.0" type="70bed36:NamedLibraryElementNode" />
+              </presentation>
+              <presentation>
+                <attributes />
+                <data iconPath="expui/nodes/libraryFolder.svg" iconPlugin="com.intellij" isLeaf="false" text="Gradle: org.apache.logging.log4j:log4j-slf4j2-impl:2.19.0" />
+                <item name="Gradle: org.apache.logging.log4j:log4j-slf4j2-impl:2.19.0" type="70bed36:NamedLibraryElementNode" />
+              </presentation>
+              <presentation>
+                <attributes />
+                <data iconPath="expui/nodes/libraryFolder.svg" iconPlugin="com.intellij" isLeaf="false" text="Gradle: org.jetbrains:annotations:24.0.1" />
+                <item name="Gradle: org.jetbrains:annotations:24.0.1" type="70bed36:NamedLibraryElementNode" />
+              </presentation>
+              <presentation>
+                <attributes />
+                <data iconPath="expui/nodes/libraryFolder.svg" iconPlugin="com.intellij" isLeaf="false" text="Gradle: org.jline:jline-reader:3.12.1" />
+                <item name="Gradle: org.jline:jline-reader:3.12.1" type="70bed36:NamedLibraryElementNode" />
+              </presentation>
+              <presentation>
+                <attributes />
+                <data iconPath="expui/nodes/libraryFolder.svg" iconPlugin="com.intellij" isLeaf="false" text="Gradle: org.jline:jline-terminal:3.12.1" />
+                <item name="Gradle: org.jline:jline-terminal:3.12.1" type="70bed36:NamedLibraryElementNode" />
+              </presentation>
+              <presentation>
+                <attributes />
+                <data iconPath="expui/nodes/libraryFolder.svg" iconPlugin="com.intellij" isLeaf="false" text="Gradle: org.joml:joml:1.10.5" />
+                <item name="Gradle: org.joml:joml:1.10.5" type="70bed36:NamedLibraryElementNode" />
+              </presentation>
+              <presentation>
+                <attributes />
+                <data iconPath="expui/nodes/libraryFolder.svg" iconPlugin="com.intellij" isLeaf="false" text="Gradle: org.lwjgl:lwjgl:3.3.1" />
+                <item name="Gradle: org.lwjgl:lwjgl:3.3.1" type="70bed36:NamedLibraryElementNode" />
+              </presentation>
+              <presentation>
+                <attributes />
+                <data iconPath="expui/nodes/libraryFolder.svg" iconPlugin="com.intellij" isLeaf="false" text="Gradle: org.lwjgl:lwjgl:natives-linux:3.3.1" />
+                <item name="Gradle: org.lwjgl:lwjgl:natives-linux:3.3.1" type="70bed36:NamedLibraryElementNode" />
+              </presentation>
+              <presentation>
+                <attributes />
+                <data iconPath="expui/nodes/libraryFolder.svg" iconPlugin="com.intellij" isLeaf="false" text="Gradle: org.lwjgl:lwjgl-glfw:3.3.1" />
+                <item name="Gradle: org.lwjgl:lwjgl-glfw:3.3.1" type="70bed36:NamedLibraryElementNode" />
+              </presentation>
+              <presentation>
+                <attributes />
+                <data iconPath="expui/nodes/libraryFolder.svg" iconPlugin="com.intellij" isLeaf="false" text="Gradle: org.lwjgl:lwjgl-glfw:natives-linux:3.3.1" />
+                <item name="Gradle: org.lwjgl:lwjgl-glfw:natives-linux:3.3.1" type="70bed36:NamedLibraryElementNode" />
+              </presentation>
+              <presentation>
+                <attributes />
+                <data iconPath="expui/nodes/libraryFolder.svg" iconPlugin="com.intellij" isLeaf="false" text="Gradle: org.lwjgl:lwjgl-jemalloc:3.3.1" />
+                <item name="Gradle: org.lwjgl:lwjgl-jemalloc:3.3.1" type="70bed36:NamedLibraryElementNode" />
+              </presentation>
+              <presentation>
+                <attributes />
+                <data iconPath="expui/nodes/libraryFolder.svg" iconPlugin="com.intellij" isLeaf="false" text="Gradle: org.lwjgl:lwjgl-jemalloc:natives-linux:3.3.1" />
+                <item name="Gradle: org.lwjgl:lwjgl-jemalloc:natives-linux:3.3.1" type="70bed36:NamedLibraryElementNode" />
+              </presentation>
+              <presentation>
+                <attributes />
+                <data iconPath="expui/nodes/libraryFolder.svg" iconPlugin="com.intellij" isLeaf="false" text="Gradle: org.lwjgl:lwjgl-openal:3.3.1" />
+                <item name="Gradle: org.lwjgl:lwjgl-openal:3.3.1" type="70bed36:NamedLibraryElementNode" />
+              </presentation>
+              <presentation>
+                <attributes />
+                <data iconPath="expui/nodes/libraryFolder.svg" iconPlugin="com.intellij" isLeaf="false" text="Gradle: org.lwjgl:lwjgl-openal:natives-linux:3.3.1" />
+                <item name="Gradle: org.lwjgl:lwjgl-openal:natives-linux:3.3.1" type="70bed36:NamedLibraryElementNode" />
+              </presentation>
+              <presentation>
+                <attributes />
+                <data iconPath="expui/nodes/libraryFolder.svg" iconPlugin="com.intellij" isLeaf="false" text="Gradle: org.lwjgl:lwjgl-opengl:3.3.1" />
+                <item name="Gradle: org.lwjgl:lwjgl-opengl:3.3.1" type="70bed36:NamedLibraryElementNode" />
+              </presentation>
+              <presentation>
+                <attributes />
+                <data iconPath="expui/nodes/libraryFolder.svg" iconPlugin="com.intellij" isLeaf="false" text="Gradle: org.lwjgl:lwjgl-opengl:natives-linux:3.3.1" />
+                <item name="Gradle: org.lwjgl:lwjgl-opengl:natives-linux:3.3.1" type="70bed36:NamedLibraryElementNode" />
+              </presentation>
+              <presentation>
+                <attributes />
+                <data iconPath="expui/nodes/libraryFolder.svg" iconPlugin="com.intellij" isLeaf="false" text="Gradle: org.lwjgl:lwjgl-stb:3.3.1" />
+                <item name="Gradle: org.lwjgl:lwjgl-stb:3.3.1" type="70bed36:NamedLibraryElementNode" />
+              </presentation>
+              <presentation>
+                <attributes />
+                <data iconPath="expui/nodes/libraryFolder.svg" iconPlugin="com.intellij" isLeaf="false" text="Gradle: org.lwjgl:lwjgl-stb:natives-linux:3.3.1" />
+                <item name="Gradle: org.lwjgl:lwjgl-stb:natives-linux:3.3.1" type="70bed36:NamedLibraryElementNode" />
+              </presentation>
+              <presentation>
+                <attributes />
+                <data iconPath="expui/nodes/libraryFolder.svg" iconPlugin="com.intellij" isLeaf="false" text="Gradle: org.lwjgl:lwjgl-tinyfd:3.3.1" />
+                <item name="Gradle: org.lwjgl:lwjgl-tinyfd:3.3.1" type="70bed36:NamedLibraryElementNode" />
+              </presentation>
+              <presentation>
+                <attributes />
+                <data iconPath="expui/nodes/libraryFolder.svg" iconPlugin="com.intellij" isLeaf="false" text="Gradle: org.lwjgl:lwjgl-tinyfd:natives-linux:3.3.1" />
+                <item name="Gradle: org.lwjgl:lwjgl-tinyfd:natives-linux:3.3.1" type="70bed36:NamedLibraryElementNode" />
+              </presentation>
+              <presentation>
+                <attributes />
+                <data iconPath="expui/nodes/libraryFolder.svg" iconPlugin="com.intellij" isLeaf="false" text="Gradle: org.ow2.asm:asm:9.5" />
+                <item name="Gradle: org.ow2.asm:asm:9.5" type="70bed36:NamedLibraryElementNode" />
+              </presentation>
+              <presentation>
+                <attributes />
+                <data iconPath="expui/nodes/libraryFolder.svg" iconPlugin="com.intellij" isLeaf="false" text="Gradle: org.ow2.asm:asm-analysis:9.5" />
+                <item name="Gradle: org.ow2.asm:asm-analysis:9.5" type="70bed36:NamedLibraryElementNode" />
+              </presentation>
+              <presentation>
+                <attributes />
+                <data iconPath="expui/nodes/libraryFolder.svg" iconPlugin="com.intellij" isLeaf="false" text="Gradle: org.ow2.asm:asm-commons:9.5" />
+                <item name="Gradle: org.ow2.asm:asm-commons:9.5" type="70bed36:NamedLibraryElementNode" />
+              </presentation>
+              <presentation>
+                <attributes />
+                <data iconPath="expui/nodes/libraryFolder.svg" iconPlugin="com.intellij" isLeaf="false" text="Gradle: org.ow2.asm:asm-tree:9.5" />
+                <item name="Gradle: org.ow2.asm:asm-tree:9.5" type="70bed36:NamedLibraryElementNode" />
+              </presentation>
+              <presentation>
+                <attributes />
+                <data iconPath="expui/nodes/libraryFolder.svg" iconPlugin="com.intellij" isLeaf="false" text="Gradle: org.ow2.asm:asm-util:9.5" />
+                <item name="Gradle: org.ow2.asm:asm-util:9.5" type="70bed36:NamedLibraryElementNode" />
+              </presentation>
+              <presentation>
+                <attributes />
+                <data iconPath="expui/nodes/libraryFolder.svg" iconPlugin="com.intellij" isLeaf="false" text="Gradle: org.slf4j:slf4j-api:2.0.1" />
+                <item name="Gradle: org.slf4j:slf4j-api:2.0.1" type="70bed36:NamedLibraryElementNode" />
+              </presentation>
+            </presentation>
+          </presentation>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="ReaderModeSettings">
+    <option name="enableVisualFormatting" value="false" />
+  </component>
+  <component name="ToolWindowManager">
+    <layoutV2>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21125653" />
+      <window_info id="Commit" order="1" weight="0.25" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info id="Resources Explorer" order="3" />
+      <window_info anchor="bottom" id="Version Control" order="0" />
+      <window_info anchor="bottom" id="Problems" order="1" />
+      <window_info anchor="bottom" id="Problems View" order="2" />
+      <window_info anchor="bottom" id="Terminal" order="3" />
+      <window_info anchor="bottom" id="Services" order="4" />
+      <window_info anchor="bottom" id="Android Profiler" order="5" />
+      <window_info anchor="bottom" id="App Inspection" order="6" />
+      <window_info anchor="bottom" id="Logcat" order="7" />
+      <window_info anchor="bottom" id="Build" order="8" visible="true" weight="0.33029723" />
+      <window_info anchor="bottom" id="Run" order="9" show_stripe_button="false" weight="0.33029723" />
+      <window_info anchor="right" content_ui="combo" id="Notifications" order="0" weight="0.25" />
+      <window_info anchor="right" id="AIAssistant" order="1" weight="0.25" />
+      <window_info anchor="right" id="Database" order="2" weight="0.25" />
+      <window_info anchor="right" id="Gradle" order="3" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="4" weight="0.25" />
+      <window_info anchor="right" id="Running Devices" order="5" side_tool="true" />
+      <window_info anchor="right" id="Device Explorer" order="6" side_tool="true" />
+      <window_info anchor="right" id="Device Manager 2" order="7" />
+      <unified_weights bottom="0.33029723" left="0.21125653" />
+    </layoutV2>
+    <recentWindows>
+      <value>Build</value>
+      <value>Project</value>
+      <value>Run</value>
+    </recentWindows>
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1910" height="312" key="GridCell.Tab.0.bottom" timestamp="1766565659513">
+      <screen x="-1920" y="-350" width="1920" height="1080" />
+    </state>
+    <state width="1910" height="312" key="GridCell.Tab.0.bottom/-1920.-350.1920.1080/0.0.1920.1080@-1920.-350.1920.1080" timestamp="1766565659513" />
+    <state width="1910" height="312" key="GridCell.Tab.0.center" timestamp="1766565659513">
+      <screen x="-1920" y="-350" width="1920" height="1080" />
+    </state>
+    <state width="1910" height="312" key="GridCell.Tab.0.center/-1920.-350.1920.1080/0.0.1920.1080@-1920.-350.1920.1080" timestamp="1766565659513" />
+    <state width="1910" height="312" key="GridCell.Tab.0.left" timestamp="1766565659513">
+      <screen x="-1920" y="-350" width="1920" height="1080" />
+    </state>
+    <state width="1910" height="312" key="GridCell.Tab.0.left/-1920.-350.1920.1080/0.0.1920.1080@-1920.-350.1920.1080" timestamp="1766565659513" />
+    <state width="1910" height="312" key="GridCell.Tab.0.right" timestamp="1766565659513">
+      <screen x="-1920" y="-350" width="1920" height="1080" />
+    </state>
+    <state width="1910" height="312" key="GridCell.Tab.0.right/-1920.-350.1920.1080/0.0.1920.1080@-1920.-350.1920.1080" timestamp="1766565659513" />
+    <state x="-683" y="-378" width="672" height="695" key="run.anything.popup" timestamp="1766565067764">
+      <screen x="-1920" y="-350" width="1920" height="1080" />
+    </state>
+    <state x="-683" y="-378" width="672" height="695" key="run.anything.popup/-1920.-350.1920.1080/0.0.1920.1080@-1920.-350.1920.1080" timestamp="1766565067764" />
+    <state x="-1920" y="-350" width="782" height="424" key="search.everywhere.popup" timestamp="1766565283839">
+      <screen x="-1920" y="-350" width="1920" height="1080" />
+    </state>
+    <state x="-1920" y="-350" width="782" height="424" key="search.everywhere.popup/-1920.-350.1920.1080/0.0.1920.1080@-1920.-350.1920.1080" timestamp="1766565283839" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SHOW_PREVIEW" is_vertical_split="false">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gradle.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="6" column="29" lean-forward="true" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/fabric.mod.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="28" column="14" lean-forward="true" selection-start-line="28" selection-start-column="14" selection-end-line="28" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fabric.mod.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="355">
+          <caret line="32" column="18" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

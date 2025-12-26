@@ -2789,9 +2789,9 @@
         "context_collection.context_sizes" : [ "{regexp#integer}" ],
         "context_collection.is_multiline_applicable" : [ "{enum:DISABLED_BY_LANGUAGE_KIT|ENABLED_DIRECT_CALL|ENABLED_SHOW_REST|ENABLED_AFTER_SUGGESTION_INSERTED|DISABLED_BY_LOOKUP|DISABLED_BY_LANGUAGE_SUPPORTER|ENABLED|ENFORCED}", "{enum:DISABLED_BY_VALUABLE_ON_THE_RIGHT}", "{enum:DISABLED_BY_EDITOR_TYPE}" ],
         "context_collection.is_multiline_suitable" : [ "{enum:DISABLED_BY_LANGUAGE_KIT|ENABLED_DIRECT_CALL|ENABLED_SHOW_REST|DISABLED_BY_LOOKUP|DISABLED_BY_LANGUAGE_SUPPORTER|ENABLED}", "{enum:ENABLED_AFTER_SUGGESTION_INSERTED}" ],
-        "context_collection.trigger_bypass_reason" : [ "{enum:DISABLED|LOADING|FAILED_TO_LOAD|UNAVAILABLE_LANGUAGE|UNAVAILABLE_FEATURES|SILENT|RANDOM_PASS|MUTED}", "{enum:ERROR}", "{enum:UNSUITABLE_EDITOR}" ],
+        "context_collection.trigger_bypass_reason" : [ "{enum:DISABLED|LOADING|FAILED_TO_LOAD|UNAVAILABLE_LANGUAGE|UNAVAILABLE_FEATURES|SILENT|RANDOM_PASS|MUTED}", "{enum:ERROR}", "{enum:UNSUITABLE_EDITOR}", "{enum:ONLY_TRIGGER_RANDOM_PASS}", "{enum:DISABLED_IN_UNIT_TESTS}" ],
         "context_collection.trigger_inference_time_ms" : [ "{regexp#integer}" ],
-        "context_collection.trigger_model_tag" : [ "{enum:ONE_LANGUAGE|POLYGLOT}" ],
+        "context_collection.trigger_model_tag" : [ "{enum:ONE_LANGUAGE|POLYGLOT}", "{enum:MOCKED}" ],
         "context_collection.trigger_pass" : [ "{enum#boolean}" ],
         "context_collection.trigger_score" : [ "{regexp#float}" ],
         "context_collection.trigger_threshold" : [ "{regexp#float}" ],
@@ -3289,11 +3289,15 @@
         "provider_finishing.cloud_stop_reason" : [ "{enum:MAX_TOKENS|STOP_TOKEN|EOS_TOKEN|ABORTED|UNKNOWN}" ],
         "provider_finishing.cloud_truncate_reason" : [ "{enum:FILTER_MODEL|DUPLICATE_LINES|INCOMPLETE_LINE}" ],
         "provider_finishing.incompatible_ux_mode" : [ "{enum#boolean}" ],
+        "provider_finishing.local_filter_bypass_reason" : [ "{enum:LOADING|FAILED_TO_LOAD|UNAVAILABLE_FEATURES|ERROR|UNAVAILABLE_LANGUAGE|DISABLED|SILENT|RANDOM_PASS|MUTED|UNSUITABLE_EDITOR}", "{enum:ONLY_TRIGGER_RANDOM_PASS}", "{enum:DISABLED_IN_UNIT_TESTS}" ],
         "provider_finishing.local_filter_model_pass" : [ "{enum#boolean}" ],
         "provider_finishing.local_filter_model_response" : [ "{enum:SKIP|PASS|RANDOM_PASS|UNAVAILABLE|DISABLED}" ],
         "provider_finishing.local_filter_model_score" : [ "{regexp#float}" ],
         "provider_finishing.local_filter_model_state" : [ "{enum:UseDefault|UseVersion2|Silent}" ],
+        "provider_finishing.local_filter_model_tag" : [ "{enum:ONE_LANGUAGE|MOCKED|POLYGLOT}" ],
         "provider_finishing.local_filter_model_time" : [ "{regexp#integer}" ],
+        "provider_finishing.local_filter_threshold" : [ "{regexp#float}" ],
+        "provider_finishing.local_filter_version" : [ "{regexp#version}" ],
         "provider_finishing.result_proposals" : [ "{regexp#integer}" ],
         "provider_finishing.silent_completion" : [ "{enum#boolean}" ],
         "request_id" : [ "{regexp#integer}" ],
@@ -3354,13 +3358,15 @@
       "from" : "1"
     } ],
     "rules" : {
-      "event_id" : [ "{enum:session|provider_finished}" ],
+      "event_id" : [ "{enum:session|provider_finished|diff_finished}" ],
       "event_data" : {
         "accepted_diffs" : [ "{regexp#integer}" ],
         "accepted_jumps" : [ "{regexp#integer}" ],
+        "anonymous_id" : [ "{regexp#hash}" ],
         "backend_provider_id" : [ "{util#backend_provider_id}" ],
         "deleted_length" : [ "{regexp#integer}" ],
         "deleted_lines_number" : [ "{regexp#integer}" ],
+        "diff_index" : [ "{regexp#integer}" ],
         "filter_reason" : [ "{enum:iter_changes_only_whitespaces|iter_contains_plain_todo|iter_contains_simple_comment|iter_direct_code_repetition|iter_does_not_fit_screen|iter_file_removed|iter_internal_markers|iter_jupyter_change_cell_separators|iter_no_diffs|iter_one_diff_too_long|iter_removed_last_modified_region|iter_revert_last_change|iter_similar_to_rejected_suggestion}" ],
         "finish_type" : [ "{enum:EXPIRED|NOT_APPROPRIATE|ASSOCIATED_COMPLETION_FINISHED_SESSION}", "{enum:ESCAPE|DOCUMENT_CHANGE|INCOMPATIBLE_CARET_CHANGE|ACCEPTED|COULD_NOT_SHOW|MANAGER_DISPOSED|INACTIVE|NEW_SESSION|NO_SUGGESTION_FROM_PROVIDERS|DOCUMENT_EXPIRED|SELECTION_CHANGED|OLD_SESSION_EXPIRED|FOCUS_LOST|INLINE_COMPLETION_FAILED_TO_SHOW|INLINE_COMPLETION_FINISHED_WITH_UNKNOWN_REASON}" ],
         "inserted_length" : [ "{regexp#integer}" ],
@@ -3378,6 +3384,7 @@
         "show_time" : [ "{regexp#integer}" ],
         "shown_diffs" : [ "{regexp#integer}" ],
         "shown_jumps" : [ "{regexp#integer}" ],
+        "step_view_type" : [ "{enum:INLINE_COMPLETION|GREEN_ADDITION|DELETION|SIMPLE_REPLACEMENT|GENERAL_REPLACEMENT|ACTION|UNKNOWN}" ],
         "steps_description.steps_view_type" : [ "{enum:INLINE_COMPLETION|GREEN_ADDITION|DELETION|SIMPLE_REPLACEMENT|GENERAL_REPLACEMENT|ACTION|UNKNOWN}" ],
         "suppressed_by_inline" : [ "{regexp#integer}" ],
         "suppressed_by_lookup" : [ "{regexp#integer}" ],
@@ -3390,7 +3397,17 @@
         "total_inserted_lines_number" : [ "{regexp#integer}" ],
         "trigger_event" : [ "{enum:TYPING|REMOVAL|DIRECT_CALL|IDE_ACTION|LOOKUP_ITEM_SELECTED|INLINE_COMPLETION_SELECTED|NEXT_EDIT_SELECTED|CARET_MOVE|RESTART_AFTER_HIGHLIGHTING_FINISHED|UNKNOWN}" ]
       }
-    }
+    },
+    "anonymized_fields" : [ {
+      "event" : "diff_finished",
+      "fields" : [ "anonymous_id" ]
+    }, {
+      "event" : "provider_finished",
+      "fields" : [ "anonymous_id" ]
+    }, {
+      "event" : "session",
+      "fields" : [ "anonymous_id" ]
+    } ]
   } ],
   "rules" : {
     "enums" : {
@@ -3416,5 +3433,5 @@
       "version" : "Unknown|unknown.format|unknown|UNKNOWN|((\\d+\\.?)*\\d+)"
     }
   },
-  "version" : "6440"
+  "version" : "6537"
 }

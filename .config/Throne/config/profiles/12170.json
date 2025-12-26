@@ -1,0 +1,49 @@
+{
+    "bean": {
+        "_v": 0,
+        "addr": "nl-90w-c.southnetworks.cloud",
+        "brutal_speed": 0,
+        "c_cfg": "",
+        "c_out": "",
+        "enable_brutal": false,
+        "flow": "",
+        "mux": 0,
+        "name": "🇳🇱🔥 Все Операторы Work — South Networks Pro",
+        "pass": "e08f1ad7-0c60-446d-baec-08b3b69bb3d0",
+        "port": 80,
+        "stream": {
+            "alpn": "",
+            "cert": "",
+            "ed_len": 0,
+            "ed_name": "",
+            "h_type": "",
+            "headers": "",
+            "host": "",
+            "insecure": false,
+            "method": "",
+            "net": "ws",
+            "pac_enc": "xudp",
+            "path": "/getWorkerUpdates",
+            "pbk": "",
+            "sec": "",
+            "sid": "",
+            "sni": "",
+            "tls_frag": false,
+            "tls_frag_fall_delay": "",
+            "tls_record_frag": false,
+            "utls": ""
+        }
+    },
+    "country": "",
+    "dl": "",
+    "gid": 10,
+    "id": 12170,
+    "report": "",
+    "traffic": {
+        "dl": 0,
+        "ul": 0
+    },
+    "type": "vless",
+    "ul": "",
+    "yc": -1
+}

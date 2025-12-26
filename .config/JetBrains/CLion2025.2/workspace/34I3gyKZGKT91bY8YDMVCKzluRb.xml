@@ -9,40 +9,73 @@
   <component name="FileEditorManager">
     <leaf ideFingerprint="6qgu4eoyw9oa" SIDE_TABS_SIZE_LIMIT_KEY="-1">
       <file current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/main.cpp" file-id="12" managing-fs="1760886846998">
+        <entry file="file://$PROJECT_DIR$/3.cpp" file-id="63019" managing-fs="1760886846998">
           <provider editor-type-id="text-editor" selected="true">
-            <state relative-caret-position="576">
-              <caret line="19" column="26" lean-forward="true" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
+            <state relative-caret-position="1944">
+              <caret line="56" column="74" selection-start-line="56" selection-start-column="74" selection-end-line="56" selection-end-column="74" />
+              <folding>
+                <marker date="1765617983422" expanded="false" signature="0:84" ph="##include ..." />
+              </folding>
             </state>
           </provider>
         </entry>
-        <tab><![CDATA[{"tabTitle":"main.cpp","foregroundColor":-3287308,"textAttributes":{"name":"a"},"icon":[10,57,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,82,97,115,116,101,114,105,122,101,100,73,109,97,103,101,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,114,10,23,105,99,111,110,115,47,102,105,108,101,84,121,112,101,115,47,99,112,112,46,115,118,103,18,29,105,99,111,110,115,47,101,120,112,117,105,47,102,105,108,101,84,121,112,101,115,47,99,112,112,46,115,118,103,26,18,99,111,109,46,105,110,116,101,108,108,105,106,46,99,108,105,111,110,34,23,105,110,116,101,108,108,105,106,46,99,105,100,114,46,108,97,110,103,46,98,97,115,101,40,-21,-119,-10,-57,-3,-1,-1,-1,-1,1,48,0]}]]></tab>
+        <tab><![CDATA[{"tabTitle":"3.cpp","foregroundColor":-3287308,"textAttributes":{"name":"a"},"icon":[10,57,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,82,97,115,116,101,114,105,122,101,100,73,109,97,103,101,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,114,10,23,105,99,111,110,115,47,102,105,108,101,84,121,112,101,115,47,99,112,112,46,115,118,103,18,29,105,99,111,110,115,47,101,120,112,117,105,47,102,105,108,101,84,121,112,101,115,47,99,112,112,46,115,118,103,26,18,99,111,109,46,105,110,116,101,108,108,105,106,46,99,108,105,111,110,34,23,105,110,116,101,108,108,105,106,46,99,105,100,114,46,108,97,110,103,46,98,97,115,101,40,-21,-119,-10,-57,-3,-1,-1,-1,-1,1,48,0]}]]></tab>
+      </file>
+      <file>
+        <entry file="file://$PROJECT_DIR$/5.cpp" file-id="63018" managing-fs="1760886846998">
+          <provider editor-type-id="text-editor" selected="true">
+            <state relative-caret-position="108">
+              <caret line="3" column="12" lean-forward="true" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+        <tab><![CDATA[{"tabTitle":"5.cpp","foregroundColor":-3287308,"textAttributes":{"name":"a"},"icon":[10,57,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,82,97,115,116,101,114,105,122,101,100,73,109,97,103,101,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,114,10,23,105,99,111,110,115,47,102,105,108,101,84,121,112,101,115,47,99,112,112,46,115,118,103,18,29,105,99,111,110,115,47,101,120,112,117,105,47,102,105,108,101,84,121,112,101,115,47,99,112,112,46,115,118,103,26,18,99,111,109,46,105,110,116,101,108,108,105,106,46,99,108,105,111,110,34,23,105,110,116,101,108,108,105,106,46,99,105,100,114,46,108,97,110,103,46,98,97,115,101,40,-21,-119,-10,-57,-3,-1,-1,-1,-1,1,48,0]}]]></tab>
+      </file>
+      <file>
+        <entry file="file://$PROJECT_DIR$/6.cpp" file-id="63021" managing-fs="1760886846998">
+          <provider editor-type-id="text-editor" selected="true">
+            <state relative-caret-position="108">
+              <caret line="3" column="10" lean-forward="true" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+        <tab><![CDATA[{"tabTitle":"6.cpp","foregroundColor":-3287308,"textAttributes":{"name":"a"},"icon":[10,57,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,82,97,115,116,101,114,105,122,101,100,73,109,97,103,101,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,114,10,23,105,99,111,110,115,47,102,105,108,101,84,121,112,101,115,47,99,112,112,46,115,118,103,18,29,105,99,111,110,115,47,101,120,112,117,105,47,102,105,108,101,84,121,112,101,115,47,99,112,112,46,115,118,103,26,18,99,111,109,46,105,110,116,101,108,108,105,106,46,99,108,105,111,110,34,23,105,110,116,101,108,108,105,106,46,99,105,100,114,46,108,97,110,103,46,98,97,115,101,40,-21,-119,-10,-57,-3,-1,-1,-1,-1,1,48,0]}]]></tab>
       </file>
     </leaf>
   </component>
   <component name="FileTypeUsageLocalSummary"><![CDATA[{
   "data": {
     "C/C++": {
-      "usageCount": 6,
-      "lastUsed": 1763958104433
+      "usageCount": 34,
+      "lastUsed": 1766517867235
     },
     "WebPreview": {
       "usageCount": 1,
       "lastUsed": 1760887376276
     },
     "CMakeLists.txt": {
-      "usageCount": 1,
-      "lastUsed": 1760887376043
+      "usageCount": 8,
+      "lastUsed": 1765609761359
     },
     "settingsType": {
-      "usageCount": 2,
-      "lastUsed": 1763930362180
+      "usageCount": 3,
+      "lastUsed": 1765611228242
     }
   }
 }]]></component>
+  <component name="GitSEFilterConfiguration">{}</component>
   <component name="IdeDocumentHistory">{
   &quot;changedPaths&quot;: [
-    &quot;/home/mrboomdev/CLionProjects/untitled/main.cpp&quot;
+    &quot;/home/mrboomdev/CLionProjects/untitled/main.cpp&quot;,
+    &quot;/home/mrboomdev/CLionProjects/untitled/1.cpp&quot;,
+    &quot;/home/mrboomdev/CLionProjects/untitled/8.cpp&quot;,
+    &quot;/home/mrboomdev/CLionProjects/untitled/7.cpp&quot;,
+    &quot;/home/mrboomdev/CLionProjects/untitled/4.cpp&quot;,
+    &quot;/home/mrboomdev/CLionProjects/untitled/5.cpp&quot;,
+    &quot;/home/mrboomdev/CLionProjects/untitled/CMakeLists.txt&quot;,
+    &quot;/home/mrboomdev/CLionProjects/untitled/2.cpp&quot;,
+    &quot;/home/mrboomdev/CLionProjects/untitled/6.cpp&quot;,
+    &quot;/home/mrboomdev/CLionProjects/untitled/3.cpp&quot;
   ]
 }</component>
   <component name="IgnoredFileRootStore">
@@ -54,10 +87,10 @@
   </component>
   <component name="LanguageUsageStatistics">
     <language id="C++">
-      <summary usageCount="6" lastUsage="1763958104435" />
+      <summary usageCount="34" lastUsage="1766517867235" />
     </language>
     <language id="CMake">
-      <summary usageCount="1" lastUsage="1760887376044" />
+      <summary usageCount="8" lastUsage="1765609761359" />
     </language>
   </component>
   <component name="ProjectView">
@@ -96,20 +129,101 @@
               <presentation>
                 <attributes>
                   <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/2" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/fileTypes/unknown.svg" iconPlugin="com.intellij" isLeaf="true" text="2" />
+                <item name="2" type="ab9368bb:PsiFileNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/2.cpp" />
+                  </map>
+                </attributes>
+                <data iconModule="intellij.cidr.lang.base" iconPath="icons/expui/fileTypes/cpp.svg" iconPlugin="com.intellij.clion" isLeaf="true" text="2.cpp" />
+                <item name="2.cpp" type="ab9368bb:PsiFileNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/3" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/fileTypes/unknown.svg" iconPlugin="com.intellij" isLeaf="true" text="3" />
+                <item name="3" type="ab9368bb:PsiFileNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/3.cpp" />
+                  </map>
+                </attributes>
+                <data iconModule="intellij.cidr.lang.base" iconPath="icons/expui/fileTypes/cpp.svg" iconPlugin="com.intellij.clion" isLeaf="true" text="3.cpp" />
+                <item name="3.cpp" type="ab9368bb:PsiFileNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/4" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/fileTypes/unknown.svg" iconPlugin="com.intellij" isLeaf="true" text="4" />
+                <item name="4" type="ab9368bb:PsiFileNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/4.cpp" />
+                  </map>
+                </attributes>
+                <data iconModule="intellij.cidr.lang.base" iconPath="icons/expui/fileTypes/cpp.svg" iconPlugin="com.intellij.clion" isLeaf="true" text="4.cpp" />
+                <item name="4.cpp" type="ab9368bb:PsiFileNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/5" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/fileTypes/unknown.svg" iconPlugin="com.intellij" isLeaf="true" text="5" />
+                <item name="5" type="ab9368bb:PsiFileNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/5.cpp" />
+                  </map>
+                </attributes>
+                <data iconModule="intellij.cidr.lang.base" iconPath="icons/expui/fileTypes/cpp.svg" iconPlugin="com.intellij.clion" isLeaf="true" text="5.cpp" />
+                <item name="5.cpp" type="ab9368bb:PsiFileNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/6" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/fileTypes/unknown.svg" iconPlugin="com.intellij" isLeaf="true" text="6" />
+                <item name="6" type="ab9368bb:PsiFileNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/6.cpp" />
+                  </map>
+                </attributes>
+                <data iconModule="intellij.cidr.lang.base" iconPath="icons/expui/fileTypes/cpp.svg" iconPlugin="com.intellij.clion" isLeaf="true" text="6.cpp" />
+                <item name="6.cpp" type="ab9368bb:PsiFileNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
                     <entry key="filePath" value="$PROJECT_DIR$/CMakeLists.txt" />
                   </map>
                 </attributes>
                 <data iconPath="icons/expui/CMake.svg" iconPlugin="com.intellij.clion.cmake" isLeaf="true" text="CMakeLists.txt" />
                 <item name="CMakeLists.txt" type="ab9368bb:PsiFileNode" />
-              </presentation>
-              <presentation>
-                <attributes>
-                  <map>
-                    <entry key="filePath" value="$PROJECT_DIR$/main.cpp" />
-                  </map>
-                </attributes>
-                <data iconModule="intellij.cidr.lang.base" iconPath="icons/expui/fileTypes/cpp.svg" iconPlugin="com.intellij.clion" isLeaf="true" text="main.cpp" />
-                <item name="main.cpp" type="ab9368bb:PsiFileNode" />
               </presentation>
             </presentation>
             <presentation>
@@ -125,12 +239,17 @@
   </component>
   <component name="RunConfigurationStartHistory">
     <history>
+      <element setting="C/C++ File.3.cpp" />
+      <element setting="C/C++ File.5.cpp" />
+      <element setting="C/C++ File.4.cpp" />
       <element setting="CMake Application.untitled" />
+      <element setting="C/C++ File.2.cpp" />
+      <element setting="C/C++ File.6.cpp" />
     </history>
   </component>
   <component name="ToolWindowManager">
     <layoutV2>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.15314136" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.076178014" />
       <window_info id="Commit" order="1" weight="0.25" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" order="0" />
@@ -138,9 +257,10 @@
       <window_info anchor="bottom" id="Problems View" order="2" />
       <window_info anchor="bottom" id="Terminal" order="3" />
       <window_info anchor="bottom" id="Services" order="4" />
-      <window_info anchor="bottom" id="CMake" order="5" />
-      <window_info anchor="bottom" id="Run" order="6" visible="true" weight="0.33029723" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.33029723" />
+      <window_info anchor="bottom" id="CMake" order="5" weight="0.33029723" />
+      <window_info active="true" anchor="bottom" x="6" y="33" width="1910" height="1043" id="Run" order="6" type="WINDOWED" weight="0.33029723" />
+      <window_info anchor="bottom" id="Messages" order="7" show_stripe_button="false" weight="0.33029723" />
+      <window_info anchor="bottom" id="Build" order="8" />
       <window_info anchor="right" content_ui="combo" id="Notifications" order="0" weight="0.25" />
       <window_info anchor="right" id="AIAssistant" order="1" weight="0.25" />
       <window_info anchor="right" id="Database" order="2" weight="0.25" />
@@ -148,61 +268,121 @@
       <window_info anchor="right" id="Maven" order="4" weight="0.25" />
       <window_info anchor="right" id="Meson" order="5" />
       <window_info anchor="right" id="StudioBot" order="6" weight="0.3301047" />
-      <unified_weights bottom="0.33029723" left="0.15314136" right="0.3301047" />
+      <unified_weights bottom="0.33029723" left="0.076178014" right="0.3301047" />
     </layoutV2>
     <recentWindows>
       <value>Run</value>
-      <value>Messages</value>
       <value>Project</value>
+      <value>Messages</value>
+      <value>CMake</value>
       <value>StudioBot</value>
     </recentWindows>
   </component>
   <component name="WindowStateProjectService">
-    <state x="838" y="343" key="FileChooserDialogImpl" timestamp="1760887453309">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state x="2475" y="215" width="824" height="647" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1765596535799">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2475" y="215" width="824" height="647" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1765596535799" />
+    <state x="593" y="348" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1764400535590">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="593" y="348" key="#com.intellij.fileTypes.FileTypeChooser/0.27.1920.1053@0.27.1920.1053" timestamp="1764400535590" />
+    <state x="838" y="361" width="424" height="454" key="FileChooserDialogImpl" timestamp="1765611260649">
+      <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="838" y="343" key="FileChooserDialogImpl/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1760887453309" />
-    <state width="1910" height="312" key="GridCell.Tab.0.bottom" timestamp="1763959085534">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state x="838" y="361" width="424" height="454" key="FileChooserDialogImpl/0.27.1920.1053@0.27.1920.1053" timestamp="1765611260649" />
+    <state width="1910" height="1011" key="GridCell.Tab.0.bottom" timestamp="1765617654953">
+      <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state width="1910" height="312" key="GridCell.Tab.0.bottom/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1763930380036" />
+    <state width="1910" height="1011" key="GridCell.Tab.0.bottom/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1765604976690" />
     <state width="1910" height="312" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1763959085534" />
-    <state width="1910" height="312" key="GridCell.Tab.0.center" timestamp="1763959085534">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1910" height="1011" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1765617654953" />
+    <state width="1910" height="1011" key="GridCell.Tab.0.center" timestamp="1765617654953">
+      <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state width="1910" height="312" key="GridCell.Tab.0.center/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1763930380036" />
+    <state width="1910" height="1011" key="GridCell.Tab.0.center/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1765604976689" />
     <state width="1910" height="312" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1763959085534" />
-    <state width="1910" height="312" key="GridCell.Tab.0.left" timestamp="1763959085534">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1910" height="1011" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1765617654953" />
+    <state width="1910" height="1011" key="GridCell.Tab.0.left" timestamp="1765617654953">
+      <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state width="1910" height="312" key="GridCell.Tab.0.left/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1763930380036" />
+    <state width="1910" height="1011" key="GridCell.Tab.0.left/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1765604976689" />
     <state width="1910" height="312" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1763959085534" />
-    <state width="1910" height="312" key="GridCell.Tab.0.right" timestamp="1763959085534">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1910" height="1011" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1765617654953" />
+    <state width="1910" height="1011" key="GridCell.Tab.0.right" timestamp="1765617654953">
+      <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state width="1910" height="312" key="GridCell.Tab.0.right/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1763930380036" />
+    <state width="1910" height="1011" key="GridCell.Tab.0.right/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1765604976689" />
     <state width="1910" height="312" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1763959085534" />
+    <state width="1910" height="1011" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1765617654953" />
     <state x="469" y="205" key="SettingsEditor" timestamp="1763930317009">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="469" y="205" key="SettingsEditor/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1763930317009" />
-    <state x="105" y="132" width="1710" height="843" key="lvcs.dialog.size" timestamp="1763958231078">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state x="105" y="156" width="1710" height="822" key="lvcs.dialog.size" timestamp="1765610099250">
+      <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="105" y="132" width="1710" height="843" key="lvcs.dialog.size/0.0.1920.1080@0.0.1920.1080" timestamp="1763958231078" />
+    <state x="105" y="156" width="1710" height="822" key="lvcs.dialog.size/0.27.1920.1053@0.27.1920.1053" timestamp="1765610099250" />
     <state x="745" y="446" width="828" height="546" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1760887455399">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="745" y="446" width="828" height="546" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1760887455399" />
+    <state x="623" y="256" width="672" height="698" key="search.everywhere.popup" timestamp="1765611227989">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="623" y="256" width="672" height="698" key="search.everywhere.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1765611227989" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/8.cpp" />
+    <entry file="file://$PROJECT_DIR$/7.cpp" />
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="19" column="26" lean-forward="true" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
+        <state relative-caret-position="180">
+          <caret line="5" column="15" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/4.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="4" column="12" lean-forward="true" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/5.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="3" column="12" lean-forward="true" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/6.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="3" column="10" lean-forward="true" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1944">
+          <caret line="56" column="74" selection-start-line="56" selection-start-column="74" selection-end-line="56" selection-end-column="74" />
+          <folding>
+            <marker date="1765617983422" expanded="false" signature="0:84" ph="##include ..." />
+          </folding>
         </state>
       </provider>
     </entry>

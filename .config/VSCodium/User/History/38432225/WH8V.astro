@@ -1,0 +1,408 @@
+---
+import { getRelativeLocaleUrl } from 'astro:i18n'
+import Html from '@layouts/Html.astro';
+import Header from '@components/Header.astro';
+import Button from '@components/Button.astro';
+import OutlinedButton from '@components/OutlinedButton.astro';
+import Input from '@components/Input.astro';
+import Footer from '@components/Footer.astro';
+import SendIcon from '@assets/send.svg'
+import BocchiBurgerImage from "@assets/bocchi_burger.webp";
+import FoxyGif from "@assets/foxy.gif";
+import { getLocaleFromUrl, localeStaticPaths, useTranslations } from '@i18n/translate';
+import ContactForm from '@components/ContactForm.astro';
+import FeaturedProjects from '@components/FeaturedProjects.astro';
+import { Image } from 'astro:assets';
+
+export const getStaticPaths = localeStaticPaths
+const locale = getLocaleFromUrl(Astro.url);
+const t = useTranslations(locale);
+---
+
+<Html>
+	<div class="hero-wrapper" style="position: relative">
+		<!-- <Image class="wallpaper" src={Wallpaper} alt="Wallpaper"></div>
+		<div class="wallpaper-dim"></div> -->
+
+		<div class="background-animation">
+			<div class="square"></div>
+			<div class="square"></div>
+			<div class="square"></div>
+			<div class="square"></div>
+			<div class="square"></div>
+
+			<script>
+				const backgroundAnimation = document.querySelector(".background-animation")!!
+				const squares = document.querySelectorAll(".square")
+				const a = 400;
+				const b = 80;
+
+				document.addEventListener("mousemove", (event) => {
+					backgroundAnimation.style.backgroundPositionX = `${-event.x / 35 - window.innerWidth / (a * 2)}px`;
+					backgroundAnimation.style.backgroundPositionY = `${-event.y / 35 - window.innerHeight / (a * 2)}px`;
+
+					for(const square of squares) {
+						square.style.transform = `translateX(${event.x / b - window.innerWidth / (b * 2)}px) translateY(${event.y / b - window.innerHeight / (b * 2)}px)`
+					}
+				});
+			</script>
+		</div>
+
+		<Image 
+			src={FoxyGif}
+			class="foxy"
+			alt="Foxy pixel art running animation" />
+
+		<Header style="position: absolute" />
+
+		<div class="hero">
+			<!-- A hacky hack to fit content -->
+			<Header style={{ opacity: 0, pointerEvents: "none" }} />
+
+			<div class="hero-content">
+				<h3 class="label">{t("home_label")}</h3>
+				<h1 class="title">{t("home_title")}</h1>
+				<h3 class="description">{t("home_description")}</h3>
+
+				<div class="actions">
+					<a href={getRelativeLocaleUrl(locale, "projects")}>
+						<Button text="See projects" />
+					</a>
+
+					<a href={getRelativeLocaleUrl(locale, "contact")}>
+						<OutlinedButton text={t("contact_me")} />
+					</a>
+				</div>
+			</div>
+		</div>
+
+		<script>
+			const hero = document.querySelector(".hero-content")!!;
+
+			document.addEventListener("scroll", () => {
+				hero.style.translate = `0 ${window.scrollY / 3}px`;
+				hero.style.opacity = 1 - window.scrollY / 800;
+			});
+		</script>
+	</div>
+
+	<div class="section section-dim">
+		<div class="section-content">
+			<div class="section-header">
+				<hr />
+				<h2 class="section-title">{t("aboutme")}</h2>
+				<hr />
+			</div>
+
+			<div class="aboutme">
+				<p class="aboutme-text">{t("aboutme_description")}</p>
+				
+				<Image 
+					alt="Bocchi eats burger"
+					class="aboutme-image"
+					src={BocchiBurgerImage} />
+			</div>
+		</div>
+	</div>
+
+	<div class="section">
+		<div class="section-content projects">
+			<div class="section-header">
+				<hr />
+				<h2 class="section-title">{t("my_projects")}</h2>
+				<hr />
+			</div>
+
+			<FeaturedProjects />
+		</div>
+	</div>
+
+	<div class="section section-dim">
+		<div class="section-content contact">
+			<div class="section-header" style="margin-bottom: .4rem">
+				<h2 class="section-title">{t("contact_me")}</h2>
+				<hr />
+			</div>
+
+			<ContactForm />
+		</div>
+	</div>
+
+	<Footer />
+</Html>
+
+<style lang="scss">
+	.hero-wrapper {
+		display: flex;
+		flex-direction: column;
+		min-height: 80vh;
+		padding-bottom: 2rem;
+		overflow: hidden;
+
+		.foxy {
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			width: 10rem;
+			height: auto;
+			animation: foxyRunAnimation 30s ease-in infinite;
+		}
+
+		@keyframes foxyRunAnimation {
+			0% {
+				left: -500rem;
+			}
+
+			100% {
+				left: 10000vw;
+			}
+		}
+	}
+
+	.wallpaper {
+		position: absolute;
+		inset: 0;
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+		z-index: -999;
+	}
+
+	.wallpaper-dim {
+		position: absolute;
+		inset: 0;
+		width: 100%;
+		height: 100%;
+		background-color: black;
+		opacity: .8;
+		z-index: -999;
+	}
+	
+	.hero {
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+		flex-grow: 1;
+	}
+
+	.hero-content {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		gap: .4rem;
+		width: 100%;
+		max-width: 800px;
+		padding: 2rem;
+	}
+
+	.label {
+		color: #e159ff;
+		text-shadow: rgba(217, 48, 255, .5) 0 0 1rem;
+		font-family: poppins, sans-serif;
+		font-weight: 600;
+		text-align: center;
+
+		@media screen and (max-width: 500px) {
+			padding-inline: 2rem;
+		}
+	}
+
+	.title {
+		text-align: center;
+		font-family: poppins, sans-serif;
+		font-weight: 800;
+		font-size: 2.5em;
+		text-shadow: rgba(255, 255, 255, .25) 0 0 .2em;
+	}
+
+	.description {
+		margin-top: .4rem;
+		max-width: 500px;
+		line-height: 1.4em;
+		font-weight: 500;
+		font-family: poppins, sans-serif;
+		text-align: center;
+		color: #eedefa;
+	}
+
+	.actions {
+		margin-top: 1rem;
+		display: flex;
+		gap: .8rem;
+
+		@media screen and (max-width: 500px) {
+			padding-inline: 2rem;
+			width: 100%;
+			flex-direction: column;
+
+			& > * > * {
+				width: 100%;
+			}
+		}
+	}
+
+	@mixin squareAnimation($id, $fromRotate, $rotate) {
+		@keyframes #{$id} {
+			0% {
+				opacity: 0;
+				translate: 0 150%;
+				rotate: $fromRotate;
+			}
+		
+			25% {
+				opacity: .02;
+			}
+		
+			100% {
+				opacity: .1;
+				translate: 0 0;
+				rotate: $rotate;
+			}
+		}
+	}
+
+	.background-animation {
+		position: absolute;
+		inset: 0;
+		width: 100%;
+		height: 100%;
+		z-index: -1;
+		background-image: radial-gradient(transparent 90%, rgba(255, 255, 255, .1) 100%);
+		background-size: 20px 20px;
+		overflow: hidden;
+
+		@mixin square($size, $id, $duration, $fromRotate, $rotate) {
+			border: solid rgba(240, 87, 255, .5) 5px;
+			background-color: rgba(240, 87, 255, .2);
+			opacity: .1;
+			width: $size;
+			height: $size;
+			position: absolute;
+			border-radius: 10px;
+			rotate: $rotate;
+			@include squareAnimation(squareAnimation#{$id}, $fromRotate, 0);
+			animation: squareAnimation#{$id} $duration;
+		}
+
+		.square {
+			&:nth-child(1) {
+				@include square(175px, 4, 1s, -50deg, 200deg);
+				left: 5%;
+				bottom: 0%;
+			}
+
+			&:nth-child(2) {
+				@include square(125px, 1, 1s, 0deg, -300deg);
+				left: 20%;
+				top: 15%;
+			}
+
+			&:nth-child(3) {
+				@include square(200px, 3, 1.3s, 0deg, -100deg);
+				left: 45%;
+				bottom: 30%;
+			}
+
+			&:nth-child(4) {
+				@include square(120px, 2, 1.2s, -90deg, 10deg);
+				right: 15%;
+				bottom: 10%;
+			}
+
+			&:nth-child(5) {
+				@include square(110px, 5, 1.3s, 0deg, -300deg);
+				top: 5%;
+				right: 10%;
+			}
+		}
+	}
+
+	.section {
+		width: 100%;
+		display: flex;
+		justify-content: center;
+
+		&.section-dim {
+			background-color: rgba(0, 0, 0, .2);
+		}
+
+		.section-content {
+			width: 100%;
+			max-width: 800px;
+			padding: 1rem 2rem;
+		}
+
+		.section-header {
+			display: flex;
+			align-items: center;
+			gap: 2rem;
+			padding-block: .75rem;
+
+			.section-title {
+				font-family: poppins, sans-serif;
+			}
+
+			hr {
+				flex-grow: 1;
+				height: 1px;
+				opacity: .25;
+				scale: 1 .25;
+			}
+		}
+	}
+
+	.contact {
+		margin-bottom: 1.4rem;
+	}
+
+	.projects {
+		margin-bottom: 1rem;
+
+		.section-title {
+			margin-bottom: 1rem;
+		}
+	}
+
+	.aboutme {
+		display: flex;
+		gap: 1rem;
+		margin-block: .8rem 1.6rem;
+
+		.aboutme-text {
+			font-size: 1.05em;
+			line-height: 1.8em;
+			font-family: poppins, sans-serif;
+
+			span {
+				color: #f2b9ff;
+			}
+		}
+
+		.aboutme-image {
+			height: auto;
+			border-radius: 1rem;
+		}
+
+		@media screen and (min-width: 800px) {
+			.aboutme-text {
+				width: 0;
+				flex-grow: 1;
+			}
+
+			.aboutme-image {
+				width: 0;
+				flex-grow: 1;
+			}
+		}
+
+		@media screen and (max-width: 800px) {
+			flex-direction: column;
+
+			.aboutme-image {
+				width: 100%;
+			}
+		}
+	}
+</style>

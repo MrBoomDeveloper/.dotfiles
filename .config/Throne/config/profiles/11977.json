@@ -1,25 +1,25 @@
 {
     "bean": {
         "_v": 0,
-        "addr": "192.71.249.78",
+        "addr": "cpanel.navar1.ir",
+        "aid": 0,
         "brutal_speed": 0,
         "c_cfg": "",
         "c_out": "",
         "enable_brutal": false,
-        "method": "aes-256-cfb",
+        "id": "95c6f6f0-84f7-4443-8a50-a59f8e66f5ee",
         "mux": 0,
-        "name": "🇸🇪SE-192.71.249.78-0238",
-        "pass": "f8f7aCzcPKbsF8p3",
-        "plugin": "",
-        "port": 989,
+        "name": "КИБЕРПОРТАЛ ЧАЙНА 🙈",
+        "port": 100,
+        "sec": "auto",
         "stream": {
             "alpn": "",
             "cert": "",
             "ed_len": 0,
             "ed_name": "",
-            "h_type": "",
+            "h_type": "none",
             "headers": "",
-            "host": "",
+            "host": "cpanel.navar1.ir",
             "insecure": false,
             "method": "",
             "net": "tcp",
@@ -33,19 +33,18 @@
             "tls_frag_fall_delay": "",
             "tls_record_frag": false,
             "utls": ""
-        },
-        "uot": 0
+        }
     },
     "country": "",
     "dl": "",
-    "gid": 9,
+    "gid": 10,
     "id": 11977,
     "report": "",
     "traffic": {
         "dl": 0,
         "ul": 0
     },
-    "type": "shadowsocks",
+    "type": "vmess",
     "ul": "",
     "yc": -1
 }

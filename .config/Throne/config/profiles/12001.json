@@ -1,17 +1,16 @@
 {
     "bean": {
         "_v": 0,
-        "addr": "217.30.10.70",
+        "addr": "51.250.25.11",
         "brutal_speed": 0,
         "c_cfg": "",
         "c_out": "",
         "enable_brutal": false,
-        "method": "aes-256-cfb",
+        "flow": "xtls-rprx-vision",
         "mux": 0,
-        "name": "🇵🇱PL-217.30.10.70-5668",
-        "pass": "cp8pRSUAyLhTfVWH",
-        "plugin": "",
-        "port": 9064,
+        "name": "🇩🇪 Germany — #23",
+        "pass": "4a6de183-2ad3-456c-b420-feeac81f6257",
+        "port": 1488,
         "stream": {
             "alpn": "",
             "cert": "",
@@ -23,29 +22,28 @@
             "insecure": false,
             "method": "",
             "net": "tcp",
-            "pac_enc": "",
+            "pac_enc": "xudp",
             "path": "",
-            "pbk": "",
-            "sec": "",
+            "pbk": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
+            "sec": "tls",
             "sid": "",
-            "sni": "",
+            "sni": "ads.x5.ru",
             "tls_frag": false,
             "tls_frag_fall_delay": "",
             "tls_record_frag": false,
-            "utls": ""
-        },
-        "uot": 0
+            "utls": "chrome"
+        }
     },
     "country": "",
     "dl": "",
-    "gid": 9,
+    "gid": 10,
     "id": 12001,
     "report": "",
     "traffic": {
         "dl": 0,
         "ul": 0
     },
-    "type": "shadowsocks",
+    "type": "vless",
     "ul": "",
     "yc": -1
 }

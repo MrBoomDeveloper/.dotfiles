@@ -1,12 +1,12 @@
 {
 	"window-size": {
-		"width": 1910,
-		"height": 945
+		"width": 1920,
+		"height": 1080
 	},
-	"window-maximized": false,
+	"window-maximized": true,
 	"window-position": {
-		"x": 1925,
-		"y": 32
+		"x": 0,
+		"y": 0
 	},
 	"url": "https://music.youtube.com/watch?v=65flymi2YC4&list=RDAMVMUwqb6ybBHlM&index=0",
 	"options": {

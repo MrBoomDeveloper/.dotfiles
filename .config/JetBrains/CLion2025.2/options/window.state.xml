@@ -1,21 +1,26 @@
 <application>
   <component name="DimensionService">
-    <size key="GridCell.Tab.0.left.0.0.1920.1080" width="1910" height="312" />
-    <size key="GridCell.Tab.0.center.0.0.1920.1080" width="1910" height="312" />
-    <size key="GridCell.Tab.0.right.0.0.1920.1080" width="1910" height="312" />
-    <size key="GridCell.Tab.0.bottom.0.0.1920.1080" width="1910" height="312" />
+    <size key="GridCell.Tab.0.left.0.0.1920.1080" width="1910" height="1011" />
+    <size key="GridCell.Tab.0.center.0.0.1920.1080" width="1910" height="1011" />
+    <size key="GridCell.Tab.0.right.0.0.1920.1080" width="1910" height="1011" />
+    <size key="GridCell.Tab.0.bottom.0.0.1920.1080" width="1910" height="1011" />
+    <size key="GridCell.Tab.0.left.1920.0.1920.1080" width="1910" height="1011" />
+    <size key="GridCell.Tab.0.center.1920.0.1920.1080" width="1910" height="1011" />
+    <size key="GridCell.Tab.0.right.1920.0.1920.1080" width="1910" height="1011" />
+    <size key="GridCell.Tab.0.bottom.1920.0.1920.1080" width="1910" height="1011" />
   </component>
   <component name="WindowManager">
-    <frame x="5" y="32" width="1910" height="1043" />
+    <frame x="1925" y="32" width="1910" height="1043" />
   </component>
   <component name="WindowStateApplicationService">
     <state width="399" height="139" key="ShowUsagesActions.dimensionServiceKey" timestamp="1763956099091">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="399" height="139" key="ShowUsagesActions.dimensionServiceKey/0.0.1920.1080" timestamp="1763956099091" />
-    <state x="481" y="555" width="952" height="1040" key="WELCOME_SCREEN" timestamp="1760887372946">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state x="960" y="553" width="1910" height="1043" key="WELCOME_SCREEN" timestamp="1765593598084">
+      <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="481" y="555" width="952" height="1040" key="WELCOME_SCREEN/0.0.1920.1080/1920.0.1920.1080" timestamp="1760887372946" />
+    <state x="960" y="553" width="1910" height="1043" key="WELCOME_SCREEN/0.0.1920.1080/1920.0.1920.1080" timestamp="1765038087164" />
+    <state x="960" y="553" width="1910" height="1043" key="WELCOME_SCREEN/0.27.1920.1053" timestamp="1765593598084" />
   </component>
 </application>

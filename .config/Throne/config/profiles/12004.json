@@ -1,17 +1,16 @@
 {
     "bean": {
         "_v": 0,
-        "addr": "217.30.10.18",
+        "addr": "217.16.17.135",
         "brutal_speed": 0,
         "c_cfg": "",
         "c_out": "",
         "enable_brutal": false,
-        "method": "aes-256-cfb",
+        "flow": "xtls-rprx-vision",
         "mux": 0,
-        "name": "🇵🇱PL-217.30.10.18-5323",
-        "pass": "GA9KzeEgvfxNrgmM",
-        "plugin": "",
-        "port": 9019,
+        "name": "🇩🇪 Germany — #26",
+        "pass": "fd4b0117-d752-46fd-9a94-21a21e360fdb",
+        "port": 443,
         "stream": {
             "alpn": "",
             "cert": "",
@@ -23,29 +22,28 @@
             "insecure": false,
             "method": "",
             "net": "tcp",
-            "pac_enc": "",
+            "pac_enc": "xudp",
             "path": "",
-            "pbk": "",
-            "sec": "",
-            "sid": "",
-            "sni": "",
+            "pbk": "r5WB5FnSCt4eeBC1FJMfkWHbzsMuabo0Rc6wuAhlZUs",
+            "sec": "tls",
+            "sid": "a8",
+            "sni": "sun6-21.userapi.com",
             "tls_frag": false,
             "tls_frag_fall_delay": "",
             "tls_record_frag": false,
-            "utls": ""
-        },
-        "uot": 0
+            "utls": "chrome"
+        }
     },
     "country": "",
     "dl": "",
-    "gid": 9,
+    "gid": 10,
     "id": 12004,
     "report": "",
     "traffic": {
         "dl": 0,
         "ul": 0
     },
-    "type": "shadowsocks",
+    "type": "vless",
     "ul": "",
     "yc": -1
 }

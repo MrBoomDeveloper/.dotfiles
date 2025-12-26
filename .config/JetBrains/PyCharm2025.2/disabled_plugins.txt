@@ -13,6 +13,7 @@ com.intellij.css
 com.intellij.dev
 com.intellij.ja
 com.intellij.ko
+com.intellij.modules.ultimate
 com.intellij.plugins.github.colorscheme
 com.intellij.plugins.monokai.colorscheme
 com.intellij.plugins.twilight.colorscheme

@@ -1,8 +1,8 @@
 <application>
   <component name="EventLogAllowedList">
     <update recorder-id="MP" last-modified="1761945434000" />
-    <update recorder-id="FUS" last-modified="1763759038000" />
-    <update recorder-id="ML" last-modified="1763586245000" />
+    <update recorder-id="FUS" last-modified="1765573436000" />
+    <update recorder-id="ML" last-modified="1765400645000" />
     <build recorder-id="MP" build-number="CL-252.27397.114" />
     <build recorder-id="FUS" build-number="CL-252.27397.114" />
     <build recorder-id="MLSE" build-number="CL-252.27397.114" />

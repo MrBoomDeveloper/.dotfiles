@@ -1,4 +1,9 @@
 <application>
+  <component name="ActionHistoryManager">
+    <ids>
+      <option value="ActivateTerminalToolWindow" />
+    </ids>
+  </component>
   <component name="FileEditorProviderManager">{}</component>
   <component name="LangManager">
     <option name="languageName" value="ObjectiveC" />
@@ -11,7 +16,7 @@
   "keyToString": {
     "AIPLUGIN_VERSION": "1.35.0-252",
     "GEMINI_INTELLIJ_INSTALLATION_ID": "995d99eb-c014-44d7-9b55-663832c7c13b",
-    "LAST_CALCULATED_COLOR_INDEX_KEY": "5",
+    "LAST_CALCULATED_COLOR_INDEX_KEY": "6",
     "NEXT_SURVEY_TIMESTAMP": "2025-10-26T15:22:53.735896437Z",
     "PluginConfigurable.selectionTab": "1",
     "Rad.Init.Cfg.1": "true",
@@ -24,7 +29,9 @@
     "RunOnceActivity.git.modal.commit.toggle": "true",
     "RunOnceActivity.reset.auto.reparse.settings.to.default": "true",
     "RunOnceActivity.set.chat.model.provider.canary4": "true",
+    "SettingsSearchHistory": "new wind",
     "ask.about.ctrl.y.shortcut.v2": "true",
+    "build.toolwindow.Build Output.selection.state": "com.intellij.build.BuildTreeConsoleView",
     "clion.initialConfigPerformed": "true",
     "com.google.tools.ij.aiplugin.onboarding_session_index": "20251019_0000",
     "enter_selection_count": "5",
@@ -57,6 +64,7 @@
       "2025-10-19T15:22:53.732900488Z"
     ],
     "file.chooser.recent.files": [
+      "/home/mrboomdev/CLionProjects/YTMusicCLI",
       "/home/mrboomdev/Downloads/121887479_p0.jpg"
     ],
     "fileTypeDetectors": [

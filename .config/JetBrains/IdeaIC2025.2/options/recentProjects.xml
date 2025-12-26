@@ -34,73 +34,105 @@
             </RecentProjectMetaInfo>
           </value>
         </entry>
+        <entry key="$USER_HOME$/IdeaProjects/Uust">
+          <value>
+            <RecentProjectMetaInfo frameTitle="UUST – GlanceUtils.kt [UUST.composeApp.main]" projectWorkspaceId="34lKi3hFrxO2Cpmfsx7yfPipytG">
+              <option name="activationTimestamp" value="1765008585832" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IC-252.27397.103" />
+              <option name="buildTimestamp" value="1761196320000" />
+              <option name="colorInfo">
+                <RecentProjectColorInfo associatedIndex="6" />
+              </option>
+              <frame x="260" y="40" width="1910" height="1043" extendedState="6" />
+              <option name="productionCode" value="IC" />
+              <option name="projectOpenTimestamp" value="1764227686170" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
         <entry key="$USER_HOME$/IdeaProjects/Navigation">
           <value>
-            <RecentProjectMetaInfo frameTitle="Navigation – JetpackNavigationHost.kt [Navigation.navigation-jetpack.commonMain]" projectWorkspaceId="353iwHB7AxArQ4It2rDR22h4tcW">
-              <option name="activationTimestamp" value="1762352055939" />
+            <RecentProjectMetaInfo frameTitle="Navigation – gradle.properties [Navigation]" projectWorkspaceId="353iwHB7AxArQ4It2rDR22h4tcW">
+              <option name="activationTimestamp" value="1765128500280" />
               <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
               <option name="build" value="IC-252.27397.103" />
               <option name="buildTimestamp" value="1761196320000" />
               <option name="colorInfo">
                 <RecentProjectColorInfo associatedIndex="3" />
               </option>
-              <frame x="1925" y="32" width="1910" height="1043" />
+              <frame x="-1660" y="-310" width="952" height="1043" extendedState="6" />
               <option name="productionCode" value="IC" />
-              <option name="projectOpenTimestamp" value="1762346063726" />
+              <option name="projectOpenTimestamp" value="1765127334861" />
             </RecentProjectMetaInfo>
           </value>
         </entry>
         <entry key="$USER_HOME$/IdeaProjects/Awery">
           <value>
-            <RecentProjectMetaInfo frameTitle="Awery – App.kt [Awery.ui.commonMain]" projectWorkspaceId="34I4fJlCyB9KCIhOFm6jNUX8Y53">
-              <option name="activationTimestamp" value="1763984278258" />
+            <RecentProjectMetaInfo frameTitle="Awery – build.gradle.kts (:app)" projectWorkspaceId="34I4fJlCyB9KCIhOFm6jNUX8Y53">
+              <option name="activationTimestamp" value="1765204012386" />
               <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
               <option name="build" value="IC-252.27397.103" />
               <option name="buildTimestamp" value="1761196320000" />
               <option name="colorInfo">
                 <RecentProjectColorInfo associatedIndex="5" />
               </option>
-              <frame x="5" y="32" width="1910" height="1043" />
+              <frame x="5" y="32" width="1910" height="1043" extendedState="6" />
               <option name="productionCode" value="IC" />
-              <option name="projectOpenTimestamp" value="1763984226116" />
+              <option name="projectOpenTimestamp" value="1765128508870" />
             </RecentProjectMetaInfo>
           </value>
         </entry>
         <entry key="$USER_HOME$/IdeaProjects/v2rayNG2/V2rayNG">
           <value>
-            <RecentProjectMetaInfo frameTitle="v2rayNG – HomeScreen.kt [v2rayNG.app.main]" projectWorkspaceId="35rt5VmK6Jq760glEBA89dVKnsn">
-              <option name="activationTimestamp" value="1764104774226" />
+            <RecentProjectMetaInfo frameTitle="v2rayNG – SimpleScreen.kt [v2rayNG.app.main]" projectWorkspaceId="35rt5VmK6Jq760glEBA89dVKnsn">
+              <option name="activationTimestamp" value="1765821864773" />
               <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
               <option name="build" value="IC-252.27397.103" />
               <option name="buildTimestamp" value="1761196320000" />
               <option name="colorInfo">
                 <RecentProjectColorInfo associatedIndex="6" />
               </option>
-              <frame x="5" y="32" width="1910" height="1043" />
+              <frame x="-1915" y="-318" width="952" height="1043" extendedState="6" />
               <option name="productionCode" value="IC" />
-              <option name="projectOpenTimestamp" value="1764086345396" />
+              <option name="projectOpenTimestamp" value="1765275521527" />
             </RecentProjectMetaInfo>
           </value>
         </entry>
-        <entry key="$USER_HOME$/IdeaProjects/Uust">
+        <entry key="$USER_HOME$/IdeaProjects/AmaterasuCraft">
           <value>
-            <RecentProjectMetaInfo frameTitle="UUST – GeoMap.android.kt [UUST.composeApp.main]" opened="true" projectWorkspaceId="34lKi3hFrxO2Cpmfsx7yfPipytG">
-              <option name="activationTimestamp" value="1764231181671" />
+            <RecentProjectMetaInfo frameTitle="AmaterasuCraft – AmaterasuItems.kt [AmaterasuCraft.main]" projectWorkspaceId="377e9DtFqrmmhMHLNTGsY4Lyz3m">
+              <option name="activationTimestamp" value="1766267993222" />
               <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
               <option name="build" value="IC-252.27397.103" />
               <option name="buildTimestamp" value="1761196320000" />
               <option name="colorInfo">
-                <RecentProjectColorInfo associatedIndex="6" />
+                <RecentProjectColorInfo associatedIndex="0" />
               </option>
-              <frame x="5" y="32" width="952" height="1043" extendedState="6" />
+              <frame x="-1660" y="-310" width="1910" height="1043" extendedState="6" />
               <option name="productionCode" value="IC" />
-              <option name="projectOpenTimestamp" value="1764227686170" />
+              <option name="projectOpenTimestamp" value="1766258506143" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/IdeaProjects/WebDisplays">
+          <value>
+            <RecentProjectMetaInfo frameTitle="WebDisplays – fabric.mod.json [WebDisplays]" projectWorkspaceId="37HfEvBMu8C5TMDYnHaKuTmx97Q">
+              <option name="activationTimestamp" value="1766565655308" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IC-252.27397.103" />
+              <option name="buildTimestamp" value="1761196320000" />
+              <option name="colorInfo">
+                <RecentProjectColorInfo associatedIndex="2" />
+              </option>
+              <frame x="-1660" y="-310" width="1910" height="1043" extendedState="6" />
+              <option name="productionCode" value="IC" />
+              <option name="projectOpenTimestamp" value="1766564808577" />
             </RecentProjectMetaInfo>
           </value>
         </entry>
       </map>
     </option>
-    <option name="lastOpenedProject" value="$USER_HOME$/IdeaProjects/Uust" />
-    <option name="lastProjectLocation" value="$USER_HOME$/IdeaProjects/v2rayNG2" />
+    <option name="lastOpenedProject" value="$USER_HOME$/IdeaProjects/WebDisplays" />
+    <option name="lastProjectLocation" value="$USER_HOME$/IdeaProjects" />
   </component>
 </application>

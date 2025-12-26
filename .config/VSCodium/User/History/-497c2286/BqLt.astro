@@ -1,0 +1,63 @@
+---
+import { getLocaleFromUrl, useTranslations } from "@i18n/translate";
+import Button from "./Button.astro"
+import SendIcon from "@assets/send.svg"
+import Input from "./Input.astro";
+
+const locale = getLocaleFromUrl(Astro.url);
+const t = useTranslations(locale);
+---
+
+<form action="https://api.web3forms.com/submit" method="post">
+    <input type="hidden" name="access_key" value="2fdf5449-091f-4a24-bbbb-272e9e27d0b3" />
+
+    <div class="contact-form-desktop">
+        <div class="contact-form-desktop-info">
+            <Input name="name" placeholder={t("name")} required />
+            <Input name="email" placeholder={t("email")} required />
+            <Button text={t("send")} icon={SendIcon} type="submit" style="width: 100%; margin-top: .4rem" />
+        </div>
+
+        <Input 
+            name="message" 
+            placeholder={t("message")} 
+            required 
+            singleLine={false} 
+            class="contact-message"
+            style={{ flexGrow: 1 }} />
+    </div>
+
+    <div class="contact-form-mobile">
+        <Input name="name" placeholder={t("name")} required />
+        <Input name="email" placeholder={t("email")} required />
+        <Input name="message" placeholder={t("message")} required singleLine={false} class="contact-message" />
+        <Button text={t("send")} icon={SendIcon} type="submit" style="width: 100%; margin-top: .4rem; margin-bottom: 1rem" />
+    </div>
+</form>
+
+<style>
+    .contact-form-desktop {
+        display: none;
+
+        @media screen and (min-width: 600px) {
+            display: flex;
+            gap: 1rem;
+        }
+
+        .contact-form-desktop-info {
+            display: flex;
+            flex-direction: column;
+            gap: .5rem;
+        }
+    }
+
+    .contact-form-mobile {
+        display: none;
+        
+        @media screen and (max-width: 600px) {
+            display: flex;
+            flex-direction: column;
+            gap: .5rem;
+        }
+    }
+</style>

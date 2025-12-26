@@ -1,0 +1,55 @@
+---
+import Html from "@layouts/Html.astro";
+import { locales } from "@i18n/translate";
+
+const url = `${Astro.url.}`
+---
+
+<Html>
+	<noscript>
+		<!-- We cannot determine an locale without backend so we assume that only nerds do disable javascript. Who else? -->
+		<meta http-equiv="refresh" content="0;url=/en" />
+	</noscript>
+
+	<script define:vars={{ site, locales }}>
+		let selectedLocale = null;
+
+		for(const browserLocale of navigator.languages) {
+			for(const supportedLocale of locales) {
+				if(browserLocale == supportedLocale || browserLocale.startsWith(supportedLocale + "-")) {
+					selectedLocale = supportedLocale;
+					break;
+				}
+			}
+
+			if(selectedLocale != null) {
+				break;
+			}
+		}
+		
+		location.replace(`${site}/${selectedLocale ?? "en"}`)
+	</script>
+	
+	<h2>What are you doing here?</h2>
+	<p>You shouldn't to be here. Redirecting to the homepage...</p>
+</Html>
+
+<style>
+	body {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+		gap: .6rem;
+		height: 100vh;
+	}
+
+	h1, h2, h3, h4, h5, h6, p {
+		font-family: poppins, sans-serif;
+	}
+
+	p {
+		max-width: 350px;
+		text-align: center;
+	}
+</style>

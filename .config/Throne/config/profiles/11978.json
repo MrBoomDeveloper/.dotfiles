@@ -1,17 +1,16 @@
 {
     "bean": {
         "_v": 0,
-        "addr": "217.30.10.70",
+        "addr": "219.78.209.224",
         "brutal_speed": 0,
         "c_cfg": "",
         "c_out": "",
         "enable_brutal": false,
-        "method": "aes-256-cfb",
+        "flow": "",
         "mux": 0,
-        "name": "🇵🇱PL-217.30.10.70-5671",
-        "pass": "XPtzA9sCug3SPR4c",
-        "plugin": "",
-        "port": 9025,
+        "name": "КИБЕРПОРТАЛ ЧАЙНА 🙈",
+        "pass": "BxceQaOe",
+        "port": 443,
         "stream": {
             "alpn": "",
             "cert": "",
@@ -26,26 +25,25 @@
             "pac_enc": "",
             "path": "",
             "pbk": "",
-            "sec": "",
+            "sec": "tls",
             "sid": "",
-            "sni": "",
+            "sni": "t.me/ripaojiedian",
             "tls_frag": false,
             "tls_frag_fall_delay": "",
             "tls_record_frag": false,
             "utls": ""
-        },
-        "uot": 0
+        }
     },
     "country": "",
     "dl": "",
-    "gid": 9,
+    "gid": 10,
     "id": 11978,
     "report": "",
     "traffic": {
         "dl": 0,
         "ul": 0
     },
-    "type": "shadowsocks",
+    "type": "trojan",
     "ul": "",
     "yc": -1
 }

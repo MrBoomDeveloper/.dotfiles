@@ -1,17 +1,16 @@
 {
     "bean": {
         "_v": 0,
-        "addr": "103.36.91.23",
+        "addr": "217.16.18.50",
         "brutal_speed": 0,
         "c_cfg": "",
         "c_out": "",
         "enable_brutal": false,
-        "method": "chacha20-ietf",
+        "flow": "xtls-rprx-vision",
         "mux": 0,
-        "name": "🇸🇬SG-103.36.91.23-0252",
-        "pass": "asd123456",
-        "plugin": "",
-        "port": 8388,
+        "name": "🇫🇮 Finland — #47",
+        "pass": "260a7608-2e68-468b-9faf-36d59f0ca598",
+        "port": 443,
         "stream": {
             "alpn": "",
             "cert": "",
@@ -23,29 +22,28 @@
             "insecure": false,
             "method": "",
             "net": "tcp",
-            "pac_enc": "",
+            "pac_enc": "xudp",
             "path": "",
-            "pbk": "",
-            "sec": "",
-            "sid": "",
-            "sni": "",
+            "pbk": "l7cLIMrQQPS1LCyzgqCqP9O1rvoIanR9Npa3lYrz2xI",
+            "sec": "tls",
+            "sid": "296453e3e4",
+            "sni": "ozon.ru",
             "tls_frag": false,
             "tls_frag_fall_delay": "",
             "tls_record_frag": false,
-            "utls": ""
-        },
-        "uot": 0
+            "utls": "chrome"
+        }
     },
     "country": "",
     "dl": "",
-    "gid": 9,
+    "gid": 10,
     "id": 12025,
     "report": "",
     "traffic": {
         "dl": 0,
         "ul": 0
     },
-    "type": "shadowsocks",
+    "type": "vless",
     "ul": "",
-    "yc": 328
+    "yc": -1
 }

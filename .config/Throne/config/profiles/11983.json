@@ -1,16 +1,16 @@
 {
     "bean": {
         "_v": 0,
-        "addr": "160.16.63.16",
+        "addr": "51.250.28.39",
         "brutal_speed": 0,
         "c_cfg": "",
         "c_out": "",
         "enable_brutal": false,
-        "flow": "",
+        "flow": "xtls-rprx-vision",
         "mux": 0,
-        "name": "🇯🇵JP-160.16.63.16-0264",
-        "pass": "2cf6d686799e6fa95316394064f26c0a",
-        "port": 4054,
+        "name": "🇷🇺 Yandex — #5",
+        "pass": "4a6de183-2ad3-456c-b420-feeac81f6257",
+        "port": 4248,
         "stream": {
             "alpn": "",
             "cert": "",
@@ -22,28 +22,28 @@
             "insecure": false,
             "method": "",
             "net": "tcp",
-            "pac_enc": "",
+            "pac_enc": "xudp",
             "path": "",
-            "pbk": "",
+            "pbk": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
             "sec": "tls",
-            "sid": "",
-            "sni": "www.nintendogames.net",
+            "sid": "6ba85179e30d4fc2",
+            "sni": "ads.x5.ru",
             "tls_frag": false,
             "tls_frag_fall_delay": "",
             "tls_record_frag": false,
-            "utls": ""
+            "utls": "chrome"
         }
     },
     "country": "",
     "dl": "",
-    "gid": 9,
+    "gid": 10,
     "id": 11983,
     "report": "",
     "traffic": {
         "dl": 0,
         "ul": 0
     },
-    "type": "trojan",
+    "type": "vless",
     "ul": "",
-    "yc": 724
+    "yc": -1
 }

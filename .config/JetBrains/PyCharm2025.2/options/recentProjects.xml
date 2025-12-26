@@ -18,25 +18,89 @@
             </RecentProjectMetaInfo>
           </value>
         </entry>
-        <entry key="$USER_HOME$/Downloads/drive-download-20251119T044917Z-1-001">
+        <entry key="$USER_HOME$/Downloads/задание1">
           <value>
-            <RecentProjectMetaInfo frameTitle="drive-download-20251119T044917Z-1-001 – res.txt" opened="true" projectWorkspaceId="35gOOloEMzRH1SpE75yNc7K6eOX">
-              <option name="activationTimestamp" value="1763528218540" />
+            <RecentProjectMetaInfo frameTitle="задание1" projectWorkspaceId="36TjNyd6K5OhypNirZn5w4rUmAJ">
+              <option name="activationTimestamp" value="1765038100147" />
               <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
               <option name="build" value="PY-252.27397.106" />
               <option name="buildTimestamp" value="1761213660000" />
               <option name="colorInfo">
-                <RecentProjectColorInfo associatedIndex="1" />
+                <RecentProjectColorInfo associatedIndex="2" />
               </option>
               <frame x="5" y="32" width="1910" height="1043" />
               <option name="productionCode" value="PY" />
-              <option name="projectOpenTimestamp" value="1763528218718" />
+              <option name="projectOpenTimestamp" value="1765037419397" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Downloads/задание2">
+          <value>
+            <RecentProjectMetaInfo frameTitle="задание2" projectWorkspaceId="36TklZ5QCu8HMuCd9kDy9rc0yMr">
+              <option name="activationTimestamp" value="1765038743568" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="PY-252.27397.106" />
+              <option name="buildTimestamp" value="1761213660000" />
+              <option name="colorInfo">
+                <RecentProjectColorInfo associatedIndex="3" />
+              </option>
+              <frame x="5" y="32" width="1910" height="1043" />
+              <option name="productionCode" value="PY" />
+              <option name="projectOpenTimestamp" value="1765038100769" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Downloads/task 1">
+          <value>
+            <RecentProjectMetaInfo frameTitle="task 1 – README.md" projectWorkspaceId="36Tm4RdlL0DNnmoNokO7Laav8AG">
+              <option name="activationTimestamp" value="1765040416463" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="PY-252.27397.106" />
+              <option name="buildTimestamp" value="1761213660000" />
+              <option name="colorInfo">
+                <RecentProjectColorInfo associatedIndex="4" />
+              </option>
+              <frame x="5" y="32" width="1910" height="1043" />
+              <option name="productionCode" value="PY" />
+              <option name="projectOpenTimestamp" value="1765038743707" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Downloads/task 2">
+          <value>
+            <RecentProjectMetaInfo frameTitle="task 2" projectWorkspaceId="36TpSd7PweEtg98SRRLdxXu9c8I">
+              <option name="activationTimestamp" value="1766584500720" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="PY-252.27397.106" />
+              <option name="buildTimestamp" value="1761213660000" />
+              <option name="colorInfo">
+                <RecentProjectColorInfo associatedIndex="5" />
+              </option>
+              <frame x="2883" y="32" width="952" height="1043" />
+              <option name="productionCode" value="PY" />
+              <option name="projectOpenTimestamp" value="1765040417047" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Downloads/solution">
+          <value>
+            <RecentProjectMetaInfo frameTitle="solution – task 1.py" opened="true" projectWorkspaceId="37IJ9V91O6F8Y3vcRREFm3ffulY">
+              <option name="activationTimestamp" value="1766585138337" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="PY-252.27397.106" />
+              <option name="buildTimestamp" value="1761213660000" />
+              <option name="colorInfo">
+                <RecentProjectColorInfo associatedIndex="6" />
+              </option>
+              <frame x="1925" y="32" width="1910" height="1043" />
+              <option name="productionCode" value="PY" />
+              <option name="projectOpenTimestamp" value="1766584517060" />
             </RecentProjectMetaInfo>
           </value>
         </entry>
       </map>
     </option>
-    <option name="lastOpenedProject" value="$USER_HOME$/Downloads/drive-download-20251119T044917Z-1-001" />
+    <option name="lastOpenedProject" value="$USER_HOME$/Downloads/solution" />
     <option name="lastProjectLocation" value="$USER_HOME$/PycharmProjects" />
   </component>
 </application>

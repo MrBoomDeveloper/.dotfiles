@@ -1,0 +1,84 @@
+---
+import { getLocaleFromUrl, localeStaticPaths } from '@i18n/translate';
+import Html from '@layouts/Html.astro';
+import Header from '@components/Header.astro';
+import { getRelativeLocaleUrl } from 'astro:i18n';
+import Footer from '@components/Footer.astro';
+
+export const getStaticPaths = localeStaticPaths;
+const locale = getLocaleFromUrl(Astro.url);
+---
+
+<Html title={t("contact_me")} description="A new way of enjoying anime">
+	<Header />
+
+    <div class="section">
+        <div class="section-content">
+            <div class="section-header">
+				<hr />
+				<h2 class="section-title">{t("contact_me")}</h2>
+				<hr />
+			</div>
+
+            <!-- <div class="socials">
+                <a href="https://t.me/MrBoomDev">
+                    <div class="social">
+                        <Image src={TelegramIcon} alt="Telegram logo"} class="social-icon" />
+                        <span>Telegram</span>
+                    </div>           
+                </a>
+
+                <a href="https://vk.com/denisinvk">
+                    <div class="social">
+                        <Image src={VkIcon} alt="VK logo"} class="social-icon" />
+                        <span>VK</span>
+                    </div>           
+                </a>
+            </div> -->
+        </div>
+    </div>
+    
+	<Footer />
+</Html>
+
+
+<Html>
+	<Header />
+	<a href={getRelativeLocaleUrl(locale, "/projects/awery")}>Awery</a>
+</Html>
+
+<style>
+	.section {
+        width: 100%;
+		display: flex;
+		justify-content: center;
+
+		.section-content {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+			width: 100%;
+			max-width: 800px;
+			padding: 1rem;
+            padding-bottom: 3rem;
+		}
+    }
+
+    .section-header {
+		display: flex;
+		align-items: center;
+		gap: 2rem;
+		padding-block: .75rem;
+
+		.section-title {
+			font-family: poppins, sans-serif;
+		}
+
+		hr {
+			flex-grow: 1;
+			height: 1px;
+			opacity: .25;
+			scale: 1 .25;
+		}
+	}
+</style>

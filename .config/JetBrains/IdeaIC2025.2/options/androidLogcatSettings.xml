@@ -70,6 +70,7 @@
         <option value="ApplicationLoaders" />
         <option value="BLASTBufferQueue" />
         <option value="InsetsSourceConsumer" />
+        <option value="SurfaceFlinger" />
         <option value="nativeloader" />
         <option value="chromium" />
         <option value="tflite" />
@@ -87,7 +88,7 @@
         <option value="cr_CachingUmaRecorder" />
         <option value="WM-GreedyScheduler" />
         <option value="WM-ForceStopRunnable" />
-        <option value="SurfaceFlinger" />
+        <option value="VRI[MainActivity2]" />
       </set>
     </option>
   </component>

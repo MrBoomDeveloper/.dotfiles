@@ -1,0 +1,111 @@
+---
+import type { HTMLAttributes } from 'astro/types'
+import { Image } from 'astro:assets'
+
+interface Props extends HTMLAttributes<"div"> {
+	text: string,
+	icon?: ((_props: astroHTML.JSX.SVGAttributes) => any) & ImageMetadata,
+	iconScale?: number | undefined,
+	type?: "button" | "submit" | "reset" | null | undefined,
+	class?: string | undefined
+}
+
+const { 
+	text,
+	icon,
+	type,
+	iconScale,
+	class: className,
+	...props
+} = Astro.props
+---
+
+<button type={type} class:list={[ "container", className ]} {...props}>
+	<span class="label">{text}</span>
+	{icon ? <div class="icon-wrapper">
+		<Image src={icon} alt="" class="icon" style={{ scale: iconScale ?? 1 }} />
+		<Image src={icon} alt="" class="icon icon-hover" style={{ scale: iconScale ?? 1 }} />
+	</div> : ""}
+</button>
+
+<style lang="scss">
+	.label {
+		color: black;
+		font-family: poppins, sans-serif;
+		font-weight: 600;
+		transition: .2s;
+	}
+
+	.icon-wrapper {
+		display: inline-block;
+		position: relative;
+		translate: .8em .1em;
+		height: 1em;
+		width: 1em;
+		scale: 1.6;
+
+		.icon {
+			position: fixed;
+			inset: 0;
+			width: 100%;
+			height: 100%;
+			filter: brightness(0) saturate(100%);
+			transition: .3s;
+		}
+
+		.icon-hover {
+			opacity: 0;
+			filter: brightness(0) saturate(100%) invert(97%) sepia(90%) saturate(7092%) hue-rotate(223deg) brightness(104%) contrast(102%);
+			transition: .3s;
+		}
+	}
+
+	.container {
+		position: relative;
+		padding: .75rem 2.6rem;
+		border-radius: .6rem;
+		background-color: rgb(255, 182, 255);
+		transition: .3s;
+		border: 0 none transparent;
+		font-size: .9em;
+
+		&::after {
+			content: "";
+			position: absolute;
+			display: block;
+			border: transparent solid 2px;
+			border-radius: .6rem;
+			width: 100%;
+			height: 100%;
+			inset: 0;
+			transition: .2s;
+		}
+
+		&:hover {
+			// background-color: rgba(0, 0, 0, .25);
+			box-shadow: inset 0 0 .4rem rgb(255, 182, 255), 0 0 .4rem rgb(255, 182, 255), 0 0 2rem rgba(255, 255, 255, .2), 0 0 4rem rgba(255, 255, 255, .1);
+			scale: .985;
+
+			&::after {
+				border: rgb(255, 182, 255) solid 2px;
+			}
+
+			.label {
+				color: rgb(255, 182, 255);
+				font-weight: 700;
+			}
+
+			.icon {
+				opacity: 0;
+			}
+
+			.icon-hover {
+				opacity: 1;
+			}
+		}
+
+		&:active {
+			scale: .95;
+		}
+	}
+</style>

@@ -7,6 +7,30 @@
           <option name="totalTime" value="530543" />
         </DailyData>
       </entry>
+      <entry key="2025-11-29">
+        <DailyData>
+          <option name="count" value="915" />
+          <option name="totalTime" value="489850" />
+        </DailyData>
+      </entry>
+      <entry key="2025-12-01">
+        <DailyData>
+          <option name="count" value="904" />
+          <option name="totalTime" value="666918" />
+        </DailyData>
+      </entry>
+      <entry key="2025-12-02">
+        <DailyData>
+          <option name="count" value="2394" />
+          <option name="totalTime" value="1657163" />
+        </DailyData>
+      </entry>
+      <entry key="2025-12-13">
+        <DailyData>
+          <option name="count" value="919" />
+          <option name="totalTime" value="713643" />
+        </DailyData>
+      </entry>
     </dailyDataMap>
   </component>
 </application>

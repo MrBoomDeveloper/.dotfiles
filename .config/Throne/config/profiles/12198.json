@@ -1,0 +1,49 @@
+{
+    "bean": {
+        "_v": 0,
+        "addr": "uk.nebesniy.com",
+        "brutal_speed": 0,
+        "c_cfg": "",
+        "c_out": "",
+        "enable_brutal": false,
+        "flow": "",
+        "mux": 0,
+        "name": "🇫🇷 France",
+        "pass": "ad7a9316-1953-439a-854f-66355100a004",
+        "port": 555,
+        "stream": {
+            "alpn": "",
+            "cert": "",
+            "ed_len": 0,
+            "ed_name": "",
+            "h_type": "",
+            "headers": "",
+            "host": "",
+            "insecure": false,
+            "method": "",
+            "net": "xhttp",
+            "pac_enc": "xudp",
+            "path": "",
+            "pbk": "QiZOZ076NEBj_qWvLTs3BOpFxWEAQMiEM8N5gZA-ZSI",
+            "sec": "tls",
+            "sid": "4e68ec",
+            "sni": "eh.vk.com",
+            "tls_frag": false,
+            "tls_frag_fall_delay": "",
+            "tls_record_frag": false,
+            "utls": "random"
+        }
+    },
+    "country": "",
+    "dl": "",
+    "gid": 10,
+    "id": 12198,
+    "report": "",
+    "traffic": {
+        "dl": 0,
+        "ul": 0
+    },
+    "type": "vless",
+    "ul": "",
+    "yc": 0
+}

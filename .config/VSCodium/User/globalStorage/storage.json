@@ -6,7 +6,10 @@
         "workspaces": [],
         "folders": [
             {
-                "folderUri": "file:///home/mrboomdev/VSCodeProjects/AweryServer"
+                "folderUri": "file:///usr/share/sddm/themes/silent/docs"
+            },
+            {
+                "folderUri": "file:///home/mrboomdev/VSCodeProjects/Website/Website"
             }
         ],
         "emptyWindows": []
@@ -18,7 +21,13 @@
             "file:///home/mrboomdev/.config/swaync": "__default__profile__",
             "file:///home/mrboomdev/VSCodeProjects/YTMusicCLI": "__default__profile__",
             "file:///home/mrboomdev/.config/hypr": "__default__profile__",
-            "file:///run/media/mrboomdev/ESD-USB/UUST-ugatu/%D0%9F%D0%BE%D0%B4%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D1%8B/%D0%9F%D0%BE%D0%B4%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D0%B0%20%D0%93%D0%98%D0%A1%20%D0%A3%D0%93%D0%90%D0%A2%D0%A3%20%D0%B7%D0%B0%D0%B2.%D0%BB%D0%B0%D0%B1%20-%20%D0%A4%D0%B0%D1%80%D0%B8%D0%B4%D0%BE%D0%BD%D0%BE%D0%B2%20%D0%90.%D0%98": "__default__profile__"
+            "file:///run/media/mrboomdev/ESD-USB/UUST-ugatu/%D0%9F%D0%BE%D0%B4%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D1%8B/%D0%9F%D0%BE%D0%B4%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D0%B0%20%D0%93%D0%98%D0%A1%20%D0%A3%D0%93%D0%90%D0%A2%D0%A3%20%D0%B7%D0%B0%D0%B2.%D0%BB%D0%B0%D0%B1%20-%20%D0%A4%D0%B0%D1%80%D0%B8%D0%B4%D0%BE%D0%BD%D0%BE%D0%B2%20%D0%90.%D0%98": "__default__profile__",
+            "file:///home/mrboomdev": "__default__profile__",
+            "file:///home/mrboomdev/.config/rofi": "__default__profile__",
+            "file:///home/mrboomdev/VSCodeProjects/UUSToilet": "__default__profile__",
+            "file:///home/mrboomdev/VSCodeProjects/uustoilet": "__default__profile__",
+            "file:///home/mrboomdev/VSCodeProjects/Website/Website": "__default__profile__",
+            "file:///usr/share/sddm/themes/silent/docs": "__default__profile__"
         },
         "emptyWindows": {}
     },
@@ -54,8 +63,8 @@
     },
     "windowsState": {
         "lastActiveWindow": {
-            "folder": "file:///home/mrboomdev/VSCodeProjects/AweryServer",
-            "backupPath": "/home/mrboomdev/.config/VSCodium/Backups/45bad685ec214778e547431fdc5bf2c5",
+            "folder": "file:///home/mrboomdev/VSCodeProjects/Website/Website",
+            "backupPath": "/home/mrboomdev/.config/VSCodium/Backups/aaa6e0ff60ccd3063a3227c6adb74b29",
             "uiState": {
                 "mode": 0,
                 "x": 0,
@@ -92,6 +101,30 @@
                     "auxiliaryBarVisible": false
                 },
                 "cbaf90b0215bff54e243942026bc30e4": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "c0254cc184480aac2dbf32f2ad992e80": {
+                    "sideBarVisible": false,
+                    "auxiliaryBarVisible": false
+                },
+                "85e8f2d89b204f60787754a57c0ffc75": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "17de86d3ebccda4872b64f04226f9ba7": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "c3e2fe042f2b0937f489917c0c74218f": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "6bbfb921e329528682cb1e722c33ae18": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "7c29cf4fde7ab3fc15bfa61d0a1eb2ac": {
                     "sideBarVisible": true,
                     "auxiliaryBarVisible": false
                 }
