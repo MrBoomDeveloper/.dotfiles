@@ -6,10 +6,7 @@
         "workspaces": [],
         "folders": [
             {
-                "folderUri": "file:///usr/share/sddm/themes/silent/docs"
-            },
-            {
-                "folderUri": "file:///home/mrboomdev/VSCodeProjects/Website/Website"
+                "folderUri": "file:///home/mrboomdev/VSCodeProjects/AweryOnline"
             }
         ],
         "emptyWindows": []
@@ -27,7 +24,11 @@
             "file:///home/mrboomdev/VSCodeProjects/UUSToilet": "__default__profile__",
             "file:///home/mrboomdev/VSCodeProjects/uustoilet": "__default__profile__",
             "file:///home/mrboomdev/VSCodeProjects/Website/Website": "__default__profile__",
-            "file:///usr/share/sddm/themes/silent/docs": "__default__profile__"
+            "file:///usr/share/sddm/themes/silent/docs": "__default__profile__",
+            "file:///home/mrboomdev/Grok-Api": "__default__profile__",
+            "file:///home/mrboomdev/VSCodeProjects/AmaterasuBot": "__default__profile__",
+            "file:///home/mrboomdev/VSCodeProjects/AweryOnline": "__default__profile__",
+            "file:///home/mrboomdev/.config/quickshell": "__default__profile__"
         },
         "emptyWindows": {}
     },
@@ -63,8 +64,8 @@
     },
     "windowsState": {
         "lastActiveWindow": {
-            "folder": "file:///home/mrboomdev/VSCodeProjects/Website/Website",
-            "backupPath": "/home/mrboomdev/.config/VSCodium/Backups/aaa6e0ff60ccd3063a3227c6adb74b29",
+            "folder": "file:///home/mrboomdev/VSCodeProjects/AweryOnline",
+            "backupPath": "/home/mrboomdev/.config/VSCodium/Backups/4d4e83af631f674354367be47e38a8e9",
             "uiState": {
                 "mode": 0,
                 "x": 0,
@@ -97,7 +98,7 @@
                     "auxiliaryBarVisible": false
                 },
                 "04ece203e8963f8d2dd3f61a041156af": {
-                    "sideBarVisible": false,
+                    "sideBarVisible": true,
                     "auxiliaryBarVisible": false
                 },
                 "cbaf90b0215bff54e243942026bc30e4": {
@@ -125,6 +126,22 @@
                     "auxiliaryBarVisible": false
                 },
                 "7c29cf4fde7ab3fc15bfa61d0a1eb2ac": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "78be42806a6a2232772a5cc4d0e05fc5": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "286b11644e9591d2bbd388954ba88506": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "5bf1c29e3b2ae5cf6945760a77250e24": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "66dc40060b0e7b1b676ac8dbbccbbb8a": {
                     "sideBarVisible": true,
                     "auxiliaryBarVisible": false
                 }

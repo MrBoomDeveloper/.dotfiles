@@ -6,7 +6,7 @@ clipboard="Clipboard"
 emojiPicker="Emoji Picker"
 iconPicker="Icon Picker"
 colorPicker="Color Picker"
-reloadWallpaper="Reload wallpaper"
+reloadWallpaper="Select wallpaper"
 manageNetwork="Manage Network"
 manageBluetooth="Manage Bluetooth"
 power="Power Options"
@@ -55,7 +55,7 @@ case $(launchRofi) in
 	;;
 
 	$reloadWallpaper)
-	    killall hyprpaper && hyprpaper &
+	    waypaper
     ;;
 
 	$manageNetwork)

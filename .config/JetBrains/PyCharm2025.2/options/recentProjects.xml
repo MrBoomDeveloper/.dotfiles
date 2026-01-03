@@ -84,23 +84,55 @@
         </entry>
         <entry key="$USER_HOME$/Downloads/solution">
           <value>
-            <RecentProjectMetaInfo frameTitle="solution – task 1.py" opened="true" projectWorkspaceId="37IJ9V91O6F8Y3vcRREFm3ffulY">
-              <option name="activationTimestamp" value="1766585138337" />
+            <RecentProjectMetaInfo frameTitle="solution – task 1.py" projectWorkspaceId="37IJ9V91O6F8Y3vcRREFm3ffulY">
+              <option name="activationTimestamp" value="1766999356825" />
               <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
               <option name="build" value="PY-252.27397.106" />
               <option name="buildTimestamp" value="1761213660000" />
               <option name="colorInfo">
                 <RecentProjectColorInfo associatedIndex="6" />
               </option>
-              <frame x="1925" y="32" width="1910" height="1043" />
+              <frame x="5" y="32" width="1910" height="1043" />
               <option name="productionCode" value="PY" />
               <option name="projectOpenTimestamp" value="1766584517060" />
             </RecentProjectMetaInfo>
           </value>
         </entry>
+        <entry key="$USER_HOME$/Grok-Api">
+          <value>
+            <RecentProjectMetaInfo frameTitle="Grok-Api – parser.py" projectWorkspaceId="37Vs27IDTDl2CZzy7ZyjxhFfUT7">
+              <option name="activationTimestamp" value="1767002967207" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="PY-252.27397.106" />
+              <option name="buildTimestamp" value="1761213660000" />
+              <option name="colorInfo">
+                <RecentProjectColorInfo associatedIndex="7" />
+              </option>
+              <frame x="5" y="32" width="1910" height="1043" />
+              <option name="productionCode" value="PY" />
+              <option name="projectOpenTimestamp" value="1766999363250" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/grok3-api">
+          <value>
+            <RecentProjectMetaInfo frameTitle="grok3-api – index.py" projectWorkspaceId="37W1FagiJYeqhx7ElEfEYtuiGQc">
+              <option name="activationTimestamp" value="1767006014156" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="PY-252.27397.106" />
+              <option name="buildTimestamp" value="1761213660000" />
+              <option name="colorInfo">
+                <RecentProjectColorInfo associatedIndex="0" />
+              </option>
+              <frame x="5" y="32" width="1910" height="1043" />
+              <option name="productionCode" value="PY" />
+              <option name="projectOpenTimestamp" value="1767003911911" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
       </map>
     </option>
-    <option name="lastOpenedProject" value="$USER_HOME$/Downloads/solution" />
+    <option name="lastOpenedProject" value="$USER_HOME$/grok3-api" />
     <option name="lastProjectLocation" value="$USER_HOME$/PycharmProjects" />
   </component>
 </application>

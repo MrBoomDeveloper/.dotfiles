@@ -41,14 +41,14 @@ run_rofi() {
 chosen="$(run_rofi)"
 case ${chosen} in
     $shutdown)
-		systemctl poweroff
-        ;;
+        systemctl poweroff
+    ;;
         
     $reboot)
 		systemctl reboot
-        ;;
+    ;;
         
     $logout)
-		hyprctl dispatch exit
-        ;;
+		command -v hyprshutdown >/dev/null 2>&1 && hyprshutdown || hyprctl dispatch exit
+    ;;
 esac

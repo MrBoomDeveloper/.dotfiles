@@ -4,15 +4,15 @@
       <map>
         <entry key="$USER_HOME$/CLionProjects/untitled">
           <value>
-            <RecentProjectMetaInfo frameTitle="untitled – 3.cpp" opened="true" projectWorkspaceId="34I3gyKZGKT91bY8YDMVCKzluRb">
-              <option name="activationTimestamp" value="1765617961140" />
+            <RecentProjectMetaInfo frameTitle="untitled – 6.cpp" projectWorkspaceId="34I3gyKZGKT91bY8YDMVCKzluRb">
+              <option name="activationTimestamp" value="1766978199907" />
               <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
               <option name="build" value="CL-252.27397.114" />
               <option name="buildTimestamp" value="1761293820000" />
               <option name="colorInfo">
                 <RecentProjectColorInfo associatedIndex="5" />
               </option>
-              <frame x="1925" y="32" width="1910" height="1043" />
+              <frame x="5" y="32" width="1910" height="1043" />
               <option name="productionCode" value="CL" />
               <option name="projectOpenTimestamp" value="1765593672659" />
             </RecentProjectMetaInfo>
@@ -20,23 +20,23 @@
         </entry>
         <entry key="$USER_HOME$/CLionProjects/YTMusicCLI">
           <value>
-            <RecentProjectMetaInfo frameTitle="YTMusicCLI – main.cpp" projectWorkspaceId="36FPaqWGnT4Bc9AraQHC3Ou8DaG">
-              <option name="activationTimestamp" value="1765617945182" />
+            <RecentProjectMetaInfo frameTitle="YTMusicCLI – main.cpp" opened="true" projectWorkspaceId="36FPaqWGnT4Bc9AraQHC3Ou8DaG">
+              <option name="activationTimestamp" value="1766985695828" />
               <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
               <option name="build" value="CL-252.27397.114" />
               <option name="buildTimestamp" value="1761293820000" />
               <option name="colorInfo">
                 <RecentProjectColorInfo associatedIndex="6" />
               </option>
-              <frame x="2883" y="32" width="952" height="1043" />
+              <frame x="5" y="32" width="1910" height="1043" />
               <option name="productionCode" value="CL" />
-              <option name="projectOpenTimestamp" value="1765611262767" />
+              <option name="projectOpenTimestamp" value="1766978202640" />
             </RecentProjectMetaInfo>
           </value>
         </entry>
       </map>
     </option>
-    <option name="lastOpenedProject" value="$USER_HOME$/CLionProjects/untitled" />
+    <option name="lastOpenedProject" value="$USER_HOME$/CLionProjects/YTMusicCLI" />
     <option name="lastProjectLocation" value="$USER_HOME$/CLionProjects" />
   </component>
 </application>

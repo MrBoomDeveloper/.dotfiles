@@ -7,22 +7,31 @@
       <i c="28" l="1766585089748" />
     </e>
     <e n="$Undo">
-      <i c="196" l="1766584716449" />
+      <i c="205" l="1767005722280" />
+    </e>
+    <e n="ActivateCommitToolWindow">
+      <i c="1" l="1767002834520" />
     </e>
     <e n="ActivateProjectToolWindow">
-      <i c="1" l="1763314860727" />
+      <i c="2" l="1767002848537" />
     </e>
     <e n="ActivateTerminalToolWindow">
-      <i c="7" l="1763352133767" />
+      <i c="10" l="1767000686099" />
     </e>
     <e n="ChangeKeymap">
       <i c="1" l="1763314836481" />
     </e>
+    <e n="ChangesView.Revert">
+      <i c="1" l="1767002843494" />
+    </e>
     <e n="CloseActiveTab">
       <i c="1" l="1763314857339" />
     </e>
+    <e n="CloseProject">
+      <i c="2" l="1767006019147" />
+    </e>
     <e n="CommentByLineComment">
-      <i c="8" l="1763353998541" />
+      <i c="11" l="1767002362098" />
     </e>
     <e n="CopyAbsolutePath">
       <i c="1" l="1763318383403" />
@@ -34,46 +43,52 @@
       <i c="2" l="1763354764006" />
     </e>
     <e n="EditorBackSpace">
-      <i c="271" l="1766584931482" />
+      <i c="378" l="1767005925013" />
     </e>
     <e n="EditorChooseLookupItem">
       <i c="52" l="1763354994092" />
     </e>
     <e n="EditorCopy">
-      <i c="44" l="1766585090145" />
+      <i c="48" l="1767005475590" />
     </e>
     <e n="EditorCut">
-      <i c="3" l="1766584734973" />
+      <i c="5" l="1767005495213" />
     </e>
     <e n="EditorDown">
-      <i c="66" l="1763320291750" />
+      <i c="67" l="1767005496651" />
     </e>
     <e n="EditorEnter">
-      <i c="127" l="1766585121954" />
+      <i c="142" l="1767005799872" />
+    </e>
+    <e n="EditorEscape">
+      <i c="2" l="1767005485510" />
     </e>
     <e n="EditorLeft">
       <i c="41" l="1763353939650" />
     </e>
     <e n="EditorPaste">
-      <i c="29" l="1766584909594" />
+      <i c="38" l="1767005502934" />
     </e>
     <e n="EditorRight">
-      <i c="8" l="1763354994716" />
+      <i c="10" l="1767001407833" />
     </e>
     <e n="EditorTab">
       <i c="1" l="1763354999461" />
     </e>
     <e n="EditorUp">
-      <i c="34" l="1763320157034" />
+      <i c="36" l="1767005502044" />
     </e>
     <e n="Exit">
       <i c="1" l="1765040202691" />
     </e>
     <e n="FileChooser.Refresh">
-      <i c="4" l="1766584497300" />
+      <i c="9" l="1767003887891" />
+    </e>
+    <e n="Find">
+      <i c="6" l="1767005876446" />
     </e>
     <e n="GotoDeclaration">
-      <i c="4" l="1763352500307" />
+      <i c="9" l="1767002866217" />
     </e>
     <e n="Images.SetBackgroundImage">
       <i c="3" l="1763314791745" />
@@ -85,13 +100,13 @@
       <i c="1" l="1763320517257" />
     </e>
     <e n="NewPythonFile">
-      <i c="2" l="1763527489824" />
+      <i c="3" l="1767005130746" />
     </e>
     <e n="NextTemplateVariable">
       <i c="1" l="1763354254479" />
     </e>
     <e n="OpenFile">
-      <i c="7" l="1766584515123" />
+      <i c="8" l="1766999328775" />
     </e>
     <e n="QuickChangeScheme">
       <i c="1" l="1763314882273" />
@@ -106,10 +121,10 @@
       <i c="4" l="1766585132247" />
     </e>
     <e n="Run">
-      <i c="40" l="1766585117445" />
+      <i c="46" l="1767005997380" />
     </e>
     <e n="SaveAll">
-      <i c="97" l="1766584933469" />
+      <i c="108" l="1767005943283" />
     </e>
     <e n="SelectInProjectView">
       <i c="1" l="1763321118419" />
@@ -124,10 +139,10 @@
       <i c="10" l="1763355419502" />
     </e>
     <e n="Terminal.CopySelectedText">
-      <i c="1" l="1763317378752" />
+      <i c="2" l="1766999888784" />
     </e>
     <e n="Terminal.Paste">
-      <i c="5" l="1763352135297" />
+      <i c="6" l="1766999634217" />
     </e>
     <e n="TerminalNewPredefinedSession">
       <i c="1" l="1763319562255" />
@@ -136,16 +151,22 @@
       <i c="3" l="1766584924687" />
     </e>
     <e n="TextEditorWithPreview.Layout.EditorOnly">
-      <i c="2" l="1765040862438" />
+      <i c="3" l="1766999390208" />
+    </e>
+    <e n="ToggleLineBreakpoint">
+      <i c="1" l="1767002836701" />
     </e>
     <e n="TrialStateWidget">
       <i c="4" l="1766584483626" />
     </e>
     <e n="WelcomeScreen.OpenDirectoryProject">
-      <i c="1" l="1765037402498" />
+      <i c="3" l="1767003880193" />
     </e>
     <e n="WelcomeScreen.Plugins">
       <i c="1" l="1763314591313" />
+    </e>
+    <e n="WelcomeScreen.RemoveSelected">
+      <i c="1" l="1767003874976" />
     </e>
     <e n="com.intellij.execution.actions.CreateAction">
       <i c="2" l="1763319473059" />
@@ -158,6 +179,12 @@
     </e>
     <e n="com.intellij.execution.ui.FragmentedSettingsBuilder$ToggleFragmentAction">
       <i c="7" l="1763319546469" />
+    </e>
+    <e n="com.intellij.find.SearchReplaceComponent$CloseAction">
+      <i c="1" l="1767005881714" />
+    </e>
+    <e n="com.intellij.find.editorHeaderActions.PrevOccurrenceAction">
+      <i c="1" l="1767005880417" />
     </e>
     <e n="com.intellij.grazie.ide.notification.GrazieToastNotifications$showMissedLanguages$2">
       <i c="1" l="1763314566698" />
@@ -175,7 +202,7 @@
       <i c="1" l="1763354031476" />
     </e>
     <e n="com.intellij.openapi.fileEditor.impl.tabActions.CloseTab">
-      <i c="37" l="1766585126409" />
+      <i c="50" l="1767005105997" />
     </e>
     <e n="com.intellij.openapi.keymap.impl.ui.KeymapPanel$AddKeyboardShortcutAction">
       <i c="3" l="1763314895598" />
@@ -187,19 +214,22 @@
       <i c="2" l="1763314644742" />
     </e>
     <e n="com.intellij.openapi.ui.DialogWrapper$5">
-      <i c="2" l="1763528091389" />
+      <i c="3" l="1767005139621" />
     </e>
     <e n="com.intellij.openapi.wm.impl.customFrameDecorations.header.toolbar.MainMenuButton$ShowMenuAction">
-      <i c="8" l="1766584513562" />
+      <i c="12" l="1767006017282" />
     </e>
     <e n="com.intellij.openapi.wm.impl.welcomeScreen.ActionGroupPanelWrapper$6">
       <i c="1" l="1763314504903" />
     </e>
     <e n="com.intellij.terminal.frontend.action.SendShortcutToTerminalAction">
-      <i c="17" l="1763352135909" />
+      <i c="31" l="1767002436829" />
     </e>
     <e n="com.intellij.ui.dsl.builder.components.SegmentedButtonAction">
       <i c="4" l="1763314525649" />
+    </e>
+    <e n="com.intellij.xdebugger.impl.breakpoints.RemoveBreakpointGutterIconAction">
+      <i c="1" l="1767002854419" />
     </e>
     <e n="com.jetbrains.python.console.PyConsoleUtil$2">
       <i c="3" l="1763351294716" />

@@ -11,6 +11,10 @@
         <observation name="explicitSelect" value="33.0" />
         <observation name="typedSelect" value="41.0" />
       </dailyData>
+      <dailyData date="29-12-2025">
+        <observation name="cancelled" value="4.0" />
+        <observation name="typedSelect" value="3.0" />
+      </dailyData>
     </factor>
     <factor id="completionType">
       <dailyData date="16-11-2025">
@@ -19,6 +23,9 @@
       <dailyData date="17-11-2025">
         <observation name="BASIC" value="118.0" />
       </dailyData>
+      <dailyData date="29-12-2025">
+        <observation name="BASIC" value="5.0" />
+      </dailyData>
     </factor>
     <factor id="completionUsage">
       <dailyData date="16-11-2025">
@@ -26,6 +33,9 @@
       </dailyData>
       <dailyData date="17-11-2025">
         <observation name="count" value="156.0" />
+      </dailyData>
+      <dailyData date="29-12-2025">
+        <observation name="count" value="7.0" />
       </dailyData>
     </factor>
     <factor id="itemPosition">
@@ -91,6 +101,10 @@
       <dailyData date="17-11-2025">
         <observation name="average" value="316.486772" />
         <observation name="count" value="189.0" />
+      </dailyData>
+      <dailyData date="29-12-2025">
+        <observation name="average" value="281.133333" />
+        <observation name="count" value="15.0" />
       </dailyData>
     </factor>
   </component>

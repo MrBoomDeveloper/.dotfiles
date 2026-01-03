@@ -1,2 +1,3 @@
-2025/10/19-10:44:15.422 1894 Creating DB /home/mrboomdev/.config/Electron/Session Storage since it was missing.
-2025/10/19-10:44:15.429 1894 Reusing MANIFEST /home/mrboomdev/.config/Electron/Session Storage/MANIFEST-000001
+2025/12/26-16:06:39.358 1386c Reusing MANIFEST /home/mrboomdev/.config/Electron/Session Storage/MANIFEST-000001
+2025/12/26-16:06:39.358 1386c Recovering log #3
+2025/12/26-16:06:39.358 1386c Reusing old log /home/mrboomdev/.config/Electron/Session Storage/000003.log 

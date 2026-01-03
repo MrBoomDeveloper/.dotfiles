@@ -50,7 +50,7 @@
     "redirect_listen_address": "127.0.0.1",
     "redirect_listen_port": 443,
     "remember_enable": false,
-    "remember_id": 12588,
+    "remember_id": 13212,
     "show_system_dns": false,
     "skip_cert": false,
     "speed_test_mode": 0,

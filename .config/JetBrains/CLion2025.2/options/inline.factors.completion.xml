@@ -31,6 +31,12 @@
           <option name="totalTime" value="713643" />
         </DailyData>
       </entry>
+      <entry key="2025-12-29">
+        <DailyData>
+          <option name="count" value="578" />
+          <option name="totalTime" value="642756" />
+        </DailyData>
+      </entry>
     </dailyDataMap>
   </component>
 </application>

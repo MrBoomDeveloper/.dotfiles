@@ -31,8 +31,7 @@ button:hover {
 }
 
 #workspaces button {
-    padding: 0 8px;
-    color: @text;
+    padding: 2px 6px;
 }
 
 #workspaces button.active {
@@ -63,12 +62,11 @@ button:hover {
 #backlight,
 #tray {
     padding: 0 8px;
-    margin: 5px 1px;
 }
 
 #window,
 #workspaces {
-    margin: 0 4px;
+    padding: 2px 0;
 }
 
 label:focus {
@@ -79,12 +77,20 @@ label:focus {
 	margin-bottom: 1px;
 }
 
+#network {
+    margin-left: -4px;
+}
+
 #pulseaudio {
 	margin-left: 6px;
 }
 
 #backlight {
 	margin-left: -2px;
+}
+
+#battery {
+    margin: 0 4px;
 }
 
 #temperature.critical {
@@ -97,19 +103,20 @@ label:focus {
     color: @text;
 }
 
-#custom-notifications, #custom-power {
-	padding-right: 16px;
-	padding-left: 8px;
-}
-
-#battery {
-	margin-left: 8px;
-}
-
 #language {
-    margin-right: 8px;
+    margin-right: 2px;
 }
 
 #clock {
 	margin-right: 8px;
+}
+
+#custom-super {
+    font-size: 18px;
+    padding: 0 16px;
+}
+
+#custom-super:hover {
+    background-color: @text;
+    color: @background;
 }

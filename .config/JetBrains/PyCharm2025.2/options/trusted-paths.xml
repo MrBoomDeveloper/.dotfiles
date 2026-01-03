@@ -2,13 +2,16 @@
   <component name="Trusted.Paths">
     <option name="TRUSTED_PROJECT_PATHS">
       <map>
+        <entry key="$USER_HOME$" value="true" />
         <entry key="$USER_HOME$/Downloads/drive-download-20251119T044917Z-1-001" value="true" />
         <entry key="$USER_HOME$/Downloads/solution" value="true" />
         <entry key="$USER_HOME$/Downloads/task 1" value="true" />
         <entry key="$USER_HOME$/Downloads/task 2" value="true" />
         <entry key="$USER_HOME$/Downloads/задание1" value="true" />
         <entry key="$USER_HOME$/Downloads/задание2" value="true" />
+        <entry key="$USER_HOME$/Grok-Api" value="true" />
         <entry key="$USER_HOME$/PycharmProjects/BoomieBackend" value="true" />
+        <entry key="$USER_HOME$/grok3-api" value="true" />
       </map>
     </option>
   </component>
@@ -16,6 +19,7 @@
     <option name="TRUSTED_PATHS">
       <list>
         <option value="$USER_HOME$/Downloads" />
+        <option value="$USER_HOME$" />
       </list>
     </option>
   </component>

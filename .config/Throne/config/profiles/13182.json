@@ -1,0 +1,50 @@
+{
+    "bean": {
+        "_v": 0,
+        "addr": "lv4.789900.xyz",
+        "aid": 0,
+        "brutal_speed": 0,
+        "c_cfg": "",
+        "c_out": "",
+        "enable_brutal": false,
+        "id": "7dd16ab1-2a36-4b32-86fd-eb49fb039752",
+        "mux": 0,
+        "name": "🇰🇷KR-140.238.29.114-1730",
+        "port": 2087,
+        "sec": "auto",
+        "stream": {
+            "alpn": "",
+            "cert": "",
+            "ed_len": 0,
+            "ed_name": "",
+            "h_type": "auto",
+            "headers": "",
+            "host": "lv4.789900.xyz",
+            "insecure": false,
+            "method": "",
+            "net": "ws",
+            "pac_enc": "",
+            "path": "/7dd16ab1-2a36-4b32-86fd-eb49fb039752-vm",
+            "pbk": "",
+            "sec": "tls",
+            "sid": "",
+            "sni": "lv4.789900.xyz",
+            "tls_frag": false,
+            "tls_frag_fall_delay": "",
+            "tls_record_frag": false,
+            "utls": ""
+        }
+    },
+    "country": "",
+    "dl": "",
+    "gid": 9,
+    "id": 13182,
+    "report": "",
+    "traffic": {
+        "dl": 0,
+        "ul": 0
+    },
+    "type": "vmess",
+    "ul": "",
+    "yc": 291
+}

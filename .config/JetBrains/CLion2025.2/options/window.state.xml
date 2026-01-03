@@ -1,16 +1,16 @@
 <application>
   <component name="DimensionService">
-    <size key="GridCell.Tab.0.left.0.0.1920.1080" width="1910" height="1011" />
-    <size key="GridCell.Tab.0.center.0.0.1920.1080" width="1910" height="1011" />
-    <size key="GridCell.Tab.0.right.0.0.1920.1080" width="1910" height="1011" />
-    <size key="GridCell.Tab.0.bottom.0.0.1920.1080" width="1910" height="1011" />
+    <size key="GridCell.Tab.0.left.0.0.1920.1080" width="1910" height="367" />
+    <size key="GridCell.Tab.0.center.0.0.1920.1080" width="1910" height="367" />
+    <size key="GridCell.Tab.0.right.0.0.1920.1080" width="1910" height="367" />
+    <size key="GridCell.Tab.0.bottom.0.0.1920.1080" width="1910" height="367" />
     <size key="GridCell.Tab.0.left.1920.0.1920.1080" width="1910" height="1011" />
     <size key="GridCell.Tab.0.center.1920.0.1920.1080" width="1910" height="1011" />
     <size key="GridCell.Tab.0.right.1920.0.1920.1080" width="1910" height="1011" />
     <size key="GridCell.Tab.0.bottom.1920.0.1920.1080" width="1910" height="1011" />
   </component>
   <component name="WindowManager">
-    <frame x="1925" y="32" width="1910" height="1043" />
+    <frame x="5" y="32" width="1910" height="1043" />
   </component>
   <component name="WindowStateApplicationService">
     <state width="399" height="139" key="ShowUsagesActions.dimensionServiceKey" timestamp="1763956099091">

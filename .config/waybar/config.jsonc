@@ -6,18 +6,17 @@
 	"reload_style_on_change": true,
 	
 	"modules-left": [
-		"battery",
-		"memory",
-		"cpu",
-		"temperature"
+	    "custom/super",
+	    "hyprland/workspaces"
 	],
 
 	"modules-center": [
-		"hyprland/workspaces"
+		"mpris"
 	],
 
 	"modules-right": [
 	    "hyprland/language",
+	    "battery",
 		"bluetooth",
 		"network",
 		"pulseaudio",
@@ -108,13 +107,13 @@
 	"cpu": {
 		"interval": 60,
 		"format": "{usage}%  ",
-		"on-click": "foot --app-id htop htop"
+		"on-click": "kitty htop"
 	},
 
 	"memory": {
 		"interval": 60,
 		"format": "{percentage}% 🎟",
-		"on-click": "foot --app-id htop htop",
+		"on-click": "kitty htop",
 		"tooltip-format": "Used: {used:0.1f}G/{total:0.1f}G. Swap: {swapUsed:0.1f}G/{swapTotal:0.1f}G",
 
 		"states": {
@@ -142,7 +141,7 @@
 		"tooltip-format-wifi": "{ifname}: {ipaddr}/{cidr} ",
 		"format-linked": "(No IP) ",
 		"format-disconnected": "Disconnected ⚠",
-		"on-click": "ronema"
+		"on-click": "kitty nmtui"
 	},
 	
 	"battery": {
@@ -161,7 +160,7 @@
 		},
 		
 		"tooltip": false,
-		"on-click": "foot --app-id pulsemixer pulsemixer"
+		"on-click": "kitty pulsemixer"
 	},
 
 	"custom/notifications": {
@@ -187,9 +186,9 @@
 		"escape": true
 	},
 
-	"custom/power": {
-		"format": "",
+	"custom/super": {
+		"format": "󰣇",
 		"tooltip": false,
-		"on-click": "~/.config/rofi/powermenu.sh"
+		"on-click": "~/.config/rofi/quickactions.sh"
 	}
 }
