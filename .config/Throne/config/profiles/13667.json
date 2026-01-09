@@ -1,0 +1,49 @@
+{
+    "bean": {
+        "_v": 0,
+        "addr": "90.156.150.229",
+        "brutal_speed": 0,
+        "c_cfg": "",
+        "c_out": "",
+        "enable_brutal": false,
+        "flow": "xtls-rprx-vision",
+        "mux": 0,
+        "name": "🇪🇸 Spain — #119",
+        "pass": "71973415-8585-4315-9d7d-b2babfd05c34",
+        "port": 8443,
+        "stream": {
+            "alpn": "",
+            "cert": "",
+            "ed_len": 0,
+            "ed_name": "",
+            "h_type": "",
+            "headers": "",
+            "host": "",
+            "insecure": false,
+            "method": "",
+            "net": "tcp",
+            "pac_enc": "xudp",
+            "path": "",
+            "pbk": "zr8_rtHm86s_G1gfRwNtunStGngYZSdYkA3PyBFXpDg",
+            "sec": "tls",
+            "sid": "28047c78b3f5ee2c",
+            "sni": "tradingview.com",
+            "tls_frag": false,
+            "tls_frag_fall_delay": "",
+            "tls_record_frag": false,
+            "utls": "chrome"
+        }
+    },
+    "country": "",
+    "dl": "",
+    "gid": 10,
+    "id": 13667,
+    "report": "",
+    "traffic": {
+        "dl": 0,
+        "ul": 0
+    },
+    "type": "vless",
+    "ul": "",
+    "yc": -1
+}

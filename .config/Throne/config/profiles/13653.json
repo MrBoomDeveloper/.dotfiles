@@ -1,0 +1,49 @@
+{
+    "bean": {
+        "_v": 0,
+        "addr": "103.109.234.117",
+        "brutal_speed": 0,
+        "c_cfg": "",
+        "c_out": "",
+        "enable_brutal": false,
+        "flow": "",
+        "mux": 0,
+        "name": "🇩🇪 Germany — #105",
+        "pass": "45fa3af5-f92c-4aac-97e5-a1733687d10b",
+        "port": 2053,
+        "stream": {
+            "alpn": "",
+            "cert": "",
+            "ed_len": 0,
+            "ed_name": "",
+            "h_type": "",
+            "headers": "",
+            "host": "",
+            "insecure": false,
+            "method": "",
+            "net": "xhttp",
+            "pac_enc": "xudp",
+            "path": "",
+            "pbk": "cynncQk7kKzEQaExg-FN7pMqFaZPSXEi_Ggy7AXXmVg",
+            "sec": "tls",
+            "sid": "2356d1ae4b",
+            "sni": "google.com",
+            "tls_frag": false,
+            "tls_frag_fall_delay": "",
+            "tls_record_frag": false,
+            "utls": "chrome"
+        }
+    },
+    "country": "",
+    "dl": "",
+    "gid": 10,
+    "id": 13653,
+    "report": "",
+    "traffic": {
+        "dl": 0,
+        "ul": 0
+    },
+    "type": "vless",
+    "ul": "",
+    "yc": 0
+}

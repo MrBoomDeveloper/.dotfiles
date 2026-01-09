@@ -1,0 +1,49 @@
+{
+    "bean": {
+        "_v": 0,
+        "addr": "144.31.3.104",
+        "brutal_speed": 0,
+        "c_cfg": "",
+        "c_out": "",
+        "enable_brutal": false,
+        "flow": "",
+        "mux": 0,
+        "name": "0585 | 🇵🇱 Poland | VLESS | TG: @STR_BYPASS",
+        "pass": "4d7a559b-6379-41a7-9e51-41ef759846aa",
+        "port": 11011,
+        "stream": {
+            "alpn": "",
+            "cert": "",
+            "ed_len": 0,
+            "ed_name": "",
+            "h_type": "",
+            "headers": "",
+            "host": "",
+            "insecure": false,
+            "method": "",
+            "net": "grpc",
+            "pac_enc": "xudp",
+            "path": "/",
+            "pbk": "rI9VYuHyu0t0bKzVyNekh_DYgeV4nBI2AFVb910DY2g",
+            "sec": "tls",
+            "sid": "560dced8d059f42b",
+            "sni": "pl1.nfnpx.online",
+            "tls_frag": false,
+            "tls_frag_fall_delay": "",
+            "tls_record_frag": false,
+            "utls": "chrome"
+        }
+    },
+    "country": "",
+    "dl": "",
+    "gid": 10,
+    "id": 13366,
+    "report": "",
+    "traffic": {
+        "dl": 0,
+        "ul": 0
+    },
+    "type": "vless",
+    "ul": "",
+    "yc": -1
+}

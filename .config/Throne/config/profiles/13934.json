@@ -1,0 +1,40 @@
+{
+    "bean": {
+        "_v": 0,
+        "addr": "208.87.243.187",
+        "allowInsecure": true,
+        "alpn": "",
+        "authPayload": "",
+        "brutal_speed": 0,
+        "c_cfg": "",
+        "c_out": "",
+        "caText": "",
+        "connectionReceiveWindow": 0,
+        "disableMtuDiscovery": false,
+        "disableSni": false,
+        "downloadMbps": 0,
+        "enable_brutal": false,
+        "forceExternal": false,
+        "hop_interval": "",
+        "mux": 0,
+        "name": "🇺🇸 PORTAL Telegram:@STR_BYPASS 921993",
+        "obfsPassword": "",
+        "password": "dongtaiwang.com",
+        "port": 22222,
+        "sni": "🔒",
+        "streamReceiveWindow": 0,
+        "uploadMbps": 0
+    },
+    "country": "",
+    "dl": "",
+    "gid": 10,
+    "id": 13934,
+    "report": "",
+    "traffic": {
+        "dl": 0,
+        "ul": 0
+    },
+    "type": "hysteria2",
+    "ul": "",
+    "yc": -1
+}

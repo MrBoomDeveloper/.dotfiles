@@ -1,0 +1,49 @@
+{
+    "bean": {
+        "_v": 0,
+        "addr": "45.144.53.166",
+        "brutal_speed": 0,
+        "c_cfg": "",
+        "c_out": "",
+        "enable_brutal": false,
+        "flow": "",
+        "mux": 0,
+        "name": "🇫🇮 Finland, Helsinki [BL]",
+        "pass": "a41550c8-daee-4f2c-b5a8-e66b314c99b1",
+        "port": 443,
+        "stream": {
+            "alpn": "",
+            "cert": "",
+            "ed_len": 0,
+            "ed_name": "",
+            "h_type": "",
+            "headers": "",
+            "host": "",
+            "insecure": false,
+            "method": "",
+            "net": "grpc",
+            "pac_enc": "xudp",
+            "path": "",
+            "pbk": "XnSTGadTQ3R3qGd5lk7l8gZMuZUQH7fu1tItRmH6CEY",
+            "sec": "tls",
+            "sid": "e9d19fd1ca5ca23c",
+            "sni": "hel1.hitori.cloud",
+            "tls_frag": false,
+            "tls_frag_fall_delay": "",
+            "tls_record_frag": false,
+            "utls": "chrome"
+        }
+    },
+    "country": "",
+    "dl": "",
+    "gid": 10,
+    "id": 13513,
+    "report": "",
+    "traffic": {
+        "dl": 0,
+        "ul": 0
+    },
+    "type": "vless",
+    "ul": "",
+    "yc": -1
+}

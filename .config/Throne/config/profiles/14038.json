@@ -1,0 +1,49 @@
+{
+    "bean": {
+        "_v": 0,
+        "addr": "115.190.19.83",
+        "brutal_speed": 0,
+        "c_cfg": "",
+        "c_out": "",
+        "enable_brutal": false,
+        "flow": "",
+        "mux": 0,
+        "name": "👉🆔@STR_BYPASS📡🇨🇳®️China©️Beijing🅿️ping:222.58ms",
+        "pass": "0395a16c-cb48-4614-bf19-7bf9ac7aed41",
+        "port": 29185,
+        "stream": {
+            "alpn": "",
+            "cert": "",
+            "ed_len": 0,
+            "ed_name": "",
+            "h_type": "",
+            "headers": "",
+            "host": "",
+            "insecure": false,
+            "method": "",
+            "net": "tcp",
+            "pac_enc": "xudp",
+            "path": "",
+            "pbk": "Ox0EsEq7UYtFUy24Wg3_84XvN4gl3HhH21eX0nPj4x4",
+            "sec": "tls",
+            "sid": "689a9a",
+            "sni": "yahoo.com",
+            "tls_frag": false,
+            "tls_frag_fall_delay": "",
+            "tls_record_frag": false,
+            "utls": "chrome"
+        }
+    },
+    "country": "",
+    "dl": "",
+    "gid": 10,
+    "id": 14038,
+    "report": "",
+    "traffic": {
+        "dl": 0,
+        "ul": 0
+    },
+    "type": "vless",
+    "ul": "",
+    "yc": -1
+}

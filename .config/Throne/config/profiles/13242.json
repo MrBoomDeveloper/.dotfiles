@@ -42,8 +42,8 @@
     "id": 13242,
     "report": "",
     "traffic": {
-        "dl": 0,
-        "ul": 0
+        "dl": 24001465,
+        "ul": 4210347
     },
     "type": "shadowsocks",
     "ul": "",

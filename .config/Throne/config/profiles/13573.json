@@ -1,0 +1,49 @@
+{
+    "bean": {
+        "_v": 0,
+        "addr": "51.250.14.139",
+        "brutal_speed": 0,
+        "c_cfg": "",
+        "c_out": "",
+        "enable_brutal": false,
+        "flow": "",
+        "mux": 0,
+        "name": "🇵🇱 Poland [*CIDR]",
+        "pass": "eb162ab1-a006-4931-b1b3-8fc88a22b10e",
+        "port": 8443,
+        "stream": {
+            "alpn": "",
+            "cert": "",
+            "ed_len": 0,
+            "ed_name": "",
+            "h_type": "",
+            "headers": "",
+            "host": "",
+            "insecure": false,
+            "method": "",
+            "net": "xhttp",
+            "pac_enc": "xudp",
+            "path": "",
+            "pbk": "lxBD-htFg4SmnAtjP3dmadb-JauysiE89tlrDRJ99gw",
+            "sec": "tls",
+            "sid": "fda2928a0a987b11",
+            "sni": "ads.x5.ru",
+            "tls_frag": false,
+            "tls_frag_fall_delay": "",
+            "tls_record_frag": false,
+            "utls": ""
+        }
+    },
+    "country": "",
+    "dl": "",
+    "gid": 10,
+    "id": 13573,
+    "report": "",
+    "traffic": {
+        "dl": 0,
+        "ul": 0
+    },
+    "type": "vless",
+    "ul": "",
+    "yc": 0
+}

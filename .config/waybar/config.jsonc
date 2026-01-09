@@ -16,11 +16,11 @@
 
 	"modules-right": [
 	    "hyprland/language",
-	    "battery",
 		"bluetooth",
 		"network",
 		"pulseaudio",
 		"backlight",
+		"battery",
 		"clock"
 	],
 
@@ -35,7 +35,8 @@
 		"format": "{}   ",
 		"format-en": "English",
 		"format-ru": "Russian",
-		"keyboard-name": "ganss-usb-keyboard"
+		"keyboard-name": "ganss-usb-keyboard",
+		"on-click": "hyprctl switchxkblayout current next"
 	},
 	
 	"hyprland/workspaces": {

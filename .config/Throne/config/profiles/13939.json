@@ -1,0 +1,40 @@
+{
+    "bean": {
+        "_v": 0,
+        "addr": "107.167.18.123",
+        "allowInsecure": true,
+        "alpn": "",
+        "authPayload": "",
+        "brutal_speed": 0,
+        "c_cfg": "",
+        "c_out": "",
+        "caText": "",
+        "connectionReceiveWindow": 0,
+        "disableMtuDiscovery": false,
+        "disableSni": false,
+        "downloadMbps": 0,
+        "enable_brutal": false,
+        "forceExternal": false,
+        "hop_interval": "",
+        "mux": 0,
+        "name": "🇺🇸 PORTAL Telegram:@STR_BYPASS 393742",
+        "obfsPassword": "",
+        "password": "17cdeb6c-f046-11ee-bdac-f23c93141fad",
+        "port": 1743,
+        "sni": "6adab57e-t53wg0-tdvgqe-2gok.la.shifen.uk",
+        "streamReceiveWindow": 0,
+        "uploadMbps": 0
+    },
+    "country": "",
+    "dl": "",
+    "gid": 10,
+    "id": 13939,
+    "report": "",
+    "traffic": {
+        "dl": 0,
+        "ul": 0
+    },
+    "type": "hysteria2",
+    "ul": "",
+    "yc": 224
+}

@@ -116,15 +116,15 @@
         </entry>
         <entry key="$USER_HOME$/IdeaProjects/Awery">
           <value>
-            <RecentProjectMetaInfo frameTitle="Awery – App.kt [Awery.ui.commonMain]" opened="true" projectWorkspaceId="34I4fJlCyB9KCIhOFm6jNUX8Y53">
-              <option name="activationTimestamp" value="1766919588053" />
+            <RecentProjectMetaInfo opened="true" projectWorkspaceId="34I4fJlCyB9KCIhOFm6jNUX8Y53">
+              <option name="activationTimestamp" value="1767670798991" />
               <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
               <option name="build" value="IC-252.27397.103" />
               <option name="buildTimestamp" value="1761196320000" />
               <option name="colorInfo">
                 <RecentProjectColorInfo associatedIndex="5" />
               </option>
-              <frame x="-1915" y="-318" width="1910" height="1043" extendedState="6" />
+              <frame x="260" y="40" width="952" height="1038" extendedState="6" />
               <option name="productionCode" value="IC" />
               <option name="projectOpenTimestamp" value="1766851868024" />
             </RecentProjectMetaInfo>

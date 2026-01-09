@@ -1,0 +1,49 @@
+{
+    "bean": {
+        "_v": 0,
+        "addr": "37.18.14.21",
+        "brutal_speed": 0,
+        "c_cfg": "",
+        "c_out": "",
+        "enable_brutal": false,
+        "flow": "",
+        "mux": 0,
+        "name": "🇷🇺 GCN LLC — #71",
+        "pass": "633c5319-12b1-47bb-8d0e-b498602a27b4",
+        "port": 4445,
+        "stream": {
+            "alpn": "",
+            "cert": "",
+            "ed_len": 0,
+            "ed_name": "",
+            "h_type": "",
+            "headers": "",
+            "host": "",
+            "insecure": false,
+            "method": "",
+            "net": "xhttp",
+            "pac_enc": "xudp",
+            "path": "",
+            "pbk": "YcqQL3sVff5Sm1HUunYN3B7p5-iibbtyRLSsnDxTHBM",
+            "sec": "tls",
+            "sid": "5e48ba024322cee0",
+            "sni": "max.ru",
+            "tls_frag": false,
+            "tls_frag_fall_delay": "",
+            "tls_record_frag": false,
+            "utls": "chrome"
+        }
+    },
+    "country": "",
+    "dl": "",
+    "gid": 10,
+    "id": 13633,
+    "report": "",
+    "traffic": {
+        "dl": 0,
+        "ul": 0
+    },
+    "type": "vless",
+    "ul": "",
+    "yc": 0
+}

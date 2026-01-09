@@ -1,0 +1,49 @@
+{
+    "bean": {
+        "_v": 0,
+        "addr": "173.245.59.217",
+        "brutal_speed": 0,
+        "c_cfg": "",
+        "c_out": "",
+        "enable_brutal": false,
+        "flow": "",
+        "mux": 0,
+        "name": "0759 | 🇨🇦 Canada | VLESS | TG: @STR_BYPASS",
+        "pass": "ee122f13-9b54-49b6-abc5-aa47b464fdb3",
+        "port": 443,
+        "stream": {
+            "alpn": "",
+            "cert": "",
+            "ed_len": 0,
+            "ed_name": "",
+            "h_type": "",
+            "headers": "",
+            "host": "azizoarjmand.info",
+            "insecure": true,
+            "method": "",
+            "net": "ws",
+            "pac_enc": "xudp",
+            "path": "/yhowcws",
+            "pbk": "",
+            "sec": "tls",
+            "sid": "",
+            "sni": "azizoarjmand.info",
+            "tls_frag": false,
+            "tls_frag_fall_delay": "",
+            "tls_record_frag": false,
+            "utls": "chrome"
+        }
+    },
+    "country": "",
+    "dl": "",
+    "gid": 10,
+    "id": 13405,
+    "report": "",
+    "traffic": {
+        "dl": 0,
+        "ul": 0
+    },
+    "type": "vless",
+    "ul": "",
+    "yc": -1
+}

@@ -6,7 +6,7 @@
         "workspaces": [],
         "folders": [
             {
-                "folderUri": "file:///home/mrboomdev/VSCodeProjects/AweryOnline"
+                "folderUri": "file:///home/mrboomdev/VSCodeProjects/website"
             }
         ],
         "emptyWindows": []
@@ -28,7 +28,10 @@
             "file:///home/mrboomdev/Grok-Api": "__default__profile__",
             "file:///home/mrboomdev/VSCodeProjects/AmaterasuBot": "__default__profile__",
             "file:///home/mrboomdev/VSCodeProjects/AweryOnline": "__default__profile__",
-            "file:///home/mrboomdev/.config/quickshell": "__default__profile__"
+            "file:///home/mrboomdev/.config/quickshell": "__default__profile__",
+            "file:///home/mrboomdev/VSCodeProjects/amaterasu": "__default__profile__",
+            "file:///home/mrboomdev/VSCodeProjects/Website": "__default__profile__",
+            "file:///home/mrboomdev/VSCodeProjects/website": "__default__profile__"
         },
         "emptyWindows": {}
     },
@@ -64,8 +67,8 @@
     },
     "windowsState": {
         "lastActiveWindow": {
-            "folder": "file:///home/mrboomdev/VSCodeProjects/AweryOnline",
-            "backupPath": "/home/mrboomdev/.config/VSCodium/Backups/4d4e83af631f674354367be47e38a8e9",
+            "folder": "file:///home/mrboomdev/VSCodeProjects/website",
+            "backupPath": "/home/mrboomdev/.config/VSCodium/Backups/2e0cac509f1bdd08fc5043d32dd2bee1",
             "uiState": {
                 "mode": 0,
                 "x": 0,
@@ -142,6 +145,18 @@
                     "auxiliaryBarVisible": false
                 },
                 "66dc40060b0e7b1b676ac8dbbccbbb8a": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "58cfe408ce0f96274d0ed93fa4b0096b": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "26b219ff0738d86766e9473198f315f8": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "1f12f575e7fd2c24b0b02df81090bfda": {
                     "sideBarVisible": true,
                     "auxiliaryBarVisible": false
                 }

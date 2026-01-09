@@ -1,0 +1,49 @@
+{
+    "bean": {
+        "_v": 0,
+        "addr": "45.131.209.130",
+        "brutal_speed": 0,
+        "c_cfg": "",
+        "c_out": "",
+        "enable_brutal": false,
+        "flow": "",
+        "mux": 0,
+        "name": "🇳🇱 PORTAL Telegram:@STR_BYPASS 761608",
+        "pass": "57ba2ab1-a283-42eb-82ee-dc3561a805b8",
+        "port": 8443,
+        "stream": {
+            "alpn": "",
+            "cert": "",
+            "ed_len": 0,
+            "ed_name": "",
+            "h_type": "",
+            "headers": "",
+            "host": "ovhwuxian.pai50288.uk",
+            "insecure": true,
+            "method": "",
+            "net": "ws",
+            "pac_enc": "xudp",
+            "path": "/57ba2ab1",
+            "pbk": "",
+            "sec": "tls",
+            "sid": "",
+            "sni": "ovhwuxian.pai50288.uk",
+            "tls_frag": false,
+            "tls_frag_fall_delay": "",
+            "tls_record_frag": false,
+            "utls": ""
+        }
+    },
+    "country": "",
+    "dl": "",
+    "gid": 10,
+    "id": 13857,
+    "report": "",
+    "traffic": {
+        "dl": 0,
+        "ul": 0
+    },
+    "type": "vless",
+    "ul": "",
+    "yc": -1
+}

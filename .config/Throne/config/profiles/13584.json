@@ -1,0 +1,49 @@
+{
+    "bean": {
+        "_v": 0,
+        "addr": "v2rayngselllbot.v2rayngselllbot.byte-server.ir",
+        "brutal_speed": 0,
+        "c_cfg": "",
+        "c_out": "",
+        "enable_brutal": false,
+        "flow": "",
+        "mux": 0,
+        "name": "🔥Join+Telegram:@STR_BYPASS🟣",
+        "pass": "eb774544-18d2-4f43-ad4a-df77ee6726d4",
+        "port": 6673,
+        "stream": {
+            "alpn": "",
+            "cert": "",
+            "ed_len": 0,
+            "ed_name": "",
+            "h_type": "",
+            "headers": "",
+            "host": "",
+            "insecure": false,
+            "method": "",
+            "net": "grpc",
+            "pac_enc": "xudp",
+            "path": "@V2rayNGSelllBoT---@V2rayNGSelllBoT---@V2rayNGSelllBoT---@V2rayNGSelllBoT---@V2rayNGSelllBoT---@V2rayNGSelllBoT---@V2rayNGSelllBoT---@V2rayNGSelllBoT---@V2rayNGSelllBoT---@V2rayNGSelllBoT",
+            "pbk": "",
+            "sec": "",
+            "sid": "",
+            "sni": "",
+            "tls_frag": false,
+            "tls_frag_fall_delay": "",
+            "tls_record_frag": false,
+            "utls": ""
+        }
+    },
+    "country": "",
+    "dl": "",
+    "gid": 10,
+    "id": 13584,
+    "report": "",
+    "traffic": {
+        "dl": 0,
+        "ul": 0
+    },
+    "type": "vless",
+    "ul": "",
+    "yc": 82
+}

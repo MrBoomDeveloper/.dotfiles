@@ -1,0 +1,49 @@
+{
+    "bean": {
+        "_v": 0,
+        "addr": "vk.volgaboost.ru",
+        "brutal_speed": 0,
+        "c_cfg": "",
+        "c_out": "",
+        "enable_brutal": false,
+        "flow": "xtls-rprx-vision",
+        "mux": 0,
+        "name": "0071 | 🏳️ VK | 🌍 Unknown | VLESS | TG: @STR_BYPASS",
+        "pass": "e5017995-2093-491b-a0fa-d4890782d42a",
+        "port": 443,
+        "stream": {
+            "alpn": "",
+            "cert": "",
+            "ed_len": 0,
+            "ed_name": "",
+            "h_type": "",
+            "headers": "",
+            "host": "",
+            "insecure": false,
+            "method": "",
+            "net": "tcp",
+            "pac_enc": "xudp",
+            "path": "",
+            "pbk": "N9LBJYzHYZF_g_a2Us6JeRV_TotMn57HTlxonrtcNFY",
+            "sec": "tls",
+            "sid": "3e2cbb2283802be0",
+            "sni": "eh.vk.com",
+            "tls_frag": false,
+            "tls_frag_fall_delay": "",
+            "tls_record_frag": false,
+            "utls": "qq"
+        }
+    },
+    "country": "",
+    "dl": "",
+    "gid": 10,
+    "id": 13309,
+    "report": "",
+    "traffic": {
+        "dl": 0,
+        "ul": 0
+    },
+    "type": "vless",
+    "ul": "",
+    "yc": -1
+}

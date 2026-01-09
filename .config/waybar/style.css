@@ -83,6 +83,7 @@ label:focus {
 
 #pulseaudio {
 	margin-left: 6px;
+	margin-right: -2px;
 }
 
 #backlight {
@@ -90,7 +91,8 @@ label:focus {
 }
 
 #battery {
-    margin: 0 4px;
+    margin-left: -2px;
+    margin-right: 2px;
 }
 
 #temperature.critical {

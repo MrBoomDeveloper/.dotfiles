@@ -1,0 +1,49 @@
+{
+    "bean": {
+        "_v": 0,
+        "addr": "45.45.218.166",
+        "brutal_speed": 0,
+        "c_cfg": "",
+        "c_out": "",
+        "enable_brutal": false,
+        "flow": "",
+        "mux": 0,
+        "name": "none",
+        "pass": "678a8311-6184-4a1f-a651-84be3cc82e37",
+        "port": 21275,
+        "stream": {
+            "alpn": "",
+            "cert": "",
+            "ed_len": 0,
+            "ed_name": "",
+            "h_type": "",
+            "headers": "",
+            "host": "ula347.tiri-viri.com",
+            "insecure": true,
+            "method": "",
+            "net": "ws",
+            "pac_enc": "xudp",
+            "path": "/",
+            "pbk": "",
+            "sec": "tls",
+            "sid": "",
+            "sni": "ula347.tiri-viri.com",
+            "tls_frag": false,
+            "tls_frag_fall_delay": "",
+            "tls_record_frag": false,
+            "utls": "chrome"
+        }
+    },
+    "country": "",
+    "dl": "",
+    "gid": 10,
+    "id": 13764,
+    "report": "",
+    "traffic": {
+        "dl": 0,
+        "ul": 0
+    },
+    "type": "vless",
+    "ul": "",
+    "yc": -1
+}

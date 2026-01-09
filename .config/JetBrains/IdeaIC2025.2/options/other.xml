@@ -17,6 +17,7 @@
       <option value="RunMenu" />
       <option value="ActivateRunToolWindow" />
       <option value="ActivateDeviceManager2ToolWindow" />
+      <option value="ActivateGradleToolWindow" />
     </ids>
   </component>
   <component name="FileEditorProviderManager">{
@@ -188,7 +189,7 @@
     &quot;input.method.disabler.muted&quot;: &quot;true&quot;,
     &quot;installed.kotlin.plugin.version&quot;: &quot;252.27397.103-IJ&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;23&quot;,
-    &quot;kotlin.lastUpdateCheck&quot;: &quot;1766840564764&quot;,
+    &quot;kotlin.lastUpdateCheck&quot;: &quot;1767525304427&quot;,
     &quot;last_opened_file_path&quot;: &quot;/home/mrboomdev/IdeaProjects/AmaterasuCraft&quot;,
     &quot;migrate.android.sdk.path.to.roamable.storage&quot;: &quot;false&quot;,
     &quot;migrated.non.roamable.values.from.general.settings&quot;: &quot;true&quot;,

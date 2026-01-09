@@ -1,0 +1,51 @@
+{
+    "bean": {
+        "_v": 0,
+        "addr": "media.mothyleela.cfd",
+        "brutal_speed": 0,
+        "c_cfg": "",
+        "c_out": "",
+        "enable_brutal": false,
+        "method": "chacha20-ietf-poly1305",
+        "mux": 0,
+        "name": "🇬🇧 United Kingdom",
+        "pass": "2WkRGh6tAv8UmsHh4i3F6zosj2dzA6sCzXbwq4TdXteztMfyA5aZcLy5jY5Z7FZ3QQMcTVwM7TvibdvzYircC7iDZafp2U6z",
+        "plugin": "",
+        "port": 40521,
+        "stream": {
+            "alpn": "",
+            "cert": "",
+            "ed_len": 0,
+            "ed_name": "",
+            "h_type": "",
+            "headers": "",
+            "host": "",
+            "insecure": false,
+            "method": "",
+            "net": "tcp",
+            "pac_enc": "",
+            "path": "",
+            "pbk": "",
+            "sec": "",
+            "sid": "",
+            "sni": "",
+            "tls_frag": false,
+            "tls_frag_fall_delay": "",
+            "tls_record_frag": false,
+            "utls": ""
+        },
+        "uot": 0
+    },
+    "country": "",
+    "dl": "",
+    "gid": 10,
+    "id": 14057,
+    "report": "",
+    "traffic": {
+        "dl": 0,
+        "ul": 0
+    },
+    "type": "shadowsocks",
+    "ul": "",
+    "yc": -1
+}

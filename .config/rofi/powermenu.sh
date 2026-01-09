@@ -49,6 +49,6 @@ case ${chosen} in
     ;;
         
     $logout)
-		command -v hyprshutdown >/dev/null 2>&1 && hyprshutdown || hyprctl dispatch exit
+		hyprctl dispatch exit
     ;;
 esac
