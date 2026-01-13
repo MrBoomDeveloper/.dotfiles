@@ -1,0 +1,49 @@
+{
+    "bean": {
+        "_v": 0,
+        "addr": "megaf.takovpn.ru",
+        "brutal_speed": 0,
+        "c_cfg": "",
+        "c_out": "",
+        "enable_brutal": false,
+        "flow": "",
+        "mux": 0,
+        "name": "0156 | 🏳️ Yandex | 🌍 Unknown | VLESS | TG: @STR_BYPASS",
+        "pass": "e5017995-2093-491b-a0fa-d4890782d42a",
+        "port": 9090,
+        "stream": {
+            "alpn": "",
+            "cert": "",
+            "ed_len": 0,
+            "ed_name": "",
+            "h_type": "",
+            "headers": "",
+            "host": "",
+            "insecure": false,
+            "method": "",
+            "net": "xhttp",
+            "pac_enc": "xudp",
+            "path": "",
+            "pbk": "kBLlUpt36Xk_CJrdB1jlYvS_OcKs4DSzHuq9McBWpQQ",
+            "sec": "tls",
+            "sid": "24ed410022aa2001",
+            "sni": "ads.x5.ru",
+            "tls_frag": false,
+            "tls_frag_fall_delay": "",
+            "tls_record_frag": false,
+            "utls": "chrome"
+        }
+    },
+    "country": "",
+    "dl": "",
+    "gid": 12,
+    "id": 12970,
+    "report": "",
+    "traffic": {
+        "dl": 0,
+        "ul": 0
+    },
+    "type": "vless",
+    "ul": "",
+    "yc": 0
+}

@@ -1,15 +1,16 @@
 {
     "bean": {
         "_v": 0,
-        "addr": "188.253.21.106",
+        "addr": "81.19.141.45",
         "brutal_speed": 0,
         "c_cfg": "",
         "c_out": "",
         "enable_brutal": false,
-        "flow": "xtls-rprx-vision",
+        "method": "chacha20-ietf-poly1305",
         "mux": 0,
-        "name": "🇱🇻 Latvia, Riga [BL]",
-        "pass": "9936ae5c-91cd-4c8a-80e9-5118a209a7e4",
+        "name": "🇩🇪 PORTAL Telegram:@STR_BYPASS 557927",
+        "pass": "PG3knnsGuioX8uhEkSYYGj",
+        "plugin": "",
         "port": 443,
         "stream": {
             "alpn": "",
@@ -22,28 +23,29 @@
             "insecure": false,
             "method": "",
             "net": "tcp",
-            "pac_enc": "xudp",
+            "pac_enc": "",
             "path": "",
-            "pbk": "4JvLKnuuAs4h0cQ1j_S4SAuXQQ579D7Wr1sGBjmH-Ws",
-            "sec": "tls",
-            "sid": "73d3fec4",
-            "sni": "yahoo.com",
+            "pbk": "",
+            "sec": "",
+            "sid": "",
+            "sni": "",
             "tls_frag": false,
             "tls_frag_fall_delay": "",
             "tls_record_frag": false,
-            "utls": "chrome"
-        }
+            "utls": ""
+        },
+        "uot": 0
     },
     "country": "",
     "dl": "",
-    "gid": 10,
+    "gid": 12,
     "id": 13550,
     "report": "",
     "traffic": {
         "dl": 0,
         "ul": 0
     },
-    "type": "vless",
+    "type": "shadowsocks",
     "ul": "",
-    "yc": 61
+    "yc": -1
 }

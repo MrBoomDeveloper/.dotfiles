@@ -1,16 +1,17 @@
 {
     "bean": {
         "_v": 0,
-        "addr": "217.16.27.217",
+        "addr": "193.29.139.217",
         "brutal_speed": 0,
         "c_cfg": "",
         "c_out": "",
         "enable_brutal": false,
-        "flow": "xtls-rprx-vision",
+        "method": "chacha20-ietf-poly1305",
         "mux": 0,
-        "name": "🇷🇺 VK — #35",
-        "pass": "64bc8910-bc0f-453e-b3f3-a101a5dce03e",
-        "port": 443,
+        "name": "🇳🇱 NL 193.29.139.217 ◈ tcp:8080 ◈ Greenhost BV ◈ 706b9",
+        "pass": "cvII85TrW6n0OGyfpHVS1u",
+        "plugin": "",
+        "port": 8080,
         "stream": {
             "alpn": "",
             "cert": "",
@@ -22,28 +23,29 @@
             "insecure": false,
             "method": "",
             "net": "tcp",
-            "pac_enc": "xudp",
+            "pac_enc": "",
             "path": "",
-            "pbk": "FkmYFobwxLMLEktYXywmjthuEYCZggITsxwPNasTKUg",
-            "sec": "tls",
-            "sid": "33554379411b3219",
-            "sni": "api-maps.yandex.ru",
+            "pbk": "",
+            "sec": "",
+            "sid": "",
+            "sni": "",
             "tls_frag": false,
             "tls_frag_fall_delay": "",
             "tls_record_frag": false,
-            "utls": "chrome"
-        }
+            "utls": ""
+        },
+        "uot": 0
     },
     "country": "",
     "dl": "",
-    "gid": 10,
+    "gid": 12,
     "id": 13619,
     "report": "",
     "traffic": {
-        "dl": 0,
-        "ul": 0
+        "dl": 134062,
+        "ul": 16835
     },
-    "type": "vless",
+    "type": "shadowsocks",
     "ul": "",
-    "yc": -1
+    "yc": 73
 }

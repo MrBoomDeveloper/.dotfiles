@@ -1,16 +1,16 @@
 {
     "bean": {
         "_v": 0,
-        "addr": "megaf.takovpn.ru",
+        "addr": "130.193.59.3",
         "brutal_speed": 0,
         "c_cfg": "",
         "c_out": "",
         "enable_brutal": false,
-        "flow": "",
+        "flow": "xtls-rprx-vision",
         "mux": 0,
-        "name": "0156 | 🏳️ Yandex | 🌍 Unknown | VLESS | TG: @STR_BYPASS",
-        "pass": "e5017995-2093-491b-a0fa-d4890782d42a",
-        "port": 9090,
+        "name": "🇭🇺 Hungary — #133",
+        "pass": "291a2db3-04b5-4089-af90-adb5d1ce05ff",
+        "port": 443,
         "stream": {
             "alpn": "",
             "cert": "",
@@ -21,13 +21,13 @@
             "host": "",
             "insecure": false,
             "method": "",
-            "net": "xhttp",
+            "net": "tcp",
             "pac_enc": "xudp",
             "path": "",
-            "pbk": "kBLlUpt36Xk_CJrdB1jlYvS_OcKs4DSzHuq9McBWpQQ",
+            "pbk": "7zd9mJilgjOrg_ohtw23Vmio-pdnYqeP_r-kiWt87Cg",
             "sec": "tls",
-            "sid": "24ed410022aa2001",
-            "sni": "ads.x5.ru",
+            "sid": "2715592069f36fe7",
+            "sni": "tradingview.com",
             "tls_frag": false,
             "tls_frag_fall_delay": "",
             "tls_record_frag": false,
@@ -36,7 +36,7 @@
     },
     "country": "",
     "dl": "",
-    "gid": 10,
+    "gid": 12,
     "id": 13325,
     "report": "",
     "traffic": {
@@ -45,5 +45,5 @@
     },
     "type": "vless",
     "ul": "",
-    "yc": 0
+    "yc": -1
 }

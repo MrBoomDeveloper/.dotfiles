@@ -1,17 +1,16 @@
 {
     "bean": {
         "_v": 0,
-        "addr": "167.150.100.115",
+        "addr": "37.120.186.241",
         "brutal_speed": 0,
         "c_cfg": "",
         "c_out": "",
         "enable_brutal": false,
-        "method": "chacha20-ietf-poly1305",
+        "flow": "",
         "mux": 0,
-        "name": "🇸🇬SG-167.150.100.115-0396",
-        "pass": "pJtDFXMfdW9VNdJpaf4e2LfFkXdWgxrz",
-        "plugin": "",
-        "port": 443,
+        "name": "🔥Join+Telegram:@STR_BYPASS🟣",
+        "pass": "53fff6cc-b4ec-43e8-ade5-e0c42972fc33",
+        "port": 80,
         "stream": {
             "alpn": "",
             "cert": "",
@@ -19,12 +18,12 @@
             "ed_name": "",
             "h_type": "",
             "headers": "",
-            "host": "",
+            "host": "cdn.ir",
             "insecure": false,
             "method": "",
-            "net": "tcp",
-            "pac_enc": "",
-            "path": "",
+            "net": "ws",
+            "pac_enc": "xudp",
+            "path": "/news",
             "pbk": "",
             "sec": "",
             "sid": "",
@@ -33,19 +32,18 @@
             "tls_frag_fall_delay": "",
             "tls_record_frag": false,
             "utls": ""
-        },
-        "uot": 0
+        }
     },
     "country": "",
     "dl": "",
-    "gid": 9,
+    "gid": 12,
     "id": 13236,
     "report": "",
     "traffic": {
         "dl": 0,
         "ul": 0
     },
-    "type": "shadowsocks",
+    "type": "vless",
     "ul": "",
-    "yc": -1
+    "yc": 82
 }

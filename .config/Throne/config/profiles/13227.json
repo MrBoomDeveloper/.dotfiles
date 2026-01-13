@@ -1,17 +1,16 @@
 {
     "bean": {
         "_v": 0,
-        "addr": "69.30.251.122",
+        "addr": "172.238.229.254",
         "brutal_speed": 0,
         "c_cfg": "",
         "c_out": "",
         "enable_brutal": false,
-        "method": "chacha20-ietf-poly1305",
+        "flow": "",
         "mux": 0,
-        "name": "🇺🇸US-69.30.251.122-0449",
-        "pass": "245f2c1d-a317-45a8-b230-e420566a7f62",
-        "plugin": "",
-        "port": 51004,
+        "name": "🇮🇹 IT | 🔒 TROJAN | @STR_BYPASS [11]",
+        "pass": "OdgHycGphesfLmPMYolUF",
+        "port": 14051,
         "stream": {
             "alpn": "",
             "cert": "",
@@ -20,32 +19,31 @@
             "h_type": "",
             "headers": "",
             "host": "",
-            "insecure": false,
+            "insecure": true,
             "method": "",
             "net": "tcp",
             "pac_enc": "",
             "path": "",
             "pbk": "",
-            "sec": "",
+            "sec": "tls",
             "sid": "",
-            "sni": "",
+            "sni": "api.avito.ru",
             "tls_frag": false,
             "tls_frag_fall_delay": "",
             "tls_record_frag": false,
             "utls": ""
-        },
-        "uot": 0
+        }
     },
     "country": "",
     "dl": "",
-    "gid": 9,
+    "gid": 12,
     "id": 13227,
     "report": "",
     "traffic": {
         "dl": 0,
         "ul": 0
     },
-    "type": "shadowsocks",
+    "type": "trojan",
     "ul": "",
-    "yc": 169
+    "yc": -1
 }

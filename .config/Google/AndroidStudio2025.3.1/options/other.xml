@@ -1,0 +1,75 @@
+<application>
+  <component name="ActionHistoryManager">
+    <ids>
+      <option value="ActivateVersionControlToolWindow" />
+      <option value="Android.SyncProject" />
+      <option value="EditorIncreaseFontSizeGlobal" />
+    </ids>
+  </component>
+  <component name="FileEditorProviderManager">{}</component>
+  <component name="NotRoamableUiSettings">
+    <option name="fontSize" value="15.0" />
+    <option name="presentationModeIdeScale" value="1.75" />
+  </component>
+  <component name="PropertyService"><![CDATA[{
+  "keyToString": {
+    "ATTACHED_TOOL_WINDOW.Compose Preview.TOOL_ORDER": "",
+    "ATTACHED_TOOL_WINDOW.DEFAULT.Compose Preview.TOOL_ORDER": "",
+    "ColorChooser.RecentColors": "0-0-0-255",
+    "KEYMAP": "terminal\nlogcat\nbuild",
+    "LAST_CALCULATED_COLOR_INDEX_KEY": "7",
+    "MarketplacePluginsSearchHistory": "/tag:\"Language Pack\"\ncompose\ncompose=\ncom\nc",
+    "RunOnceActivity.TerminalFontSettingsService.fixStoredNonMonospacedFonts": "true",
+    "RunOnceActivity.TerminalOptionsProvider.migration.2025.1.1": "true",
+    "RunOnceActivity.VFSInitializationConditionsToFusReporter": "true",
+    "RunOnceActivity.cache.folding.model.on.disk.true": "true",
+    "RunOnceActivity.cidr.test.framework.showIndexingAsTask": "true",
+    "RunOnceActivity.cidr.test.roots.only": "true",
+    "RunOnceActivity.reset.auto.reparse.settings.to.default": "true",
+    "SAVED_ANDROID_NPW_LANGUAGE": "Kotlin",
+    "SettingsSearchHistory": "canar\ngradle\njava\njdk",
+    "Source Code Editor With PreviewLayout": "Editor only",
+    "ask.about.ctrl.y.shortcut.v2": "true",
+    "build.toolwindow.Build Output.selection.state": "com.intellij.build.BuildTreeConsoleView",
+    "build.toolwindow.Sync.selection.state": "com.intellij.build.BuildTreeConsoleView",
+    "com.google.aiplugin.rag.indexer.implementation": "com.google.aiplugin.rag.bm25.Bm25IndexerImpl/v3",
+    "defaultJdkConfigured": "true",
+    "enter_selection_count": "5",
+    "experimental.ui.used.version": "253.29346.138.2531.14682307",
+    "fileTypeChangedCounter": "4",
+    "fontSizeToResetConsole": "14.0",
+    "fontSizeToResetEditor": "14.0",
+    "got.it.tooltip.Plugins Auto-Update": "1",
+    "ide.islands.ab3": "true",
+    "ide.updates.old.dirs.scan.scheduled": "1768682768038",
+    "idea.background.editor": "/home/mrboomdev/Pictures/Wallpapers/121887479_p0.jpg,20,scale,center",
+    "idea.background.frame": "/home/mrboomdev/Pictures/Wallpapers/121887479_p0.jpg,75,scale,center",
+    "input.method.disabler.muted": "true",
+    "installed.kotlin.plugin.version": "253.29346.138.2531.14682307-AS",
+    "kotlin.lastUpdateCheck": "1768081560244",
+    "last_opened_file_path": "/home/mrboomdev/Pictures/Wallpapers/121887479_p0.jpg",
+    "migrate.android.sdk.path.to.roamable.storage": "false",
+    "migrated.non.roamable.values.from.general.settings": "true",
+    "org.intellij.images.editor.actions.BackgroundImageDialog#recent": "/home/mrboomdev/Pictures/Wallpapers/wallpaper.jpg\n/home/mrboomdev/Pictures/Wallpapers/Animewallpaper-1lmbjix~2.jpg\n/home/mrboomdev/Pictures/Wallpapers/121887479_p0.jpg",
+    "previousColorScheme": "_@user_Catppuccin Mocha",
+    "registry.to.advanced.settings.migration.build": "AI-253.29346.138.2531.14682307",
+    "selected.color.option.type": "TEXT",
+    "terminal.gen.one.option.visible": "false",
+    "terminal.is.new.user": "true"
+  },
+  "keyToStringList": {
+    "file.chooser.recent.files": [
+      "/home/mrboomdev/Pictures/Wallpapers/121887479_p0.jpg",
+      "/home/mrboomdev/Pictures/Wallpapers/Animewallpaper-1lmbjix~2.jpg",
+      "/home/mrboomdev/Pictures/Wallpapers/konosuba-smiling-megumin-gif-desktop-wallpaper.gif",
+      "/home/mrboomdev/Pictures/Wallpapers/wallpaper.jpg",
+      "/home/mrboomdev/IdeaProjects/ArchiveTune"
+    ],
+    "fileTypeDetectors": [
+      "com.intellij.ide.scratch.ScratchFileServiceImpl$Detector",
+      "com.android.tools.idea.profilers.capture.MemoryCaptureFileType$Detector",
+      "com.jetbrains.cidr.lang.OCHeaderFileTypeDetector"
+    ]
+  }
+}]]></component>
+</application>

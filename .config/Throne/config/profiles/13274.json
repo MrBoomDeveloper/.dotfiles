@@ -1,17 +1,16 @@
 {
     "bean": {
         "_v": 0,
-        "addr": "217.30.10.70",
+        "addr": "51.250.43.47",
         "brutal_speed": 0,
         "c_cfg": "",
         "c_out": "",
         "enable_brutal": false,
-        "method": "aes-256-cfb",
+        "flow": "xtls-rprx-vision",
         "mux": 0,
-        "name": "🇵🇱PL-217.30.10.70-5045",
-        "pass": "TN2YqghxeFDKZfLU",
-        "plugin": "",
-        "port": 9037,
+        "name": "🇷🇺 Yandex — #61",
+        "pass": "45fa3af5-f92c-4aac-97e5-a1733687d10b",
+        "port": 8443,
         "stream": {
             "alpn": "",
             "cert": "",
@@ -23,29 +22,28 @@
             "insecure": false,
             "method": "",
             "net": "tcp",
-            "pac_enc": "",
+            "pac_enc": "xudp",
             "path": "",
-            "pbk": "",
-            "sec": "",
-            "sid": "",
-            "sni": "",
+            "pbk": "cynncQk7kKzEQaExg-FN7pMqFaZPSXEi_Ggy7AXXmVg",
+            "sec": "tls",
+            "sid": "44103f58",
+            "sni": "ya.ru",
             "tls_frag": false,
             "tls_frag_fall_delay": "",
             "tls_record_frag": false,
-            "utls": ""
-        },
-        "uot": 0
+            "utls": "chrome"
+        }
     },
     "country": "",
     "dl": "",
-    "gid": 9,
+    "gid": 12,
     "id": 13274,
     "report": "",
     "traffic": {
         "dl": 0,
         "ul": 0
     },
-    "type": "shadowsocks",
+    "type": "vless",
     "ul": "",
     "yc": -1
 }

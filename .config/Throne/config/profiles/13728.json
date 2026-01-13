@@ -1,49 +1,51 @@
 {
     "bean": {
         "_v": 0,
-        "addr": "27.50.48.102",
+        "addr": "193.29.139.179",
         "brutal_speed": 0,
         "c_cfg": "",
         "c_out": "",
         "enable_brutal": false,
-        "flow": "",
+        "method": "chacha20-ietf-poly1305",
         "mux": 0,
-        "name": "🔥 Cloudflare Warp 🔞MIX КИБЕРПОРТАЛ https://t.me/strbypass🔞",
-        "pass": "5ca102f1-41cc-4731-84cc-6cdcd07e3424",
-        "port": 443,
+        "name": "🇳🇱 The Netherlands",
+        "pass": "cvII85TrW6n0OGyfpHVS1u",
+        "plugin": "",
+        "port": 8080,
         "stream": {
-            "alpn": "h3",
+            "alpn": "",
             "cert": "",
             "ed_len": 0,
             "ed_name": "",
             "h_type": "",
             "headers": "",
-            "host": "vless.hubp.de",
-            "insecure": true,
+            "host": "",
+            "insecure": false,
             "method": "",
-            "net": "ws",
-            "pac_enc": "xudp",
-            "path": "/snippets/ip=tp50000.kr.proxyip.fgfw.eu.org:50000",
+            "net": "tcp",
+            "pac_enc": "",
+            "path": "",
             "pbk": "",
-            "sec": "tls",
+            "sec": "",
             "sid": "",
-            "sni": "vless.hubp.de",
+            "sni": "",
             "tls_frag": false,
             "tls_frag_fall_delay": "",
             "tls_record_frag": false,
-            "utls": "random"
-        }
+            "utls": ""
+        },
+        "uot": 0
     },
     "country": "",
     "dl": "",
-    "gid": 10,
+    "gid": 12,
     "id": 13728,
     "report": "",
     "traffic": {
-        "dl": 0,
-        "ul": 0
+        "dl": 125394,
+        "ul": 17616
     },
-    "type": "vless",
+    "type": "shadowsocks",
     "ul": "",
-    "yc": -1
+    "yc": 77
 }

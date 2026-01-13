@@ -1,16 +1,17 @@
 {
     "bean": {
         "_v": 0,
-        "addr": "95.163.251.109",
+        "addr": "193.29.139.199",
         "brutal_speed": 0,
         "c_cfg": "",
         "c_out": "",
         "enable_brutal": false,
-        "flow": "xtls-rprx-vision",
+        "method": "chacha20-ietf-poly1305",
         "mux": 0,
-        "name": "🇷🇺 VK — #30",
-        "pass": "77550287-7875-4b45-b03e-6968074a1f68",
-        "port": 8443,
+        "name": "🇳🇱 NL 193.29.139.199 ◈ tcp:8080 ◈ Greenhost BV ◈ d7b8c",
+        "pass": "1RWwXhwfAB5gAEozU4G2Pg",
+        "plugin": "",
+        "port": 8080,
         "stream": {
             "alpn": "",
             "cert": "",
@@ -22,28 +23,29 @@
             "insecure": false,
             "method": "",
             "net": "tcp",
-            "pac_enc": "xudp",
+            "pac_enc": "",
             "path": "",
-            "pbk": "fcPttS39Xqn_zD3p0tAhCf1kdiT5Si8B5kmYZE2xfhM",
-            "sec": "tls",
-            "sid": "f99d367c4de3",
-            "sni": "www.vk.com",
+            "pbk": "",
+            "sec": "",
+            "sid": "",
+            "sni": "",
             "tls_frag": false,
             "tls_frag_fall_delay": "",
             "tls_record_frag": false,
-            "utls": "chrome"
-        }
+            "utls": ""
+        },
+        "uot": 0
     },
     "country": "",
     "dl": "",
-    "gid": 10,
+    "gid": 12,
     "id": 13615,
     "report": "",
     "traffic": {
         "dl": 0,
         "ul": 0
     },
-    "type": "vless",
+    "type": "shadowsocks",
     "ul": "",
-    "yc": -1
+    "yc": 347
 }

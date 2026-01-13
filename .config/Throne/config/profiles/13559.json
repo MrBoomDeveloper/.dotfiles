@@ -1,16 +1,16 @@
 {
     "bean": {
         "_v": 0,
-        "addr": "pol01-rblx01.tcp-reset-club.net",
+        "addr": "70.34.218.149",
         "brutal_speed": 0,
         "c_cfg": "",
         "c_out": "",
         "enable_brutal": false,
-        "flow": "xtls-rprx-vision",
+        "flow": "",
         "mux": 0,
-        "name": "🇵🇱 Poland, Warsaw [BL]",
-        "pass": "8e2cc81d-7ac4-4352-a7b5-bbfcfa81e49e",
-        "port": 443,
+        "name": "🇸🇪 PORTAL Telegram:@STR_BYPASS 349793",
+        "pass": "BaeSzHdfJIR13l67",
+        "port": 11930,
         "stream": {
             "alpn": "",
             "cert": "",
@@ -19,31 +19,31 @@
             "h_type": "",
             "headers": "",
             "host": "",
-            "insecure": false,
+            "insecure": true,
             "method": "",
             "net": "tcp",
-            "pac_enc": "xudp",
+            "pac_enc": "",
             "path": "",
-            "pbk": "mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg",
+            "pbk": "",
             "sec": "tls",
-            "sid": "f79448a30d",
-            "sni": "hls-svod.itunes.apple.com",
+            "sid": "",
+            "sni": "softpillow.silentrocket.click",
             "tls_frag": false,
             "tls_frag_fall_delay": "",
             "tls_record_frag": false,
-            "utls": "chrome"
+            "utls": ""
         }
     },
     "country": "",
     "dl": "",
-    "gid": 10,
+    "gid": 12,
     "id": 13559,
     "report": "",
     "traffic": {
         "dl": 0,
         "ul": 0
     },
-    "type": "vless",
+    "type": "trojan",
     "ul": "",
     "yc": -1
 }

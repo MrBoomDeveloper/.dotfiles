@@ -1,0 +1,36 @@
+<application>
+  <component name="ConsoleFoldingSettings">
+    <option name="addedPositive">
+      <list>
+        <option value="--- Failed to create image decoder with message 'unimplemented'" />
+        <option value=".foldericon is child of primary:Android/data/com.mrboomdev.scrollix.gecko" />
+        <option value="@set_metadata: update dataspace from GM" />
+        <option value="Accessing hidden method" />
+        <option value="Attempted to finish an input event but the input event receiver has already been disposed." />
+        <option value="avc: denied { getattr } for name=&quot;dmabuf:&quot; dev=&quot;dmabuf&quot; ino=1" />
+        <option value="Background concurrent copying GC freed" />
+        <option value="ClassLoaderContext parent mismatch." />
+        <option value="Davey! duration=" />
+        <option value="endAllActiveAnimators on 0x" />
+        <option value="GC" />
+        <option value="handleMessage GeckoView:StateUpdated uri=null" />
+        <option value="handleMessage: GeckoView:DismissClipboardPermissionRequest" />
+        <option value="Invalid ID 0x00000" />
+        <option value="on fling" />
+        <option value="Setting a summary with a String formatting marker is no longer supported. You should use a SummaryProvider instead." />
+        <option value="WaitForGcToComplete" />
+        <option value="requestLayout() improperly called by " />
+      </list>
+    </option>
+    <option name="removedPositive">
+      <list>
+        <option value="at groovy." />
+        <option value="java.lang.reflect.Constructor.newInstance(" />
+        <option value="at com.sun.proxy.$Proxy" />
+        <option value="at java.rmi." />
+        <option value="java.lang.Thread.run(" />
+        <option value="java.lang.reflect.Method.invoke(" />
+      </list>
+    </option>
+  </component>
+</application>

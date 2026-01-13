@@ -1,16 +1,17 @@
 {
     "bean": {
         "_v": 0,
-        "addr": "195.26.224.102",
+        "addr": "209.74.82.196",
         "brutal_speed": 0,
         "c_cfg": "",
         "c_out": "",
         "enable_brutal": false,
-        "flow": "",
+        "method": "chacha20-ietf-poly1305",
         "mux": 0,
-        "name": "0 | Резерв 1 XHTTP тгк: @STR_BYPASS",
-        "pass": "star_test1",
-        "port": 8443,
+        "name": "🔥PORTAL Telegram:@STR_BYPASS🟣",
+        "pass": "8Ij4seif85QQHfLmR0zYkQ",
+        "plugin": "",
+        "port": 48918,
         "stream": {
             "alpn": "",
             "cert": "",
@@ -21,29 +22,30 @@
             "host": "",
             "insecure": false,
             "method": "",
-            "net": "xhttp",
-            "pac_enc": "xudp",
+            "net": "tcp",
+            "pac_enc": "",
             "path": "",
-            "pbk": "YroB2r6MeCXtjqqVx5gr45KTPCJF_kk2n0yqbHhEQSE",
-            "sec": "tls",
-            "sid": "743952dfbeb3",
-            "sni": "vk.com",
+            "pbk": "",
+            "sec": "",
+            "sid": "",
+            "sni": "",
             "tls_frag": false,
             "tls_frag_fall_delay": "",
             "tls_record_frag": false,
-            "utls": "ios"
-        }
+            "utls": ""
+        },
+        "uot": 0
     },
     "country": "",
     "dl": "",
-    "gid": 10,
+    "gid": 12,
     "id": 13468,
     "report": "",
     "traffic": {
         "dl": 0,
         "ul": 0
     },
-    "type": "vless",
+    "type": "shadowsocks",
     "ul": "",
-    "yc": 0
+    "yc": -1
 }

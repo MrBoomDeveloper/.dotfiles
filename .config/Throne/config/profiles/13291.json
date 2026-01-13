@@ -1,16 +1,15 @@
 {
     "bean": {
         "_v": 0,
-        "addr": "107.174.114.71",
+        "addr": "217.12.40.76",
         "brutal_speed": 0,
         "c_cfg": "",
         "c_out": "",
         "enable_brutal": false,
-        "method": "chacha20-ietf-poly1305",
+        "flow": "xtls-rprx-vision",
         "mux": 0,
-        "name": "🇳🇴NO-107.174.114.71-0455",
-        "pass": "595HLF3fHUuw0McM51tpvPygSIB1uf4D",
-        "plugin": "",
+        "name": "🇷🇺 Beget — #89",
+        "pass": "64bc8910-bc0f-453e-b3f3-a101a5dce03e",
         "port": 443,
         "stream": {
             "alpn": "",
@@ -23,29 +22,28 @@
             "insecure": false,
             "method": "",
             "net": "tcp",
-            "pac_enc": "",
+            "pac_enc": "xudp",
             "path": "",
-            "pbk": "",
-            "sec": "",
-            "sid": "",
-            "sni": "",
+            "pbk": "FkmYFobwxLMLEktYXywmjthuEYCZggITsxwPNasTKUg",
+            "sec": "tls",
+            "sid": "43df3983229a1c73",
+            "sni": "sun9-38.userapi.com",
             "tls_frag": false,
             "tls_frag_fall_delay": "",
             "tls_record_frag": false,
-            "utls": ""
-        },
-        "uot": 0
+            "utls": "chrome"
+        }
     },
     "country": "",
     "dl": "",
-    "gid": 9,
+    "gid": 12,
     "id": 13291,
     "report": "",
     "traffic": {
         "dl": 0,
         "ul": 0
     },
-    "type": "shadowsocks",
+    "type": "vless",
     "ul": "",
-    "yc": 114
+    "yc": -1
 }

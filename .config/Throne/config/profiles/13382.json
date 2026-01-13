@@ -1,15 +1,15 @@
 {
     "bean": {
         "_v": 0,
-        "addr": "khabarovsk.geodema.network",
+        "addr": "62.60.237.26",
         "brutal_speed": 0,
         "c_cfg": "",
         "c_out": "",
         "enable_brutal": false,
         "flow": "xtls-rprx-vision",
         "mux": 0,
-        "name": "0674 | 🌍 Unknown | VLESS | TG: @STR_BYPASS",
-        "pass": "a91e64f0-9295-499d-bf4a-661ad99d4938",
+        "name": "FI",
+        "pass": "c2e196d4-3453-4c6c-bb80-fe372801e1a0",
         "port": 443,
         "stream": {
             "alpn": "",
@@ -24,10 +24,10 @@
             "net": "tcp",
             "pac_enc": "xudp",
             "path": "",
-            "pbk": "EltWI8AOqkN8lMjRycweRRoFRah5hu6xiKtgBmQOdE8",
+            "pbk": "lmLFxJO0l6GlHhi3a4I6cKWdQLDo-f8ciODP0xh3EXQ",
             "sec": "tls",
-            "sid": "1ed136481e0ede74",
-            "sni": "khabarovsk.geodema.network",
+            "sid": "9d36b8589fa524fd",
+            "sni": "st.ozone.ru",
             "tls_frag": false,
             "tls_frag_fall_delay": "",
             "tls_record_frag": false,
@@ -36,7 +36,7 @@
     },
     "country": "",
     "dl": "",
-    "gid": 10,
+    "gid": 12,
     "id": 13382,
     "report": "",
     "traffic": {
@@ -45,5 +45,5 @@
     },
     "type": "vless",
     "ul": "",
-    "yc": 235
+    "yc": -1
 }

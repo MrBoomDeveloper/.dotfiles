@@ -1,0 +1,247 @@
+<application>
+  <component name="ActionHistoryManager">
+    <ids>
+      <option value="com.codeium.intellij.auth.LoginAction" />
+      <option value="com.codeium.intellij.auth.LogoutAction" />
+      <option value="WelcomeScreen.Plugins" />
+      <option value="ActivateWindsurfConsoleToolWindow" />
+      <option value="com.codeium.intellij.chat_window.OpenChatWindowAction" />
+      <option value="Git.Log" />
+      <option value="Vcs.Show.Log" />
+      <option value="XDebugger.AttachToProcess" />
+      <option value="AndroidConnectDebuggerAction" />
+      <option value="WelcomeScreen.Settings" />
+      <option value="Gradle.ExecuteTask" />
+      <option value="ChooseRunConfiguration" />
+      <option value="RunMenu" />
+      <option value="ActivateRunToolWindow" />
+      <option value="ActivateDeviceManager2ToolWindow" />
+      <option value="ActivateGradleToolWindow" />
+      <option value="Android.SyncProject" />
+    </ids>
+  </component>
+  <component name="FileEditorProviderManager">{
+  &quot;selectedProviders&quot;: {
+    &quot;text-editor,android-manifest&quot;: &quot;text-editor&quot;
+  }
+}</component>
+  <component name="JdkInstallerHistory">
+    <option name="installedItems">
+      <installed-jdk>
+        <option name="fullText" value="JetBrains Runtime 21.0.9" />
+        <option name="installDir" value="$USER_HOME$/.jdks/jbr-21.0.9" />
+        <option name="sha256" value="69e241e6eb96254c532811f5994769d0c159e96f938c083635a6e8dabceb91ff" />
+        <option name="url" value="https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk-21.0.9-linux-x64-b1163.86.tar.gz" />
+        <option name="versionText" value="21.0.9" />
+      </installed-jdk>
+    </option>
+  </component>
+  <component name="LangManager">
+    <option name="languageName" value="JAVA" />
+  </component>
+  <component name="LiveEditConfiguration">
+    <option name="leTriggerMode" value="ON_SAVE" />
+  </component>
+  <component name="NotRoamableUiSettings">
+    <option name="fontSize" value="15.0" />
+    <option name="presentationModeIdeScale" value="1.75" />
+  </component>
+  <component name="PropertyService"><![CDATA[{
+  "keyToString": {
+    "ATTACHED_TOOL_WINDOW.Compose Preview.TOOL_ORDER": "",
+    "ATTACHED_TOOL_WINDOW.DEFAULT.Compose Preview.TOOL_ORDER": "",
+    "ATTACHED_TOOL_WINDOW.DEFAULT.DESIGN_FILES_PREVIEW_EDITOR.TOOL_ORDER": "",
+    "ATTACHED_TOOL_WINDOW.DEFAULT.Layout Inspector.PROPERTIES.AUTO_HIDE": "false",
+    "ATTACHED_TOOL_WINDOW.DEFAULT.Layout Inspector.PROPERTIES.LEFT": "false",
+    "ATTACHED_TOOL_WINDOW.DEFAULT.Layout Inspector.PROPERTIES.MINIMIZED": "false",
+    "ATTACHED_TOOL_WINDOW.DEFAULT.Layout Inspector.PROPERTIES.SPLIT": "true",
+    "ATTACHED_TOOL_WINDOW.DEFAULT.Layout Inspector.TOOL_ORDER": "TREE,PROPERTIES",
+    "ATTACHED_TOOL_WINDOW.DEFAULT.Layout Inspector.TREE.AUTO_HIDE": "false",
+    "ATTACHED_TOOL_WINDOW.DEFAULT.Layout Inspector.TREE.LEFT": "true",
+    "ATTACHED_TOOL_WINDOW.DEFAULT.Layout Inspector.TREE.MINIMIZED": "false",
+    "ATTACHED_TOOL_WINDOW.DEFAULT.Layout Inspector.TREE.SPLIT": "true",
+    "ATTACHED_TOOL_WINDOW.DEFAULT.NELE_EDITOR.COMPONENT_TREE.DEACTIVATED.AUTO_HIDE": "false",
+    "ATTACHED_TOOL_WINDOW.DEFAULT.NELE_EDITOR.COMPONENT_TREE.DEACTIVATED.LEFT": "true",
+    "ATTACHED_TOOL_WINDOW.DEFAULT.NELE_EDITOR.COMPONENT_TREE.DEACTIVATED.MINIMIZED": "false",
+    "ATTACHED_TOOL_WINDOW.DEFAULT.NELE_EDITOR.COMPONENT_TREE.DEACTIVATED.SPLIT": "true",
+    "ATTACHED_TOOL_WINDOW.DEFAULT.NELE_EDITOR.COMPONENT_TREE.FULL.AUTO_HIDE": "false",
+    "ATTACHED_TOOL_WINDOW.DEFAULT.NELE_EDITOR.COMPONENT_TREE.FULL.LEFT": "true",
+    "ATTACHED_TOOL_WINDOW.DEFAULT.NELE_EDITOR.COMPONENT_TREE.FULL.MINIMIZED": "false",
+    "ATTACHED_TOOL_WINDOW.DEFAULT.NELE_EDITOR.COMPONENT_TREE.FULL.SPLIT": "true",
+    "ATTACHED_TOOL_WINDOW.DEFAULT.NELE_EDITOR.COMPONENT_TREE.SPLIT.AUTO_HIDE": "false",
+    "ATTACHED_TOOL_WINDOW.DEFAULT.NELE_EDITOR.COMPONENT_TREE.SPLIT.LEFT": "true",
+    "ATTACHED_TOOL_WINDOW.DEFAULT.NELE_EDITOR.COMPONENT_TREE.SPLIT.MINIMIZED": "true",
+    "ATTACHED_TOOL_WINDOW.DEFAULT.NELE_EDITOR.COMPONENT_TREE.SPLIT.SPLIT": "true",
+    "ATTACHED_TOOL_WINDOW.DEFAULT.NELE_EDITOR.PALETTE.DEACTIVATED.AUTO_HIDE": "false",
+    "ATTACHED_TOOL_WINDOW.DEFAULT.NELE_EDITOR.PALETTE.DEACTIVATED.LEFT": "true",
+    "ATTACHED_TOOL_WINDOW.DEFAULT.NELE_EDITOR.PALETTE.DEACTIVATED.MINIMIZED": "false",
+    "ATTACHED_TOOL_WINDOW.DEFAULT.NELE_EDITOR.PALETTE.DEACTIVATED.SPLIT": "false",
+    "ATTACHED_TOOL_WINDOW.DEFAULT.NELE_EDITOR.PALETTE.FULL.AUTO_HIDE": "false",
+    "ATTACHED_TOOL_WINDOW.DEFAULT.NELE_EDITOR.PALETTE.FULL.LEFT": "true",
+    "ATTACHED_TOOL_WINDOW.DEFAULT.NELE_EDITOR.PALETTE.FULL.MINIMIZED": "false",
+    "ATTACHED_TOOL_WINDOW.DEFAULT.NELE_EDITOR.PALETTE.FULL.SPLIT": "false",
+    "ATTACHED_TOOL_WINDOW.DEFAULT.NELE_EDITOR.PALETTE.SPLIT.AUTO_HIDE": "false",
+    "ATTACHED_TOOL_WINDOW.DEFAULT.NELE_EDITOR.PALETTE.SPLIT.LEFT": "true",
+    "ATTACHED_TOOL_WINDOW.DEFAULT.NELE_EDITOR.PALETTE.SPLIT.MINIMIZED": "true",
+    "ATTACHED_TOOL_WINDOW.DEFAULT.NELE_EDITOR.PALETTE.SPLIT.SPLIT": "false",
+    "ATTACHED_TOOL_WINDOW.DEFAULT.NELE_EDITOR.PROPERTIES.DEACTIVATED.AUTO_HIDE": "false",
+    "ATTACHED_TOOL_WINDOW.DEFAULT.NELE_EDITOR.PROPERTIES.DEACTIVATED.LEFT": "false",
+    "ATTACHED_TOOL_WINDOW.DEFAULT.NELE_EDITOR.PROPERTIES.DEACTIVATED.MINIMIZED": "false",
+    "ATTACHED_TOOL_WINDOW.DEFAULT.NELE_EDITOR.PROPERTIES.DEACTIVATED.SPLIT": "false",
+    "ATTACHED_TOOL_WINDOW.DEFAULT.NELE_EDITOR.PROPERTIES.FULL.AUTO_HIDE": "false",
+    "ATTACHED_TOOL_WINDOW.DEFAULT.NELE_EDITOR.PROPERTIES.FULL.LEFT": "false",
+    "ATTACHED_TOOL_WINDOW.DEFAULT.NELE_EDITOR.PROPERTIES.FULL.MINIMIZED": "false",
+    "ATTACHED_TOOL_WINDOW.DEFAULT.NELE_EDITOR.PROPERTIES.FULL.SPLIT": "false",
+    "ATTACHED_TOOL_WINDOW.DEFAULT.NELE_EDITOR.PROPERTIES.SPLIT.AUTO_HIDE": "false",
+    "ATTACHED_TOOL_WINDOW.DEFAULT.NELE_EDITOR.PROPERTIES.SPLIT.LEFT": "false",
+    "ATTACHED_TOOL_WINDOW.DEFAULT.NELE_EDITOR.PROPERTIES.SPLIT.MINIMIZED": "true",
+    "ATTACHED_TOOL_WINDOW.DEFAULT.NELE_EDITOR.PROPERTIES.SPLIT.SPLIT": "false",
+    "ATTACHED_TOOL_WINDOW.DEFAULT.NELE_EDITOR.TOOL_ORDER": "PALETTE,PROPERTIES,COMPONENT_TREE",
+    "ATTACHED_TOOL_WINDOW.DESIGN_FILES_PREVIEW_EDITOR.TOOL_ORDER": "",
+    "ATTACHED_TOOL_WINDOW.Layout Inspector.PROPERTIES.SPLIT": "true",
+    "ATTACHED_TOOL_WINDOW.Layout Inspector.TOOL_ORDER": "TREE,PROPERTIES",
+    "ATTACHED_TOOL_WINDOW.Layout Inspector.TREE.LEFT": "true",
+    "ATTACHED_TOOL_WINDOW.Layout Inspector.TREE.SPLIT": "true",
+    "ATTACHED_TOOL_WINDOW.NELE_EDITOR.COMPONENT_TREE.DEACTIVATED.LEFT": "true",
+    "ATTACHED_TOOL_WINDOW.NELE_EDITOR.COMPONENT_TREE.DEACTIVATED.SPLIT": "true",
+    "ATTACHED_TOOL_WINDOW.NELE_EDITOR.COMPONENT_TREE.FULL.LEFT": "true",
+    "ATTACHED_TOOL_WINDOW.NELE_EDITOR.COMPONENT_TREE.FULL.SPLIT": "true",
+    "ATTACHED_TOOL_WINDOW.NELE_EDITOR.COMPONENT_TREE.SPLIT.LEFT": "true",
+    "ATTACHED_TOOL_WINDOW.NELE_EDITOR.COMPONENT_TREE.SPLIT.MINIMIZED": "true",
+    "ATTACHED_TOOL_WINDOW.NELE_EDITOR.COMPONENT_TREE.SPLIT.SPLIT": "true",
+    "ATTACHED_TOOL_WINDOW.NELE_EDITOR.PALETTE.DEACTIVATED.LEFT": "true",
+    "ATTACHED_TOOL_WINDOW.NELE_EDITOR.PALETTE.FULL.LEFT": "true",
+    "ATTACHED_TOOL_WINDOW.NELE_EDITOR.PALETTE.SPLIT.LEFT": "true",
+    "ATTACHED_TOOL_WINDOW.NELE_EDITOR.PALETTE.SPLIT.MINIMIZED": "true",
+    "ATTACHED_TOOL_WINDOW.NELE_EDITOR.PROPERTIES.SPLIT.MINIMIZED": "true",
+    "ATTACHED_TOOL_WINDOW.NELE_EDITOR.TOOL_ORDER": "PALETTE,PROPERTIES,COMPONENT_TREE",
+    "BuildView.Splitter.Proportion": "0.250787",
+    "ColorChooser.RecentColors": "255-255-255-255,,,114-59-255-255",
+    "Drag.Drop.Confirmation": "false",
+    "IdeErrorsDialog.LAST_OK_ACTION": "REPORT_AND_CLEAR_ALL",
+    "InstalledPluginsSearchHistory": "tab\nhot\ncom\nadb\nbro",
+    "Kotlin-Was-Debugged": "9",
+    "LAST_CALCULATED_COLOR_INDEX_KEY": "4",
+    "LAST_EXTRACTOR_SCRIPTS_CLEANUP_VERSION/data/aggregators": "IC-252.27397.103",
+    "MarketplacePluginsSearchHistory": "Native Debugging Support\nnativeDebug\nnativeDebu\nnativeDeb\nnativeDe",
+    "MemberChooser.copyJavadoc": "false",
+    "MemberChooser.showClasses": "true",
+    "MoveFile.OpenInEditor": "true",
+    "MultipleBuildsView.Splitter.Proportion": "0.13631523",
+    "NewProjectWizard.addSampleCodeState": "false",
+    "NewProjectWizard.generateMultipleModules": "true",
+    "NewProjectWizard.gitState": "true",
+    "NewProjectWizard.gradleDslState": "KOTLIN",
+    "NewProjectWizard.groupIdState": "com.mrboomdev.uust",
+    "Notification.DisplayName-DoNotAsk-Feedback In IDE": "Feedback in IDE",
+    "Notification.DoNotAsk-Feedback In IDE": "true",
+    "PluginConfigurable.selectionTab": "1",
+    "RunOnceActivity.TerminalFontSettingsService.fixStoredNonMonospacedFonts": "true",
+    "RunOnceActivity.TerminalOptionsProvider.migration.2025.1.1": "true",
+    "RunOnceActivity.VFSInitializationConditionsToFusReporter": "true",
+    "RunOnceActivity.cache.folding.model.on.disk.true": "true",
+    "RunOnceActivity.cidr.test.framework.showIndexingAsTask": "true",
+    "RunOnceActivity.cidr.test.roots.only": "true",
+    "RunOnceActivity.reset.auto.reparse.settings.to.default": "true",
+    "SPLIT_EDITOR_MODE_/home/mrboomdev/IdeaProjects/Uust/composeApp/src/androidDebug/res/drawable/logo_dev.xml": "SPLIT",
+    "SPLIT_EDITOR_MODE_/home/mrboomdev/IdeaProjects/Uust/composeApp/src/androidMain/res/drawable/ic_binary.xml": "SPLIT",
+    "SPLIT_EDITOR_MODE_/home/mrboomdev/IdeaProjects/Uust/composeApp/src/androidMain/res/drawable/ic_launcher_background.xml": "SPLIT",
+    "SPLIT_EDITOR_MODE_/home/mrboomdev/IdeaProjects/Uust/composeApp/src/androidMain/res/drawable/logo_wrapper.xml": "SPLIT",
+    "SPLIT_EDITOR_MODE_/home/mrboomdev/IdeaProjects/Uust/composeApp/src/androidMain/res/xml/schedule_widget_info.xml": "DEACTIVATED",
+    "SPLIT_EDITOR_MODE_/home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/res/drawable/ic_about_24dp.xml": "SPLIT",
+    "SPLIT_EDITOR_MODE_/home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/res/layout/activity_about.xml": "SPLIT",
+    "SPLIT_EDITOR_MODE_/home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/res/layout/activity_check_update.xml": "SPLIT",
+    "SPLIT_EDITOR_MODE_/home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/res/layout/activity_main.xml": "SPLIT",
+    "SPLIT_EDITOR_MODE_/home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/res/menu/menu_drawer.xml": "SPLIT",
+    "SPLIT_EDITOR_MODE_/home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/res/menu/menu_logcat.xml": "SPLIT",
+    "SPLIT_EDITOR_MODE_/home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/res/menu/menu_main.xml": "SPLIT",
+    "SPLIT_EDITOR_MODE_/home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml": "SPLIT",
+    "SPLIT_EDITOR_MODE_/home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/res/xml/pref_settings.xml": "SPLIT",
+    "SettingsSearchHistory": "tab\njdk\nauto\nautoc\nandroid",
+    "Source Code Editor With PreviewLayout": "Editor only",
+    "TextEditorWithPreview.SplitterProportionKey": "0.6666667",
+    "ask.about.ctrl.y.shortcut.v2": "true",
+    "build.toolwindow.Build Output.selection.state": "com.intellij.build.BuildTreeConsoleView",
+    "build.toolwindow.Sync.selection.state": "com.intellij.build.BuildTreeConsoleView",
+    "build.toolwindow.run.selection.state": "com.intellij.build.BuildTreeConsoleView",
+    "codeium.api_key": "sk-ws-01-9x6Sf78qI5YUqMZJc_a5abEUcfxHoh_bVvfUf-xlqbJoB-OjzNS7F0Zx6azK_YFjBa7Zu5xnD6T8n9B3CGc414edA5mQaw",
+    "codeium.pluginUpdateVersion": "2.10.5",
+    "codeium.review_notification_shown": "true",
+    "com.android.tools.idea.layoutinspector.runningdevices.ui.uiconfigkey": "HORIZONTAL",
+    "com.codeium.apiServerUrl": "https://server.self-serve.windsurf.com",
+    "com.intellij.ide.projectWizard.generators.JavaNewProjectWizard$Step.selectedStep": "IntelliJ",
+    "com.intellij.openapi.roots.ui.configuration.TabbedModuleEditor.selectedEditor": "Sources",
+    "decompiler.legal.notice.accepted": "true",
+    "defaultJdkConfigured": "true",
+    "enter_selection_count": "5",
+    "evaluation.feedback.enabled": "false",
+    "evlsprt3.253": "4",
+    "experimental.ui.on.first.startup": "true",
+    "experimental.ui.used.version": "253.29346.240",
+    "file.gist.reindex.count": "10",
+    "fileTypeChangedCounter": "48",
+    "fontSizeToResetConsole": "16.0",
+    "fontSizeToResetEditor": "16.0",
+    "got.it.tooltip.Plugins Auto-Update": "1",
+    "got.it.tooltip.close.non.modal.settings": "1",
+    "got.it.tooltip.speed.search.shown": "1",
+    "ide.islands.ab2": "true",
+    "ide.islands.ab3": "true",
+    "ide.updates.old.dirs.scan.scheduled": "1768678747113",
+    "idea.background.editor": "/home/mrboomdev/Downloads/121887479_p0.jpg,30,scale,center",
+    "idea.background.frame": "/home/mrboomdev/Downloads/121887479_p0.jpg,70,scale,center",
+    "input.method.disabler.muted": "true",
+    "installed.kotlin.plugin.version": "253.29346.240-IJ",
+    "jdk.selected.JAVA_MODULE": "23",
+    "kotlin.lastUpdateCheck": "1768081218967",
+    "last_opened_file_path": "/home/mrboomdev/IdeaProjects/AmaterasuCraft",
+    "llm.installer.last.toolwindow.state": "LLM_INSTALLER",
+    "migrate.android.sdk.path.to.roamable.storage": "false",
+    "migrated.non.roamable.values.from.general.settings": "true",
+    "org.intellij.images.editor.actions.BackgroundImageDialog#recent": "/home/mrboomdev/Downloads/121887479_p0.jpg",
+    "org.jetbrains.kotlin.tools.projectWizard.KotlinNewProjectWizard$Step.selectedStep": "Gradle",
+    "previousColorScheme": "_@user_Catppuccin Mocha",
+    "project.wizard.group": "NPW.simple-module.Kotlin",
+    "registry.to.advanced.settings.migration.build": "IU-253.29346.240",
+    "search.everywhere.splitter": "0.6164383",
+    "selected.color.option.type": "KOTLIN_DSL_STYLE3",
+    "settings.code.style.selected.tab.kotlin": "Spaces",
+    "terminal.gen.one.option.visible": "false",
+    "terminal.is.new.user": "true",
+    "trial.state.last.availability.check": "1768073946727",
+    "trial.state.last.availability.state": "true",
+    "trial.state.last.state": "ACTIVE",
+    "ts.lib.d.ts.version": "5.9.3",
+    "vcs.history.diff.splitter.proportion": "0.39192024"
+  },
+  "keyToStringList": {
+    "file.chooser.recent.files": [
+      "/home/mrboomdev/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-gradle-plugin-api/2.3.0/1a7982ebc51ee6e8d0ef04284588ac6237437746/kotlin-gradle-plugin-api-2.3.0-gradle813.jar",
+      "/home/mrboomdev/IdeaProjects/AmaterasuCraft",
+      "/home/mrboomdev/IdeaProjects/AmaterasuCraftMod",
+      "/home/mrboomdev/Downloads/keystore.jks",
+      "/home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG",
+      "/home/mrboomdev/Downloads/binary-svgrepo-com.svg",
+      "/home/mrboomdev/IdeaProjects/Uust/composeApp/src/commonMain/composeResources/drawable/logo.png",
+      "/home/mrboomdev/IdeaProjects/Test KMP App",
+      "/home/mrboomdev/IdeaProjects/Test KMP App/composeApp",
+      "/home/mrboomdev/IdeaProjects/AweryServer",
+      "/home/mrboomdev/AndroidSDK",
+      "/home/mrboomdev/Downloads/121887479_p0.jpg",
+      "/home/mrboomdev/IdeaProjects/Awery"
+    ],
+    "fileTypeDetectors": [
+      "com.intellij.ide.scratch.ScratchFileServiceImpl$Detector",
+      "com.intellij.database.vfs.DbStorageFileType$Detector",
+      "com.intellij.profiler.ultimate.hprof.impl.HprofFileTypeDetector",
+      "com.jetbrains.cidr.lang.OCHeaderFileTypeDetector",
+      "com.demonwav.mcdev.nbt.filetype.NbtFileTypeDetector",
+      "com.android.tools.idea.profilers.capture.MemoryCaptureFileType$Detector",
+      "org.jetbrains.plugins.textmate.TextMateFileType$TextMateFileDetector"
+    ],
+    "trial.active.editor.tab.shown.versions": [
+      "IU-2025.3"
+    ]
+  }
+}]]></component>
+</application>

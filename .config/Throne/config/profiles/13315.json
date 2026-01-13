@@ -1,16 +1,16 @@
 {
     "bean": {
         "_v": 0,
-        "addr": "151.236.93.44",
+        "addr": "84.252.137.241",
         "brutal_speed": 0,
         "c_cfg": "",
         "c_out": "",
         "enable_brutal": false,
         "flow": "xtls-rprx-vision",
         "mux": 0,
-        "name": "0103 | 🏳️ Ozon | 🇰🇿 Kazakhstan | VLESS | TG: @STR_BYPASS",
-        "pass": "dfd30304-9c58-4ff4-8ba0-b70af154fbc9",
-        "port": 3443,
+        "name": "🇪🇸 Spain — #122",
+        "pass": "e5017995-2093-491b-a0fa-d4890782d42a",
+        "port": 443,
         "stream": {
             "alpn": "",
             "cert": "",
@@ -24,19 +24,19 @@
             "net": "tcp",
             "pac_enc": "xudp",
             "path": "",
-            "pbk": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
+            "pbk": "UsMQ62DKgEE3xRGxHB8IBpC0n8qSIFcZOG78KbPIG2Y",
             "sec": "tls",
-            "sid": "6ba85179e30d4fc2",
-            "sni": "ir-2.ozone.ru",
+            "sid": "ceda1901d1ca546c",
+            "sni": "api-maps.yandex.ru",
             "tls_frag": false,
             "tls_frag_fall_delay": "",
             "tls_record_frag": false,
-            "utls": "qq"
+            "utls": "chrome"
         }
     },
     "country": "",
     "dl": "",
-    "gid": 10,
+    "gid": 12,
     "id": 13315,
     "report": "",
     "traffic": {
@@ -45,5 +45,5 @@
     },
     "type": "vless",
     "ul": "",
-    "yc": 323
+    "yc": -1
 }

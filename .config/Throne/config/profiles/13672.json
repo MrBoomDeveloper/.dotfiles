@@ -1,42 +1,42 @@
 {
     "bean": {
         "_v": 0,
-        "addr": "84.252.137.241",
+        "addr": "83.222.23.81",
         "brutal_speed": 0,
         "c_cfg": "",
         "c_out": "",
         "enable_brutal": false,
         "flow": "",
         "mux": 0,
-        "name": "🇪🇸 Spain — #124",
-        "pass": "e5017995-2093-491b-a0fa-d4890782d42a",
-        "port": 4343,
+        "name": "Channel id: @STR_BYPASS ",
+        "pass": "4b9063e0-3288-44e9-9aac-80fbfce323a0",
+        "port": 38065,
         "stream": {
-            "alpn": "h3,h2,http/1.1",
+            "alpn": "",
             "cert": "",
             "ed_len": 0,
             "ed_name": "",
             "h_type": "",
             "headers": "",
             "host": "",
-            "insecure": true,
+            "insecure": false,
             "method": "",
-            "net": "xhttp",
+            "net": "tcp",
             "pac_enc": "xudp",
             "path": "",
-            "pbk": "",
+            "pbk": "dSSDPTK6AHfAdRAXD9i4rzqcNIY65RxlF25UyCKdiyo",
             "sec": "tls",
-            "sid": "",
-            "sni": "yand84.volgaboost.ru",
+            "sid": "fa",
+            "sni": "yahoo.com",
             "tls_frag": false,
             "tls_frag_fall_delay": "",
             "tls_record_frag": false,
-            "utls": ""
+            "utls": "chrome"
         }
     },
     "country": "",
     "dl": "",
-    "gid": 10,
+    "gid": 12,
     "id": 13672,
     "report": "",
     "traffic": {
@@ -45,5 +45,5 @@
     },
     "type": "vless",
     "ul": "",
-    "yc": 0
+    "yc": -1
 }

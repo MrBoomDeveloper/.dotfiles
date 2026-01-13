@@ -1,17 +1,16 @@
 {
     "bean": {
         "_v": 0,
-        "addr": "62.133.60.43",
+        "addr": "51.250.89.217",
         "brutal_speed": 0,
         "c_cfg": "",
         "c_out": "",
         "enable_brutal": false,
-        "method": "chacha20-ietf-poly1305",
+        "flow": "xtls-rprx-vision",
         "mux": 0,
-        "name": "🇩🇪 PORT на 3TB🫟",
-        "pass": "TY29mbZbgplhc4vTT3xh3s",
-        "plugin": "",
-        "port": 36456,
+        "name": "🇪🇸 Spain — #108",
+        "pass": "e5017995-2093-491b-a0fa-d4890782d42a",
+        "port": 443,
         "stream": {
             "alpn": "",
             "cert": "",
@@ -23,29 +22,28 @@
             "insecure": false,
             "method": "",
             "net": "tcp",
-            "pac_enc": "",
+            "pac_enc": "xudp",
             "path": "",
-            "pbk": "",
-            "sec": "",
-            "sid": "",
-            "sni": "",
+            "pbk": "SxkcgZSO_Ek3EjJqudyx3UTwQIIUgB1fJyiDGmDI7mw",
+            "sec": "tls",
+            "sid": "99dfc27e5f2415dc",
+            "sni": "ads.x5.ru",
             "tls_frag": false,
             "tls_frag_fall_delay": "",
             "tls_record_frag": false,
-            "utls": ""
-        },
-        "uot": 0
+            "utls": "chrome"
+        }
     },
     "country": "",
     "dl": "",
-    "gid": 10,
+    "gid": 12,
     "id": 13301,
     "report": "",
     "traffic": {
         "dl": 0,
         "ul": 0
     },
-    "type": "shadowsocks",
+    "type": "vless",
     "ul": "",
     "yc": -1
 }

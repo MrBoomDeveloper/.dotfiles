@@ -1,16 +1,16 @@
 {
     "bean": {
         "_v": 0,
-        "addr": "megaf.takovpn.ru",
+        "addr": "158.160.199.84",
         "brutal_speed": 0,
         "c_cfg": "",
         "c_out": "",
         "enable_brutal": false,
         "flow": "xtls-rprx-vision",
         "mux": 0,
-        "name": "0078 | 🏳️ Yandex | 🌍 Unknown | VLESS | TG: @STR_BYPASS",
-        "pass": "e5017995-2093-491b-a0fa-d4890782d42a",
-        "port": 443,
+        "name": "🇪🇸 Spain — #121",
+        "pass": "71973415-8585-4315-9d7d-b2babfd05c34",
+        "port": 8443,
         "stream": {
             "alpn": "",
             "cert": "",
@@ -24,19 +24,19 @@
             "net": "tcp",
             "pac_enc": "xudp",
             "path": "",
-            "pbk": "SxkcgZSO_Ek3EjJqudyx3UTwQIIUgB1fJyiDGmDI7mw",
+            "pbk": "zr8_rtHm86s_G1gfRwNtunStGngYZSdYkA3PyBFXpDg",
             "sec": "tls",
-            "sid": "99dfc27e5f2415dc",
-            "sni": "ads.x5.ru",
+            "sid": "28047c78b3f5ee2c",
+            "sni": "tradingview.com",
             "tls_frag": false,
             "tls_frag_fall_delay": "",
             "tls_record_frag": false,
-            "utls": "qq"
+            "utls": "chrome"
         }
     },
     "country": "",
     "dl": "",
-    "gid": 10,
+    "gid": 12,
     "id": 13314,
     "report": "",
     "traffic": {

@@ -1,17 +1,16 @@
 {
     "bean": {
         "_v": 0,
-        "addr": "217.30.10.70",
+        "addr": "51.250.28.71",
         "brutal_speed": 0,
         "c_cfg": "",
         "c_out": "",
         "enable_brutal": false,
-        "method": "aes-256-cfb",
+        "flow": "",
         "mux": 0,
-        "name": "🇵🇱PL-217.30.10.70-5044",
-        "pass": "SBM7R883jBmnqe6C",
-        "plugin": "",
-        "port": 9053,
+        "name": "🇷🇺 Yandex — #59",
+        "pass": "ffaab2f1-8d78-441a-b910-e8127dd3edb2",
+        "port": 443,
         "stream": {
             "alpn": "",
             "cert": "",
@@ -23,7 +22,7 @@
             "insecure": false,
             "method": "",
             "net": "tcp",
-            "pac_enc": "",
+            "pac_enc": "xudp",
             "path": "",
             "pbk": "",
             "sec": "",
@@ -33,19 +32,18 @@
             "tls_frag_fall_delay": "",
             "tls_record_frag": false,
             "utls": ""
-        },
-        "uot": 0
+        }
     },
     "country": "",
     "dl": "",
-    "gid": 9,
+    "gid": 12,
     "id": 13272,
     "report": "",
     "traffic": {
         "dl": 0,
         "ul": 0
     },
-    "type": "shadowsocks",
+    "type": "vless",
     "ul": "",
     "yc": -1
 }

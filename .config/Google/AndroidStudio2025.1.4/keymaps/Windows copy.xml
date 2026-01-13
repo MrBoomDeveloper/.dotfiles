@@ -1,0 +1,83 @@
+<keymap version="1" name="Windows copy" parent="$default">
+  <action id="ActivateBookmarksToolWindow" />
+  <action id="ActivateBuildToolWindow">
+    <keyboard-shortcut first-keystroke="alt 8" />
+  </action>
+  <action id="ActivateDebugToolWindow">
+    <keyboard-shortcut first-keystroke="alt 4" />
+  </action>
+  <action id="ActivateDeviceExplorerToolWindow">
+    <keyboard-shortcut first-keystroke="alt 5" />
+  </action>
+  <action id="ActivateFindToolWindow" />
+  <action id="ActivateLogcatToolWindow">
+    <keyboard-shortcut first-keystroke="alt 2" />
+  </action>
+  <action id="ActivateResourcesExplorerToolWindow">
+    <keyboard-shortcut first-keystroke="alt 3" />
+  </action>
+  <action id="ActivateRunToolWindow" />
+  <action id="ActivateServicesToolWindow" />
+  <action id="ActivateStructureToolWindow" />
+  <action id="ActivateTerminalToolWindow">
+    <keyboard-shortcut first-keystroke="alt f12" />
+    <keyboard-shortcut first-keystroke="ctrl back_quote" />
+  </action>
+  <action id="ActivateVersionControlToolWindow" />
+  <action id="Adtui.ZoomToActualAction">
+    <keyboard-shortcut first-keystroke="ctrl numpad0" />
+  </action>
+  <action id="Android.BuildApk">
+    <keyboard-shortcut first-keystroke="ctrl period" />
+  </action>
+  <action id="Android.RunLayoutInspector">
+    <keyboard-shortcut first-keystroke="alt 7" />
+  </action>
+  <action id="CollapseSelection" />
+  <action id="DuplicatesForm.SendToLeft" />
+  <action id="DuplicatesForm.SendToRight" />
+  <action id="EditorChooseLookupItemDot" />
+  <action id="FileChooser.GotoHome" />
+  <action id="FileChooser.GotoProject" />
+  <action id="GotoBookmark1" />
+  <action id="GotoBookmark2" />
+  <action id="GotoBookmark4" />
+  <action id="ImplementMethods" />
+  <action id="MethodHierarchy.ImplementMethodAction" />
+  <action id="QuickChangeScheme" />
+  <action id="Run">
+    <keyboard-shortcut first-keystroke="shift f10" />
+    <keyboard-shortcut first-keystroke="ctrl semicolon" />
+  </action>
+  <action id="SelectBuildVariant">
+    <keyboard-shortcut first-keystroke="alt 9" />
+  </action>
+  <action id="TextSearchAction">
+    <keyboard-shortcut first-keystroke="shift ctrl alt e" />
+    <keyboard-shortcut first-keystroke="shift ctrl s" />
+  </action>
+  <action id="UpdateRunningApplication" />
+  <action id="UsageFiltering.Imports" />
+  <action id="android.deploy.ApplyChanges">
+    <keyboard-shortcut first-keystroke="ctrl f10" />
+  </action>
+  <action id="android.deploy.CodeSwap">
+    <keyboard-shortcut first-keystroke="ctrl alt f10" />
+  </action>
+  <action id="android.device.screenshot" />
+  <action id="codeium.ak">
+    <keyboard-shortcut first-keystroke="ctrl i" />
+  </action>
+  <action id="com.codeium.intellij.AcceptCompletionAction">
+    <keyboard-shortcut first-keystroke="ctrl i" />
+    <keyboard-shortcut first-keystroke="ctrl comma" />
+  </action>
+  <action id="com.codeium.intellij.DismissCompletionAction">
+    <keyboard-shortcut first-keystroke="ctrl 2" />
+  </action>
+  <action id="com.codeium.intellij.editor_menu.RefactorSelection">
+    <keyboard-shortcut first-keystroke="ctrl 1" />
+  </action>
+  <action id="org.intellij.plugins.markdown.ui.actions.styling.ToggleItalicAction" />
+  <action id="org.intellij.plugins.markdown.ui.actions.styling.ToggleStrikethroughAction" />
+</keymap>

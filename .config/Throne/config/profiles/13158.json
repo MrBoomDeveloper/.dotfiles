@@ -1,17 +1,16 @@
 {
     "bean": {
         "_v": 0,
-        "addr": "51.159.106.175",
+        "addr": "45.144.53.166",
         "brutal_speed": 0,
         "c_cfg": "",
         "c_out": "",
         "enable_brutal": false,
-        "method": "aes-256-cfb",
+        "flow": "",
         "mux": 0,
-        "name": "🇫🇷FR-51.159.106.175-0335",
-        "pass": "f8f7aCzcPKbsF8p3",
-        "plugin": "",
-        "port": 989,
+        "name": "🇫🇮 Finland, Helsinki [BL]",
+        "pass": "a41550c8-daee-4f2c-b5a8-e66b314c99b1",
+        "port": 443,
         "stream": {
             "alpn": "",
             "cert": "",
@@ -22,30 +21,29 @@
             "host": "",
             "insecure": false,
             "method": "",
-            "net": "tcp",
-            "pac_enc": "",
+            "net": "grpc",
+            "pac_enc": "xudp",
             "path": "",
-            "pbk": "",
-            "sec": "",
-            "sid": "",
-            "sni": "",
+            "pbk": "XnSTGadTQ3R3qGd5lk7l8gZMuZUQH7fu1tItRmH6CEY",
+            "sec": "tls",
+            "sid": "e9d19fd1ca5ca23c",
+            "sni": "hel1.hitori.cloud",
             "tls_frag": false,
             "tls_frag_fall_delay": "",
             "tls_record_frag": false,
-            "utls": ""
-        },
-        "uot": 0
+            "utls": "chrome"
+        }
     },
     "country": "",
     "dl": "",
-    "gid": 9,
+    "gid": 12,
     "id": 13158,
     "report": "",
     "traffic": {
         "dl": 0,
         "ul": 0
     },
-    "type": "shadowsocks",
+    "type": "vless",
     "ul": "",
     "yc": -1
 }

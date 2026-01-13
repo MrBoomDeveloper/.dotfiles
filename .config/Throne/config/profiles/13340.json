@@ -1,16 +1,16 @@
 {
     "bean": {
         "_v": 0,
-        "addr": "95.163.215.93",
+        "addr": "217.16.24.53",
         "brutal_speed": 0,
         "c_cfg": "",
         "c_out": "",
         "enable_brutal": false,
         "flow": "xtls-rprx-vision",
         "mux": 0,
-        "name": "0287 | 🏳️ Whitelist | 🇷🇺 Russia | VLESS | TG: @STR_BYPASS",
-        "pass": "61ca1f55-8cc8-4be4-9bf5-12495e38c96a",
-        "port": 8443,
+        "name": "🇳🇱 The Netherlands — #155",
+        "pass": "011fb39c-15ed-4700-a338-67497533f94e",
+        "port": 443,
         "stream": {
             "alpn": "",
             "cert": "",
@@ -24,19 +24,19 @@
             "net": "tcp",
             "pac_enc": "xudp",
             "path": "",
-            "pbk": "YLMwM-5UbvqEgVWpg3z9Q3W5nCXscRdKV285z_Vmr0Y",
+            "pbk": "wECjZXPpzOIAcE2my_sCH2zluFB4p9a3jpTugXhJ7gI",
             "sec": "tls",
-            "sid": "a4fae7ee08c43ade",
-            "sni": "sun6-22.userapi.com",
+            "sid": "69f3807321",
+            "sni": "www.vk.com",
             "tls_frag": false,
             "tls_frag_fall_delay": "",
             "tls_record_frag": false,
-            "utls": "qq"
+            "utls": "chrome"
         }
     },
     "country": "",
     "dl": "",
-    "gid": 10,
+    "gid": 12,
     "id": 13340,
     "report": "",
     "traffic": {

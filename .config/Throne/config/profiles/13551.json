@@ -1,15 +1,16 @@
 {
     "bean": {
         "_v": 0,
-        "addr": "swe01-vlr01.tcp-reset-club.net",
+        "addr": "81.19.141.45",
         "brutal_speed": 0,
         "c_cfg": "",
         "c_out": "",
         "enable_brutal": false,
-        "flow": "xtls-rprx-vision",
+        "method": "chacha20-ietf-poly1305",
         "mux": 0,
-        "name": "🇲🇩 Moldova, Chisinau [BL]",
-        "pass": "8e2cc81d-7ac4-4352-a7b5-bbfcfa81e49e",
+        "name": "🇩🇪 PORTAL Telegram:@STR_BYPASS 118839",
+        "pass": "REcLCrl7yq80yDeQJPzsVe",
+        "plugin": "",
         "port": 443,
         "stream": {
             "alpn": "",
@@ -22,28 +23,29 @@
             "insecure": false,
             "method": "",
             "net": "tcp",
-            "pac_enc": "xudp",
+            "pac_enc": "",
             "path": "",
-            "pbk": "mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg",
-            "sec": "tls",
-            "sid": "86e999a2cdc2",
-            "sni": "hls-svod.itunes.apple.com",
+            "pbk": "",
+            "sec": "",
+            "sid": "",
+            "sni": "",
             "tls_frag": false,
             "tls_frag_fall_delay": "",
             "tls_record_frag": false,
-            "utls": "chrome"
-        }
+            "utls": ""
+        },
+        "uot": 0
     },
     "country": "",
     "dl": "",
-    "gid": 10,
+    "gid": 12,
     "id": 13551,
     "report": "",
     "traffic": {
         "dl": 0,
         "ul": 0
     },
-    "type": "vless",
+    "type": "shadowsocks",
     "ul": "",
     "yc": -1
 }

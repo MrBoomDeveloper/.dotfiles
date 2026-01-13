@@ -1,16 +1,17 @@
 {
     "bean": {
         "_v": 0,
-        "addr": "de.himikvpn.online",
+        "addr": "193.29.139.140",
         "brutal_speed": 0,
         "c_cfg": "",
         "c_out": "",
         "enable_brutal": false,
-        "flow": "",
+        "method": "chacha20-ietf-poly1305",
         "mux": 0,
-        "name": "🇩🇪 Белые списки №4 тгк: @STR_BYPASS",
-        "pass": "cef12ad2-fb16-4ace-ab26-2a026d40a7d2",
-        "port": 8443,
+        "name": "🔥PORTAL Telegram:@STR_BYPASS🟣",
+        "pass": "oZIoA69Q8yhcQV8ka3Pa3A",
+        "plugin": "",
+        "port": 8080,
         "stream": {
             "alpn": "",
             "cert": "",
@@ -21,29 +22,30 @@
             "host": "",
             "insecure": false,
             "method": "",
-            "net": "grpc",
-            "pac_enc": "xudp",
+            "net": "tcp",
+            "pac_enc": "",
             "path": "",
-            "pbk": "LB2i67ErtJPlIIDeDHlGvSip6-qPJLH9HzYju5fZ32c",
-            "sec": "tls",
-            "sid": "2916",
-            "sni": "sun6-21.userapi.com",
+            "pbk": "",
+            "sec": "",
+            "sid": "",
+            "sni": "",
             "tls_frag": false,
             "tls_frag_fall_delay": "",
             "tls_record_frag": false,
-            "utls": "random"
-        }
+            "utls": ""
+        },
+        "uot": 0
     },
     "country": "",
     "dl": "",
-    "gid": 10,
+    "gid": 12,
     "id": 13458,
     "report": "",
     "traffic": {
         "dl": 0,
         "ul": 0
     },
-    "type": "vless",
+    "type": "shadowsocks",
     "ul": "",
-    "yc": -1
+    "yc": 79
 }

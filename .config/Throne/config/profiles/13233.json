@@ -1,16 +1,15 @@
 {
     "bean": {
         "_v": 0,
-        "addr": "213.159.76.21",
+        "addr": "65.108.231.185",
         "brutal_speed": 0,
         "c_cfg": "",
         "c_out": "",
         "enable_brutal": false,
-        "method": "chacha20-ietf-poly1305",
+        "flow": "",
         "mux": 0,
-        "name": "🇲🇩MD-213.159.76.21-0398",
-        "pass": "pNqnYf3kHesOpCchRvUZxfwTafRsOj7g",
-        "plugin": "",
+        "name": "🔥Join+Telegram:@STR_BYPASS🟣",
+        "pass": "440766d1-858f-4719-84f5-c2de6f6227b2",
         "port": 443,
         "stream": {
             "alpn": "",
@@ -20,32 +19,31 @@
             "h_type": "",
             "headers": "",
             "host": "",
-            "insecure": false,
+            "insecure": true,
             "method": "",
             "net": "tcp",
-            "pac_enc": "",
+            "pac_enc": "xudp",
             "path": "",
             "pbk": "",
-            "sec": "",
+            "sec": "tls",
             "sid": "",
-            "sni": "",
+            "sni": "api.avito.ru",
             "tls_frag": false,
             "tls_frag_fall_delay": "",
             "tls_record_frag": false,
             "utls": ""
-        },
-        "uot": 0
+        }
     },
     "country": "",
     "dl": "",
-    "gid": 9,
+    "gid": 12,
     "id": 13233,
     "report": "",
     "traffic": {
-        "dl": 50841279,
-        "ul": 1497594
+        "dl": 150383,
+        "ul": 23397
     },
-    "type": "shadowsocks",
+    "type": "vless",
     "ul": "",
-    "yc": 63
+    "yc": 67
 }

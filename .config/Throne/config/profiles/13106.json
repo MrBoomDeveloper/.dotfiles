@@ -1,17 +1,16 @@
 {
     "bean": {
         "_v": 0,
-        "addr": "156.146.38.168",
+        "addr": "2-germany.geodema.network",
         "brutal_speed": 0,
         "c_cfg": "",
         "c_out": "",
         "enable_brutal": false,
-        "method": "aes-128-gcm",
+        "flow": "xtls-rprx-vision",
         "mux": 0,
-        "name": "🇺🇸US-156.146.38.168-0268",
-        "pass": "shadowsocks",
-        "plugin": "",
-        "port": 443,
+        "name": "🇩🇪 Frankfurt 5 | тгк: @STR_BYPASS",
+        "pass": "a91e64f0-9295-499d-bf4a-661ad99d4938",
+        "port": 8443,
         "stream": {
             "alpn": "",
             "cert": "",
@@ -23,29 +22,28 @@
             "insecure": false,
             "method": "",
             "net": "tcp",
-            "pac_enc": "",
+            "pac_enc": "xudp",
             "path": "",
-            "pbk": "",
-            "sec": "",
-            "sid": "",
-            "sni": "",
+            "pbk": "8OsJx6xuHcpL_5e1w0U4bMBa-icevDgvvzNwPwZbORQ",
+            "sec": "tls",
+            "sid": "5540e44a53c3d01c",
+            "sni": "eh.vk.com",
             "tls_frag": false,
             "tls_frag_fall_delay": "",
             "tls_record_frag": false,
-            "utls": ""
-        },
-        "uot": 0
+            "utls": "chrome"
+        }
     },
     "country": "",
     "dl": "",
-    "gid": 9,
+    "gid": 12,
     "id": 13106,
     "report": "",
     "traffic": {
         "dl": 0,
         "ul": 0
     },
-    "type": "shadowsocks",
+    "type": "vless",
     "ul": "",
-    "yc": 205
+    "yc": 452
 }

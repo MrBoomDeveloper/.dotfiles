@@ -1,16 +1,15 @@
 {
     "bean": {
         "_v": 0,
-        "addr": "173.244.56.6",
+        "addr": "tbankru.outlinekeys.net",
         "brutal_speed": 0,
         "c_cfg": "",
         "c_out": "",
         "enable_brutal": false,
-        "method": "aes-128-gcm",
+        "flow": "xtls-rprx-vision",
         "mux": 0,
-        "name": "🇺🇸US-173.244.56.6-0262",
-        "pass": "shadowsocks",
-        "plugin": "",
+        "name": "🇪🇪 Эстония тгк: @STR_BYPASS",
+        "pass": "eb162ab1-a006-4931-b1b3-8fc88a22b10e",
         "port": 443,
         "stream": {
             "alpn": "",
@@ -23,29 +22,28 @@
             "insecure": false,
             "method": "",
             "net": "tcp",
-            "pac_enc": "",
+            "pac_enc": "xudp",
             "path": "",
-            "pbk": "",
-            "sec": "",
+            "pbk": "WvNaAxI0W__qfUKbtysH4IwF155YENlv3PG6crCmPkA",
+            "sec": "tls",
             "sid": "",
-            "sni": "",
+            "sni": "tbankru.outlinekeys.net",
             "tls_frag": false,
             "tls_frag_fall_delay": "",
             "tls_record_frag": false,
             "utls": ""
-        },
-        "uot": 0
+        }
     },
     "country": "",
     "dl": "",
-    "gid": 9,
+    "gid": 12,
     "id": 13102,
     "report": "",
     "traffic": {
         "dl": 0,
         "ul": 0
     },
-    "type": "shadowsocks",
+    "type": "vless",
     "ul": "",
-    "yc": 204
+    "yc": -1
 }

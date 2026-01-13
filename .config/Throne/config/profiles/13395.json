@@ -1,16 +1,17 @@
 {
     "bean": {
         "_v": 0,
-        "addr": "ger4.nfnpx.online",
+        "addr": "45.87.175.35",
         "brutal_speed": 0,
         "c_cfg": "",
         "c_out": "",
         "enable_brutal": false,
-        "flow": "",
+        "method": "chacha20-ietf-poly1305",
         "mux": 0,
-        "name": "0720 | 🌍 Unknown | VLESS | TG: @STR_BYPASS",
-        "pass": "4d7a559b-6379-41a7-9e51-41ef759846aa",
-        "port": 443,
+        "name": "none",
+        "pass": "oZIoA69Q8yhcQV8ka3Pa3A",
+        "plugin": "",
+        "port": 8080,
         "stream": {
             "alpn": "",
             "cert": "",
@@ -19,31 +20,32 @@
             "h_type": "",
             "headers": "",
             "host": "",
-            "insecure": true,
+            "insecure": false,
             "method": "",
-            "net": "httpupgrade",
-            "pac_enc": "xudp",
-            "path": "/",
+            "net": "tcp",
+            "pac_enc": "",
+            "path": "",
             "pbk": "",
-            "sec": "tls",
+            "sec": "",
             "sid": "",
-            "sni": "ger4.nfnpx.online",
+            "sni": "",
             "tls_frag": false,
             "tls_frag_fall_delay": "",
             "tls_record_frag": false,
             "utls": ""
-        }
+        },
+        "uot": 0
     },
     "country": "",
     "dl": "",
-    "gid": 10,
+    "gid": 12,
     "id": 13395,
     "report": "",
     "traffic": {
         "dl": 0,
-        "ul": 0
+        "ul": 20205
     },
-    "type": "vless",
+    "type": "shadowsocks",
     "ul": "",
-    "yc": -1
+    "yc": 72
 }

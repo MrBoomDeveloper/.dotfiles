@@ -1,17 +1,16 @@
 {
     "bean": {
         "_v": 0,
-        "addr": "172.105.199.111",
+        "addr": "217.16.20.134",
         "brutal_speed": 0,
         "c_cfg": "",
         "c_out": "",
         "enable_brutal": false,
-        "method": "rc4-md5",
+        "flow": "",
         "mux": 0,
-        "name": "🇯🇵JP-172.105.199.111-0283",
-        "pass": "14fFPrbezE3HDZzsMOr6",
-        "plugin": "",
-        "port": 8080,
+        "name": "📱 Антиблок 128 | Social",
+        "pass": "0f6c83bc-34ba-4ca1-96e6-08b3620cbce5",
+        "port": 443,
         "stream": {
             "alpn": "",
             "cert": "",
@@ -23,29 +22,28 @@
             "insecure": false,
             "method": "",
             "net": "tcp",
-            "pac_enc": "",
+            "pac_enc": "xudp",
             "path": "",
-            "pbk": "",
-            "sec": "",
-            "sid": "",
-            "sni": "",
+            "pbk": "24lsP7iRzgT7pMhCprlmHUB6_mbR17Pxc6P0R29f-Rk",
+            "sec": "tls",
+            "sid": "35e15c94",
+            "sni": "www.vk.com",
             "tls_frag": false,
             "tls_frag_fall_delay": "",
             "tls_record_frag": false,
-            "utls": ""
-        },
-        "uot": 0
+            "utls": "firefox"
+        }
     },
     "country": "",
     "dl": "",
-    "gid": 9,
+    "gid": 12,
     "id": 13120,
     "report": "",
     "traffic": {
         "dl": 0,
         "ul": 0
     },
-    "type": "shadowsocks",
+    "type": "vless",
     "ul": "",
     "yc": -1
 }

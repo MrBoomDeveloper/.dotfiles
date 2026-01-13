@@ -1,23 +1,23 @@
 {
     "bean": {
         "_v": 0,
-        "addr": "45.138.157.162",
+        "addr": "8.218.116.26",
+        "aid": 0,
         "brutal_speed": 0,
         "c_cfg": "",
         "c_out": "",
         "enable_brutal": false,
-        "method": "chacha20-ietf-poly1305",
+        "id": "e4767e9f-ed00-4f31-a984-a918bdd9b09c",
         "mux": 0,
-        "name": "🇷🇺 Russia, Moscow [BL]",
-        "pass": "qFAJdBEqsI71jaSML67nHoPBCGhX94uk",
-        "plugin": "",
-        "port": 443,
+        "name": "🔥Join+Telegram:@Farah_VPN🟣",
+        "port": 32228,
+        "sec": "auto",
         "stream": {
             "alpn": "",
             "cert": "",
             "ed_len": 0,
             "ed_name": "",
-            "h_type": "",
+            "h_type": "none",
             "headers": "",
             "host": "",
             "insecure": false,
@@ -33,19 +33,18 @@
             "tls_frag_fall_delay": "",
             "tls_record_frag": false,
             "utls": ""
-        },
-        "uot": 0
+        }
     },
     "country": "",
     "dl": "",
-    "gid": 10,
+    "gid": 12,
     "id": 13482,
     "report": "",
     "traffic": {
         "dl": 0,
         "ul": 0
     },
-    "type": "shadowsocks",
+    "type": "vmess",
     "ul": "",
-    "yc": 78
+    "yc": -1
 }

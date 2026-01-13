@@ -1,42 +1,42 @@
 {
     "bean": {
         "_v": 0,
-        "addr": "188.72.103.3",
+        "addr": "communal-loss.oneeat.co",
         "brutal_speed": 0,
         "c_cfg": "",
         "c_out": "",
         "enable_brutal": false,
         "flow": "",
         "mux": 0,
-        "name": "🇩🇪 Germany — #99",
-        "pass": "2f15d678-99e3-4730-aa94-abf2628cd69d",
-        "port": 443,
+        "name": "🚘66@STR_BYPASS",
+        "pass": "a2af50d9-09c7-4a44-90d0-42da35923e9e",
+        "port": 80,
         "stream": {
-            "alpn": "h2,http/1.1",
+            "alpn": "",
             "cert": "",
             "ed_len": 0,
             "ed_name": "",
             "h_type": "",
             "headers": "",
             "host": "",
-            "insecure": true,
+            "insecure": false,
             "method": "",
-            "net": "xhttp",
+            "net": "ws",
             "pac_enc": "xudp",
-            "path": "",
+            "path": "/",
             "pbk": "",
-            "sec": "tls",
+            "sec": "",
             "sid": "",
-            "sni": "ya.volgogradskie.ru",
+            "sni": "",
             "tls_frag": false,
             "tls_frag_fall_delay": "",
             "tls_record_frag": false,
-            "utls": "chrome"
+            "utls": ""
         }
     },
     "country": "",
     "dl": "",
-    "gid": 10,
+    "gid": 12,
     "id": 13649,
     "report": "",
     "traffic": {
@@ -45,5 +45,5 @@
     },
     "type": "vless",
     "ul": "",
-    "yc": 0
+    "yc": -1
 }

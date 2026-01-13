@@ -1,16 +1,16 @@
 {
     "bean": {
         "_v": 0,
-        "addr": "83.166.236.32",
+        "addr": "freevpn.vizzpn.join.channel.vizzfrag.ir",
         "brutal_speed": 0,
         "c_cfg": "",
         "c_out": "",
         "enable_brutal": false,
-        "flow": "xtls-rprx-vision",
+        "flow": "",
         "mux": 0,
-        "name": "🇭🇺 Hungary — #131",
-        "pass": "291a2db3-04b5-4089-af90-adb5d1ce05ff",
-        "port": 443,
+        "name": "🫑26@STR_BYPASS",
+        "pass": "08704c01-7edb-454a-98a2-328ccb9936fa",
+        "port": 12794,
         "stream": {
             "alpn": "",
             "cert": "",
@@ -24,19 +24,19 @@
             "net": "tcp",
             "pac_enc": "xudp",
             "path": "",
-            "pbk": "7zd9mJilgjOrg_ohtw23Vmio-pdnYqeP_r-kiWt87Cg",
-            "sec": "tls",
-            "sid": "2715592069f36fe7",
-            "sni": "tradingview.com",
+            "pbk": "",
+            "sec": "",
+            "sid": "",
+            "sni": "",
             "tls_frag": false,
             "tls_frag_fall_delay": "",
             "tls_record_frag": false,
-            "utls": "chrome"
+            "utls": ""
         }
     },
     "country": "",
     "dl": "",
-    "gid": 10,
+    "gid": 12,
     "id": 13678,
     "report": "",
     "traffic": {

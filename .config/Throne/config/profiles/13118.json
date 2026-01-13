@@ -1,17 +1,16 @@
 {
     "bean": {
         "_v": 0,
-        "addr": "147.78.1.230",
+        "addr": "ru36.tcpdoor.net",
         "brutal_speed": 0,
         "c_cfg": "",
         "c_out": "",
         "enable_brutal": false,
-        "method": "aes-256-cfb",
+        "flow": "",
         "mux": 0,
-        "name": "🇲🇽MX-147.78.1.230-0286",
-        "pass": "f8f7aCzcPKbsF8p3",
-        "plugin": "",
-        "port": 989,
+        "name": "📱 Антиблок 19",
+        "pass": "0f6c83bc-34ba-4ca1-96e6-08b3620cbce5",
+        "port": 443,
         "stream": {
             "alpn": "",
             "cert": "",
@@ -23,29 +22,28 @@
             "insecure": false,
             "method": "",
             "net": "tcp",
-            "pac_enc": "",
+            "pac_enc": "xudp",
             "path": "",
-            "pbk": "",
-            "sec": "",
-            "sid": "",
-            "sni": "",
+            "pbk": "jlnKFP7eXy5fFjmH1HD8_3A-AKbraZvJMwPE03BRuhQ",
+            "sec": "tls",
+            "sid": "776e7d90",
+            "sni": "download.cdn.yandex.net",
             "tls_frag": false,
             "tls_frag_fall_delay": "",
             "tls_record_frag": false,
-            "utls": ""
-        },
-        "uot": 0
+            "utls": "firefox"
+        }
     },
     "country": "",
     "dl": "",
-    "gid": 9,
+    "gid": 12,
     "id": 13118,
     "report": "",
     "traffic": {
         "dl": 0,
         "ul": 0
     },
-    "type": "shadowsocks",
+    "type": "vless",
     "ul": "",
     "yc": -1
 }

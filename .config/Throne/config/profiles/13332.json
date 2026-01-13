@@ -1,16 +1,16 @@
 {
     "bean": {
         "_v": 0,
-        "addr": "145.223.69.171",
+        "addr": "78.159.247.74",
         "brutal_speed": 0,
         "c_cfg": "",
         "c_out": "",
         "enable_brutal": false,
-        "flow": "",
+        "flow": "xtls-rprx-vision",
         "mux": 0,
-        "name": "0181 | 🏳️ VK | 🇫🇷 France | VLESS | TG: @STR_BYPASS",
-        "pass": "0f6c83bc-34ba-4ca1-96e6-08b3620cbce5",
-        "port": 443,
+        "name": "🇮🇹 Italy — #141",
+        "pass": "07288721-1200-4c2f-a6ce-7ef59c4f8e22",
+        "port": 5444,
         "stream": {
             "alpn": "",
             "cert": "",
@@ -24,19 +24,19 @@
             "net": "tcp",
             "pac_enc": "xudp",
             "path": "",
-            "pbk": "JQHrZXZRnkZUOMdNHS7X1fPyMDqKjiQWlfTdntIOqzg",
+            "pbk": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
             "sec": "tls",
-            "sid": "a6b92e23",
-            "sni": "www.vk.com",
+            "sid": "6ba85179e30d4fc2",
+            "sni": "max.ru",
             "tls_frag": false,
             "tls_frag_fall_delay": "",
             "tls_record_frag": false,
-            "utls": "firefox"
+            "utls": ""
         }
     },
     "country": "",
     "dl": "",
-    "gid": 10,
+    "gid": 12,
     "id": 13332,
     "report": "",
     "traffic": {

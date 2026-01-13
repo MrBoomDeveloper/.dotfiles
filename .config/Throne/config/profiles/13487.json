@@ -1,16 +1,17 @@
 {
     "bean": {
         "_v": 0,
-        "addr": "45.129.3.220",
+        "addr": "5.253.41.46",
         "brutal_speed": 0,
         "c_cfg": "",
         "c_out": "",
         "enable_brutal": false,
-        "flow": "",
+        "method": "chacha20-ietf-poly1305",
         "mux": 0,
-        "name": "🇷🇺 Russia, Moscow [BL]",
-        "pass": "oUFBC3Vs2rYmN8_bR-P7quoL",
-        "port": 10668,
+        "name": "🔥PORTAL Telegram:@STR_BYPASS🟣",
+        "pass": "xgoOsyyBv2Yn4w0hSqjsNqf5IGbIETZ6",
+        "plugin": "",
+        "port": 443,
         "stream": {
             "alpn": "",
             "cert": "",
@@ -19,31 +20,32 @@
             "h_type": "",
             "headers": "",
             "host": "",
-            "insecure": true,
+            "insecure": false,
             "method": "",
             "net": "tcp",
             "pac_enc": "",
             "path": "",
             "pbk": "",
-            "sec": "tls",
+            "sec": "",
             "sid": "",
             "sni": "",
             "tls_frag": false,
             "tls_frag_fall_delay": "",
             "tls_record_frag": false,
             "utls": ""
-        }
+        },
+        "uot": 0
     },
     "country": "",
     "dl": "",
-    "gid": 10,
+    "gid": 12,
     "id": 13487,
     "report": "",
     "traffic": {
         "dl": 0,
         "ul": 0
     },
-    "type": "trojan",
+    "type": "shadowsocks",
     "ul": "",
-    "yc": 93
+    "yc": -1
 }

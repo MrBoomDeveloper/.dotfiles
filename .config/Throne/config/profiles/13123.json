@@ -1,17 +1,17 @@
 {
     "bean": {
         "_v": 0,
-        "addr": "147.78.1.230",
+        "addr": "212.224.125.154",
         "brutal_speed": 0,
         "c_cfg": "",
         "c_out": "",
         "enable_brutal": false,
         "method": "chacha20-ietf-poly1305",
         "mux": 0,
-        "name": "🇲🇽MX-147.78.1.230-0321",
-        "pass": "ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=",
+        "name": "🇩🇪 Germany, Frankfurt [BL]",
+        "pass": "6a85b249286a74a9",
         "plugin": "",
-        "port": 990,
+        "port": 57456,
         "stream": {
             "alpn": "",
             "cert": "",
@@ -38,7 +38,7 @@
     },
     "country": "",
     "dl": "",
-    "gid": 9,
+    "gid": 12,
     "id": 13123,
     "report": "",
     "traffic": {

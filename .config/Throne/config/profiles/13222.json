@@ -1,17 +1,17 @@
 {
     "bean": {
         "_v": 0,
-        "addr": "156.38.168.58",
+        "addr": "62.210.88.22",
         "brutal_speed": 0,
         "c_cfg": "",
         "c_out": "",
         "enable_brutal": false,
         "method": "chacha20-ietf-poly1305",
         "mux": 0,
-        "name": "🇿🇦ZA-156.38.168.58-0402",
-        "pass": "ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=",
+        "name": "🇫🇷 FR | 🔒 SS | @STR_BYPASS [17]",
+        "pass": "dzWKpMibAJH3YeTR5LZ1EJ",
         "plugin": "",
-        "port": 990,
+        "port": 443,
         "stream": {
             "alpn": "",
             "cert": "",
@@ -38,7 +38,7 @@
     },
     "country": "",
     "dl": "",
-    "gid": 9,
+    "gid": 12,
     "id": 13222,
     "report": "",
     "traffic": {

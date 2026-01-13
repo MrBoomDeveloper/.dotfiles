@@ -1,16 +1,16 @@
 {
     "bean": {
         "_v": 0,
-        "addr": "51.250.89.217",
+        "addr": "185.231.205.231",
         "brutal_speed": 0,
         "c_cfg": "",
         "c_out": "",
         "enable_brutal": false,
         "flow": "",
         "mux": 0,
-        "name": "🇪🇸 Spain — #112",
-        "pass": "e5017995-2093-491b-a0fa-d4890782d42a",
-        "port": 9090,
+        "name": "%40vpnfail_bot%20free%v2ray",
+        "pass": "df0680ca-e43c-498d-ed86-8e196eedd012",
+        "port": 8880,
         "stream": {
             "alpn": "",
             "cert": "",
@@ -21,22 +21,22 @@
             "host": "",
             "insecure": false,
             "method": "",
-            "net": "xhttp",
+            "net": "grpc",
             "pac_enc": "xudp",
             "path": "",
-            "pbk": "kBLlUpt36Xk_CJrdB1jlYvS_OcKs4DSzHuq9McBWpQQ",
-            "sec": "tls",
-            "sid": "24ed410022aa2001",
-            "sni": "ads.x5.ru",
+            "pbk": "",
+            "sec": "",
+            "sid": "",
+            "sni": "",
             "tls_frag": false,
             "tls_frag_fall_delay": "",
             "tls_record_frag": false,
-            "utls": "chrome"
+            "utls": ""
         }
     },
     "country": "",
     "dl": "",
-    "gid": 10,
+    "gid": 12,
     "id": 13660,
     "report": "",
     "traffic": {
@@ -45,5 +45,5 @@
     },
     "type": "vless",
     "ul": "",
-    "yc": 0
+    "yc": -1
 }

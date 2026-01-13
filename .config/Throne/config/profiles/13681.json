@@ -1,15 +1,16 @@
 {
     "bean": {
         "_v": 0,
-        "addr": "158.160.202.13",
+        "addr": "149.22.87.204",
         "brutal_speed": 0,
         "c_cfg": "",
         "c_out": "",
         "enable_brutal": false,
-        "flow": "xtls-rprx-vision",
+        "method": "aes-128-gcm",
         "mux": 0,
-        "name": "🇭🇺 Hungary — #134",
-        "pass": "291a2db3-04b5-4089-af90-adb5d1ce05ff",
+        "name": "🇯🇵JP-149.22.87.204-0246",
+        "pass": "shadowsocks",
+        "plugin": "",
         "port": 443,
         "stream": {
             "alpn": "",
@@ -22,28 +23,29 @@
             "insecure": false,
             "method": "",
             "net": "tcp",
-            "pac_enc": "xudp",
+            "pac_enc": "",
             "path": "",
-            "pbk": "7zd9mJilgjOrg_ohtw23Vmio-pdnYqeP_r-kiWt87Cg",
-            "sec": "tls",
-            "sid": "2715592069f36fe7",
-            "sni": "tradingview.com",
+            "pbk": "",
+            "sec": "",
+            "sid": "",
+            "sni": "",
             "tls_frag": false,
             "tls_frag_fall_delay": "",
             "tls_record_frag": false,
-            "utls": "chrome"
-        }
+            "utls": ""
+        },
+        "uot": 0
     },
     "country": "",
     "dl": "",
-    "gid": 10,
+    "gid": 12,
     "id": 13681,
     "report": "",
     "traffic": {
         "dl": 0,
         "ul": 0
     },
-    "type": "vless",
+    "type": "shadowsocks",
     "ul": "",
     "yc": -1
 }

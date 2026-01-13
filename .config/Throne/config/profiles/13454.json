@@ -1,16 +1,17 @@
 {
     "bean": {
         "_v": 0,
-        "addr": "maxru.outlinekeys.net",
+        "addr": "23.95.76.59",
         "brutal_speed": 0,
         "c_cfg": "",
         "c_out": "",
         "enable_brutal": false,
-        "flow": "xtls-rprx-vision",
+        "method": "chacha20-ietf-poly1305",
         "mux": 0,
-        "name": "🇰🇿 Казахстан тгк: @STR_BYPASS",
-        "pass": "eb162ab1-a006-4931-b1b3-8fc88a22b10e",
-        "port": 443,
+        "name": "🔥PORTAL Telegram:@STR_BYPASS🟣",
+        "pass": "ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=",
+        "plugin": "",
+        "port": 990,
         "stream": {
             "alpn": "",
             "cert": "",
@@ -22,28 +23,29 @@
             "insecure": false,
             "method": "",
             "net": "tcp",
-            "pac_enc": "xudp",
+            "pac_enc": "",
             "path": "",
-            "pbk": "zkeQCEkz7LlrzwzeG26Ae_HEk3_QlgM9CbiWJx5iWh0",
-            "sec": "tls",
+            "pbk": "",
+            "sec": "",
             "sid": "",
-            "sni": "maxru.outlinekeys.net",
+            "sni": "",
             "tls_frag": false,
             "tls_frag_fall_delay": "",
             "tls_record_frag": false,
             "utls": ""
-        }
+        },
+        "uot": 0
     },
     "country": "",
     "dl": "",
-    "gid": 10,
+    "gid": 12,
     "id": 13454,
     "report": "",
     "traffic": {
         "dl": 0,
         "ul": 0
     },
-    "type": "vless",
+    "type": "shadowsocks",
     "ul": "",
-    "yc": -1
+    "yc": 175
 }

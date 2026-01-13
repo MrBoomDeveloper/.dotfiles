@@ -1,0 +1,15 @@
+<filetype binary="false" default_extension="rsc" description="Rsc" name="Rsc">
+  <highlighting>
+    <options>
+      <option name="LINE_COMMENT" value="" />
+      <option name="COMMENT_START" value="" />
+      <option name="COMMENT_END" value="" />
+      <option name="HEX_PREFIX" value="" />
+      <option name="NUM_POSTFIXES" value="" />
+    </options>
+    <keywords keywords="rsc" ignore_case="false" />
+  </highlighting>
+  <extensionMap>
+    <mapping ext="rsc" />
+  </extensionMap>
+</filetype>

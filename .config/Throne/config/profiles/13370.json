@@ -1,42 +1,42 @@
 {
     "bean": {
         "_v": 0,
-        "addr": "dk1.digitalvpn.org",
+        "addr": "ru01-blh01.tcp-reset-club.net",
         "brutal_speed": 0,
         "c_cfg": "",
         "c_out": "",
         "enable_brutal": false,
-        "flow": "",
+        "flow": "xtls-rprx-vision",
         "mux": 0,
-        "name": "0596 | 🌍 Unknown | VLESS | TG: @STR_BYPASS",
-        "pass": "f13a22fa-b2fc-4369-b5cd-ed2ed08fb11f",
-        "port": 9443,
+        "name": "?LTE|Моб.белыйсписок|vk",
+        "pass": "b9c0d277-5dbe-41fa-a19d-5314f23ad22a",
+        "port": 443,
         "stream": {
-            "alpn": "h2,http/1.1",
+            "alpn": "",
             "cert": "",
             "ed_len": 0,
             "ed_name": "",
             "h_type": "",
             "headers": "",
             "host": "",
-            "insecure": true,
+            "insecure": false,
             "method": "",
-            "net": "xhttp",
+            "net": "tcp",
             "pac_enc": "xudp",
             "path": "",
-            "pbk": "",
+            "pbk": "mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg",
             "sec": "tls",
-            "sid": "",
-            "sni": "dk1.digitalvpn.org",
+            "sid": "e499f276e7bd6420",
+            "sni": "stats.vk-portal.net",
             "tls_frag": false,
             "tls_frag_fall_delay": "",
             "tls_record_frag": false,
-            "utls": ""
+            "utls": "chrome"
         }
     },
     "country": "",
     "dl": "",
-    "gid": 10,
+    "gid": 12,
     "id": 13370,
     "report": "",
     "traffic": {
@@ -45,5 +45,5 @@
     },
     "type": "vless",
     "ul": "",
-    "yc": 0
+    "yc": -1
 }

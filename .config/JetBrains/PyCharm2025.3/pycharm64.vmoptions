@@ -1,0 +1,4 @@
+-Xmx2048m
+-Dide.managed.by.toolbox=/home/mrboomdev/Downloads/jetbrains-toolbox-3.0.0.59313/bin/jetbrains-toolbox
+-Dtoolbox.notification.token=1400de2c-2bd9-4f1f-8e89-d673b37ec5b9
+-Dtoolbox.notification.portFile=/home/mrboomdev/.cache/JetBrains/Toolbox/ports/dfc67a2b-fddf-40ea-9879-a5180f5dcdac.port

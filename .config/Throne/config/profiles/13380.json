@@ -1,15 +1,15 @@
 {
     "bean": {
         "_v": 0,
-        "addr": "plb.tunnelguard.ru",
+        "addr": "nla.tunnelguard.ru",
         "brutal_speed": 0,
         "c_cfg": "",
         "c_out": "",
         "enable_brutal": false,
         "flow": "",
         "mux": 0,
-        "name": "0666 | 🌍 Unknown | VLESS | TG: @STR_BYPASS",
-        "pass": "195573b7-ea63-485e-b2a5-58dd7bbfc9f7",
+        "name": "🇷🇺 Россия 23 | xHTTP",
+        "pass": "8835484a-31ee-4302-9692-a3a6315e9e09",
         "port": 443,
         "stream": {
             "alpn": "h2,http/1.1",
@@ -27,16 +27,16 @@
             "pbk": "",
             "sec": "tls",
             "sid": "",
-            "sni": "plb.tunnelguard.ru",
+            "sni": "nla.tunnelguard.ru",
             "tls_frag": false,
             "tls_frag_fall_delay": "",
             "tls_record_frag": false,
-            "utls": ""
+            "utls": "chrome"
         }
     },
     "country": "",
     "dl": "",
-    "gid": 10,
+    "gid": 12,
     "id": 13380,
     "report": "",
     "traffic": {

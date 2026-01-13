@@ -1,0 +1,49 @@
+{
+    "bean": {
+        "_v": 0,
+        "addr": "verager2.uspn.io",
+        "brutal_speed": 0,
+        "c_cfg": "",
+        "c_out": "",
+        "enable_brutal": false,
+        "flow": "",
+        "mux": 0,
+        "name": "0664 | 🌍 Unknown | TROJAN | TG: @STR_BYPASS",
+        "pass": "ddnkbe753N",
+        "port": 443,
+        "stream": {
+            "alpn": "",
+            "cert": "",
+            "ed_len": 0,
+            "ed_name": "",
+            "h_type": "",
+            "headers": "",
+            "host": "verager2.uspn.io",
+            "insecure": true,
+            "method": "",
+            "net": "ws",
+            "pac_enc": "",
+            "path": "/trojan",
+            "pbk": "",
+            "sec": "tls",
+            "sid": "",
+            "sni": "",
+            "tls_frag": false,
+            "tls_frag_fall_delay": "",
+            "tls_record_frag": false,
+            "utls": ""
+        }
+    },
+    "country": "",
+    "dl": "",
+    "gid": 12,
+    "id": 13024,
+    "report": "",
+    "traffic": {
+        "dl": 0,
+        "ul": 0
+    },
+    "type": "trojan",
+    "ul": "",
+    "yc": -1
+}

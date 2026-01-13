@@ -1,16 +1,15 @@
 {
     "bean": {
         "_v": 0,
-        "addr": "194.246.114.101",
+        "addr": "217.16.27.217",
         "brutal_speed": 0,
         "c_cfg": "",
         "c_out": "",
         "enable_brutal": false,
-        "method": "chacha20-ietf-poly1305",
+        "flow": "xtls-rprx-vision",
         "mux": 0,
-        "name": "🇲🇩MD-194.246.114.101-0448",
-        "pass": "HaNqw9pIE4jcx98sg7UQgHeGNTM4R2pk",
-        "plugin": "",
+        "name": "🇷🇺 VK — #3",
+        "pass": "64bc8910-bc0f-453e-b3f3-a101a5dce03e",
         "port": 443,
         "stream": {
             "alpn": "",
@@ -23,29 +22,28 @@
             "insecure": false,
             "method": "",
             "net": "tcp",
-            "pac_enc": "",
+            "pac_enc": "xudp",
             "path": "",
-            "pbk": "",
-            "sec": "",
-            "sid": "",
-            "sni": "",
+            "pbk": "FkmYFobwxLMLEktYXywmjthuEYCZggITsxwPNasTKUg",
+            "sec": "tls",
+            "sid": "4a3ad88ff867a295",
+            "sni": "ozon.ru",
             "tls_frag": false,
             "tls_frag_fall_delay": "",
             "tls_record_frag": false,
-            "utls": ""
-        },
-        "uot": 0
+            "utls": "chrome"
+        }
     },
     "country": "",
     "dl": "",
-    "gid": 9,
+    "gid": 12,
     "id": 13239,
     "report": "",
     "traffic": {
         "dl": 0,
         "ul": 0
     },
-    "type": "shadowsocks",
+    "type": "vless",
     "ul": "",
-    "yc": 273
+    "yc": -1
 }

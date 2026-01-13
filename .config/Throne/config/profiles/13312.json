@@ -1,15 +1,15 @@
 {
     "bean": {
         "_v": 0,
-        "addr": "yand84.volgaboost.ru",
+        "addr": "90.156.150.229",
         "brutal_speed": 0,
         "c_cfg": "",
         "c_out": "",
         "enable_brutal": false,
         "flow": "xtls-rprx-vision",
         "mux": 0,
-        "name": "0074 | 🏳️ VK | 🌍 Unknown | VLESS | TG: @STR_BYPASS",
-        "pass": "e5017995-2093-491b-a0fa-d4890782d42a",
+        "name": "🇪🇸 Spain — #119",
+        "pass": "71973415-8585-4315-9d7d-b2babfd05c34",
         "port": 8443,
         "stream": {
             "alpn": "",
@@ -24,19 +24,19 @@
             "net": "tcp",
             "pac_enc": "xudp",
             "path": "",
-            "pbk": "IRsjdh3L1r-ci1BTwqOqEqQpzaQsYTm_zPZn7emViEo",
+            "pbk": "zr8_rtHm86s_G1gfRwNtunStGngYZSdYkA3PyBFXpDg",
             "sec": "tls",
-            "sid": "14ae379a3744bf89",
-            "sni": "eh.vk.com",
+            "sid": "28047c78b3f5ee2c",
+            "sni": "tradingview.com",
             "tls_frag": false,
             "tls_frag_fall_delay": "",
             "tls_record_frag": false,
-            "utls": "qq"
+            "utls": "chrome"
         }
     },
     "country": "",
     "dl": "",
-    "gid": 10,
+    "gid": 12,
     "id": 13312,
     "report": "",
     "traffic": {

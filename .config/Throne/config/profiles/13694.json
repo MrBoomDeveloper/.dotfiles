@@ -1,16 +1,17 @@
 {
     "bean": {
         "_v": 0,
-        "addr": "130.193.35.232",
+        "addr": "151.242.251.153",
         "brutal_speed": 0,
         "c_cfg": "",
         "c_out": "",
         "enable_brutal": false,
-        "flow": "xtls-rprx-vision",
+        "method": "chacha20-ietf-poly1305",
         "mux": 0,
-        "name": "🇮🇹 Italy — #150",
-        "pass": "7db2fbe9-b42a-4435-b823-2b0b52cbe753",
-        "port": 443,
+        "name": "🇳🇱 The Netherlands",
+        "pass": "QCXDxuDlTTMD7jtgHUjIoj",
+        "plugin": "",
+        "port": 8080,
         "stream": {
             "alpn": "",
             "cert": "",
@@ -22,28 +23,29 @@
             "insecure": false,
             "method": "",
             "net": "tcp",
-            "pac_enc": "xudp",
+            "pac_enc": "",
             "path": "",
-            "pbk": "_CjW0Khlrr5z5oc9Oy6-w2ZEanz-zMBktVn5EOX9oTM",
-            "sec": "tls",
-            "sid": "f32140952ba18e18",
-            "sni": "tradingview.com",
+            "pbk": "",
+            "sec": "",
+            "sid": "",
+            "sni": "",
             "tls_frag": false,
             "tls_frag_fall_delay": "",
             "tls_record_frag": false,
-            "utls": "chrome"
-        }
+            "utls": ""
+        },
+        "uot": 0
     },
     "country": "",
     "dl": "",
-    "gid": 10,
+    "gid": 12,
     "id": 13694,
     "report": "",
     "traffic": {
         "dl": 0,
         "ul": 0
     },
-    "type": "vless",
+    "type": "shadowsocks",
     "ul": "",
     "yc": -1
 }

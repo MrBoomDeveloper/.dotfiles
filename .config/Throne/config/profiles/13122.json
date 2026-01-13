@@ -1,17 +1,17 @@
 {
     "bean": {
         "_v": 0,
-        "addr": "38.165.231.25",
+        "addr": "93.186.201.64",
         "brutal_speed": 0,
         "c_cfg": "",
         "c_out": "",
         "enable_brutal": false,
         "method": "chacha20-ietf-poly1305",
         "mux": 0,
-        "name": "🇪🇨EC-38.165.231.25-0433",
-        "pass": "ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=",
+        "name": "🇩🇪 Germany, Düsseldorf [BL]",
+        "pass": "345dbf842bce4b66",
         "plugin": "",
-        "port": 990,
+        "port": 57456,
         "stream": {
             "alpn": "",
             "cert": "",
@@ -38,7 +38,7 @@
     },
     "country": "",
     "dl": "",
-    "gid": 9,
+    "gid": 12,
     "id": 13122,
     "report": "",
     "traffic": {

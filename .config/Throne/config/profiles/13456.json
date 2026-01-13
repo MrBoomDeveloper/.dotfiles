@@ -1,16 +1,17 @@
 {
     "bean": {
         "_v": 0,
-        "addr": "tbankru.outlinekeys.net",
+        "addr": "81.19.141.45",
         "brutal_speed": 0,
         "c_cfg": "",
         "c_out": "",
         "enable_brutal": false,
-        "flow": "",
+        "method": "chacha20-ietf-poly1305",
         "mux": 0,
-        "name": "🇪🇪 Эстония  xHTTP тгк: @STR_BYPASS",
-        "pass": "eb162ab1-a006-4931-b1b3-8fc88a22b10e",
-        "port": 8443,
+        "name": "🔥PORTAL Telegram:@STR_BYPASS🟣",
+        "pass": "T6d3oVRRWoILe94FP8UDOP",
+        "plugin": "",
+        "port": 443,
         "stream": {
             "alpn": "",
             "cert": "",
@@ -21,29 +22,30 @@
             "host": "",
             "insecure": false,
             "method": "",
-            "net": "xhttp",
-            "pac_enc": "xudp",
+            "net": "tcp",
+            "pac_enc": "",
             "path": "",
-            "pbk": "JmO_njtIe9q7HRanm_dx4BtPAGCkycJuDskOISPx_Sg",
-            "sec": "tls",
+            "pbk": "",
+            "sec": "",
             "sid": "",
-            "sni": "01.img.avito.st",
+            "sni": "",
             "tls_frag": false,
             "tls_frag_fall_delay": "",
             "tls_record_frag": false,
             "utls": ""
-        }
+        },
+        "uot": 0
     },
     "country": "",
     "dl": "",
-    "gid": 10,
+    "gid": 12,
     "id": 13456,
     "report": "",
     "traffic": {
         "dl": 0,
         "ul": 0
     },
-    "type": "vless",
+    "type": "shadowsocks",
     "ul": "",
-    "yc": 0
+    "yc": -1
 }

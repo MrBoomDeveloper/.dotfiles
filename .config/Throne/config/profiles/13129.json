@@ -1,17 +1,17 @@
 {
     "bean": {
         "_v": 0,
-        "addr": "45.87.175.171",
+        "addr": "139.60.162.224",
         "brutal_speed": 0,
         "c_cfg": "",
         "c_out": "",
         "enable_brutal": false,
         "method": "chacha20-ietf-poly1305",
         "mux": 0,
-        "name": "🇱🇹LT-45.87.175.171-4847",
-        "pass": "cvII85TrW6n0OGyfpHVS1u",
+        "name": "🇺🇸 United States, New York [BL]",
+        "pass": "xx9kbqWyZfcJEC-nm0ktkg",
         "plugin": "",
-        "port": 8080,
+        "port": 1080,
         "stream": {
             "alpn": "",
             "cert": "",
@@ -38,7 +38,7 @@
     },
     "country": "",
     "dl": "",
-    "gid": 9,
+    "gid": 12,
     "id": 13129,
     "report": "",
     "traffic": {

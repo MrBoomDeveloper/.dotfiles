@@ -1,0 +1,51 @@
+<application>
+  <component name="FileEditorProviderManager">{}</component>
+  <component name="NotRoamableUiSettings">
+    <option name="fontSize" value="15.0" />
+    <option name="presentationModeIdeScale" value="1.75" />
+  </component>
+  <component name="PropertyService"><![CDATA[{
+  "keyToString": {
+    "MarketplacePluginsSearchHistory": "/tag:\"Language Pack\"\ncompose\ncompose=\ncom\nc",
+    "PluginConfigurable.selectionTab": "1",
+    "RunOnceActivity.TerminalOptionsProvider.migration.2025.1.1": "true",
+    "RunOnceActivity.VFSInitializationConditionsToFusReporter": "true",
+    "RunOnceActivity.cache.folding.model.on.disk.true": "true",
+    "RunOnceActivity.cidr.test.framework.showIndexingAsTask": "true",
+    "RunOnceActivity.cidr.test.roots.only": "true",
+    "RunOnceActivity.reset.auto.reparse.settings.to.default": "true",
+    "SAVED_ANDROID_NPW_LANGUAGE": "Kotlin",
+    "SettingsSearchHistory": "canar\ngradle\njava\njdk",
+    "ask.about.ctrl.y.shortcut.v2": "true",
+    "build.toolwindow.Sync.selection.state": "com.intellij.build.BuildTreeConsoleView",
+    "com.google.aiplugin.rag.indexer.implementation": "com.google.aiplugin.rag.bm25.Bm25IndexerImpl/v3",
+    "defaultJdkConfigured": "true",
+    "experimental.ui.used.version": "252.28238.7.2523.14678998",
+    "fileTypeChangedCounter": "5",
+    "fontSizeToResetConsole": "14.0",
+    "fontSizeToResetEditor": "14.0",
+    "got.it.tooltip.Plugins Auto-Update": "1",
+    "ide.islands.ab3": "true",
+    "ide.updates.old.dirs.scan.scheduled": "1768682768038",
+    "input.method.disabler.muted": "true",
+    "installed.kotlin.plugin.version": "252.28238.7.2523.14678998-AS",
+    "last_opened_file_path": "/home/mrboomdev/IdeaProjects/ArchiveTune",
+    "migrate.android.sdk.path.to.roamable.storage": "false",
+    "migrated.non.roamable.values.from.general.settings": "true",
+    "previousColorScheme": "_@user_Catppuccin Mocha",
+    "registry.to.advanced.settings.migration.build": "AI-252.28238.7.2523.14678998",
+    "terminal.gen.one.option.visible": "false",
+    "terminal.is.new.user": "true"
+  },
+  "keyToStringList": {
+    "file.chooser.recent.files": [
+      "/home/mrboomdev/IdeaProjects/ArchiveTune"
+    ],
+    "fileTypeDetectors": [
+      "com.intellij.ide.scratch.ScratchFileServiceImpl$Detector",
+      "com.android.tools.idea.profilers.capture.MemoryCaptureFileType$Detector",
+      "com.jetbrains.cidr.lang.OCHeaderFileTypeDetector"
+    ]
+  }
+}]]></component>
+</application>

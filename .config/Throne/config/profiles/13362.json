@@ -1,42 +1,42 @@
 {
     "bean": {
         "_v": 0,
-        "addr": "64.188.64.234",
+        "addr": "158.160.198.23",
         "brutal_speed": 0,
         "c_cfg": "",
         "c_out": "",
         "enable_brutal": false,
-        "flow": "",
+        "flow": "xtls-rprx-vision",
         "mux": 0,
-        "name": "0578 | 🇩🇪 Germany | VLESS | TG: @STR_BYPASS",
-        "pass": "7c63f43f-f526-49bb-b5c8-2be26e11ef00",
-        "port": 443,
+        "name": "🇹🇷 Türkiye — #180",
+        "pass": "50f5dff3-c6c9-4cf8-a7d0-794350b3a3cb",
+        "port": 8443,
         "stream": {
-            "alpn": "h2",
+            "alpn": "",
             "cert": "",
             "ed_len": 0,
             "ed_name": "",
             "h_type": "",
             "headers": "",
             "host": "",
-            "insecure": true,
+            "insecure": false,
             "method": "",
-            "net": "xhttp",
+            "net": "tcp",
             "pac_enc": "xudp",
             "path": "",
-            "pbk": "",
+            "pbk": "zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04",
             "sec": "tls",
-            "sid": "",
-            "sni": "statue.lnmarketplace.net",
+            "sid": "c6ef72e4635d15a5",
+            "sni": "tradingview.com",
             "tls_frag": false,
             "tls_frag_fall_delay": "",
             "tls_record_frag": false,
-            "utls": "firefox"
+            "utls": "chrome"
         }
     },
     "country": "",
     "dl": "",
-    "gid": 10,
+    "gid": 12,
     "id": 13362,
     "report": "",
     "traffic": {
@@ -45,5 +45,5 @@
     },
     "type": "vless",
     "ul": "",
-    "yc": 0
+    "yc": -1
 }

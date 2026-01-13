@@ -1,0 +1,5 @@
+-Dide.managed.by.toolbox=/home/mrboomdev/Downloads/jetbrains-toolbox-3.0.0.59313/bin/jetbrains-toolbox
+-Dtoolbox.notification.token=36d3af07-c329-43d0-8db6-410f1831f403
+-Dtoolbox.notification.portFile=/home/mrboomdev/.cache/JetBrains/Toolbox/ports/75b858f1-37c4-4f1d-9d6f-7dd493332292.port
+-Dawt.toolkit.name=WLToolkit
+-Xmx2048m

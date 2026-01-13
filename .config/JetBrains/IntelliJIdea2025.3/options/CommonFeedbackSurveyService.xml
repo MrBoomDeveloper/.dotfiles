@@ -1,0 +1,8 @@
+<application>
+  <component name="CommonFeedbackSurveyService"><![CDATA[{
+  "feedbackSurveyToNumberNotificationShows": {
+    "kotlin_gradle_build_process_feedback": 2,
+    "csat_feedback": 1
+  }
+}]]></component>
+</application>

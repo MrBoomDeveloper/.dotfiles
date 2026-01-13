@@ -1,30 +1,30 @@
 {
     "bean": {
         "_v": 0,
-        "addr": "178.173.250.47",
+        "addr": "156.238.238.194",
+        "aid": 0,
         "brutal_speed": 0,
         "c_cfg": "",
         "c_out": "",
         "enable_brutal": false,
-        "method": "chacha20-ietf-poly1305",
+        "id": "0524236a-e217-4cf3-9223-968a290ffce7",
         "mux": 0,
-        "name": "🇳🇱 Netherlands, Amsterdam [BL]",
-        "pass": "5LD874oS39jQ26cT97NaAo",
-        "plugin": "",
-        "port": 56033,
+        "name": "🔥Join+Telegram:@Farah_VPN🟣",
+        "port": 47296,
+        "sec": "auto",
         "stream": {
             "alpn": "",
             "cert": "",
             "ed_len": 0,
             "ed_name": "",
-            "h_type": "",
+            "h_type": "---",
             "headers": "",
             "host": "",
             "insecure": false,
             "method": "",
-            "net": "tcp",
+            "net": "ws",
             "pac_enc": "",
-            "path": "",
+            "path": "/",
             "pbk": "",
             "sec": "",
             "sid": "",
@@ -33,19 +33,18 @@
             "tls_frag_fall_delay": "",
             "tls_record_frag": false,
             "utls": ""
-        },
-        "uot": 0
+        }
     },
     "country": "",
     "dl": "",
-    "gid": 10,
+    "gid": 12,
     "id": 13481,
     "report": "",
     "traffic": {
         "dl": 0,
         "ul": 0
     },
-    "type": "shadowsocks",
+    "type": "vmess",
     "ul": "",
-    "yc": 76
+    "yc": -1
 }

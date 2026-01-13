@@ -116,23 +116,39 @@
         </entry>
         <entry key="$USER_HOME$/IdeaProjects/Awery">
           <value>
-            <RecentProjectMetaInfo opened="true" projectWorkspaceId="34I4fJlCyB9KCIhOFm6jNUX8Y53">
-              <option name="activationTimestamp" value="1767670798991" />
+            <RecentProjectMetaInfo frameTitle="Awery – Main.kt [Awery.app.desktopMain]" projectWorkspaceId="34I4fJlCyB9KCIhOFm6jNUX8Y53">
+              <option name="activationTimestamp" value="1768066551261" />
               <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
               <option name="build" value="IC-252.27397.103" />
               <option name="buildTimestamp" value="1761196320000" />
               <option name="colorInfo">
                 <RecentProjectColorInfo associatedIndex="5" />
               </option>
-              <frame x="260" y="40" width="952" height="1038" extendedState="6" />
+              <frame x="260" y="40" width="1910" height="1038" extendedState="6" />
               <option name="productionCode" value="IC" />
               <option name="projectOpenTimestamp" value="1766851868024" />
             </RecentProjectMetaInfo>
           </value>
         </entry>
+        <entry key="$USER_HOME$/IdeaProjects/ArchiveTune">
+          <value>
+            <RecentProjectMetaInfo frameTitle="ArchiveTune – App.kt" opened="true" projectWorkspaceId="384lmqgNP0bUI0nuhpPfd1S1PSd">
+              <option name="activationTimestamp" value="1768070183896" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IC-252.27397.103" />
+              <option name="buildTimestamp" value="1761196320000" />
+              <option name="colorInfo">
+                <RecentProjectColorInfo associatedIndex="4" />
+              </option>
+              <frame x="260" y="40" width="952" height="1038" extendedState="6" />
+              <option name="productionCode" value="IC" />
+              <option name="projectOpenTimestamp" value="1768066885294" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
       </map>
     </option>
-    <option name="lastOpenedProject" value="$USER_HOME$/IdeaProjects/Awery" />
+    <option name="lastOpenedProject" value="$USER_HOME$/IdeaProjects/ArchiveTune" />
     <option name="lastProjectLocation" value="$USER_HOME$/IdeaProjects" />
   </component>
 </application>

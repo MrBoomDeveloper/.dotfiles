@@ -1,0 +1,88 @@
+Git4Idea|Version Controls
+
+JUnit|Test Tools
+
+androidx.compose.plugins.idea|Android
+
+com.android.tools.apk|null
+
+com.android.tools.design|Android
+
+com.android.tools.gradle.dcl|null
+
+com.android.tools.idea.smali|Android
+
+com.android.tools.ndk|null
+
+com.google.tools.ij.aiplugin|null
+
+com.google.urlassistant|null
+
+com.intellij.cidr.base|null
+
+com.intellij.cidr.debugger|null
+
+com.intellij.cidr.lang.clangdBridge|null
+
+com.intellij.cidr.lang.clangd|null
+
+com.intellij.cidr.lang|Languages
+
+com.intellij.completion.ml.ranking|Local AI/ML Tools
+
+com.intellij.compose|Kotlin Frameworks
+
+com.intellij.configurationScript|null
+
+com.intellij.gradle|Build Tools
+
+com.intellij.java.ide|null
+
+com.intellij.java|Languages
+
+com.intellij.modules.json|Languages
+
+com.intellij.platform.images|null
+
+com.intellij.properties|Languages
+
+com.intellij.turboComplete|Local AI/ML Tools
+
+com.intellij|null
+
+intellij.webp|null
+
+org.intellij.groovy|Languages
+
+org.intellij.intelliLang|Other Tools
+
+org.intellij.plugins.markdown|Languages
+
+org.jetbrains.android|Android
+
+org.jetbrains.idea.maven.model|null
+
+org.jetbrains.idea.maven.server.api|null
+
+org.jetbrains.idea.reposearch|null
+
+org.jetbrains.java.decompiler|Other Tools
+
+org.jetbrains.kotlin|Languages
+
+org.jetbrains.plugins.clangConfig|null
+
+org.jetbrains.plugins.clangFormat|null
+
+org.jetbrains.plugins.emojipicker|Other Tools
+
+org.jetbrains.plugins.github|Version Controls
+
+org.jetbrains.plugins.gradle|null
+
+org.jetbrains.plugins.terminal|Other Tools
+
+org.jetbrains.plugins.yaml|Languages
+
+org.toml.lang|Languages
+

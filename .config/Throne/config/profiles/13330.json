@@ -1,16 +1,16 @@
 {
     "bean": {
         "_v": 0,
-        "addr": "45.139.26.152",
+        "addr": "130.193.59.3",
         "brutal_speed": 0,
         "c_cfg": "",
         "c_out": "",
         "enable_brutal": false,
         "flow": "xtls-rprx-vision",
         "mux": 0,
-        "name": "0172 | 🏳️ VK | 🇷🇺 Russia | VLESS | TG: @STR_BYPASS",
-        "pass": "7fc953d6-ae75-46fb-a970-10b57d513487",
-        "port": 7443,
+        "name": "🇭🇺 Hungary — #138",
+        "pass": "291a2db3-04b5-4089-af90-adb5d1ce05ff",
+        "port": 8443,
         "stream": {
             "alpn": "",
             "cert": "",
@@ -24,19 +24,19 @@
             "net": "tcp",
             "pac_enc": "xudp",
             "path": "",
-            "pbk": "BTkKaFt2xac4xAHn3EXrBKV0d8ItHSfciMFnxg57BGA",
+            "pbk": "7zd9mJilgjOrg_ohtw23Vmio-pdnYqeP_r-kiWt87Cg",
             "sec": "tls",
-            "sid": "fd88bd27db4cc661",
-            "sni": "eh.vk.com",
+            "sid": "2715592069f36fe7",
+            "sni": "tradingview.com",
             "tls_frag": false,
             "tls_frag_fall_delay": "",
             "tls_record_frag": false,
-            "utls": "random"
+            "utls": "chrome"
         }
     },
     "country": "",
     "dl": "",
-    "gid": 10,
+    "gid": 12,
     "id": 13330,
     "report": "",
     "traffic": {
@@ -45,5 +45,5 @@
     },
     "type": "vless",
     "ul": "",
-    "yc": 66
+    "yc": -1
 }

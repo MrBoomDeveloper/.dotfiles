@@ -1,16 +1,16 @@
 {
     "bean": {
         "_v": 0,
-        "addr": "0ru84.tcpdoor.net",
+        "addr": "89.208.229.39",
         "brutal_speed": 0,
         "c_cfg": "",
         "c_out": "",
         "enable_brutal": false,
-        "flow": "",
+        "flow": "xtls-rprx-vision",
         "mux": 0,
-        "name": "0488 | 🌍 Unknown | VLESS | TG: @STR_BYPASS",
-        "pass": "0f6c83bc-34ba-4ca1-96e6-08b3620cbce5",
-        "port": 443,
+        "name": "🇵🇱 Poland — #159",
+        "pass": "e5017995-2093-491b-a0fa-d4890782d42a",
+        "port": 9443,
         "stream": {
             "alpn": "",
             "cert": "",
@@ -24,19 +24,19 @@
             "net": "tcp",
             "pac_enc": "xudp",
             "path": "",
-            "pbk": "RHUQAGJ_MYNKsZt2XO_DATEm1cQh0Rdpz83DTCGSKl0",
+            "pbk": "quKh5fWN1szzqwVcWJg7SIXfFFFQf3M1K0YiE_bjVDQ",
             "sec": "tls",
-            "sid": "740d6f2e",
-            "sni": "0ru84.tcpdoor.net",
+            "sid": "258d1a24fe8f0593",
+            "sni": "api-maps.yandex.ru",
             "tls_frag": false,
             "tls_frag_fall_delay": "",
             "tls_record_frag": false,
-            "utls": "firefox"
+            "utls": "chrome"
         }
     },
     "country": "",
     "dl": "",
-    "gid": 10,
+    "gid": 12,
     "id": 13343,
     "report": "",
     "traffic": {

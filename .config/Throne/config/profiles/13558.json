@@ -1,16 +1,16 @@
 {
     "bean": {
         "_v": 0,
-        "addr": "45.144.48.192",
+        "addr": "162.19.175.55",
         "brutal_speed": 0,
         "c_cfg": "",
         "c_out": "",
         "enable_brutal": false,
         "flow": "xtls-rprx-vision",
         "mux": 0,
-        "name": "🇵🇱 Poland, Warsaw [BL]",
-        "pass": "787ae54e-40ad-4caf-899b-ad3a19ff1103",
-        "port": 8443,
+        "name": "🇩🇪 PORTAL Telegram:@STR_BYPASS 304480",
+        "pass": "c2ec47f4-873f-573f-7d8d-d79d7ad452e6",
+        "port": 9954,
         "stream": {
             "alpn": "",
             "cert": "",
@@ -24,10 +24,10 @@
             "net": "tcp",
             "pac_enc": "xudp",
             "path": "",
-            "pbk": "UBwue-cEE6w4gTS4dngQng5JEykNTR6d9f65p6RyA2w",
+            "pbk": "YWfCdTnr4FAOMYTY2dLrMtQUokyxOGpPhYEEszPj20E",
             "sec": "tls",
-            "sid": "50c860b05993532d",
-            "sni": "discordapp.com",
+            "sid": "",
+            "sni": "store.steampowered.com",
             "tls_frag": false,
             "tls_frag_fall_delay": "",
             "tls_record_frag": false,
@@ -36,7 +36,7 @@
     },
     "country": "",
     "dl": "",
-    "gid": 10,
+    "gid": 12,
     "id": 13558,
     "report": "",
     "traffic": {
@@ -45,5 +45,5 @@
     },
     "type": "vless",
     "ul": "",
-    "yc": 98
+    "yc": -1
 }

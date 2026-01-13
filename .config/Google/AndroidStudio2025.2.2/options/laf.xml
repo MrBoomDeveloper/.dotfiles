@@ -1,0 +1,9 @@
+<application>
+  <component name="LafManager">
+    <laf themeId="com.github.catppuccin.mocha.jetbrains" />
+    <lafs-to-previous-schemes>
+      <laf-to-scheme laf="89af85a8-555f-447d-979a-a86e05828058" scheme="_@user_Dark purple" />
+      <laf-to-scheme laf="skill-theme-blackout" scheme="_@user_New Dark" />
+    </lafs-to-previous-schemes>
+  </component>
+</application>

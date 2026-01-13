@@ -1,16 +1,17 @@
 {
     "bean": {
         "_v": 0,
-        "addr": "109.120.188.14",
+        "addr": "193.29.139.240",
         "brutal_speed": 0,
         "c_cfg": "",
         "c_out": "",
         "enable_brutal": false,
-        "flow": "xtls-rprx-vision",
+        "method": "chacha20-ietf-poly1305",
         "mux": 0,
-        "name": "🇵🇱 Poland — #173",
-        "pass": "55d5c995-b3c7-4055-98d2-af263d7ba8f1",
-        "port": 5443,
+        "name": "🇳🇱 The Netherlands",
+        "pass": "oZIoA69Q8yhcQV8ka3Pa3A",
+        "plugin": "",
+        "port": 8080,
         "stream": {
             "alpn": "",
             "cert": "",
@@ -22,28 +23,29 @@
             "insecure": false,
             "method": "",
             "net": "tcp",
-            "pac_enc": "xudp",
+            "pac_enc": "",
             "path": "",
-            "pbk": "jDA5u7KewO2XfKNT7OTOqIHyWu8-I32xuTDFVWcwJyA",
-            "sec": "tls",
-            "sid": "09eebbb25f39d7ce",
-            "sni": "max.ru",
+            "pbk": "",
+            "sec": "",
+            "sid": "",
+            "sni": "",
             "tls_frag": false,
             "tls_frag_fall_delay": "",
             "tls_record_frag": false,
-            "utls": "chrome"
-        }
+            "utls": ""
+        },
+        "uot": 0
     },
     "country": "",
     "dl": "",
-    "gid": 10,
+    "gid": 12,
     "id": 13710,
     "report": "",
     "traffic": {
         "dl": 0,
         "ul": 0
     },
-    "type": "vless",
+    "type": "shadowsocks",
     "ul": "",
-    "yc": -1
+    "yc": 86
 }

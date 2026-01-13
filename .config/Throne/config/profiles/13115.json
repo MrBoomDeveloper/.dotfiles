@@ -1,17 +1,16 @@
 {
     "bean": {
         "_v": 0,
-        "addr": "103.35.189.136",
+        "addr": "2-germany.geodema.network",
         "brutal_speed": 0,
         "c_cfg": "",
         "c_out": "",
         "enable_brutal": false,
-        "method": "chacha20-ietf-poly1305",
+        "flow": "xtls-rprx-vision",
         "mux": 0,
-        "name": "🇲🇩MD-103.35.189.136-0276",
-        "pass": "SS2QvbC9nqLp2sXXZo0BVy4slcErRuCt",
-        "plugin": "",
-        "port": 443,
+        "name": "🇩🇪 Frankfurt Germany 1 [SNI only] sni=eh.vk.com",
+        "pass": "eb7c7631-6c7c-4f34-a65a-974b4565d01d",
+        "port": 8443,
         "stream": {
             "alpn": "",
             "cert": "",
@@ -23,29 +22,28 @@
             "insecure": false,
             "method": "",
             "net": "tcp",
-            "pac_enc": "",
+            "pac_enc": "xudp",
             "path": "",
-            "pbk": "",
-            "sec": "",
-            "sid": "",
-            "sni": "",
+            "pbk": "8OsJx6xuHcpL_5e1w0U4bMBa-icevDgvvzNwPwZbORQ",
+            "sec": "tls",
+            "sid": "5540e44a53c3d01c",
+            "sni": "eh.vk.com",
             "tls_frag": false,
             "tls_frag_fall_delay": "",
             "tls_record_frag": false,
-            "utls": ""
-        },
-        "uot": 0
+            "utls": "chrome"
+        }
     },
     "country": "",
     "dl": "",
-    "gid": 9,
+    "gid": 12,
     "id": 13115,
     "report": "",
     "traffic": {
         "dl": 0,
         "ul": 0
     },
-    "type": "shadowsocks",
+    "type": "vless",
     "ul": "",
-    "yc": 200
+    "yc": 563
 }

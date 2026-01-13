@@ -1,16 +1,15 @@
 {
     "bean": {
         "_v": 0,
-        "addr": "45.83.131.43",
+        "addr": "146.19.230.221",
         "brutal_speed": 0,
         "c_cfg": "",
         "c_out": "",
         "enable_brutal": false,
-        "method": "chacha20-ietf-poly1305",
+        "flow": "",
         "mux": 0,
-        "name": "🇸🇮SI-45.83.131.43-0354",
-        "pass": "HfAiyrdFbKJuKIQkGjvJrDFefmH8YDSC",
-        "plugin": "",
+        "name": "🇬🇧 United Kingdom, London [BL]",
+        "pass": "e615a5ba-fce3-4ffa-9c86-b0327a8a107a",
         "port": 443,
         "stream": {
             "alpn": "",
@@ -20,32 +19,31 @@
             "h_type": "",
             "headers": "",
             "host": "",
-            "insecure": false,
+            "insecure": true,
             "method": "",
-            "net": "tcp",
-            "pac_enc": "",
-            "path": "",
+            "net": "ws",
+            "pac_enc": "xudp",
+            "path": "/hormoz",
             "pbk": "",
-            "sec": "",
+            "sec": "tls",
             "sid": "",
             "sni": "",
             "tls_frag": false,
             "tls_frag_fall_delay": "",
             "tls_record_frag": false,
             "utls": ""
-        },
-        "uot": 0
+        }
     },
     "country": "",
     "dl": "",
-    "gid": 9,
+    "gid": 12,
     "id": 13190,
     "report": "",
     "traffic": {
         "dl": 0,
         "ul": 0
     },
-    "type": "shadowsocks",
+    "type": "vless",
     "ul": "",
-    "yc": 106
+    "yc": -1
 }

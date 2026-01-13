@@ -1,17 +1,17 @@
 {
     "bean": {
         "_v": 0,
-        "addr": "151.242.251.147",
+        "addr": "45.138.157.162",
         "brutal_speed": 0,
         "c_cfg": "",
         "c_out": "",
         "enable_brutal": false,
         "method": "chacha20-ietf-poly1305",
         "mux": 0,
-        "name": "🇦🇪AE-151.242.251.147-0312",
-        "pass": "QCXDxuDlTTMD7jtgHUjIoj",
+        "name": "🇷🇺 Russia, Moscow [BL]",
+        "pass": "qFAJdBEqsI71jaSML67nHoPBCGhX94uk",
         "plugin": "",
-        "port": 8080,
+        "port": 443,
         "stream": {
             "alpn": "",
             "cert": "",
@@ -38,7 +38,7 @@
     },
     "country": "",
     "dl": "",
-    "gid": 9,
+    "gid": 12,
     "id": 13127,
     "report": "",
     "traffic": {
@@ -47,5 +47,5 @@
     },
     "type": "shadowsocks",
     "ul": "",
-    "yc": -1
+    "yc": 53
 }

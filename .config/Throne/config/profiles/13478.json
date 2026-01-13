@@ -1,17 +1,17 @@
 {
     "bean": {
         "_v": 0,
-        "addr": "212.224.125.154",
+        "addr": "209.74.82.227",
         "brutal_speed": 0,
         "c_cfg": "",
         "c_out": "",
         "enable_brutal": false,
         "method": "chacha20-ietf-poly1305",
         "mux": 0,
-        "name": "🇩🇪 Germany, Frankfurt [BL]",
-        "pass": "6a85b249286a74a9",
+        "name": "🔥PORTAL Telegram:@STR_BYPASS🟣",
+        "pass": "uA1rLP5m0mMOQ8FcxRXxgr",
         "plugin": "",
-        "port": 57456,
+        "port": 26515,
         "stream": {
             "alpn": "",
             "cert": "",
@@ -38,7 +38,7 @@
     },
     "country": "",
     "dl": "",
-    "gid": 10,
+    "gid": 12,
     "id": 13478,
     "report": "",
     "traffic": {

@@ -1,0 +1,12 @@
+<application>
+  <component name="TimeBetweenTyping">
+    <dailyDataMap>
+      <entry key="2026-01-11">
+        <DailyData>
+          <option name="count" value="806" />
+          <option name="totalTime" value="567886" />
+        </DailyData>
+      </entry>
+    </dailyDataMap>
+  </component>
+</application>

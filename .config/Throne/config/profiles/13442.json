@@ -1,16 +1,17 @@
 {
     "bean": {
         "_v": 0,
-        "addr": "144.31.74.41",
+        "addr": "77.238.224.29",
         "brutal_speed": 0,
         "c_cfg": "",
         "c_out": "",
         "enable_brutal": false,
-        "flow": "",
+        "method": "chacha20-ietf-poly1305",
         "mux": 0,
-        "name": "🇩🇪 Germany — #115",
-        "pass": "cef12ad2-fb16-4ace-ab26-2a026d40a7d2",
-        "port": 8443,
+        "name": "🔥PORTAL Telegram:@STR_BYPASS🟣",
+        "pass": "S2QudBxi0vRySw4YRLloPq",
+        "plugin": "",
+        "port": 55702,
         "stream": {
             "alpn": "",
             "cert": "",
@@ -21,29 +22,30 @@
             "host": "",
             "insecure": false,
             "method": "",
-            "net": "grpc",
-            "pac_enc": "xudp",
+            "net": "tcp",
+            "pac_enc": "",
             "path": "",
-            "pbk": "LB2i67ErtJPlIIDeDHlGvSip6-qPJLH9HzYju5fZ32c",
-            "sec": "tls",
-            "sid": "2916",
-            "sni": "sun6-21.userapi.com",
+            "pbk": "",
+            "sec": "",
+            "sid": "",
+            "sni": "",
             "tls_frag": false,
             "tls_frag_fall_delay": "",
             "tls_record_frag": false,
-            "utls": "chrome"
-        }
+            "utls": ""
+        },
+        "uot": 0
     },
     "country": "",
     "dl": "",
-    "gid": 10,
+    "gid": 12,
     "id": 13442,
     "report": "",
     "traffic": {
-        "dl": 0,
-        "ul": 0
+        "dl": 33434,
+        "ul": 17935
     },
-    "type": "vless",
+    "type": "shadowsocks",
     "ul": "",
-    "yc": -1
+    "yc": 73
 }

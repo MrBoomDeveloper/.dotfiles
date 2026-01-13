@@ -1,42 +1,42 @@
 {
     "bean": {
         "_v": 0,
-        "addr": "188.72.103.3",
+        "addr": "217.16.24.170",
         "brutal_speed": 0,
         "c_cfg": "",
         "c_out": "",
         "enable_brutal": false,
-        "flow": "",
+        "flow": "xtls-rprx-vision",
         "mux": 0,
-        "name": "0728 | 🇦🇪 United Arab Emirates | VLESS | TG: @STR_BYPASS",
-        "pass": "94c5797e-46ad-4e62-b9cb-c5c5068e47a7",
+        "name": "🇷🇺 VK — #1",
+        "pass": "a91e64f0-9295-499d-bf4a-661ad99d4938",
         "port": 443,
         "stream": {
-            "alpn": "h2,http/1.1",
+            "alpn": "",
             "cert": "",
             "ed_len": 0,
             "ed_name": "",
             "h_type": "",
             "headers": "",
             "host": "",
-            "insecure": true,
+            "insecure": false,
             "method": "",
-            "net": "xhttp",
+            "net": "tcp",
             "pac_enc": "xudp",
             "path": "",
-            "pbk": "",
+            "pbk": "8OsJx6xuHcpL_5e1w0U4bMBa-icevDgvvzNwPwZbORQ",
             "sec": "tls",
-            "sid": "",
-            "sni": "ws.fjdjdjfjd.icu",
+            "sid": "5540e44a53c3d01c",
+            "sni": "api-maps.yandex.ru",
             "tls_frag": false,
             "tls_frag_fall_delay": "",
             "tls_record_frag": false,
-            "utls": "qq"
+            "utls": "chrome"
         }
     },
     "country": "",
     "dl": "",
-    "gid": 10,
+    "gid": 12,
     "id": 13399,
     "report": "",
     "traffic": {
@@ -45,5 +45,5 @@
     },
     "type": "vless",
     "ul": "",
-    "yc": 0
+    "yc": -1
 }

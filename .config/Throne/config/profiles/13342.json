@@ -1,16 +1,16 @@
 {
     "bean": {
         "_v": 0,
-        "addr": "rf4.sernett.ir",
+        "addr": "84.252.137.241",
         "brutal_speed": 0,
         "c_cfg": "",
         "c_out": "",
         "enable_brutal": false,
-        "flow": "",
+        "flow": "xtls-rprx-vision",
         "mux": 0,
-        "name": "0460 | 🌍 Unknown | VLESS | TG: @STR_BYPASS",
-        "pass": "SERVERNETT-SERVERNETT1",
-        "port": 80,
+        "name": "🇳🇱 The Netherlands — #158",
+        "pass": "e5017995-2093-491b-a0fa-d4890782d42a",
+        "port": 8443,
         "stream": {
             "alpn": "",
             "cert": "",
@@ -21,22 +21,22 @@
             "host": "",
             "insecure": false,
             "method": "",
-            "net": "xhttp",
+            "net": "tcp",
             "pac_enc": "xudp",
             "path": "",
-            "pbk": "",
-            "sec": "",
-            "sid": "",
-            "sni": "",
+            "pbk": "IRsjdh3L1r-ci1BTwqOqEqQpzaQsYTm_zPZn7emViEo",
+            "sec": "tls",
+            "sid": "14ae379a3744bf89",
+            "sni": "eh.vk.com",
             "tls_frag": false,
             "tls_frag_fall_delay": "",
             "tls_record_frag": false,
-            "utls": ""
+            "utls": "chrome"
         }
     },
     "country": "",
     "dl": "",
-    "gid": 10,
+    "gid": 12,
     "id": 13342,
     "report": "",
     "traffic": {
@@ -45,5 +45,5 @@
     },
     "type": "vless",
     "ul": "",
-    "yc": 0
+    "yc": -1
 }

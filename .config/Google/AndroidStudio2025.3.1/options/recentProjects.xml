@@ -1,0 +1,25 @@
+<application>
+  <component name="RecentProjectsManager">
+    <option name="additionalInfo">
+      <map>
+        <entry key="$USER_HOME$/StudioProjects/ArchiveTune">
+          <value>
+            <RecentProjectMetaInfo frameTitle="ArchiveTune – MainActivity.kt [ArchiveTune.app.main]" opened="true" projectWorkspaceId="385K053Ue3sFs967YGC9YEEZjyn">
+              <option name="activationTimestamp" value="1768089862393" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="AI-253.29346.138.2531.14682307" />
+              <option name="buildTimestamp" value="1767879600000" />
+              <option name="colorInfo">
+                <RecentProjectColorInfo associatedIndex="7" />
+              </option>
+              <frame x="260" y="40" width="952" height="1038" extendedState="6" />
+              <option name="productionCode" value="AI" />
+              <option name="projectOpenTimestamp" value="1768083765326" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="lastOpenedProject" value="$USER_HOME$/StudioProjects/ArchiveTune" />
+  </component>
+</application>

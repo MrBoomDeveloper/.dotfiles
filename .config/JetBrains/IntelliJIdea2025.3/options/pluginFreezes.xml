@@ -1,0 +1,17 @@
+<application>
+  <component name="PluginFreezes">
+    <option name="latestNotificationTime">
+      <map>
+        <entry key="com.codeium.intellij" value="2025-11-14T08:12:27.533242916Z" />
+      </map>
+    </option>
+    <option name="mutedPlugins">
+      <list>
+        <MutedPlugin>
+          <option name="ideVersion" value="2025.2.4" />
+          <option name="pluginId" value="com.codeium.intellij" />
+        </MutedPlugin>
+      </list>
+    </option>
+  </component>
+</application>

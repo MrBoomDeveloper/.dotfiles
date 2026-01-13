@@ -1,42 +1,42 @@
 {
     "bean": {
         "_v": 0,
-        "addr": "144.31.5.142",
+        "addr": "hkg.tunnelguard.ru",
         "brutal_speed": 0,
         "c_cfg": "",
         "c_out": "",
         "enable_brutal": false,
-        "flow": "xtls-rprx-vision",
+        "flow": "",
         "mux": 0,
-        "name": "0749 | 🇵🇱 Poland | VLESS | TG: @STR_BYPASS",
-        "pass": "3ee58d3a-7469-4557-b2f9-0d1d85c3a6fa",
+        "name": "🇭🇰 Гонконг 1 | xHTTP",
+        "pass": "77fdad21-a138-47b5-8a53-547536125084",
         "port": 443,
         "stream": {
-            "alpn": "",
+            "alpn": "h2,http/1.1",
             "cert": "",
             "ed_len": 0,
             "ed_name": "",
             "h_type": "",
             "headers": "",
             "host": "",
-            "insecure": false,
+            "insecure": true,
             "method": "",
-            "net": "tcp",
+            "net": "xhttp",
             "pac_enc": "xudp",
             "path": "",
-            "pbk": "ZqNF3CGI5QqAm5huC9sByjwxYd-6l5Pxc9-njmqqdl0",
+            "pbk": "",
             "sec": "tls",
-            "sid": "d4d39c5f8688dfe2",
-            "sni": "google.com",
+            "sid": "",
+            "sni": "hkg.tunnelguard.ru",
             "tls_frag": false,
             "tls_frag_fall_delay": "",
             "tls_record_frag": false,
-            "utls": "qq"
+            "utls": "firefox"
         }
     },
     "country": "",
     "dl": "",
-    "gid": 10,
+    "gid": 12,
     "id": 13403,
     "report": "",
     "traffic": {
@@ -45,5 +45,5 @@
     },
     "type": "vless",
     "ul": "",
-    "yc": -1
+    "yc": 0
 }

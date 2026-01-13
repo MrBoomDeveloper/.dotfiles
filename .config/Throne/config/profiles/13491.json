@@ -1,16 +1,17 @@
 {
     "bean": {
         "_v": 0,
-        "addr": "185.235.241.167",
+        "addr": "115.161.136.145",
         "brutal_speed": 0,
         "c_cfg": "",
         "c_out": "",
         "enable_brutal": false,
-        "flow": "",
+        "method": "chacha20-ietf-poly1305",
         "mux": 0,
-        "name": "🇩🇪 Germany, Frankfurt am Main [BL]",
-        "pass": "e615a5ba-fce3-4ffa-9c86-b0327a8a107a",
-        "port": 443,
+        "name": "🔥PORTAL Telegram:@STR_BYPASS🟣",
+        "pass": "12242",
+        "plugin": "",
+        "port": 10099,
         "stream": {
             "alpn": "",
             "cert": "",
@@ -19,31 +20,32 @@
             "h_type": "",
             "headers": "",
             "host": "",
-            "insecure": true,
+            "insecure": false,
             "method": "",
-            "net": "ws",
-            "pac_enc": "xudp",
-            "path": "/hormoz",
+            "net": "tcp",
+            "pac_enc": "",
+            "path": "",
             "pbk": "",
-            "sec": "tls",
+            "sec": "",
             "sid": "",
             "sni": "",
             "tls_frag": false,
             "tls_frag_fall_delay": "",
             "tls_record_frag": false,
             "utls": ""
-        }
+        },
+        "uot": 0
     },
     "country": "",
     "dl": "",
-    "gid": 10,
+    "gid": 12,
     "id": 13491,
     "report": "",
     "traffic": {
         "dl": 0,
         "ul": 0
     },
-    "type": "vless",
+    "type": "shadowsocks",
     "ul": "",
     "yc": -1
 }

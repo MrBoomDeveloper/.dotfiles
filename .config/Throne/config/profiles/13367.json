@@ -1,15 +1,15 @@
 {
     "bean": {
         "_v": 0,
-        "addr": "verarussia1.uspn.io",
+        "addr": "ru01-blh01.tcp-reset-club.net",
         "brutal_speed": 0,
         "c_cfg": "",
         "c_out": "",
         "enable_brutal": false,
-        "flow": "",
+        "flow": "xtls-rprx-vision",
         "mux": 0,
-        "name": "0593 | 🌍 Unknown | TROJAN | TG: @STR_BYPASS",
-        "pass": "VjXsgvA0s4",
+        "name": "?LTE|Моб.белыйсписок|vk",
+        "pass": "fa9a90cf-f639-4719-9db7-1aba06690552",
         "port": 443,
         "stream": {
             "alpn": "",
@@ -18,32 +18,32 @@
             "ed_name": "",
             "h_type": "",
             "headers": "",
-            "host": "verarussia1.uspn.io",
-            "insecure": true,
+            "host": "",
+            "insecure": false,
             "method": "",
-            "net": "ws",
-            "pac_enc": "",
-            "path": "/trojan",
-            "pbk": "",
+            "net": "tcp",
+            "pac_enc": "xudp",
+            "path": "",
+            "pbk": "mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg",
             "sec": "tls",
-            "sid": "",
-            "sni": "",
+            "sid": "8453e5fd9af927",
+            "sni": "stats.vk-portal.net",
             "tls_frag": false,
             "tls_frag_fall_delay": "",
             "tls_record_frag": false,
-            "utls": ""
+            "utls": "chrome"
         }
     },
     "country": "",
     "dl": "",
-    "gid": 10,
+    "gid": 12,
     "id": 13367,
     "report": "",
     "traffic": {
         "dl": 0,
         "ul": 0
     },
-    "type": "trojan",
+    "type": "vless",
     "ul": "",
     "yc": -1
 }

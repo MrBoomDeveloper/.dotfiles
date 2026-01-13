@@ -1,17 +1,16 @@
 {
     "bean": {
         "_v": 0,
-        "addr": "info.mattesaira.cc",
+        "addr": "ru01-blh02.tcp-reset-club.net",
         "brutal_speed": 0,
         "c_cfg": "",
         "c_out": "",
         "enable_brutal": false,
-        "method": "chacha20-ietf-poly1305",
+        "flow": "xtls-rprx-vision",
         "mux": 0,
-        "name": "0717 | 🌍 Unknown | SS | TG: @STR_BYPASS",
-        "pass": "XQWFem7TiT9tB2NAui7qMMovnsDtcFaFunrNcVvFBBDuS8TvDyrQtS1nxcP2auKgrPEJSEvTdV2ADcShg7CYz3tdcnUYM9PN",
-        "plugin": "",
-        "port": 43154,
+        "name": "?LTE|Моб.белыйсписок|kinopoisk",
+        "pass": "6a830bcd-6104-472e-b174-d66eb463acf7",
+        "port": 443,
         "stream": {
             "alpn": "",
             "cert": "",
@@ -23,29 +22,28 @@
             "insecure": false,
             "method": "",
             "net": "tcp",
-            "pac_enc": "",
+            "pac_enc": "xudp",
             "path": "",
-            "pbk": "",
-            "sec": "",
-            "sid": "",
-            "sni": "",
+            "pbk": "mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg",
+            "sec": "tls",
+            "sid": "d3b13f31",
+            "sni": "www.kinopoisk.ru",
             "tls_frag": false,
             "tls_frag_fall_delay": "",
             "tls_record_frag": false,
-            "utls": ""
-        },
-        "uot": 0
+            "utls": "chrome"
+        }
     },
     "country": "",
     "dl": "",
-    "gid": 10,
+    "gid": 12,
     "id": 13392,
     "report": "",
     "traffic": {
         "dl": 0,
         "ul": 0
     },
-    "type": "shadowsocks",
+    "type": "vless",
     "ul": "",
     "yc": -1
 }

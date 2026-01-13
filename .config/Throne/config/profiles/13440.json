@@ -1,15 +1,16 @@
 {
     "bean": {
         "_v": 0,
-        "addr": "77.239.125.6",
+        "addr": "81.19.141.45",
         "brutal_speed": 0,
         "c_cfg": "",
         "c_out": "",
         "enable_brutal": false,
-        "flow": "",
+        "method": "chacha20-ietf-poly1305",
         "mux": 0,
-        "name": "🇩🇪 Germany — #113",
-        "pass": "493d5565-9c06-4d2f-a252-cbd9d2be3516",
+        "name": "🔥PORTAL Telegram:@STR_BYPASS🟣",
+        "pass": "Luoif36Tj5MvnjdpIJtucG",
+        "plugin": "",
         "port": 443,
         "stream": {
             "alpn": "",
@@ -22,28 +23,29 @@
             "insecure": false,
             "method": "",
             "net": "tcp",
-            "pac_enc": "xudp",
+            "pac_enc": "",
             "path": "",
-            "pbk": "-JG4SeIwmtWW0WiLhtmI_7OxCfccenm1LLcBXmkcq08",
-            "sec": "tls",
-            "sid": "5c835824f579",
-            "sni": "www.vk.com",
+            "pbk": "",
+            "sec": "",
+            "sid": "",
+            "sni": "",
             "tls_frag": false,
             "tls_frag_fall_delay": "",
             "tls_record_frag": false,
-            "utls": "chrome"
-        }
+            "utls": ""
+        },
+        "uot": 0
     },
     "country": "",
     "dl": "",
-    "gid": 10,
+    "gid": 12,
     "id": 13440,
     "report": "",
     "traffic": {
         "dl": 0,
         "ul": 0
     },
-    "type": "vless",
+    "type": "shadowsocks",
     "ul": "",
     "yc": -1
 }

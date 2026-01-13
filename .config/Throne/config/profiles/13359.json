@@ -1,42 +1,42 @@
 {
     "bean": {
         "_v": 0,
-        "addr": "yand51.volgaboost.ru",
+        "addr": "158.160.182.134",
         "brutal_speed": 0,
         "c_cfg": "",
         "c_out": "",
         "enable_brutal": false,
-        "flow": "",
+        "flow": "xtls-rprx-vision",
         "mux": 0,
-        "name": "0568 | 🌍 Unknown | VLESS | TG: @STR_BYPASS",
-        "pass": "e5017995-2093-491b-a0fa-d4890782d42a",
-        "port": 8443,
+        "name": "🇹🇷 Türkiye — #177",
+        "pass": "50f5dff3-c6c9-4cf8-a7d0-794350b3a3cb",
+        "port": 443,
         "stream": {
-            "alpn": "h3,h2,http/1.1",
+            "alpn": "",
             "cert": "",
             "ed_len": 0,
             "ed_name": "",
             "h_type": "",
             "headers": "",
             "host": "",
-            "insecure": true,
+            "insecure": false,
             "method": "",
-            "net": "xhttp",
+            "net": "tcp",
             "pac_enc": "xudp",
             "path": "",
-            "pbk": "",
+            "pbk": "zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04",
             "sec": "tls",
-            "sid": "",
-            "sni": "yand51.volgaboost.ru",
+            "sid": "205748bc0f24a747",
+            "sni": "tradingview.com",
             "tls_frag": false,
             "tls_frag_fall_delay": "",
             "tls_record_frag": false,
-            "utls": "qq"
+            "utls": "chrome"
         }
     },
     "country": "",
     "dl": "",
-    "gid": 10,
+    "gid": 12,
     "id": 13359,
     "report": "",
     "traffic": {
@@ -45,5 +45,5 @@
     },
     "type": "vless",
     "ul": "",
-    "yc": 0
+    "yc": -1
 }

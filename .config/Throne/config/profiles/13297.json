@@ -1,17 +1,16 @@
 {
     "bean": {
         "_v": 0,
-        "addr": "188.214.157.58",
+        "addr": "158.160.141.159",
         "brutal_speed": 0,
         "c_cfg": "",
         "c_out": "",
         "enable_brutal": false,
-        "method": "chacha20-ietf-poly1305",
+        "flow": "xtls-rprx-vision",
         "mux": 0,
-        "name": "🇲🇦MA-188.214.157.58-4874",
-        "pass": "ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=",
-        "plugin": "",
-        "port": 990,
+        "name": "🇩🇪 Germany — #103",
+        "pass": "61ca1f55-8cc8-4be4-9bf5-12495e38c96a",
+        "port": 443,
         "stream": {
             "alpn": "",
             "cert": "",
@@ -23,29 +22,28 @@
             "insecure": false,
             "method": "",
             "net": "tcp",
-            "pac_enc": "",
+            "pac_enc": "xudp",
             "path": "",
-            "pbk": "",
-            "sec": "",
-            "sid": "",
-            "sni": "",
+            "pbk": "wfcz95aDnn5K2eB_r40BlXI9C3I19m41o-VdIKXE2G8",
+            "sec": "tls",
+            "sid": "59663c69ca3f2f73",
+            "sni": "music.yandex.ru",
             "tls_frag": false,
             "tls_frag_fall_delay": "",
             "tls_record_frag": false,
-            "utls": ""
-        },
-        "uot": 0
+            "utls": "chrome"
+        }
     },
     "country": "",
     "dl": "",
-    "gid": 9,
+    "gid": 12,
     "id": 13297,
     "report": "",
     "traffic": {
         "dl": 0,
         "ul": 0
     },
-    "type": "shadowsocks",
+    "type": "vless",
     "ul": "",
     "yc": -1
 }

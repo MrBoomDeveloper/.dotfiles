@@ -1,15 +1,15 @@
 {
     "bean": {
         "_v": 0,
-        "addr": "yand84.volgaboost.ru",
+        "addr": "158.160.199.84",
         "brutal_speed": 0,
         "c_cfg": "",
         "c_out": "",
         "enable_brutal": false,
         "flow": "xtls-rprx-vision",
         "mux": 0,
-        "name": "0073 | 🏳️ Yandex | 🌍 Unknown | VLESS | TG: @STR_BYPASS",
-        "pass": "e5017995-2093-491b-a0fa-d4890782d42a",
+        "name": "🇪🇸 Spain — #118",
+        "pass": "71973415-8585-4315-9d7d-b2babfd05c34",
         "port": 443,
         "stream": {
             "alpn": "",
@@ -24,19 +24,19 @@
             "net": "tcp",
             "pac_enc": "xudp",
             "path": "",
-            "pbk": "UsMQ62DKgEE3xRGxHB8IBpC0n8qSIFcZOG78KbPIG2Y",
+            "pbk": "zr8_rtHm86s_G1gfRwNtunStGngYZSdYkA3PyBFXpDg",
             "sec": "tls",
-            "sid": "ceda1901d1ca546c",
-            "sni": "api-maps.yandex.ru",
+            "sid": "48fccabc158a4c22",
+            "sni": "tradingview.com",
             "tls_frag": false,
             "tls_frag_fall_delay": "",
             "tls_record_frag": false,
-            "utls": "qq"
+            "utls": "chrome"
         }
     },
     "country": "",
     "dl": "",
-    "gid": 10,
+    "gid": 12,
     "id": 13311,
     "report": "",
     "traffic": {

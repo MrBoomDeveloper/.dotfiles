@@ -1,16 +1,16 @@
 {
     "bean": {
         "_v": 0,
-        "addr": "45.12.136.48",
+        "addr": "83.166.236.240",
         "brutal_speed": 0,
         "c_cfg": "",
         "c_out": "",
         "enable_brutal": false,
-        "flow": "",
+        "flow": "xtls-rprx-vision",
         "mux": 0,
-        "name": "0179 | 🏳️ Yandex | 🇱🇹 Lithuania | VLESS | TG: @STR_BYPASS",
-        "pass": "0f6c83bc-34ba-4ca1-96e6-08b3620cbce5",
-        "port": 443,
+        "name": "🇭🇺 Hungary — #139",
+        "pass": "291a2db3-04b5-4089-af90-adb5d1ce05ff",
+        "port": 8443,
         "stream": {
             "alpn": "",
             "cert": "",
@@ -24,19 +24,19 @@
             "net": "tcp",
             "pac_enc": "xudp",
             "path": "",
-            "pbk": "E-fIlniARgucl-Y8wctxQr4wPuDibRYnOCHCYAEVbws",
+            "pbk": "7zd9mJilgjOrg_ohtw23Vmio-pdnYqeP_r-kiWt87Cg",
             "sec": "tls",
-            "sid": "bdc04e3d",
-            "sni": "mirror.yandex.ru",
+            "sid": "f4b4a6365558ea2e",
+            "sni": "tradingview.com",
             "tls_frag": false,
             "tls_frag_fall_delay": "",
             "tls_record_frag": false,
-            "utls": "firefox"
+            "utls": "chrome"
         }
     },
     "country": "",
     "dl": "",
-    "gid": 10,
+    "gid": 12,
     "id": 13331,
     "report": "",
     "traffic": {

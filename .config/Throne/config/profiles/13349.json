@@ -1,15 +1,15 @@
 {
     "bean": {
         "_v": 0,
-        "addr": "verarussia1.uspn.io",
+        "addr": "83.166.236.201",
         "brutal_speed": 0,
         "c_cfg": "",
         "c_out": "",
         "enable_brutal": false,
-        "flow": "",
+        "flow": "xtls-rprx-vision",
         "mux": 0,
-        "name": "0505 | 🌍 Unknown | TROJAN | TG: @STR_BYPASS",
-        "pass": "VjXsgvA0s4",
+        "name": "🇵🇱 Poland — #167",
+        "pass": "12a57f4b-813d-4e0f-b15f-2234c71fd41d",
         "port": 443,
         "stream": {
             "alpn": "",
@@ -18,32 +18,32 @@
             "ed_name": "",
             "h_type": "",
             "headers": "",
-            "host": "verarussia1.uspn.io",
-            "insecure": true,
+            "host": "",
+            "insecure": false,
             "method": "",
-            "net": "ws",
-            "pac_enc": "",
-            "path": "/trojan",
-            "pbk": "",
+            "net": "tcp",
+            "pac_enc": "xudp",
+            "path": "",
+            "pbk": "Qddpg8luihgzgx4g4uMJklXzlrMCd8L1igJSWrRUvSc",
             "sec": "tls",
-            "sid": "",
-            "sni": "verarussia1.uspn.io",
+            "sid": "887c0d72e771a934",
+            "sni": "m.vk.com",
             "tls_frag": false,
             "tls_frag_fall_delay": "",
             "tls_record_frag": false,
-            "utls": ""
+            "utls": "chrome"
         }
     },
     "country": "",
     "dl": "",
-    "gid": 10,
+    "gid": 12,
     "id": 13349,
     "report": "",
     "traffic": {
         "dl": 0,
         "ul": 0
     },
-    "type": "trojan",
+    "type": "vless",
     "ul": "",
     "yc": -1
 }

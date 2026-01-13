@@ -1,16 +1,16 @@
 {
     "bean": {
         "_v": 0,
-        "addr": "217.13.104.154",
+        "addr": "45.88.183.156",
         "brutal_speed": 0,
         "c_cfg": "",
         "c_out": "",
         "enable_brutal": false,
-        "flow": "xtls-rprx-vision",
+        "flow": "",
         "mux": 0,
-        "name": "🇭🇺 Hungary — #129",
-        "pass": "64bc8910-bc0f-453e-b3f3-a101a5dce03e",
-        "port": 443,
+        "name": "☔45@STR_BYPASS",
+        "pass": "08704c01-7edb-454a-98a2-328ccb9936fa",
+        "port": 12794,
         "stream": {
             "alpn": "",
             "cert": "",
@@ -24,19 +24,19 @@
             "net": "tcp",
             "pac_enc": "xudp",
             "path": "",
-            "pbk": "FkmYFobwxLMLEktYXywmjthuEYCZggITsxwPNasTKUg",
-            "sec": "tls",
-            "sid": "87cc0414902bee2d",
-            "sni": "travel.yandex.ru",
+            "pbk": "",
+            "sec": "",
+            "sid": "",
+            "sni": "",
             "tls_frag": false,
             "tls_frag_fall_delay": "",
             "tls_record_frag": false,
-            "utls": "chrome"
+            "utls": ""
         }
     },
     "country": "",
     "dl": "",
-    "gid": 10,
+    "gid": 12,
     "id": 13676,
     "report": "",
     "traffic": {

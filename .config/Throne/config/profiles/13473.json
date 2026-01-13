@@ -1,16 +1,17 @@
 {
     "bean": {
         "_v": 0,
-        "addr": "ru36.tcpdoor.net",
+        "addr": "209.74.81.149",
         "brutal_speed": 0,
         "c_cfg": "",
         "c_out": "",
         "enable_brutal": false,
-        "flow": "",
+        "method": "chacha20-ietf-poly1305",
         "mux": 0,
-        "name": "📱 Антиблок 19",
-        "pass": "0f6c83bc-34ba-4ca1-96e6-08b3620cbce5",
-        "port": 443,
+        "name": "🔥PORTAL Telegram:@STR_BYPASS🟣",
+        "pass": "q92MrrP9oJ3lMEzbQFpyuU",
+        "plugin": "",
+        "port": 21166,
         "stream": {
             "alpn": "",
             "cert": "",
@@ -22,28 +23,29 @@
             "insecure": false,
             "method": "",
             "net": "tcp",
-            "pac_enc": "xudp",
+            "pac_enc": "",
             "path": "",
-            "pbk": "jlnKFP7eXy5fFjmH1HD8_3A-AKbraZvJMwPE03BRuhQ",
-            "sec": "tls",
-            "sid": "776e7d90",
-            "sni": "download.cdn.yandex.net",
+            "pbk": "",
+            "sec": "",
+            "sid": "",
+            "sni": "",
             "tls_frag": false,
             "tls_frag_fall_delay": "",
             "tls_record_frag": false,
-            "utls": "firefox"
-        }
+            "utls": ""
+        },
+        "uot": 0
     },
     "country": "",
     "dl": "",
-    "gid": 10,
+    "gid": 12,
     "id": 13473,
     "report": "",
     "traffic": {
         "dl": 0,
         "ul": 0
     },
-    "type": "vless",
+    "type": "shadowsocks",
     "ul": "",
     "yc": -1
 }

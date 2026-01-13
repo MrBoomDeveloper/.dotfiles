@@ -1,16 +1,15 @@
 {
     "bean": {
         "_v": 0,
-        "addr": "verasskz1.uspn.io",
+        "addr": "83.166.237.115",
         "brutal_speed": 0,
         "c_cfg": "",
         "c_out": "",
         "enable_brutal": false,
-        "method": "chacha20-ietf-poly1305",
+        "flow": "xtls-rprx-vision",
         "mux": 0,
-        "name": "0564 | 🌍 Unknown | SS | TG: @STR_BYPASS",
-        "pass": "/cl1RfyidaYcY/mWK5enLropIdR6JUbhNIlSBI3btqY=",
-        "plugin": "",
+        "name": "🇹🇷 Türkiye — #175",
+        "pass": "50f5dff3-c6c9-4cf8-a7d0-794350b3a3cb",
         "port": 8443,
         "stream": {
             "alpn": "",
@@ -23,29 +22,28 @@
             "insecure": false,
             "method": "",
             "net": "tcp",
-            "pac_enc": "",
+            "pac_enc": "xudp",
             "path": "",
-            "pbk": "",
-            "sec": "",
-            "sid": "",
-            "sni": "",
+            "pbk": "zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04",
+            "sec": "tls",
+            "sid": "c6ef72e4635d15a5",
+            "sni": "tradingview.com",
             "tls_frag": false,
             "tls_frag_fall_delay": "",
             "tls_record_frag": false,
-            "utls": ""
-        },
-        "uot": 0
+            "utls": "chrome"
+        }
     },
     "country": "",
     "dl": "",
-    "gid": 10,
+    "gid": 12,
     "id": 13357,
     "report": "",
     "traffic": {
         "dl": 0,
         "ul": 0
     },
-    "type": "shadowsocks",
+    "type": "vless",
     "ul": "",
     "yc": -1
 }

@@ -1,42 +1,42 @@
 {
     "bean": {
         "_v": 0,
-        "addr": "ru70.tcpnet.fun",
+        "addr": "51.250.77.124",
         "brutal_speed": 0,
         "c_cfg": "",
         "c_out": "",
         "enable_brutal": false,
         "flow": "",
         "mux": 0,
-        "name": "0003 | 🏳️ Yandex | 🌍 Unknown | VLESS | TG: @STR_BYPASS",
-        "pass": "0f6c83bc-34ba-4ca1-96e6-08b3620cbce5",
-        "port": 443,
+        "name": "🇪🇸 Spain — #109",
+        "pass": "e5017995-2093-491b-a0fa-d4890782d42a",
+        "port": 8443,
         "stream": {
-            "alpn": "",
+            "alpn": "h3,h2,http/1.1",
             "cert": "",
             "ed_len": 0,
             "ed_name": "",
             "h_type": "",
             "headers": "",
             "host": "",
-            "insecure": false,
+            "insecure": true,
             "method": "",
-            "net": "grpc",
+            "net": "xhttp",
             "pac_enc": "xudp",
-            "path": "grpc",
-            "pbk": "pJVdgyGgJ90DVLjUUv-sDl_Bl5pchqwbw30nOpUVRyU",
+            "path": "",
+            "pbk": "",
             "sec": "tls",
-            "sid": "a8f264ef",
-            "sni": "download.cdn.yandex.net",
+            "sid": "",
+            "sni": "yand51.volgaboost.ru",
             "tls_frag": false,
             "tls_frag_fall_delay": "",
             "tls_record_frag": false,
-            "utls": "firefox"
+            "utls": "chrome"
         }
     },
     "country": "",
     "dl": "",
-    "gid": 10,
+    "gid": 12,
     "id": 13302,
     "report": "",
     "traffic": {
@@ -45,5 +45,5 @@
     },
     "type": "vless",
     "ul": "",
-    "yc": -1
+    "yc": 0
 }

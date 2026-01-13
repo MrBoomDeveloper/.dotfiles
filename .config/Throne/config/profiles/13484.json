@@ -1,17 +1,17 @@
 {
     "bean": {
         "_v": 0,
-        "addr": "139.60.162.224",
+        "addr": "103.75.118.125",
         "brutal_speed": 0,
         "c_cfg": "",
         "c_out": "",
         "enable_brutal": false,
         "method": "chacha20-ietf-poly1305",
         "mux": 0,
-        "name": "🇺🇸 United States, New York [BL]",
-        "pass": "xx9kbqWyZfcJEC-nm0ktkg",
+        "name": "🔥PORTAL Telegram:@STR_BYPASS🟣",
+        "pass": "XLOrvLWkCBBBxLqSEe9S8lnC5PLsNfRh",
         "plugin": "",
-        "port": 1080,
+        "port": 443,
         "stream": {
             "alpn": "",
             "cert": "",
@@ -38,7 +38,7 @@
     },
     "country": "",
     "dl": "",
-    "gid": 10,
+    "gid": 12,
     "id": 13484,
     "report": "",
     "traffic": {
@@ -47,5 +47,5 @@
     },
     "type": "shadowsocks",
     "ul": "",
-    "yc": -1
+    "yc": 301
 }

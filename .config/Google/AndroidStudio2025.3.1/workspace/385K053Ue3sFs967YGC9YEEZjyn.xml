@@ -1,0 +1,2771 @@
+<project version="4">
+  <component name="BookmarksManager">
+    <option name="groups">
+      <GroupState>
+        <option name="name" value="ArchiveTune" />
+      </GroupState>
+    </option>
+  </component>
+  <component name="FileEditorManager">
+    <leaf ideFingerprint="3t1gu7yu4e1nd" SIDE_TABS_SIZE_LIMIT_KEY="-1">
+      <file current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/kotlin/moe/koiverse/archivetune/MainActivity.kt" file-id="392915" managing-fs="1768076175682">
+          <provider editor-type-id="android-source-code" selected="true">
+            <state selected-layout="SHOW_EDITOR">
+              <editor-state relative-caret-position="-1224">
+                <caret line="563" column="24" selection-start-line="563" selection-start-column="24" selection-end-line="563" selection-end-column="24" />
+              </editor-state>
+              <multi-preview-state selected="Compose">
+                <representations>
+                  <list>
+                    <representation name="Compose">
+                      <settings>
+                        <setting name="previewLayout" value="Grid" />
+                        <setting name="selectedGroup" value="" />
+                      </settings>
+                    </representation>
+                  </list>
+                </representations>
+              </multi-preview-state>
+            </state>
+          </provider>
+        </entry>
+        <tab><![CDATA[{"tabTitle":"MainActivity.kt","foregroundColor":-7752454,"textAttributes":{"name":"a","children":[{"name":"option","attributes":{"name":"FOREGROUND","value":"89b4fa"}}]}}]]></tab>
+      </file>
+      <file>
+        <entry file="file://$PROJECT_DIR$/app/src/main/kotlin/moe/koiverse/archivetune/ui/screens/NavigationBuilder.kt" file-id="392979" managing-fs="1768076175682">
+          <provider editor-type-id="android-source-code" selected="true">
+            <state selected-layout="SHOW_EDITOR">
+              <editor-state relative-caret-position="325">
+                <caret line="86" column="13" selection-start-line="86" selection-start-column="13" selection-end-line="86" selection-end-column="13" />
+              </editor-state>
+              <multi-preview-state selected="Compose">
+                <representations>
+                  <list>
+                    <representation name="Compose">
+                      <settings>
+                        <setting name="previewLayout" value="Grid" />
+                        <setting name="selectedGroup" value="" />
+                      </settings>
+                    </representation>
+                  </list>
+                </representations>
+              </multi-preview-state>
+            </state>
+          </provider>
+        </entry>
+        <tab><![CDATA[{"tabTitle":"NavigationBuilder.kt","foregroundColor":-3287308,"textAttributes":{"name":"a"}}]]></tab>
+      </file>
+      <file>
+        <entry file="file://$PROJECT_DIR$/app/src/main/kotlin/moe/koiverse/archivetune/ui/screens/HomeScreen.kt" file-id="392977" managing-fs="1768076175682">
+          <provider editor-type-id="android-source-code" selected="true">
+            <state selected-layout="SHOW_EDITOR">
+              <editor-state relative-caret-position="5798">
+                <caret line="449" column="17" selection-start-line="449" selection-start-column="17" selection-end-line="449" selection-end-column="17" />
+              </editor-state>
+              <multi-preview-state selected="Compose">
+                <representations>
+                  <list>
+                    <representation name="Compose">
+                      <settings>
+                        <setting name="previewLayout" value="Grid" />
+                        <setting name="selectedGroup" value="" />
+                      </settings>
+                    </representation>
+                  </list>
+                </representations>
+              </multi-preview-state>
+            </state>
+          </provider>
+        </entry>
+        <tab><![CDATA[{"tabTitle":"HomeScreen.kt","foregroundColor":-3287308,"textAttributes":{"name":"a"}}]]></tab>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTypeUsageLocalSummary"><![CDATA[{
+  "data": {
+    "Image": {
+      "usageCount": 1,
+      "lastUsed": 1768086289004
+    },
+    "TOML": {
+      "usageCount": 3,
+      "lastUsed": 1768084091288
+    },
+    "Markdown": {
+      "usageCount": 1,
+      "lastUsed": 1768083766872
+    },
+    "Kotlin": {
+      "usageCount": 16,
+      "lastUsed": 1768090033369
+    }
+  }
+}]]></component>
+  <component name="GitBranchesPopupTreeState">
+    <expand>
+      <path>
+        <item name="TreeRoot" type="c693935c:GitBranchesTreeModel$TreeRoot" />
+        <item name="RECENT" type="98a275ee:GitBranchType$RECENT" />
+      </path>
+      <path>
+        <item name="TreeRoot" type="c693935c:GitBranchesTreeModel$TreeRoot" />
+        <item name="LOCAL" type="6e158aa5:GitBranchType$LOCAL" />
+      </path>
+      <path>
+        <item name="TreeRoot" type="c693935c:GitBranchesTreeModel$TreeRoot" />
+        <item name="REMOTE" type="522ab5b6:GitBranchType$REMOTE" />
+      </path>
+      <path>
+        <item name="TreeRoot" type="c693935c:GitBranchesTreeModel$TreeRoot" />
+        <item name="REMOTE" type="522ab5b6:GitBranchType$REMOTE" />
+        <item name="REMOTE/[origin]" type="5fc65cac:GitBranchesTreeModel$BranchesPrefixGroup" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="GitSEFilterConfiguration"><![CDATA[{}]]></component>
+  <component name="IdeDocumentHistory"><![CDATA[{
+  "changedPaths": [
+    "/home/mrboomdev/StudioProjects/ArchiveTune/gradle/libs.versions.toml",
+    "/home/mrboomdev/StudioProjects/ArchiveTune/app/build.gradle.kts",
+    "/home/mrboomdev/StudioProjects/ArchiveTune/app/src/main/kotlin/moe/koiverse/archivetune/MainActivity.kt",
+    "/home/mrboomdev/StudioProjects/ArchiveTune/app/src/main/kotlin/moe/koiverse/archivetune/ui/component/HideOnScrollFAB.kt"
+  ]
+}]]></component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="LanguageUsageStatistics">
+    <language id="Markdown">
+      <summary usageCount="1" lastUsage="1768083766873" />
+    </language>
+    <language id="TOML">
+      <summary usageCount="3" lastUsage="1768084091288" />
+    </language>
+    <language id="kotlin">
+      <summary usageCount="16" lastUsage="1768090033369" />
+    </language>
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" />
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="ArchiveTune" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/mrboomdev/StudioProjects/ArchiveTune}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="ArchiveTune" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/mrboomdev/StudioProjects/ArchiveTune}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/StudioProjects/ArchiveTune/app}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="ArchiveTune" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/mrboomdev/StudioProjects/ArchiveTune}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/StudioProjects/ArchiveTune/app}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/StudioProjects/ArchiveTune/app/src}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ArchiveTune" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/mrboomdev/StudioProjects/ArchiveTune}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/StudioProjects/ArchiveTune/app}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/StudioProjects/ArchiveTune/app/src}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/StudioProjects/ArchiveTune/app/src/main}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="ArchiveTune" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/mrboomdev/StudioProjects/ArchiveTune}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/StudioProjects/ArchiveTune/app}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/StudioProjects/ArchiveTune/app/src}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/StudioProjects/ArchiveTune/app/src/main}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/StudioProjects/ArchiveTune/app/src/main/kotlin}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ArchiveTune" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/mrboomdev/StudioProjects/ArchiveTune}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/StudioProjects/ArchiveTune/app}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/StudioProjects/ArchiveTune/app/src}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/StudioProjects/ArchiveTune/app/src/main}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/StudioProjects/ArchiveTune/app/src/main/kotlin}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/StudioProjects/ArchiveTune/app/src/main/kotlin/moe}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ArchiveTune" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/mrboomdev/StudioProjects/ArchiveTune}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/StudioProjects/ArchiveTune/app}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/StudioProjects/ArchiveTune/app/src}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/StudioProjects/ArchiveTune/app/src/main}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/StudioProjects/ArchiveTune/app/src/main/kotlin}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/StudioProjects/ArchiveTune/app/src/main/kotlin/moe}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/StudioProjects/ArchiveTune/app/src/main/kotlin/moe/koiverse}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ArchiveTune" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/mrboomdev/StudioProjects/ArchiveTune}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/StudioProjects/ArchiveTune/app}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/StudioProjects/ArchiveTune/app/src}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/StudioProjects/ArchiveTune/app/src/main}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/StudioProjects/ArchiveTune/app/src/main/kotlin}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/StudioProjects/ArchiveTune/app/src/main/kotlin/moe}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/StudioProjects/ArchiveTune/app/src/main/kotlin/moe/koiverse}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/StudioProjects/ArchiveTune/app/src/main/kotlin/moe/koiverse/archivetune}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ArchiveTune" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/mrboomdev/StudioProjects/ArchiveTune}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/StudioProjects/ArchiveTune/app}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/StudioProjects/ArchiveTune/app/src}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/StudioProjects/ArchiveTune/app/src/main}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/StudioProjects/ArchiveTune/app/src/main/res}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ArchiveTune" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/mrboomdev/StudioProjects/ArchiveTune}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/StudioProjects/ArchiveTune/app}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/StudioProjects/ArchiveTune/app/src}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/StudioProjects/ArchiveTune/app/src/main}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/StudioProjects/ArchiveTune/app/src/main/res}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/StudioProjects/ArchiveTune/app/src/main/res/drawable}" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+          <presentation>
+            <attributes />
+            <data iconPath="expui/toolwindows/project.svg" iconPlugin="com.intellij" isLeaf="false" text="ArchiveTune" />
+            <item name="ArchiveTune" type="b2602c69:ProjectViewProjectNode" />
+            <presentation>
+              <attributes>
+                <map>
+                  <entry key="filePath" value="$PROJECT_DIR$" />
+                </map>
+              </attributes>
+              <data iconPath="expui/nodes/module.svg" iconPlugin="com.intellij" isLeaf="false" text="ArchiveTune" />
+              <item name="dir{file:///home/mrboomdev/StudioProjects/ArchiveTune}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/.github" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/nodes/folderGithub.svg" iconPlugin="com.intellij" isLeaf="false" text=".github" />
+                <item name="dir{file:///home/mrboomdev/StudioProjects/ArchiveTune/.github}" type="462c0819:PsiDirectoryNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/.kotlin" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text=".kotlin" />
+                <item name="dir{file:///home/mrboomdev/StudioProjects/ArchiveTune/.kotlin}" type="462c0819:PsiDirectoryNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/app" />
+                  </map>
+                </attributes>
+                <data iconPath="studio/icons/shell/filetree/android-module.svg" iconPlugin="org.jetbrains.android" isLeaf="false" text="app" />
+                <item name="dir{file:///home/mrboomdev/StudioProjects/ArchiveTune/app}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/app/schemas" />
+                    </map>
+                  </attributes>
+                  <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="schemas" />
+                  <item name="dir{file:///home/mrboomdev/StudioProjects/ArchiveTune/app/schemas}" type="462c0819:PsiDirectoryNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/app/src" />
+                    </map>
+                  </attributes>
+                  <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="src" />
+                  <item name="dir{file:///home/mrboomdev/StudioProjects/ArchiveTune/app/src}" type="462c0819:PsiDirectoryNode" />
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/app/src/debug" />
+                      </map>
+                    </attributes>
+                    <data iconPath="studio/icons/shell/filetree/android-module.svg" iconPlugin="org.jetbrains.android" isLeaf="false" text="debug" />
+                    <item name="dir{file:///home/mrboomdev/StudioProjects/ArchiveTune/app/src/debug}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/app/src/main" />
+                      </map>
+                    </attributes>
+                    <data iconPath="studio/icons/shell/filetree/android-module.svg" iconPlugin="org.jetbrains.android" isLeaf="false" text="main" />
+                    <item name="dir{file:///home/mrboomdev/StudioProjects/ArchiveTune/app/src/main}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+                    <presentation>
+                      <attributes>
+                        <map>
+                          <entry key="filePath" value="$PROJECT_DIR$/app/src/main/assets" />
+                        </map>
+                      </attributes>
+                      <data iconPath="expui/nodes/resourcesRoot.svg" iconPlugin="com.intellij" isLeaf="false" text="assets" />
+                      <item name="dir{file:///home/mrboomdev/StudioProjects/ArchiveTune/app/src/main/assets}" type="462c0819:PsiDirectoryNode" />
+                    </presentation>
+                    <presentation>
+                      <attributes>
+                        <map>
+                          <entry key="filePath" value="$PROJECT_DIR$/app/src/main/kotlin" />
+                        </map>
+                      </attributes>
+                      <data iconPath="expui/nodes/sourceRoot.svg" iconPlugin="com.intellij" isLeaf="false" text="kotlin" />
+                      <item name="dir{file:///home/mrboomdev/StudioProjects/ArchiveTune/app/src/main/kotlin}" type="462c0819:PsiDirectoryNode" />
+                      <presentation>
+                        <attributes>
+                          <map>
+                            <entry key="filePath" value="$PROJECT_DIR$/app/src/main/kotlin/moe" />
+                          </map>
+                        </attributes>
+                        <data iconPath="expui/nodes/package.svg" iconPlugin="com.intellij" isLeaf="false" text="moe" />
+                        <item name="dir{file:///home/mrboomdev/StudioProjects/ArchiveTune/app/src/main/kotlin/moe}" type="462c0819:PsiDirectoryNode" />
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/kotlin/moe/koiverse" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/nodes/package.svg" iconPlugin="com.intellij" isLeaf="false" text="koiverse" />
+                          <item name="dir{file:///home/mrboomdev/StudioProjects/ArchiveTune/app/src/main/kotlin/moe/koiverse}" type="462c0819:PsiDirectoryNode" />
+                          <presentation>
+                            <attributes>
+                              <map>
+                                <entry key="filePath" value="$PROJECT_DIR$/app/src/main/kotlin/moe/koiverse/archivetune" />
+                              </map>
+                            </attributes>
+                            <data iconPath="expui/nodes/package.svg" iconPlugin="com.intellij" isLeaf="false" text="archivetune" />
+                            <item name="dir{file:///home/mrboomdev/StudioProjects/ArchiveTune/app/src/main/kotlin/moe/koiverse/archivetune}" type="462c0819:PsiDirectoryNode" />
+                            <presentation>
+                              <attributes>
+                                <map>
+                                  <entry key="filePath" value="$PROJECT_DIR$/app/src/main/kotlin/moe/koiverse/archivetune/constants" />
+                                </map>
+                              </attributes>
+                              <data iconPath="expui/nodes/package.svg" iconPlugin="com.intellij" isLeaf="false" text="constants" />
+                              <item name="dir{file:///home/mrboomdev/StudioProjects/ArchiveTune/app/src/main/kotlin/moe/koiverse/archivetune/constants}" type="462c0819:PsiDirectoryNode" />
+                            </presentation>
+                            <presentation>
+                              <attributes>
+                                <map>
+                                  <entry key="filePath" value="$PROJECT_DIR$/app/src/main/kotlin/moe/koiverse/archivetune/db" />
+                                </map>
+                              </attributes>
+                              <data iconPath="expui/nodes/package.svg" iconPlugin="com.intellij" isLeaf="false" text="db" />
+                              <item name="dir{file:///home/mrboomdev/StudioProjects/ArchiveTune/app/src/main/kotlin/moe/koiverse/archivetune/db}" type="462c0819:PsiDirectoryNode" />
+                            </presentation>
+                            <presentation>
+                              <attributes>
+                                <map>
+                                  <entry key="filePath" value="$PROJECT_DIR$/app/src/main/kotlin/moe/koiverse/archivetune/di" />
+                                </map>
+                              </attributes>
+                              <data iconPath="expui/nodes/package.svg" iconPlugin="com.intellij" isLeaf="false" text="di" />
+                              <item name="dir{file:///home/mrboomdev/StudioProjects/ArchiveTune/app/src/main/kotlin/moe/koiverse/archivetune/di}" type="462c0819:PsiDirectoryNode" />
+                            </presentation>
+                            <presentation>
+                              <attributes>
+                                <map>
+                                  <entry key="filePath" value="$PROJECT_DIR$/app/src/main/kotlin/moe/koiverse/archivetune/extensions" />
+                                </map>
+                              </attributes>
+                              <data iconPath="expui/nodes/package.svg" iconPlugin="com.intellij" isLeaf="false" text="extensions" />
+                              <item name="dir{file:///home/mrboomdev/StudioProjects/ArchiveTune/app/src/main/kotlin/moe/koiverse/archivetune/extensions}" type="462c0819:PsiDirectoryNode" />
+                            </presentation>
+                            <presentation>
+                              <attributes>
+                                <map>
+                                  <entry key="filePath" value="$PROJECT_DIR$/app/src/main/kotlin/moe/koiverse/archivetune/lyrics" />
+                                </map>
+                              </attributes>
+                              <data iconPath="expui/nodes/package.svg" iconPlugin="com.intellij" isLeaf="false" text="lyrics" />
+                              <item name="dir{file:///home/mrboomdev/StudioProjects/ArchiveTune/app/src/main/kotlin/moe/koiverse/archivetune/lyrics}" type="462c0819:PsiDirectoryNode" />
+                            </presentation>
+                            <presentation>
+                              <attributes>
+                                <map>
+                                  <entry key="filePath" value="$PROJECT_DIR$/app/src/main/kotlin/moe/koiverse/archivetune/models" />
+                                </map>
+                              </attributes>
+                              <data iconPath="expui/nodes/package.svg" iconPlugin="com.intellij" isLeaf="false" text="models" />
+                              <item name="dir{file:///home/mrboomdev/StudioProjects/ArchiveTune/app/src/main/kotlin/moe/koiverse/archivetune/models}" type="462c0819:PsiDirectoryNode" />
+                            </presentation>
+                            <presentation>
+                              <attributes>
+                                <map>
+                                  <entry key="filePath" value="$PROJECT_DIR$/app/src/main/kotlin/moe/koiverse/archivetune/playback" />
+                                </map>
+                              </attributes>
+                              <data iconPath="expui/nodes/package.svg" iconPlugin="com.intellij" isLeaf="false" text="playback" />
+                              <item name="dir{file:///home/mrboomdev/StudioProjects/ArchiveTune/app/src/main/kotlin/moe/koiverse/archivetune/playback}" type="462c0819:PsiDirectoryNode" />
+                            </presentation>
+                            <presentation>
+                              <attributes>
+                                <map>
+                                  <entry key="filePath" value="$PROJECT_DIR$/app/src/main/kotlin/moe/koiverse/archivetune/ui" />
+                                </map>
+                              </attributes>
+                              <data iconPath="expui/nodes/package.svg" iconPlugin="com.intellij" isLeaf="false" text="ui" />
+                              <item name="dir{file:///home/mrboomdev/StudioProjects/ArchiveTune/app/src/main/kotlin/moe/koiverse/archivetune/ui}" type="462c0819:PsiDirectoryNode" />
+                            </presentation>
+                            <presentation>
+                              <attributes>
+                                <map>
+                                  <entry key="filePath" value="$PROJECT_DIR$/app/src/main/kotlin/moe/koiverse/archivetune/utils" />
+                                </map>
+                              </attributes>
+                              <data iconPath="expui/nodes/package.svg" iconPlugin="com.intellij" isLeaf="false" text="utils" />
+                              <item name="dir{file:///home/mrboomdev/StudioProjects/ArchiveTune/app/src/main/kotlin/moe/koiverse/archivetune/utils}" type="462c0819:PsiDirectoryNode" />
+                            </presentation>
+                            <presentation>
+                              <attributes>
+                                <map>
+                                  <entry key="filePath" value="$PROJECT_DIR$/app/src/main/kotlin/moe/koiverse/archivetune/viewmodels" />
+                                </map>
+                              </attributes>
+                              <data iconPath="expui/nodes/package.svg" iconPlugin="com.intellij" isLeaf="false" text="viewmodels" />
+                              <item name="dir{file:///home/mrboomdev/StudioProjects/ArchiveTune/app/src/main/kotlin/moe/koiverse/archivetune/viewmodels}" type="462c0819:PsiDirectoryNode" />
+                            </presentation>
+                            <presentation>
+                              <attributes>
+                                <map>
+                                  <entry key="filePath" value="$PROJECT_DIR$/app/src/main/kotlin/moe/koiverse/archivetune/App.kt" />
+                                </map>
+                              </attributes>
+                              <data iconPath="org/jetbrains/kotlin/idea/icons/expui/kotlin.svg" iconPlugin="org.jetbrains.kotlin" isLeaf="true" text="App" />
+                              <item name="App" type="2c5a2ef7:KtClassOrObjectTreeNode" />
+                            </presentation>
+                            <presentation>
+                              <attributes>
+                                <map>
+                                  <entry key="filePath" value="$PROJECT_DIR$/app/src/main/kotlin/moe/koiverse/archivetune/DebugActivity.kt" />
+                                </map>
+                              </attributes>
+                              <data iconPath="org/jetbrains/kotlin/idea/icons/expui/kotlin.svg" iconPlugin="org.jetbrains.kotlin" isLeaf="true" text="DebugActivity.kt" />
+                              <item name="DebugActivity.kt" type="24436e51:KtFileTreeNode" />
+                            </presentation>
+                            <presentation>
+                              <attributes>
+                                <map>
+                                  <entry key="filePath" value="$PROJECT_DIR$/app/src/main/kotlin/moe/koiverse/archivetune/MainActivity.kt" />
+                                </map>
+                              </attributes>
+                              <data iconPath="org/jetbrains/kotlin/idea/icons/expui/kotlin.svg" iconPlugin="org.jetbrains.kotlin" isLeaf="true" text="MainActivity.kt" />
+                              <item name="MainActivity.kt" type="24436e51:KtFileTreeNode" />
+                            </presentation>
+                          </presentation>
+                        </presentation>
+                      </presentation>
+                    </presentation>
+                    <presentation>
+                      <attributes>
+                        <map>
+                          <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res" />
+                        </map>
+                      </attributes>
+                      <data iconPath="expui/nodes/resourcesRoot.svg" iconPlugin="com.intellij" isLeaf="false" text="res" />
+                      <item name="dir{file:///home/mrboomdev/StudioProjects/ArchiveTune/app/src/main/res}" type="462c0819:PsiDirectoryNode" />
+                      <presentation>
+                        <attributes>
+                          <map>
+                            <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable" />
+                          </map>
+                        </attributes>
+                        <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="drawable" />
+                        <item name="dir{file:///home/mrboomdev/StudioProjects/ArchiveTune/app/src/main/res/drawable}" type="462c0819:PsiDirectoryNode" />
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable/about_appbar.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="about_appbar.xml" />
+                          <item name="about_appbar.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable/about_splash.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="about_splash.xml" />
+                          <item name="about_splash.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable/about_splash_bitmap.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="about_splash_bitmap.xml" />
+                          <item name="about_splash_bitmap.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable/account.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="account.xml" />
+                          <item name="account.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable/add.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="add.xml" />
+                          <item name="add.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable/add_circle.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="add_circle.xml" />
+                          <item name="add_circle.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable/album.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="album.xml" />
+                          <item name="album.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable/all_inclusive.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="all_inclusive.xml" />
+                          <item name="all_inclusive.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable/alternate_email.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="alternate_email.xml" />
+                          <item name="alternate_email.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable/android_cell.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="android_cell.xml" />
+                          <item name="android_cell.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable/animation.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="animation.xml" />
+                          <item name="animation.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable/anime_blank.png" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/image.svg" iconPlugin="com.intellij" isLeaf="true" text="anime_blank.png" />
+                          <item name="anime_blank.png" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable/app_icon_foreground.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="app_icon_foreground.xml" />
+                          <item name="app_icon_foreground.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable/app_icon_monochrome.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="app_icon_monochrome.xml" />
+                          <item name="app_icon_monochrome.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable/app_icon_small.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="app_icon_small.xml" />
+                          <item name="app_icon_small.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable/arrow_back.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="arrow_back.xml" />
+                          <item name="arrow_back.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable/arrow_downward.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="arrow_downward.xml" />
+                          <item name="arrow_downward.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable/arrow_forward.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="arrow_forward.xml" />
+                          <item name="arrow_forward.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable/arrow_top_left.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="arrow_top_left.xml" />
+                          <item name="arrow_top_left.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable/arrow_upward.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="arrow_upward.xml" />
+                          <item name="arrow_upward.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable/artist.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="artist.xml" />
+                          <item name="artist.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable/backup.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="backup.xml" />
+                          <item name="backup.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable/bedtime.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="bedtime.xml" />
+                          <item name="bedtime.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable/blur_off.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="blur_off.xml" />
+                          <item name="blur_off.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable/bookmark.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="bookmark.xml" />
+                          <item name="bookmark.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable/bookmark_filled.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="bookmark_filled.xml" />
+                          <item name="bookmark_filled.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable/buttons.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="buttons.xml" />
+                          <item name="buttons.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable/cached.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="cached.xml" />
+                          <item name="cached.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable/calendar_today.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="calendar_today.xml" />
+                          <item name="calendar_today.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable/casino.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="casino.xml" />
+                          <item name="casino.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable/check.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="check.xml" />
+                          <item name="check.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable/check_box.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="check_box.xml" />
+                          <item name="check_box.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable/clear_all.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="clear_all.xml" />
+                          <item name="clear_all.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable/close.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="close.xml" />
+                          <item name="close.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable/contrast.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="contrast.xml" />
+                          <item name="contrast.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable/dark_mode.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="dark_mode.xml" />
+                          <item name="dark_mode.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable/delete.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="delete.xml" />
+                          <item name="delete.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable/delete_history.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="delete_history.xml" />
+                          <item name="delete_history.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable/deselect.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="deselect.xml" />
+                          <item name="deselect.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable/desktop_windows.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="desktop_windows.xml" />
+                          <item name="desktop_windows.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable/discord.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="discord.xml" />
+                          <item name="discord.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable/discover_tune.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="discover_tune.xml" />
+                          <item name="discover_tune.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable/done.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="done.xml" />
+                          <item name="done.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable/download.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="download.xml" />
+                          <item name="download.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable/drag_handle.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="drag_handle.xml" />
+                          <item name="drag_handle.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable/drop_down.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="drop_down.xml" />
+                          <item name="drop_down.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable/edit.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="edit.xml" />
+                          <item name="edit.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable/equalizer.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="equalizer.xml" />
+                          <item name="equalizer.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable/error.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="error.xml" />
+                          <item name="error.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable/expand_less.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="expand_less.xml" />
+                          <item name="expand_less.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable/expand_more.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="expand_more.xml" />
+                          <item name="expand_more.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable/experiment.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="experiment.xml" />
+                          <item name="experiment.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable/explicit.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="explicit.xml" />
+                          <item name="explicit.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable/explore_filled.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="explore_filled.xml" />
+                          <item name="explore_filled.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable/explore_outlined.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="explore_outlined.xml" />
+                          <item name="explore_outlined.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable/fast_forward.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="fast_forward.xml" />
+                          <item name="fast_forward.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable/favorite.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="favorite.xml" />
+                          <item name="favorite.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable/favorite_border.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="favorite_border.xml" />
+                          <item name="favorite_border.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable/filter_alt.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="filter_alt.xml" />
+                          <item name="filter_alt.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable/format_align_center.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="format_align_center.xml" />
+                          <item name="format_align_center.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable/format_align_left.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="format_align_left.xml" />
+                          <item name="format_align_left.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable/format_paint.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="format_paint.xml" />
+                          <item name="format_paint.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable/github.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="github.xml" />
+                          <item name="github.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable/gradient.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="gradient.xml" />
+                          <item name="gradient.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable/graphic_eq.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="graphic_eq.xml" />
+                          <item name="graphic_eq.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable/grid_view.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="grid_view.xml" />
+                          <item name="grid_view.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable/hide_image.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="hide_image.xml" />
+                          <item name="hide_image.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable/history.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="history.xml" />
+                          <item name="history.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable/home_filled.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="home_filled.xml" />
+                          <item name="home_filled.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable/home_outlined.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="home_outlined.xml" />
+                          <item name="home_outlined.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable/ic_download.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="ic_download.xml" />
+                          <item name="ic_download.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable/ic_music.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="ic_music.xml" />
+                          <item name="ic_music.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable/ic_music_placeholder.png" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/image.svg" iconPlugin="com.intellij" isLeaf="true" text="ic_music_placeholder.png" />
+                          <item name="ic_music_placeholder.png" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable/ic_pause_white.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="ic_pause_white.xml" />
+                          <item name="ic_pause_white.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable/ic_play_white.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="ic_play_white.xml" />
+                          <item name="ic_play_white.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable/image.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="image.xml" />
+                          <item name="image.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable/info.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="info.xml" />
+                          <item name="info.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable/input.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="input.xml" />
+                          <item name="input.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable/instagram.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="instagram.xml" />
+                          <item name="instagram.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable/integration.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="integration.xml" />
+                          <item name="integration.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable/language.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="language.xml" />
+                          <item name="language.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable/launcher_background_v31.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="launcher_background_v31.xml" />
+                          <item name="launcher_background_v31.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable/launcher_foreground.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="launcher_foreground.xml" />
+                          <item name="launcher_foreground.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable/launcher_foreground_v31.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="launcher_foreground_v31.xml" />
+                          <item name="launcher_foreground_v31.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable/launcher_monochrome.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="launcher_monochrome.xml" />
+                          <item name="launcher_monochrome.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable/library_add.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="library_add.xml" />
+                          <item name="library_add.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable/library_add_check.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="library_add_check.xml" />
+                          <item name="library_add_check.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable/library_music.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="library_music.xml" />
+                          <item name="library_music.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable/library_music_filled.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="library_music_filled.xml" />
+                          <item name="library_music_filled.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable/library_music_outlined.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="library_music_outlined.xml" />
+                          <item name="library_music_outlined.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable/link.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="link.xml" />
+                          <item name="link.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable/list.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="list.xml" />
+                          <item name="list.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable/location_on.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="location_on.xml" />
+                          <item name="location_on.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable/lock.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="lock.xml" />
+                          <item name="lock.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable/lock_open.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="lock_open.xml" />
+                          <item name="lock_open.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable/login.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="login.xml" />
+                          <item name="login.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable/logout.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="logout.xml" />
+                          <item name="logout.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable/lyrics.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="lyrics.xml" />
+                          <item name="lyrics.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable/lyrics_preview.png" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/image.svg" iconPlugin="com.intellij" isLeaf="true" text="lyrics_preview.png" />
+                          <item name="lyrics_preview.png" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable/manage_search.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="manage_search.xml" />
+                          <item name="manage_search.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable/mix.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="mix.xml" />
+                          <item name="mix.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable/mood.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="mood.xml" />
+                          <item name="mood.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable/more_horiz.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="more_horiz.xml" />
+                          <item name="more_horiz.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable/more_vert.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="more_vert.xml" />
+                          <item name="more_vert.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable/music_note.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="music_note.xml" />
+                          <item name="music_note.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable/nav_bar.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="nav_bar.xml" />
+                          <item name="nav_bar.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable/navigate_next.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="navigate_next.xml" />
+                          <item name="navigate_next.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable/notifications_unread.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="notifications_unread.xml" />
+                          <item name="notifications_unread.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable/offline.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="offline.xml" />
+                          <item name="offline.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable/palette.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="palette.xml" />
+                          <item name="palette.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable/pause.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="pause.xml" />
+                          <item name="pause.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable/person.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="person.xml" />
+                          <item name="person.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable/play.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="play.xml" />
+                          <item name="play.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable/player_preview.png" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/image.svg" iconPlugin="com.intellij" isLeaf="true" text="player_preview.png" />
+                          <item name="player_preview.png" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable/playlist_add.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="playlist_add.xml" />
+                          <item name="playlist_add.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable/playlist_import.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="playlist_import.xml" />
+                          <item name="playlist_import.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable/playlist_play.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="playlist_play.xml" />
+                          <item name="playlist_play.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable/queue_music.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="queue_music.xml" />
+                          <item name="queue_music.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable/radio.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="radio.xml" />
+                          <item name="radio.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable/radio_button_checked.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="radio_button_checked.xml" />
+                          <item name="radio_button_checked.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable/radio_button_unchecked.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="radio_button_unchecked.xml" />
+                          <item name="radio_button_unchecked.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable/remove.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="remove.xml" />
+                          <item name="remove.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable/repeat.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="repeat.xml" />
+                          <item name="repeat.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable/repeat_on.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="repeat_on.xml" />
+                          <item name="repeat_on.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable/repeat_one.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="repeat_one.xml" />
+                          <item name="repeat_one.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable/repeat_one_on.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="repeat_one_on.xml" />
+                          <item name="repeat_one_on.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable/replay.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="replay.xml" />
+                          <item name="replay.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable/restore.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="restore.xml" />
+                          <item name="restore.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable/screenshot.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="screenshot.xml" />
+                          <item name="screenshot.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable/search.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="search.xml" />
+                          <item name="search.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable/search_off.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="search_off.xml" />
+                          <item name="search_off.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable/security.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="security.xml" />
+                          <item name="security.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable/select.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="select.xml" />
+                          <item name="select.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable/select_all.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="select_all.xml" />
+                          <item name="select_all.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable/settings.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="settings.xml" />
+                          <item name="settings.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable/share.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="share.xml" />
+                          <item name="share.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable/shortcut_explore.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="shortcut_explore.xml" />
+                          <item name="shortcut_explore.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable/shortcut_library.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="shortcut_library.xml" />
+                          <item name="shortcut_library.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable/shortcut_search.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="shortcut_search.xml" />
+                          <item name="shortcut_search.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable/shuffle.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="shuffle.xml" />
+                          <item name="shuffle.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable/shuffle_on.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="shuffle_on.xml" />
+                          <item name="shuffle_on.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable/similar.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="similar.xml" />
+                          <item name="similar.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable/skip_next.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="skip_next.xml" />
+                          <item name="skip_next.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable/skip_previous.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="skip_previous.xml" />
+                          <item name="skip_previous.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable/sliders.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="sliders.xml" />
+                          <item name="sliders.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable/slow_motion_video.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="slow_motion_video.xml" />
+                          <item name="slow_motion_video.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable/small_icon.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="small_icon.xml" />
+                          <item name="small_icon.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable/speed.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="speed.xml" />
+                          <item name="speed.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable/star.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="star.xml" />
+                          <item name="star.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable/stats.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="stats.xml" />
+                          <item name="stats.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable/status.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="status.xml" />
+                          <item name="status.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable/storage.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="storage.xml" />
+                          <item name="storage.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable/style.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="style.xml" />
+                          <item name="style.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable/subscribe.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="subscribe.xml" />
+                          <item name="subscribe.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable/subscribed.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="subscribed.xml" />
+                          <item name="subscribed.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable/swipe.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="swipe.xml" />
+                          <item name="swipe.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable/sync.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="sync.xml" />
+                          <item name="sync.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable/tab.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="tab.xml" />
+                          <item name="tab.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable/text_fields.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="text_fields.xml" />
+                          <item name="text_fields.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable/timer.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="timer.xml" />
+                          <item name="timer.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable/token.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="token.xml" />
+                          <item name="token.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable/translate.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="translate.xml" />
+                          <item name="translate.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable/trending_up.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="trending_up.xml" />
+                          <item name="trending_up.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable/tune.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="tune.xml" />
+                          <item name="tune.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable/uncheck_box.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="uncheck_box.xml" />
+                          <item name="uncheck_box.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable/update.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="update.xml" />
+                          <item name="update.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable/volume_off.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="volume_off.xml" />
+                          <item name="volume_off.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable/volume_up.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="volume_up.xml" />
+                          <item name="volume_up.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable/waves.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="waves.xml" />
+                          <item name="waves.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable/website.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="website.xml" />
+                          <item name="website.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable/wifi_proxy.xml" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="wifi_proxy.xml" />
+                          <item name="wifi_proxy.xml" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                      </presentation>
+                      <presentation>
+                        <attributes>
+                          <map>
+                            <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable-v31" />
+                          </map>
+                        </attributes>
+                        <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="drawable-v31" />
+                        <item name="dir{file:///home/mrboomdev/StudioProjects/ArchiveTune/app/src/main/res/drawable-v31}" type="462c0819:PsiDirectoryNode" />
+                      </presentation>
+                      <presentation>
+                        <attributes>
+                          <map>
+                            <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26" />
+                          </map>
+                        </attributes>
+                        <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="mipmap-anydpi-v26" />
+                        <item name="dir{file:///home/mrboomdev/StudioProjects/ArchiveTune/app/src/main/res/mipmap-anydpi-v26}" type="462c0819:PsiDirectoryNode" />
+                      </presentation>
+                      <presentation>
+                        <attributes>
+                          <map>
+                            <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v31" />
+                          </map>
+                        </attributes>
+                        <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="mipmap-anydpi-v31" />
+                        <item name="dir{file:///home/mrboomdev/StudioProjects/ArchiveTune/app/src/main/res/mipmap-anydpi-v31}" type="462c0819:PsiDirectoryNode" />
+                      </presentation>
+                      <presentation>
+                        <attributes>
+                          <map>
+                            <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi" />
+                          </map>
+                        </attributes>
+                        <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="mipmap-hdpi" />
+                        <item name="dir{file:///home/mrboomdev/StudioProjects/ArchiveTune/app/src/main/res/mipmap-hdpi}" type="462c0819:PsiDirectoryNode" />
+                      </presentation>
+                      <presentation>
+                        <attributes>
+                          <map>
+                            <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi" />
+                          </map>
+                        </attributes>
+                        <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="mipmap-mdpi" />
+                        <item name="dir{file:///home/mrboomdev/StudioProjects/ArchiveTune/app/src/main/res/mipmap-mdpi}" type="462c0819:PsiDirectoryNode" />
+                      </presentation>
+                      <presentation>
+                        <attributes>
+                          <map>
+                            <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi" />
+                          </map>
+                        </attributes>
+                        <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="mipmap-xhdpi" />
+                        <item name="dir{file:///home/mrboomdev/StudioProjects/ArchiveTune/app/src/main/res/mipmap-xhdpi}" type="462c0819:PsiDirectoryNode" />
+                      </presentation>
+                      <presentation>
+                        <attributes>
+                          <map>
+                            <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi" />
+                          </map>
+                        </attributes>
+                        <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="mipmap-xxhdpi" />
+                        <item name="dir{file:///home/mrboomdev/StudioProjects/ArchiveTune/app/src/main/res/mipmap-xxhdpi}" type="462c0819:PsiDirectoryNode" />
+                      </presentation>
+                      <presentation>
+                        <attributes>
+                          <map>
+                            <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi" />
+                          </map>
+                        </attributes>
+                        <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="mipmap-xxxhdpi" />
+                        <item name="dir{file:///home/mrboomdev/StudioProjects/ArchiveTune/app/src/main/res/mipmap-xxxhdpi}" type="462c0819:PsiDirectoryNode" />
+                      </presentation>
+                      <presentation>
+                        <attributes>
+                          <map>
+                            <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/values" />
+                          </map>
+                        </attributes>
+                        <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="values" />
+                        <item name="dir{file:///home/mrboomdev/StudioProjects/ArchiveTune/app/src/main/res/values}" type="462c0819:PsiDirectoryNode" />
+                      </presentation>
+                      <presentation>
+                        <attributes>
+                          <map>
+                            <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/values-de-rDE" />
+                          </map>
+                        </attributes>
+                        <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="values-de-rDE" />
+                        <item name="dir{file:///home/mrboomdev/StudioProjects/ArchiveTune/app/src/main/res/values-de-rDE}" type="462c0819:PsiDirectoryNode" />
+                      </presentation>
+                      <presentation>
+                        <attributes>
+                          <map>
+                            <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/values-fr" />
+                          </map>
+                        </attributes>
+                        <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="values-fr" />
+                        <item name="dir{file:///home/mrboomdev/StudioProjects/ArchiveTune/app/src/main/res/values-fr}" type="462c0819:PsiDirectoryNode" />
+                      </presentation>
+                      <presentation>
+                        <attributes>
+                          <map>
+                            <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/values-in-rID" />
+                          </map>
+                        </attributes>
+                        <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="values-in-rID" />
+                        <item name="dir{file:///home/mrboomdev/StudioProjects/ArchiveTune/app/src/main/res/values-in-rID}" type="462c0819:PsiDirectoryNode" />
+                      </presentation>
+                      <presentation>
+                        <attributes>
+                          <map>
+                            <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/values-ja" />
+                          </map>
+                        </attributes>
+                        <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="values-ja" />
+                        <item name="dir{file:///home/mrboomdev/StudioProjects/ArchiveTune/app/src/main/res/values-ja}" type="462c0819:PsiDirectoryNode" />
+                      </presentation>
+                      <presentation>
+                        <attributes>
+                          <map>
+                            <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/values-ko" />
+                          </map>
+                        </attributes>
+                        <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="values-ko" />
+                        <item name="dir{file:///home/mrboomdev/StudioProjects/ArchiveTune/app/src/main/res/values-ko}" type="462c0819:PsiDirectoryNode" />
+                      </presentation>
+                      <presentation>
+                        <attributes>
+                          <map>
+                            <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/xml" />
+                          </map>
+                        </attributes>
+                        <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="xml" />
+                        <item name="dir{file:///home/mrboomdev/StudioProjects/ArchiveTune/app/src/main/res/xml}" type="462c0819:PsiDirectoryNode" />
+                      </presentation>
+                      <presentation>
+                        <attributes>
+                          <map>
+                            <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/xml-v25" />
+                          </map>
+                        </attributes>
+                        <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="xml-v25" />
+                        <item name="dir{file:///home/mrboomdev/StudioProjects/ArchiveTune/app/src/main/res/xml-v25}" type="462c0819:PsiDirectoryNode" />
+                      </presentation>
+                      <presentation>
+                        <attributes>
+                          <map>
+                            <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res/resources.properties" />
+                          </map>
+                        </attributes>
+                        <data iconPath="expui/fileTypes/properties.svg" iconPlugin="com.intellij" isLeaf="true" text="resources.properties" />
+                        <item name="resources.properties" type="ab9368bb:PsiFileNode" />
+                      </presentation>
+                    </presentation>
+                    <presentation>
+                      <attributes>
+                        <map>
+                          <entry key="filePath" value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+                        </map>
+                      </attributes>
+                      <data iconPath="studio/icons/shell/filetree/manifest-file.svg" iconPlugin="org.jetbrains.android" isLeaf="true" text="AndroidManifest.xml" />
+                      <item name="AndroidManifest.xml" type="ab9368bb:PsiFileNode" />
+                    </presentation>
+                  </presentation>
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/app/.gitignore" />
+                    </map>
+                  </attributes>
+                  <data iconPath="expui/fileTypes/ignored.svg" iconPlugin="com.intellij" isLeaf="true" text=".gitignore" />
+                  <item name=".gitignore" type="ab9368bb:PsiFileNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/app/build.gradle.kts" />
+                    </map>
+                  </attributes>
+                  <data iconPath="org/jetbrains/kotlin/idea/icons/expui/kotlinGradleScript.svg" iconPlugin="org.jetbrains.kotlin" isLeaf="true" text="build.gradle.kts" />
+                  <item name="build.gradle.kts" type="24436e51:KtFileTreeNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/app/lint.xml" />
+                    </map>
+                  </attributes>
+                  <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="lint.xml" />
+                  <item name="lint.xml" type="ab9368bb:PsiFileNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/app/persistent-debug.keystore" />
+                    </map>
+                  </attributes>
+                  <data iconPath="nodes/nodePlaceholder.svg" iconPlugin="com.intellij" isLeaf="true" text="persistent-debug.keystore" />
+                  <item name="persistent-debug.keystore" type="ab9368bb:PsiFileNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/app/proguard-rules.pro" />
+                    </map>
+                  </attributes>
+                  <data iconPath="expui/fileTypes/text.svg" iconPlugin="com.intellij" isLeaf="true" text="proguard-rules.pro" />
+                  <item name="proguard-rules.pro" type="ab9368bb:PsiFileNode" />
+                </presentation>
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/assets" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="assets" />
+                <item name="dir{file:///home/mrboomdev/StudioProjects/ArchiveTune/assets}" type="462c0819:PsiDirectoryNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/betterlyrics" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/nodes/module.svg" iconPlugin="com.intellij" isLeaf="false" text="betterlyrics" />
+                <item name="dir{file:///home/mrboomdev/StudioProjects/ArchiveTune/betterlyrics}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/fastlane" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="fastlane" />
+                <item name="dir{file:///home/mrboomdev/StudioProjects/ArchiveTune/fastlane}" type="462c0819:PsiDirectoryNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/gradle" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="gradle" />
+                <item name="dir{file:///home/mrboomdev/StudioProjects/ArchiveTune/gradle}" type="462c0819:PsiDirectoryNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/innertube" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/nodes/module.svg" iconPlugin="com.intellij" isLeaf="false" text="innertube" />
+                <item name="dir{file:///home/mrboomdev/StudioProjects/ArchiveTune/innertube}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/kizzy" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/nodes/module.svg" iconPlugin="com.intellij" isLeaf="false" text="kizzy" />
+                <item name="dir{file:///home/mrboomdev/StudioProjects/ArchiveTune/kizzy}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/kugou" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/nodes/module.svg" iconPlugin="com.intellij" isLeaf="false" text="kugou" />
+                <item name="dir{file:///home/mrboomdev/StudioProjects/ArchiveTune/kugou}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/lastfm" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/nodes/module.svg" iconPlugin="com.intellij" isLeaf="false" text="lastfm" />
+                <item name="dir{file:///home/mrboomdev/StudioProjects/ArchiveTune/lastfm}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/lrclib" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/nodes/module.svg" iconPlugin="com.intellij" isLeaf="false" text="lrclib" />
+                <item name="dir{file:///home/mrboomdev/StudioProjects/ArchiveTune/lrclib}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/.gitignore" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/fileTypes/ignored.svg" iconPlugin="com.intellij" isLeaf="true" text=".gitignore" />
+                <item name=".gitignore" type="ab9368bb:PsiFileNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/build.gradle.kts" />
+                  </map>
+                </attributes>
+                <data iconPath="org/jetbrains/kotlin/idea/icons/expui/kotlin.svg" iconPlugin="org.jetbrains.kotlin" isLeaf="true" text="build.gradle.kts" />
+                <item name="build.gradle.kts" type="24436e51:KtFileTreeNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/crowdin.yml" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/fileTypes/yaml.svg" iconPlugin="com.intellij" isLeaf="true" text="crowdin.yml" />
+                <item name="crowdin.yml" type="ab9368bb:PsiFileNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/div" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/fileTypes/text.svg" iconPlugin="com.intellij" isLeaf="true" text="div" />
+                <item name="div" type="ab9368bb:PsiFileNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/div.blyrics--active" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/fileTypes/text.svg" iconPlugin="com.intellij" isLeaf="true" text="div.blyrics--active" />
+                <item name="div.blyrics--active" type="ab9368bb:PsiFileNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/gradle.properties" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/fileTypes/properties.svg" iconPlugin="com.intellij" isLeaf="true" text="gradle.properties" />
+                <item name="gradle.properties" type="ab9368bb:PsiFileNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/gradlew" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/fileTypes/text.svg" iconPlugin="com.intellij" isLeaf="true" text="gradlew" />
+                <item name="gradlew" type="ab9368bb:PsiFileNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/gradlew.bat" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/fileTypes/text.svg" iconPlugin="com.intellij" isLeaf="true" text="gradlew.bat" />
+                <item name="gradlew.bat" type="ab9368bb:PsiFileNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/Koiverse.jks" />
+                  </map>
+                </attributes>
+                <data iconPath="nodes/nodePlaceholder.svg" iconPlugin="com.intellij" isLeaf="true" text="Koiverse.jks" />
+                <item name="Koiverse.jks" type="ab9368bb:PsiFileNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/Koiverse.jks.base64" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/fileTypes/text.svg" iconPlugin="com.intellij" isLeaf="true" text="Koiverse.jks.base64" />
+                <item name="Koiverse.jks.base64" type="ab9368bb:PsiFileNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/LICENSE" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/fileTypes/text.svg" iconPlugin="com.intellij" isLeaf="true" text="LICENSE" />
+                <item name="LICENSE" type="ab9368bb:PsiFileNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/lint.xml" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="lint.xml" />
+                <item name="lint.xml" type="ab9368bb:PsiFileNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/local.properties" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/fileTypes/properties.svg" iconPlugin="com.intellij" isLeaf="true" text="local.properties" />
+                <item name="local.properties" type="ab9368bb:PsiFileNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/README.md" />
+                  </map>
+                </attributes>
+                <data iconPath="icons/expui/markdown.svg" iconPlugin="org.intellij.plugins.markdown" isLeaf="true" text="README.md" />
+                <item name="README.md" type="ab9368bb:PsiFileNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/renovate.json" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/fileTypes/json.svg" iconPlugin="com.intellij" isLeaf="true" text="renovate.json" />
+                <item name="renovate.json" type="ab9368bb:PsiFileNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/settings.gradle.kts" />
+                  </map>
+                </attributes>
+                <data iconPath="org/jetbrains/kotlin/idea/icons/expui/kotlin.svg" iconPlugin="org.jetbrains.kotlin" isLeaf="true" text="settings.gradle.kts" />
+                <item name="settings.gradle.kts" type="24436e51:KtFileTreeNode" />
+              </presentation>
+            </presentation>
+            <presentation>
+              <attributes />
+              <data iconPath="expui/nodes/library.svg" iconPlugin="com.intellij" isLeaf="false" text="External Libraries" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </presentation>
+          </presentation>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+    </panes>
+  </component>
+  <component name="ReaderModeSettings">
+    <option name="enableVisualFormatting" value="false" />
+  </component>
+  <component name="RunConfigurationStartHistory">
+    <history>
+      <element setting="Android App.app" />
+    </history>
+  </component>
+  <component name="ToolWindowManager">
+    <layoutV2>
+      <window_info content_ui="combo" id="Project" order="0" weight="0.15837696" />
+      <window_info id="Commit" order="1" weight="0.25" />
+      <window_info id="Resources Explorer" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="0" />
+      <window_info anchor="bottom" id="Terminal" order="1" />
+      <window_info anchor="bottom" id="Problems" order="2" />
+      <window_info anchor="bottom" id="Problems View" order="3" weight="0.32996148" />
+      <window_info anchor="bottom" id="Logcat" order="4" />
+      <window_info anchor="bottom" id="App Quality Insights" order="5" />
+      <window_info anchor="bottom" id="Build" order="6" weight="0.32996148" />
+      <window_info anchor="bottom" id="Run" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Find" order="8" show_stripe_button="false" weight="0.32996148" />
+      <window_info anchor="right" content_ui="combo" id="Notifications" order="0" weight="0.25" />
+      <window_info anchor="right" id="Gradle" order="1" weight="0.25" />
+      <window_info anchor="right" id="Device Manager" order="2" weight="0.25" />
+      <window_info anchor="right" id="Device Manager 2" order="3" weight="0.25" />
+      <window_info anchor="right" id="Running Devices" order="4" weight="0.25" />
+      <window_info anchor="right" id="StudioBot" order="5" weight="0.25" />
+      <unified_weights bottom="0.32996148" left="0.15837696" />
+    </layoutV2>
+    <recentWindows>
+      <value>Find</value>
+      <value>Build</value>
+      <value>Project</value>
+      <value>Problems View</value>
+      <value>Commit</value>
+    </recentWindows>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="464" y="150" key="SettingsEditor" timestamp="1768084673968">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="464" y="150" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1768084673968" />
+    <state x="555" y="251" key="Vcs.Push.Dialog.v2" timestamp="1768084009778">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="555" y="251" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1768084009778" />
+    <state x="0" y="0" width="670" height="169" key="search.everywhere.popup" timestamp="1768087795944">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="0" y="0" width="670" height="169" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1768087795944" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SHOW_PREVIEW" is_vertical_split="false">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gradle/libs.versions.toml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="89" column="96" lean-forward="true" selection-start-line="89" selection-start-column="96" selection-end-line="89" selection-end-column="96" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/kotlin/moe/koiverse/archivetune/App.kt">
+      <provider selected="true" editor-type-id="android-source-code">
+        <state selected-layout="SHOW_EDITOR">
+          <editor-state relative-caret-position="432">
+            <caret line="59" column="22" selection-start-line="59" selection-start-column="22" selection-end-line="59" selection-end-column="22" />
+          </editor-state>
+          <multi-preview-state selected="Compose">
+            <representations>
+              <list>
+                <representation name="Compose">
+                  <settings>
+                    <setting name="previewLayout" value="Grid" />
+                    <setting name="selectedGroup" value="" />
+                  </settings>
+                </representation>
+              </list>
+            </representations>
+          </multi-preview-state>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.compose.material3/material3-android/1.5.0-alpha09/8ee6ed715ea126be3aee2d0b19e031078f56d9bb/material3-android-1.5.0-alpha09-sources.jar!/commonMain/androidx/compose/material3/WideNavigationRailState.kt">
+      <provider selected="true" editor-type-id="android-source-code">
+        <state>
+          <editor-state relative-caret-position="210">
+            <caret line="82" column="4" selection-start-line="82" selection-start-column="4" selection-end-line="82" selection-end-column="4" />
+          </editor-state>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.compose.material3/material3-android/1.5.0-alpha09/8ee6ed715ea126be3aee2d0b19e031078f56d9bb/material3-android-1.5.0-alpha09-sources.jar!/commonMain/androidx/compose/material3/WideNavigationRail.kt">
+      <provider selected="true" editor-type-id="android-source-code">
+        <state>
+          <editor-state relative-caret-position="282">
+            <caret line="168" column="54" lean-forward="true" selection-start-line="168" selection-start-column="54" selection-end-line="168" selection-end-column="54" />
+          </editor-state>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/anime_blank.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/kotlin/moe/koiverse/archivetune/ui/screens/settings/DebugSettings.kt">
+      <provider selected="true" editor-type-id="android-source-code">
+        <state selected-layout="SHOW_EDITOR">
+          <editor-state relative-caret-position="2334">
+            <caret line="271" column="81" selection-start-line="271" selection-start-column="81" selection-end-line="271" selection-end-column="81" />
+          </editor-state>
+          <multi-preview-state selected="Compose">
+            <representations>
+              <list>
+                <representation name="Compose">
+                  <settings>
+                    <setting name="previewLayout" value="Grid" />
+                    <setting name="selectedGroup" value="" />
+                  </settings>
+                </representation>
+              </list>
+            </representations>
+          </multi-preview-state>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build.gradle.kts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="365">
+          <caret line="220" column="65" selection-start-line="220" selection-start-column="65" selection-end-line="220" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/kotlin/moe/koiverse/archivetune/ui/screens/search/OnlineSearchScreen.kt">
+      <provider selected="true" editor-type-id="android-source-code">
+        <state selected-layout="SHOW_EDITOR">
+          <editor-state relative-caret-position="-3821">
+            <caret line="57" column="14" lean-forward="true" selection-start-line="57" selection-start-column="14" selection-end-line="57" selection-end-column="14" />
+          </editor-state>
+          <multi-preview-state selected="Compose">
+            <representations>
+              <list>
+                <representation name="Compose">
+                  <settings>
+                    <setting name="previewLayout" value="Grid" />
+                    <setting name="selectedGroup" value="" />
+                  </settings>
+                </representation>
+              </list>
+            </representations>
+          </multi-preview-state>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.compose.material3/material3-android/1.5.0-alpha09/8ee6ed715ea126be3aee2d0b19e031078f56d9bb/material3-android-1.5.0-alpha09-sources.jar!/commonMain/androidx/compose/material3/internal/SystemBarsDefaultInsets.kt">
+      <provider selected="true" editor-type-id="android-source-code">
+        <state>
+          <editor-state relative-caret-position="216">
+            <caret line="21" column="43" selection-start-line="21" selection-start-column="43" selection-end-line="21" selection-end-column="43" />
+          </editor-state>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.compose.material3/material3-android/1.5.0-alpha09/8ee6ed715ea126be3aee2d0b19e031078f56d9bb/material3-android-1.5.0-alpha09-sources.jar!/androidMain/androidx/compose/material3/internal/SystemBarsDefaultInsets.android.kt">
+      <provider selected="true" editor-type-id="android-source-code">
+        <state>
+          <editor-state relative-caret-position="252">
+            <caret line="25" column="34" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="34" />
+          </editor-state>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.compose.material3/material3-android/1.5.0-alpha09/8ee6ed715ea126be3aee2d0b19e031078f56d9bb/material3-android-1.5.0-alpha09-sources.jar!/commonMain/androidx/compose/material3/AppBar.kt">
+      <provider selected="true" editor-type-id="android-source-code">
+        <state>
+          <editor-state relative-caret-position="432">
+            <caret line="1483" column="40" selection-start-line="1483" selection-start-column="40" selection-end-line="1483" selection-end-column="40" />
+          </editor-state>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/kotlin/moe/koiverse/archivetune/ui/component/BottomSheetMenu.kt">
+      <provider selected="true" editor-type-id="android-source-code">
+        <state selected-layout="SHOW_EDITOR">
+          <editor-state relative-caret-position="108">
+            <caret line="31" column="6" selection-start-line="31" selection-start-column="6" selection-end-line="31" selection-end-column="6" />
+          </editor-state>
+          <multi-preview-state selected="Compose">
+            <representations>
+              <list>
+                <representation name="Compose">
+                  <settings>
+                    <setting name="previewLayout" value="Grid" />
+                    <setting name="selectedGroup" value="" />
+                  </settings>
+                </representation>
+              </list>
+            </representations>
+          </multi-preview-state>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/kotlin/moe/koiverse/archivetune/ui/screens/NavigationBuilder.kt">
+      <provider selected="true" editor-type-id="android-source-code">
+        <state selected-layout="SHOW_EDITOR">
+          <editor-state relative-caret-position="325">
+            <caret line="86" column="13" selection-start-line="86" selection-start-column="13" selection-end-line="86" selection-end-column="13" />
+          </editor-state>
+          <multi-preview-state selected="Compose">
+            <representations>
+              <list>
+                <representation name="Compose">
+                  <settings>
+                    <setting name="previewLayout" value="Grid" />
+                    <setting name="selectedGroup" value="" />
+                  </settings>
+                </representation>
+              </list>
+            </representations>
+          </multi-preview-state>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/kotlin/moe/koiverse/archivetune/ui/component/HideOnScrollFAB.kt">
+      <provider selected="true" editor-type-id="android-source-code">
+        <state selected-layout="SHOW_EDITOR">
+          <editor-state relative-caret-position="108">
+            <caret line="38" column="33" lean-forward="true" selection-start-line="38" selection-start-column="33" selection-end-line="38" selection-end-column="33" />
+          </editor-state>
+          <multi-preview-state selected="Compose">
+            <representations>
+              <list>
+                <representation name="Compose">
+                  <settings>
+                    <setting name="previewLayout" value="Grid" />
+                    <setting name="selectedGroup" value="" />
+                  </settings>
+                </representation>
+              </list>
+            </representations>
+          </multi-preview-state>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/kotlin/moe/koiverse/archivetune/ui/screens/HomeScreen.kt">
+      <provider selected="true" editor-type-id="android-source-code">
+        <state selected-layout="SHOW_EDITOR">
+          <editor-state relative-caret-position="5798">
+            <caret line="449" column="17" lean-forward="true" selection-start-line="449" selection-start-column="17" selection-end-line="449" selection-end-column="17" />
+          </editor-state>
+          <multi-preview-state selected="Compose">
+            <representations>
+              <list>
+                <representation name="Compose">
+                  <settings>
+                    <setting name="previewLayout" value="Grid" />
+                    <setting name="selectedGroup" value="" />
+                  </settings>
+                </representation>
+              </list>
+            </representations>
+          </multi-preview-state>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/kotlin/moe/koiverse/archivetune/MainActivity.kt">
+      <provider selected="true" editor-type-id="android-source-code">
+        <state selected-layout="SHOW_EDITOR">
+          <editor-state relative-caret-position="-1224">
+            <caret line="563" column="24" selection-start-line="563" selection-start-column="24" selection-end-line="563" selection-end-column="24" />
+          </editor-state>
+          <multi-preview-state selected="Compose">
+            <representations>
+              <list>
+                <representation name="Compose">
+                  <settings>
+                    <setting name="previewLayout" value="Grid" />
+                    <setting name="selectedGroup" value="" />
+                  </settings>
+                </representation>
+              </list>
+            </representations>
+          </multi-preview-state>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

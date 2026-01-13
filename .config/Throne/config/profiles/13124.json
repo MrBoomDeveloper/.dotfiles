@@ -1,17 +1,17 @@
 {
     "bean": {
         "_v": 0,
-        "addr": "138.186.142.81",
+        "addr": "208.67.106.73",
         "brutal_speed": 0,
         "c_cfg": "",
         "c_out": "",
         "enable_brutal": false,
         "method": "chacha20-ietf-poly1305",
         "mux": 0,
-        "name": "🇵🇦PA-138.186.142.81-0284",
-        "pass": "ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=",
+        "name": "🇳🇱 Netherlands, Amsterdam [BL]",
+        "pass": "2DGq3jvVRg5n3CcxmysGK2kmrgJeSNof12A76cZvVxqPpetyC1XEciCFufq5xKvRWGGnKVembpThuUSQhbZ7GMsZY4UVxEBw",
         "plugin": "",
-        "port": 990,
+        "port": 44884,
         "stream": {
             "alpn": "",
             "cert": "",
@@ -38,7 +38,7 @@
     },
     "country": "",
     "dl": "",
-    "gid": 9,
+    "gid": 12,
     "id": 13124,
     "report": "",
     "traffic": {

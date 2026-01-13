@@ -1,16 +1,17 @@
 {
     "bean": {
         "_v": 0,
-        "addr": "51.250.34.114",
+        "addr": "ltnl15.saint.ydns.eu",
         "brutal_speed": 0,
         "c_cfg": "",
         "c_out": "",
         "enable_brutal": false,
-        "flow": "xtls-rprx-vision",
+        "method": "chacha20-ietf-poly1305",
         "mux": 0,
-        "name": "🇷🇺 Yandex — #60",
-        "pass": "61ca1f55-8cc8-4be4-9bf5-12495e38c96a",
-        "port": 8443,
+        "name": "🇳🇱 The Netherlands (52)",
+        "pass": "oZIoA69Q8yhcQV8ka3Pa3A",
+        "plugin": "",
+        "port": 8080,
         "stream": {
             "alpn": "",
             "cert": "",
@@ -22,28 +23,29 @@
             "insecure": false,
             "method": "",
             "net": "tcp",
-            "pac_enc": "xudp",
+            "pac_enc": "",
             "path": "",
-            "pbk": "WXV-s-R8n95EvDEWOOcuzppdGSn32kYo1tFh_73J5iY",
-            "sec": "tls",
-            "sid": "695270f5ed6de154",
-            "sni": "sun6-21.userapi.com",
+            "pbk": "",
+            "sec": "",
+            "sid": "",
+            "sni": "",
             "tls_frag": false,
             "tls_frag_fall_delay": "",
             "tls_record_frag": false,
-            "utls": "chrome"
-        }
+            "utls": ""
+        },
+        "uot": 0
     },
     "country": "",
     "dl": "",
-    "gid": 10,
+    "gid": 12,
     "id": 13628,
     "report": "",
     "traffic": {
         "dl": 0,
         "ul": 0
     },
-    "type": "vless",
+    "type": "shadowsocks",
     "ul": "",
     "yc": -1
 }

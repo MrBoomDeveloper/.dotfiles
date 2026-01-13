@@ -1,16 +1,16 @@
 {
     "bean": {
         "_v": 0,
-        "addr": "78.159.247.136",
+        "addr": "130.193.35.232",
         "brutal_speed": 0,
         "c_cfg": "",
         "c_out": "",
         "enable_brutal": false,
         "flow": "xtls-rprx-vision",
         "mux": 0,
-        "name": "0280 | 🏳️ VK | 🇷🇺 Russia | VLESS | TG: @STR_BYPASS",
-        "pass": "55d5c995-b3c7-4055-98d2-af263d7ba8f1",
-        "port": 3443,
+        "name": "🇮🇹 Italy — #150",
+        "pass": "7db2fbe9-b42a-4435-b823-2b0b52cbe753",
+        "port": 443,
         "stream": {
             "alpn": "",
             "cert": "",
@@ -24,19 +24,19 @@
             "net": "tcp",
             "pac_enc": "xudp",
             "path": "",
-            "pbk": "dfT5z5agib56VILhtjzfgksA4M5Ez0yNA_19Ck2z5ho",
+            "pbk": "_CjW0Khlrr5z5oc9Oy6-w2ZEanz-zMBktVn5EOX9oTM",
             "sec": "tls",
-            "sid": "d16801fe66c1c538",
-            "sni": "max.ru",
+            "sid": "f32140952ba18e18",
+            "sni": "tradingview.com",
             "tls_frag": false,
             "tls_frag_fall_delay": "",
             "tls_record_frag": false,
-            "utls": "qq"
+            "utls": "chrome"
         }
     },
     "country": "",
     "dl": "",
-    "gid": 10,
+    "gid": 12,
     "id": 13339,
     "report": "",
     "traffic": {

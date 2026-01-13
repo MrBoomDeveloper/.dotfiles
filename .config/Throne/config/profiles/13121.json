@@ -1,16 +1,15 @@
 {
     "bean": {
         "_v": 0,
-        "addr": "149.22.87.204",
+        "addr": "ru33.abvpn.net",
         "brutal_speed": 0,
         "c_cfg": "",
         "c_out": "",
         "enable_brutal": false,
-        "method": "aes-128-gcm",
+        "flow": "",
         "mux": 0,
-        "name": "🇯🇵JP-149.22.87.204-0285",
-        "pass": "shadowsocks",
-        "plugin": "",
+        "name": "📱 Антиблок 129 | Social",
+        "pass": "0f6c83bc-34ba-4ca1-96e6-08b3620cbce5",
         "port": 443,
         "stream": {
             "alpn": "",
@@ -23,29 +22,28 @@
             "insecure": false,
             "method": "",
             "net": "tcp",
-            "pac_enc": "",
+            "pac_enc": "xudp",
             "path": "",
-            "pbk": "",
-            "sec": "",
-            "sid": "",
-            "sni": "",
+            "pbk": "s0qb5ggFZN3X7QXWtgK4o7UgfS9DlpFC6JT6OWVs6X4",
+            "sec": "tls",
+            "sid": "a5d90165",
+            "sni": "www.vk.com",
             "tls_frag": false,
             "tls_frag_fall_delay": "",
             "tls_record_frag": false,
-            "utls": ""
-        },
-        "uot": 0
+            "utls": "firefox"
+        }
     },
     "country": "",
     "dl": "",
-    "gid": 9,
+    "gid": 12,
     "id": 13121,
     "report": "",
     "traffic": {
         "dl": 0,
         "ul": 0
     },
-    "type": "shadowsocks",
+    "type": "vless",
     "ul": "",
-    "yc": 309
+    "yc": -1
 }

@@ -1,15 +1,16 @@
 {
     "bean": {
         "_v": 0,
-        "addr": "51.250.73.31",
+        "addr": "81.19.141.45",
         "brutal_speed": 0,
         "c_cfg": "",
         "c_out": "",
         "enable_brutal": false,
-        "flow": "",
+        "method": "chacha20-ietf-poly1305",
         "mux": 0,
-        "name": "@STR_BYPASS🌐",
-        "pass": "76f385df-bb5c-4e92-b60b-fce540b0a6a0",
+        "name": "🔥PORTAL Telegram:@STR_BYPASS🟣",
+        "pass": "Cu5X4a4Zn2tRJeJWMnyeC9",
+        "plugin": "",
         "port": 443,
         "stream": {
             "alpn": "",
@@ -22,28 +23,29 @@
             "insecure": false,
             "method": "",
             "net": "tcp",
-            "pac_enc": "xudp",
+            "pac_enc": "",
             "path": "",
             "pbk": "",
-            "sec": "tls",
+            "sec": "",
             "sid": "",
             "sni": "",
             "tls_frag": false,
             "tls_frag_fall_delay": "",
             "tls_record_frag": false,
             "utls": ""
-        }
+        },
+        "uot": 0
     },
     "country": "",
     "dl": "",
-    "gid": 10,
+    "gid": 12,
     "id": 13428,
     "report": "",
     "traffic": {
         "dl": 0,
         "ul": 0
     },
-    "type": "vless",
+    "type": "shadowsocks",
     "ul": "",
     "yc": -1
 }

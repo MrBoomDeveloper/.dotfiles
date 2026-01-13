@@ -1,16 +1,15 @@
 {
     "bean": {
         "_v": 0,
-        "addr": "23.95.72.81",
+        "addr": "ru01-blh01.tcp-reset-club.net",
         "brutal_speed": 0,
         "c_cfg": "",
         "c_out": "",
         "enable_brutal": false,
-        "method": "chacha20-ietf-poly1305",
+        "flow": "xtls-rprx-vision",
         "mux": 0,
-        "name": "🇺🇸US-23.95.72.81-0265",
-        "pass": "UAMVtHm54uahd6SiN5WcD16rsPSdabPG",
-        "plugin": "",
+        "name": "⚫ LTE | Моб. белый список | vk тгк: @STR_BYPASS",
+        "pass": "b4d8a0f6-bf50-43a5-a8ff-e8da390910f9",
         "port": 443,
         "stream": {
             "alpn": "",
@@ -23,29 +22,28 @@
             "insecure": false,
             "method": "",
             "net": "tcp",
-            "pac_enc": "",
+            "pac_enc": "xudp",
             "path": "",
-            "pbk": "",
-            "sec": "",
-            "sid": "",
-            "sni": "",
+            "pbk": "mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg",
+            "sec": "tls",
+            "sid": "8453e5fd9af927",
+            "sni": "stats.vk-portal.net",
             "tls_frag": false,
             "tls_frag_fall_delay": "",
             "tls_record_frag": false,
-            "utls": ""
-        },
-        "uot": 0
+            "utls": "chrome"
+        }
     },
     "country": "",
     "dl": "",
-    "gid": 9,
+    "gid": 12,
     "id": 13104,
     "report": "",
     "traffic": {
         "dl": 0,
         "ul": 0
     },
-    "type": "shadowsocks",
+    "type": "vless",
     "ul": "",
-    "yc": 204
+    "yc": -1
 }

@@ -1,16 +1,16 @@
 {
     "bean": {
         "_v": 0,
-        "addr": "vk.volgaboost.ru",
+        "addr": "89.208.87.217",
         "brutal_speed": 0,
         "c_cfg": "",
         "c_out": "",
         "enable_brutal": false,
         "flow": "xtls-rprx-vision",
         "mux": 0,
-        "name": "0072 | 🏳️ Yandex | 🌍 Unknown | VLESS | TG: @STR_BYPASS",
-        "pass": "e5017995-2093-491b-a0fa-d4890782d42a",
-        "port": 9443,
+        "name": "🇪🇸 Spain — #117",
+        "pass": "71973415-8585-4315-9d7d-b2babfd05c34",
+        "port": 443,
         "stream": {
             "alpn": "",
             "cert": "",
@@ -24,19 +24,19 @@
             "net": "tcp",
             "pac_enc": "xudp",
             "path": "",
-            "pbk": "quKh5fWN1szzqwVcWJg7SIXfFFFQf3M1K0YiE_bjVDQ",
+            "pbk": "zr8_rtHm86s_G1gfRwNtunStGngYZSdYkA3PyBFXpDg",
             "sec": "tls",
-            "sid": "258d1a24fe8f0593",
-            "sni": "api-maps.yandex.ru",
+            "sid": "48fccabc158a4c22",
+            "sni": "tradingview.com",
             "tls_frag": false,
             "tls_frag_fall_delay": "",
             "tls_record_frag": false,
-            "utls": "qq"
+            "utls": "chrome"
         }
     },
     "country": "",
     "dl": "",
-    "gid": 10,
+    "gid": 12,
     "id": 13310,
     "report": "",
     "traffic": {

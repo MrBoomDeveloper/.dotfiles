@@ -1,16 +1,17 @@
 {
     "bean": {
         "_v": 0,
-        "addr": "ru01-blh01.tcp-reset-club.net",
+        "addr": "82.38.31.205",
         "brutal_speed": 0,
         "c_cfg": "",
         "c_out": "",
         "enable_brutal": false,
-        "flow": "xtls-rprx-vision",
+        "method": "chacha20-ietf-poly1305",
         "mux": 0,
-        "name": "⚫ LTE | Моб. белый список | vk тгк: @STR_BYPASS",
-        "pass": "7763f79c-7500-4a58-b34f-5c62b023e703",
-        "port": 443,
+        "name": "🔥PORTAL Telegram:@STR_BYPASS🟣",
+        "pass": "k1dBOmOB4oqi7Ump37a1bQ",
+        "plugin": "",
+        "port": 8080,
         "stream": {
             "alpn": "",
             "cert": "",
@@ -22,28 +23,29 @@
             "insecure": false,
             "method": "",
             "net": "tcp",
-            "pac_enc": "xudp",
+            "pac_enc": "",
             "path": "",
-            "pbk": "mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg",
-            "sec": "tls",
-            "sid": "175d",
-            "sni": "stats.vk-portal.net",
+            "pbk": "",
+            "sec": "",
+            "sid": "",
+            "sni": "",
             "tls_frag": false,
             "tls_frag_fall_delay": "",
             "tls_record_frag": false,
-            "utls": "chrome"
-        }
+            "utls": ""
+        },
+        "uot": 0
     },
     "country": "",
     "dl": "",
-    "gid": 10,
+    "gid": 12,
     "id": 13460,
     "report": "",
     "traffic": {
         "dl": 0,
         "ul": 0
     },
-    "type": "vless",
+    "type": "shadowsocks",
     "ul": "",
-    "yc": 56
+    "yc": -1
 }

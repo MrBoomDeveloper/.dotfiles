@@ -1,17 +1,16 @@
 {
     "bean": {
         "_v": 0,
-        "addr": "38.165.233.18",
+        "addr": "95.163.183.101",
         "brutal_speed": 0,
         "c_cfg": "",
         "c_out": "",
         "enable_brutal": false,
-        "method": "chacha20-ietf-poly1305",
+        "flow": "xtls-rprx-vision",
         "mux": 0,
-        "name": "🇵🇾PY-38.165.233.18-4896",
-        "pass": "f8f7aCzcPKbsF8p3",
-        "plugin": "",
-        "port": 990,
+        "name": "🇷🇺 VK — #41",
+        "pass": "45fa3af5-f92c-4aac-97e5-a1733687d10b",
+        "port": 443,
         "stream": {
             "alpn": "",
             "cert": "",
@@ -23,29 +22,28 @@
             "insecure": false,
             "method": "",
             "net": "tcp",
-            "pac_enc": "",
+            "pac_enc": "xudp",
             "path": "",
-            "pbk": "",
-            "sec": "",
-            "sid": "",
-            "sni": "",
+            "pbk": "cynncQk7kKzEQaExg-FN7pMqFaZPSXEi_Ggy7AXXmVg",
+            "sec": "tls",
+            "sid": "44103f58",
+            "sni": "sun9-38.userapi.com",
             "tls_frag": false,
             "tls_frag_fall_delay": "",
             "tls_record_frag": false,
-            "utls": ""
-        },
-        "uot": 0
+            "utls": "chrome"
+        }
     },
     "country": "",
     "dl": "",
-    "gid": 9,
+    "gid": 12,
     "id": 13270,
     "report": "",
     "traffic": {
         "dl": 0,
         "ul": 0
     },
-    "type": "shadowsocks",
+    "type": "vless",
     "ul": "",
     "yc": -1
 }

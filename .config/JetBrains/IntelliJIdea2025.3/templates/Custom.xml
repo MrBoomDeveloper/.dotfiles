@@ -1,0 +1,14 @@
+<templateSet group="Custom">
+  <template name="print" value="$VAR$.also {&#10;    println(&quot;-&quot;.repeat(100))&#10;    for(chunk in it.chunked(4000)) {&#10;        println(chunk)&#10;    }&#10;    println(&quot;-&quot;.repeat(100))&#10;}" description="" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="KOTLIN_EXPRESSION" value="true" />
+    </context>
+  </template>
+  <template name="file" value="$VAR$.also { &#10;    java.io.File(&quot;temp.txt&quot;).apply { createNewFile(); writeText(it) } &#10;}" description="" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="KOTLIN_EXPRESSION" value="true" />
+    </context>
+  </template>
+</templateSet>

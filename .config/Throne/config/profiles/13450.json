@@ -1,15 +1,16 @@
 {
     "bean": {
         "_v": 0,
-        "addr": "62.60.246.188",
+        "addr": "23.95.75.146",
         "brutal_speed": 0,
         "c_cfg": "",
         "c_out": "",
         "enable_brutal": false,
-        "flow": "xtls-rprx-vision",
+        "method": "chacha20-ietf-poly1305",
         "mux": 0,
-        "name": "🇫🇷 Paris 1 | тгк: @STR_BYPASS",
-        "pass": "405ec164-7923-4d76-8be5-7ae96e444f4e",
+        "name": "🔥PORTAL Telegram:@STR_BYPASS🟣",
+        "pass": "NDRySIABARbErNIVsCNVkyYAHiBzhveT",
+        "plugin": "",
         "port": 443,
         "stream": {
             "alpn": "",
@@ -22,28 +23,29 @@
             "insecure": false,
             "method": "",
             "net": "tcp",
-            "pac_enc": "xudp",
+            "pac_enc": "",
             "path": "",
-            "pbk": "o3H8CUivdt6lbFH6S7CQZ6dua7nUg5rYtPdSyXpjpx0",
-            "sec": "tls",
-            "sid": "6104c5e9613ea56c",
-            "sni": "web.max.ru",
+            "pbk": "",
+            "sec": "",
+            "sid": "",
+            "sni": "",
             "tls_frag": false,
             "tls_frag_fall_delay": "",
             "tls_record_frag": false,
-            "utls": "chrome"
-        }
+            "utls": ""
+        },
+        "uot": 0
     },
     "country": "",
     "dl": "",
-    "gid": 10,
+    "gid": 12,
     "id": 13450,
     "report": "",
     "traffic": {
         "dl": 0,
         "ul": 0
     },
-    "type": "vless",
+    "type": "shadowsocks",
     "ul": "",
-    "yc": -1
+    "yc": 147
 }

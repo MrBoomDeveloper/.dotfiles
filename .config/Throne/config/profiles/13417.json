@@ -1,16 +1,16 @@
 {
     "bean": {
         "_v": 0,
-        "addr": "144.31.14.38",
+        "addr": "hybrid.arvancloud.online",
         "brutal_speed": 0,
         "c_cfg": "",
         "c_out": "",
         "enable_brutal": false,
-        "flow": "",
+        "flow": "xtls-rprx-vision",
         "mux": 0,
-        "name": "🇳🇱@",
-        "pass": "0ea84d1f-2687-467d-97dd-ed8d5e8f3f42",
-        "port": 49755,
+        "name": "none",
+        "pass": "53fff6cc-b4ec-43e8-ade5-e0c42972fc33",
+        "port": 44443,
         "stream": {
             "alpn": "",
             "cert": "",
@@ -24,19 +24,19 @@
             "net": "tcp",
             "pac_enc": "xudp",
             "path": "",
-            "pbk": "",
+            "pbk": "XHjKkrNBYXOaamOx8IUCrwX0zp5dAQRVErHiQ5bwAEQ",
             "sec": "tls",
             "sid": "",
-            "sni": "",
+            "sni": "www.speedtest.net",
             "tls_frag": false,
             "tls_frag_fall_delay": "",
             "tls_record_frag": false,
-            "utls": ""
+            "utls": "chrome"
         }
     },
     "country": "",
     "dl": "",
-    "gid": 10,
+    "gid": 12,
     "id": 13417,
     "report": "",
     "traffic": {

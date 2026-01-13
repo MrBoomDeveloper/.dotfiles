@@ -1,15 +1,16 @@
 {
     "bean": {
         "_v": 0,
-        "addr": "vk.ookcdn.ru",
+        "addr": "94.131.104.147",
         "brutal_speed": 0,
         "c_cfg": "",
         "c_out": "",
         "enable_brutal": false,
-        "flow": "xtls-rprx-vision",
+        "method": "chacha20-ietf-poly1305",
         "mux": 0,
-        "name": "🇺🇸 USA | No TORRENT! 2 тгк: @STR_BYPASS",
-        "pass": "eb162ab1-a006-4931-b1b3-8fc88a22b10e",
+        "name": "🔥PORTAL Telegram:@STR_BYPASS🟣",
+        "pass": "6VAcll4P8xPTUVVtHeST3onRmLoVIBSU",
+        "plugin": "",
         "port": 443,
         "stream": {
             "alpn": "",
@@ -22,28 +23,29 @@
             "insecure": false,
             "method": "",
             "net": "tcp",
-            "pac_enc": "xudp",
+            "pac_enc": "",
             "path": "",
-            "pbk": "WvNaAxI0W__qfUKbtysH4IwF155YENlv3PG6crCmPkA",
-            "sec": "tls",
+            "pbk": "",
+            "sec": "",
             "sid": "",
-            "sni": "vk.ookcdn.ru",
+            "sni": "",
             "tls_frag": false,
             "tls_frag_fall_delay": "",
             "tls_record_frag": false,
             "utls": ""
-        }
+        },
+        "uot": 0
     },
     "country": "",
     "dl": "",
-    "gid": 10,
+    "gid": 12,
     "id": 13453,
     "report": "",
     "traffic": {
         "dl": 0,
         "ul": 0
     },
-    "type": "vless",
+    "type": "shadowsocks",
     "ul": "",
     "yc": -1
 }

@@ -1,16 +1,17 @@
 {
     "bean": {
         "_v": 0,
-        "addr": "ov-france2.09vpn.com",
+        "addr": "216.173.70.187",
         "brutal_speed": 0,
         "c_cfg": "",
         "c_out": "",
         "enable_brutal": false,
-        "flow": "",
+        "method": "chacha20-ietf-poly1305",
         "mux": 0,
-        "name": "none",
-        "pass": "f0758892-f40c-412d-9fab-88103bad1fd8",
-        "port": 80,
+        "name": "🇱🇻 Riga, RIX, Latvia",
+        "pass": "360e21d21977dc11",
+        "plugin": "",
+        "port": 57456,
         "stream": {
             "alpn": "",
             "cert": "",
@@ -21,9 +22,9 @@
             "host": "",
             "insecure": false,
             "method": "",
-            "net": "ws",
-            "pac_enc": "xudp",
-            "path": "/vless/",
+            "net": "tcp",
+            "pac_enc": "",
+            "path": "",
             "pbk": "",
             "sec": "",
             "sid": "",
@@ -32,18 +33,19 @@
             "tls_frag_fall_delay": "",
             "tls_record_frag": false,
             "utls": ""
-        }
+        },
+        "uot": 0
     },
     "country": "",
     "dl": "",
-    "gid": 10,
+    "gid": 12,
     "id": 13762,
     "report": "",
     "traffic": {
         "dl": 0,
         "ul": 0
     },
-    "type": "vless",
+    "type": "shadowsocks",
     "ul": "",
     "yc": -1
 }

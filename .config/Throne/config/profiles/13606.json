@@ -1,15 +1,15 @@
 {
     "bean": {
         "_v": 0,
-        "addr": "5.188.140.63",
+        "addr": "92.60.78.221",
         "brutal_speed": 0,
         "c_cfg": "",
         "c_out": "",
         "enable_brutal": false,
         "flow": "xtls-rprx-vision",
         "mux": 0,
-        "name": "🇷🇺 VK — #17",
-        "pass": "64bc8910-bc0f-453e-b3f3-a101a5dce03e",
+        "name": "[🇫🇮] [vl-re-ra] [250723-134616.297]",
+        "pass": "6897c181-24b1-4880-8660-e6c5c7ee13c7",
         "port": 443,
         "stream": {
             "alpn": "",
@@ -24,10 +24,10 @@
             "net": "tcp",
             "pac_enc": "xudp",
             "path": "",
-            "pbk": "FkmYFobwxLMLEktYXywmjthuEYCZggITsxwPNasTKUg",
+            "pbk": "pkIWxbuPAasjatPaHnAaTnCxVj1RkDFsJEWpLUTOcWY",
             "sec": "tls",
-            "sid": "048fe5c8be4bb687",
-            "sni": "m.vk.com",
+            "sid": "9917d2350096",
+            "sni": "www.tradingview.com",
             "tls_frag": false,
             "tls_frag_fall_delay": "",
             "tls_record_frag": false,
@@ -36,7 +36,7 @@
     },
     "country": "",
     "dl": "",
-    "gid": 10,
+    "gid": 12,
     "id": 13606,
     "report": "",
     "traffic": {
@@ -45,5 +45,5 @@
     },
     "type": "vless",
     "ul": "",
-    "yc": -1
+    "yc": 137
 }

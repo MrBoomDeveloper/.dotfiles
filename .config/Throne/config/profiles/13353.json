@@ -1,16 +1,16 @@
 {
     "bean": {
         "_v": 0,
-        "addr": "info.mattesaira.cc",
+        "addr": "78.159.247.136",
         "brutal_speed": 0,
         "c_cfg": "",
         "c_out": "",
         "enable_brutal": false,
         "flow": "xtls-rprx-vision",
         "mux": 0,
-        "name": "0524 | 🌍 Unknown | VLESS | TG: @STR_BYPASS",
-        "pass": "f78e7af4-5d48-4746-b00a-d93fbdc9c9f8",
-        "port": 443,
+        "name": "🇵🇱 Poland — #171",
+        "pass": "55d5c995-b3c7-4055-98d2-af263d7ba8f1",
+        "port": 3443,
         "stream": {
             "alpn": "",
             "cert": "",
@@ -24,10 +24,10 @@
             "net": "tcp",
             "pac_enc": "xudp",
             "path": "",
-            "pbk": "uf64ptbhMNcLWuwEfOzQB7qgn725h6w9DmKRteQQPwg",
+            "pbk": "dfT5z5agib56VILhtjzfgksA4M5Ez0yNA_19Ck2z5ho",
             "sec": "tls",
-            "sid": "4ccf790953f1",
-            "sni": "www.mozilla.org",
+            "sid": "d16801fe66c1c538",
+            "sni": "max.ru",
             "tls_frag": false,
             "tls_frag_fall_delay": "",
             "tls_record_frag": false,
@@ -36,7 +36,7 @@
     },
     "country": "",
     "dl": "",
-    "gid": 10,
+    "gid": 12,
     "id": 13353,
     "report": "",
     "traffic": {
@@ -45,5 +45,5 @@
     },
     "type": "vless",
     "ul": "",
-    "yc": 222
+    "yc": -1
 }

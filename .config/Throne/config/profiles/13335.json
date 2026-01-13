@@ -1,16 +1,16 @@
 {
     "bean": {
         "_v": 0,
-        "addr": "158.160.196.107",
+        "addr": "91.219.226.127",
         "brutal_speed": 0,
         "c_cfg": "",
         "c_out": "",
         "enable_brutal": false,
         "flow": "xtls-rprx-vision",
         "mux": 0,
-        "name": "0256 | 🏳️ CIDR | 🇷🇺 Russia | VLESS | TG: @STR_BYPASS",
-        "pass": "71973415-8585-4315-9d7d-b2babfd05c34",
-        "port": 8443,
+        "name": "🇮🇹 Italy — #146",
+        "pass": "7db2fbe9-b42a-4435-b823-2b0b52cbe753",
+        "port": 443,
         "stream": {
             "alpn": "",
             "cert": "",
@@ -24,19 +24,19 @@
             "net": "tcp",
             "pac_enc": "xudp",
             "path": "",
-            "pbk": "zr8_rtHm86s_G1gfRwNtunStGngYZSdYkA3PyBFXpDg",
+            "pbk": "_CjW0Khlrr5z5oc9Oy6-w2ZEanz-zMBktVn5EOX9oTM",
             "sec": "tls",
-            "sid": "28047c78b3f5ee2c",
+            "sid": "f32140952ba18e18",
             "sni": "tradingview.com",
             "tls_frag": false,
             "tls_frag_fall_delay": "",
             "tls_record_frag": false,
-            "utls": "random"
+            "utls": "chrome"
         }
     },
     "country": "",
     "dl": "",
-    "gid": 10,
+    "gid": 12,
     "id": 13335,
     "report": "",
     "traffic": {

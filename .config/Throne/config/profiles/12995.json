@@ -1,0 +1,49 @@
+{
+    "bean": {
+        "_v": 0,
+        "addr": "verager2.uspn.io",
+        "brutal_speed": 0,
+        "c_cfg": "",
+        "c_out": "",
+        "enable_brutal": false,
+        "flow": "xtls-rprx-vision",
+        "mux": 0,
+        "name": "0506 | 🌍 Unknown | VLESS | TG: @STR_BYPASS",
+        "pass": "aaf844d3-b7ea-458a-ad32-4a3b48139359",
+        "port": 8443,
+        "stream": {
+            "alpn": "",
+            "cert": "",
+            "ed_len": 0,
+            "ed_name": "",
+            "h_type": "",
+            "headers": "",
+            "host": "",
+            "insecure": false,
+            "method": "",
+            "net": "tcp",
+            "pac_enc": "xudp",
+            "path": "",
+            "pbk": "0oDbMG8ELxgeMu-ESU2m-DYjWfGJht2M-JE_6b_pKA0",
+            "sec": "tls",
+            "sid": "bf952df9a0bcda75",
+            "sni": "xverager2.uspn.io",
+            "tls_frag": false,
+            "tls_frag_fall_delay": "",
+            "tls_record_frag": false,
+            "utls": "randomized"
+        }
+    },
+    "country": "",
+    "dl": "",
+    "gid": 12,
+    "id": 12995,
+    "report": "",
+    "traffic": {
+        "dl": 0,
+        "ul": 0
+    },
+    "type": "vless",
+    "ul": "",
+    "yc": -1
+}

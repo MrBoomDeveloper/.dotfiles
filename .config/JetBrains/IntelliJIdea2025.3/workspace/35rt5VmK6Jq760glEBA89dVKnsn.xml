@@ -1,0 +1,1410 @@
+<project version="4">
+  <component name="BookmarksManager">
+    <option name="groups">
+      <GroupState>
+        <option name="name" value="V2rayNG" />
+      </GroupState>
+    </option>
+  </component>
+  <component name="DesignSurfaceV2">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable/i_sync.xml" value="1.64" />
+        <entry key="app/src/main/res/drawable/ic_about_24dp.xml" value="1.588" />
+        <entry key="app/src/main/res/drawable/ic_emoticon.xml" value="1.644" />
+        <entry key="app/src/main/res/drawable/ic_more_vert_24dp.xml" value="1.644" />
+        <entry key="app/src/main/res/drawable/ic_play_24dp.xml" value="1.644" />
+        <entry key="app/src/main/res/drawable/ic_route.xml" value="1.644" />
+        <entry key="app/src/main/res/drawable/ic_routing_24dp.xml" value="1.588" />
+        <entry key="app/src/main/res/drawable/ic_scan_24dp.xml" value="1.644" />
+        <entry key="app/src/main/res/drawable/ic_stop_24dp.xml" value="1.644" />
+        <entry key="app/src/main/res/drawable/ic_stop_filled.xml" value="1.644" />
+        <entry key="app/src/main/res/drawable/license_24px.xml" value="1.64" />
+        <entry key="app/src/main/res/layout/activity_about.xml" value="0.4890560875512996" />
+        <entry key="app/src/main/res/layout/activity_check_update.xml" value="1.0437756497948016" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.4890560875512996" />
+        <entry key="app/src/main/res/menu/menu_drawer.xml" value="0.4265625" />
+        <entry key="app/src/main/res/menu/menu_logcat.xml" value="1.1203830369357046" />
+        <entry key="app/src/main/res/menu/menu_main.xml" value="1.0820793433652531" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.784" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="1.644" />
+        <entry key="app/src/main/res/xml/pref_settings.xml" value="1.0465116279069768" />
+      </map>
+    </option>
+  </component>
+  <component name="FileEditorManager">
+    <leaf ideFingerprint="3pz08kcxipqck" SIDE_TABS_SIZE_LIMIT_KEY="-1">
+      <file current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mrboomdev/v2rayng2/ui/screens/simple/SimpleScreen.kt" file-id="1540037" managing-fs="1763754416123">
+          <provider editor-type-id="android-source-code" selected="true">
+            <state>
+              <editor-state relative-caret-position="361">
+                <caret line="310" column="21" selection-start-line="310" selection-start-column="21" selection-end-line="310" selection-end-column="21" />
+              </editor-state>
+            </state>
+          </provider>
+        </entry>
+        <tab><![CDATA[{"tabTitle":"SimpleScreen.kt","foregroundColor":-7752454,"textAttributes":{"name":"a","children":[{"name":"option","attributes":{"name":"FOREGROUND","value":"89b4fa"}}]},"icon":[10,57,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,82,97,115,116,101,114,105,122,101,100,73,109,97,103,101,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,-122,1,10,47,111,114,103,47,106,101,116,98,114,97,105,110,115,47,107,111,116,108,105,110,47,105,100,101,97,47,105,99,111,110,115,47,107,111,116,108,105,110,95,102,105,108,101,46,115,118,103,18,48,111,114,103,47,106,101,116,98,114,97,105,110,115,47,107,111,116,108,105,110,47,105,100,101,97,47,105,99,111,110,115,47,101,120,112,117,105,47,107,111,116,108,105,110,46,115,118,103,26,20,111,114,103,46,106,101,116,98,114,97,105,110,115,46,107,111,116,108,105,110,40,-98,-111,-47,-25,-8,-1,-1,-1,-1,1,48,0]}]]></tab>
+      </file>
+      <file>
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mrboomdev/v2rayng2/ui/screens/simple/SimpleViewModel.kt" file-id="1540038" managing-fs="1763754416123">
+          <provider editor-type-id="android-source-code" selected="true">
+            <state selected-layout="SHOW_EDITOR">
+              <editor-state relative-caret-position="5915">
+                <caret line="133" column="23" selection-start-line="133" selection-start-column="23" selection-end-line="133" selection-end-column="23" />
+              </editor-state>
+              <multi-preview-state selected="Compose">
+                <representations>
+                  <list>
+                    <representation name="Compose">
+                      <settings>
+                        <setting name="previewLayout" value="Grid" />
+                        <setting name="selectedGroup" value="" />
+                      </settings>
+                    </representation>
+                  </list>
+                </representations>
+              </multi-preview-state>
+            </state>
+          </provider>
+        </entry>
+        <tab><![CDATA[{"tabTitle":"SimpleViewModel.kt","foregroundColor":-3287308,"textAttributes":{"name":"a"},"icon":[10,57,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,82,97,115,116,101,114,105,122,101,100,73,109,97,103,101,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,-122,1,10,47,111,114,103,47,106,101,116,98,114,97,105,110,115,47,107,111,116,108,105,110,47,105,100,101,97,47,105,99,111,110,115,47,107,111,116,108,105,110,95,102,105,108,101,46,115,118,103,18,48,111,114,103,47,106,101,116,98,114,97,105,110,115,47,107,111,116,108,105,110,47,105,100,101,97,47,105,99,111,110,115,47,101,120,112,117,105,47,107,111,116,108,105,110,46,115,118,103,26,20,111,114,103,46,106,101,116,98,114,97,105,110,115,46,107,111,116,108,105,110,40,-98,-111,-47,-25,-8,-1,-1,-1,-1,1,48,0]}]]></tab>
+      </file>
+      <file>
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/v2ray/ang/ui/MainActivity.kt" file-id="412683" managing-fs="1763754416123">
+          <provider editor-type-id="android-source-code" selected="true">
+            <state selected-layout="SHOW_EDITOR">
+              <editor-state relative-caret-position="13895">
+                <caret line="334" column="43" selection-start-line="334" selection-start-column="43" selection-end-line="334" selection-end-column="43" />
+                <folding>
+                  <element signature="e#26#1968#0" expanded="true" />
+                </folding>
+              </editor-state>
+              <multi-preview-state selected="Compose">
+                <representations>
+                  <list>
+                    <representation name="Compose">
+                      <settings>
+                        <setting name="previewLayout" value="Grid" />
+                        <setting name="selectedGroup" value="" />
+                      </settings>
+                    </representation>
+                  </list>
+                </representations>
+              </multi-preview-state>
+            </state>
+          </provider>
+        </entry>
+        <tab><![CDATA[{"tabTitle":"MainActivity.kt","foregroundColor":-3287308,"textAttributes":{"name":"a"},"icon":[10,57,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,82,97,115,116,101,114,105,122,101,100,73,109,97,103,101,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,-122,1,10,47,111,114,103,47,106,101,116,98,114,97,105,110,115,47,107,111,116,108,105,110,47,105,100,101,97,47,105,99,111,110,115,47,99,108,97,115,115,75,111,116,108,105,110,46,115,118,103,18,53,111,114,103,47,106,101,116,98,114,97,105,110,115,47,107,111,116,108,105,110,47,105,100,101,97,47,105,99,111,110,115,47,101,120,112,117,105,47,99,108,97,115,115,75,111,116,108,105,110,46,115,118,103,26,20,111,114,103,46,106,101,116,98,114,97,105,110,115,46,107,111,116,108,105,110,40,-16,-50,-72,-55,2,48,0]}]]></tab>
+      </file>
+      <file>
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/v2ray/ang/viewmodel/MainViewModel.kt" file-id="412857" managing-fs="1763754416123">
+          <provider editor-type-id="android-source-code" selected="true">
+            <state selected-layout="SHOW_EDITOR">
+              <editor-state relative-caret-position="6020">
+                <caret line="151" column="34" selection-start-line="151" selection-start-column="34" selection-end-line="151" selection-end-column="34" />
+                <folding>
+                  <element signature="e#33#1279#0" expanded="true" />
+                </folding>
+              </editor-state>
+              <multi-preview-state selected="Compose">
+                <representations>
+                  <list>
+                    <representation name="Compose">
+                      <settings>
+                        <setting name="previewLayout" value="Grid" />
+                        <setting name="selectedGroup" value="" />
+                      </settings>
+                    </representation>
+                  </list>
+                </representations>
+              </multi-preview-state>
+            </state>
+          </provider>
+        </entry>
+        <tab><![CDATA[{"tabTitle":"MainViewModel.kt","foregroundColor":-3287308,"textAttributes":{"name":"a"},"icon":[10,57,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,82,97,115,116,101,114,105,122,101,100,73,109,97,103,101,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,-122,1,10,47,111,114,103,47,106,101,116,98,114,97,105,110,115,47,107,111,116,108,105,110,47,105,100,101,97,47,105,99,111,110,115,47,99,108,97,115,115,75,111,116,108,105,110,46,115,118,103,18,53,111,114,103,47,106,101,116,98,114,97,105,110,115,47,107,111,116,108,105,110,47,105,100,101,97,47,105,99,111,110,115,47,101,120,112,117,105,47,99,108,97,115,115,75,111,116,108,105,110,46,115,118,103,26,20,111,114,103,46,106,101,116,98,114,97,105,110,115,46,107,111,116,108,105,110,40,-16,-50,-72,-55,2,48,0]}]]></tab>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTypeUsageLocalSummary"><![CDATA[{
+  "data": {
+    "settingsType": {
+      "usageCount": 2,
+      "lastUsed": 1764085649439
+    },
+    "XML": {
+      "usageCount": 65,
+      "lastUsed": 1765807670154
+    },
+    "Image": {
+      "usageCount": 12,
+      "lastUsed": 1765807657016
+    },
+    "Kotlin": {
+      "usageCount": 260,
+      "lastUsed": 1766253033261
+    },
+    "JAVA": {
+      "usageCount": 7,
+      "lastUsed": 1765805649692
+    },
+    "CLASS": {
+      "usageCount": 3,
+      "lastUsed": 1763894876756
+    },
+    "TOML": {
+      "usageCount": 4,
+      "lastUsed": 1765277207121
+    },
+    "DIFF": {
+      "usageCount": 6,
+      "lastUsed": 1765821562078
+    },
+    "GitExclude file": {
+      "usageCount": 1,
+      "lastUsed": 1764098246977
+    }
+  }
+}]]></component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>title_pref_start_scan_immediate</find>
+      <find>theme</find>
+      <find>onCreate(</find>
+      <find>colorS</find>
+      <find>MSG_MEASURE_CONFIG</find>
+      <find>AboutA</find>
+      <find>startV2Ray</find>
+      <find>update</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+  </component>
+  <component name="GitSEFilterConfiguration">{}</component>
+  <component name="IdeDocumentHistory">{
+  &quot;changedPaths&quot;: [
+    &quot;/home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/java/com/v2ray/ang/ui/LogcatRecyclerAdapter.kt&quot;,
+    &quot;/home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/java/com/v2ray/ang/ui/LogcatActivity.kt&quot;,
+    &quot;/home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/java/com/v2ray/ang/receiver/WidgetProvider.kt&quot;,
+    &quot;/home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/java/com/v2ray/ang/handler/SpeedtestManager.kt&quot;,
+    &quot;/home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/java/com/v2ray/ang/service/V2RayVpnService.kt&quot;,
+    &quot;/home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/java/com/v2ray/ang/service/QSTileService.kt&quot;,
+    &quot;/home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/java/com/v2ray/ang/ui/ScannerActivity.kt&quot;,
+    &quot;/home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/res/xml/pref_settings.xml&quot;,
+    &quot;/home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/res/values/strings.xml&quot;,
+    &quot;/home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/res/menu/menu_main.xml&quot;,
+    &quot;/home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/res/menu/menu_drawer.xml&quot;,
+    &quot;/home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/java/com/v2ray/ang/util/UiUtils.kt&quot;,
+    &quot;/home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/java/com/mrboomdev/v2rayng2/utils/ColorUtils.kt&quot;,
+    &quot;/home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/java/com/mrboomdev/v2rayng2/PingTester.kt&quot;,
+    &quot;/home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/java/com/mrboomdev/v2rayng2/DelayTester.kt&quot;,
+    &quot;/home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/java/com/v2ray/ang/service/V2RayTestService.kt&quot;,
+    &quot;/home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/java/com/v2ray/ang/AngApplication.kt&quot;,
+    &quot;/home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/java/com/v2ray/ang/ui/CheckUpdateActivity.kt&quot;,
+    &quot;/home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/java/com/v2ray/ang/AppConfig.kt&quot;,
+    &quot;/home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/res/layout/activity_about.xml&quot;,
+    &quot;/home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/java/com/v2ray/ang/ui/AboutActivity.kt&quot;,
+    &quot;/home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/java/com/v2ray/ang/handler/V2rayConfigManager.kt&quot;,
+    &quot;/home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/debug/res/values/strings.xml&quot;,
+    &quot;/home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/java/com/v2ray/ang/ui/MainActivity2.kt&quot;,
+    &quot;/home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/res/xml/shortcuts.xml&quot;,
+    &quot;/home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/res/values/themes.xml&quot;,
+    &quot;/home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/java/com/mrboomdev/v2rayng2/ui/ResExtensions.kt&quot;,
+    &quot;/home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/java/com/mrboomdev/v2rayng2/ui/Fonts.kt&quot;,
+    &quot;/home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/java/com/mrboomdev/v2rayng2/utils/PaddingUtils.kt&quot;,
+    &quot;/home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/java/com/mrboomdev/v2rayng2/ui/components/InfoBox.kt&quot;,
+    &quot;/home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/AndroidManifest.xml&quot;,
+    &quot;/home/mrboomdev/IdeaProjects/v2rayNG2/.git/info/exclude&quot;,
+    &quot;/home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/java/com/v2ray/ang/handler/NotificationManager.kt&quot;,
+    &quot;/home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/java/com/mrboomdev/v2rayng2/ui/Navigation.kt&quot;,
+    &quot;/home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/java/com/mrboomdev/v2rayng2/ui/screens/requirements/RequirementsScreen.kt&quot;,
+    &quot;/home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/java/com/v2ray/ang/util/AppManagerUtil.kt&quot;,
+    &quot;/home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/java/com/mrboomdev/v2rayng2/ui/screens/home/HomeViewModel.kt&quot;,
+    &quot;/home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/gradle/libs.versions.toml&quot;,
+    &quot;/home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/java/com/mrboomdev/v2rayng2/ui/screens/home/HomeScreen.kt&quot;,
+    &quot;/home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/java/com/mrboomdev/v2rayng2/ui/MainActivity2.kt&quot;,
+    &quot;/home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/java/com/mrboomdev/v2rayng2/AppSettings.kt&quot;,
+    &quot;/home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/java/com/mrboomdev/v2rayng2/settings/AppSettings.kt&quot;,
+    &quot;/home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/build.gradle.kts&quot;,
+    &quot;/home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/java/com/v2ray/ang/dto/ServerAffiliationInfo.kt&quot;,
+    &quot;/home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/java/com/v2ray/ang/handler/MmkvManager.kt&quot;,
+    &quot;/home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/java/com/mrboomdev/v2rayng2/ui/widgets/StringListSettingWidget.kt&quot;,
+    &quot;/home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/java/com/mrboomdev/v2rayng2/settings/Setting.kt&quot;,
+    &quot;/home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/java/com/v2ray/ang/ui/MainActivity.kt&quot;,
+    &quot;/home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/java/com/v2ray/ang/viewmodel/MainViewModel.kt&quot;,
+    &quot;/home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/java/com/mrboomdev/v2rayng2/ui/screens/simple/SimpleViewModel.kt&quot;,
+    &quot;/home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/java/com/mrboomdev/v2rayng2/ui/screens/simple/SimpleScreen.kt&quot;
+  ]
+}</component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="LanguageUsageStatistics">
+    <language id="GitExclude">
+      <summary usageCount="1" lastUsage="1764098246977" />
+    </language>
+    <language id="JAVA">
+      <summary usageCount="7" lastUsage="1765805649692" />
+    </language>
+    <language id="TOML">
+      <summary usageCount="4" lastUsage="1765277207121" />
+    </language>
+    <language id="XML">
+      <summary usageCount="65" lastUsage="1765807670154" />
+    </language>
+    <language id="kotlin">
+      <summary usageCount="260" lastUsage="1766253033261" />
+    </language>
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" />
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="v2rayNG" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="v2rayNG" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="v2rayNG" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="v2rayNG" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="v2rayNG" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/java}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="v2rayNG" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/java}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/java/com}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="v2rayNG" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/java}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/java/com}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/java/com/mrboomdev}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="v2rayNG" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/java}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/java/com}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/java/com/mrboomdev}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/java/com/mrboomdev/v2rayng2}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="v2rayNG" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/java}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/java/com}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/java/com/mrboomdev}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/java/com/mrboomdev/v2rayng2}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/java/com/mrboomdev/v2rayng2/settings}" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+          <presentation>
+            <attributes />
+            <data iconPath="expui/toolwindows/project.svg" iconPlugin="com.intellij" isLeaf="false" text="v2rayNG" />
+            <item name="v2rayNG" type="b2602c69:ProjectViewProjectNode" />
+            <presentation>
+              <attributes>
+                <map>
+                  <entry key="filePath" value="$PROJECT_DIR$" />
+                </map>
+              </attributes>
+              <data iconPath="expui/nodes/module.svg" iconPlugin="com.intellij" isLeaf="false" text="V2rayNG" />
+              <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/.gradle" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/nodes/excludeRoot.svg" iconPlugin="com.intellij" isLeaf="false" text=".gradle" />
+                <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/.gradle}" type="462c0819:PsiDirectoryNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/.idea" />
+                  </map>
+                </attributes>
+                <data iconPath="nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text=".idea" />
+                <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/.idea}" type="462c0819:PsiDirectoryNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/.kotlin" />
+                  </map>
+                </attributes>
+                <data iconPath="nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text=".kotlin" />
+                <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/.kotlin}" type="462c0819:PsiDirectoryNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/app" />
+                  </map>
+                </attributes>
+                <data iconPath="studio/icons/shell/filetree/android-module.svg" iconPlugin="org.jetbrains.android" isLeaf="false" text="app" />
+                <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/app/build" />
+                    </map>
+                  </attributes>
+                  <data iconPath="expui/nodes/excludeRoot.svg" iconPlugin="com.intellij" isLeaf="false" text="build" />
+                  <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/build}" type="462c0819:PsiDirectoryNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/app/libs" />
+                    </map>
+                  </attributes>
+                  <data iconPath="nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="libs" />
+                  <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/libs}" type="462c0819:PsiDirectoryNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/app/release" />
+                    </map>
+                  </attributes>
+                  <data iconPath="nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="release" />
+                  <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/release}" type="462c0819:PsiDirectoryNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/app/src" />
+                    </map>
+                  </attributes>
+                  <data iconPath="nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="src" />
+                  <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src}" type="462c0819:PsiDirectoryNode" />
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/app/src/debug" />
+                      </map>
+                    </attributes>
+                    <data iconPath="studio/icons/shell/filetree/android-module.svg" iconPlugin="org.jetbrains.android" isLeaf="false" text="debug" />
+                    <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/debug}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/app/src/main" />
+                      </map>
+                    </attributes>
+                    <data iconPath="studio/icons/shell/filetree/android-module.svg" iconPlugin="org.jetbrains.android" isLeaf="false" text="main" />
+                    <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+                    <presentation>
+                      <attributes>
+                        <map>
+                          <entry key="filePath" value="$PROJECT_DIR$/app/src/main/assets" />
+                        </map>
+                      </attributes>
+                      <data iconPath="expui/nodes/resourcesRoot.svg" iconPlugin="com.intellij" isLeaf="false" text="assets" />
+                      <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/assets}" type="462c0819:PsiDirectoryNode" />
+                    </presentation>
+                    <presentation>
+                      <attributes>
+                        <map>
+                          <entry key="filePath" value="$PROJECT_DIR$/app/src/main/java" />
+                        </map>
+                      </attributes>
+                      <data iconPath="modules/sourceRoot.svg" iconPlugin="com.intellij" isLeaf="false" text="java" />
+                      <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/java}" type="462c0819:PsiDirectoryNode" />
+                      <presentation>
+                        <attributes>
+                          <map>
+                            <entry key="filePath" value="$PROJECT_DIR$/app/src/main/java/com" />
+                          </map>
+                        </attributes>
+                        <data iconPath="expui/nodes/package.svg" iconPlugin="com.intellij" isLeaf="false" text="com" />
+                        <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/java/com}" type="462c0819:PsiDirectoryNode" />
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/java/com/mrboomdev" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/nodes/package.svg" iconPlugin="com.intellij" isLeaf="false" text="mrboomdev" />
+                          <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/java/com/mrboomdev}" type="462c0819:PsiDirectoryNode" />
+                          <presentation>
+                            <attributes>
+                              <map>
+                                <entry key="filePath" value="$PROJECT_DIR$/app/src/main/java/com/mrboomdev/v2rayng2" />
+                              </map>
+                            </attributes>
+                            <data iconPath="expui/nodes/package.svg" iconPlugin="com.intellij" isLeaf="false" text="v2rayng2" />
+                            <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/java/com/mrboomdev/v2rayng2}" type="462c0819:PsiDirectoryNode" />
+                            <presentation>
+                              <attributes>
+                                <map>
+                                  <entry key="filePath" value="$PROJECT_DIR$/app/src/main/java/com/mrboomdev/v2rayng2/settings" />
+                                </map>
+                              </attributes>
+                              <data iconPath="expui/nodes/package.svg" iconPlugin="com.intellij" isLeaf="false" text="settings" />
+                              <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/java/com/mrboomdev/v2rayng2/settings}" type="462c0819:PsiDirectoryNode" />
+                              <presentation>
+                                <attributes>
+                                  <map>
+                                    <entry key="filePath" value="$PROJECT_DIR$/app/src/main/java/com/mrboomdev/v2rayng2/settings/AppSettings.kt" />
+                                  </map>
+                                </attributes>
+                                <data iconPath="org/jetbrains/kotlin/idea/icons/expui/kotlin.svg" iconPlugin="org.jetbrains.kotlin" isLeaf="true" text="AppSettings.kt" />
+                                <item name="AppSettings.kt" type="24436e51:KtFileTreeNode" />
+                              </presentation>
+                              <presentation>
+                                <attributes>
+                                  <map>
+                                    <entry key="filePath" value="$PROJECT_DIR$/app/src/main/java/com/mrboomdev/v2rayng2/settings/Setting.kt" />
+                                  </map>
+                                </attributes>
+                                <data iconPath="org/jetbrains/kotlin/idea/icons/expui/kotlin.svg" iconPlugin="org.jetbrains.kotlin" isLeaf="true" text="Setting.kt" />
+                                <item name="Setting.kt" type="24436e51:KtFileTreeNode" />
+                              </presentation>
+                            </presentation>
+                            <presentation>
+                              <attributes>
+                                <map>
+                                  <entry key="filePath" value="$PROJECT_DIR$/app/src/main/java/com/mrboomdev/v2rayng2/ui" />
+                                </map>
+                              </attributes>
+                              <data iconPath="expui/nodes/package.svg" iconPlugin="com.intellij" isLeaf="false" text="ui" />
+                              <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/java/com/mrboomdev/v2rayng2/ui}" type="462c0819:PsiDirectoryNode" />
+                            </presentation>
+                            <presentation>
+                              <attributes>
+                                <map>
+                                  <entry key="filePath" value="$PROJECT_DIR$/app/src/main/java/com/mrboomdev/v2rayng2/utils" />
+                                </map>
+                              </attributes>
+                              <data iconPath="expui/nodes/package.svg" iconPlugin="com.intellij" isLeaf="false" text="utils" />
+                              <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/java/com/mrboomdev/v2rayng2/utils}" type="462c0819:PsiDirectoryNode" />
+                            </presentation>
+                          </presentation>
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/app/src/main/java/com/v2ray" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/nodes/package.svg" iconPlugin="com.intellij" isLeaf="false" text="v2ray" />
+                          <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/java/com/v2ray}" type="462c0819:PsiDirectoryNode" />
+                        </presentation>
+                      </presentation>
+                    </presentation>
+                    <presentation>
+                      <attributes>
+                        <map>
+                          <entry key="filePath" value="$PROJECT_DIR$/app/src/main/res" />
+                        </map>
+                      </attributes>
+                      <data iconPath="expui/nodes/resourcesRoot.svg" iconPlugin="com.intellij" isLeaf="false" text="res" />
+                      <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/main/res}" type="462c0819:PsiDirectoryNode" />
+                    </presentation>
+                    <presentation>
+                      <attributes>
+                        <map>
+                          <entry key="filePath" value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+                        </map>
+                      </attributes>
+                      <data iconPath="studio/icons/shell/filetree/manifest-file.svg" iconPlugin="org.jetbrains.android" isLeaf="true" text="AndroidManifest.xml" />
+                      <item name="AndroidManifest.xml" type="ab9368bb:PsiFileNode" />
+                    </presentation>
+                    <presentation>
+                      <attributes>
+                        <map>
+                          <entry key="filePath" value="$PROJECT_DIR$/app/src/main/ic_launcher-web.png" />
+                        </map>
+                      </attributes>
+                      <data iconPath="fileTypes/image.svg" iconPlugin="com.intellij" isLeaf="true" text="ic_launcher-web.png" />
+                      <item name="ic_launcher-web.png" type="ab9368bb:PsiFileNode" />
+                    </presentation>
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/app/src/test" />
+                      </map>
+                    </attributes>
+                    <data iconPath="expui/nodes/module.svg" iconPlugin="com.intellij" isLeaf="false" text="test" />
+                    <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/app/src/test}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+                  </presentation>
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/app/build.gradle.kts" />
+                    </map>
+                  </attributes>
+                  <data iconPath="org/jetbrains/kotlin/idea/icons/kotlin_gradle_script.svg" iconPlugin="org.jetbrains.kotlin" isLeaf="true" text="build.gradle.kts" />
+                  <item name="build.gradle.kts" type="24436e51:KtFileTreeNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/app/proguard-rules.pro" />
+                    </map>
+                  </attributes>
+                  <data iconPath="expui/fileTypes/text.svg" iconPlugin="com.intellij" isLeaf="true" text="proguard-rules.pro" />
+                  <item name="proguard-rules.pro" type="ab9368bb:PsiFileNode" />
+                </presentation>
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/gradle" />
+                  </map>
+                </attributes>
+                <data iconPath="nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="gradle" />
+                <item name="dir{file:///home/mrboomdev/IdeaProjects/v2rayNG2/V2rayNG/gradle}" type="462c0819:PsiDirectoryNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/build.gradle.kts" />
+                  </map>
+                </attributes>
+                <data iconPath="org/jetbrains/kotlin/idea/icons/kotlin_gradle_script.svg" iconPlugin="org.jetbrains.kotlin" isLeaf="true" text="build.gradle.kts" />
+                <item name="build.gradle.kts" type="24436e51:KtFileTreeNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/gradle.properties" />
+                  </map>
+                </attributes>
+                <data iconPath="fileTypes/properties.svg" iconPlugin="com.intellij" isLeaf="true" text="gradle.properties" />
+                <item name="gradle.properties" type="ab9368bb:PsiFileNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/gradlew" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/fileTypes/unknown.svg" iconPlugin="com.intellij" isLeaf="true" text="gradlew" />
+                <item name="gradlew" type="ab9368bb:PsiFileNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/gradlew.bat" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/fileTypes/unknown.svg" iconPlugin="com.intellij" isLeaf="true" text="gradlew.bat" />
+                <item name="gradlew.bat" type="ab9368bb:PsiFileNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/local.properties" />
+                  </map>
+                </attributes>
+                <data iconPath="fileTypes/properties.svg" iconPlugin="com.intellij" isLeaf="true" text="local.properties" />
+                <item name="local.properties" type="ab9368bb:PsiFileNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/settings.gradle.kts" />
+                  </map>
+                </attributes>
+                <data iconPath="org/jetbrains/kotlin/idea/icons/kotlin_gradle_script.svg" iconPlugin="org.jetbrains.kotlin" isLeaf="true" text="settings.gradle.kts" />
+                <item name="settings.gradle.kts" type="24436e51:KtFileTreeNode" />
+              </presentation>
+            </presentation>
+            <presentation>
+              <attributes />
+              <data iconPath="nodes/ppLib.svg" iconPlugin="com.intellij" isLeaf="false" text="External Libraries" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </presentation>
+          </presentation>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+    </panes>
+  </component>
+  <component name="ReaderModeSettings">
+    <option name="enableVisualFormatting" value="false" />
+  </component>
+  <component name="RunConfigurationStartHistory">
+    <history>
+      <element setting="Android App.Run New" />
+      <element setting="Android App.Run" />
+    </history>
+  </component>
+  <component name="SplittingTabsState">
+    <tool-windows>
+      <tool-window id="Logcat" selected-tab="0">
+        <tabs>
+          <tab name="Logcat">
+            <content>
+              <panel>{'device':{'physicalDevice':{'serialNumber':'adb-144002558C005280-isNWce._adb-tls-connect._tcp','isOnline':false,'release':'15','apiLevel':{'majorVersion':35,'minorVersion':0},'featureLevel':35,'manufacturer':'TECNO','model':'TECNO LJ7','type':'HANDHELD'}},'formattingConfig':{'preset':'STANDARD'},'filter':'package:mine ','filterMatchCase':false,'isSoftWrap':false}</panel>
+            </content>
+          </tab>
+        </tabs>
+      </tool-window>
+    </tool-windows>
+  </component>
+  <component name="TerminalArrangementManager">
+    <option name="myTabStates">
+      <TerminalTabState tabName="Local" />
+    </option>
+  </component>
+  <component name="TerminalTabsStorage">
+    <option name="tabs">
+      <TerminalSessionPersistedTab name="Local" workingDirectory="$PROJECT_DIR$" />
+    </option>
+  </component>
+  <component name="ToolWindowManager">
+    <layoutV2>
+      <window_info id="Bookmarks" show_stripe_button="false" side_tool="true" />
+      <window_info id="Backup and Sync History" show_stripe_button="false" />
+      <window_info id="Pull Requests" show_stripe_button="false" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.22006303" />
+      <window_info id="Commit" order="1" weight="0.22006303" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info id="Resources Explorer" order="3" />
+      <window_info id="Build Variants" order="4" side_tool="true" weight="0.22015707" />
+      <window_info anchor="bottom" id="TODO" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="0" />
+      <window_info anchor="bottom" id="Problems" order="1" />
+      <window_info anchor="bottom" id="Problems View" order="2" weight="0.33029723" />
+      <window_info anchor="bottom" id="Terminal" order="3" weight="0.33029723" />
+      <window_info anchor="bottom" id="Services" order="4" />
+      <window_info anchor="bottom" id="Android Profiler" order="5" />
+      <window_info anchor="bottom" id="App Inspection" order="6" />
+      <window_info active="true" anchor="bottom" x="-960" y="-381" width="1908" height="1042" id="Logcat" maximized="true" order="7" type="WINDOWED" weight="0.33029723" />
+      <window_info anchor="bottom" id="Build" order="8" weight="0.33029723" />
+      <window_info anchor="bottom" id="Run" order="9" show_stripe_button="false" weight="0.33029723" />
+      <window_info anchor="bottom" id="Debug" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Windsurf Console" order="11" />
+      <window_info anchor="bottom" id="Find" order="12" weight="0.33029723" />
+      <window_info anchor="right" id="documentation.v2" show_stripe_button="false" side_tool="true" />
+      <window_info anchor="right" id="Coverage" show_stripe_button="false" side_tool="true" />
+      <window_info anchor="right" id="Layout Validation" show_stripe_button="false" />
+      <window_info anchor="right" id="Desktop Preview" show_stripe_button="false" />
+      <window_info anchor="right" content_ui="combo" id="Notifications" order="0" weight="0.25" />
+      <window_info anchor="right" id="AIAssistant" order="1" weight="0.25" />
+      <window_info anchor="right" id="Database" order="2" weight="0.25" />
+      <window_info anchor="right" id="Gradle" order="3" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="4" weight="0.25" />
+      <window_info anchor="right" id="Running Devices" order="5" side_tool="true" />
+      <window_info anchor="right" id="Device Explorer" order="6" side_tool="true" />
+      <window_info anchor="right" id="Device Manager 2" order="7" />
+      <window_info anchor="right" id="Cascade" order="8" weight="0.33035713" />
+      <unified_weights bottom="0.33029723" left="0.22006303" right="0.33035713" />
+    </layoutV2>
+    <recentWindows>
+      <value>Cascade</value>
+      <value>Project</value>
+      <value>Commit</value>
+      <value>Logcat</value>
+      <value>Find</value>
+      <value>Terminal</value>
+      <value>Build</value>
+      <value>Run</value>
+      <value>Build Variants</value>
+      <value>Problems View</value>
+    </recentWindows>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="448" y="146" key="#Project_Structure" timestamp="1765807796382">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="448" y="146" key="#Project_Structure/-1920.-350.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1765807796382" />
+    <state x="448" y="146" key="#Project_Structure/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1763880007247" />
+    <state x="560" y="230" width="903" height="672" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1765805189745">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="560" y="230" width="903" height="672" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1920.-350.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1765805189745" />
+    <state x="560" y="230" width="901" height="647" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1763898071011" />
+    <state x="560" y="251" width="901" height="655" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1764086223391" />
+    <state x="585" y="271" width="750" height="525" key="#com.intellij.ide.util.MemberChooser" timestamp="1765811777056">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="585" y="271" width="750" height="525" key="#com.intellij.ide.util.MemberChooser/-1920.-350.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1765811777056" />
+    <state x="585" y="291" width="750" height="525" key="#com.intellij.ide.util.MemberChooser/0.27.1920.1053@0.27.1920.1053" timestamp="1764082175572" />
+    <state x="735" y="386" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1764083600723">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="735" y="386" key="#com.intellij.ide.util.TreeClassChooserDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1764083600723" />
+    <state x="585" y="291" width="750" height="525" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1763888525449">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="585" y="291" width="750" height="525" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1763888525449" />
+    <state x="748" y="326" key="FileChooserDialogImpl" timestamp="1763899823460">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="748" y="326" key="FileChooserDialogImpl/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1763899823460" />
+    <state width="1910" height="312" key="GridCell.Tab.0.bottom" timestamp="1764086343475">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1910" height="312" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1764086343475" />
+    <state width="1910" height="312" key="GridCell.Tab.0.center" timestamp="1764086343475">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1910" height="312" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1764086343475" />
+    <state width="1910" height="312" key="GridCell.Tab.0.left" timestamp="1764086343475">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1910" height="312" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1764086343475" />
+    <state width="1910" height="312" key="GridCell.Tab.0.right" timestamp="1764086343475">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1910" height="312" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1764086343475" />
+    <state x="-1360" y="-46" key="Vcs.Push.Dialog.v2" timestamp="1765821714475">
+      <screen x="-1920" y="-350" width="1920" height="1080" />
+    </state>
+    <state x="-1360" y="-46" key="Vcs.Push.Dialog.v2/-1920.-350.1920.1080/0.0.1920.1080@-1920.-350.1920.1080" timestamp="1765821714475" />
+    <state x="560" y="304" key="Vcs.Push.Dialog.v2/-1920.-350.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1765807585314" />
+    <state x="560" y="304" key="Vcs.Push.Dialog.v2/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1763899780195" />
+    <state x="560" y="323" key="Vcs.Push.Dialog.v2/0.27.1920.1053@0.27.1920.1053" timestamp="1764104774221" />
+    <state x="963" y="32" width="952" height="1043" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1763879902106">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="963" y="32" width="952" height="1043" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1763879902106" />
+    <state x="624" y="518" width="672" height="695" key="run.anything.popup" timestamp="1764086197770">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="624" y="518" width="672" height="695" key="run.anything.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1764086197770" />
+    <state x="-1920" y="-350" width="672" height="171" key="search.everywhere.popup" timestamp="1765819130130">
+      <screen x="-1920" y="-350" width="1920" height="1080" />
+    </state>
+    <state x="-1920" y="-350" width="672" height="171" key="search.everywhere.popup/-1920.-350.1920.1080/0.0.1920.1080@-1920.-350.1920.1080" timestamp="1765819130130" />
+    <state x="0" y="0" width="670" height="169" key="search.everywhere.popup/-1920.-350.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1765812125388" />
+    <state x="623" y="256" width="1057" height="722" key="search.everywhere.popup/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1763900864026" />
+    <state x="623" y="277" width="1119" height="708" key="search.everywhere.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1764097742888" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.compose.material3/material3-android/1.5.0-alpha10/62ff7da75dca05a97543a192cc8f801b205a29f4/material3-android-1.5.0-alpha10-sources.jar!/commonMain/androidx/compose/material3/Button.kt">
+      <provider selected="true" editor-type-id="android-source-code">
+        <state>
+          <editor-state relative-caret-position="577">
+            <caret line="168" column="55" lean-forward="true" selection-start-line="168" selection-start-column="55" selection-end-line="168" selection-end-column="55" />
+          </editor-state>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.compose.material3/material3-android/1.5.0-alpha10/62ff7da75dca05a97543a192cc8f801b205a29f4/material3-android-1.5.0-alpha10-sources.jar!/commonMain/androidx/compose/material3/MaterialTheme.kt">
+      <provider selected="true" editor-type-id="android-source-code">
+        <state>
+          <editor-state relative-caret-position="256">
+            <caret line="213" column="48" selection-start-line="213" selection-start-column="48" selection-end-line="213" selection-end-column="48" />
+          </editor-state>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mrboomdev/v2rayng2/ui/screens/home/HomeScreen.kt" preview="true">
+      <provider selected="true" editor-type-id="android-source-code">
+        <state selected-layout="SHOW_EDITOR">
+          <editor-state relative-caret-position="208">
+            <caret line="86" column="17" lean-forward="true" selection-start-line="86" selection-start-column="17" selection-end-line="86" selection-end-column="17" />
+            <folding>
+              <element signature="e#48#2343#0" expanded="true" />
+              <element signature="e#10234#10259#1" expanded="true" />
+              <element signature="e#11622#11651#1" expanded="true" />
+              <element signature="e#38609#38640#1" expanded="true" />
+              <element signature="e#38923#38954#1" expanded="true" />
+              <element signature="e#39418#39449#1" expanded="true" />
+              <element signature="e#39733#39764#1" expanded="true" />
+              <element signature="e#40231#40264#1" expanded="true" />
+              <element signature="e#40558#40591#1" expanded="true" />
+              <element signature="e#41053#41076#1" expanded="true" />
+              <element signature="e#41372#41395#1" expanded="true" />
+              <element signature="e#41984#42016#1" expanded="true" />
+              <element signature="e#42301#42333#1" expanded="true" />
+              <element signature="e#42797#42817#1" expanded="true" />
+              <element signature="e#43109#43129#1" expanded="true" />
+            </folding>
+          </editor-state>
+          <multi-preview-state selected="Compose">
+            <representations>
+              <list>
+                <representation name="Compose">
+                  <settings>
+                    <setting name="previewLayout" value="Grid" />
+                    <setting name="selectedGroup" value="" />
+                  </settings>
+                </representation>
+              </list>
+            </representations>
+          </multi-preview-state>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" preview="true">
+      <provider selected="true" editor-type-id="android-preview-designer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher_foreground.png" preview="true">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher_foreground.png" preview="true">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" preview="true">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher.png" preview="true">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher.png" preview="true">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" preview="true">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/xml/app_widget_provider.xml" preview="true">
+      <provider selected="true" editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/xml/pref_settings.xml" preview="true">
+      <provider selected="true" editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/ic_play_24dp.xml" preview="true">
+      <provider selected="true" editor-type-id="android-preview-designer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" preview="true">
+      <provider selected="true" editor-type-id="android-preview-designer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mrboomdev/v2rayng2/ui/screens/home/HomeViewModel.kt">
+      <provider selected="true" editor-type-id="android-source-code">
+        <state selected-layout="SHOW_EDITOR">
+          <editor-state relative-caret-position="5425">
+            <caret line="142" selection-start-line="142" selection-end-line="142" />
+          </editor-state>
+          <multi-preview-state selected="Compose">
+            <representations>
+              <list>
+                <representation name="Compose">
+                  <settings>
+                    <setting name="previewLayout" value="Grid" />
+                    <setting name="selectedGroup" value="" />
+                  </settings>
+                </representation>
+              </list>
+            </representations>
+          </multi-preview-state>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mrboomdev/v2rayng2/ui/screens/requirements/RequirementsScreen.kt">
+      <provider selected="true" editor-type-id="android-source-code">
+        <state selected-layout="SHOW_EDITOR">
+          <editor-state relative-caret-position="1505">
+            <caret line="44" column="8" selection-start-line="44" selection-start-column="8" selection-end-line="44" selection-end-column="8" />
+          </editor-state>
+          <multi-preview-state selected="Compose">
+            <representations>
+              <list>
+                <representation name="Compose">
+                  <settings>
+                    <setting name="previewLayout" value="Grid" />
+                    <setting name="selectedGroup" value="" />
+                  </settings>
+                </representation>
+              </list>
+            </representations>
+          </multi-preview-state>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.android.material/material/1.13.0/77bb57868a5e2f045663a7c82ca9749e6eaf24c1/material-1.13.0-sources.jar!/com/google/android/material/color/ThemeUtils.java">
+      <provider selected="true" editor-type-id="android-source-code">
+        <state>
+          <editor-state relative-caret-position="396">
+            <caret line="44" column="31" selection-start-line="44" selection-start-column="31" selection-end-line="44" selection-end-column="31" />
+          </editor-state>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.android.material/material/1.13.0/77bb57868a5e2f045663a7c82ca9749e6eaf24c1/material-1.13.0-sources.jar!/com/google/android/material/color/DynamicColors.java">
+      <provider selected="true" editor-type-id="android-source-code">
+        <state>
+          <editor-state relative-caret-position="676">
+            <caret line="316" column="27" lean-forward="true" selection-start-line="316" selection-start-column="27" selection-end-line="316" selection-end-column="27" />
+          </editor-state>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mrboomdev/v2rayng2/ui/MainActivity2.kt">
+      <provider selected="true" editor-type-id="android-source-code">
+        <state selected-layout="SHOW_EDITOR">
+          <editor-state relative-caret-position="1155">
+            <caret line="50" column="38" lean-forward="true" selection-start-line="50" selection-start-column="38" selection-end-line="50" selection-end-column="38" />
+          </editor-state>
+          <multi-preview-state selected="Compose">
+            <representations>
+              <list>
+                <representation name="Compose">
+                  <settings>
+                    <setting name="previewLayout" value="Grid" />
+                    <setting name="selectedGroup" value="" />
+                  </settings>
+                </representation>
+              </list>
+            </representations>
+          </multi-preview-state>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.compose.animation/animation-core-android/1.10.0/6907095ab7a9280d24cbf098d05ec8cec09fa993/animation-core-android-1.10.0-sources.jar!/commonMain/androidx/compose/animation/core/AnimateAsState.kt">
+      <provider selected="true" editor-type-id="android-source-code">
+        <state>
+          <editor-state relative-caret-position="210">
+            <caret line="35" column="12" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="12" />
+          </editor-state>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.compose.animation/animation-core-android/1.10.0/6907095ab7a9280d24cbf098d05ec8cec09fa993/animation-core-android-1.10.0-sources.jar!/commonMain/androidx/compose/animation/core/AnimationSpec.kt">
+      <provider selected="true" editor-type-id="android-source-code">
+        <state>
+          <editor-state relative-caret-position="396">
+            <caret line="809" column="35" selection-start-line="809" selection-start-column="35" selection-end-line="809" selection-end-column="35" />
+          </editor-state>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.compose.animation/animation-core-android/1.10.0/6907095ab7a9280d24cbf098d05ec8cec09fa993/animation-core-android-1.10.0-sources.jar!/commonMain/androidx/compose/animation/core/VectorizedAnimationSpec.kt">
+      <provider selected="true" editor-type-id="android-source-code">
+        <state>
+          <editor-state relative-caret-position="431">
+            <caret line="809" column="30" lean-forward="true" selection-start-line="809" selection-start-column="30" selection-end-line="809" selection-end-column="30" />
+          </editor-state>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/ic_about_24dp.xml" preview="true">
+      <provider selected="true" editor-type-id="android-preview-designer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/ic_emoticon.xml" preview="true">
+      <provider selected="true" editor-type-id="android-preview-designer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/ic_more_vert_24dp.xml" preview="true">
+      <provider selected="true" editor-type-id="android-preview-designer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/ic_route.xml" preview="true">
+      <provider selected="true" editor-type-id="android-preview-designer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/ic_routing_24dp.xml" preview="true">
+      <provider selected="true" editor-type-id="android-preview-designer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/ic_stop_24dp.xml" preview="true">
+      <provider selected="true" editor-type-id="android-preview-designer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/ic_stop_filled.xml" preview="true">
+      <provider selected="true" editor-type-id="android-preview-designer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/license_24px.xml" preview="true">
+      <provider selected="true" editor-type-id="android-preview-designer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/nav_header_bg.png" preview="true">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/ic_scan_24dp.xml" preview="true">
+      <provider selected="true" editor-type-id="android-preview-designer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/test/java/com/v2ray/ang/HttpUtilTest.kt" preview="true">
+      <provider selected="true" editor-type-id="android-source-code">
+        <state selected-layout="SHOW_EDITOR">
+          <editor-state relative-caret-position="1258">
+            <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+          </editor-state>
+          <multi-preview-state selected="Compose">
+            <representations>
+              <list>
+                <representation name="Compose">
+                  <settings>
+                    <setting name="previewLayout" value="Grid" />
+                    <setting name="selectedGroup" value="" />
+                  </settings>
+                </representation>
+              </list>
+            </representations>
+          </multi-preview-state>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/test/java/com/v2ray/ang/UtilsTest.kt" preview="true">
+      <provider selected="true" editor-type-id="android-source-code">
+        <state selected-layout="SHOW_EDITOR">
+          <editor-state relative-caret-position="-702">
+            <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+          </editor-state>
+          <multi-preview-state selected="Compose">
+            <representations>
+              <list>
+                <representation name="Compose">
+                  <settings>
+                    <setting name="previewLayout" value="Grid" />
+                    <setting name="selectedGroup" value="" />
+                  </settings>
+                </representation>
+              </list>
+            </representations>
+          </multi-preview-state>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mrboomdev/v2rayng2/ui/Navigation.kt">
+      <provider selected="true" editor-type-id="android-source-code">
+        <state selected-layout="SHOW_EDITOR">
+          <editor-state relative-caret-position="595">
+            <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+            <folding>
+              <element signature="e#35#366#0" expanded="true" />
+            </folding>
+          </editor-state>
+          <multi-preview-state selected="Compose">
+            <representations>
+              <list>
+                <representation name="Compose">
+                  <settings>
+                    <setting name="previewLayout" value="Grid" />
+                    <setting name="selectedGroup" value="" />
+                  </settings>
+                </representation>
+              </list>
+            </representations>
+          </multi-preview-state>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mrboomdev/v2rayng2/AppSettings.kt" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/v2ray/ang/AppConfig.kt">
+      <provider selected="true" editor-type-id="android-source-code">
+        <state selected-layout="SHOW_EDITOR">
+          <editor-state relative-caret-position="175">
+            <caret line="5" column="18" lean-forward="true" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+          </editor-state>
+          <multi-preview-state selected="Compose">
+            <representations>
+              <list>
+                <representation name="Compose">
+                  <settings>
+                    <setting name="previewLayout" value="Grid" />
+                    <setting name="selectedGroup" value="" />
+                  </settings>
+                </representation>
+              </list>
+            </representations>
+          </multi-preview-state>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/v2ray/ang/util/JsonUtil.kt">
+      <provider selected="true" editor-type-id="android-source-code">
+        <state selected-layout="SHOW_EDITOR">
+          <editor-state relative-caret-position="361">
+            <caret line="24" column="19" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
+          </editor-state>
+          <multi-preview-state selected="Compose">
+            <representations>
+              <list>
+                <representation name="Compose">
+                  <settings>
+                    <setting name="previewLayout" value="Grid" />
+                    <setting name="selectedGroup" value="" />
+                  </settings>
+                </representation>
+              </list>
+            </representations>
+          </multi-preview-state>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build.gradle.kts" preview="true">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="139" column="76" selection-start-line="139" selection-start-column="76" selection-end-line="139" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mrboomdev/v2rayng2/settings/AppSettings.kt">
+      <provider selected="true" editor-type-id="android-source-code">
+        <state selected-layout="SHOW_EDITOR">
+          <editor-state relative-caret-position="140">
+            <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+            <folding>
+              <element signature="e#41#128#0" expanded="true" />
+            </folding>
+          </editor-state>
+          <multi-preview-state selected="Compose">
+            <representations>
+              <list>
+                <representation name="Compose">
+                  <settings>
+                    <setting name="previewLayout" value="Grid" />
+                    <setting name="selectedGroup" value="" />
+                  </settings>
+                </representation>
+              </list>
+            </representations>
+          </multi-preview-state>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/v2ray/ang/dto/ServerAffiliationInfo.kt">
+      <provider selected="true" editor-type-id="android-source-code">
+        <state selected-layout="SHOW_EDITOR">
+          <editor-state relative-caret-position="105">
+            <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+          </editor-state>
+          <multi-preview-state selected="Compose">
+            <representations>
+              <list>
+                <representation name="Compose">
+                  <settings>
+                    <setting name="previewLayout" value="Grid" />
+                    <setting name="selectedGroup" value="" />
+                  </settings>
+                </representation>
+              </list>
+            </representations>
+          </multi-preview-state>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/v2ray/ang/handler/MmkvManager.kt">
+      <provider selected="true" editor-type-id="android-source-code">
+        <state selected-layout="SHOW_EDITOR">
+          <editor-state relative-caret-position="243">
+            <caret line="258" lean-forward="true" selection-start-line="258" selection-end-line="258" />
+          </editor-state>
+          <multi-preview-state selected="Compose">
+            <representations>
+              <list>
+                <representation name="Compose">
+                  <settings>
+                    <setting name="previewLayout" value="Grid" />
+                    <setting name="selectedGroup" value="" />
+                  </settings>
+                </representation>
+              </list>
+            </representations>
+          </multi-preview-state>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mrboomdev/v2rayng2/ui/widgets/StringListSettingWidget.kt" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mrboomdev/v2rayng2/settings/Setting.kt">
+      <provider selected="true" editor-type-id="android-source-code">
+        <state selected-layout="SHOW_EDITOR">
+          <editor-state relative-caret-position="-2557">
+            <caret line="80" column="54" lean-forward="true" selection-start-line="80" selection-start-column="54" selection-end-line="80" selection-end-column="54" />
+            <folding>
+              <element signature="e#85#785#0" expanded="true" />
+            </folding>
+          </editor-state>
+          <multi-preview-state selected="Compose">
+            <representations>
+              <list>
+                <representation name="Compose">
+                  <settings>
+                    <setting name="previewLayout" value="Grid" />
+                    <setting name="selectedGroup" value="" />
+                  </settings>
+                </representation>
+              </list>
+            </representations>
+          </multi-preview-state>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.compose.material3/material3-android/1.5.0-alpha10/62ff7da75dca05a97543a192cc8f801b205a29f4/material3-android-1.5.0-alpha10-sources.jar!/commonMain/androidx/compose/material3/Snackbar.kt">
+      <provider selected="true" editor-type-id="android-source-code">
+        <state>
+          <editor-state relative-caret-position="501">
+            <caret line="202" column="10" lean-forward="true" selection-start-line="202" selection-start-column="10" selection-end-line="202" selection-end-column="10" />
+          </editor-state>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.compose.material3/material3-android/1.5.0-alpha10/62ff7da75dca05a97543a192cc8f801b205a29f4/material3-android-1.5.0-alpha10-sources.jar!/commonMain/androidx/compose/material3/SnackbarHost.kt">
+      <provider selected="true" editor-type-id="android-source-code">
+        <state>
+          <editor-state relative-caret-position="367">
+            <caret line="219" column="58" lean-forward="true" selection-start-line="219" selection-start-column="58" selection-end-line="219" selection-end-column="58" />
+          </editor-state>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.activity/activity/1.12.1/1ed09ca1992028a3de9613573aaecbfabec4445a/activity-1.12.1-sources.jar!/androidx/activity/result/contract/ActivityResultContracts.kt">
+      <provider selected="true" editor-type-id="android-source-code">
+        <state>
+          <editor-state relative-caret-position="151">
+            <caret line="65" column="23" lean-forward="true" selection-start-line="65" selection-start-column="23" selection-end-line="65" selection-end-column="23" />
+          </editor-state>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mrboomdev/v2rayng2/ui/screens/simple/SimpleViewModel.kt">
+      <provider selected="true" editor-type-id="android-source-code">
+        <state selected-layout="SHOW_EDITOR">
+          <editor-state relative-caret-position="5915">
+            <caret line="133" column="23" selection-start-line="133" selection-start-column="23" selection-end-line="133" selection-end-column="23" />
+          </editor-state>
+          <multi-preview-state selected="Compose">
+            <representations>
+              <list>
+                <representation name="Compose">
+                  <settings>
+                    <setting name="previewLayout" value="Grid" />
+                    <setting name="selectedGroup" value="" />
+                  </settings>
+                </representation>
+              </list>
+            </representations>
+          </multi-preview-state>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mrboomdev/v2rayng2/ui/screens/simple/SimpleScreen.kt">
+      <provider selected="true" editor-type-id="android-source-code">
+        <state>
+          <editor-state relative-caret-position="361">
+            <caret line="310" column="21" selection-start-line="310" selection-start-column="21" selection-end-line="310" selection-end-column="21" />
+          </editor-state>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/v2ray/ang/viewmodel/MainViewModel.kt">
+      <provider selected="true" editor-type-id="android-source-code">
+        <state selected-layout="SHOW_EDITOR">
+          <editor-state relative-caret-position="6020">
+            <caret line="151" column="34" selection-start-line="151" selection-start-column="34" selection-end-line="151" selection-end-column="34" />
+            <folding>
+              <element signature="e#33#1279#0" expanded="true" />
+            </folding>
+          </editor-state>
+          <multi-preview-state selected="Compose">
+            <representations>
+              <list>
+                <representation name="Compose">
+                  <settings>
+                    <setting name="previewLayout" value="Grid" />
+                    <setting name="selectedGroup" value="" />
+                  </settings>
+                </representation>
+              </list>
+            </representations>
+          </multi-preview-state>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/v2ray/ang/ui/MainActivity.kt">
+      <provider selected="true" editor-type-id="android-source-code">
+        <state selected-layout="SHOW_EDITOR">
+          <editor-state relative-caret-position="13895">
+            <caret line="334" column="43" selection-start-line="334" selection-start-column="43" selection-end-line="334" selection-end-column="43" />
+            <folding>
+              <element signature="e#26#1968#0" expanded="true" />
+            </folding>
+          </editor-state>
+          <multi-preview-state selected="Compose">
+            <representations>
+              <list>
+                <representation name="Compose">
+                  <settings>
+                    <setting name="previewLayout" value="Grid" />
+                    <setting name="selectedGroup" value="" />
+                  </settings>
+                </representation>
+              </list>
+            </representations>
+          </multi-preview-state>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Android</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI" />
+      <state key="JdkListConfigurable.UI" />
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>unitTest|app|v2rayNG</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>aapt2-proto-8.12.3-13700139.jar</last-edited>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

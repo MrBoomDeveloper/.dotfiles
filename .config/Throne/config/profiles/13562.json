@@ -1,16 +1,16 @@
 {
     "bean": {
         "_v": 0,
-        "addr": "92.118.231.181",
+        "addr": "188.253.26.39",
         "brutal_speed": 0,
         "c_cfg": "",
         "c_out": "",
         "enable_brutal": false,
-        "flow": "",
+        "flow": "xtls-rprx-vision",
         "mux": 0,
-        "name": "🇺🇸 United States, Los Angeles [BL]",
-        "pass": "e615a5ba-fce3-4ffa-9c86-b0327a8a107a",
-        "port": 443,
+        "name": "🇳🇱 PORTAL Telegram:@STR_BYPASS 127550",
+        "pass": "e929f51d-5a95-5432-b66f-cfe725ea1f61",
+        "port": 442,
         "stream": {
             "alpn": "",
             "cert": "",
@@ -19,24 +19,24 @@
             "h_type": "",
             "headers": "",
             "host": "",
-            "insecure": true,
+            "insecure": false,
             "method": "",
-            "net": "ws",
+            "net": "tcp",
             "pac_enc": "xudp",
-            "path": "/hormoz",
-            "pbk": "",
+            "path": "",
+            "pbk": "T_gyZwngrYUe24q6-mieGT9WJfzja0PQad_y_SnhBk0",
             "sec": "tls",
-            "sid": "",
-            "sni": "",
+            "sid": "6ac998b514",
+            "sni": "yahoo.com",
             "tls_frag": false,
             "tls_frag_fall_delay": "",
             "tls_record_frag": false,
-            "utls": ""
+            "utls": "chrome"
         }
     },
     "country": "",
     "dl": "",
-    "gid": 10,
+    "gid": 12,
     "id": 13562,
     "report": "",
     "traffic": {
@@ -45,5 +45,5 @@
     },
     "type": "vless",
     "ul": "",
-    "yc": -1
+    "yc": 81
 }

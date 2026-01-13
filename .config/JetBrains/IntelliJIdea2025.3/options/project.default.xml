@@ -1,0 +1,26 @@
+<application>
+  <component name="ProjectManager">
+    <defaultProject>
+      <component name="ProjectViewState">
+        <option name="flattenModules" value="true" />
+        <option name="showLibraryContents" value="true" />
+        <option name="showScratchesAndConsoles" value="false" />
+      </component>
+      <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.web.browsers&quot;
+  }
+}</component>
+      <component name="WindowStateProjectService">
+        <state x="469" y="205" key="SettingsEditor" timestamp="1760887782486">
+          <screen x="0" y="0" width="1920" height="1080" />
+        </state>
+        <state x="469" y="205" key="SettingsEditor/0.0.1920.1080/1920.0.1920.1080" timestamp="1760887782486" />
+        <state x="550" y="242" width="800" height="631" key="new project wizard" timestamp="1761782841076">
+          <screen x="0" y="0" width="1920" height="1080" />
+        </state>
+        <state x="550" y="242" width="800" height="631" key="new project wizard/0.0.1920.1080/1920.0.1920.1080" timestamp="1761782841076" />
+      </component>
+    </defaultProject>
+  </component>
+</application>

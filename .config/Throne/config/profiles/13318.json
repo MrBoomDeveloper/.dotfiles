@@ -1,42 +1,42 @@
 {
     "bean": {
         "_v": 0,
-        "addr": "194.48.141.157",
+        "addr": "188.72.103.3",
         "brutal_speed": 0,
         "c_cfg": "",
         "c_out": "",
         "enable_brutal": false,
-        "flow": "xtls-rprx-vision",
+        "flow": "",
         "mux": 0,
-        "name": "0135 | 🏳️ Ozon | 🇪🇸 Spain | VLESS | TG: @STR_BYPASS",
-        "pass": "60ce56ac-bdba-11f0-94db-525400ca5ed1",
+        "name": "🇫🇷 France — #125",
+        "pass": "94c5797e-46ad-4e62-b9cb-c5c5068e47a7",
         "port": 443,
         "stream": {
-            "alpn": "",
+            "alpn": "h2,http/1.1",
             "cert": "",
             "ed_len": 0,
             "ed_name": "",
             "h_type": "",
             "headers": "",
             "host": "",
-            "insecure": false,
+            "insecure": true,
             "method": "",
-            "net": "tcp",
+            "net": "xhttp",
             "pac_enc": "xudp",
             "path": "",
-            "pbk": "3uWYzm65qryajVsnj0Uanu8be-RhDBd6Ofy2EhQTZjw",
+            "pbk": "",
             "sec": "tls",
             "sid": "",
-            "sni": "www.ozon.ru",
+            "sni": "ws.fjdjdjfjd.icu",
             "tls_frag": false,
             "tls_frag_fall_delay": "",
             "tls_record_frag": false,
-            "utls": "firefox"
+            "utls": "chrome"
         }
     },
     "country": "",
     "dl": "",
-    "gid": 10,
+    "gid": 12,
     "id": 13318,
     "report": "",
     "traffic": {
@@ -45,5 +45,5 @@
     },
     "type": "vless",
     "ul": "",
-    "yc": -1
+    "yc": 0
 }

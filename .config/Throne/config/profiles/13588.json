@@ -1,16 +1,16 @@
 {
     "bean": {
         "_v": 0,
-        "addr": "65.108.231.185",
+        "addr": "134.195.197.69",
         "brutal_speed": 0,
         "c_cfg": "",
         "c_out": "",
         "enable_brutal": false,
         "flow": "",
         "mux": 0,
-        "name": "🔥Join+Telegram:@STR_BYPASS🟣",
-        "pass": "440766d1-858f-4719-84f5-c2de6f6227b2",
-        "port": 443,
+        "name": "🇨🇦 PORTAL Telegram:@STR_BYPASS 255632",
+        "pass": "F6xOQXz=rp7yeiNV",
+        "port": 19579,
         "stream": {
             "alpn": "",
             "cert": "",
@@ -22,12 +22,12 @@
             "insecure": true,
             "method": "",
             "net": "tcp",
-            "pac_enc": "xudp",
+            "pac_enc": "",
             "path": "",
             "pbk": "",
             "sec": "tls",
             "sid": "",
-            "sni": "api.avito.ru",
+            "sni": "goodmorning.dancingbrick.click",
             "tls_frag": false,
             "tls_frag_fall_delay": "",
             "tls_record_frag": false,
@@ -36,14 +36,14 @@
     },
     "country": "",
     "dl": "",
-    "gid": 10,
+    "gid": 12,
     "id": 13588,
     "report": "",
     "traffic": {
         "dl": 0,
         "ul": 0
     },
-    "type": "vless",
+    "type": "trojan",
     "ul": "",
-    "yc": 76
+    "yc": -1
 }

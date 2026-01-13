@@ -1,17 +1,16 @@
 {
     "bean": {
         "_v": 0,
-        "addr": "93.186.201.64",
+        "addr": "31.44.0.63",
         "brutal_speed": 0,
         "c_cfg": "",
         "c_out": "",
         "enable_brutal": false,
-        "method": "chacha20-ietf-poly1305",
+        "flow": "",
         "mux": 0,
-        "name": "🇩🇪 Germany, Düsseldorf [BL]",
-        "pass": "345dbf842bce4b66",
-        "plugin": "",
-        "port": 57456,
+        "name": "🔥PORTAL Telegram:@STR_BYPASS🟣",
+        "pass": "48a8cab5-ce75-4c8a-90f5-dcd020c89b4b",
+        "port": 58349,
         "stream": {
             "alpn": "",
             "cert": "",
@@ -23,7 +22,7 @@
             "insecure": false,
             "method": "",
             "net": "tcp",
-            "pac_enc": "",
+            "pac_enc": "xudp",
             "path": "",
             "pbk": "",
             "sec": "",
@@ -33,19 +32,18 @@
             "tls_frag_fall_delay": "",
             "tls_record_frag": false,
             "utls": ""
-        },
-        "uot": 0
+        }
     },
     "country": "",
     "dl": "",
-    "gid": 10,
+    "gid": 12,
     "id": 13477,
     "report": "",
     "traffic": {
         "dl": 0,
         "ul": 0
     },
-    "type": "shadowsocks",
+    "type": "vless",
     "ul": "",
-    "yc": -1
+    "yc": 302
 }

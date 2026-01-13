@@ -1,16 +1,17 @@
 {
     "bean": {
         "_v": 0,
-        "addr": "172.67.151.188",
+        "addr": "de.vpnsparta.pro",
         "brutal_speed": 0,
         "c_cfg": "",
         "c_out": "",
         "enable_brutal": false,
-        "flow": "",
+        "method": "chacha20-ietf-poly1305",
         "mux": 0,
-        "name": "🔒 VL-WS-TLS 🏴‍☠️ NA-172.67.151.188:2083",
-        "pass": "d60fc3c5-9f07-4cdb-b81f-70af27936bdc",
-        "port": 2083,
+        "name": "🇩🇪 Frankfurt am Main, HE, Germany",
+        "pass": "c40641c1f89e7acb",
+        "plugin": "",
+        "port": 57456,
         "stream": {
             "alpn": "",
             "cert": "",
@@ -18,32 +19,33 @@
             "ed_name": "",
             "h_type": "",
             "headers": "",
-            "host": "ex.sue.x10.mx",
-            "insecure": true,
+            "host": "",
+            "insecure": false,
             "method": "",
-            "net": "ws",
-            "pac_enc": "xudp",
-            "path": "/?ed=2560",
+            "net": "tcp",
+            "pac_enc": "",
+            "path": "",
             "pbk": "",
-            "sec": "tls",
+            "sec": "",
             "sid": "",
-            "sni": "ex.sue.x10.mx",
+            "sni": "",
             "tls_frag": false,
             "tls_frag_fall_delay": "",
             "tls_record_frag": false,
-            "utls": "chrome"
-        }
+            "utls": ""
+        },
+        "uot": 0
     },
     "country": "",
     "dl": "",
-    "gid": 10,
+    "gid": 12,
     "id": 13760,
     "report": "",
     "traffic": {
         "dl": 0,
         "ul": 0
     },
-    "type": "vless",
+    "type": "shadowsocks",
     "ul": "",
     "yc": -1
 }

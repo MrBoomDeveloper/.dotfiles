@@ -1,16 +1,15 @@
 {
     "bean": {
         "_v": 0,
-        "addr": "5.181.21.246",
+        "addr": "45.159.79.174",
         "brutal_speed": 0,
         "c_cfg": "",
         "c_out": "",
         "enable_brutal": false,
-        "method": "chacha20-ietf-poly1305",
+        "flow": "xtls-rprx-vision",
         "mux": 0,
-        "name": "🇬🇧GB-5.181.21.246-0377",
-        "pass": "gKYygTcRYhc3skc2x6tZ073lYz0DnieX",
-        "plugin": "",
+        "name": "0184 | 🏳️ Ozon | 🇺🇸 United States | VLESS | TG: @STR_BYPASS",
+        "pass": "60ce56ac-bdba-11f0-94db-525400ca5ed1",
         "port": 443,
         "stream": {
             "alpn": "",
@@ -23,29 +22,28 @@
             "insecure": false,
             "method": "",
             "net": "tcp",
-            "pac_enc": "",
+            "pac_enc": "xudp",
             "path": "",
-            "pbk": "",
-            "sec": "",
+            "pbk": "3uWYzm65qryajVsnj0Uanu8be-RhDBd6Ofy2EhQTZjw",
+            "sec": "tls",
             "sid": "",
-            "sni": "",
+            "sni": "st.ozone.ru",
             "tls_frag": false,
             "tls_frag_fall_delay": "",
             "tls_record_frag": false,
-            "utls": ""
-        },
-        "uot": 0
+            "utls": "firefox"
+        }
     },
     "country": "",
     "dl": "",
-    "gid": 9,
+    "gid": 12,
     "id": 12978,
     "report": "",
     "traffic": {
         "dl": 0,
         "ul": 0
     },
-    "type": "shadowsocks",
+    "type": "vless",
     "ul": "",
     "yc": -1
 }

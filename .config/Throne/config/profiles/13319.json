@@ -1,16 +1,16 @@
 {
     "bean": {
         "_v": 0,
-        "addr": "77.238.225.248",
+        "addr": "217.13.104.154",
         "brutal_speed": 0,
         "c_cfg": "",
         "c_out": "",
         "enable_brutal": false,
-        "flow": "",
+        "flow": "xtls-rprx-vision",
         "mux": 0,
-        "name": "0140 | 🏳️ VK | 🇳🇱 Netherlands | VLESS | TG: @STR_BYPASS",
-        "pass": "db444bee-8212-5ff5-be40-47e1a7509eb8",
-        "port": 8443,
+        "name": "🇭🇺 Hungary — #127",
+        "pass": "64bc8910-bc0f-453e-b3f3-a101a5dce03e",
+        "port": 443,
         "stream": {
             "alpn": "",
             "cert": "",
@@ -21,13 +21,13 @@
             "host": "",
             "insecure": false,
             "method": "",
-            "net": "xhttp",
+            "net": "tcp",
             "pac_enc": "xudp",
             "path": "",
-            "pbk": "7JkpzRPbu2zJcPNrwVsE72C_OIduEDy_e2G4Uh0g4ms",
+            "pbk": "FkmYFobwxLMLEktYXywmjthuEYCZggITsxwPNasTKUg",
             "sec": "tls",
-            "sid": "21c75f62",
-            "sni": "vk.com",
+            "sid": "33554379411b3219",
+            "sni": "travel.yandex.ru",
             "tls_frag": false,
             "tls_frag_fall_delay": "",
             "tls_record_frag": false,
@@ -36,7 +36,7 @@
     },
     "country": "",
     "dl": "",
-    "gid": 10,
+    "gid": 12,
     "id": 13319,
     "report": "",
     "traffic": {
@@ -45,5 +45,5 @@
     },
     "type": "vless",
     "ul": "",
-    "yc": 0
+    "yc": -1
 }

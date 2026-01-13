@@ -1,0 +1,33 @@
+<scheme name="_@user_Dark purple" version="142" parent_scheme="Darcula">
+  <option name="FONT_SCALE" value="1.0" />
+  <metaInfo>
+    <property name="ide">AndroidStudio</property>
+    <property name="ideVersion">2024.2.1.12</property>
+    <property name="originalScheme">Dark purple</property>
+    <property name="partialSave">true</property>
+    <property name="pluginId">com.jetbrains.darkPurpleTheme</property>
+  </metaInfo>
+  <option name="LINE_SPACING" value="1.2" />
+  <option name="EDITOR_FONT_SIZE" value="24" />
+  <option name="EDITOR_FONT_NAME" value="JetBrains Mono" />
+  <colors>
+    <option name="CARET_ROW_COLOR" value="17151C" />
+    <option name="MODIFIED_TAB_ICON" value="C440C9" />
+    <option name="SELECTION_BACKGROUND" value="4B3A4D" />
+  </colors>
+  <attributes>
+    <option name="TAB_SELECTED">
+      <value />
+    </option>
+    <option name="TAB_SELECTED_INACTIVE">
+      <value />
+    </option>
+    <option name="TEXT">
+      <value>
+        <option name="FOREGROUND" value="c9c9d1" />
+        <option name="BACKGROUND" value="0" />
+        <option name="EFFECT_TYPE" value="5" />
+      </value>
+    </option>
+  </attributes>
+</scheme>

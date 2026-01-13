@@ -1,16 +1,17 @@
 {
     "bean": {
         "_v": 0,
-        "addr": "78.159.246.66",
+        "addr": "45.87.175.92",
         "brutal_speed": 0,
         "c_cfg": "",
         "c_out": "",
         "enable_brutal": false,
-        "flow": "xtls-rprx-vision",
+        "method": "chacha20-ietf-poly1305",
         "mux": 0,
-        "name": "🇳🇱 The Netherlands — #156",
-        "pass": "2c8adcaa-e428-4cea-9c88-e88166651ab3",
-        "port": 443,
+        "name": "🇳🇱 The Netherlands",
+        "pass": "oZIoA69Q8yhcQV8ka3Pa3A",
+        "plugin": "",
+        "port": 8080,
         "stream": {
             "alpn": "",
             "cert": "",
@@ -22,28 +23,29 @@
             "insecure": false,
             "method": "",
             "net": "tcp",
-            "pac_enc": "xudp",
+            "pac_enc": "",
             "path": "",
-            "pbk": "mza5Hn1aolSz65qu-UwvBP3oesxMe25r11o4nxvikF0",
-            "sec": "tls",
-            "sid": "d1579a8745398e34",
-            "sni": "eh.vk.com",
+            "pbk": "",
+            "sec": "",
+            "sid": "",
+            "sni": "",
             "tls_frag": false,
             "tls_frag_fall_delay": "",
             "tls_record_frag": false,
-            "utls": "chrome"
-        }
+            "utls": ""
+        },
+        "uot": 0
     },
     "country": "",
     "dl": "",
-    "gid": 10,
+    "gid": 12,
     "id": 13696,
     "report": "",
     "traffic": {
         "dl": 0,
         "ul": 0
     },
-    "type": "vless",
+    "type": "shadowsocks",
     "ul": "",
     "yc": -1
 }

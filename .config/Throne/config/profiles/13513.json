@@ -1,15 +1,16 @@
 {
     "bean": {
         "_v": 0,
-        "addr": "45.144.53.166",
+        "addr": "95.164.10.228",
         "brutal_speed": 0,
         "c_cfg": "",
         "c_out": "",
         "enable_brutal": false,
-        "flow": "",
+        "method": "chacha20-ietf-poly1305",
         "mux": 0,
-        "name": "🇫🇮 Finland, Helsinki [BL]",
-        "pass": "a41550c8-daee-4f2c-b5a8-e66b314c99b1",
+        "name": "🇩🇰 PORTAL Telegram:@STR_BYPASS 385915",
+        "pass": "SDaFISr3Gfm6YkBSSrFIEwwWjEEU7Xbo",
+        "plugin": "",
         "port": 443,
         "stream": {
             "alpn": "",
@@ -21,29 +22,30 @@
             "host": "",
             "insecure": false,
             "method": "",
-            "net": "grpc",
-            "pac_enc": "xudp",
+            "net": "tcp",
+            "pac_enc": "",
             "path": "",
-            "pbk": "XnSTGadTQ3R3qGd5lk7l8gZMuZUQH7fu1tItRmH6CEY",
-            "sec": "tls",
-            "sid": "e9d19fd1ca5ca23c",
-            "sni": "hel1.hitori.cloud",
+            "pbk": "",
+            "sec": "",
+            "sid": "",
+            "sni": "",
             "tls_frag": false,
             "tls_frag_fall_delay": "",
             "tls_record_frag": false,
-            "utls": "chrome"
-        }
+            "utls": ""
+        },
+        "uot": 0
     },
     "country": "",
     "dl": "",
-    "gid": 10,
+    "gid": 12,
     "id": 13513,
     "report": "",
     "traffic": {
         "dl": 0,
         "ul": 0
     },
-    "type": "vless",
+    "type": "shadowsocks",
     "ul": "",
     "yc": -1
 }

@@ -1,49 +1,51 @@
 {
     "bean": {
         "_v": 0,
-        "addr": "hkg.tunnelguard.ru",
+        "addr": "141.98.4.67",
         "brutal_speed": 0,
         "c_cfg": "",
         "c_out": "",
         "enable_brutal": false,
-        "flow": "",
+        "method": "chacha20-ietf-poly1305",
         "mux": 0,
-        "name": "🇭🇰 Гонконг 1 | xHTTP",
-        "pass": "77fdad21-a138-47b5-8a53-547536125084",
-        "port": 443,
+        "name": "🇳🇱 The Netherlands",
+        "pass": "LMSNh21TrXjR2ok25Q2nE8ENT2zoBmPvka3RCCUAHZELCnWoekVjvaf89qwcRkdbxEfep2bc2aUtmnxqvF1ayQRez1JHjULj",
+        "plugin": "",
+        "port": 52952,
         "stream": {
-            "alpn": "h2,http/1.1",
+            "alpn": "",
             "cert": "",
             "ed_len": 0,
             "ed_name": "",
             "h_type": "",
             "headers": "",
             "host": "",
-            "insecure": true,
+            "insecure": false,
             "method": "",
-            "net": "xhttp",
-            "pac_enc": "xudp",
+            "net": "tcp",
+            "pac_enc": "",
             "path": "",
             "pbk": "",
-            "sec": "tls",
+            "sec": "",
             "sid": "",
-            "sni": "hkg.tunnelguard.ru",
+            "sni": "",
             "tls_frag": false,
             "tls_frag_fall_delay": "",
             "tls_record_frag": false,
-            "utls": "firefox"
-        }
+            "utls": ""
+        },
+        "uot": 0
     },
     "country": "",
     "dl": "",
-    "gid": 10,
+    "gid": 12,
     "id": 13758,
     "report": "",
     "traffic": {
         "dl": 0,
         "ul": 0
     },
-    "type": "vless",
+    "type": "shadowsocks",
     "ul": "",
-    "yc": 0
+    "yc": 172
 }

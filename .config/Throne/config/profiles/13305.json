@@ -1,16 +1,16 @@
 {
     "bean": {
         "_v": 0,
-        "addr": "ru2.takovpn.ru",
+        "addr": "51.250.89.217",
         "brutal_speed": 0,
         "c_cfg": "",
         "c_out": "",
         "enable_brutal": false,
         "flow": "",
         "mux": 0,
-        "name": "0033 | 🏳️ VK | 🌍 Unknown | VLESS | TG: @STR_BYPASS",
-        "pass": "493d5565-9c06-4d2f-a252-cbd9d2be3516",
-        "port": 443,
+        "name": "🇪🇸 Spain — #112",
+        "pass": "e5017995-2093-491b-a0fa-d4890782d42a",
+        "port": 9090,
         "stream": {
             "alpn": "",
             "cert": "",
@@ -21,13 +21,13 @@
             "host": "",
             "insecure": false,
             "method": "",
-            "net": "tcp",
+            "net": "xhttp",
             "pac_enc": "xudp",
             "path": "",
-            "pbk": "-JG4SeIwmtWW0WiLhtmI_7OxCfccenm1LLcBXmkcq08",
+            "pbk": "kBLlUpt36Xk_CJrdB1jlYvS_OcKs4DSzHuq9McBWpQQ",
             "sec": "tls",
-            "sid": "13cb",
-            "sni": "www.vk.com",
+            "sid": "24ed410022aa2001",
+            "sni": "ads.x5.ru",
             "tls_frag": false,
             "tls_frag_fall_delay": "",
             "tls_record_frag": false,
@@ -36,7 +36,7 @@
     },
     "country": "",
     "dl": "",
-    "gid": 10,
+    "gid": 12,
     "id": 13305,
     "report": "",
     "traffic": {
@@ -45,5 +45,5 @@
     },
     "type": "vless",
     "ul": "",
-    "yc": -1
+    "yc": 0
 }

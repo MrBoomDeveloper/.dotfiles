@@ -1,15 +1,15 @@
 {
     "bean": {
         "_v": 0,
-        "addr": "nsk.geodema.network",
+        "addr": "95.163.251.240",
         "brutal_speed": 0,
         "c_cfg": "",
         "c_out": "",
         "enable_brutal": false,
         "flow": "xtls-rprx-vision",
         "mux": 0,
-        "name": "0675 | 🌍 Unknown | VLESS | TG: @STR_BYPASS",
-        "pass": "a91e64f0-9295-499d-bf4a-661ad99d4938",
+        "name": "💎CIDR💎🌏 ByPass №2",
+        "pass": "9818b579-3746-468b-88ac-65bd26b28e86",
         "port": 443,
         "stream": {
             "alpn": "",
@@ -24,10 +24,10 @@
             "net": "tcp",
             "pac_enc": "xudp",
             "path": "",
-            "pbk": "EltWI8AOqkN8lMjRycweRRoFRah5hu6xiKtgBmQOdE8",
+            "pbk": "tEt-vtWho9yRtM2sz5pjolmh4aAshJDxvgtPwR-FIEc",
             "sec": "tls",
-            "sid": "1ed136481e0ede74",
-            "sni": "nsk.geodema.network",
+            "sid": "e74115",
+            "sni": "www.vk.com",
             "tls_frag": false,
             "tls_frag_fall_delay": "",
             "tls_record_frag": false,
@@ -36,7 +36,7 @@
     },
     "country": "",
     "dl": "",
-    "gid": 10,
+    "gid": 12,
     "id": 13383,
     "report": "",
     "traffic": {
@@ -45,5 +45,5 @@
     },
     "type": "vless",
     "ul": "",
-    "yc": 102
+    "yc": -1
 }

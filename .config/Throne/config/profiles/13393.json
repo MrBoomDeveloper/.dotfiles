@@ -1,16 +1,17 @@
 {
     "bean": {
         "_v": 0,
-        "addr": "103.113.68.85",
+        "addr": "213.159.66.206",
         "brutal_speed": 0,
         "c_cfg": "",
         "c_out": "",
         "enable_brutal": false,
-        "flow": "xtls-rprx-vision",
+        "method": "chacha20-ietf-poly1305",
         "mux": 0,
-        "name": "0718 | 🇷🇺 Russia | VLESS | TG: @STR_BYPASS",
-        "pass": "3850bd95-3518-4d06-aa96-ec461a3379c8",
-        "port": 8443,
+        "name": "🇷🇺 t.me/STR_BYPASS",
+        "pass": "pl2XtR0pzwknQOGwewbwXtPYDw1zn9Vu",
+        "plugin": "",
+        "port": 443,
         "stream": {
             "alpn": "",
             "cert": "",
@@ -22,28 +23,29 @@
             "insecure": false,
             "method": "",
             "net": "tcp",
-            "pac_enc": "xudp",
+            "pac_enc": "",
             "path": "",
-            "pbk": "QvjP74yYU3MSjcPB4sdxU1FC1Qtqaq6k7WoiEpx3FRM",
-            "sec": "tls",
-            "sid": "6618",
-            "sni": "content.fasssst.ru",
+            "pbk": "",
+            "sec": "",
+            "sid": "",
+            "sni": "",
             "tls_frag": false,
             "tls_frag_fall_delay": "",
             "tls_record_frag": false,
-            "utls": "chrome"
-        }
+            "utls": ""
+        },
+        "uot": 0
     },
     "country": "",
     "dl": "",
-    "gid": 10,
+    "gid": 12,
     "id": 13393,
     "report": "",
     "traffic": {
         "dl": 0,
         "ul": 0
     },
-    "type": "vless",
+    "type": "shadowsocks",
     "ul": "",
     "yc": -1
 }

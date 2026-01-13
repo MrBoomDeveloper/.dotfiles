@@ -1,23 +1,23 @@
 {
     "bean": {
         "_v": 0,
-        "addr": "ca225.vpnbook.com",
+        "addr": "127.0.0.1",
+        "aid": 0,
         "brutal_speed": 0,
         "c_cfg": "",
         "c_out": "",
         "enable_brutal": false,
-        "method": "chacha20-ietf-poly1305",
+        "id": "acababc-abca-abca-bcda-bacbbbacccaa",
         "mux": 0,
-        "name": "🇨🇦CA-142.4.216.225-0355",
-        "pass": "JIhN6rBKkaEboLNXVSv5rq",
-        "plugin": "",
-        "port": 80,
+        "name": "❔ XX | 🔓 VMESS | @hope_net [9]",
+        "port": 1080,
+        "sec": "auto",
         "stream": {
             "alpn": "",
             "cert": "",
             "ed_len": 0,
             "ed_name": "",
-            "h_type": "",
+            "h_type": "none",
             "headers": "",
             "host": "",
             "insecure": false,
@@ -33,19 +33,18 @@
             "tls_frag_fall_delay": "",
             "tls_record_frag": false,
             "utls": ""
-        },
-        "uot": 0
+        }
     },
     "country": "",
     "dl": "",
-    "gid": 9,
+    "gid": 12,
     "id": 13226,
     "report": "",
     "traffic": {
         "dl": 0,
         "ul": 0
     },
-    "type": "shadowsocks",
+    "type": "vmess",
     "ul": "",
-    "yc": 182
+    "yc": -1
 }

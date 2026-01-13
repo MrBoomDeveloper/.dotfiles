@@ -1,16 +1,16 @@
 {
     "bean": {
         "_v": 0,
-        "addr": "nsk.geodema.network",
+        "addr": "wolfy.ufavpn.ru",
         "brutal_speed": 0,
         "c_cfg": "",
         "c_out": "",
         "enable_brutal": false,
-        "flow": "xtls-rprx-vision",
+        "flow": "",
         "mux": 0,
-        "name": "0696 | 🌍 Unknown | VLESS | TG: @STR_BYPASS",
-        "pass": "eb7c7631-6c7c-4f34-a65a-974b4565d01d",
-        "port": 443,
+        "name": "[OpenRay] 🇷🇺 RU-48",
+        "pass": "cbf1ec03-2cff-4b1f-9eb5-5929c13fc20c",
+        "port": 27121,
         "stream": {
             "alpn": "",
             "cert": "",
@@ -24,10 +24,10 @@
             "net": "tcp",
             "pac_enc": "xudp",
             "path": "",
-            "pbk": "EltWI8AOqkN8lMjRycweRRoFRah5hu6xiKtgBmQOdE8",
+            "pbk": "QNLEBa5tV9JCrubA4hlAWhho06ddr2dtsT8LKZsGTgA",
             "sec": "tls",
-            "sid": "1ed136481e0ede74",
-            "sni": "nsk.geodema.network",
+            "sid": "fdc8125ea6f61323",
+            "sni": "www.ok.ru",
             "tls_frag": false,
             "tls_frag_fall_delay": "",
             "tls_record_frag": false,
@@ -36,7 +36,7 @@
     },
     "country": "",
     "dl": "",
-    "gid": 10,
+    "gid": 12,
     "id": 13389,
     "report": "",
     "traffic": {
@@ -45,5 +45,5 @@
     },
     "type": "vless",
     "ul": "",
-    "yc": 119
+    "yc": -1
 }

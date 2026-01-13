@@ -1,15 +1,15 @@
 {
     "bean": {
         "_v": 0,
-        "addr": "144.31.125.86",
+        "addr": "77.110.119.225",
         "brutal_speed": 0,
         "c_cfg": "",
         "c_out": "",
         "enable_brutal": false,
         "flow": "xtls-rprx-vision",
         "mux": 0,
-        "name": "0738 | 🇺🇸 United States | VLESS | TG: @STR_BYPASS",
-        "pass": "3ee58d3a-7469-4557-b2f9-0d1d85c3a6fa",
+        "name": "🇸🇦_SA_沙特阿拉伯",
+        "pass": "4819860c-0e62-4804-9c59-967e5c2bed7a",
         "port": 443,
         "stream": {
             "alpn": "",
@@ -24,19 +24,19 @@
             "net": "tcp",
             "pac_enc": "xudp",
             "path": "",
-            "pbk": "wBrGfTI9PaFf966aN6KaCY0cL6QRLlop4nzNa6bJsiQ",
+            "pbk": "hnec5SxCD6Os-u0FNi_YS5CML1a_oWb0niZJ1mGuFBo",
             "sec": "tls",
-            "sid": "9f35da6c9412b832",
-            "sni": "google.com",
+            "sid": "07e904766d29b958",
+            "sni": "st.ozone.ru",
             "tls_frag": false,
             "tls_frag_fall_delay": "",
             "tls_record_frag": false,
-            "utls": "qq"
+            "utls": "chrome"
         }
     },
     "country": "",
     "dl": "",
-    "gid": 10,
+    "gid": 12,
     "id": 13400,
     "report": "",
     "traffic": {

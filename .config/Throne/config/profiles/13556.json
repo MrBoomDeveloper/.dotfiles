@@ -1,16 +1,16 @@
 {
     "bean": {
         "_v": 0,
-        "addr": "midorinote.ru",
+        "addr": "137.74.53.176",
         "brutal_speed": 0,
         "c_cfg": "",
         "c_out": "",
         "enable_brutal": false,
-        "flow": "xtls-rprx-vision",
+        "flow": "",
         "mux": 0,
-        "name": "🇳🇱 The Netherlands, Amsterdam [BL]",
-        "pass": "6d3d21ef-b24a-4932-8393-7efc90c3d89c",
-        "port": 8443,
+        "name": "🇫🇷 PORTAL Telegram:@STR_BYPASS 842093",
+        "pass": "be72cd92-92d2-4543-9bef-1673fcd03b45",
+        "port": 35789,
         "stream": {
             "alpn": "",
             "cert": "",
@@ -24,19 +24,19 @@
             "net": "tcp",
             "pac_enc": "xudp",
             "path": "",
-            "pbk": "Cxvc5bVMKln6RxPs5MtviUZNDsmpfuYUK8UFBlcBaS0",
-            "sec": "tls",
-            "sid": "808e2d36726ee97e",
-            "sni": "m.vk.com",
+            "pbk": "",
+            "sec": "",
+            "sid": "",
+            "sni": "",
             "tls_frag": false,
             "tls_frag_fall_delay": "",
             "tls_record_frag": false,
-            "utls": "random"
+            "utls": ""
         }
     },
     "country": "",
     "dl": "",
-    "gid": 10,
+    "gid": 12,
     "id": 13556,
     "report": "",
     "traffic": {

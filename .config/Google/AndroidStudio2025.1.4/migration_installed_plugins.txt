@@ -1,0 +1,3 @@
+com.jetbrains.kmm
+com.intellij.settingsSync
+com.intellij.marketplace

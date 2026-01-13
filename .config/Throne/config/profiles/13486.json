@@ -1,15 +1,16 @@
 {
     "bean": {
         "_v": 0,
-        "addr": "veraams2.uspn.io",
+        "addr": "95.111.222.113",
         "brutal_speed": 0,
         "c_cfg": "",
         "c_out": "",
         "enable_brutal": false,
-        "flow": "",
+        "method": "chacha20-ietf-poly1305",
         "mux": 0,
-        "name": "🇳🇱 Netherlands, Amsterdam [BL]",
-        "pass": "870133af-bf3d-4ece-99a7-8a77bf2d3b40",
+        "name": "🔥PORTAL Telegram:@STR_BYPASS🟣",
+        "pass": "SVt6ZiWzRI1Yxeig4xBZwiJOt6ceXwGa",
+        "plugin": "",
         "port": 443,
         "stream": {
             "alpn": "",
@@ -18,32 +19,33 @@
             "ed_name": "",
             "h_type": "",
             "headers": "",
-            "host": "veraams2.uspn.io",
-            "insecure": true,
+            "host": "",
+            "insecure": false,
             "method": "",
-            "net": "ws",
+            "net": "tcp",
             "pac_enc": "",
-            "path": "/trojan",
+            "path": "",
             "pbk": "",
-            "sec": "tls",
+            "sec": "",
             "sid": "",
-            "sni": "veraams2.uspn.io",
+            "sni": "",
             "tls_frag": false,
             "tls_frag_fall_delay": "",
             "tls_record_frag": false,
             "utls": ""
-        }
+        },
+        "uot": 0
     },
     "country": "",
     "dl": "",
-    "gid": 10,
+    "gid": 12,
     "id": 13486,
     "report": "",
     "traffic": {
         "dl": 0,
         "ul": 0
     },
-    "type": "trojan",
+    "type": "shadowsocks",
     "ul": "",
-    "yc": -1
+    "yc": 364
 }

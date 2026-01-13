@@ -1,17 +1,17 @@
 {
     "bean": {
         "_v": 0,
-        "addr": "208.67.106.73",
+        "addr": "82.38.31.187",
         "brutal_speed": 0,
         "c_cfg": "",
         "c_out": "",
         "enable_brutal": false,
         "method": "chacha20-ietf-poly1305",
         "mux": 0,
-        "name": "🇳🇱 Netherlands, Amsterdam [BL]",
-        "pass": "2DGq3jvVRg5n3CcxmysGK2kmrgJeSNof12A76cZvVxqPpetyC1XEciCFufq5xKvRWGGnKVembpThuUSQhbZ7GMsZY4UVxEBw",
+        "name": "🔥PORTAL Telegram:@STR_BYPASS🟣",
+        "pass": "k1dBOmOB4oqi7Ump37a1bQ",
         "plugin": "",
-        "port": 44884,
+        "port": 8080,
         "stream": {
             "alpn": "",
             "cert": "",
@@ -38,7 +38,7 @@
     },
     "country": "",
     "dl": "",
-    "gid": 10,
+    "gid": 12,
     "id": 13479,
     "report": "",
     "traffic": {

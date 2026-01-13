@@ -1,15 +1,15 @@
 {
     "bean": {
         "_v": 0,
-        "addr": "ru01-blh01.tcp-reset-club.net",
+        "addr": "45.83.21.4",
         "brutal_speed": 0,
         "c_cfg": "",
         "c_out": "",
         "enable_brutal": false,
-        "flow": "xtls-rprx-vision",
+        "flow": "",
         "mux": 0,
-        "name": "🇷🇺 Moscow 21 [SNI only] sni=stats.vk-portal.net",
-        "pass": "35274d58-fc5d-4ddf-81c2-65c2673dd0f9",
+        "name": "🇮🇸 PORTAL Telegram:@STR_BYPASS 966817",
+        "pass": "1679af35-6dd6-4c09-ae3b-18f239217f3e",
         "port": 443,
         "stream": {
             "alpn": "",
@@ -18,25 +18,25 @@
             "ed_name": "",
             "h_type": "",
             "headers": "",
-            "host": "",
-            "insecure": false,
+            "host": "rayan-007.parvin.dpdns.org",
+            "insecure": true,
             "method": "",
-            "net": "tcp",
+            "net": "ws",
             "pac_enc": "xudp",
-            "path": "",
-            "pbk": "mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg",
+            "path": "/Telegram:@AZARBAYJAB1",
+            "pbk": "",
             "sec": "tls",
-            "sid": "175d",
-            "sni": "stats.vk-portal.net",
+            "sid": "",
+            "sni": "rAyAn-007.pArViN.DpDnS.OrG",
             "tls_frag": false,
             "tls_frag_fall_delay": "",
             "tls_record_frag": false,
-            "utls": "chrome"
+            "utls": ""
         }
     },
     "country": "",
     "dl": "",
-    "gid": 10,
+    "gid": 12,
     "id": 13571,
     "report": "",
     "traffic": {
@@ -45,5 +45,5 @@
     },
     "type": "vless",
     "ul": "",
-    "yc": 55
+    "yc": -1
 }

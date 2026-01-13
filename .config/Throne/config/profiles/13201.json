@@ -1,17 +1,16 @@
 {
     "bean": {
         "_v": 0,
-        "addr": "213.159.67.124",
+        "addr": "midorinote.ru",
         "brutal_speed": 0,
         "c_cfg": "",
         "c_out": "",
         "enable_brutal": false,
-        "method": "chacha20-ietf-poly1305",
+        "flow": "xtls-rprx-vision",
         "mux": 0,
-        "name": "🇲🇩MD-213.159.67.124-0446",
-        "pass": "mbhqsStnFQT1cTZYCdsmkugGUC6GT6rp",
-        "plugin": "",
-        "port": 443,
+        "name": "🇳🇱 The Netherlands, Amsterdam [BL]",
+        "pass": "6d3d21ef-b24a-4932-8393-7efc90c3d89c",
+        "port": 8443,
         "stream": {
             "alpn": "",
             "cert": "",
@@ -23,29 +22,28 @@
             "insecure": false,
             "method": "",
             "net": "tcp",
-            "pac_enc": "",
+            "pac_enc": "xudp",
             "path": "",
-            "pbk": "",
-            "sec": "",
-            "sid": "",
-            "sni": "",
+            "pbk": "Cxvc5bVMKln6RxPs5MtviUZNDsmpfuYUK8UFBlcBaS0",
+            "sec": "tls",
+            "sid": "808e2d36726ee97e",
+            "sni": "m.vk.com",
             "tls_frag": false,
             "tls_frag_fall_delay": "",
             "tls_record_frag": false,
-            "utls": ""
-        },
-        "uot": 0
+            "utls": "random"
+        }
     },
     "country": "",
     "dl": "",
-    "gid": 9,
+    "gid": 12,
     "id": 13201,
     "report": "",
     "traffic": {
         "dl": 0,
         "ul": 0
     },
-    "type": "shadowsocks",
+    "type": "vless",
     "ul": "",
-    "yc": 123
+    "yc": -1
 }

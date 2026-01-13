@@ -1,16 +1,15 @@
 {
     "bean": {
         "_v": 0,
-        "addr": "156.146.38.170",
+        "addr": "khabarovsk.geodema.network",
         "brutal_speed": 0,
         "c_cfg": "",
         "c_out": "",
         "enable_brutal": false,
-        "method": "aes-128-gcm",
+        "flow": "xtls-rprx-vision",
         "mux": 0,
-        "name": "🇺🇸US-156.146.38.170-0267",
-        "pass": "shadowsocks",
-        "plugin": "",
+        "name": "🇷🇺 Россия Хабаровск тгк: @STR_BYPASS",
+        "pass": "a91e64f0-9295-499d-bf4a-661ad99d4938",
         "port": 443,
         "stream": {
             "alpn": "",
@@ -23,29 +22,28 @@
             "insecure": false,
             "method": "",
             "net": "tcp",
-            "pac_enc": "",
+            "pac_enc": "xudp",
             "path": "",
-            "pbk": "",
-            "sec": "",
-            "sid": "",
-            "sni": "",
+            "pbk": "EltWI8AOqkN8lMjRycweRRoFRah5hu6xiKtgBmQOdE8",
+            "sec": "tls",
+            "sid": "1ed136481e0ede74",
+            "sni": "khabarovsk.geodema.network",
             "tls_frag": false,
             "tls_frag_fall_delay": "",
             "tls_record_frag": false,
-            "utls": ""
-        },
-        "uot": 0
+            "utls": "ios"
+        }
     },
     "country": "",
     "dl": "",
-    "gid": 9,
+    "gid": 12,
     "id": 13107,
     "report": "",
     "traffic": {
         "dl": 0,
         "ul": 0
     },
-    "type": "shadowsocks",
+    "type": "vless",
     "ul": "",
-    "yc": 196
+    "yc": 265
 }

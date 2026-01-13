@@ -1,16 +1,16 @@
 {
     "bean": {
         "_v": 0,
-        "addr": "185.130.114.219",
+        "addr": "ov-france2.09vpn.com",
         "brutal_speed": 0,
         "c_cfg": "",
         "c_out": "",
         "enable_brutal": false,
-        "flow": "xtls-rprx-vision",
+        "flow": "",
         "mux": 0,
-        "name": "0844 | 🇷🇺 Russia | VLESS | TG: @STR_BYPASS",
-        "pass": "309fa273-6579-4cb2-9143-7cad50401eba",
-        "port": 443,
+        "name": "none",
+        "pass": "f0758892-f40c-412d-9fab-88103bad1fd8",
+        "port": 80,
         "stream": {
             "alpn": "",
             "cert": "",
@@ -21,22 +21,22 @@
             "host": "",
             "insecure": false,
             "method": "",
-            "net": "tcp",
+            "net": "ws",
             "pac_enc": "xudp",
-            "path": "",
-            "pbk": "gZGVp5PUdafgsmi1gawa1yLuha_XhXRc_W9SvPiGmTY",
-            "sec": "tls",
-            "sid": "7cad5040",
-            "sni": "www.cloudflare.com",
+            "path": "/vless/",
+            "pbk": "",
+            "sec": "",
+            "sid": "",
+            "sni": "",
             "tls_frag": false,
             "tls_frag_fall_delay": "",
             "tls_record_frag": false,
-            "utls": "chrome"
+            "utls": ""
         }
     },
     "country": "",
     "dl": "",
-    "gid": 10,
+    "gid": 12,
     "id": 13407,
     "report": "",
     "traffic": {
@@ -45,5 +45,5 @@
     },
     "type": "vless",
     "ul": "",
-    "yc": 63
+    "yc": -1
 }

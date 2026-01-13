@@ -1,49 +1,51 @@
 {
     "bean": {
         "_v": 0,
-        "addr": "nla.tunnelguard.ru",
+        "addr": "193.29.139.157",
         "brutal_speed": 0,
         "c_cfg": "",
         "c_out": "",
         "enable_brutal": false,
-        "flow": "",
+        "method": "chacha20-ietf-poly1305",
         "mux": 0,
-        "name": "🇷🇺 Россия 23 | xHTTP",
-        "pass": "8835484a-31ee-4302-9692-a3a6315e9e09",
-        "port": 443,
+        "name": "🇳🇱 The Netherlands",
+        "pass": "cvII85TrW6n0OGyfpHVS1u",
+        "plugin": "",
+        "port": 8080,
         "stream": {
-            "alpn": "h2,http/1.1",
+            "alpn": "",
             "cert": "",
             "ed_len": 0,
             "ed_name": "",
             "h_type": "",
             "headers": "",
             "host": "",
-            "insecure": true,
+            "insecure": false,
             "method": "",
-            "net": "xhttp",
-            "pac_enc": "xudp",
+            "net": "tcp",
+            "pac_enc": "",
             "path": "",
             "pbk": "",
-            "sec": "tls",
+            "sec": "",
             "sid": "",
-            "sni": "nla.tunnelguard.ru",
+            "sni": "",
             "tls_frag": false,
             "tls_frag_fall_delay": "",
             "tls_record_frag": false,
-            "utls": "chrome"
-        }
+            "utls": ""
+        },
+        "uot": 0
     },
     "country": "",
     "dl": "",
-    "gid": 10,
+    "gid": 12,
     "id": 13735,
     "report": "",
     "traffic": {
-        "dl": 0,
-        "ul": 0
+        "dl": 133117,
+        "ul": 17525
     },
-    "type": "vless",
+    "type": "shadowsocks",
     "ul": "",
-    "yc": 0
+    "yc": 77
 }

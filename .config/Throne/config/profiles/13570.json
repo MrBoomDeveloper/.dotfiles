@@ -1,15 +1,16 @@
 {
     "bean": {
         "_v": 0,
-        "addr": "179.61.251.78",
+        "addr": "89.185.84.185",
         "brutal_speed": 0,
         "c_cfg": "",
         "c_out": "",
         "enable_brutal": false,
-        "flow": "xtls-rprx-vision",
+        "method": "chacha20-ietf-poly1305",
         "mux": 0,
-        "name": "🇩🇪 Germany [SNI only]",
-        "pass": "fabc8a38-76c5-48fe-ada7-a9e52dd16225",
+        "name": "🇬🇧 PORTAL Telegram:@STR_BYPASS 805647",
+        "pass": "yFZU4gqA0YxJ7f5gScdXQq",
+        "plugin": "",
         "port": 443,
         "stream": {
             "alpn": "",
@@ -22,28 +23,29 @@
             "insecure": false,
             "method": "",
             "net": "tcp",
-            "pac_enc": "xudp",
+            "pac_enc": "",
             "path": "",
-            "pbk": "esHsu3-Fj0aZ0xuNBV6qW1zu1hLbas8YDn7AO0QGsBw",
-            "sec": "tls",
-            "sid": "0ff58d687a4c6c",
-            "sni": "refersion.com",
+            "pbk": "",
+            "sec": "",
+            "sid": "",
+            "sni": "",
             "tls_frag": false,
             "tls_frag_fall_delay": "",
             "tls_record_frag": false,
-            "utls": "chrome"
-        }
+            "utls": ""
+        },
+        "uot": 0
     },
     "country": "",
     "dl": "",
-    "gid": 10,
+    "gid": 12,
     "id": 13570,
     "report": "",
     "traffic": {
         "dl": 0,
         "ul": 0
     },
-    "type": "vless",
+    "type": "shadowsocks",
     "ul": "",
-    "yc": 83
+    "yc": -1
 }

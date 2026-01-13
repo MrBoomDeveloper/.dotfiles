@@ -1,0 +1,49 @@
+{
+    "bean": {
+        "_v": 0,
+        "addr": "yand84.volgaboost.ru",
+        "brutal_speed": 0,
+        "c_cfg": "",
+        "c_out": "",
+        "enable_brutal": false,
+        "flow": "xtls-rprx-vision",
+        "mux": 0,
+        "name": "0074 | 🏳️ VK | 🌍 Unknown | VLESS | TG: @STR_BYPASS",
+        "pass": "e5017995-2093-491b-a0fa-d4890782d42a",
+        "port": 8443,
+        "stream": {
+            "alpn": "",
+            "cert": "",
+            "ed_len": 0,
+            "ed_name": "",
+            "h_type": "",
+            "headers": "",
+            "host": "",
+            "insecure": false,
+            "method": "",
+            "net": "tcp",
+            "pac_enc": "xudp",
+            "path": "",
+            "pbk": "IRsjdh3L1r-ci1BTwqOqEqQpzaQsYTm_zPZn7emViEo",
+            "sec": "tls",
+            "sid": "14ae379a3744bf89",
+            "sni": "eh.vk.com",
+            "tls_frag": false,
+            "tls_frag_fall_delay": "",
+            "tls_record_frag": false,
+            "utls": "qq"
+        }
+    },
+    "country": "",
+    "dl": "",
+    "gid": 12,
+    "id": 12957,
+    "report": "",
+    "traffic": {
+        "dl": 0,
+        "ul": 0
+    },
+    "type": "vless",
+    "ul": "",
+    "yc": -1
+}

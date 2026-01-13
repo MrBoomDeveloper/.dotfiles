@@ -1,0 +1,377 @@
+<application>
+  <component name="com.intellij.ide.ui.customization.CustomActionsSchema">
+    <group value="StreamingToolbarVirtualDevice" is_group="true" forse_popup="false" action_type="-1" position="22">
+      <path value="root" />
+    </group>
+    <group value="Vcs.Operations.Popup" is_group="true" forse_popup="false" action_type="-1" position="21">
+      <path value="root" />
+    </group>
+    <group value="HelpDiagnosticTools" is_group="true" forse_popup="false" action_type="-1" position="21">
+      <path value="root" />
+      <path value="Main Menu" />
+      <path value="Help" />
+    </group>
+    <group value="Vcs.Log.Toolbar.RightCorner" is_group="true" forse_popup="false" action_type="-1" position="20">
+      <path value="root" />
+    </group>
+    <group value="Vcs.Log.ChangesBrowser.Toolbar" is_group="true" forse_popup="false" action_type="-1" position="19">
+      <path value="root" />
+    </group>
+    <group seperator="true" action_type="-1" position="19">
+      <path value="root" />
+      <path value="Main Menu" />
+      <path value="File" />
+    </group>
+    <group value="DeleteOldAppDirs" is_action="true" action_type="-1" position="19">
+      <path value="root" />
+      <path value="Main Menu" />
+      <path value="Help" />
+    </group>
+    <group value="ChangesViewToolbar" is_group="true" forse_popup="false" action_type="-1" position="18">
+      <path value="root" />
+    </group>
+    <group value="CommentGroup" is_group="true" forse_popup="false" action_type="-1" position="18">
+      <path value="root" />
+      <path value="Main Menu" />
+      <path value="Code" />
+    </group>
+    <group value="UserInvokedHeapDumpSnapshot" is_action="true" action_type="-1" position="18">
+      <path value="root" />
+      <path value="Main Menu" />
+      <path value="Help" />
+    </group>
+    <group value="RunTab.TopToolbar" is_group="true" forse_popup="false" action_type="-1" position="17">
+      <path value="root" />
+    </group>
+    <group value="PrintExportGroup" is_group="true" forse_popup="false" action_type="-1" position="17">
+      <path value="root" />
+      <path value="Main Menu" />
+      <path value="File" />
+    </group>
+    <group value="CollectZippedLogs" is_action="true" action_type="-1" position="17">
+      <path value="root" />
+      <path value="Main Menu" />
+      <path value="Help" />
+    </group>
+    <group value="Android.Designer.ComposePreviewPopupMenu" is_group="true" forse_popup="false" action_type="-1" position="17">
+      <path value="root" />
+      <path value="Editor Popup Menu" />
+    </group>
+    <group value="RunTab.TopToolbar.More" is_group="true" forse_popup="false" action_type="-1" position="16">
+      <path value="root" />
+    </group>
+    <group seperator="true" action_type="-1" position="16">
+      <path value="root" />
+      <path value="Main Menu" />
+      <path value="File" />
+    </group>
+    <group value="StreamingToolbarPhysicalDevice" is_group="true" forse_popup="false" action_type="-1" position="15">
+      <path value="root" />
+    </group>
+    <group seperator="true" action_type="-1" position="15">
+      <path value="root" />
+      <path value="Main Menu" />
+      <path value="Help" />
+    </group>
+    <group value="Markdown.Toolbar.Floating" is_group="true" forse_popup="false" action_type="-1" position="14">
+      <path value="root" />
+    </group>
+    <group value="SendFeedback" is_action="true" action_type="-1" position="14">
+      <path value="root" />
+      <path value="Main Menu" />
+      <path value="Help" />
+    </group>
+    <group value="Floating.CodeToolbar" is_group="true" forse_popup="false" action_type="-1" position="13">
+      <path value="root" />
+    </group>
+    <group value="ReportProblem" is_action="true" action_type="-1" position="13">
+      <path value="root" />
+      <path value="Main Menu" />
+      <path value="Help" />
+    </group>
+    <group value="Vcs.FileHistory.Toolbar" is_group="true" forse_popup="false" action_type="-1" position="12">
+      <path value="root" />
+    </group>
+    <group value="NewScratchFile" is_action="true" action_type="-1" position="12">
+      <path value="root" />
+      <path value="Main Menu" />
+      <path value="File" />
+      <path value="File Open Actions" />
+      <path value="Open Project Actions" />
+      <path value="New" />
+    </group>
+    <group value="TechnicalSupport" is_action="true" action_type="-1" position="12">
+      <path value="root" />
+      <path value="Main Menu" />
+      <path value="Help" />
+    </group>
+    <group value="XDebugger.Watches.Tree.Toolbar" is_group="true" forse_popup="false" action_type="-1" position="11">
+      <path value="root" />
+    </group>
+    <group value="InvalidateCaches" is_action="true" action_type="-1" position="11">
+      <path value="root" />
+      <path value="Main Menu" />
+      <path value="File" />
+    </group>
+    <group value="XDebugger.ToolWindow.TopToolbar3" is_group="true" forse_popup="false" action_type="-1" position="10">
+      <path value="root" />
+    </group>
+    <group value="CacheRecovery" is_group="true" forse_popup="false" action_type="-1" position="10">
+      <path value="root" />
+      <path value="Main Menu" />
+      <path value="File" />
+    </group>
+    <group value="Android.CreateSampleDataDirectory" is_action="true" action_type="-1" position="10">
+      <path value="root" />
+      <path value="Main Menu" />
+      <path value="File" />
+      <path value="File Open Actions" />
+      <path value="Open Project Actions" />
+      <path value="New" />
+    </group>
+    <group value="XDebugger.ToolWindow.TopToolbar3.Extra" is_group="true" forse_popup="false" action_type="-1" position="9">
+      <path value="root" />
+    </group>
+    <group value="Synchronize" is_action="true" action_type="-1" position="9">
+      <path value="root" />
+      <path value="Main Menu" />
+      <path value="File" />
+    </group>
+    <group value="Help.KeymapReference" is_action="true" action_type="-1" position="9">
+      <path value="root" />
+      <path value="Main Menu" />
+      <path value="Help" />
+    </group>
+    <group value="NavBarToolBar" is_group="true" forse_popup="false" action_type="-1" position="8">
+      <path value="root" />
+    </group>
+    <group value="Android.ShowLicenses" is_action="true" action_type="-1" position="8">
+      <path value="root" />
+      <path value="Main Menu" />
+      <path value="Help" />
+    </group>
+    <group value="NavbarPopupMenu" is_group="true" forse_popup="false" action_type="-1" position="7">
+      <path value="root" />
+    </group>
+    <group value="GoogleLogin.LoginService" is_action="true" action_type="-1" position="7">
+      <path value="root" />
+      <path value="Main Toolbar" />
+      <path value="Right" />
+    </group>
+    <group value="CloseOtherProjects" is_action="true" action_type="-1" position="7">
+      <path value="root" />
+      <path value="Main Menu" />
+      <path value="File" />
+      <path value="File Open Actions" />
+    </group>
+    <group value="AddNewPropertyFile" is_action="true" action_type="-1" position="7">
+      <path value="root" />
+      <path value="Main Menu" />
+      <path value="File" />
+      <path value="File Open Actions" />
+      <path value="Open Project Actions" />
+      <path value="New" />
+    </group>
+    <group value="Help.JetBrainsTV" is_action="true" action_type="-1" position="7">
+      <path value="root" />
+      <path value="Main Menu" />
+      <path value="Help" />
+    </group>
+    <group value="JsonCopyPointer" is_action="true" action_type="-1" position="7">
+      <path value="root" />
+      <path value="Editor Popup Menu" />
+    </group>
+    <group value="ScopeViewPopupMenu" is_group="true" forse_popup="false" action_type="-1" position="6">
+      <path value="root" />
+    </group>
+    <group value="GoogleLoginV2.LoginService" is_action="true" action_type="-1" position="6">
+      <path value="root" />
+      <path value="Main Toolbar" />
+      <path value="Right" />
+    </group>
+    <group value="CloseAllProjects" is_action="true" action_type="-1" position="6">
+      <path value="root" />
+      <path value="Main Menu" />
+      <path value="File" />
+      <path value="File Open Actions" />
+    </group>
+    <group value="OnlineDocAction" is_action="true" action_type="-1" position="6">
+      <path value="root" />
+      <path value="Main Menu" />
+      <path value="Help" />
+    </group>
+    <group value="ProjectViewPopupMenu" is_group="true" forse_popup="false" action_type="-1" position="5">
+      <path value="root" />
+    </group>
+    <group value="MeetNewUIAction" is_action="true" action_type="-1" position="5">
+      <path value="root" />
+      <path value="Main Menu" />
+      <path value="Help" />
+    </group>
+    <group value="EditorTabPopupMenu" is_group="true" forse_popup="false" action_type="-1" position="4">
+      <path value="root" />
+    </group>
+    <group value="SearchEverywhere" is_action="true" action_type="-1" position="4">
+      <path value="root" />
+      <path value="Main Toolbar" />
+      <path value="Right" />
+    </group>
+    <group value="FilePropertiesGroup" is_group="true" forse_popup="false" action_type="-1" position="4">
+      <path value="root" />
+      <path value="Main Menu" />
+      <path value="File" />
+    </group>
+    <group value="$LRU" is_group="true" forse_popup="false" action_type="-1" position="4">
+      <path value="root" />
+      <path value="Main Menu" />
+      <path value="File" />
+      <path value="File Open Actions" />
+    </group>
+    <group value="EditorGutterPopupMenu" is_group="true" forse_popup="false" action_type="-1" position="3">
+      <path value="root" />
+    </group>
+    <group value="RestoreDefaultSettings" is_action="true" action_type="-1" position="3">
+      <path value="root" />
+      <path value="Main Menu" />
+      <path value="File" />
+      <path value="Manage IDE Settings" />
+    </group>
+    <group value="EditorPopupMenu" is_group="true" forse_popup="false" action_type="-1" position="2">
+      <path value="root" />
+    </group>
+    <group seperator="true" action_type="-1" position="2">
+      <path value="root" />
+      <path value="Main Menu" />
+      <path value="Edit" />
+    </group>
+    <group value="GoogleCloudTools.SampleImport" is_action="true" action_type="-1" position="1">
+      <path value="root" />
+      <path value="Main Menu" />
+      <path value="File" />
+      <path value="File Open Actions" />
+      <path value="Open Project Actions" />
+      <path value="New" />
+    </group>
+    <group value="ImportProject" is_action="true" action_type="-1" position="1">
+      <path value="root" />
+      <path value="Main Menu" />
+      <path value="File" />
+      <path value="File Open Actions" />
+      <path value="Open Project Actions" />
+      <path value="New" />
+      <path value="JavaNewProjectOrModuleGroup" />
+    </group>
+    <group value="$Redo" is_action="true" action_type="-1" position="1">
+      <path value="root" />
+      <path value="Main Menu" />
+      <path value="Edit" />
+    </group>
+    <group value="$Copy" is_action="true" action_type="-1" position="1">
+      <path value="root" />
+      <path value="Main Menu" />
+      <path value="Edit" />
+      <path value="Cut/Copy/Paste Actions" />
+    </group>
+    <group value="AndroidDeviceManagerPlaceholder" is_group="true" forse_popup="false" action_type="-1" position="1">
+      <path value="root" />
+      <path value="Navigation Bar Toolbar" />
+      <path value="Android.NavBarToolBar" />
+    </group>
+    <group value="MainMenu" is_group="true" forse_popup="false" action_type="-1" position="0">
+      <path value="root" />
+    </group>
+    <group value="DeviceAndSnapshotComboBox" is_action="true" action_type="-1" position="0">
+      <path value="root" />
+      <path value="Main Toolbar" />
+      <path value="Right" />
+    </group>
+    <group value="MakeGradleModule" is_action="true" action_type="-1" position="0">
+      <path value="root" />
+      <path value="Main Toolbar" />
+      <path value="Right" />
+      <path value="Android Main Toolbar Right" />
+    </group>
+    <group value="android.deploy.ApplyChanges" is_action="true" action_type="-1" position="0">
+      <path value="root" />
+      <path value="Main Toolbar" />
+      <path value="Right" />
+      <path value="Android Main Toolbar Right" />
+      <path value="Instant Run" />
+    </group>
+    <group value="$Undo" is_action="true" action_type="-1" position="0">
+      <path value="root" />
+      <path value="Main Menu" />
+      <path value="Edit" />
+    </group>
+    <group value="$Cut" is_action="true" action_type="-1" position="0">
+      <path value="root" />
+      <path value="Main Menu" />
+      <path value="Edit" />
+      <path value="Cut/Copy/Paste Actions" />
+    </group>
+    <group value="$Paste" is_action="true" action_type="-1" position="0">
+      <path value="root" />
+      <path value="Main Menu" />
+      <path value="Edit" />
+      <path value="Cut/Copy/Paste Actions" />
+      <path value="Paste" />
+    </group>
+    <group value="MakeGradleProject" is_action="true" action_type="-1" position="0">
+      <path value="root" />
+      <path value="Main Menu" />
+      <path value="Build" />
+    </group>
+    <group value="VcsToolbarLabelAction" is_action="true" action_type="-1" position="0">
+      <path value="root" />
+      <path value="Navigation Bar Toolbar" />
+      <path value="NavBarVcsGroup" />
+      <path value="VcsNavBarToolbarActions" />
+    </group>
+    <group value="CheckinProject" is_action="true" action_type="1" position="1">
+      <path value="root" />
+      <path value="Main Toolbar" />
+      <path value="Left" />
+      <path value="VCS Group" />
+    </group>
+    <group value="DeviceAndSnapshotComboBox" is_action="true" action_type="1" position="1">
+      <path value="root" />
+      <path value="Main Toolbar" />
+      <path value="Right" />
+    </group>
+    <group value="Android.SyncProject" is_action="true" action_type="1" position="1">
+      <path value="root" />
+      <path value="Navigation Bar Toolbar" />
+    </group>
+    <group value="Vcs.Push" is_action="true" action_type="1" position="2">
+      <path value="root" />
+      <path value="Main Toolbar" />
+      <path value="Left" />
+      <path value="VCS Group" />
+    </group>
+    <group value="Vcs.UpdateProject" is_action="true" action_type="1" position="3">
+      <path value="root" />
+      <path value="Main Toolbar" />
+      <path value="Left" />
+      <path value="VCS Group" />
+    </group>
+    <group value="ActivateTODOToolWindow" is_action="true" action_type="1" position="4">
+      <path value="root" />
+      <path value="Main Toolbar" />
+      <path value="Right" />
+    </group>
+    <group value="OptimizeImports" is_action="true" action_type="1" position="4">
+      <path value="root" />
+      <path value="Navigation Bar Toolbar" />
+      <path value="Toolbar Run Actions" />
+      <path value="Run/Debug" />
+    </group>
+    <group value="ActivateDeviceManager2ToolWindow" is_action="true" action_type="1" position="5">
+      <path value="root" />
+      <path value="Main Toolbar" />
+      <path value="Right" />
+    </group>
+    <action id="CleanGradleProject" icon="CommittedChanges.Clear" />
+    <action id="OptimizeImports" icon="ConsoleView.ClearAll" />
+    <action id="TodoMainGroup" icon="jar:file:/C:/Program%20Files/Android/Android%20Studio/lib/app.jar!/expui/toolbar/unknown.svg" />
+  </component>
+</application>

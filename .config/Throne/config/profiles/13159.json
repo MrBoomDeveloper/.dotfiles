@@ -1,16 +1,15 @@
 {
     "bean": {
         "_v": 0,
-        "addr": "45.14.245.2",
+        "addr": "fin01-vlr01.tcp-reset-club.net",
         "brutal_speed": 0,
         "c_cfg": "",
         "c_out": "",
         "enable_brutal": false,
-        "method": "chacha20-ietf-poly1305",
+        "flow": "xtls-rprx-vision",
         "mux": 0,
-        "name": "🇬🇧GB-45.14.245.2-0340",
-        "pass": "17ZDORWIliQHuO6WRGHChXYMzdRtAYVP",
-        "plugin": "",
+        "name": "🇫🇮 Finland, Helsinki [BL]",
+        "pass": "8e2cc81d-7ac4-4352-a7b5-bbfcfa81e49e",
         "port": 443,
         "stream": {
             "alpn": "",
@@ -23,29 +22,28 @@
             "insecure": false,
             "method": "",
             "net": "tcp",
-            "pac_enc": "",
+            "pac_enc": "xudp",
             "path": "",
-            "pbk": "",
-            "sec": "",
-            "sid": "",
-            "sni": "",
+            "pbk": "mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg",
+            "sec": "tls",
+            "sid": "86e999a2cdc2",
+            "sni": "hls-svod.itunes.apple.com",
             "tls_frag": false,
             "tls_frag_fall_delay": "",
             "tls_record_frag": false,
-            "utls": ""
-        },
-        "uot": 0
+            "utls": "chrome"
+        }
     },
     "country": "",
     "dl": "",
-    "gid": 9,
+    "gid": 12,
     "id": 13159,
     "report": "",
     "traffic": {
         "dl": 0,
         "ul": 0
     },
-    "type": "shadowsocks",
+    "type": "vless",
     "ul": "",
-    "yc": 116
+    "yc": -1
 }

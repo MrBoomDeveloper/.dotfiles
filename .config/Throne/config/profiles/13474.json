@@ -1,15 +1,16 @@
 {
     "bean": {
         "_v": 0,
-        "addr": "212.233.89.104",
+        "addr": "81.19.141.45",
         "brutal_speed": 0,
         "c_cfg": "",
         "c_out": "",
         "enable_brutal": false,
-        "flow": "xtls-rprx-vision",
+        "method": "chacha20-ietf-poly1305",
         "mux": 0,
-        "name": "📱 Антиблок 127 | Social",
-        "pass": "e5835209-52e9-429e-8ebb-e87113293236",
+        "name": "🔥PORTAL Telegram:@STR_BYPASS🟣",
+        "pass": "3XPKOg5em3kVwQOHZZymIA",
+        "plugin": "",
         "port": 443,
         "stream": {
             "alpn": "",
@@ -22,28 +23,29 @@
             "insecure": false,
             "method": "",
             "net": "tcp",
-            "pac_enc": "xudp",
+            "pac_enc": "",
             "path": "",
-            "pbk": "MZz-39gknMNeg4P6vTV3zKLrbIzf87oxtKB1T-Vu-SQ",
-            "sec": "tls",
-            "sid": "491db313",
-            "sni": "tunnel.vk-apps.com",
+            "pbk": "",
+            "sec": "",
+            "sid": "",
+            "sni": "",
             "tls_frag": false,
             "tls_frag_fall_delay": "",
             "tls_record_frag": false,
-            "utls": "chrome"
-        }
+            "utls": ""
+        },
+        "uot": 0
     },
     "country": "",
     "dl": "",
-    "gid": 10,
+    "gid": 12,
     "id": 13474,
     "report": "",
     "traffic": {
         "dl": 0,
         "ul": 0
     },
-    "type": "vless",
+    "type": "shadowsocks",
     "ul": "",
     "yc": -1
 }

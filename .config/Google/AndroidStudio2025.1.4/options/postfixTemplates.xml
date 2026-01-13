@@ -1,0 +1,14 @@
+<application>
+  <component name="PostfixTemplatesSettings">
+    <option name="providerToDisabledTemplates">
+      <disabled-templates provider="builtin.java">
+        <value>
+          <set>
+            <option value="assert" />
+            <option value="opt" />
+          </set>
+        </value>
+      </disabled-templates>
+    </option>
+  </component>
+</application>

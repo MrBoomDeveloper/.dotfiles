@@ -1,17 +1,16 @@
 {
     "bean": {
         "_v": 0,
-        "addr": "68.183.227.4",
+        "addr": "89.23.113.137",
         "brutal_speed": 0,
         "c_cfg": "",
         "c_out": "",
         "enable_brutal": false,
-        "method": "rc4-md5",
+        "flow": "",
         "mux": 0,
-        "name": "🇸🇬SG-68.183.227.4-0364",
-        "pass": "14fFPrbezE3HDZzsMOr6",
-        "plugin": "",
-        "port": 8080,
+        "name": "🇳🇱 The Netherlands, Amsterdam [BL]",
+        "pass": "9f721f50-e015-5ea3-8bb0-22428307e9c0",
+        "port": 47944,
         "stream": {
             "alpn": "",
             "cert": "",
@@ -23,29 +22,28 @@
             "insecure": false,
             "method": "",
             "net": "tcp",
-            "pac_enc": "",
+            "pac_enc": "xudp",
             "path": "",
-            "pbk": "",
-            "sec": "",
-            "sid": "",
-            "sni": "",
+            "pbk": "_7L2lOpu_wMQLTxy0VT0WIHe8yYfBFKKq8wWWLr-4Tw",
+            "sec": "tls",
+            "sid": "ffffffffff",
+            "sni": "www.ietf.org",
             "tls_frag": false,
             "tls_frag_fall_delay": "",
             "tls_record_frag": false,
-            "utls": ""
-        },
-        "uot": 0
+            "utls": "chrome"
+        }
     },
     "country": "",
     "dl": "",
-    "gid": 9,
+    "gid": 12,
     "id": 13197,
     "report": "",
     "traffic": {
         "dl": 0,
         "ul": 0
     },
-    "type": "shadowsocks",
+    "type": "vless",
     "ul": "",
-    "yc": -1
+    "yc": 59
 }
